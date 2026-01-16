@@ -1,0 +1,393 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción al Sonido y las Proporciones",
+    "scene_4": "Intervalos Musicales",
+    "scene_5": "Octavas y Quintas",
+    "scene_6": "Dividiendo la Octava",
+    "scene_7": "Por qué 12 Semitonos",
+    "scene_8": "Diferentes Sistemas de Base",
+    "scene_9": "Reimaginando Escalas Musicales",
+    "scene_10": "Construyendo Tu Sintetizador",
+    "scene_11": "Sintetizador Básico",
+    "scene_12": "Conclusión",
+    "scene_13": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Construyendo un sintetizador</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Explorando el temperamento igual y las matemáticas de la armonía musical</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>¿Puedes ayudar a Emery a construir un sintetizador que cree melodías armoniosas para la feria escolar? En esta STEAMQuest, explorarás proporciones musicales, frecuencias y temperamento igual para crear un sintetizador que equilibre intervalos perfectos y transiciones fluidas.</p>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>¡Bienvenido al Laboratorio de Diseño de Sonido!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>Soy Noelle y me acompaña Emery, un estudiante entusiasta, listo para sumergirse en la ciencia del sonido. Juntos, exploraremos la magia de las proporciones musicales, los intervalos y cómo las matemáticas influyen en nuestra forma de escuchar y crear música.</p>"
+      }
+    },
+    "S3": {
+      "S3_D1_F12_C2": "¡Hola Emery! ¿emocionado por la feria escolar? ¡Me dijeron que planeas construir un sintetizador para el evento!",
+      "S3_D2_F13_C1": "¡Sí! Siempre he querido crear y controlar mi propia música, pero... no tengo idea de por dónde empezar. ¿Cómo se produce el sonido con un sintetizador?",
+      "S3_D3_F14_C2": "¡Todo se trata de entender la ciencia detrás del sonido! Verás, el sonido está compuesto de vibraciones, y para crear música, necesitamos manipular esas vibraciones.",
+      "S3_D4_F15_C1": "Entonces, ¿cuál es el primer paso para hacer que esas vibraciones funcionen para la música?",
+      "S3_D5_F16_C2": "¡Excelente pregunta! Lo primero que debes entender es que diferentes tonos, o notas, son solo vibraciones que ocurren a diferentes velocidades. La velocidad de estas vibraciones se llama <strong>frecuencia</strong>, y se mide en <strong>hercios (Hz)</strong>, que es cuántas vibraciones ocurren por segundo.",
+      "S3_D6_F17_C1": "Entonces, vibraciones más rápidas significan un tono más alto, y vibraciones más lentas significan un tono más bajo, ¿verdad?",
+      "S3_D7_F18_C2": "¡Correcto! Cuando tocas dos notas juntas, la proporción entre sus frecuencias determina cómo suenan cuando se combinan. Si la proporción es simple, como <strong>2:1</strong>, las notas sonarán armoniosas juntas.",
+      "S3_D8_F19_C1": "Entonces, si la frecuencia de una nota es dos veces más rápida que otra, ¿suenan bien juntas?",
+      "S3_D9_F20_C2": "¡Sí! Ese es un ejemplo de una octava. Así que, si tocas una nota y luego la tocas una octava más alta, suena similar, pero con un tono más alto.",
+      "S3_D10_F21_C1": "¡Eso es interesante!"
+    },
+    "S4": {
+      "S4_D1_F22_C2": "Hay más proporciones importantes como la <strong>quinta perfecta (3:2)</strong>. Es uno de los intervalos más armoniosos en la música.",
+      "S4_D2_F23_C1": "Entonces, ¿estas proporciones son los componentes básicos de las melodías y armonías?",
+      "S4_D3_F24_C2": "¡Sí! Cuando la proporción es simple, como <strong>2:1</strong> o <strong>3:2</strong>, las notas suenan suaves y armoniosas. Pero con proporciones más desiguales, como <strong>15:8</strong>, el sonido tiene más tensión; a esto lo llamamos un sonido más complejo o disonante.",
+      "S4_D4_F25_C1": "Espera, ¿entonces la armonía musical se basa en proporciones matemáticas? ¡Qué locura!",
+      "S4_D5_F26_C2": "¡Escuchémoslos! He creado una herramienta para que podamos escuchar las diferencias entre las octavas y quintas justas."
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Octavas y Quintas",
+        "about": {
+          "heading": "Comprendiendo los Intervalos Musicales",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'><b>Intervalos musicales</b> describen qué tan separadas están dos notas en términos de altura. En lugar de medir esta distancia como una simple diferencia de frecuencia, los músicos la describen como una <b>proporción</b> entre las dos frecuencias.</li><li style='margin-top: 1rem;'><b>Octava (proporción 2:1)</b>: Cuando la frecuencia de una nota es exactamente el doble que la de otra, las dos notas suenan similares pero en alturas diferentes. Esto se llama una octava.</li><li style='margin-top: 1rem;'><b>Quinta justa (proporción 3:2)</b>: Una quinta justa ocurre cuando la frecuencia de la segunda nota es <b>1.5 veces</b> la frecuencia de la primera. Este intervalo suena armonioso y se usa con frecuencia en la música.</li><li style='margin-top: 1rem;'><b>Frecuencia y altura</b>: La altura se determina por la frecuencia; frecuencias más altas corresponden a notas más agudas. Cada intervalo se define por la <b>relación proporcional</b> entre las frecuencias de dos notas, no por su diferencia numérica.</li></ul>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Visualización de Intervalos Musicales",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'>Haz clic en el botón \"Reproducir secuencia\" para escuchar las notas y el intervalo entre ellas. Primero, escucharás la nota <b>440 Hz (La)</b>, seguida de la <b>880 Hz (La')</b>, y luego ambas a la vez.</li><li style='margin-top: 1rem;'>Haz lo mismo para la quinta justa. Haz clic en el botón \"Reproducir secuencia\" para escuchar las notas y el intervalo entre ellas. Primero, escucharás la nota <b>440 Hz (La)</b>, seguida de la <b>660 Hz (Mi)</b>, y luego ambas a la vez.</li></ul>"
+        },
+        "interactive_data": {
+          "musicalInterval": "Intervalos Musicales",
+          "playText": "Reproducir",
+          "octaveModeText": "Octava",
+          "perfectFifthModeText": "Quinta Perfecta",
+          "modeText": "Modo",
+          "toggleText": "Alternar",
+          "frequencyRatioText": "Relación de Frecuencia",
+          "simplifiedRatioText": "Relación Simplificada",
+          "playSequence": "Secuencia de reproducción",
+          "noteA": "A",
+          "noteE": "E",
+          "noteAPrime": "A'",
+          "hertz": "Hz",
+          "sequenceComplete": "Secuencia completa",
+          "playNoteA": "Reproducir nota A a 440 Hertz",
+          "playNoteE": "Reproducir nota E a 660 Hertz",
+          "playNoteAPrime": "Reproducir nota A prima a 880 Hertz",
+          "pianoKeysLabel": "Teclas de piano",
+          "playingNoteA": "Reproduciendo nota A (440 Hz)",
+          "playingNoteE": "Reproduciendo nota E (660 Hz)",
+          "playingNoteAPrime": "Reproduciendo nota A prima (880 Hz)",
+          "playingBothOctave": "Reproduciendo ambas A (440 Hz) y A prima (880 Hz) juntas - intervalo de octava",
+          "playingBothFifth": "Reproduciendo ambas A (440 Hz) y E (660 Hz) juntas - intervalo de quinta perfecta",
+          "switchedToOctave": "Cambiado a modo octava",
+          "switchedToFifth": "Cambiado a modo quinta perfecta",
+          "playingOctaveSequence": "Reproduciendo secuencia de octava",
+          "playingFifthSequence": "Reproduciendo secuencia de quinta perfecta",
+          "visualizationDescription": "Esta visualización muestra tres notas en una línea horizontal: A a 440 Hz a la izquierda, {0} en el medio, y A prima a 880 Hz a la derecha. Las notas activas están resaltadas con marcadores rojos.",
+          "octaveRatioDescription": "La relación de frecuencias es 880 dividido por 440, lo que equivale a 2 a 1, representando una octava.",
+          "fifthRatioDescription": "La relación de frecuencias es 660 dividido por 440, lo que equivale a 3 a 2, representando una quinta perfecta."
+        }
+      },
+      "S5_D1_F28_C2": "Primero, veremos la octava. Nosotras escucharemos la nota <strong>440 Hz</strong>, luego <strong>880 Hz</strong>, que es exactamente el doble de frecuencia. Esta es una proporción de <strong>2:1</strong>, y la llamamos octava.",
+      "S5_D2_F29_C2": "Las notas sonarán similares, solo que una más aguda que la otra. Ese espacio entre tonos se llama intervalo, y este, con una relación de <strong>2:1</strong>, es uno de los más naturales. ¡Haz clic en 'Reproducir secuencia' para escucharlo!",
+      "S5_D3_F30_C1": "¡Guau! Suenan genial juntas, como si encajaran, aunque una sea más aguda. Se siente como la misma nota, solo que a un volumen diferente.",
+      "S5_D4_F31_C2": "¡Exacto! Es increíble cómo estas relaciones comunes crean un sonido tan agradable. ¡Ahora, pasemos a la quinta justa!",
+      "S5_D5_F32_C1": "¿Entonces, esta es diferente a la octava?",
+      "S5_D6_F33_C2": "¡Sí! En la quinta justa, la frecuencia de la segunda nota tiene una relación de 3:2 con la de la primera. Escuchemos 440 Hz y 660 Hz. Esta relación de 3:2 crea un sonido rico y armonioso. ¡Haz clic en 'Reproducir secuencia' para escuchar la diferencia!",
+      "S5_D7_F34_C1": "¡Oh, eso también suena muy bien! No es tan familiar como la octava, pero todavía se siente como si pertenecieran juntas.",
+      "S5_D8_F35_C2": "¡Lo lograste! La quinta justa tiene un sonido rico y agradable que encontrarás en mucha música, especialmente en los acordes. Lo genial es que, incluso cuando las proporciones no son tan simples, pueden sonar armoniosas, solo que con más capas o textura."
+    },
+    "S6": {
+      "S6_D1_F36_C1": "Empiezo a entender cómo funcionan estas proporciones. ¡Es como los bloques de construcción de la música!",
+      "S6_D2_F37_C2": "¡Así es! Y hablando de bloques de construcción, usamos estas proporciones para dividir la octava en pasos más pequeños, concretamente, <strong>12</strong> pasos iguales, también llamados semitonos.",
+      "S6_D3_F38_C1": "Entonces, ¿por qué no más o menos pasos? ¿Qué hace que 12 sea el número mágico?",
+      "S6_D4_F39_C2": "Porque equilibra la <no-glossary>precisión</no-glossary> matemática con la facilidad de ejecución. Por eso, la mayoría de los instrumentos modernos, como pianos y guitarras, utilizan <strong>12</strong> semitonos por octava."
+    },
+    "S7": {
+      "S7_D0_F40_C9": {
+        "title": "¿Por qué 12 semitonos?",
+        "about": {
+          "heading": "Explorando el Temperamento Musical y la Quinta Perfecta",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'><b>Temperamento igual:</b> El temperamento igual es un sistema de afinación en el que la octava se divide en pasos iguales. Este sistema, usado comúnmente en instrumentos como pianos y guitarras, permite tocar en cualquier tonalidad sin volver a afinar. La versión más común divide la octava en <b>12 pasos iguales</b>, cada paso representando un semitono.</li><li style='margin-top: 1rem;'><b>Quinta justa (proporción 3:2):</b> La quinta justa es considerada uno de los intervalos más armoniosos. Se define por una proporción de frecuencias de <b>3:2</b>. En el temperamento igual, este intervalo se aproxima muy bien, aunque no es matemáticamente exacto.</li></ul>"
+        },
+        "help": {
+          "heading": "Cómo Usar el Temperamento Musical",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'><b>Control deslizante para pasos:</b> Usa el control deslizante para ajustar el número de pasos (N) en la octava. A medida que mueves el control, verás cómo cambiar el número de pasos afecta la aproximación de la relación de quinta perfecta <b>(3:2)</b></li></ul>"
+        },
+        "interactive_data": {
+          "forText": "Para",
+          "approximationErrorText": "Error de aproximación",
+          "closestIntegerText": "Entero más cercano",
+          "errorText": "Error",
+          "sliderHeading": "Prueba diferentes valores de N para ver cuál da un valor entero similar para k:",
+          "stepInOctaveText": "Pasos en la octava",
+          "excellentChoiceText": "✓ ¡Excelente elección!",
+          "excellentChoiceDescription": "N = 12 da k ≈ 7.02, muy cerca de 7. Por eso el temperamento igual de 12 tonos se convirtió en el estándar.",
+          "seventeenToneText": "✓ Buena aproximación",
+          "seventeenToneDescription": "N = 17 da k ≈ 9.94, muy cerca de 10. Se usa en otros sistemas de afinación pero más difícil de tocar en instrumentos tradicionales.",
+          "nineteenToneText": "✓ Buena aproximación",
+          "nineteenToneDescription": "N = 19 da k ≈ 11.11, muy cerca de 11. Más preciso para algunos intervalos pero complica el diseño de instrumentos.",
+          "veryAccurateText": "✓ Muy preciso",
+          "veryAccurateDescription": "N = 24 da k ≈ 14.04, muy cerca de 14. Se acerca aún más a la relación 3:2 pero más difícil de tocar en instrumentos tradicionales.",
+          "yAxisLabel": "Error (%)",
+          "errorLabel": "Error",
+          "pointAriaLabel": "División {divisions}, error {error}%",
+          "closestLabel": "Entero más cercano",
+          "perfectFifthLabel": "Quinta perfecta",
+          "tooMessyLabel": "Demasiado desordenado",
+          "complexSystemLabel": "Sistema más complejo",
+          "tooFineLabel": "Demasiado fino para la mayoría de los instrumentos",
+          "testValuesText": "Valores de prueba",
+          "sliderAriaLabel": "Control deslizante de divisiones",
+          "chartAriaLabel": "Gráfico de valores de error",
+          "xAxisLabel": "Divisiones",
+          "approximatelyEquals": "aproximadamente igual a",
+          "multipliedBy": "multiplicado por"
+        }
+      },
+      "S7_D1_F41_C2": "Mira, empezamos pensando en esto: cuando dividimos la octava en <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> pasos iguales, la frecuencia de la nota en cada paso es <span className='font-bold font-besley' aria-label=\"2 elevado a la potencia de 1 sobre N\">2<sup>1/<span className='text-[#E0002B] italic'>N</span></sup></span> veces la frecuencia de la nota en el paso anterior.",
+      "S7_D2_F42_C1": "¿Entonces con cada paso estamos subiendo lentamente por la octava?",
+      "S7_D3_F43_C2": "¡Así es! Ahora, recuerda, nos encanta el sonido de la quinta justa — esa es una razón de <strong>3:2</strong>. Entonces, la pregunta es: después de cuántos pasos, digamos <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> pasos, nos acercamos lo más posible a esa razón de quinta justa?",
+      "S7_D4_F44_C1": "¿Entonces estamos buscando el valor de <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> que nos lleva a la marca de <strong>3:2</strong>?",
+      "S7_D5_F45_C2": "¡Sí! Matemáticamente, queremos que <span role=\"text\" aria-label=\"2 elevado a la potencia de 1 sobre N, todo elevado a la potencia de k, igual a 3 sobre 2\"><span aria-hidden=\"true\"><b style='font-family: besley;'>(</span><span style='font-family: besley;' aria-hidden=\"true\">2</span><sup><span aria-hidden=\"true\">1</span>/<span style='font-style: italic; color: #E0002B;' aria-hidden=\"true\">N</span></sup><span aria-hidden=\"true\">)</span><sup><span style='font-style: italic; color: #0061FC;' aria-hidden=\"true\">k</span></sup><span aria-hidden=\"true\"> = </span><span aria-hidden=\"true\">3/2</span></span></b>. Esto significa que después de <span className='font-bold font-besley italic text-[#0061FC]'>k</span> pasos, hemos subido a una frecuencia que está en la posición de quinta justa.",
+      "S7_D6_F46_C1": "Entendido. Pero, ¿cómo encontramos <span className='font-bold font-besley italic text-[#0061FC]'>k</span>?",
+      "S7_D7_F47_C2": "¡Buena pregunta! Podemos reorganizar la ecuación. Primero, tomamos el logaritmo en <strong>base 2</strong> de ambos lados. Eso nos da: <span role=\"text\" className='font-bold font-besley' aria-label=\"k dividido por N igual a logaritmo base 2 de 3 sobre 2\"><span className='italic text-[#0061FC]' aria-hidden=\"true\">k</span><span aria-hidden=\"true\">/</span><span className='italic text-[#E0002B]' aria-hidden=\"true\">N</span><span aria-hidden=\"true\"> = </span><span aria-hidden=\"true\">log</span><sub aria-hidden=\"true\">2</sub><span aria-hidden=\"true\">(</span><span aria-hidden=\"true\">3/2</span><span aria-hidden=\"true\">)</span></span>.",
+      "S7_D8_F48_C1": "De acuerdo, entonces ahora simplemente multiplicamos ambos lados por <span className='font-bold font-besley italic text-[#E0002B]'>N</span>?",
+      "S7_D9_F49_C2": "¡Exacto! Entonces, <span role=\"text\" className='font-bold font-besley' aria-label=\"k igual a N por logaritmo base 2 de 3 sobre 2\"><span className='italic text-[#0061FC]' aria-hidden=\"true\">k</span><span aria-hidden=\"true\"> = </span><span className='italic text-[#E0002B]' aria-hidden=\"true\">N</span><span aria-hidden=\"true\"> × </span><span aria-hidden=\"true\">log</span><sub aria-hidden=\"true\">2</sub><span aria-hidden=\"true\">(</span><span aria-hidden=\"true\">3/2</span><span aria-hidden=\"true\">)</span></span>, lo cual eventualmente nos da <span role=\"text\" className='font-bold font-besley' aria-label=\"k aproximadamente igual a 0.58496 por N\"><span className='italic text-[#0061FC]' aria-hidden=\"true\">k</span><span aria-hidden=\"true\"> ≈ </span><span aria-hidden=\"true\">0.58496</span><span aria-hidden=\"true\"> × </span><span className='italic font-bold font-besley text-[#E0002B]' aria-hidden=\"true\">N</span></span>.",
+      "S7_D10_F50_C1": "Muy bien, entonces ahora probamos diferentes valores de <span className='font-bold font-besley italic text-[#E0002B]'>N</span> para ver cuándo <span className='font-bold font-besley italic text-[#0061FC]'>k</span> se convierte en un número entero?",
+      "S7_D11_F51_C2": "¡Exactamente! Ahora, intenta mover el control deslizante y observa cómo cambia <span className='font-bold font-besley italic text-[#0061FC]'>k</span>. ¿Puedes identificar qué valor de <span className='font-bold font-besley italic text-[#E0002B]'>N</span> hace que <span className='font-bold font-besley italic text-[#0061FC]'>k</span> sea casi un número entero?",
+      "S7_D12_F52_C1": "Hmm... Veo que cuando <span className='font-bold font-besley italic text-[#E0002B]'>N</span> es <strong>12</strong>, <span className='font-bold font-besley italic text-[#0061FC]'>k</span> es alrededor de <strong className='text-[#0061FC]'>7.02</strong> — ¡eso está bastante cerca de un número entero!",
+      "S7_D13_F53_C2": "¡Correcto! Esa es una de las razones por las que 12 pasos por octava se convirtieron en el estándar: la quinta justa se acerca a un número entero de pasos, lo que facilita su interpretación. Pero prueba también con otros valores.",
+      "S7_D14_F54_C1": "Parece que <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> = <strong>7</strong>, <strong>17</strong> y <strong>24</strong> también dan valores <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> bastante cercanos a números enteros.",
+      "S7_D15_F55_C2": "¡Buen hallazgo! Se usan en otros sistemas de afinación, como las escalas de 7 y 24 tonos. Algunas se acercan incluso a la proporción <strong>3:2</strong>, pero no son tan comunes, ya que son más difíciles de tocar en instrumentos tradicionales.",
+      "S7_D14_F56_C1": "¿Qué pasa con <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> = <strong>19</strong>? Da <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> alrededor de <strong>11.1</strong>, lo cual parece bastante aproximado.",
+      "S7_D15_F57_C2": "¡Sí! La escala de 19 tonos es un gran ejemplo. Es más precisa para algunos intervalos, pero complica un poco el diseño del instrumento y la interpretación. <strong>12</strong> es un buen punto medio: lo suficientemente cerca de los intervalos de tonalidad y práctico para los músicos.",
+      "S7_D16_F56_C1": "¡Entonces, <strong>12</strong> pasos realmente son una elección inteligente!",
+      "S7_D17_F57_C2": "¡Sí! Equilibra la precisión matemática con la facilidad de ejecución. Por eso la mayoría de los instrumentos modernos, como pianos y guitarras, usan <strong>12</strong> semitonos por octava.",
+      "S7_D18_F58_C1": "Y como <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> es aproximadamente <strong>7</strong> cuando <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> es <strong>12</strong>, eso significa que la séptima nota de la escala se acerca a la quinta justa, ¿verdad?",
+      "S7_D19_F59_C2": "¡Exactamente! Partiendo de cualquier nota, si cuentas <strong>7</strong> pasos hacia arriba en una escala de 12 tonos, llegas a una nota con una relación de frecuencia muy cercana a <strong>3:2</strong> la quinta justa. Y esa es una de las razones por las que el sistema de 12 pasos suena tan natural."
+    },
+    "S8": {
+      "S8_D1_F58_C1": "Mmm... Creo que ya lo entiendo. Como una octava tiene una proporción de <strong>2:1</strong>, dividirla en <strong className='text-[#00749D]'>12</strong>12</strong> pasos significa que, después de <strong className='text-[#00749D]'>12</strong>12</strong> pasos, la frecuencia se duplicará.",
+      "S8_D2_FX_C2": "Sí. Pero ahora la pregunta es qué factor constante debe multiplicar cada paso para que, después de <strong className='text-[#00749D]'>12</strong>12</strong> pasos, la frecuencia se duplique.",
+      "S8_D3_FX_C2": "Supongamos que empezamos con la frecuencia base <strong style=\"font-family: Besley; font-style: italic; color: #E0002B;\">f</strong>, necesitamos encontrar un factor constante <strong style=\"font-family: Besley; font-style: italic; color: #008217;\">r</strong> de modo que si multiplicamos repetidamente <strong style=\"font-family: Besley; font-style: italic; color: #E0002B;\">f</strong> con <strong style=\"font-family: Besley; font-style: italic; color: #008217;\">r</strong> doce veces, llegamos a <strong style=\"font-family: Besley;\">2<em style=\"color: #E0002B;\">f</em></strong>.",
+      "S8_D4_FX_C1": "Entonces, <span className=\"sr-only\">f multiplicado por r elevado a la 12ª potencia es igual a 2f</span><strong style=\"font-family: Besley;\" aria-hidden=\"true\"><em style=\"color: #E0002B;\">f</em> × <em style=\"color: #008217;\">r<sup style=\"color: #00749D;\">12</sup></em> = 2<em style=\"color: #E0002B;\">f</em></strong>, lo que significa que <span className=\"sr-only\">r elevado a la 12ª potencia es igual a 2</span><strong style=\"font-family: Besley;\" aria-hidden=\"true\"><em style=\"color: #008217;\">r<sup style=\"color: #00749D;\">12</sup></em> = 2</strong>. Por lo tanto, <span className=\"sr-only\">r es igual a 2 elevado a la potencia 1 sobre 12</span><strong style=\"font-family: Besley;\" aria-hidden=\"true\"><em style=\"color: #008217;\">r</em> = 2<sup>1/<span style=\"color: #00749D;\">12</span></sup></strong>.",
+      "S8_D5_F59_C2": "¡Exacto! Cada semitono nos eleva un poco, multiplicando la frecuencia por aproximadamente <strong className='text-[#677600]'>1.0595</strong> — eso es <span role='text' aria-label='2 elevado a la potencia de 1 sobre 12'><strong>2<sup><span aria-hidden='true'>1</span>/<span className='text-[#00749D]'>12</span></sup></strong></span> o <no-glossary>raíz</no-glossary> duodécima de 2, ya que los exponentes fraccionarios y las raíces significan lo mismo.",
+      "S8_D6_F60_C1": "Pero espera... esto me hace preguntarme. ¿Estamos usando <strong>2</strong> porque una octava es una <span role='text' aria-label='relación 2 a 1'><span aria-hidden='true'><strong>relación 2:1</strong></span></span>, ¿verdad? ¿Qué pasa si usamos una base diferente? ¿Qué pasa si pensamos en la octava como algo así como <strong>1.5</strong> o <strong>3</strong> en lugar de <strong>2</strong>?",
+      "S8_D7_F61_C2": "¡Ah, qué buena pregunta! Si cambiamos el valor base, cambiamos cuánto cambia la frecuencia con cada incremento de paso. Nos daría una escala completamente diferente.",
+      "S8_D8_F62_C1": "¿En serio? ¿Entonces los pasos serían más pequeños o más grandes dependiendo de la base?",
+      "S8_D9_F63_C2": "Déjame mostrarte."
+    },
+    "S9": {
+      "S9_D0_F64_C9": {
+        "title": "Más Allá de la Octava: Reimaginando las Escalas Musicales",
+        "about": {
+          "heading": "Entendiendo las Matemáticas de las Escalas Musicales",
+          "body": "<h3 style=\"font-weight: bold; margin-bottom: 8px;\">¿Qué es una escala musical?</h3><p>Una escala musical es una secuencia de notas musicales ordenadas por frecuencia. En la música occidental, utilizamos la <strong>escala de temperamento igual</strong>, que divide una octava en 12 pasos equidistantes llamados semitonos.</p><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Explorando diferentes valores base:</h3><p>La primera fórmula explora cómo los diferentes valores base afectan la frecuencia de una sola nota:</p><p style=\"margin-top: 10px; margin-bottom: 10px; text-align: center;\"><strong style=\"font-family: Besley;\"><em style=\"color: #8e24aa\">f(x)</em> = 440 × (<em style=\"color: #633300;\">x</em>)<sup><span style=\"color: #00749d;\">1</span> / 12</sup></strong></p><p>Donde:</p><ul><li><strong><em style=\"color: #8e24aa; font-family: Besley;\">f(x)</em></strong> = frecuencia de un paso por encima de la nota inicial en Hz</li><li><strong style=\"font-family: Besley;\">440</strong> = frecuencia de la nota base en Hz</li><li><strong style=\"font-family: Besley; color: #633300; font-style: italic;\">x</strong> = valor base (ratio de octava experimental)</li><li><strong style=\"font-family: Besley;\"><span style=\"color: #00749d;\">1</span> / 12</strong> = el exponente fraccionario que representa un paso de 12</li></ul><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">¿Por qué suenan mal las bases distintas de 2?</h3><ul style=\"list-style-type: disc;\"><li style=\"margin-left: 20px;\"><strong>Base 1,5:</strong> Cada paso se multiplica por 1,5<sup>1/12</sup> ≈ 1,035 (demasiado pequeño - la melodía suena \"apretada\")</li><li style=\"margin-left: 20px;\"><strong>Base 2,5:</strong> Cada paso se multiplica por 2,5<sup>1/12</sup> ≈ 1,080 (demasiado grande - la melodía suena \"alargada\")</li><li style=\"margin-left: 20px;\"><strong>Base 4:</strong> Cada paso se multiplica por 4<sup>1/12</sup> ≈ 1.122 (demasiado grande - la melodía suena \"desmembrada\")</li><li style=\"margin-left: 20px;\">Solo la <strong>base 2</strong> da el tamaño de paso perfecto: 2<sup>1/12</sup> ≈ 1.059</li></ul><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Construyendo la escala completa de 12 notas:</h3><p>Con la base fija en 2, podemos calcular la frecuencia de cualquier nota en la escala completa:</p><p style=\"margin-top: 10px; margin-bottom: 10px; text-align: center;\"><strong style=\"font-family: Besley;\"><em style=\"color: #8e24aa;\">f(n)</em> = 440 × (2)<sup><span style=\"color: #00749d;\"><em>n</em></span> / 12</sup></strong></p><p>Donde:</p><ul><li><strong><em style=\"color: #8e24aa; font-family: Besley;\">f(n)</em></strong> = frecuencia de la nota n en Hz</li><li><strong style=\"font-family: Besley; font-style: italic; color: #00749D;\">n</strong> = número de paso (del 0 al 12)</li><li><strong style=\"font-family: Besley;\">12</strong> en el denominador divide la octava en 12 pasos iguales</li></ul>"
+        },
+        "help": {
+          "heading": "¿Cómo usar esta Herramienta?",
+          "body": "<h3 style=\"font-weight: bold; margin-bottom: 8px;\">Explorando diferentes valores base:</h3><ul style=\"list-style-type: disc; margin-left: 20px;\"><li style=\"margin-top: 1rem;\">Comienza haciendo clic en \"Mary Lamb\" con la base 2 seleccionada para escuchar cómo suena la escala estándar.</li><li style=\"margin-top: 1rem;\">Escucha atentamente cómo fluye la melodía: este es tu punto de referencia.</li><li style=\"margin-top: 1rem;\"><strong>Experimentando con valores base:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Prueba cada botón de valor base (1.5, 2.5, 3, 4) y repite la melodía.</li><li style=\"margin-top: 0.5rem;\">Presta atención a cómo la melodía suena diferente con cada base.</li><li style=\"margin-top: 0.5rem;\">Observa si la melodía suena \"apretada\" o \"estirada\".</li></ul></li><li style=\"margin-top: 1rem;\"><strong>Entendiendo las matemáticas:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Observa la fórmula de frecuencia y el ejemplo de cálculo que se muestra</li><li style=\"margin-top: 0.5rem;\">Cada valor base crea un tamaño de paso diferente entre notas</li><li style=\"margin-top: 0.5rem;\">El gráfico muestra cómo cambia la frecuencia al ajustar el valor base</li></ul></li></ul><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Creando la escala completa:</h3><ul style=\"list-style-type: disc; margin-left: 20px;\"><li style=\"margin-top: 1rem;\">Observe que la base ahora está fija en 2, pero puede explorar diferentes números de paso (<em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em>)</li><li style=\"margin-top: 1rem;\">Use la fórmula de frecuencia <strong style=\"font-family: Besley;\"><em style=\"color: #8e24aa;\">f(n)</em> = 440 × (2)<sup><span style=\"color: #00749d;\"><em>n</em></span> / 12</sup></strong> para calcular frecuencias</li><li style=\"margin-top: 1rem;\">El gráfico muestra los 12 pasos de la escala cromática escala</li><li style=\"margin-top: 1rem;\"><strong>Trabajando con la fórmula:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Comienza con el paso 0 (<em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> = 0)</li><li style=\"margin-top: 0.5rem;\">Sustituye diferentes valores de <em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> en la fórmula</li><li style=\"margin-top: 0.5rem;\">Comprueba tus cálculos con la tabla proporcionada</li></ul></li><li style=\"margin-top: 1rem;\"><strong>Conceptos matemáticos clave:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Cada paso multiplica la frecuencia anterior por la misma razón</li><li style=\"margin-top: 0.5rem;\">Después de 12 pasos, la frecuencia debería duplicarse (creando una octava)</li><li style=\"margin-top: 0.5rem;\">El exponente <strong style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #00749D;\">n</em> / 12</strong> representa la fracción de octava que has recorrido</li></ul></li></ul>"
+        },
+        "interactive_data": {
+          "x_label": "Paso (n)",
+          "y_label": "Relación",
+          "base_label": "Valor Base",
+          "textBase": "Base",
+          "textStandard": "Estándar",
+          "textSteps": "Paso",
+          "textRatio": "Relación",
+          "textFrequency": "Frecuencia",
+          "textNotes": "Notas",
+          "infoAdjacent": "Relación entre notas adyacentes",
+          "infoStandard": "Temperamento igual estándar",
+          "infoNonStandard": "Afinación no estándar",
+          "textFrequencyFormula": "Fórmula de Frecuencia",
+          "playScale": "Reproducir Escala",
+          "playMaryLamb": "Mary Corderito",
+          "playTwinkle": "Estrellita",
+          "playStop": "Detener",
+          "textOctave": "Octava",
+          "ariaLabelStep": "Paso",
+          "ariaLabelRatio": "con relación",
+          "ariaLabelFrequency": "frecuencia",
+          "ariaLabelHz": "Hertz",
+          "ariaLabelStandardRatio": "relación estándar",
+          "ariaLabelStandardFrequency": "frecuencia estándar",
+          "ariaLabelKey": "Clave musical",
+          "ariaLabelPlay": "Reproducir",
+          "ariaLabelStop": "Detener reproducción",
+          "ariaLabelBaseValue": "Cambiar valor base a",
+          "ariaLabelChart": "Gráfico de visualización de relaciones musicales",
+          "ariaLabelKeyboard": "Teclado musical",
+          "ariaLabelPoint": "Punto de datos",
+          "raisedToTwelfthPowerEquals": "elevado a la duodécima potencia es igual a",
+          "fOfNIsEqual": "f de n es igual a cuatro cuarenta veces",
+          "raisedToNOverTwelve": "elevado a la n entre doce",
+          "step1_x_label": "Valor Base (x)",
+          "step1_y_label": "Frecuencia (Hz)",
+          "step1_tooltip_base_value": "Valor Base",
+          "step1_tooltip_frequency": "Frecuencia",
+          "step1_ariaLabelChart": "Gráfico de valor base versus frecuencia que muestra cómo diferentes valores base afectan la frecuencia de la primera nota",
+          "step1_formula_pronunciation": "f de x es igual a cuatrocientos cuarenta por x elevado a la potencia de uno sobre doce",
+          "step1_formula_explanation": "Donde <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">x</span> = valor base",
+          "step1_calculation_pronunciation": "f de {{baseValue}} es igual a cuatrocientos cuarenta por {{baseValue}} elevado a la potencia uno sobre doce, lo que equivale a {{frequency}} Hertz",
+          "step2_formula_pronunciation": "f de n es igual a cuatrocientos cuarenta por dos elevado a la potencia de n sobre doce",
+          "step2_formula_explanation": "Donde <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">n</span> = número de paso (0 a 12)",
+          "freq_ratio_label": "Frecuencias y ratios"
+        }
+      },
+      "S9_D1_FX_C2": "Antes de cambiar a cualquier otra base, primero escuchemos nuestro clásico \"Mary Tenía un Corderito\" — es una gran melodía para notar cómo las notas avanzan naturalmente por la escala — usando la base estándar de <strong>2</strong>.",
+      "S9_D2_FX_C1": "¡Ah, eso suena familiar! La melodía suena limpia y perfecta.",
+      "S9_D3_FX_C2": "¡Exactamente! Esa es la magia de la base <strong>2</strong> — nos da el flujo natural que nuestros oídos esperan.",
+      "S9_D4_FX_C2": "Con base <strong>2</strong>, cada paso multiplica la frecuencia por el mismo factor: la raíz doceava de <strong>2</strong> o <span className='sr-only'>2 elevado a la potencia de 1 sobre 12</span><span aria-hidden='true'><strong>2<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span>, que es aproximadamente <strong>1.059</strong>. Eso es lo que nos da <strong>12</strong> notas equidistantes que caen perfectamente una octava por encima de la nota inicial.",
+      "S9_D5_FX_C2": "Ahora, cambiemos la base a <strong>1.5</strong> y toquemos \"Mary Tenía un Corderito\" nuevamente para escuchar cómo suena.",
+      "S9_D6_FX_C1": "¡Vaya! Eso suena... ¡muy raro! ¡Como si el corderito de Mary se hubiera perdido por completo!",
+      "S9_D7_FX_C2": "¿Verdad? Como la base es más pequeña, los pasos entre notas se encogen — así que la melodía se comprime y pierde su forma.",
+      "S9_D8_FX_C2": "Con base <strong>1.5</strong>, cada paso solo multiplica por la raíz doceava de <strong>1.5</strong> o <span className='sr-only'>1 punto 5 elevado a la potencia de 1 sobre 12</span><span aria-hidden='true'><strong>1.5<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span>, lo cual es aproximadamente <strong>1.035</strong>. Así que cada nota sube menos, y todo suena más comprimido.",
+      "S9_D10_FX_C2": "Adelante y explora algunos de los otros valores de base también — como <strong>2.5</strong>, <strong>3</strong>, o incluso <strong>4</strong>. Es divertido escuchar cómo cada uno reforma la melodía.",
+      "S9_D11_FX_C1": "Hmm... ninguno de ellos realmente se siente bien. Algunos suenan estirados, otros comprimidos — simplemente no es como debería sonar una canción.",
+      "S9_D12_FX_C2": "Eso es porque cada base cambia qué tan rápido crece la frecuencia entre notas.",
+      "S9_D13_FX_C2": "Por ejemplo, la base <strong>2.5</strong> nos da pasos de la raíz duodécima de <strong>2.5</strong> o <span className='sr-only'>2 punto 5 elevado a la potencia de 1 sobre 12</span><span aria-hidden='true'><strong>2.5<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span>, lo cual es aproximadamente <strong>1.08</strong>, un poco demasiado. La base <strong>4</strong> salta directamente hasta alrededor de la raíz duodécima de <strong>4</strong> o <span className='sr-only'>4 elevado a la potencia de 1 sobre 12</span><span aria-hidden='true'><strong>4<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span>, que es aproximadamente <strong>1.12</strong> por paso. ¡Por eso todo suena demasiado disperso, como si la melodía se hubiera estirado en exceso!",
+      "S9_D14_FX_C2": "Matemáticamente, todos siguen el mismo patrón — multiplicando por la raíz <strong>12</strong>ava de la base — pero solo la base <strong>2</strong> nos da ese tamaño de paso perfectamente equilibrado que aterriza en una frecuencia limpia y duplicada después de <strong>12</strong> pasos.",
+      "S9_D15_FX_C2": "Por eso los músicos usan la base <strong>2</strong>: suena suave, natural y completa — justo como les gusta a nuestros oídos.",
+      "S9_D16_FX_C2": "Ahora que entendemos por qué la base <strong>2</strong> es la mejor opción, exploremos cómo da forma a la escala completa. Con la base <strong>2</strong> fija, podemos movernos a través de las doce notas, cada una un paso en la escala de temperamento igual.",
+      "S9_D17_FX_C1": "¿Entonces cada paso aumenta la frecuencia en la misma cantidad?",
+      "S9_D18_FX_C2": "No es exactamente la misma cantidad, pero sí la misma proporción. La frecuencia de cada nota se calcula con esta <no-glossary>fórmula</no-glossary>: <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"f de n igual a 440 multiplicado por 2 elevado a la potencia de n sobre doce\"><span style=\"color: #8E24AA;\"><em>f</em>(<em>n</em>)</span> = 440 × (<span style=\"color: #633300;\">2</span>)<sup><span style=\"color: #00749D; font-style: italic;\">n</span>/12</sup></span>, donde <em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> es el número de pasos desde la nota inicial, que es <strong>440 Hz</strong>.",
+      "S9_D19_FX_C1": "Entonces, si quiero la frecuencia del tercer paso, simplemente introduzco <em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> = 3 en la <no-glossary>fórmula</no-glossary>?",
+      "S9_D20_FX_C2": "Sí. ¿Cuál será la frecuencia (en Hz) del 3er paso?",
+      "S9_D21_FX_C1": "Entonces, después de <strong>12</strong> pasos, la frecuencia se duplica y alcanzamos la misma nota una octava más alta.",
+      "S9_D22_FX_C2": "¡Correcto! Esa es la belleza de la escala de temperamento igual—cada paso se construye consistentemente sobre el anterior."
+    },
+
+    "S10": {
+      "S10_D1_F72_C2": "Perfecto, ahora que hemos finalizado el valor de la base y explorado cómo calcular la frecuencia de cualquier nota, construyamos un sintetizador para tu feria escolar.",
+      "S10_D2_F73_C2": "Cada nota se convierte en <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"2 elevado a la potencia de 1 sobre 12\"><span style=\"color: #633300;\">2</span><sup><span style=\"color: #00749D; font-style: italic;\">1</span>/<span style=\"color: #00749D; font-style: italic;\">12</span></sup></span> veces la anterior.",
+      "S10_D3_F74_C1": "Entonces, si tengo que construir mi sintetizador, solo necesitaría asegurarme de que cada nota esté separada por <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"2 elevado a la potencia de 1 sobre 12\"><span style=\"color: #633300;\">2</span><sup><span style=\"color: #00749D; font-style: italic;\">1</span>/<span style=\"color: #00749D; font-style: italic;\">12</span></sup></span> en frecuencia?",
+      "S10_D4_F75_C2": "¡Exacto! Esa es la base de tu sintetizador. Comienza desde tu nota base y multiplica por <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"2 elevado a la potencia de 1 sobre 12\"><span style=\"color: #633300;\">2</span><sup><span style=\"color: #00749D; font-style: italic;\">1</span>/<span style=\"color: #00749D; font-style: italic;\">12</span></sup></span> por cada paso que subas."
+    },
+    "S11": {
+      "S11_D0_F77_C9": {
+        "title": "Sintetizador básico",
+        "about": {
+          "heading": "Entendiendo el sintetizador",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'>Este sencillo sintetizador, construido con una escala de temperamento igual, te permite escuchar cómo cada semitono es equidistante entre sí</li></ul>"
+        },
+        "help": {
+          "heading": "Cómo usar el sintetizador",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'>Pulsa los botones para reproducir escalas o melodías conocidas como \"Mary Had a Little Lamb\" o \"Twinkle, Twinkle, Little Star\". Haz clic en \"Detener\" para detener la reproducción. El sonido</li></ul>"
+        },
+        "interactive_data": {
+          "place_scale": "Escala de reproducción",
+          "mary_lamb": "Mary Lamb",
+          "twinkle": "Twinkle",
+          "stop": "Detener",
+          "button_to_play_note": "Botón para reproducir la nota",
+          "with_frequency": "con frecuencia"
+        }
+      },
+      "S11_D1_F78_C1": "¡Muy bien, miren esto! ¡Esto es lo que se me ocurrió!",
+      "S11_D2_FX_C1": "Lo he configurado para que mi nota base comience en, digamos, <strong>440 Hz</strong>, y cada nota siguiente se multiplica por <strong>2<sup>1/<span className='text-[#00749D]'>12</span></sup></strong>. ¡Ahora tengo un teclado completo! Es como si hubiera construido una versión miniatura del piano.",
+      "S11_D3_FX_C1": "Haga clic en \"Reproducir escala\" para escuchar las 12 notas juntas.",
+      "S11_D4_F81_C2": "¡Impresionante! Has construido tu propio sintetizador, utilizando todo lo que has aprendido sobre sonido, matemáticas y música. ¡Estás listo para comenzar a hacer música seria ahora!",
+      "S11_D5_FX_C1": "Haz clic en \"Centelleo\" para reproducir nuestra clásica canción infantil \"Brilla, brilla, pequeña estrella\"."
+    },
+
+    "S12": {
+      "S12_D1_F82_C2": "¡Buen trabajo, Emery! Has usado las matemáticas para crear tu propio sintetizador y has aprendido cómo la música se construye sobre proporciones y frecuencias.",
+      "S12_D2_F83_C1": "¡Es increíble! Nunca me di cuenta de cuánta matemática hay detrás de la música que escuchamos todos los días, ¡pero ahora lo entiendo!",
+      "S12_D3_F84_C2": "¡Exactamente! Ahora puedes experimentar con escalas, melodías y diferentes proporciones para crear tus propios sonidos.",
+      "S12_D4_F85_C1": "Estoy emocionado por seguir explorando. ¡Tengo las herramientas para hacer música justo como quiero!"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "Exploraste cómo crear un sintetizador usando matemáticas",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>¡Has completado exitosamente la STEAMQuest de Synth Builder!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Aprendiste cómo las escalas musicales y las frecuencias se construyen utilizando proporciones matemáticas</li><li>Exploraste cómo dividir la octava en 12 pasos nos da la familiar proporción 2:1 para una armonía natural</li><li>Experimentaste con diferentes bases usando una función radical para ver cómo afectan el sonido de las melodías y escalas</li><li>Aprendiste a construir tu propio sintetizador, aplicando el temperamento igual para crear un teclado funcional con intervalos naturales</li></ul>Tu aventura explorando el sonido y las matemáticas acaba de comenzar. ¡Explora más, crea nuevas melodías y sigue experimentando con el sonido!",
+      "leftsvg": "<svg width='79' height='81' viewBox='0 0 79 81' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_19849_1196' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='-1' y='0' width='81' height='81'><path d='M69.5 1H9.5C4.25329 1 0 5.25329 0 10.5V70.5C0 75.7467 4.25329 80 9.5 80H69.5C74.7467 80 79 75.7467 79 70.5V10.5C79 5.25329 74.7467 1 69.5 1Z' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_19849_1196)'><path d='M69.7104 10.6116L41.8396 0.820622C40.6396 0.393126 39.3657 0.393126 38.1619 0.820622L10.2911 10.6116C8.02025 11.4104 6.5026 13.5816 6.5026 16.0228V32.8417C6.28844 53.9125 19.2969 76.5545 40.0017 80.5C49.4836 78.82 57.3673 72.9139 63.5596 64.5971C69.9735 55.7773 73.5 44.5007 73.5 32.8425V16.0236C73.5 13.5861 71.9824 11.415 69.7115 10.6124L69.7104 10.6116Z' fill='black'/><path d='M41.6793 1.27821L41.6813 1.27887L69.4853 10.558L69.5524 10.5808C71.6286 11.2779 73 13.156 73 15.2474V31.2254C73 42.1958 69.5068 52.7994 63.1644 61.086C57.0464 68.8912 49.2941 74.4029 40.0048 75.9923C19.6568 72.2556 6.79051 51.0507 7.00258 31.23L7.0026 31.2246V15.2467C7.0026 13.1514 8.3742 11.2738 10.4494 10.5803C10.4493 10.5803 10.4495 10.5803 10.4494 10.5803L38.3202 1.27888L38.3217 1.27836C39.422 0.907158 40.5834 0.90732 41.6793 1.27821Z' fill='#FFCC00'/><path d='M10.4494 10.5803C8.3742 11.2738 7.0026 13.1514 7.0026 15.2467V31.2246L7.00258 31.23C6.79051 51.0507 19.6568 72.2556 40.0048 75.9923C49.2941 74.4029 57.0464 68.8912 63.1644 61.086C69.5068 52.7994 73 42.1958 73 31.2254V15.2474C73 13.156 71.6286 11.2779 69.5524 10.5808L69.4853 10.558L41.6813 1.27887L41.6793 1.27821C40.5834 0.90732 39.422 0.907158 38.3217 1.27836L38.3202 1.27888L10.4494 10.5803ZM10.4494 10.5803C10.4493 10.5803 10.4495 10.5803 10.4494 10.5803Z' stroke='black'/></g><path d='M51.5 25.7394V43.1978C51.5 44.5894 50.955 45.9233 49.9827 46.907C49.0117 47.892 47.695 48.4441 46.3215 48.4441C44.9477 48.4441 43.6312 47.892 42.6603 46.907C41.688 45.9233 41.1429 44.5894 41.1429 43.1978C41.1429 41.8061 41.6879 40.4724 42.6603 39.4887C43.6312 38.5037 44.9479 37.9515 46.3215 37.9515C47.4452 37.9555 48.5379 38.3332 49.4286 39.0283V30.7953L32.8571 33.5942V46.3455C32.8571 47.7371 32.3121 49.071 31.3397 50.0547C30.3688 51.0397 29.0521 51.5918 27.6785 51.5918C26.3048 51.5918 24.9883 51.0397 24.0173 50.0547C23.0451 49.071 22.5 47.7371 22.5 46.3455C22.5 44.9538 23.045 43.6201 24.0173 42.6364C24.9883 41.6514 26.305 41.0992 27.6785 41.0992C28.8023 41.1032 29.895 41.4809 30.7857 42.1761V28.1866C30.7818 26.6468 31.8823 25.3312 33.3828 25.0822L47.8828 22.6347C48.7826 22.4826 49.7044 22.7396 50.4009 23.3377C51.0988 23.9358 51.5 24.8134 51.5 25.7394Z' fill='black'/><path d='M51.5 23.6475V41.106C51.5 42.4976 50.955 43.8315 49.9827 44.8151C49.0117 45.8001 47.695 46.3523 46.3215 46.3523C44.9477 46.3523 43.6312 45.8001 42.6603 44.8151C41.688 43.8314 41.1429 42.4975 41.1429 41.106C41.1429 39.7143 41.6879 38.3805 42.6603 37.3969C43.6312 36.4119 44.9479 35.8597 46.3215 35.8597C47.4452 35.8636 48.5379 36.2414 49.4286 36.9365V28.7035L32.8571 31.5024V44.2537C32.8571 45.6453 32.3121 46.9792 31.3397 47.9628C30.3688 48.9478 29.0521 49.5 27.6785 49.5C26.3048 49.5 24.9883 48.9478 24.0173 47.9628C23.0451 46.9791 22.5 45.6452 22.5 44.2537C22.5 42.862 23.045 41.5282 24.0173 40.5446C24.9883 39.5596 26.305 39.0074 27.6785 39.0074C28.8023 39.0113 29.895 39.3891 30.7857 40.0842V26.0948C30.7818 24.555 31.8823 23.2393 33.3828 22.9903L47.8828 20.5429C48.7826 20.3907 49.7044 20.6478 50.4009 21.2459C51.0988 21.844 51.5 22.7215 51.5 23.6475Z' fill='white'/><path d='M52 25.7396V41.106V43.198C52 44.7201 51.4039 46.1806 50.3382 47.2587C49.2739 48.3381 47.8294 48.9443 46.3215 48.9443C44.8133 48.9443 43.3689 48.3381 42.3046 47.2586C41.2391 46.1806 40.6429 44.72 40.6429 43.198C40.6429 42.8447 40.675 42.4947 40.7377 42.152C40.675 41.8093 40.6429 41.4593 40.6429 41.106C40.6429 39.5838 41.239 38.1234 42.3047 37.0454C43.369 35.966 44.8135 35.3597 46.3215 35.3597H46.3232C47.2358 35.3629 48.1296 35.5905 48.9286 36.0171V31.3871L33.3571 34.0171V44.2537V46.3457C33.3571 47.8678 32.761 49.3283 31.6953 50.4064C30.631 51.4858 29.1865 52.092 27.6785 52.092C26.1703 52.092 24.7258 51.4857 23.6615 50.4061C22.5961 49.328 22 47.8676 22 46.3457C22 45.9924 22.0321 45.6424 22.0948 45.2997C22.0321 44.957 22 44.607 22 44.2537C22 42.7315 22.5961 41.2711 23.6617 40.1931C24.7261 39.1137 26.1706 38.5074 27.6785 38.5074H27.6803C28.5929 38.5106 29.4867 38.7382 30.2857 39.1648V28.1875C30.2857 28.1816 30.2857 28.1757 30.2857 28.1699V26.0954C30.2857 24.1727 31.5 23 33.3009 22.4971M52 25.7396L33.3009 22.4971M52 25.7396V23.6475C52 22.5772 51.5362 21.5606 50.7267 20.8665C49.9181 20.1723 48.8467 19.8728 47.7996 20.0498L33.3009 22.4971' stroke='black'/><path d='M51.5 24.5V27L34.5 25.5L32.5 23.5L33.5 23L39.5 22L51.5 24.5Z' fill='white'/></svg>",
+      "leftsvgarialabel": "Un icono de nota musical en un fondo, simbolizando la música o el sonido.",
+      "rightsvg": "<svg width='113' height='119' viewBox='0 0 113 119' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' d='M108.106 12.1923L112.391 79.8185C112.733 85.2089 110.949 90.5096 107.424 94.5584C103.905 98.6122 98.9403 101.074 93.6198 101.412C88.2986 101.749 83.0633 99.9331 79.0606 96.3559C75.0529 92.7842 72.6141 87.7511 72.2726 82.361C71.9309 76.9702 73.7147 71.6699 77.2395 67.6211C80.7589 63.5673 85.7235 61.1051 91.044 60.768C95.398 60.5073 99.7232 61.7024 103.344 64.1763L101.323 32.2853L37.8196 47.195L40.9497 96.5878C41.2913 101.978 39.5076 107.279 35.9827 111.328C32.4634 115.381 27.4988 117.844 22.1783 118.181C16.8571 118.518 11.6218 116.702 7.61907 113.125C3.61142 109.553 1.17264 104.52 0.83105 99.1302C0.489416 93.7394 2.27323 88.4392 5.79804 84.3904C9.31739 80.3366 14.282 77.8744 19.6025 77.5372C23.9565 77.2766 28.2817 78.4716 31.9026 80.9455L28.4685 26.7567C28.0754 20.7932 32.0151 15.4269 37.7662 14.094L93.3322 1.05424C96.7802 0.244024 100.414 1.01352 103.259 3.15925C106.109 5.30466 107.878 8.60541 108.106 12.1923Z' fill='white'/></svg>"
+    },
+    "glossary": {
+      "equal_temperament": {
+        "word": "temperamento igual",
+        "definition": "El <strong class=\"text-[#0055B2]\">Temperamento Igual</strong> es un sistema de afinación donde la octava se divide en pasos iguales, permitiendo tocar en cualquier tonalidad sin reafinar. La versión más común divide la octava en 12 semitonos iguales."
+      },
+      "frequency": {
+        "word": "frecuencia",
+        "definition": "La <strong class=\"text-[#0055B2]\">Frecuencia</strong> es el número de vibraciones por segundo, medida en Hertz (Hz), que determina el tono de un sonido."
+      },
+      "harmonies": {
+        "word": "armonías",
+        "definition": "Las <strong class=\"text-[#0055B2]\">Armonías</strong> son combinaciones de notas tocadas juntas que crean sonidos agradables, a menudo construidas usando razones matemáticas entre frecuencias."
+      },
+      "melodies": {
+        "word": "melodías",
+        "definition": "Las <strong class=\"text-[#0055B2]\">Melodías</strong> son secuencias de notas tocadas una tras otra para crear frases musicales y melodías reconocibles."
+      },
+      "note": {
+        "word": "nota",
+        "definition": "Una <strong class=\"text-[#0055B2]\">Nota</strong> es un sonido musical con un tono específico, representado por un nombre de letra (A, B, C, etc.) y correspondiente a una frecuencia particular."
+      },
+      "octave": {
+        "word": "octava",
+        "definition": "Una <strong class=\"text-[#0055B2]\">Octava</strong> es el intervalo entre dos notas donde la nota más alta tiene el doble de frecuencia que la nota más baja."
+      },
+      "pitch": {
+        "word": "tono",
+        "definition": "El <strong class=\"text-[#0055B2]\">Tono</strong> es qué tan alto o bajo se percibe un sonido, determinado por la frecuencia de la onda sonora."
+      },
+      "semitone": {
+        "word": "semitono",
+        "definition": "Un <strong class=\"text-[#0055B2]\">Semitono</strong> es el intervalo musical más pequeño en el temperamento igual, representado como un paso en el teclado de un piano."
+      },
+      "synth": {
+        "word": "sintetizador",
+        "definition": "Un <strong class=\"text-[#0055B2]\">Sintetizador</strong> es un instrumento electrónico que genera sonido mediante funciones matemáticas y formas de onda."
+      }
+    },
+    "common": {
+      "noelle": "Noelle",
+      "emery": "Emery",
+      "noelle_description": "Una mujer de cabello negro rizado envuelto en un pañuelo estampado lleva aros dorados, collares en capas y una chaqueta de cuero negra sobre un vestido floral mostaza, sosteniendo una tableta y exudando calidez y confianza.",
+      "emery_description": "Un estudiante curioso con cabello rizado corto y auriculares alrededor del cuello, entusiasmado por construir un sintetizador pero inseguro sobre por dónde empezar con el diseño de sonido y la teoría musical.",
+      "bg1_description": "Un edificio moderno e iluminado anidado en un denso bosque por la noche. La estructura tiene grandes ventanas de vidrio y un cálido resplandor acogedor desde el interior. Dos personas caminan hacia la entrada, que está rodeada de altos árboles sin hojas envueltos en niebla. La escena transmite una sensación de tranquilidad y misterio.",
+      "bg2_description": "El interior de una recepción bien iluminada con grandes ventanas de vidrio que ofrecen una vista del bosque circundante. Varias personas se reúnen, algunas de pie cerca de un mostrador de recepción mientras otras están sentadas en bancos. La habitación presenta elementos de diseño modernos, incluidos un techo curvo con patrones circulares y luces ambientales. El ambiente es acogedor y profesional.",
+      "bg3_description": "Un sofisticado estudio de grabación de audio con equipos de última generación. La habitación está equipada con múltiples monitores que muestran formas de onda de audio, una consola de mezclas y varios altavoces dispuestos alrededor del espacio. Las paredes están revestidas con paneles acústicos para mejorar la calidad del sonido. El diseño general es elegante y funcional, ideal para la producción de audio profesional.",
+      "bg4_description": "Una avanzada sala de control de audio con una gran pantalla que muestra formas de onda de audio y datos. La habitación está equipada con equipos de audio de alta gama, incluidos altavoces y una consola de mezclas. El diseño incluye paneles de madera y luces ambientales, creando un entorno enfocado y profesional adecuado para la edición y masterización de audio.",
+      "bg5_description": "Un auditorio o sala de conferencias lleno de público frente a un escenario donde se está realizando una presentación. La habitación tiene grandes ventanas que ofrecen una vista de un paisaje forestal exterior. El presentador está de pie en un podio, gesticulando hacia una pantalla de proyección que muestra diapositivas. La audiencia parece comprometida, con algunos aplaudiendo y otros tomando notas. La configuración está bien iluminada con lámparas colgantes, creando un entorno de aprendizaje propicio.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergent"
+  },
+  "game": {
+    "musical-scale": "STEAM Quest - Escalas Musicales"
+  }
+}

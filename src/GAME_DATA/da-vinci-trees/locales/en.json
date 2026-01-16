@@ -1,0 +1,281 @@
+{
+  "dialog": {
+    "button": {
+      "start_again": "Start Again",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct!",
+      "try-again": "Try Again",
+      "submit": "Submit"
+    }
+  },
+  "start": {
+    "title": "<div style='font-size: 36px; line-height: 54px; font-weight: 700;'>Da Vinci Trees</div>",
+    "description": "Learn how foresters use geometric models to measure carbon storage in forests. Discover the 500-year-old secret that makes it possible.",
+    "start_game": "Start Quest"
+  },
+  "end": {
+    "title": "Quest Complete!",
+    "summary": "<p>You've learned how to estimate tree volume and carbon storage using geometric models.</p><p><strong>Key concepts:</strong></p><ul><li>Da Vinci's Rule: Cross-sectional area is conserved at every height</li><li>Cylinder model (V = \u03c0r\u00b2h) for deciduous trees</li><li>Cone model (V = \u2153\u03c0r\u00b2h) for conifers</li><li>Form factors correct for real tree shapes</li></ul>"
+  },
+  "scenes": {
+    "common": {
+      "char1": "Maya",
+      "char2": "Dr. Reyes",
+      "char1_description": "Maya Chen, forestry intern",
+      "char2_description": "Dr. Marcus Reyes, forest ecologist",
+      "bg1_description": "Forest landscape",
+      "bg2_description": "Research station",
+      "bg3_description": "Oak tree",
+      "bg4_description": "Conifer forest",
+      "bg5_description": "Forest aerial view",
+      "enter_answer": "Enter your answer"
+    },
+    "cross_section": {
+      "heading": "Cross-Section Rule",
+      "instructions": "Explore how cross-sectional area is conserved when branches split. Adjust the trunk size and split ratio to see that A₁ always equals A₂ + A₃.",
+      "d1": "This view focuses on a single branching point. We're slicing the tree to look at cross-sectional area.",
+      "d2": "I can see the colored rings! Orange for the trunk, green for one branch, blue for the other.",
+      "d3": "Exactly. The area of the trunk slice should always equal the combined areas of the two branch slices. That's Da Vinci's rule in action. Look at the equation at the bottom.",
+      "d4": "Try moving the <strong>Trunk Radius</strong> slider. Watch what happens to the numbers at the bottom.",
+      "d5": "The trunk gets bigger or smaller, and the branches change size too! But the conservation still shows 100%.",
+      "d6": "Now try the <strong>Split Ratio</strong> slider. This controls how the area divides between the two branches.",
+      "d7": "One branch gets thicker while the other gets thinner. But the branch areas still add up to the trunk area. The math really works!",
+      "d8": "That's the key insight. No matter how you divide the flow, the total cross-sectional area is conserved. The tree maintains its 'plumbing capacity' at every split."
+    },
+    "conifer_tree": {
+      "d1": "Here's an interactive Douglas fir. Notice how different it looks from the oak we measured earlier.",
+      "d2": "It's so pointy! The branches get shorter as you go up, making that classic Christmas tree shape.",
+      "d3": "Exactly. Try adjusting the <strong>Branch Angle</strong> slider. See how it affects the overall cone shape.",
+      "d4": "Steeper angles make it narrower... and flatter angles make it wider. But it's always roughly cone-shaped.",
+      "d5": "Now look at the volume comparison at the bottom. It shows volumes calculated both ways, as a cylinder and as a cone.",
+      "d6": "The cone volume is exactly one-third of the cylinder volume! That's a huge difference.",
+      "d7": "Right. If we used the cylinder model on a conifer, we'd overestimate the wood by three times. That's why we need the cone model for these trees.",
+      "d8": "Try changing the <strong>Height</strong> and <strong>DBH</strong> sliders. Watch how the volumes change, but the ratio stays at one-third."
+    },
+    "form_factor": {
+      "heading": "Form Factor",
+      "instructions": "Explore the form factor: the ratio between real tree volume and cylinder volume. Adjust the slider to see how different form factors affect volume estimates.",
+      "d1": "Here's where it gets interesting. We've seen the cylinder overestimates and the cone underestimates. Real trees are somewhere in between.",
+      "d2": "So there's no perfect shape? We can never get it exactly right?",
+      "d3": "We don't need perfection. We need a good correction. That's what the <strong>form factor</strong> does. It adjusts our cylinder model to match reality.",
+      "d4": "Try the slider. Watch how the purple 'Real Tree' shape changes as you adjust the form factor.",
+      "d5": "At 0.5, the real tree is exactly half the cylinder. At 0.4, it's even smaller.",
+      "d6": "Most deciduous trees have form factors between 0.4 and 0.6. It depends on the species and how the tree grew.",
+      "d7": "So we just multiply the cylinder volume by the form factor to get the real tree volume?",
+      "d8": "Exactly. Foresters use species-specific form factors from research studies. It's not guessing, it's calibrated estimation."
+    },
+    "volume_comparison": {
+      "d1": "Let's see all three models side by side. Blue is the cylinder, amber is the cone, and purple is the real tree with form factor.",
+      "d2": "The cylinder is way bigger than the cone! And the purple one is in between.",
+      "d3": "Try adjusting the <strong>Form Factor</strong> slider. See how the purple shape changes relative to the others?",
+      "d4": "When I set it to 0.33, the purple shape is the same size as the cone!",
+      "d5": "Right. A form factor of 0.33 (one-third) is exactly the cone model. Most real trees are between 0.4 and 0.6.",
+      "d6": "Now try changing <strong>Height</strong> and <strong>Radius</strong>. The form factor percentage stays the same.",
+      "d7": "The relationship holds no matter the tree size. Form factor is about shape, not size.",
+      "d8": "Exactly. Once you know the form factor for a species, you can use it on any tree of that type."
+    },
+    "glossary": {
+      "cross_section": {
+        "word": "Cross-sectional area",
+        "definition": "The area of a slice through an object perpendicular to its length. For a circular trunk, A = \u03c0r\u00b2."
+      },
+      "dbh": {
+        "word": "DBH",
+        "definition": "Diameter at Breast Height - the standard measurement of tree trunk diameter, taken at 1.37 meters (4.5 feet) above ground level."
+      },
+      "conifer": {
+        "word": "Conifer",
+        "definition": "A tree that produces seeds in cones, typically evergreen with needle-like leaves. Examples: pine, fir, spruce."
+      },
+      "form_factor": {
+        "word": "Form factor",
+        "definition": "The ratio of a tree's actual volume to the volume of a cylinder with the same diameter and height. Typically 0.4-0.6 for real trees."
+      },
+      "sampling": {
+        "word": "Sampling",
+        "definition": "Measuring a representative subset of trees to estimate the properties of an entire forest."
+      }
+    },
+    "act1": {
+      "d1": "First day of my forestry internship. I've studied trees in textbooks for years, and now it's time to finally work with the real thing.",
+      "d2": "Maya! Welcome to the Cascade Forest Research Station. I'm Dr. Reyes. Ready to jump right in?",
+      "d3": "Absolutely. What are we working on?",
+      "d4": "This forest is applying for carbon credit certification. We need to calculate how much carbon is stored in these 500 hectares.",
+      "d5": "Carbon credits? Like, companies pay us because our trees absorb CO\u2082?",
+      "d6": "Exactly. But to get certified, we need to prove how much carbon is actually here. And that means measuring the trees.",
+      "d7": "Measuring trees? That doesn't sound too hard. I'll grab a tape measure.",
+      "d8": "Go ahead. Start with that oak over there. Tell me its volume.",
+      "d9": "Okay... I can measure the trunk. That's maybe 70 centimeters across. And the height... 20 meters or so?",
+      "d10": "But wait. What about all the branches? They split and split again. There must be hundreds of them.",
+      "d11": "Do I need to measure every single branch? That would take forever.",
+      "d12": "Now you see the problem. A tree isn't a simple shape. How do you find the volume of something so complex?",
+      "d13": "Could we weigh it?",
+      "d14": "Only if we cut it down. And then it stops capturing new carbon.",
+      "d15": "What about the Archimedes method? Submerge it in water and measure the displacement?",
+      "d16": "I'd love to see you find a tank big enough for a 20-meter oak.",
+      "d17": "Okay, so we can't weigh it, can't submerge it, and measuring every branch is impossible. How do foresters actually do this?",
+      "d18": "With a 500-year-old insight and two tools that fit in your pocket."
+    },
+    "act2": {
+      "interactive_title": "Da Vinci Tree Explorer",
+      "d19": "A tape measure and... what's that other thing?",
+      "d20": "This is a diameter tape. See how one side has regular measurements, and the other side is different?",
+      "d21": "The second scale is pre-multiplied by pi. Wrap it around a trunk, and it tells you the diameter directly. No calculation needed.",
+      "d22": "Clever. And the other tool?",
+      "d23": "An inclinometer, also called a clinometer. It measures angles. Stand back from a tree at a known distance (L), sight the top (S), and use trigonometry to calculate the height. The total height H equals h₂ (above your eye) plus h₁ (below your eye to the ground).<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/tree-measurement.png' alt='Tree height measurement using inclinometer and triangulation' style='width: 100%; max-width: 450px; border-radius: 8px;' /></div>",
+      "d24": "So I can get trunk diameter and tree height. But that still doesn't tell me the volume of all those branches.",
+      "d25": "That's where Leonardo da Vinci comes in.",
+      "d26": "Da Vinci? The painter?",
+      "d27": "Also an engineer, anatomist, and keen observer of nature. Around 1492, he noticed something remarkable about trees.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/davinci-tree-drawing.jpg' alt='Da Vinci red chalk drawing of a tree, circa 1492' style='width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);' /></div>",
+      "d28": "He wrote: <em>\"All the branches of a tree at every stage of its height, when put together, are equal in thickness to the trunk.\"</em><div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/davinci-original-sketch.jpg' alt='Original Da Vinci notebook page showing tree branching rule, circa 1492' style='width: 100%; max-width: 450px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);' /></div>",
+      "d29": "Wait, so if I sliced the tree at any height and added up the area of all the branches...",
+      "d30": "It would equal the cross-sectional area of the trunk at the base. The total 'stuff' is conserved. It just spreads out. Let me show you an interactive diagram.",
+      "d31": "But why? Why would trees grow that way?",
+      "d32": "Think of a tree as a plumbing system. Water flows from roots to leaves. If the pipes suddenly got narrower, there'd be a bottleneck.",
+      "d33": "The total pipe capacity stays constant. That's why da Vinci's rule works. It reflects how trees actually move water.",
+      "d34": "Okay, that makes sense. But how does that help me measure volume?",
+      "d35": "Let me show you something. Try this visualization tool.",
+      "d37": "This is a model of a deciduous tree. See the <strong>Branch Angle</strong> slider? It controls how wide the branches spread. <strong>Try moving it toward zero.</strong>",
+      "d38": "The branches are folding in... they're all pointing straight up now...",
+      "d39": "Oh! It's a cylinder. When the branches fold up completely, the whole tree becomes a cylinder!",
+      "d40": "Exactly. Because Da Vinci's rule conserves cross-sectional area, the tree was a cylinder all along, just spread out. So to find a tree's volume, we can use the formula for a cylinder.",
+      "d41": "The volume of a cylinder is <strong>V = \u03c0r\u00b2h</strong>, where r is the radius of the trunk and h is the height. For our oak with a 70 cm diameter and 22 meter height, that's all we need to estimate volume.",
+      "d42": "Now try the other controls. The <strong>Depth</strong> slider controls how many times the branches split. More depth means a more complex tree.",
+      "d43": "And <strong>Length Ratio</strong> determines how much shorter each new branch is compared to its parent. Real trees are usually around 0.7 to 0.8.",
+      "d44": "The most important one is <strong>Leonardo \u03b1</strong>. When a branch splits into two, the equation is: <strong>D\u1d45 = d\u2081\u1d45 + d\u2082\u1d45</strong>. The parent diameter D raised to the power \u03b1 equals the sum of the child diameters raised to \u03b1.",
+      "d45_math": "When \u03b1 = 2, this becomes <strong>D\u00b2 = d\u2081\u00b2 + d\u2082\u00b2</strong>. Since area is proportional to diameter squared, this means the cross-sectional area is conserved. It's like the Pythagorean theorem, but for tree branches!",
+      "d45_interactive": "Try changing Leonardo \u03b1 away from 2. See how the tree looks unnatural? The branches become too thick or too thin. Da Vinci's value of 2 is what real trees use."
+    },
+    "act3": {
+      "d43": "Let's try it on our oak. What measurements do we need?",
+      "d44": "Diameter and height. Let me measure.",
+      "d45": "The diameter tape says 70 centimeters. That's measured at breast height, about 1.4 meters up, right?",
+      "d46": "Right. We call that <strong>DBH</strong>, or Diameter at Breast Height. It's the standard measurement foresters use worldwide.",
+      "d47": "Now for height. Let me pace back and use the inclinometer...",
+      "d48": "Angle to the top is 47 degrees. I'm standing about 25 meters back... <em>[checks calculation on tablet]</em> That works out to about 22 meters total height.",
+      "d50": "Good. Now we convert volume to carbon. Oak has a wood density of about 600 kilograms per cubic meter.",
+      "d51": "Let me plug that into the calculator... that's about <strong>5,100 kg</strong> of wood.",
+      "d52": "And about 50% of dry wood mass is carbon. So..."
+    },
+    "act4": {
+      "interactive_title": "Conifer Tree Explorer",
+      "d54": "These trees look completely different. The branches don't spread out like the oak. They're more... triangular.",
+      "d55": "Good eye. These are <strong>conifers</strong>, or cone-bearing trees. They evolved for different conditions than deciduous trees.",
+      "d56": "Snow load, for one. A wide-spreading oak shape would collect snow and break. The conical shape sheds it.",
+      "d57": "So the cylinder model won't work for these?",
+      "d58": "Not quite. Look at the shape: widest at the base, tapering to a point at the top. What geometric solid does that remind you of?",
+      "d59": "A cone!",
+      "d60": "Exactly. For conifers, we model the tree as a cone instead of a cylinder. The volume of a cone is one-third the volume of a cylinder with the same base and height.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/cone-volume-proof.png' alt='Visual proof that cone volume is one-third of cylinder volume' style='width: 100%; max-width: 350px; border-radius: 8px; background: white; padding: 10px;'></div>",
+      "interactive_intro": "Explore how conifer trees differ from deciduous trees. Adjust the parameters to see how branching patterns affect the overall shape.",
+      "d61": "Now that we understand the cone shape, let's practice calculating conifer volumes. We'll use the cone formula and compare it to the cylinder model."
+    },
+    "act5": {
+      "interactive_title": "Volume Comparison",
+      "d64": "These models seem too simple. How do we know they're accurate?",
+      "d65": "Good instinct. Let's test our models against reality. I have data from research studies where trees were actually cut down and measured piece by piece.",
+      "d66": "Remember our oak tree? You calculated 8.5 cubic meters using the cylinder model. Researchers measured a similar oak by cutting it into 1-meter sections and calculating each section's volume using water displacement.",
+      "d67": "The actual measured volume was 5.1 cubic meters. My cylinder model predicted 8.5 m³. That's way off! The cylinder model overestimated by a lot.",
+      "d68": "Now check your Douglas fir cone prediction against the measured value.",
+      "d69": "Actual measured volume: 2.4 cubic meters. I underestimated this time. Closer than the cylinder, but still not quite right.",
+      "d70": "So the cylinder overestimates, and the cone underestimates. Real trees are somewhere in between?",
+      "d71": "Exactly. Real trees are closer to a shape called a <em>paraboloid</em>, something in between. Foresters use a correction called a '<strong>form factor</strong>.' Let me show you.",
+      "d72": "The form factor is the ratio of actual volume to cylinder volume. Most trees have form factors between <strong>0.4 and 0.6</strong>.",
+      "d74": "So our refined formula becomes: <strong>V = f \u00d7 \u03c0r\u00b2h</strong>, where f is the form factor (typically 0.45-0.55).",
+      "d76": "So the model isn't perfect, but it's useful. Good enough to solve real problems.",
+      "d77": "That's the heart of mathematical modeling. Find a simplification that captures enough truth to be practical.",
+      "interactive_intro": "Compare cylinder and cone models. See how the form factor bridges the gap between simple models and reality."
+    },
+    "act6": {
+      "d78": "But this forest has tens of thousands of trees. We can't measure each one individually.",
+      "d79": "Of course not. That's where <strong>sampling</strong> comes in. We set up circular plots at random locations throughout the forest.",
+      "d80": "How big are the plots?",
+      "d81": "Usually 1/10 of an acre, about 11 meters in radius. We walk through each plot and measure every tree inside it.",
+      "d82_new": "And we just scale up the results?",
+      "d83_new": "Exactly. If our sample plots cover 1% of the forest, and we find 500 tons of carbon in those plots, we estimate the whole forest has about 50,000 tons.",
+      "d84_new": "But what if we happen to pick plots with more trees, or fewer? Wouldn't that skew the results?",
+      "d85_new": "Good thinking. That's why we use <em>random</em> placement and multiple plots. The more plots we measure, the more accurate our estimate becomes.",
+      "d86_new": "How many plots do we need for a forest this size?",
+      "d87_new": "For 500 hectares, typically 30-50 plots gives us good precision. It's a balance between accuracy and effort.",
+      "d82": "Two measurements per tree. A simple geometric formula. Scale up with sampling. And we can estimate the carbon in an entire forest."
+    },
+    "act7": {
+      "d83": "Da Vinci's rule, the cross-sectional area staying constant, it seems too elegant to be just a convenient trick.",
+      "d84": "You're right. Trees actually grow this way. The rule reflects real biology. And here's something even more interesting: the same rules we use to measure trees can be used to <em>create</em> them.",
+      "d86": "The tree looks wrong when the rule is off. The branches are too thick at the top. It doesn't look natural.",
+      "d87": "Without cross-sectional area conservation, the proportions are off. The math doesn't just describe trees. It explains why they look the way they do.",
+      "d88": "When I started, I thought measuring a forest was impossible. But trees are complex in an orderly way. There's a pattern, a rule, that simplifies everything.",
+      "d89": "That's the secret of mathematical modeling. Find the simple rule hiding inside the complexity.",
+      "d90": "A cylinder and a cone. Two basic shapes. And with them, we can measure the carbon in an entire forest."
+    },
+    "q1": {
+      "heading": "Question 1",
+      "stem": "According to Da Vinci's rule, if a tree trunk has a cross-sectional area of <strong>0.16 m\u00b2</strong>, what is the total cross-sectional area of all branches at any height above?"
+    },
+    "q2": {
+      "heading": "Check Your Understanding",
+      "stem": "To estimate the volume of a <strong>deciduous tree</strong> (like an oak with spreading branches), which geometric shape do we use?"
+    },
+    "q3": {
+      "heading": "Check Your Understanding",
+      "stem": "About what percentage of a tree's dry wood mass is carbon?"
+    },
+    "q4": {
+      "heading": "Check Your Understanding",
+      "stem": "To estimate the volume of a <strong>conifer</strong> (like a pine or fir with a triangular shape), which geometric shape do we use?"
+    },
+    "q5": {
+      "heading": "Check Your Understanding",
+      "stem": "If you used the <strong>cylinder</strong> formula on a cone-shaped conifer tree, your estimate would be:"
+    },
+    "q6": {
+      "heading": "Check Your Understanding",
+      "stem": "The <strong>form factor</strong> for most real trees is typically:"
+    },
+    "q7": {
+      "heading": "Check Your Understanding",
+      "stem": "If a cylinder model predicts 8 m³ and the form factor is 0.5, the actual tree volume is approximately:"
+    },
+    "q7b": {
+      "heading": "Question 8",
+      "stem": "A forester needs to estimate the volume of a mature maple tree (a deciduous tree with spreading branches). Which approach is best?"
+    },
+    "q8": {
+      "heading": "Check Your Understanding",
+      "stem": "To estimate carbon storage across an entire forest, foresters:"
+    }
+  },
+  "scenesList": {
+    "scene_1": "Title Screen",
+    "scene_2": "Maya's First Day",
+    "scene_3": "Meeting Dr. Reyes",
+    "scene_4": "Carbon Credits",
+    "scene_5": "The Challenge",
+    "scene_6": "Impossible Methods",
+    "scene_7": "Tools of the Trade",
+    "scene_8": "Da Vinci's Discovery",
+    "scene_8b": "Cross-Section Rule Interactive",
+    "scene_9": "The Pipe Model",
+    "scene_10": "Da Vinci Tree Interactive",
+    "scene_11": "Question: Da Vinci's Rule",
+    "scene_12": "Measuring the Oak",
+    "scene_13": "Question: Cylinder Volume",
+    "scene_14": "Carbon Calculation",
+    "scene_15": "Question: Carbon Storage",
+    "scene_16": "Conifers",
+    "scene_17": "Conifer Interactive",
+    "scene_18": "Question: Cone Volume",
+    "scene_19": "Question: Cylinder vs Cone",
+    "scene_20": "Form Factor",
+    "scene_20b": "Form Factor Interactive",
+    "scene_21": "Volume Comparison Interactive",
+    "scene_22": "Question: Form Factor",
+    "scene_23": "Refined Formula",
+    "scene_24": "Question: Recalculate",
+    "scene_25": "Question: Model Choice",
+    "scene_26": "Scaling Up",
+    "scene_27": "Question: Forest Carbon",
+    "scene_28": "Conclusion",
+    "scene_29": "End Screen"
+  }
+}

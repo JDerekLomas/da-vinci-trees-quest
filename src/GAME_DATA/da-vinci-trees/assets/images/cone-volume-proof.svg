@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-33 -26 240 320">
+ <title>visual proof cone volume</title>
+ <desc>Proof without words that the volume of a cone is a third of a cylinder of equal diameter and height by CMG Lee. 1. A cone and a cylinder have radius ''r'' and height ''h''. 2. Their volume ratio is maintained when the height is scaled to ''h' '' = ''r'' &#8730;''&#928;''. 3. The cone is decomposed into thin slices. 4. Each slice is transformed into a square of side ''h' '' using Cavalieri's principle. 5. The pyramid is replicated twice. 6. Combining them into a cube shows that the volume ratio is 1:3.</desc>
+ <style type="text/css">
+svg  { font-family:'Liberation Sans',Helvetica,Arial,sans-serif; font-size:32px; text-anchor:middle; stroke:#000; stroke-linejoin:round; }
+text { stroke:none; }
+.var { font-size:20px; font-style:italic; }
+ </style>
+ <defs>
+  <linearGradient id="grad_cone" x1="0%" y1="-10%" x2="100%" y2="20%">
+   <stop offset="10%" stop-color="#39c"/>
+   <stop offset="50%" stop-color="#6cf"/>
+   <stop offset="80%" stop-color="#39c"/>
+  </linearGradient>
+  <marker id="marker_arrow" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto">
+   <path d="M 0,0 Q 3,2 4,2 Q 3,2 0,4 Q 2,2 0,0" stroke="none"/>
+  </marker>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#fff"/>
+ <g transform="translate(35,20)">
+  <text x="-50" y="-15">1</text>
+  <text x="17"  y="-30" class="var">r</text>
+  <text x="45"  y="22"  class="var">h</text>
+  <g transform="scale(1.11,0.7)" fill="none">
+   <path d="M 0,0 l -24,32 a 30,30 0 1 0 48,0 z" fill="url(#grad_cone)"/>
+   <path d="M 0,-11 v -25 h 30 v 25" stroke-dasharray="1,2"/>
+   <path d="M -30,50 v -50 a 30,30 0 1 1 0,0.1 m 60,0 v 50"/>
+  </g>
+ </g>
+ <g transform="translate(160,0)">
+  <text x="-55" y="5">2</text>
+  <text x="-47" y="35" class="var">h'</text>
+  <g transform="scale(0.52,0.32)" stroke-width="2">
+   <use xlink:href="#cone1"/>
+   <path d="M -65,169 v -169 a 65,65 0 1 1 0,0.1 m 130,0 v 169" fill="none"/>
+  </g>
+ </g>
+ <g transform="translate(160,100)">
+  <text x="-55" y="5">3</text>
+  <g transform="scale(0.52,0.32)" stroke-width="2">
+   <path id="cone1" d="M 0,0 l -60,144 a 65,65 0 1 0 120,0 z" fill="url(#grad_cone)"/>
+   <circle id="circle" cx="0" cy="169" r="65" opacity="0.2"/>
+   <use xlink:href="#circle" fill="#00f" transform="scale(0.4)"/>
+  </g>
+  <text x="0" y="60" class="var">h'&#8202;&#178;</text>
+ </g>
+ <g transform="translate(70,100)">
+  <text x="-85" y="7">4</text>
+  <use xlink:href="#pyramid1"/>
+  <path id="square" d="M 0,40 l -30,30 l -40,-20 l 30,-30 z" opacity="0.25"/>
+  <use xlink:href="#square" fill="#00f" transform="scale(0.4)"/>
+  <text x="11"  y="36" class="var">h'</text>
+  <text x="-35" y="50" class="var">h'&#8202;&#178;</text>
+ </g>
+ <g transform="translate(70,205)">
+  <text x="-85" y="-5">5</text>
+  <use xlink:href="#pyramid1"/>
+  <use xlink:href="#pyramid2" transform="translate(-10,-5)"/>
+  <use xlink:href="#pyramid3" transform="translate(-15,15)"/>
+ </g>
+ <g transform="translate(195,210)">
+  <text x="-90" y="-10">6</text>
+  <g id="pyramid1" stroke="#036">
+   <text x="-12" y="75" class="var">h'</text>
+   <path fill="#08c" d="M 0,0 v     40 l -30, 30 z"/>
+   <path fill="#0bf" d="M 0,0 l -70,50 l  40, 20 z"/>
+   <path fill="#0ae" d="M 0,0 l -70,50 l  30,-30 z"/>
+  </g>
+  <g id="pyramid2" stroke="#063">
+   <path fill="#0c9" d="M 0,0 l -70,10 l  30,-30 z"/>
+   <path fill="#093" d="M 0,0 l -70,10 v      40 z"/>
+  </g>
+  <g id="pyramid3" stroke="#960" fill-opacity="0.9">
+   <path fill="#c90" d="M   0, 0 l -30,30 l   0, 40       z"/>
+   <path fill="#fc0" d="M   0, 0 l -30,30 l -40,-20       z"/>
+   <path fill="#f90" d="M -30,30 v     40 l -40,-20 v -40 z"/>
+  </g>
+ </g>
+ <g opacity="0.2" stroke-width="3" marker-end="url(#marker_arrow)">
+  <path d="M  75, 55 h  40"/>
+  <path d="M 160, 80 v  12"/>
+  <path d="M 145,115 h -65"/>
+  <path d="M 123,145 h -43"/>
+  <path d="M  70,150 v  45"/>
+  <path d="M  80,230 h  30"/>
+ </g>
+</svg>

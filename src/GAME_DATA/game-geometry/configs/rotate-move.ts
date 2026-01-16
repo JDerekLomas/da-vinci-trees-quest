@@ -1,0 +1,52 @@
+import { Interaction } from '../interactives/interface';
+
+const interaction: Interaction = {
+  graphConfig: {
+    initialPosition: { x: 1, y: 0 },
+    rotateMove: true,
+    enableReset: true,
+    gridSize: 4,
+    gridStep: 1,
+    carColor: '#006BE0',
+    wheelColor: '#1E3A8A',
+    lightColor: '#FBBF24',
+    axisColor: '#374151',
+    gridColor: '#e0e0e0',
+    ariaLabel: 'scenes.S4.S4_D0_F11_C9.ariaLabels.ariaLabel',
+    translations: {
+      resetButton: 'scenes.S4.S4_D0_F11_C9.resetButton',
+      targetReached: 'scenes.S4.S4_D0_F11_C9.targetReached',
+      moveForward: 'scenes.S4.S4_D0_F11_C9.moveForward',
+      gridLine: 'scenes.S4.S4_D0_F11_C9.gridLine',
+      reach: 'scenes.S4.S4_D0_F11_C9.reach',
+      target: 'scenes.S4.S4_D0_F11_C9.target',
+      reached: 'scenes.S4.S4_D0_F11_C9.reached',
+      frontPoint: 'scenes.S4.S4_D0_F11_C9.frontPoint',
+      rearPoint: 'scenes.S4.S4_D0_F11_C9.rearPoint',
+      carPosition: 'scenes.S4.S4_D0_F11_C9.carPosition',
+      targetFlag: 'scenes.S4.S4_D0_F11_C9.targetFlag',
+      changeDirectionButton: 'scenes.S6.S6_D0_F25_C9.changeDirectionButton',
+      moveBackward: 'scenes.S6.S6_D0_F25_C9.moveBackward',
+      moveDownward: 'scenes.S6.S6_D0_F25_C9.moveDownward',
+      rotationPoint: 'scenes.S6.S6_D0_F25_C9.rotationPoint',
+      rotateCar: 'scenes.S6.S6_D0_F25_C9.rotateCar',
+      refuelCarAnd: 'scenes.S8.S8_D0_F40_C9.refuelCarAnd',
+      refueling: 'scenes.S8.S8_D0_F40_C9.refueling',
+      correct: 'scenes.S10.S10_D0_F47_C9.correct',
+      incorrect: 'scenes.S10.S10_D0_F47_C9.incorrect',
+      pointAt: 'scenes.S10.S10_D0_F47_C9.pointAt',
+      carRotatedBy: 'scenes.S6.S6_D0_F25_C9.carRotatedBy',
+      degreesAtRotationAxis: 'scenes.S6.S6_D0_F25_C9.degreesAtRotationAxis',
+      translation: 'scenes.S8.S8_D0_F40_C9.translation',
+      rotationAroundThePoint: 'scenes.S10.S10_D0_F47_C9.rotationAroundThePoint',
+      translationInstruction: 'scenes.S10.S10_D0_F47_C9.translationInstruction',
+    },
+    translationPoints: [
+      { x: -3, y: 2, isCorrect: false },
+      { x: -3, y: -2, isCorrect: true },
+      { x: 3, y: -2, isCorrect: false },
+    ],
+  },
+};
+
+export default interaction;

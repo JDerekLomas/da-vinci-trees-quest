@@ -1,0 +1,35 @@
+const lidarSimulationConfig = {
+  labels: {
+    title: 'scenes.S4.S4_D0_F11_C9.title',
+    canopyHits: 'scenes.S4.S4_D0_F11_C9.labels.canopyHits',
+    groundHits: 'scenes.S4.S4_D0_F11_C9.labels.groundHits',
+    structureHits: 'scenes.S4.S4_D0_F11_C9.labels.structureHits',
+    startScan: 'scenes.S4.S4_D0_F11_C9.labels.startScan',
+    stopScan: 'scenes.S4.S4_D0_F11_C9.labels.stopScan',
+    scanProgress: 'scenes.S4.S4_D0_F11_C9.labels.scanProgress',
+    discoveries: 'scenes.S4.S4_D0_F11_C9.labels.discoveries',
+    pathwayDiscovered: 'scenes.S4.S4_D0_F11_C9.labels.pathwayDiscovered',
+    cityDiscovered: 'scenes.S4.S4_D0_F11_C9.labels.cityDiscovered',
+    scanComplete: 'scenes.S4.S4_D0_F11_C9.labels.scanComplete',
+    instructions: 'scenes.S4.S4_D0_F11_C9.labels.instructions',
+    zoom: 'scenes.S4.S4_D0_F11_C9.labels.zoom',
+    rotate: 'scenes.S4.S4_D0_F11_C9.labels.rotate',
+    pan: 'scenes.S4.S4_D0_F11_C9.labels.pan',
+    north: 'scenes.S4.S4_D0_F11_C9.labels.north',
+    east: 'scenes.S4.S4_D0_F11_C9.labels.east',
+    south: 'scenes.S4.S4_D0_F11_C9.labels.south',
+    west: 'scenes.S4.S4_D0_F11_C9.labels.west',
+    showDataAnalysis: 'scenes.S4.S4_D0_F11_C9.labels.showDataAnalysis',
+  },
+  messages: {
+    ready: 'scenes.S4.S4_D0_F11_C9.messages.ready',
+    initiating: 'scenes.S4.S4_D0_F11_C9.messages.initiating',
+    pathwayFound: 'scenes.S4.S4_D0_F11_C9.messages.pathwayFound',
+    cityFound: 'scenes.S4.S4_D0_F11_C9.messages.cityFound',
+    complete: 'scenes.S4.S4_D0_F11_C9.messages.complete',
+    paused: 'scenes.S4.S4_D0_F11_C9.messages.paused',
+  },
+  graphDescription: 'scenes.S4.S4_D0_F11_C9.graphDescription',
+};
+
+export default lidarSimulationConfig;

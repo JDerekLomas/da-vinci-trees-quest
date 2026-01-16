@@ -1,0 +1,496 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introduction",
+    "scene_4": "Performance Range Analyzer",
+    "scene_5": "Race Segment Introduction",
+    "scene_6": "Race Segment Calculator",
+    "scene_7": "Training Intensity Introduction",
+    "scene_8": "Training Intensity Optimizer",
+    "scene_9": "Race Performance Introduction",
+    "scene_10": "Race Performance Predictor",
+    "scene_11": "Conclusion",
+    "scene_12": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Get in the Zone</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>A Sports Science Quest</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Nina Thompson is lightning-fast, but raw talent isn't enough to win the state championship. With Dr. Rivera's guidance, she must master strategy and precision—unlocking the surprising power of math to push her past the finish line.</div>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<span style='color: #333333; font-size: 24px; line-height: 36px; font-weight: 700;'>Welcome to The Mathematics of Track Performance</span>",
+        "body": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><p>On the track, every millisecond counts. In this quest, you'll use algebra—equations, inequalities, and models—to analyze Nina's races, sharpen her training, and help her transform speed into victory.</p></div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Coach says I need to pick up my pace if I want to qualify for state championships. But I've been training hard for weeks, and my times aren't improving consistently.</div>",
+      "S3_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I've been looking at your performance data, Nina. You have tremendous natural ability, but your times vary quite a bit from race to race.</div>",
+      "S3_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I know. Some days I feel like I'm flying, and others I feel like I'm running through quicksand. Last week I ran the <strong role='text'>200 <span aria-hidden='true' role='text'>m</span><span className='sr-only'>meters</span></strong> in <strong>27 s</strong>, but yesterday I was all the way up to <strong>30 s</strong>. It's so frustrating!</div>",
+      "S3_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>What's the qualifying time for state championships?</div>",
+      "S3_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><strong>26 s</strong> or less. So even my best time isn't good enough yet.</div>",
+      "S3_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>When we talk about qualifying times, we're really talking about inequalities. Mathematics won't replace good nutrition and recovery, but it gives us a clearer target to complement those essentials.</div>",
+      "S3_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Inequalities? Like less than and greater than from algebra class?</div>",
+      "S3_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. The state qualifying standard can be written as <strong><i className='font-besley'>t</i> ≤ 26</strong>, where <strong><i className='font-besley'>t</i></strong> represents your time in seconds. Right now, your times range from <strong>27 to 30 s</strong>, which we could write as <strong>27 ≤ <i className='font-besley'>t</i> ≤ 30</strong>.</div>",
+      "S3_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So my current range doesn't overlap with the qualifying range at all. I'm completely outside of it.</div>",
+      "S3_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's right. But that also gives us a clear target. We need to shift your entire performance range so that it is completely at or below that <strong aria-label='26 seconds' role='text'>26 s</strong> threshold.</div>",
+      "S3_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>But by how much? If I'm running <strong>30 s</strong> on my off days, that's a huge gap to close.</div>",
+      "S3_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Let's use some math to figure out exactly what improvement you need. I've got a tool on my tablet that can help us visualize this. We'll analyze your current performance range and determine precisely how much you need to improve to qualify with confidence.</div>"
+    },
+    "S6": {
+      "S6_D0_F20_C9": {
+        "about": {
+          "heading": "Performance Range Analysis for Athletes",
+          "body": "The key concepts demonstrated in this interactive: <ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px;'> <li> <strong>Performance Ranges:</strong> Athletes typically perform within a range rather than at a single, consistent level </li> <li> <strong>Inequality Notation:</strong> Mathematical inequalities <strong>(27 ≤ <i className='font-besley'>t</i> ≤ 30)</strong> represent performance boundaries </li> <li> <strong>Qualification Standards:</strong> Competition standards can be represented as inequality thresholds <strong>(<i className='font-besley'>t</i> ≤ 26)</strong> </li> </ol> <p class='mt-2 mb-1 font-bold'>In this Interactive, you will:</p> <ul style='list-style-type:disc; margin-left: 30px;'> <li> Visualize Nina's current performance range as an inequality </li> <li> Calculate the improvement needed to shift her entire range below the qualifying threshold </li> <li> See how mathematical inequalities provide precise targets for athletic improvement </li> </ul>"
+        },
+        "help": {
+          "heading": "How to Use the Interactive",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px;'><li><strong>Observe Current Range:</strong> The interactive starts showing Nina's current time range <strong>(27-30s)</strong> and the qualifying standard <strong aria-hidden='true'>(≤ 26 s)</strong><span className='sr-only'>less than or equal to 26 seconds</span></li><li><strong>Input Improvement:</strong> Set the value in seconds that you think Nina needs to improve by</li><li><strong>Analyze Result:</strong> Notice how your improvement shifts Nina's performance range</li><li><strong>Check Qualification:</strong> The visualization will show whether your improvement is sufficient for qualification</li></ol><strong>Things to Observe:</strong><ul style='list-style-type:disc; margin-left: 30px; margin-top: 10px;'><li>Notice how the entire range shifts when you apply an improvement value</li><li>Pay attention to whether the shifted range falls completely below the qualifying line</li><li>Consider what improvement value ensures that even Nina's worst-case performance will qualify</li></ul>"
+        },
+        "title": "Performance Range Analyzer",
+        "label_1": "Best Timing (seconds)",
+        "label_2": "Worst Timing (seconds)",
+        "label_3": "Improvement (seconds)",
+        "labelQualifying": "Qualifying Standard: t ≤ 26 seconds",
+        "ariaLabelQualifying": "Qualifying Standard is t less than or equal to 26 seconds",
+        "labelCurrentTime": "Current Time Range",
+        "labelImprovedTimeNotQualifying": "Improved Range (Not Qualifying)",
+        "labelImprovedTimeQualifying": "Improved Range (Qualifies!)",
+        "feedback_1": "Correct! With a 4-second improvement, Nina's entire performance range would qualify.",
+        "feedback_2": "Not enough improvement. Nina's worst performances would still not qualify.",
+        "feedback_3": "This would work, but it's more than the minimum improvement needed.",
+        "qualifyingTime": "Qualify: 26 seconds"
+      },
+      "S6_D1_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Alright, let's plug your times into this analyzer. Can you adjust those sliders there? Set the best one to <strong>27 <span role='text' aria-label='seconds'>s</span></strong> that's your best time—and the worst one to <strong>30 <span role='text' aria-label='seconds'>s</span></strong> for your off days.</div>",
+      "S6_D2_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Got it! So I'll adjust the tool to show my current range of <strong>27 <span role='text' aria-label='seconds'>s</span></strong> to <strong>30 <span role='text' aria-label='seconds'>s</span></strong>. <br/>And I can also see that it shows I need to get to <strong>26 <span role='text' aria-label='seconds'>s</span></strong> or less to qualify.</div>",
+      "S6_D3_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Now that you have already entered your current range, here's the important question: How much improvement do you need to make to ensure you'll qualify for state without any doubt, even on your off days?</div>",
+      "S6_D4_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Well, I need to get my time under or equal to <strong>26 s</strong>... but that's just the basic requirement. To be confident about qualifying, even my slowest run needs to be under the qualifying time.</div>",
+      "S6_D5_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! So think about your current range and how much it would need to shift to be completely under the qualifying threshold.</div>",
+      "S6_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>How many seconds of improvement do you need to ensure your entire performance range falls below the qualifying time of <strong>26 s</strong> or less?</div>",
+      "S6_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I think I need to improve by <strong>4 s</strong>! My current worst time is <strong>30 s</strong>, and I need to get under or equal to <strong>26 s</strong>, so <strong aria-hidden='true'>30 - 26 = 4 s</strong><span className='sr-only'>30 minus 26 equals 4 seconds</span>.</div>",
+      "S6_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's exactly right! If you improve by <strong>4 s</strong> across your range, your new range would be <strong>23 to 26 s</strong>. This means that even on your worst day, you'd still qualify.</div>",
+      "S6_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That makes it so clear! I need a <strong>4 s</strong> improvement to be absolutely sure I'll qualify. That's a big goal, but at least now I know exactly what I'm aiming for.</div>",
+      "S6_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>This is why inequalities are so powerful in sports training. They help us define precise goals and boundaries. Now that we know the target, we can break down your race and figure out exactly where those <strong>4 s</strong> will come from.</div>",
+      "S6_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So we're using algebra to make me faster. I never thought math class would help me on the track!</div>",
+      "S6_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Math is everywhere in sports, Nina. Now let's dig deeper and analyze your race by segments to find those seconds we need...</div>"
+    },
+    "S7": {
+      "S7_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I've been thinking about what we discussed before. The <b>4 s</b> improvement seems like a lot, but I think I know part of the problem.</div>",
+      "S7_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>What have you noticed about your running?</div>",
+      "S7_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I start fast, but I feel like I'm slowing down too much in the second half of the race. By the final <no-glossary>stretch</no-glossary>, it feels like I'm crawling compared to how I started.</div>",
+      "S7_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's excellent self-awareness, Nina. Many sprinters have this issue. Let's get some concrete data to confirm your observation.</div>",
+      "S7_D5_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>We've divided your <strong>200 <span role='text' aria-label='meter'>m</span></strong> race into four <strong>50 <span role='text' aria-label='meter'>m</span></strong> segments with timing gates positioned every <strong>50 m</strong>. These sensors recorded how long each segment took. Let's analyze what they show us.</div>",
+      "S7_D6_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So my first <strong aria-label='50 meters' role='text'>50 m</strong> was <strong>7.2 s</strong>, then <strong>6.4 s</strong> for the second <strong aria-label='50 meters' role='text'>50 m</strong>—that's faster because I hit my stride. But then it jumps to <strong>7.1 s</strong> for the third segment, and <strong>7.8 s</strong> for the final stretch. That's where I'm losing it!</div>",
+      "S7_D7_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. But time alone doesn't tell the whole story. To truly understand your performance, we need to calculate your speed in each segment.",
+      "S7_D8_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>How do we do that?</div>",
+      "S7_D9_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>We'll use the fundamental equation that relates distance, speed, and time: <span role='text' aria-label='distance = speed times time'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #E0002B'>Distance</span> = <span style='color: #0061FC'>Speed</span> × <span style='color: #008217'>Time</span> </span> </span>. Since we want to find your speed, we can rearrange this equation.</div>",
+      "S7_D10_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So if <span role='text' aria-label='distance = speed times time'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'><span style='color: #E0002B'>Distance</span> = <span style='color: #0061FC'>Speed</span> × <span style='color: #008217'>Time</span></span></span>, then <span role='text' aria-label='speed = distance divides time'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #0061FC'>Speed</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #E0002B;'>Distance</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #008217;'>Time</span></span></span></span>, right?</div>",
+      "S7_D11_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect! You've just rearranged a literal equation to solve for a different variable. That's a key algebra skill that has real application here. Since each segment is <strong>50 m</strong>, we can calculate your speed in each segment using:  <span role='text' aria-label='speed = 50 divided by time'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #E0002B;'>s</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #0061FC;'>50</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #008217;'>t</span></span></span></span>, where <span style='color: #008217; font-weight: 700; font-style: italic; font-family: Besley;'>t</span> is your time in seconds.</div>",
+      "S7_D12_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>And that will tell us exactly where I'm losing speed.</div>",
+      "S7_D13_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's right. Let's use the Race Segment Calculator to analyze your current performance and identify where you need to improve to reduce those <strong>4 s</strong>.</div>"
+    },
+    "S8": {
+      "S8_D0_F42_C9": {
+        "header": {
+          "title": "Race Segment Calculator"
+        },
+        "about": {
+          "heading": "Race Segment Analysis for Sprinters",
+          "body": "<p>The key concepts demonstrated in this interactive:</p> <ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px'> <li> <strong>Distance-Speed-Time Relationship:</strong> The fundamental formula <span role='text' aria-label='distance equals speed times time'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #E0002B'>d</span> = <span style='color: #0061FC'>s</span> × <span style='color: #008217'>t</span> </span> </span> and its rearrangements (<span role='text' aria-label='speed equals distance divided by time, time equals distance divided by speed'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #0061FC'>s</span> = <span style='color: #E0002B'>d</span> / <span style='color: #008217'>t</span> , <span style='color: #008217'>t</span> = <span style='color: #E0002B'>d</span> / <span style='color: #0061FC'>s</span> </span> </span>) </li> <li> <strong>Segment Analysis:</strong> Breaking down a race into segments reveals specific areas for improvement </li> <li> <strong>Speed Calculation:</strong> Converting raw time data into speed metrics exposes performance patterns </li> </ol> <p><strong>In this interactive, you will:</strong></p> <ul style='list-style-type: disc; margin-left: 30px; margin-top: 10px''> <li> Break down Nina's <strong>200 m</strong> race into <strong>four 50 m</strong> segments </li> <li> Calculate speed for each segment using the rearranged formula <span role='text' aria-label='speed equals distance divided by time'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #0061FC'>s</span> = <span style='color: #E0002B'>d</span> / <span style='color: #008217'>t</span> </li> <li>Identify where the greatest time losses occur</li> <li>Set target speeds and calculate resulting segment times to achieve qualification</li> </ul>"
+        },
+        "help": {
+          "heading": "How to Use the Interactive:",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px'> <li> <strong>Review Current Data:</strong> Observe Nina's current segment times and total race time </li> <li> <strong>Calculate Speeds:</strong> Click \"Calculate Speed\" to convert segment times to meters per second </li> <li> <strong>Calculate:</strong> Fill the Distance and Speed and Click \"Calculate\" to see how speed changes affect segment times </li> </ol> <strong>Things to Observe:</strong> <ul style='list-style-type: disc; margin-left: 30px; margin-top: 10px'> <li>Notice which segments show the greatest speed drop-off</li> <li>Pay attention to the relationship between small segment improvements and total race time</li> <li>Consider the realistic improvements in each segment based on current performance</li> </ul>"
+        },
+        "racePerformanceVisualization": "Race Performance Visualization",
+        "currentTime": "Current Time",
+        "qualifyingTime": "Qualifying Time",
+        "speedAnalysisBySegment": "Speed Analysis by Segment",
+        "segment": "Segment",
+        "distance": "Distance",
+        "time": "Time",
+        "speed": "Speed",
+        "calculate": "Calculate",
+        "calculateSpeedsAndAnalyzeRace": "Calculate Speeds",
+        "reset": "Reset",
+        "distanceRateTimeCalculator": "Distance Rate Time Calculator",
+        "distanceRateTimeCalculatorAriaLabel": "Distance Rate Time Calculator",
+        "distanceRateTimeCalculatorFeedback": "Distance Rate Time Calculator Feedback",
+        "distanceRateTimeCalculatorFeedbackAriaLabel": "Distance Rate Time Calculator Feedback",
+        "distanceSpeedTimeFormulas": "Distance-Speed-Time Formulas",
+        "distanceSpeedTimeCalculator": "Distance-Speed-Time Calculator",
+        "meters": "meters",
+        "seconds": "seconds",
+        "metersPerSecond": "meters/second",
+        "pleaseEnterExactlyTwoValuesToCalculateTheThird": "Please enter exactly two values to calculate the third.",
+        "ariaLabelDistanceFormular": "Distance is equal to speed times time",
+        "ariaLabelSpeedFormular": "Speed is equal to distance divided by time",
+        "ariaLabelTimeFormular": "Time is equal to distance divided by speed",
+        "ariaLabelCurrentTime": "Current Time is 28.5 seconds",
+        "ariaLabelQualifyingTime": "Qualifying Time is less than 26.0 seconds",
+        "ariaLabelSegment_1": "Segment 1 is 0 to 50 meters in 7.2 seconds",
+        "ariaLabelSegment_2": "Segment 2 is 50 to 100 meters in 6.4 seconds",
+        "ariaLabelSegment_3": "Segment 3 is 100 to 150 meters in 7.1 seconds",
+        "ariaLabelSegment_4": "Segment 4 is 150 to 200 meters in 7.8 seconds",
+        "solutionLabel": "Solution",
+        "ariaDeleteIcon": "Clear",
+        "lessThanOrEqualTo": "less than or equal to"
+      },
+      "S8_D1_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Here's the calculator. I've set the distance for each segment <strong>50 m</strong>. And here are your current times for each segment from your last race.</div>",
+      "S8_D2_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So my current total is <strong>28.5 s</strong>. I need to get under <strong>26 s</strong> to qualify.</div>",
+      "S8_D3_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>First, let's calculate your speed in each segment using <span role='text' aria-label='speed = distance divided by time'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #0061FC'>s</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #E0002B;'>d</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #008217;'>t</span></span></span></span>. Since each segment is <strong>50 m</strong>, we'll divide <strong>50</strong> by your time in each segment.<br />Go ahead and click <strong>'Calculate Speeds’</strong> on the calculator to see your results.</div>",
+      "S8_D4_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I can see it clearly now! I'm fastest in <strong>segment 2</strong>, then I start slowing down dramatically, especially in the final stretch.</div>",
+      "S8_D5_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Now, if we want to improve your overall time to qualify, we need to maintain better speed throughout the race. Let's be realistic—we can't expect you to maintain your maximum speed through the entire race, but we can work to minimize the drop-off.</div>",
+      "S8_D6_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So what should my target times be for each segment to qualify?</div>",
+      "S8_D7_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's where we use our equation again, but solved for time: <span role='text' aria-label='time = distance divided by speed'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #008217'>t</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #E0002B;'>d</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #0061FC;'>s</span></span></span></span> . If we set target speeds for each segment, we can calculate the segment times you need to achieve.</div>",
+      "S8_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>If you want to achieve a total time of <strong>25.5 <span role='text' aria-label='seconds'>s</span></strong> (which would qualify you for state), and you plan to maintain your <strong>segment 2</strong> speed (<strong>7.81 <span role='text' aria-label='meter per seconds'> m/s</span></strong>) through <strong>segment 3</strong>, how much time would the third segment take?</div>",
+      "S8_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>If I can maintain my <strong>segment 2</strong> speed through <strong>segment 3</strong>, then <strong>segment 3</strong> would take the same time as <strong>segment 2</strong>—that's <strong>6.4 s</strong>!</div>",
+      "S8_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent calculation! That alone would save you <strong>0.7 <span role='text' aria-label='seconds'>s</span></strong> from your current time, bringing you down to <strong>27.8 <span role='text' aria-label='seconds'>s</span></strong> total. But you still need to find another <strong>1.8 <span role='text' aria-label='seconds'>s</span></strong> to reach your <strong>26 <span role='text' aria-label='seconds'>s</span></strong> goal.</div>",
+      "S8_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So I need to improve other segments too. Where do you think I have the most potential for improvement?</div>",
+      "S8_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Looking at your speed data, your final segment is significantly slower than the others—<strong>6.41 <span role='text' aria-label='meter per seconds'>m/s</span></strong> compared to over <strong>7 <span role='text' aria-label='meter per seconds'>m/s</span></strong> in <strong>segments 2 and 3</strong>. That's where you're losing the most time.</div>",
+      "S8_D13_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Since we've identified that <strong>segment 4</strong> is your biggest opportunity, let's be specific about our target. You need to reduce your total time by <strong>1.8 <span role='text' aria-label='seconds'>seconds</span></strong> to reach <strong>26 <span role='text' aria-label='seconds'>seconds</span></strong>. If you focus all that improvement on <strong>segment 4</strong>, what should your new target time be for that segment?</div>",
+      "S8_D13_FX_C1_optionA": "Reduce <strong>segment 4</strong> from <strong>7.8 <span role='text' aria-label='seconds'>seconds</span></strong> to <strong>6.8 <span role='text' aria-label='seconds'>seconds</span></strong>",
+      "S8_D13_FX_C1_optionB": "Reduce <strong>segment 4</strong> from <strong>7.8 <span role='text' aria-label='seconds'>seconds</span></strong> to <strong>6.0 <span role='text' aria-label='seconds'>seconds</span></strong>",
+      "S8_D13_FX_C1_optionC": "Reduce <strong>segment 4</strong> from <strong>7.8 <span role='text' aria-label='seconds'>seconds</span></strong> to <strong>6.5 <span role='text' aria-label='seconds'>seconds</span></strong>",
+      "S8_D14_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's right - I need to get <strong>segment 4</strong> down to <strong>6.0 <span role='text' aria-label='seconds'>s</span></strong>! That's a big improvement from <strong>7.8 <span role='text' aria-label='seconds'>s</span></strong>, but since it's my slowest segment, that's where I have the most room to improve.</div>",
+      "S8_D15_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! Your final <strong>50 <span role='text' aria-label='meter'>m</span></strong> is currently your weakest section at <strong>6.41 <span role='text' aria-label='meter per seconds'>m/s</span></strong>. If we can get that closer to your <strong>segment 2 and 3</strong> speeds through training, you'll have a realistic path to qualification.</div>",
+      "S8_D16_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So by using the distance formula and solving for different variables, we've identified exactly where I need to focus my training! I need to work on maintaining my speed through <strong>segment 3</strong> and significantly improving my finishing speed in <strong>segment 4</strong>.</div>",
+      "S8_D17_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. This is the power of literal equations in sports analysis. By solving for different variables, we can identify specific areas for improvement and set realistic, targeted goals. Now, let's talk about how to design training that will help you achieve these targets...</div>"
+    },
+    "S9": {
+      "S9_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I've been trying to follow the plan we developed, but I'm noticing something frustrating in my training.</div>",
+      "S9_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>What's that, Nina?</div>",
+      "S9_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Some days I push too hard and feel completely exhausted the next day. I even had to skip training last Thursday because my muscles were so sore. But other days, I don't push hard enough and don't see any improvement. It's hard to find the right balance.</div>",
+      "S9_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's a common challenge for athletes. Training intensity is critical—there's actually a scientific principle called the 'training-effect threshold.'</div>",
+      "S9_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>What's that?</div>",
+      "S9_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>It means that to see improvement, you need to train above a certain <no-glossary>minimum</no-glossary> intensity. But there's also an upper limit, beyond which you risk injury or overtraining. The key is finding that sweet spot in between.</div>",
+      "S9_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So I need to train hard enough to improve, but not so hard that I hurt myself or need excessive recovery time.</div>",
+      "S9_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. This is actually a perfect application for compound inequalities. We can define your optimal training intensity as a range with both lower and upper bounds.</div>",
+      "S9_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Like staying between two values?</div>",
+      "S9_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. In mathematical terms, if we call your training intensity '<strong>n</strong>', measured as a percentage of maximum effort, we might write something like <strong>75% ≤ n ≤ 90%</strong>, meaning your intensity should be at least <strong>75%</strong> but no more than <strong>90%</strong> of your maximum effort.</div>",
+      "S9_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That makes sense. But how do we determine what those values should be for me specifically?</div>",
+      "S9_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>There are established ranges based on sport science research, but we can fine-tune them for you based on your heart rate and recovery patterns. Let me show you a tool that can help us visualize and calculate your optimal training zones.</div>"
+    },
+    "S10": {
+      "S10_D0_F60_C9": {
+        "header": {
+          "title": "Training Intensity Optimizer"
+        },
+        "about": {
+          "heading": "Training Intensity Zones for Athletes",
+          "body": "<p>The key concepts demonstrated in this interactive:</p><ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-top: 10px; margin-left: 20px'><li><strong>Optimal Training Ranges:</strong> Scientific principles establish effective training intensity zones</li><li><strong>Compound Inequalities:</strong> Mathematical expressions like <strong>80% ≤ i ≤ 90%</strong> represent training boundaries</li><li><strong>OR Conditions:</strong> Complex training requirements combine multiple ranges (recovery OR peak performance)</li><li><strong>Unit Conversion:</strong> Translating percentage-based intensities to practical metrics (speeds, times)</li></ol><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'><li>Visualize training intensity zones as compound inequalities</li><li>Convert percentage-based intensity ranges to concrete speeds and target times</li><li>Apply compound inequalities for specialized training protocols</li><li>Calculate precise workout parameters based on mathematical constraints</li></ul>"
+        },
+        "help": {
+          "heading": "How to Use the Interactive:",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-left: 20px'>   <li><strong>Review Intensity Spectrum:</strong> Observe the visualization of different training zones (recovery, regular, peak)</li>   <li><strong>Select Workout Type:</strong> Choose the type of training session (recovery, regular, or peak performance)</li>   <li><strong>Input Distance:</strong> Enter the distance for repetitions (<span aria-hidden='true'>e.g., <strong>100 m</strong> or <strong>200 m</strong></span><span className='sr-only'>example, 100 meters or 200 meters</span>)</li>   <li><strong>Analyze Compound Cases:</strong> For specialized workouts, use the OR condition tool to combine ranges</li> </ol>  <p><strong>Things to Observe:</strong></p> <ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'>   <li>Notice how different training intensities translate to specific speed and time targets</li>   <li>Pay attention to the boundaries between training zones</li>   <li>Consider how compound inequalities with OR conditions create more complex training scenarios</li> </ul>"
+        },
+        "trainingIntensityZones": "Training Intensity Zones",
+        "workoutCalculator": "Workout Calculator",
+        "workoutType": "Workout Type",
+        "distance": "Distance (meters)",
+        "specialized": "Specialized: Recovery OR Peak (Not Regular)",
+        "intensityRange": "Intensity Range (percentage)",
+        "speedRange": "Speed Range (meters/second)",
+        "timeRange": "Time Range for",
+        "recovery": "Recovery",
+        "regular": "Regular",
+        "peak": "Peak",
+        "seconds": "seconds",
+        "meters": "meters",
+        "recoveryWorkout": "Recovery Workout",
+        "regularWorkout": "Regular Workout",
+        "peakWorkout": "Peak Workout",
+        "specializedWorkout": "Specialized Workout (Recovery OR Peak)",
+        "ariaLabelRecovery": "Recovery Zone with 60-80% intensity at speed 4.80 to 6.40 meters per second",
+        "ariaLabelRegular": "Regular Zone with 80-90% intensity at speed 6.40 to 7.20 meters per second",
+        "ariaLabelPeak": "Peak Zone with 90-95% intensity at speed 7.20 to 7.60 meters per second",
+        "ariaLabelIsLessThanEqual": "is less than or equal to",
+        "ariaLabelIntensityRange": "Intensity Range in percentage",
+        "ariaLabelSpeedRange": "Speed Range in meters per second",
+        "ariaLabelTimeFor": "Time Range for",
+        "ariaLabelTo": "to",
+        "ninaTrainingData": "Nina's Training Data",
+        "maximumSpeed": "Maximum Speed",
+        "monday": "Monday",
+        "wednesday": "Wednesday",
+        "friday": "Friday",
+        "tooEasyMinimalImprovement": "Too easy, minimal improvement",
+        "excellentButExcessiveSoreness": "Excellent but excessive soreness",
+        "goodBalanceOfChallengeAndRecovery": "Good balance of challenge and recovery",
+        "mpers": "m/s",
+        "inputFieldAria": "Input Field",
+        "selectFieldAria": "Select Field",
+        "eightMetersPerSecond": "8.0 meters per second",
+        "seventyFivePercentIntensity": "75% intensity at speed 6 meters per second",
+        "ninetyFivePercentIntensity": "95% intensity at speed 7.6 meters per second",
+        "eightyTwoPercentIntensity": "82% intensity at speed 6.6 meters per second"
+      },
+      "S10_D1_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>This tool helps us define your optimal training intensity for different types of workouts. Sports scientists typically measure intensity based on heart rate, percentage of maximum speed, or rating of perceived exertion.</div>",
+      "S10_D2_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I've heard about heart rate zones before.</div>",
+      "S10_D3_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Right. For sprint training, we often use a percentage of maximum speed. Let's look at your recent training data shown in the tool.</div>",
+      "S10_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Looking at this data and sports science research, we can establish that your optimal training intensity range for regular training sessions should be between <strong>80%</strong> and <strong>90%</strong> of your maximum. Let's represent this as a compound inequality.</div>",
+      "S10_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>So if my maximum speed is <strong>8.0 <span role='text' aria-label='meter per seconds'> m/s</span></strong>, then my optimal training range would be... let me see, <strong>80%</strong> of <strong>8.0</strong> is <strong>6.4 <span role='text' aria-label='meter per seconds'> m/s</span></strong>, and <strong>90%</strong> is <strong>7.2 <span role='text' aria-label='meter per seconds'> m/s</span></strong>. So it's somewhere between those two values?</div>",
+      "S10_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's the right calculation! Now let's practice writing that as a formal compound inequality.</div>",
+      "S10_D7_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>For your sprint interval training, the recommended intensity is <strong>80%</strong> to <strong>90%</strong> of your maximum speed (<strong>8.0<span role='text' aria-label='meter per seconds'> m/s</span></strong>). Write this as a compound inequality in terms of speed (<strong>s</strong>) in meters per second.</div>",
+      "S10_D7_FX_C1_prefix_text": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><span role='text' aria-label='less than or equal to'>≤</span> Speed <span role='text' aria-label='less than or equal to'>≤</span></div>",
+      "S10_D8_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I would write: <strong>6.4 ≤ S ≤ 7.2</strong>, where <strong>S</strong> is my speed in <span aria-hidden='true'>m/s</span><span className='sr-only'>meters per second</span>.</div>",
+      "S10_D9_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect! Now, sports science research also shows that different types of training require different intensity ranges: <ul style='margin-left: 20px; list-style-type: disc;'><li>Recovery sessions: <strong>60%</strong> to <strong>80%</strong> (<strong>4.8</strong> to <strong>6.4<span role='text' aria-label='meter per seconds'> m/s</strong></span>)</li><li>Regular training: <strong>80%</strong> to <strong>90%</strong> (<strong>6.4</strong> to <strong>7.2<span role='text' aria-label='meter per seconds'> m/s</strong></span>)</li><li>Peak performance: <strong>90%</strong> to <strong>95%</strong> (<strong>7.2</strong> to <strong>7.6<span role='text' aria-label='meter per seconds'> m/s</strong></span>)</li></ul></div>",
+      "S10_D10_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I notice there's some overlap at <strong>90%</strong>.</div>",
+      "S10_D11_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Good observation. Boundary points often appear in multiple zones, showing how training intensity exists on a continuum.</div>",
+      "S10_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>You have competition in a month from now. Your coach wants you to do a workout that avoids the regular training intensity zone but still provides either adequate recovery or appropriate peak stimulus. Using <strong>p</strong> for intensity percentage, which compound inequality correctly represents the allowable intensities for today's workout?</div>",
+      "S10_D12_FX_C1_optionA": "<strong>60% ≤ p ≤ 80%</strong> OR <strong>90% ≤ p ≤ 95%</strong>",
+      "S10_D12_FX_C1_optionB": "<strong>p < 80%</strong> OR <strong>p > 90%</strong>",
+      "S10_D12_FX_C1_optionC": "<strong>60% < p < 95%</strong>",
+      "S10_D13_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Since I need either recovery <strong>(60% to 80%)</strong> or peak performance <strong>(90% to 95%)</strong>, but not regular training <strong>(80% to 90%)</strong>, I'd choose A: <strong>60% ≤ p ≤ 80%</strong> OR <strong>90% ≤ p ≤ 95%</strong>.</div>",
+      "S10_D14_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent! You've used compound inequalities to represent multiple acceptable ranges. Now let's translate these percentage ranges into actual workout targets.</div>",
+      "S10_D15_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>How do we do that?</div>",
+      "S10_D16_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>We can use the distance equation again. If we know your desired speed range, we can calculate target times for your repetitions.</div>",
+      "S10_D17_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Your coach assigns a workout: <strong>8 × 100 m repeats</strong> at <strong>60% to 80%</strong> intensity (recovery session). If your maximum speed is <strong>8.0<span role='text' aria-label='meter per seconds'> m/s</span></strong>, what is the range of acceptable times (in seconds) for each <strong>100 m</strong> repeat?</div>",
+      "S10_D17_FX_C1_prefix_text": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><span role='text' aria-label='less than or equal to'>≤</span> Time <span role='text' aria-label='less than or equal to'>≤</span></div>",
+      "S10_D18_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>For a recovery session at 60% to 80% of my maximum speed: <ol style='margin-left: 20px; list-style-type: disc;'><li><strong>60%</strong> of <strong>8.0<span role='text' aria-label='meter per seconds'> m/s</span></strong> is <strong>4.8<span role='text' aria-label='meter per seconds'> m/s</span></strong></li><li><strong>80%</strong> of <strong>8.0<span role='text' aria-label='meter per seconds'> m/s</span></strong> is <strong>6.4<span role='text' aria-label='meter per seconds'> m/s</span></strong></li><li>For my fastest allowed time: <strong>100 ÷ 6.4 = 15.6 s</strong></li><li>For my slowest allowed time: <strong>100 ÷ 4.8 = 20.8 s</strong></li></ol><p>So my acceptable range is <strong>15.6 to 20.8 s</strong> per <strong>100 m</strong> repeat.</p></div>",
+      "S10_D19_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent work! Now you have specific, measurable targets for your workout. If you complete each repeat between <strong>15.6</strong> and <strong>20.8 s</strong>, you'll be training in your optimal recovery zone.</div>",
+      "S10_D20_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>This is amazing! Instead of just guessing about 'easy' or 'hard' workouts, I now have exact time targets for different training purposes.</div>",
+      "S10_D21_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's the power of compound inequalities in training. They give us precise boundaries for different training zones, helping you train smarter, not just harder. By staying within these ranges, you'll improve consistently without risking injury or burnout.</div>",
+      "S10_D22_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>And I can see how this connects to our overall goal. By training at the right intensities, I'll be able to achieve those segment times we calculated earlier, which will get me under the <strong>26 s</strong> qualifying time.</div>",
+      "S10_D23_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Everything is connected. Now, let's talk about how to predict your race day performance based on these training indicators...</div>"
+    },
+    "S11": {
+      "S11_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>I've been following our training plan for three weeks now, and I can see improvement in my time trials. Last week I ran the <strong>200<span role='text' aria-label='meters'> m</span></strong> in <strong>26.8 s</strong>, and yesterday I got it down to <strong>26.2 s</strong>.</div>",
+      "S11_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's excellent progress, Nina! You're getting very close to the qualifying time of <strong>26 s</strong>.</div>",
+      "S11_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>But that's still in practice. My time trials and training metrics are improving, but I'm still nervous about whether I'll hit my target on race day. The qualifying meet is only a week away.</div>",
+      "S11_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>That's a valid concern. Race day performance doesn't always match exactly what we see in practice.</div>",
+      "S11_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! Sometimes I do better in competition with the adrenaline, but other times the pressure gets to me. Can we predict what might happen?</div>",
+      "S11_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>We can't predict the exact time you'll run, but we can model the range of likely outcomes based on your training data. This is where mathematics, specifically absolute value equations and inequalities, becomes very useful.</div>",
+      "S11_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>How does that work?</div>",
+      "S11_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Race day performance usually correlates with training indicators, but with some variation. We can model this with an equation that includes your time trial result plus a Race Day Factor that accounts for all the variables that might affect your performance.</div>",
+      "S11_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Like weather, competition, nerves, and all that?</div>",
+      "S11_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. Research shows that for most sprinters, race times are typically about <strong>95%</strong> of their recent time trial times, plus or minus a Race Day Factor. Let me show you how we can use mathematical modeling to predict your likely performance range.</div>"
+    },
+    "S12": {
+      "S12_D0_F80_C9": {
+        "header": {
+          "title": "Race Performance Predictor"
+        },
+        "about": {
+          "heading": "Race Day Performance Modeling",
+          "body": "<p>The key concepts demonstrated in this interactive:</p><ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-top: 10px; margin-left: 20px'><li><strong>Performance Prediction:</strong>Mathematical models can forecast race performance from training data</li><li><strong>Absolute Value Inequalities:</strong>The expression <strong style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>|RDF| ≤ 0.8</strong> represents a range from <strong style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>-0.8</strong> to <strong style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>+0.8</strong></li><li><strong>Variable Factors:</strong>Race day elements (weather, competition, mental state) create performance variability</li><li><strong>Confidence Intervals:</strong>Predicted performance ranges provide statistical confidence for qualification</li></ol><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'><li>Apply a predictive formula to estimate race performance from time trial results</li><li>Use absolute value inequalities to model race day variability</li><li>Calculate best-case and worst-case scenarios based on the prediction model</li></ul>"
+        },
+        "help": {
+          "heading": "How to Use the Interactive",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-left: 20px'><li><strong>Input Time Trial:</strong>Enter Nina's most recent time trial result</li><li><strong>Apply the Formula:</strong>Click 'Calculate' to apply the prediction formula (<span style='font-family: besley; font-weight: bold; font-style: italic;'><span style='color: #DB0072;'>Race Time</span> = 0.95 × <span style='color: #0061FC;'>Time Trial</span> + <span style='color: #633300;'>Race Day Factor</span></span>)</li><li><strong>View Predicted Range:</strong>Observe the calculated range based on the Race Day Factor (<span style='font-family: besley; font-weight: bold; font-style: italic; color: #633300;'>|RDF| ≤ 0.8</span>)</li><li><strong>Test Qualification:</strong>Check if the entire predicted range falls below the qualifying threshold</li></ol><p><strong>Things to Observe:</strong></p><ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'><li>Notice how the absolute value inequality creates a symmetrical range around the baseline prediction</li><li>Pay attention to whether the worst-case scenario still meets qualification standards</li><li>Consider how this mathematical model provides confidence despite race day uncertainties</li></ul>"
+        },
+        "predictionFormula": "Prediction Formula",
+        "raceTime": "Race Time",
+        "timeTrial": "Time Trial",
+        "timeTrialResult": "Time Trial Result",
+        "calculationSteps": "Calculation Steps",
+        "basePrediction": "Base Prediction",
+        "baseCase": "Base Case",
+        "worstCase": "Worst Case",
+        "raceDayFactor": "Race Day Factor",
+        "qualificationStatus": "Qualification Status",
+        "willQualify": "Will Qualify",
+        "mayNotQualify": "May Not Qualify",
+        "willQualifyDescription": "Even in your worst-case scenario, you'll beat the qualifying time by",
+        "mayNotQualifyDescription": "Your worst-case scenario doesn't meet the qualifying standard",
+        "predictedRaceTimeRange": "Predicted Race Time Range",
+        "seconds": "seconds",
+        "inputFieldAria": "Input Field"
+      },
+      "S12_D1_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Here's our race performance predictor. It has your most recent time trial results.</div>",
+      "S12_D2_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>So the formula multiplies my time trial by <strong>0.95</strong>, meaning I should perform about <strong>5%</strong> better in a race situation due to adrenaline and competition?</div>",
+      "S12_D3_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>That's right. That gives us a baseline prediction. But then we add the Race Day Factor, which can be positive or negative up to <strong style='color: #633300; font-family: besley;'>0.8 s</strong>, based on sports science research on sprint performance variability.</div>",
+      "S12_D4_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>And that's where the absolute value comes in? <span role='text' aria-label='the absolute value of RDF is less than or equal to 0.8'><span aria-hidden='true'><strong style='color: #633300; font-family: besley;'><i>|RDF| ≤ 0.8</i></strong></span></span> means the Race Day Factor could be anywhere from <strong style='color: #633300; font-family: besley;'>-0.8</strong> to <strong style='color: #633300; font-family: besley;'>+0.8 s</strong>?</div>",
+      "S12_D5_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! You've just interpreted an absolute value inequality. Let's calculate your predicted race time range.</div>",
+      "S12_D6_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Based on your time trial of <strong>26.2 s</strong> and the prediction formula (<i><b style='font-family: besley;'><span style='color: #DB0072;'>Race Time</span> = 0.95 × <span style='color: #0061FC;'>Time Trial</span> + <span style='color: #633300;'>Race Day Factor</span></b></i>, where <span role='text' aria-label='the absolute-value of Race Day Factor is less than or equal to 0.8'><span aria-hidden='true'><i><b style='font-family: besley; color: #633300;'>|RDF| ≤ 0.8</b></i></span></span>), what is the worst-case scenario for your race time?</div>",
+      "S12_D7_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Let me think this through. My baseline prediction is <i style='font-family: besley;'><strong>0.95 × <span style='color: #0061FC;'>26.2</span> = <span style='color: #DB0072;'>24.89 s</span></strong></i>. The worst case would add the maximum Race Day Factor of <strong style='color: #633300; font-family: besley;'>+0.8 s</strong>. So<i style='font-family: besley;'><strong> <span style='color: #DB0072;'>24.89</span> + <span style='color: #633300;'>0.8</span> = <span style='color: #DB0072;'>25.69 s</span></strong></i>.</div>",
+      "S12_D8_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect calculation! Even in your worst-case scenario, you'd still beat the qualifying standard of <strong>26 s</strong>.</div>",
+      "S12_D9_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>That's a relief! And my best case would be <strong>24.09 s</strong>, which would be amazing!</div>",
+      "S12_D17_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>That's exactly right! The absolute value inequality model shows us that you've already improved enough to qualify with high confidence. The work we've done analyzing your race segments and optimizing your training intensity has paid off.</div>",
+      "S12_D18_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>This is amazing! I've gone from being consistently over the qualifying time to having mathematical evidence that I'll qualify, even accounting for race day variables.</div>",
+      "S12_D19_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>That's the power of mathematical modeling in sports. By creating equations that include variables for uncertain factors and using absolute value inequalities to bound those uncertainties, we can make reliable predictions even in unpredictable situations.</div>",
+      "S12_D20_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>So I'm ready for the state championship in a week?</div>",
+      "S12_D21_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Based on our mathematical model, yes! But let's keep working on those training targets to push your potential even further. The better your time trials get, the stronger your position will be on race day.</div>",
+      "S12_D22_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>I'm confident now. I understand exactly what I need to do and why it works. Math really does make a difference in sports performance!</div>"
+    },
+    "S13": {
+      "S13_D1_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>So, ready for tomorrow's race?</div>",
+      "S13_D2_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>I feel more prepared than I've ever been. It's amazing how much our approach has changed my understanding of racing.</div>",
+      "S13_D3_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>What aspects do you think made the biggest difference?</div>",
+      "S13_D4_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>When we started, I was just running by feel. Now I understand exactly what I need to do. Breaking down my race into segments showed me where I was losing time, especially in that final stretch. And having specific training intensity ranges instead of just guessing what 'hard' or 'easy' meant has been game-changing.</div>",
+      "S13_D5_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>You've applied the math concepts remarkably well. The absolute value inequalities in our prediction model gave you confidence, right?</div>",
+      "S13_D6_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Absolutely! Understanding that my race time would fall within that calculated range, even with race day variables, took away the guesswork. I never thought algebra would be the key to improving my sprint times.</div>",
+      "S13_D7_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>That's the true victory here. Whether you're solving for variables in class or on the track, math gives you the tools to understand and improve.</div>",
+      "S13_D8_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>You know what's funny? I think I'll actually miss our sessions after the season ends.</div>",
+      "S13_D9_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>There's always next season—and plenty more math to apply. For now, focus on tomorrow and trust your preparation. The numbers don't lie.</div>"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You Have Gained Experience In The Mathematics Of Athletic Training",
+      "content": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'><p style='padding-bottom: 10px;'>You successfully completed the Sprint to the Finish STEAMQuest.</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You applied inequalities to establish clear performance targets and qualifying standards</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You used literal equations to analyze race segments and identify areas for improvement</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You worked with compound inequalities to determine optimal training intensity zones</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You employed absolute value inequalities to predict race day performance ranges</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'>Keep exploring how mathematical principles can enhance athletic training and performance!</p></div>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_9360_8560' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_9360_8560)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><path d='M56.8644 36.4568L56.8628 36.4569L52.3622 36.787L52.5028 33.108L52.5028 33.108C52.544 32.029 52.0723 31.176 51.477 30.4598C51.1806 30.1032 50.8451 29.7704 50.5157 29.4552C50.4218 29.3654 50.329 29.2776 50.2375 29.191C50.0013 28.9674 49.7732 28.7515 49.5546 28.5283L44.5151 23.3832C43.5902 22.381 42.0242 22.3101 41.0114 23.2253L41.011 23.2257L36.0479 27.7225C36.0478 27.7225 36.0478 27.7226 36.0477 27.7227C35.4628 28.2514 35.2032 28.8974 35.2155 29.5399C35.2275 30.1694 35.4991 30.7563 35.904 31.1981C36.3089 31.64 36.8705 31.9623 37.4974 32.0331C38.1369 32.1053 38.8071 31.9106 39.392 31.382L39.3925 31.3816L42.582 28.4915L44.289 30.2338L22.2463 52.2646C22.2462 52.2646 22.2462 52.2647 22.2462 52.2647C21.6885 52.8217 21.4612 53.4797 21.5053 54.1205C21.5485 54.7484 21.8487 55.3208 22.2749 55.7417C22.7011 56.1626 23.2778 56.4563 23.9072 56.4955C24.5492 56.5356 25.2086 56.3077 25.7663 55.7508L25.7665 55.7506L39.7517 41.7733C39.7768 41.7998 39.8026 41.8258 39.8289 41.8513L44.33 46.4823L37.6009 47.1241C36.8154 47.1977 36.2188 47.5579 35.8409 48.0773C35.4705 48.5864 35.3322 49.217 35.3889 49.8123C35.4455 50.4076 35.7002 51.001 36.1597 51.4319C36.6284 51.8714 37.2819 52.1143 38.0673 52.0406L38.0681 52.0405L49.8531 50.9162C51.92 50.7892 52.9801 48.2775 51.4875 46.7364L51.4869 46.7358L45.1174 40.1822L47.3145 38.1714C47.3126 38.203 47.3108 38.2348 47.309 38.2668C47.2829 38.7317 47.2655 39.2185 47.2947 39.6298C47.3916 40.9954 48.5836 42.0182 49.9501 41.9225L49.9517 41.9224L57.2142 41.3909C57.2146 41.3908 57.215 41.3908 57.2154 41.3908C58.003 41.3353 58.6084 40.9887 58.9989 40.478C59.382 39.977 59.5356 39.3488 59.4931 38.7514C59.4507 38.154 59.2099 37.5538 58.7601 37.1114C58.3013 36.6603 57.6527 36.4016 56.8644 36.4568ZM54.2363 21.5C51.8172 21.5 49.8502 23.4483 49.8502 25.8593C49.8502 28.27 51.817 30.2185 54.2363 30.2185C56.6553 30.2185 58.6223 28.27 58.6223 25.8593C58.6225 23.4484 56.6554 21.5 54.2363 21.5Z' fill='black' stroke='black'/><path d='M56.8644 34.4568L56.8628 34.4569L52.3622 34.787L52.5028 31.108L52.5028 31.108C52.544 30.029 52.0723 29.176 51.477 28.4598C51.1806 28.1032 50.8451 27.7704 50.5157 27.4552C50.4218 27.3654 50.329 27.2776 50.2375 27.191C50.0013 26.9674 49.7732 26.7515 49.5546 26.5283L44.5151 21.3832C43.5902 20.381 42.0242 20.3101 41.0114 21.2253L41.011 21.2257L36.0479 25.7225C36.0478 25.7225 36.0478 25.7226 36.0477 25.7227C35.4628 26.2514 35.2032 26.8974 35.2155 27.5399C35.2275 28.1694 35.4991 28.7563 35.904 29.1981C36.3089 29.64 36.8705 29.9623 37.4974 30.0331C38.1369 30.1053 38.8071 29.9106 39.392 29.382L39.3925 29.3816L42.582 26.4915L44.289 28.2338L22.2463 50.2646C22.2462 50.2646 22.2462 50.2647 22.2462 50.2647C21.6885 50.8217 21.4612 51.4797 21.5053 52.1205C21.5485 52.7484 21.8487 53.3208 22.2749 53.7417C22.7011 54.1626 23.2778 54.4563 23.9072 54.4955C24.5492 54.5356 25.2086 54.3077 25.7663 53.7508L25.7665 53.7506L39.7517 39.7733C39.7768 39.7998 39.8026 39.8258 39.8289 39.8513L44.33 44.4823L37.6009 45.1241C36.8154 45.1977 36.2188 45.5579 35.8409 46.0773C35.4705 46.5864 35.3322 47.217 35.3889 47.8123C35.4455 48.4076 35.7002 49.001 36.1597 49.4319C36.6284 49.8714 37.2819 50.1143 38.0673 50.0406L38.0681 50.0405L49.8531 48.9162C51.92 48.7892 52.9801 46.2775 51.4875 44.7364L51.4869 44.7358L45.1174 38.1822L47.3145 36.1714C47.3126 36.203 47.3108 36.2348 47.309 36.2668C47.2829 36.7317 47.2655 37.2185 47.2947 37.6298C47.3916 38.9954 48.5836 40.0182 49.9501 39.9225L49.9517 39.9224L57.2142 39.3909C57.2146 39.3908 57.215 39.3908 57.2154 39.3908C58.003 39.3353 58.6084 38.9887 58.9989 38.478C59.382 37.977 59.5356 37.3488 59.4931 36.7514C59.4507 36.154 59.2099 35.5538 58.7601 35.1114C58.3013 34.6603 57.6527 34.4016 56.8644 34.4568ZM54.2363 19.5C51.8172 19.5 49.8502 21.4483 49.8502 23.8593C49.8502 26.27 51.817 28.2185 54.2363 28.2185C56.6553 28.2185 58.6223 26.27 58.6223 23.8593C58.6225 21.4484 56.6554 19.5 54.2363 19.5Z' fill='white' stroke='black'/></g></svg>",
+      "rightsvg": "<svg width='191' height='129' viewBox='0 0 191 129' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_9360_8556' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='191' height='129'><rect width='191' height='129' fill='#D9D9D9'/></mask><g mask='url(#mask0_9360_8556)'><path opacity='0.2' d='M145.222 58.9838C154.875 58.3125 155.909 72.7845 146.258 73.4562L119.362 75.4107C115.309 75.6926 111.791 72.6818 111.506 68.6853C111.307 65.9144 111.736 61.9307 111.847 59.0396L98.9398 70.7693L123.854 96.2217C128.243 100.722 125.146 108.124 118.989 108.477L75.3196 112.613C65.7046 113.509 64.3241 99.0927 73.9381 98.1984L102.698 95.4744L83.3214 75.6796C82.7703 75.1548 82.3051 74.5504 81.9434 73.8844L28.6374 126.783C21.8236 133.539 11.4071 123.324 18.2202 116.568L101.135 34.2851L92.2853 25.3166L79.156 37.1289C72.0107 43.541 62.1109 32.8144 69.2566 26.4023L87.635 9.86851C90.6389 7.17329 95.2903 7.38932 98.0236 10.3508L116.704 29.2875C121.307 33.9538 127.349 38.1001 127.093 44.7681L126.493 60.3474L145.222 58.9838ZM135.361 4C127.415 4 120.972 10.352 120.972 18.1884C120.972 26.0244 127.414 32.3769 135.361 32.3769C143.308 32.3769 149.75 26.0244 149.75 18.1884C149.751 10.3521 143.308 4 135.361 4Z' fill='white'/></g></svg>",
+      "leftsvgarialabel": "Athlete running icon",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#clip0_1853_3355)\"><path d=\"M68.884 30.9415L62.4383 19.7779C61.5173 18.1818 60.0503 16.9742 58.3069 16.3761L47.2371 12.5767C46.9116 12.4515 46.5496 12.5631 46.4373 12.6763C43.3436 14.7879 36.8562 14.7834 33.5483 12.6696C33.306 12.5034 33.0102 12.4796 32.7576 12.5767L21.6883 16.3761C19.9449 16.9742 18.4779 18.1818 17.5569 19.7779L11.1112 30.9415C10.8767 31.3482 11.016 31.8681 11.4227 32.1026L20.6403 37.4231C21.047 37.6576 21.5658 37.5183 21.8003 37.1127L25.0481 31.4887V64.7396C25.0481 66.2519 26.2772 67.481 27.7895 67.481H52.7914C54.3037 67.481 55.5339 66.2519 55.5339 64.7396L55.5337 32.5037L58.1947 37.1129C58.4292 37.5184 58.948 37.6578 59.3547 37.4233L68.5724 32.1027C68.979 31.8683 69.1184 31.3483 68.8839 30.9416L68.884 30.9415ZM28.6383 39.5178C28.6383 33.7057 33.3676 28.9782 39.1778 28.9782C44.9996 28.9782 49.7184 33.7126 49.7184 39.5178C49.7184 40.4042 49.6089 41.2969 49.3831 42.1617C51.3857 43.253 52.1673 45.9567 50.2735 47.8482L45.6971 52.4245C45.3601 52.7638 44.8159 52.7487 44.4917 52.4245L41.7968 49.7296C40.9759 49.9399 40.1006 50.0581 39.1777 50.0581C33.3656 50.0583 28.6381 45.3277 28.6381 39.5176L28.6383 39.5178ZM45.7579 14.9475L45.3728 16.9299C44.8745 19.498 42.6134 21.3613 39.9976 21.3613C37.3818 21.3613 35.1208 19.4979 34.6225 16.9298L34.2305 14.9111C37.5436 16.2402 42.3297 16.3544 45.7575 14.9475L45.7579 14.9475ZM52.7914 65.7797H27.7895C27.2152 65.7797 26.7474 65.313 26.7474 64.7375V60.0602H53.8348V64.7375C53.8348 65.313 53.3672 65.7797 52.7917 65.7797H52.7914ZM49.0724 46.6435V46.6447L45.094 50.6231L42.6505 48.1796C42.6505 48.1785 42.6482 48.1762 42.6471 48.1751L41.1155 46.6435C39.4108 45.007 41.9055 42.1511 43.7572 44.0029L44.4935 44.7404C44.8256 45.0725 45.3633 45.0723 45.6954 44.7404L46.4317 44.0029C48.1672 42.2674 50.8318 44.8872 49.0723 46.6435L49.0724 46.6435ZM34.3883 46.9437C34.6892 46.2869 34.578 45.7233 34.1877 45.3079C32.8824 43.9199 32.9832 40.6262 35.0249 39.2262C35.8567 38.6569 36.5376 36.7132 35.6876 36.026C34.284 34.8931 32.928 34.5895 31.9561 34.4208C33.5775 32.136 36.1658 30.7361 38.9939 30.6779C39.6243 30.6662 40.2387 30.7147 40.871 30.8388C40.564 31.4628 40.389 31.1588 40.7067 31.9818C41.204 33.2788 41.255 34.7232 40.8483 36.052C40.6493 36.7018 41.6549 37.0197 41.8418 36.342C42.0888 35.455 42.961 34.8965 43.8684 35.0438C44.7838 35.1922 45.733 35.0619 46.5736 34.6768C47.4767 36.0513 48.0191 37.7182 48.0191 39.5159C48.0191 40.286 47.9239 41.011 47.7427 41.7203C47.3624 41.7203 47.0295 41.7639 46.5566 41.931C46.5555 41.931 46.5555 41.9322 46.5555 41.9322C45.944 42.1597 45.531 42.4986 45.0953 42.9381C44.9631 42.8059 44.6491 42.4751 44.2332 42.2255C41.0015 40.2486 36.6526 44.5831 39.9138 47.8453L40.3488 48.2803C39.9682 48.3307 39.5787 48.3573 39.1775 48.3573C37.4339 48.3575 35.7717 47.8441 34.3881 46.9437L34.3883 46.9437Z\" fill=\"#005F20\"/></g><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"11.5\" stroke=\"#005F20\"/><defs><clipPath id=\"clip0_1853_3355\"><rect width=\"58\" height=\"58\" fill=\"white\" transform=\"translate(11 11)\"/></clipPath></defs></svg></div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Breaking Even with Linear Functions</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>You've Applied Systems Of Linear Equations In Business!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Mei find the break-even point to determine when her business is profitable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You showed that you understand the relationships between costs, revenue, and profit</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed fixed costs, variable costs, price, and quantities</li></ul></div>"
+    },
+    "glossary": {
+      "heart_rates": {
+        "word": "heart rates",
+        "definition": "<strong class=\"text-[#0055B2]\">Heart Rates</strong> are the number of heart beats per minute, which varies based on activity level and training intensity."
+      },
+      "heart_rate": {
+        "word": "heart rate",
+        "definition": "<strong class=\"text-[#0055B2]\">Heart Rate</strong> is the number of heart beats per minute, which varies based on activity level and training intensity."
+      },
+      "training_zone": {
+        "word": "training zone",
+        "definition": "<strong class=\"text-[#0055B2]\">Training Zone</strong> is a specific range of heart rate values used to optimize different types of athletic training."
+      },
+      "training_zones": {
+        "word": "Training Zones",
+        "definition": "<strong class=\"text-[#0055B2]\">Training Zones</strong> are specific ranges of heart rate values used to optimize different types of athletic training."
+      },
+      "maxheartrate": {
+        "word": "Maximum Heart Rate",
+        "definition": "<strong class=\"text-[#0055B2]\">Maximum Heart Rate</strong> is the highest number of beats per minute your heart can achieve during maximum effort, calculated as 220−age."
+      },
+      "mhr": {
+        "word": "mhr",
+        "definition": "<strong class=\"text-[#0055B2]\">MHR</strong> is the highest number of beats per minute your heart can achieve during maximum effort, calculated as 220−age."
+      },
+      "pace": {
+        "word": "Pace",
+        "definition": "<strong class=\"text-[#0055B2]\">Pace</strong> is the amount of time it takes to cover a certain distance, commonly expressed as minutes per mile or kilometer."
+      },
+      "paces": {
+        "word": "Paces",
+        "definition": "<strong class=\"text-[#0055B2]\">Paces</strong> are the amounts of time it takes to cover certain distances, commonly expressed as minutes per mile or kilometer."
+      },
+      "pacing": {
+        "word": "pacing",
+        "definition": "<strong class=\"text-[#0055B2]\">Pacing</strong> is the amount of time it takes to cover a certain distance, commonly expressed as minutes per mile or kilometer."
+      },
+      "performance_ranges": {
+        "word": "Performance Ranges",
+        "definition": "<strong class=\"text-[#0055B2]\">Performance Ranges</strong> are the variations in performance times, represented as a range between a lower and an upper bound."
+      },
+      "compound_inequality": {
+        "word": "Compound Inequality",
+        "definition": "<strong class=\"text-[#0055B2]\">Compound Inequality</strong> is a mathematical statement combining two or more inequalities with <strong>\"and\"</strong> or <strong>\"or\"</strong> conditions (e.g., 75% ≤ i ≤ 90%)."
+      },
+      "compound_inequalities": {
+        "word": "Compound Inequalities",
+        "definition": "<strong class=\"text-[#0055B2]\">Compound Inequalities</strong> are mathematical statement combining two or more inequalities with <strong>\"and\"</strong> or <strong>\"or\"</strong> conditions (e.g., 75% ≤ i ≤ 90%)."
+      },
+      "absolute_value": {
+        "word": "Absolute Value",
+        "definition": "<strong class=\"text-[#0055B2]\">Absolute Value</strong> is the distance of a number from zero on a number line."
+      },
+      "maximum_heart_rate": {
+        "word": "maximum heart rate",
+        "definition": "<strong class=\"text-[#0055B2]\">Maximum Heart Rate</strong> is the highest number of beats per minute your heart can achieve during maximum effort, calculated as 220−age."
+      },
+      "bpm": {
+        "word": "bpm",
+        "definition": "<strong class=\"text-[#0055B2]\">BPM</strong> stands for beats per minute, a unit of measurement for heart rate."
+      },
+      "inequalities": {
+        "word": "inequalities",
+        "definition": "<strong class=\"text-[#0055B2]\">Inequalities</strong> are mathematical statements that compare two expressions using inequality symbols to show their relative values, indicating that one quantity is greater than, less than, greater than or equal to, or less than or equal to another quantity."
+      },
+      "inequality": {
+        "word": "Inequality",
+        "definition": "<strong class=\"text-[#0055B2]\">Inequality</strong> is a mathematical statement showing the relationship between expressions that are not equal, using symbols like < (less than), > (greater than), ≤ (less than or equal to), or ≥ (greater than or equal to)."
+      },
+      "absolute_value_inequality": {
+        "word": "Absolute Value Inequality",
+        "definition": "<strong class=\"text-[#0055B2]\">Absolute Value Inequality</strong> is an inequality involving absolute value expressions, often used to represent a range of values within a certain distance from a central point."
+      },
+      "literal_equation": {
+        "word": "Literal Equation",
+        "definition": "<strong class=\"text-[#0055B2]\">Literal Equation</strong> is an equation where variables represent physical quantities, allowing for rearrangement to solve for different variables."
+      },
+      "distance_formula": {
+        "word": "Distance Equation",
+        "definition": "<strong class=\"text-[#0055B2]\">Distance Equation</strong> is Distance = Speed × Time (or d = st), fundamental in calculating speed, distance, or time when the other two variables are known."
+      },
+      "training_effect_threshold": {
+        "word": "Training-Effect Threshold",
+        "definition": "<strong class=\"text-[#0055B2]\">Training-Effect Threshold</strong> is the minimum intensity level required during exercise to produce measurable improvements in fitness."
+      },
+      "performance_range": {
+        "word": "Performance Range",
+        "definition": "<strong class=\"text-[#0055B2]\">Performance Range</strong> is the span between an athlete's best and worst performances, used to assess consistency and improvement needs."
+      },
+      "race_segment_analysis": {
+        "word": "Race Segment Analysis",
+        "definition": "<strong class=\"text-[#0055B2]\">Race Segment Analysis</strong> is breaking down a race into shorter sections to identify strengths, weaknesses, and areas for improvement."
+      },
+      "race_day_factor": {
+        "word": "Race Day Factor",
+        "definition": "<strong class=\"text-[#0055B2]\">Race Day Factor</strong> is a variable in performance prediction that accounts for competition conditions, often represented as a range using absolute value."
+      },
+      "mathematical_modeling": {
+        "word": "Mathematical Modeling",
+        "definition": "<strong class=\"text-[#0055B2]\">Mathematical Modeling</strong> is the process of using mathematical equations to represent real-world situations and make predictions."
+      },
+      "baseline_prediction": {
+        "word": "Baseline Prediction",
+        "definition": "<strong class=\"text-[#0055B2]\">Baseline Prediction</strong> is an initial estimate of performance based on known data before accounting for variable factors."
+      },
+      "performance_variability": {
+        "word": "Performance Variability",
+        "definition": "<strong class=\"text-[#0055B2]\">Performance Variability</strong> is the expected range of deviation from predicted performance due to various factors."
+      },
+      "metric": {
+        "word": "Metric",
+        "definition": "<strong class=\"text-[#0055B2]\">Metric</strong> is a standard of measurement used to evaluate performance."
+      }
+    },
+    "common": {
+      "rivera": "Dr. Rivera",
+      "nina": "Nina",
+      "rivera_description": "Dr. Rivera: Hispanic woman, early 40s, smart casual, warm, uses sports analogies to teach.",
+      "nina_description": "Nina: 20-year-old Black track athlete, determined, in athletic gear with a smartwatch.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Modern building entrance with lush landscaping and digital information displays",
+      "bg2_description": "High-tech lobby interior with glowing displays and reflective flooring.",
+      "bg3_description": "Bright fitness center with treadmills and data visualization screens.",
+      "bg4_description": "Athletic track alongside modern sports facility with tropical landscaping.",
+      "metersPerSeconds": "meters per second"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "get-in-the-zone": "STEAM Quest - Get in the Zone"
+  }
+}

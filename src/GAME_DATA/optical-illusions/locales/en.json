@@ -1,0 +1,473 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introduction with Dr. Owens and Madeline",
+    "scene_4": "Optical Illusions Explorer",
+    "scene_5": "Illusion Analysis",
+    "scene_6": "Angle Perception",
+    "scene_7": "Triangle Properties Introduction",
+    "scene_8": "Triangle Congruence Explorer",
+    "scene_9": "Kanizsa Triangle Introduction",
+    "scene_10": "Kanizsa Triangle Analysis",
+    "scene_10x": "Kanizsa Triangle Understanding",
+    "scene_11": "Helmholtz Square Illusion",
+    "scene_12": "Conclusion",
+    "scene_13": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button",
+      "show_result": "Show Result"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Optical Illusions: The Geometry Behind What We See</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Understanding the Mind’s Visual Interpretation</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>In this quest, you'll explore fascinating optical illusions to discover how mathematics reveals hidden patterns. Guided by Mathematical Architect Dr. Elijah Owens and Optical Illusion Artist Madeline Hayes, you'll learn how triangle congruence helps us understand what our eyes perceive versus what mathematics proves.</p>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>Welcome to the World of Geometric Illusions!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>I'm Dr. Elijah Owens, your guide through a world where math and art collide. Together with the talented artist Madeline Hayes, we'll explore optical illusions that challenge what our eyes tell us. Through interactive stations, you'll learn how triangle congruence reveals the truth behind these visual deceptions. Ready to see the world through a new lens? Let’s begin!</p>"
+      }
+    },
+    "S3": {
+      "S3_D2_F6_C2": "Hello everyone! As an artist, I've always been fascinated by how our eyes can be fooled. What looks 'obvious' isn't always true, and that's where the magic happens!",
+      "S3_D3_F7_C1": "In this exhibition, we'll explore the gap between perception and reality.",
+      "S3_D4_F8_C2": "You'll discover how your brain sometimes <strong>'sees'</strong> things differently than they actually are.",
+      "S3_D5_F9_C1": "And most importantly, you'll learn how geometric principles can help us uncover the truth behind what we see.",
+      "S3_D6_F10_C2": "Ready to begin our journey into the world of visual deceptions?",
+      "S3_D7_F11_C1": "Let's start by exploring some fascinating optical illusions!"
+    },
+    "S4": {
+      "S4_D0_F21_C9": {
+        "title": "Optical Illusions Explorer",
+        "about": {
+          "heading": "Optical Illusions Explorer",
+          "body": "<div><p>Optical illusions demonstrate how our visual perception can be tricked, showing that what we see is not always what is physically present.</p><p style='margin: 10px 0px'>Two fascinating illusions you can explore:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><b>Café Wall</b>: Straight parallel lines appear to be sloped or wavy due to the arrangement of alternating blocks</li><li><b>Hermann Grid</b>: Dark spots appear at the intersections of a grid but vanish when looked at directly</li></ul><p style='margin: 10px 0px'>These illusions reveal fundamental aspects of how our visual system processes information and fills in gaps or makes assumptions based on context.</p></div>"
+        },
+        "help": {
+          "heading": "Using the Optical Illusions Explorer",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controls:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Café Wall: Use Show Grid Lines to see true lines</li><li>Hermann Grid: Use Show Explanation that reveals mechanics</li></ul><p style='font-weight: bold; margin: 10px 0px'>View:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Café Wall: Shows how contrast affects perception of parallel lines</li><li>Hermann Grid: Demonstrates visual artifacts at intersections from retinal processing</li></ul></div>"
+        },
+        "ariaLabels": {
+          "cafe_wall_illusion": "A canvas with Black and White Grid structure to explore a visual effect where horizontal lines appear to be slanted due to the arrangement of black and white tiles.",
+          "hermann_grid_illusion": "A canvas with Black boxes and white space between them where the purpose is to show an optical illusion where dark spots seem to appear at the intersections of white lines on a black grid."
+        },
+        "cafe_wall_illusion": "The Café Wall Illusion",
+        "cafe_wall_illusion_subtitle": "These horizontal lines are perfectly parallel!",
+        "hermann_grid_illusions": "The Hermann Grid Illusion",
+        "hermann_grid_illusions_subtitle": "Do you see dark spots at the intersections?",
+        "show_explanation": "Show Dark Spots",
+        "hide_explanation": "Hide Dark Spots",
+        "show_grid_lines": "Show Grid Lines",
+        "hide_grid_lines": "Hide Grid Lines",
+        "reference": "Reference",
+        "mortar": "Mortar"
+      },
+      "S4_D1_F12_C1": "Before we dive into geometry, let's experience some famous optical illusions that challenge our perception.",
+      "S4_D2_F13_C2": "Here are two classic illusions that show how our brains can be tricked.",
+      "S4_D3_F14_C1": "First, the Café Wall Illusion. These horizontal lines are perfectly straight, but the alternating black and white squares make them appear to wave.",
+      "S4_D4_F15_C2": "Use the show grid lines option to verify they're straight!",
+      "S4_D5_F16_C1": "And next, the Hermann Grid. Notice the phantom dark spots that appear at the intersections? They disappear when you look directly at them!",
+      "S4_D6_F17_C2": "What you're seeing is your brain's visual processing system at work.",
+      "S4_D7_F18_C1": "All these illusions raise an important question: Can we trust what we see?",
+      "S4_D8_F19_C2": "This is where mathematics comes in - it gives us tools to discover what's really there."
+    },
+    "S5": {
+      "S5_D1_F20_C1": "But where should we start? Let's break down what makes these illusions work.",
+      "S5_D2_F21_C2": "If you look closely at each illusion we just saw, both trick our perception of lines and angles. The <strong>'Café Wall'</strong> distorts horizontal lines and the <strong>'Hermann Grid'</strong> creates visual artifacts at intersections.",
+      "S5_D3_F22_C1": "That's an excellent observation! Angles are the foundation of geometry, and most optical illusions manipulate how we perceive them.",
+      "S5_D4_F23_C2": "In fact, many optical illusions specifically exploit how our brain processes angles differently than they actually exist mathematically.",
+      "S5_D5_F24_C1": "Now that we've seen these illusions, let's take a closer look at this fundamental aspect: how our perception of angles can be deceiving and how we can measure this perceptual gap."
+    },
+    "S6": {
+      "S6_D1_F25_C1": "Let’s see how much our perception can differ from reality—by putting it to the test!",
+      "S6_D2_F26_C2": "In this interactive lab, you’ll be shown a <no-glossary>reference angle</no-glossary> on the left side of the screen.",
+      "S6_D3_F27_C1": "Your challenge is to match that red (right) angle with the blue (left) angle by dragging the slider to the position you think lines up best.",
+      "S6_D4_F28_C2": "But here’s the twist—you won’t be doing this just once. You’ll be shown <strong>four different reference angles</strong>, one after another.",
+      "S6_D5_F29_C1": "Once you're done, we’ll measure how close your recreated angles are to the original.",
+      "S6_D6_F30_C2": "Ready to test your visual judgment? Follow the instructions and match the red (right) angle with the blue (left) angle.",
+      "S6_D7_F29_C1": "This activity shows that our perception of angles isn't always accurate. Even basic geometric properties can be misperceived by our visual system.",
+      "S6_D8_F30_C2": "In art and architecture, we need to account for these perceptual biases. That's why mathematical verification is essential.",
+      "S6_D9_F31_C1": "The gap between what we see and what's mathematically true creates both fascinating illusions and practical challenges. For example, acute angles often appear smaller than they really are, and obtuse angles look larger.",
+      "S6_D10_F32_C2": "So how can we verify what's really there when our eyes might be fooled?",
+      "S6_D0_F24_C9": {
+        "title": "Angle Perception",
+        "about": {
+          "heading": "Angle Perception Lab",
+          "body": "<div><p>Visual angle estimation is key to geometric reasoning and spatial skills.</p><p style='margin: 10px 0px'>This lab tests your ability to match angles:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><span style='color: #006BE0'>Blue</span> (left) angle: Reference angle to match</li><li><span style='color: #EB0000'>Red</span> (right) angle: Your adjustable angle</li><li>Results show your accuracy and error patterns</li></ul><p style='margin: 10px 0px'>Humans typically show predictable error patterns in angle perception, often overestimating acute angles and underestimating obtuse angles.</p></div>"
+        },
+        "help": {
+          "heading": "Using the Angle Perception Lab",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controls:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Adjust the slider to match the red angle to the blue reference angle</li><li>Click 'Next' to submit and continue</li><li>View your performance graph after completing all trials</li></ul><p style='font-weight: bold; margin: 10px 0px'>Results:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li><span style='color: #EB0000'>Red</span> bars <span style='display: inline-block; width: 20px; height: 15px; border: 1px solid #757575;'><span style='display: block; height: 3px; background-color: #EB0000; width: 100%; margin: 2px 0;'></span><span style='display: block; height: 3px; background-color: #EB0000; width: 100%; margin: 2px 0;'></span></span>: Overestimation (your angle was too large)</li><li><span style='color: #006BE0'>Blue</span> bars <span style='display: inline-block; border: 1px solid #757575; width: 20px; height: 15px;'><span style='display: block; width: 6px; height: 6px; background-color: #006BE0; border-radius: 50%; justify-self: center; margin-top: 3px;'></span></span>: Underestimation (your angle was too small)</li><li>Zero line: Perfect accuracy</li></ul></div>"
+        },
+        "ariaLabels": {
+          "canvas": "Canvas having 2 different angle arrangements with Red and blue color and user have to adjust one of the angle to make it similar as other angle",
+          "adjust_angle": "Adjust Angle",
+          "trial": "Trial",
+          "user_angle": "User angle",
+          "red_lined_legend": "Red lined legend",
+          "blue_dotted_legend": "Blue dotted legend"
+        },
+        "angle_perception_errors": "Angle Perception Errors",
+        "bar_chart": "Bar chart showing angle perception errors",
+        "reference_angle_degrees": "Reference Angle (degrees)",
+        "reference_angle": "Reference Angle",
+        "error": "Error (degrees)",
+        "over_estimated": "Overestimated",
+        "under_estimated": "Underestimated",
+        "your_estimate": "Your Estimate",
+        "ref_angle_label": "Ref. Angle",
+        "instructions": {
+          "next": "Click on \"Next\" button to proceed to the next angle.",
+          "show_results": "Click on \"Show Results\" to measure how close your recreated angles are to the original."
+        }
+      }
+    },
+    "S7": {
+      "S7_D1_F33_C1": "We need a geometric shape that's stable and reliable - something that won't change unexpectedly.",
+      "S7_D2_F34_C2": "That's where triangles come in! They're the simplest polygon that maintains its shape.",
+      "S7_D3_F35_C1": "Exactly! Unlike triangles, which are rigid once their sides are fixed, quadrilaterals like squares can be distorted - their angles can change even if the side lengths stay the same. <div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/gif/rigidity_en.gif' alt='Distorted shape' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>",
+      "S7_D4_F36_C2": "This is why triangles are foundational in architecture and engineering - they provide structural stability.",
+      "S7_D5_F37_C1": "In the world of optical illusions, this stability gives us a perfect tool to verify what's really there.",
+      "S7_D6_F38_C2": "So how do we know when two triangles are identical, or congruent?",
+      "S7_D14_F46_C1": "There are four key criteria that guarantee congruence between two triangles: <br><span style='margin-left: 20px;'>• <no-glossary><b>SSS</b></no-glossary>: When all three corresponding sides of both triangles are equal in length</span> <br><span style='margin-left: 20px;'>• <no-glossary><b>SAS</b></no-glossary>: When two corresponding sides and the included angle of both triangles are equal</span> <br><span style='margin-left: 20px;'>• <no-glossary><b>ASA</b></no-glossary>: When two <no-glossary>corresponding angles</no-glossary> and the included side of both triangles are equal</span><br><span style='margin-left: 20px;'>• <no-glossary><b>AAS</b></no-glossary>: When two <no-glossary>corresponding angles</no-glossary> and a non-included side of both triangles are equal</span>",
+      "S7_D15_F47_C2": "The amazing thing is that we don't need to check everything - just the right combination of sides and angles.",
+      "S7_D16_F48_C1": "Let's explore how these triangles behave when we move them around."
+    },
+    "S8": {
+      "S8_D0_F49_C9": {
+        "title": "Triangle Congruence Explorer through Rigid Motions",
+        "about": {
+          "heading": "Triangle Congruence Basics",
+          "body": "<div><p>Congruent triangles have the same size and shape but may have different positions or orientations.</p><p style='margin: 10px 0px'>Four ways to prove triangles are congruent:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>SSS: Three sides match</li><li>SAS: Two sides and the included angle match</li><li>ASA: Two angles and the included side match</li><li>AAS: Two angles and a non-included side match</li></ul><p style='margin: 10px 0px'>Rigid transformations (rotation, translation, reflection) preserve triangle congruence because they don't change shape or size.</p></div>"
+        },
+        "help": {
+          "heading": "Using the Triangle Congruence Explorer",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controls:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Click SSS, SAS, ASA, or AAS buttons to change the congruence criteria</li><li>Use Rotation slider to rotate the second triangle</li><li>Use Movement slider to translate the second triangle</li><li>Click Reflect button to mirror the second triangle</li><li>Random Reset creates a new random transformation</li></ul><p style='font-weight: bold; margin: 10px 0px'>View:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Measurements show sides and angles based on selected criteria</li></ul></div>"
+        },
+        "rotate": "Rotate",
+        "move": "Translate",
+        "reflect": "Reflect",
+        "random_reset": "Random Reset",
+        "degree": "degrees",
+        "criteria_explanation": "Criteria Explanation",
+        "sss": "SSS",
+        "sas": "SAS",
+        "asa": "ASA",
+        "aas": "AAS",
+        "sss_explain": "If three sides of one triangle are congruent to three sides of another triangle, the triangles are congruent. This is because rigid motions preserve distances between points.",
+        "sas_explain": "If two sides and the included angle of one triangle are congruent to two sides and the included angle of another triangle, the triangles are congruent. Rigid motions preserve both distances and angles.",
+        "asa_explain": "If two angles and the included side of one triangle are congruent to two angles and the included side of another triangle, the triangles are congruent. The third angle is determined by the first two (triangle angle sum is 180°).",
+        "aas_explain": "If two angles and a non-included side of one triangle are congruent to two angles and a non-included side of another triangle, the triangles are congruent.",
+        "canvas": "A canvas with a base triangle and a transformed triangle.",
+        "triangleA": "Triangle A",
+        "triangleB": "Triangle B"
+      },
+      "S8_D1_F49_C2": "Try translating, rotating, and reflecting these triangles in our interactive tool.",
+      "S8_D2_F50_C1": "Notice how the measurements stay constant no matter how you move them?",
+      "S8_D3_F51_C2": "These movements - translation, rotation, and reflection - preserve all the properties of a triangle.",
+      "S8_D4_F52_C1": "These are called rigid motions - mathematical tools that help us verify when shapes are truly identical, even if they appear different.",
+      "S8_D4_F53_C2": "And here's the connection: if two triangles meet one of the congruence criteria - SSS, SAS, ASA, or AAS - we can use rigid motions to show that they're physically identical, too.",
+      "S8_D5_F53_C2": "Take a moment to experiment with the interactive tool. Try translating (sliding) Triangle B to line it up with Triangle A and observe how its measurements remain unchanged.",
+      "S8_D6_F54_C1": "Now try rotating Triangle B around its center. Notice how all the angles and side lengths stay exactly the same?",
+      "S8_D6_F54X_C1": "Great job! Rigid motions preserve both the angles and side lengths of geometric shapes.",
+      "S8_D7_F55_C2": "Finally, try reflecting Triangle B. Even though its orientation has changed, it's still congruent to Triangle A!",
+      "S8_D8_F56_C1": "Which of these transformations is NOT a rigid motion?",
+      "S8_D8_F56_C1_option_A": "Translation (sliding)",
+      "S8_D8_F56_C1_option_B": "Rotation",
+      "S8_D8_F56_C1_option_C": "Reflection (flipping)",
+      "S8_D8_F56_C1_option_D": "Stretching (changing size)",
+      "S8_D9_F57_C2": "Correct! Stretching changes the side lengths, so it's not a rigid motion. Only transformations that preserve all measurements are rigid motions.",
+      "S8_D9_F57X_C1": "These transformations demonstrate an important principle: congruent shapes can be mapped onto each other through rigid motions.",
+      "S8_D9_F57Y_C2": "Now you have the tools to uncover the truth behind what you see! But so far, we've been working with triangles that are clearly visible.",
+      "S8_D9_F57Z_C1": "What if I told you that your brain sometimes creates geometric shapes that aren't even fully drawn?",
+      "S8_D9_F57XY_C2": "That's right! There's a fascinating phenomenon where your visual system can actually see shapes that aren't completely there in reality."
+    },
+    "S9": {
+      "S9_D1_F58_C2": "We've explored how triangles can be proven congruent through measurements. Now, let's push this concept further with something truly fascinating.",
+      "S9_D2_F59_C1": "This next installation bridges my architectural work with Madeline's artistic vision - it's about how our visual system creates structure where there is none.",
+      "S9_D3_F60_C2": "The Kanizsa triangle demonstrates a phenomenon called 'boundary completion.' Unlike the previous illusions where we misperceived existing elements, here our brains actually construct elements that aren't physically present."
+    },
+    "S10": {
+      "S10_D0_F61_C9": {
+        "title": "Kanizsa Triangle Analysis",
+        "about": {
+          "heading": "Kanizsa Triangle Basics",
+          "body": "<div><p>The Kanizsa triangle is a famous optical illusion where we perceive a white triangle that doesn't actually exist.</p><p style='font-weight: bold; margin: 10px 0px'>Key Concepts:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Our brain automatically \"fills in\" missing information</li><li>The black Pac-Man shapes create illusory contours</li><li>Triangle congruence can be tested using four methods (SSS, SAS, ASA, AAS)</li><li>Two triangles are congruent if any one of the congruence criteria is satisfied for the triangles</li></ul><p style='margin: 10px 0px'>This illusion demonstrates how our visual system creates coherent shapes from incomplete information, similar to how we perceive objects in the real world even when partially hidden.</p></div>"
+        },
+        "help": {
+          "heading": "Using the Kanizsa Triangle Explorer",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Toggle \"Show Triangle Lines\" to reveal the hidden triangles</li><li>Use \"Show Measurements\" to display angles and side lengths</li><li>Click \"Test Congruence\" to automatically analyze which congruence criteria (SSS, SAS, ASA, AAS) are satisfied</li><li>The system will show you which criteria apply and provide detailed explanations</li><li>Reset view clears all selections and returns to the starting display</li></ul></div>"
+        },
+        "scenarios": {
+          "scenario1": {
+            "name": "Scenario 1: Identical Triangles",
+            "description": "In this scenario, the Pac-Man shapes form identical triangles.",
+            "explanations": {
+              "SSS": "The triangles are congruent by SSS because all three pairs of corresponding sides are equal: side a = 141.4, side b = 141.4, and side c = 141.4 in both triangles.",
+              "SAS": "The triangles are congruent by SAS because two sides and their included angle are equal. For example, sides b = 141.4 and c = 141.4 and their included angle A = 60° match in both triangles.",
+              "ASA": "The triangles are congruent by ASA because two angles and their included side are equal. For example, angles B = 60° and C = 60° and their included side a = 141.4 match in both triangles.",
+              "AAS": "The triangles are congruent by AAS because two angles and a non-included side are equal. For example, angles A = 60° and B = 60° and the non-included side a = 141.4 match in both triangles."
+            }
+          },
+          "scenario2": {
+            "name": "Scenario 2: Two Equal Sides, One Unknown",
+            "description": "In this scenario, two sides are equal, but the third is unknown.",
+            "explanations": {
+              "SAS": "The triangles are congruent by SAS because two sides and their included angle are equal. Sides a = 120 and b = 120 and their included angle C = 50° match in both triangles.",
+              "ASA": "The triangles are congruent by ASA because two angles and their included side are equal. Angles A = 65° and B = 65° and their included side c = 101.45 match in both triangles.",
+              "AAS": "The triangles are congruent by AAS because two angles and a non-included side are equal. Angles A = 65° and B = 65° and the non-included side a = 120 match in both triangles."
+            }
+          },
+          "scenario3": {
+            "name": "Scenario 3: Equal Angles, Different Sides",
+            "description": "In this scenario, angles are equal but the sides have different lengths.",
+            "explanations": {
+              "SSS": "The triangles are NOT congruent by SSS because all sides differ in length. Triangle 1 has sides a = 141.4, b = 141.4, c = 141.4, while Triangle 2 has sides a = 180, b = 180, c = 180. The triangles are similar (same shape, different size), but not congruent.",
+              "SAS": "The triangles are NOT congruent by SAS. Although their angles match (A = 60°, B = 60°, C = 60°), the sides have different lengths. Triangle 1 has sides b = 141.4, c = 141.4, while Triangle 2 has sides b = 180, c = 180.",
+              "ASA": "The triangles are NOT congruent by ASA. Although the angles match (B = 60°, C = 60°), the included side a differs in length. Triangle 1 has side a = 141.4, while Triangle 2 has side a = 180. The triangles are similar but not congruent.",
+              "AAS": "The triangles are NOT congruent by AAS. Although the angles match (A = 60°, B = 60°), the non-included side a differs in length. Triangle 1 has side a = 141.4, while Triangle 2 has side a = 180. The triangles are similar but not congruent."
+            }
+          }
+        },
+        "buttons": {
+          "showTriangleLines": "Show Triangle Lines",
+          "hideTriangleLines": "Hide Triangle Lines",
+          "showMeasurements": "Show Measurements",
+          "hideMeasurements": "Hide Measurements",
+          "resetView": "Reset View",
+          "testCongruence": "Test Congruence"
+        },
+        "congruence": {
+          "triangles_are_congruent": "These triangles are congruent!",
+          "triangles_not_congruent": "These triangles are NOT congruent.",
+          "not_congruent_explanation": "These triangles are NOT congruent. No congruence criteria (SSS, SAS, ASA, or AAS) are satisfied based on the available measurements.",
+          "congruent_explanation": "These triangles are congruent! They satisfy the following congruence criteria:",
+          "criteria_names": {
+            "SSS": "Side-Side-Side",
+            "SAS": "Side-Angle-Side",
+            "ASA": "Angle-Side-Angle",
+            "AAS": "Angle-Angle-Side"
+          }
+        },
+        "side_a": "Side a",
+        "side_b": "Side b",
+        "side_c": "Side c",
+        "side_x": "Side x",
+        "side_y": "Side y",
+        "side_z": "Side z",
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "triangle": "Triangle"
+      },
+      "S10_D1_F61_C1": "What do you see in this pattern of black shapes?",
+      "S10_D2_F62_C2": "Most people perceive a white triangle floating above the pattern, appearing brighter than the background. Yet there's no complete triangle actually drawn!",
+      "S10_D3_F63_C1": "This shows the brain's constructive powers. Try clicking the \"Show Triangle Lines\" button to reveal what your brain is filling in.",
+      "S10_D4_F64_C2": "Notice how those black \"Pac-Man\" shapes position the corners of the triangle your brain perceives. Now click \"Show Measurements\" to see the mathematical properties of these illusory triangles.",
+      "S10_D5_FX_C1": "Let's explore three different scenarios and verify our observations. We will use the following criteria to determine whether the triangles are congruent: SSS, SAS, ASA, and AAS. If any of these criteria are satisfied, we can conclude that the triangles are congruent.",
+      "S10_D6_FX_C1": "Click the \"Test Congruence\" button to check whether the triangles are congruent.",
+      "S10_D7_FX_C2": "The triangles are congruent. All four criteria — SSS, SAS, ASA, and AAS — are satisfied with the given information.",
+      "S10_D8_FX_C1": "That won't always be the case. Let's examine the second scenario.",
+      "S10_D9_FX_C1": "Click the \"Show Measurements\" button to view the side and angle values, then click the \"Test Congruence\" button to determine if the triangles are congruent.",
+      "S10_D10_FX_C2": "The triangles are congruent. However, this time, only three criteria are satisfied with the given information: SAS, ASA, and AAS.",
+      "S10_D11_FX_C1": "Exactly. The applicable congruence criteria depend on the measurements provided in the triangles. Now, let's move on to the third scenario.",
+      "S10_D12_FX_C1": "Click the \"Show Measurements\" button to view the side and angle values, then click the \"Test Congruence\" button to determine if the triangles are congruent.",
+      "S10_D13_FX_C2": "The triangles are not congruent, as none of the criteria are satisfied.",
+      "S10_D14_FX_C1": "That was impressive work. You've sharpened your understanding of congruence and perception.",
+      "S10_D15_FX_C2": "It's fascinating how geometry helps us reveal patterns hidden in plain sight.",
+      "S10_D16_FX_C1": "Let’s continue our journey. There’s more to explore — stay curious!"
+    },
+    "S11": {
+      "S11_D0_F93_C9": {
+        "title": "Helmholtz Square Illusion",
+        "about": {
+          "heading": "Geometric Illusions Explorer",
+          "body": "<div><p>Geometric illusions reveal how our visual system misinterprets shapes, angles, and lines based on surrounding context.</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li style='list-style-type: disc;'>This interactive explores how your brain processes visual information through the Helmholtz Square Illusion, where identical squares seem to have different dimensions based on internal line orientation.</li><li style='list-style-type: disc;'>This illusion demonstrates how context dramatically impacts our perception of geometric properties.</li></ul></div>"
+        },
+        "help": {
+          "heading": "Using the Geometric Illusions Explorer",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controls:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li style='list-style-type: disc;'>Use the slider to translate Square B and overlap it with Square A</li><li style='list-style-type: disc;'>Reset Position: Returns Square B to its original position</li></ul></div>"
+        },
+        "helmholtz_square_illusion": "Helmholtz Square Illusion",
+        "helmholtz_description": "A square divided by horizontal lines (Square A) appears taller than the same square divided by vertical lines (Square B).",
+        "button": {
+          "show_reference": "Measurement tool",
+          "hide_reference": "Hide Reference",
+          "show_measurements": "Show Measurements",
+          "hide_measurements": "Hide Measurements",
+          "reset_position": "Reset Position"
+        },
+        "labels": {
+          "square_a": "Square A",
+          "square_b": "Square B",
+          "width_100": "Width: 100",
+          "both_squares": "Both squares are exactly 100×100",
+          "straight_lines": "The red lines are perfectly straight!",
+          "curved_question": "Do these lines appear curved?",
+          "taller_appearance": "Square A with horizontal lines appears taller",
+          "translate_square_b": "Translate Square B to make it overlap with Square A",
+          "squares_aligned": "Squares are perfectly aligned! They are identical in size.",
+          "apart": "Apart",
+          "overlapped": "Overlapped"
+        },
+        "accessibility": {
+          "achievement_unlocked": "Achievement unlocked",
+          "illusion_description": "Square A with horizontal lines on the left, Square B with vertical lines on the right.",
+          "squares_aligned_state": "Squares are now perfectly aligned and overlapping.",
+          "square_b_translated": "Square B is {percentage}% translated to the left.",
+          "reset_button_description": "Square B will return to its original position"
+        }
+      },
+      "S11_D1_FX_C1": "Look at these two squares in the Helmholtz Illusion. The one with horizontal lines (Square A) appears taller, while the one with vertical lines (Square B) looks wider.",
+      "S11_D2_FX_C2": "But are they actually different? Translate the Square B to make it overlap with the Square A and verify the results.",
+      "S11_D3_FX_C1": "Excellent! You've confirmed both squares are identical — you've applied <no-glossary>translation</no-glossary> to reveal the truth behind what your eyes perceived."
+    },
+    "S12": {
+      "S12_D1_F100_C2": "You've come full circle - from being fooled by illusions to using mathematics to discover reality.",
+      "S12_D2_F101_C2": "We started with simple optical illusions and discovered how our perception—especially of angles—can be misleading.",
+      "S12_D3_F102_C1": "Along the way, we explored how triangle congruence gives us a powerful mathematical tool to confirm what’s truly identical, even when our eyes might disagree.",
+      "S12_D3_F103_C2": "While we didn’t use congruence to solve every illusion, it gave us a framework to think critically about what we see versus what’s actually there.",
+      "S12_D4_F104_C1": "And that brought us to the Kanizsa Triangle—a perfect example of how the brain can go beyond misjudging reality and actually construct shapes from incomplete information.",
+      "S12_D4_F103_C2": "Triangle congruence gives us powerful tools to verify what's actually there, beyond what our eyes tell us.",
+      "S12_D5_F104_C1": "This knowledge isn't just for solving puzzles - it has real applications in art, architecture, computer vision, and many other fields.",
+      "S12_D6_F105_C2": "The next time you encounter something that looks impossible or confusing...",
+      "S12_D7_F106_C1": "Remember: let geometry reveal the truth!"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You have conquered Optical Illusions: The Geometry Behind What We See",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>You have completed the Optical Illusions STEAMQuest!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You discovered how optical illusions reveal the gap between perception and reality</li><li>You analyzed perceptual errors in angle recognition</li><li>You explored the four criteria for triangle congruence: SSS, SAS, ASA and AAS</li><li>You discovered how to use rigid motions to verify geometric properties</li><li>You explored how congruence principles can help us understand visual stability—even when illusions trick our perception</li></ul>Your ability to analyze visual patterns helped to bridge the gap between perception and mathematical reality!",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><mask id=\"mask0_15918_1649\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"80\"><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"9.5\" fill=\"#5454D8\" stroke=\"#005F20\"/></mask><g mask=\"url(#mask0_15918_1649)\"><path d=\"M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z\" fill=\"black\"/><path d=\"M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z\" fill=\"#FFCC00\" stroke=\"black\"/><path d=\"M24.5 34.0635L49.5 19.5635L54.5 22.5635V52.0635L49.5 54.5635L24.5 40.0635V34.0635Z\" fill=\"white\"/><path d=\"M54.9029 22.1876L49.8014 19.2417C49.7416 19.2072 49.667 19.2072 49.6071 19.2417L24.0971 33.9696C24.0373 34.0041 24 34.0682 24 34.1378V40.0287C24 40.0983 24.0373 40.1624 24.0971 40.1969L49.6071 54.9248C49.6371 54.9422 49.6709 54.9508 49.7043 54.9508C49.7377 54.9508 49.7715 54.9422 49.8014 54.9248L54.9029 51.9789C54.9627 51.9444 55 51.8803 55 51.8107V22.3556C55 22.2864 54.9631 22.2224 54.9029 22.1874V22.1876ZM44.4079 34.4748V39.6922L39.8887 37.084L44.4079 34.4748ZM34.3505 34.054C34.3423 34.0587 34.3415 34.0677 34.3353 34.0739C34.3287 34.0801 34.3194 34.0816 34.3147 34.0894C34.3124 34.0937 34.3147 34.0984 34.3128 34.1026C34.3081 34.1142 34.3085 34.1251 34.3081 34.138C34.3085 34.1508 34.3081 34.1616 34.3128 34.1734C34.3147 34.1777 34.3124 34.1824 34.3147 34.1866C34.3233 34.2014 34.3357 34.2126 34.3496 34.2207C34.35 34.2207 34.35 34.2215 34.3504 34.2219L34.3511 34.2222L39.3059 37.0833C39.3059 37.1529 39.3432 37.217 39.403 37.2516L44.5051 40.1963V45.751L24.486 34.1943L49.7046 19.6342L54.5146 22.4122L34.3505 34.054ZM44.6994 51.6428V40.1968C44.7592 40.1623 44.7965 40.0981 44.7965 40.0286V34.1383L49.6075 31.3615L49.6076 54.4762L44.6994 51.6428Z\" fill=\"black\" stroke=\"black\" stroke-width=\"0.5\"/></g></svg>",
+      "leftsvgarialabel": "Prisma triangular geométrico.",
+      "rightsvg": "<svg width=\"122\" height=\"131\" viewBox=\"0 0 122 131\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g opacity=\"0.2\"><path d=\"M92.3616 8.71776L74.9826 4.58897C74.7788 4.5406 74.562 4.6054 74.4181 4.75768L13.0934 69.6972C12.9496 69.8495 12.8968 70.0682 12.9573 70.2703L18.0725 87.3849C18.1329 87.5871 18.297 87.741 18.5008 87.7894L105.403 108.427C105.505 108.451 105.611 108.447 105.708 108.418C105.805 108.389 105.895 108.335 105.967 108.258L118.23 95.2696C118.374 95.1173 118.427 94.8986 118.367 94.6965L92.7897 9.1216C92.7296 8.92059 92.5668 8.7667 92.3614 8.71719L92.3616 8.71776ZM72.5404 53.5286L77.0708 68.6864L61.6766 65.0333L72.5404 53.5286ZM42.9554 61.0392C42.9356 61.0599 42.9412 61.0867 42.9286 61.11C42.9149 61.1338 42.889 61.1463 42.8822 61.1732C42.8793 61.1876 42.89 61.1992 42.8881 61.213C42.8846 61.2509 42.8952 61.2822 42.9053 61.32C42.9175 61.3568 42.9258 61.3887 42.9496 61.4188C42.9589 61.4297 42.9563 61.4452 42.9666 61.4554C43.0044 61.4909 43.0502 61.5129 43.0976 61.5243C43.0987 61.524 43.0994 61.5262 43.1008 61.527L43.1034 61.5274L59.9826 65.5373C60.043 65.7394 60.2071 65.8933 60.4109 65.9417L77.7907 70.0666L82.6141 86.2047L14.4184 70.0125L75.0421 5.81334L91.4286 9.7075L42.9554 61.0392ZM88.2946 103.153L78.3557 69.8994C78.4996 69.7471 78.5523 69.5284 78.4919 69.3263L73.3772 52.2136L84.9431 39.9685L105.015 107.123L88.2946 103.153Z\" fill=\"white\" stroke=\"white\" stroke-width=\"0.5\"/></g></svg>"
+    },
+    "glossary": {
+      "congruent": {
+        "word": "Congruent",
+        "definition": "<strong className=\"text-[#0055B2]\">Congruent</strong> means when two geometric figures that have exactly the same size and shape, regardless of their position or orientation."
+      },
+      "translation": {
+        "word": "translation",
+        "definition": "<strong className=\"text-[#0055B2]\">Translation</strong> is a transformation that slides a figure the same distance and in the same direction without rotating or flipping it."
+      },
+      "rigid-motions": {
+        "word": "Rigid Motions",
+        "definition": "<strong className=\"text-[#0055B2]\">Rigid motion</strong> is a transformation that moves a shape without changing its size or shape (includes rotation, reflection, and translation)."
+      },
+      "optical-illusions": {
+        "word": "Optical Illusions",
+        "definition": "<strong className=\"text-[#0055B2]\">Optical illusion</strong> is a visual image that differs from objective reality, where our brain interprets something differently from its actual physical properties."
+      },
+      "optical-illusion": {
+        "word": "Optical Illusion",
+        "definition": "<strong className=\"text-[#0055B2]\">Optical illusion</strong> is a visual image that differs from objective reality, where our brain interprets something differently from its actual physical properties."
+      },
+      "sas": {
+        "word": "SAS",
+        "definition": "<strong className=\"text-[#0055B2]\">SAS</strong> congruency criterion is when two sides and the included angle are equal, triangles are congruent."
+      },
+      "sss": {
+        "word": "SSS",
+        "definition": "<strong className=\"text-[#0055B2]\">SSS</strong> congruency criterion is when if three sides are equal, triangles are congruent."
+      },
+      "asa": {
+        "word": "ASA",
+        "definition": "<strong className=\"text-[#0055B2]\">ASA</strong> congruency criterion is when two angles and the included side are equal, triangles are congruent."
+      },
+      "aas": {
+        "word": "AAS",
+        "definition": "<strong className=\"text-[#0055B2]\">AAS</strong> congruency criterion is when two angles and a non-included side are equal, triangles are congruent."
+      },
+      "regression": {
+        "word": "Regression",
+        "definition": "<strong className=\"text-[#0055B2]\">Regression</strong> is a statistical method used to model and analyze relationships between variables, often represented by a trend line on a scatter plot."
+      },
+      "trend-lines": {
+        "word": "Trend lines",
+        "definition": "<strong className=\"text-[#0055B2]\">Trend line</strong> is a line on a scatter plot drawn near the points. It shows a correlation and can be used to make predictions."
+      },
+      "overabundance": {
+        "word": "Overabundance",
+        "definition": "<strong className=\"text-[#0055B2]\">Overabundance</strong> is an excessive quantity or surplus of organisms in an ecosystem, typically resulting from a disruption in natural predator-prey relationships and potentially causing environmental imbalance."
+      },
+      "scatter-plot": {
+        "word": "Scatter plot",
+        "definition": "<strong className=\"text-[#0055B2]\">Scatter plot</strong> is a graph that relates two different sets of data by plotting the data as ordered pairs. You can use a scatter plot to determine a relationship between the data sets."
+      },
+      "linear-equations": {
+        "word": "Linear equations",
+        "definition": "<strong className=\"text-[#0055B2]\">Linear equations</strong> are functions whose graph is a line. You can represent a linear function with a linear equation."
+      },
+      "correlation": {
+        "word": "Correlation",
+        "definition": "<strong className=\"text-[#0055B2]\">Correlation</strong> indicates the strength of a relationship between two data sets."
+      },
+      "causation": {
+        "word": "Causation",
+        "definition": "<strong className=\"text-[#0055B2]\">Causation</strong> is a direct relationship where a change in one variable directly causes a change in another variable."
+      },
+      "polygon": {
+        "word": "Polygon",
+        "definition": "<strong className=\"text-[#0055B2]\">Polygon</strong> is a closed plane figure formed by three or more segments that do not intersect except at their endpoints."
+      },
+      "rotation": {
+        "word": "Rotation",
+        "definition": "<strong className=\"text-[#0055B2]\">Rotation</strong> is a rigid motion that turns a figure around a fixed point, called the center of rotation, by a certain angle."
+      },
+      "reflection": {
+        "word": "Reflection",
+        "definition": "<strong className=\"text-[#0055B2]\">Reflection</strong> is a transformation that flips a figure across a line, creating a mirror image."
+      },
+      "transformations": {
+        "word": "Transformations",
+        "definition": "<strong className=\"text-[#0055B2]\">Transformations</strong> are operations that move, rotate, reflect, or change the size of geometric figures while preserving their essential properties."
+      }
+    },
+    "common": {
+      "owens": "Dr. Owens",
+      "hayes": "Madeline",
+      "owens_description": "An African American male architect with geometric-framed glasses wearing modern minimalist clothing and carrying a digital tablet.",
+      "hayes_description": "A Caucasian female artist with colorful, eclectic style wearing bold patterns and a distinctive geometric pendant.",
+      "bg1_description": "Futuristic pyramid glass building in an urban park with autumn trees and reflecting pool leading to the entrance.",
+      "bg2_description": "Modern geometric art exhibition with visitors viewing optical illusion displays in a contemporary gallery space with angular glass walls.",
+      "bg3_description": "Interactive mathematics exhibition with triangular data display and visitors exploring geometric projections in a sleek modern hall with reflective floor.",
+      "bg4_description": "Triangular exhibition hall with glass walls displaying geometric patterns and visitors exploring interactive displays bathed in golden sunset light.",
+      "bg5_description": "Futuristic observatory with interactive displays featuring geometric data and visitors exploring exhibits with panoramic city views through angular windows.",
+      "bg6_description": "Science museum with illuminated triangular hologram display and visitors viewing geometric exhibits on display screens in a modern gallery with tiered viewing platforms.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "angle": "Angle",
+      "of": "of"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "game": {
+    "optical-illusions": "STEAM Quest - Optical Illusions"
+  },
+  "popover": {
+    "close": "Close popover"
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Escena de Introducción",
+    "scene_4": "Presentación en PowerPoint",
+    "scene_5": "Crecimiento de la Inversión",
+    "scene_5X": "Rechazo del préstamo",
+    "scene_6": "Análisis de Crédito",
+    "scene_7": "Simulador de deuda de tarjetas de crédito",
+    "scene_8": "Crecimiento en Redes Sociales",
+    "scene_9": "Estrategia de Crecimiento en Redes Sociales",
+    "scene_10": "Diversificación de cartera",
+    "scene_11": "Calculadora de Interés Compuesto",
+    "scene_12": "Planificación a largo plazo",
+    "scene_13": "Camino a $1,000,000",
+    "scene_14": "Conclusión",
+    "scene_15": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "previous": "Anterior"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Slime Time:</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>Crecimiento Exponencial en Acción</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Descubre el poder del crecimiento compuesto a través de la historia de la emprendedora adolescente Samantha, de 16 años, y su hermano Ben Ward de 12 años. Observa cómo analizan su negocio de slime usando principios matemáticos, calculan tasas de crecimiento, exploran escenarios de inversión y crean un camino hacia millones potenciales—todo comenzando con solo $20 y la magia de las funciones exponenciales.</div>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>¡Bienvenido al negocio de Slime!</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Soy Samantha y este es mi hermano Ben. Dirigimos Slime Time, un exitoso negocio de slime que empezamos con solo $20 el año pasado. Hoy, analizamos nuestro negocio con matemáticas. Acompáñenos a usar funciones exponenciales para modelar el crecimiento empresarial, comprender los riesgos de la deuda y crear un camino para convertirnos en millonarios a los veinte, ¡todo gracias al poder del crecimiento compuesto!</div>"      }
+    },
+    "S4": {
+      "S4_D0_FX_C9": {
+        "title": "Presentación del plan de negocios",
+        "go_to_slide": "Ir a la diapositiva",
+        "keyAreasInclude": "Las áreas clave incluyen:",
+        "featuresKeyProperties": "Características",
+        "keyProperties": "propiedades clave:",
+        "availableIn": "Disponible en",
+        "varietiesIncluding": "variedades incluyendo",
+        "firstYearResults": "Resultados del primer año:",
+        "growthComparison": "Comparación de crecimiento:",
+        "had": "tuvo",
+        "units": "unidades",
+        "and": "y",
+        "revenue": "ingresos",
+        "achieved": "logró",
+        "unitsPlus": "unidades",
+        "twoStrategiesCompared": "Dos estrategias comparadas:",
+        "with": "con",
+        "videoPerformanceShows": "El rendimiento del video muestra",
+        "thousandPlus": "12,000+",
+        "percent": "85%",
+        "fiveHundredPlus": "500+",
+        "slideOf": "Diapositiva",
+        "of": "de",
+        "slides": {
+          "title_slide": {
+            "heading": "¡HORA DE SLIME!",
+            "presentedBy": "Presentado por Samantha y Ben Ward",
+            "description": "Para Préstamo para Pequeñas Empresas del Community Bank",
+            "label1": "Slime Premium",
+            "label2": "Crecimiento Exponencial",
+            "label3": "Éxito Comprobado"
+          },
+          "product_slide": {
+            "heading": "SLIME PREMIUM ESPECIALIZADO",
+            "subheading": "Con Propiedades Texturales Únicas",
+            "property_heading1": "¡A los niños les encanta!",
+            "property_description1": "Textura Satisfactoria",
+            "property_heading2": "¡Con Brillantina!",
+            "property_description2": "Diversión Brillante",
+            "varietyTitle": "8 Variedades Diferentes",
+            "variety_name1": "Slime con Brillantina",
+            "variety_name2": "Remolino Arcoíris",
+            "variety_name3": "Cristal Transparente",
+            "variety_name4": "Diversión con Confeti",
+            "variety_name5": "Holográfico",
+            "variety_name6": "Cristal de Hielo",
+            "variety_name7": "Menta Fresca",
+            "variety_name8": "Aroma Floral"
+          },
+          "year1_slide": {
+            "heading": "AÑO 1: COMIENZO HUMILDE",
+            "unitsSold": "Unidades Vendidas",
+            "jarsTotal": "tarros en total",
+            "revenue": "Ingresos",
+            "totalSales": "ventas totales",
+            "costs": "Costos",
+            "materials": "materiales",
+            "profit": "Ganancias",
+            "netIncome": "ingreso neto",
+            "jarHeading": "$5 por tarro",
+            "jarDescription": "Slime de calidad premium para todos"
+          },
+          "year2_slide": {
+            "heading": "AÑO 2: CRECIMIENTO EXPONENCIAL",
+            "year1": "Año 1",
+            "year2": "Año 2",
+            "unitsSold": "Unidades Vendidas",
+            "revenue": "Ingresos",
+            "profit": "Ganancias",
+            "graphTitle": "Línea de Tiempo del Crecimiento de Ingresos",
+            "xAxisLabel": "Año",
+            "yAxisLabel": "Ingresos ($)",
+            "graphDescription": "¡Crecimiento de 100x en 12 Meses!"
+          },
+          "online_slide": {
+            "heading": "ESTRATEGIA DE EXPANSIÓN EN LÍNEA",
+            "strategyTitle1": "Mercado de Agricultores",
+            "strategyHeading1": "Fuente Principal de Ingresos",
+            "strategySubheading1": "Ventas cara a cara",
+            "strategyDescription1": "Interacción directa con el cliente",
+            "strategyCost1": "Alquiler de espacio por $500/mes en el mercado",
+            "strategyTitle2": "Éxito de Video Viral",
+            "strategyHeading2": "Aplastamiento Satisfactorio de Slime",
+            "strategySubheading2": "Más de 12,000 vistas",
+            "strategyDescription2": "Alcance exponencial en línea",
+            "strategyCost2": "Equipo de grabación profesional + estudio $1,500",
+            "videoPerformanceHeading": "Rendimiento del Video en Línea",
+            "videoPerformanceMatric1": "Vistas del Video",
+            "videoPerformanceMatric2": "Tasa de Participación",
+            "videoPerformanceMatric3": "Nuevos Seguidores",
+            "opportunityHeading": "💡 La Oportunidad",
+            "opportunityDescription": "Ampliar la producción para satisfacer las demandas exponenciales de los clientes",
+            "opportunityAction": "¡Por eso necesitamos este préstamo! 🚀"
+          }
+        }
+      },
+      "S4_D1_FX_C3": "Déjame asegurarme de que entiendo. ¿Quieres un préstamo comercial para... ¿slime?",
+      "S4_D2_FX_C2": "Esto no es cualquier slime. Slime Time es un slime premium y especializado, con propiedades texturales únicas.",
+      "S4_D3_FX_C1": "De hecho, producimos 8 variedades diferentes de slime. Y a nuestros clientes realmente les encanta.",
+      "S4_D4_FX_C2": "Después de descubrir una necesidad no satisfecha en el mercado, comenzamos a vender frascos de slime a nuestros compañeros de clase por $5 cada uno.",
+      "S4_D5_FX_C1": "En nuestro primer año, solo ganamos $20.",
+      "S4_D6_FX_C3": "Lo siento, pero $20 no es mucho para un negocio.",
+      "S4_D8_FX_C1": "Pero como puedes ver, durante este último año, ¡hemos vendido más de $2000 en slime!",
+      "S4_D7_FX_C2": "Eso son más de 400 unidades, cada una cuidadosamente elaborada por artesanos capacitados.",
+      "S4_D9_FX_C2": "Actualmente, la mayor parte de nuestros ingresos proviene de nuestro puesto en el mercado de agricultores. Para continuar nuestro crecimiento exponencial, hemos comenzado a promocionar nuestros productos en línea.",
+      "S4_D11_FX_C1": "Nuestro video 'Slime Smoosh Satisfactorio' ahora tiene más de 12,000 vistas.",
+      "S4_D12_FX_C2": "Y como ve, Sr. Donovan, por eso estamos aquí por un préstamo. Necesitamos escalar nuestro proceso de fabricación para mantenernos al día con la demanda exponencial de nuestros clientes.",
+      "S4_D10_FX_C3": "No estoy seguro de estar siguiendo.",
+      "S4_D15_FX_C2": "No se preocupe, he preparado una presentación que muestra nuestro modelo de crecimiento exponencial."
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Crecimiento de la Inversión",
+        "about": {
+          "heading": "Crecimiento Exponencial del Negocio",
+          "body": "<div><p>Esta demostración interactiva muestra cómo un negocio puede crecer a diferentes ritmos con el tiempo. El negocio tiene dos trayectorias de crecimiento posibles: Realista (10%) e Histórica (9900%).</p><p style='padding-top: 10px;'>¡Observa cómo incluso pequeños cambios en la tasa de crecimiento conducen a resultados dramáticamente diferentes! Este es el poder del crecimiento exponencial, donde cada incremento se basa en el valor anterior.</p></div>"
+        },
+        "help": {
+          "heading": "Proyectando el Crecimiento",
+          "body": "<div><p>Ajuste la utilidad inicial, las tasas de crecimiento y los años de proyección para ver el potencial comercial a largo plazo. La función exponencial <span role='math' aria-label='R de t es igual a R₀ por 1 más g elevado a la potencia t'><span style='font-weight: bold; font-family: Besley;' aria-hidden='true'><span style='font-style: italic; color: #0061FC;'>R</span>(<span style='font-style: italic; color: #8E24AA;'>t</span>) = <span style='font-style: italic; color: #008217;'>R₀</span> × (1 + <span style='font-style: italic; color: #E0002B;'>g</span>)<sup style='font-style: italic; color: #8E24AA;'>t</sup></span></span> muestra cómo un crecimiento porcentual constante crea resultados espectaculares a lo largo del tiempo.</p><h4 style='font-weight: bold; padding-top: 10px;'>Preguntas a considerar:</h4><p style='padding-top: 1) ¿Cuál sería su beneficio semanal en 5 años si mantuviera su tasa de crecimiento histórica (9900%)?</p><p style='padding-top: 10px;'>2) ¿Qué escenario de crecimiento parece más realista para una pequeña empresa a largo plazo?</p></div>"        },
+        "about_step3": {
+          "heading": "Verificación de la Realidad de Unidades",
+          "body": "<div><p>Esta interacción revela los desafíos prácticos del crecimiento exponencial al convertir las proyecciones de ingresos en unidades reales que deben producirse y venderse.</p><p style='padding-top: 10px;'>Aunque las matemáticas exponenciales pueden mostrar un potencial de crecimiento impresionante, las empresas reales enfrentan limitaciones físicas como capacidad de producción, espacio de almacenamiento, demanda del mercado y limitaciones de recursos. Este paso ayuda a los estudiantes a entender por qué el crecimiento exponencial típicamente se nivela en escenarios del mundo real.</p></div>"
+        },
+        "help_step3": {
+          "heading": "Análisis de Crecimiento Realista",
+          "body": "<div><p>Usa los controles deslizantes para ajustar el precio unitario y el marco de tiempo para ver cuántos frascos serían necesarios para alcanzar las proyecciones de ingresos. Esta calculadora ayuda a evaluar si las proyecciones de crecimiento exponencial son prácticamente alcanzables.</p><h4 style='font-weight: bold; padding-top: 10px;'>Cálculos Clave:</h4><p style='padding-top: 5px;'>• Total de frascos necesarios = Ingresos Proyectados ÷ Precio Unitario</p><p style='padding-top: 5px;'>• Considera la capacidad de producción, demanda del mercado y limitaciones de almacenamiento</p><p style='padding-top: 5px;'>• Compara la tasa de crecimiento actual (9900%) vs. tasa de crecimiento realista (10%)</p><h4 style='font-weight: bold; padding-top: 10px;'>Preguntas a Considerar:</h4><p style='padding-top: 5px;'>1) ¿Cuántos frascos necesitarían producir diariamente para cumplir con la proyección de crecimiento del 9900%?</p><p style='padding-top: 5px;'>2) ¿Es físicamente posible producir y vender 40,000 frascos dados sus recursos actuales?</p><p style='padding-top: 5px;'>3) ¿Qué factores limitan la capacidad de una empresa para mantener el crecimiento exponencial?</p></div>"
+        },
+
+        "about_step4": {
+          "heading": "Parámetros Comerciales y Análisis de Préstamos",
+          "body": "<div><p>Esta interacción demuestra cómo las decisiones comerciales sobre precios, capacidad e inversión afectan los resultados financieros y la capacidad de pago de préstamos.</p><p style='padding-top: 10px;'>Los estudiantes pueden explorar la relación entre la economía unitaria, la escala y la rentabilidad. El modelo muestra cómo las empresas deben equilibrar la estrategia de precios con la capacidad de producción mientras consideran costos fijos como espacio de almacenamiento y costos variables como materiales. Este paso ilustra por qué el crecimiento empresarial sostenible requiere una planificación financiera cuidadosa más allá de las proyecciones de ingresos.</p></div>"
+        },
+        "help_step4": {
+          "heading": "Análisis de Inversión Comercial",
+          "body": "<div><p>Ajusta el precio unitario y la capacidad de producción para explorar cómo los parámetros comerciales afectan la rentabilidad y la capacidad de pago de préstamos. Este modelo incluye costos fijos, costos variables y requisitos de inversión.</p><h4 style='font-weight: bold; padding-top: 10px;'>Conceptos Clave:</h4><p style='padding-top: 5px;'>• Margen de ganancia = Ingresos - (Costos variables + Costos fijos)</p><p style='padding-top: 5px;'>• Período de recuperación = Inversión inicial ÷ Ganancia anual</p><p style='padding-top: 5px;'>• La capacidad de producción limita el potencial máximo de ingresos</p><h4 style='font-weight: bold; padding-top: 10px;'>Preguntas a Considerar:</h4><p style='padding-top: 5px;'>1) ¿Qué precio unitario maximiza tanto el margen de ganancia como el volumen de ventas?</p><p style='padding-top: 5px;'>2) ¿Cómo afecta el aumento de la capacidad de producción al período de recuperación del préstamo?</p><p style='padding-top: 5px;'>3) ¿Qué sucede con la rentabilidad si los costos variables aumentan debido al escalamiento de la producción?</p></div>"
+        },
+        "translations": {
+          "slide1": {
+            "heading": "Historia de Crecimiento de Un Año",
+            "sliderLabel1": "Ingresos del Año 0",
+            "sliderLabel2": "Ingresos del Año 1",
+            "growthLabel1": "¡Crecimiento!",
+            "growthLabel2": "De $20 a $2000 en 1 año",
+            "growthLabel3": "Tasa de crecimiento anual",
+            "graphHeading": "Ingresos Durante 1 Año",
+            "xAxisLabel": "Tiempo (Años)",
+            "yAxisLabel": "Ingresos ($)"
+          },
+          "slide2": {
+            "heading": "Fórmula de Crecimiento Exponencial",
+            "sliderLabel1": "Ingresos Iniciales (R₀)",
+            "sliderLabel2": "Tasa de Crecimiento (g)",
+            "sliderLabel3": "Tiempo en Años (t)",
+            "formulaLabel1": "R de t es igual a R₀ por 1 más g elevado a la t",
+            "formulaLabel2": "Ingresos en el tiempo t",
+            "formulaLabel3": "Ingresos iniciales",
+            "formulaLabel4": "Tasa de crecimiento",
+            "formulaLabel5": "Tiempo en años",
+            "resultLabel": "Resultado:",
+            "calculationLabel": "${initialRevenue} por 1 más {customGrowthRate} por ciento elevado a la {projectionYears}",
+            "graphHeading": "Visualización del Crecimiento Exponencial",
+            "xAxisLabel": "Tiempo (Años)",
+            "yAxisLabel": "Ingresos ($)",
+            "questionOption1": "20 millones",
+            "questionOption2": "2 millones",
+            "questionOption3": "2 mil millones"
+          },
+          "slide3": {
+            "heading": "Verificación Realista de Unidades",
+            "sliderLabel1": "Precio por Unidad",
+            "sliderLabel2": "Años de proyección",
+            "growthComparisonLabel": "Comparación de Crecimiento:",
+            "jarNeededLabel": "Frascos necesarios para los ingresos proyectados:",
+            "jarCalculationLabel": "por frasco",
+            "currentGrowthLabel": "Crecimiento Actual",
+            "realisticGrowthLabel": "Crecimiento Realista",
+            "afterLabel": "Después de {projectionYears} años",
+            "toggleLabel1": "Actual ({customGrowthRate}%)",
+            "toggleLabel2": "Realista (10%)",
+            "graphHeading": "Análisis de la Proyección de Crecimiento",
+            "tShowing": "Mostrando",
+            "xAxisLabel": "Tiempo (Años)",
+            "yAxisLabel": "Ingresos ($)"
+          },
+          "slide4": {
+            "heading": "Parámetros del Negocio",
+            "sliderLabel1": "Precio por Unidad",
+            "sliderLabel2": "Capacidad de producción",
+            "tInvestment": "Inversión (Materiales)",
+            "tProfit": "Ganancia",
+            "tPayback": "Recuperación",
+            "tYears": "años",
+            "graphHeading": "Análisis de Devolución de Préstamo",
+            "xAxisLabel": "Tiempo (Años)",
+            "yAxisLabel": "Ingresos ($)",
+            "hint1": "✅ Rentable desde el Año 1",
+            "hint2": "⚠️ Se requiere recuperación de varios años"
+          },
+          "profit": "Ganancia",
+          "payback": "Retorno"
+        }
+      },
+      "S5_D1_FX_C2": "Como puedes ver, experimentamos un crecimiento masivo este último año, de $20 a $2000. ¡Eso es un crecimiento de 100 veces!",
+      "S5_D2_FX_C2": "Simplemente puedo proyectar nuestra tasa de crecimiento real para mostrarte el potencial vertiginoso de nuestro producto.",
+      "S5_D3_FX_C2": "Según esta proyección, para el próximo año estaremos ganando $200,000 — ¿eso sí sería un 'negocio real' para usted?",
+      "S5_D4_FX_C3": "Bueno, eso es un poco optimista.",
+      "S5_D6_FX_C2": "Esto es solo el comienzo. Proyectar nuestro crecimiento durante un período más largo mostraría la verdadera escala de nuestro potencial. Déjame configurarlo a 5 años.",
+      "S5_D5_FX_C3": "200 mil millones de dólares, ¿de slime? Vamos. Estos números son... difíciles de creer.",
+      "S5_D11_FX_C2": "¿Qué? ¿No crees en las matemáticas? Mira, puedes intentar modelarlo tú mismo. Simplemente sigue la función <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;'>R</span>(<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>t</span>) = <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #008217;'>R₀</span>(<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;'>1</span> + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #E0002B;'>g</span>)<sup><span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>t</span></sup>, donde <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #008217;'>R₀</span> son los ingresos iniciales, <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #E0002B;'>g</span> es la tasa de crecimiento y <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>t</span> es el tiempo en años.",      
+      "S5_D10_FX_C3": "Bien, déjame ver esta fórmula en acción. Si comenzaste con $20 y lograste una tasa de crecimiento del 9,900%, ¿cuál sería tu ingreso después de exactamente 3 años?",
+      "S5_D7_FX_C1": "20 millones de dólares. ¡La función exponencial muestra cómo nuestro pequeño comienzo creció dramáticamente!",
+      "S5_D12_FX_C1": "Sabemos que continuar el crecimiento exponencial será difícil. Pero realmente creemos que hay mucha más demanda.",
+      "S5_D13_FX_C3": "Bueno, si tus ganancias fueron tan altas, debes tener mucha baba para moverte a ese ritmo.",      
+      "S5_D14_FX_C2": "Sí, y podríamos calcularlo simplemente dividiendo los ingresos totales entre el costo unitario.",
+      "S5_D14_FX_C3": "Eso suena como matemáticas simples. Creo que también podrías tener la calculadora configurada para eso.",
+      "S5_D15_FX_C1": "Sí, Sr. Donovan, también tenemos eso. ¿Qué valores le gustaría que proyectáramos?",
+      "S5_D15_FX_C3": "Bueno, dijeron que su precio unitario es $5 y su tasa de crecimiento es 9900%. Con esas cifras, ¿pueden imaginar cuánto podría crecer su volumen de ventas en solo 2 años?",
+      "S5_D16_FX_C1": "Sí, podemos modelar eso. Ben, ¿puedes configurar los años de proyección a 2 años y ver cuántos frascos tenemos?",
+      "S5_D16_FX_C3": "¡40,000 frascos! ¿Y realmente creen que cada persona en la tierra estaría dispuesta a comprar diferentes frascos de su slime?",
+      "S5_D17_FX_C2": "Es cierto, sí tenemos 8 variedades...",
+      "S5_D18_FX_C3": "Eso no es lo que estoy diciendo. Este modelo no es realista. El crecimiento empresarial puede ser rápido al principio, pero las empresas más grandes raramente tienen tasas de crecimiento de más del 10% —¡no del 9,900%! Veo que también tienes proyecciones de crecimiento realistas, cambia a esa vista. Y ahora mira la proyección de crecimiento para 5 años.",
+      "S5_D19_FX_C1": "Hmm, ¡ahora toma una eternidad! Ni siquiera habremos duplicado nuestro dinero.",
+      "S5_D20_FX_C3": "Así es. Una buena regla general es que una tasa de crecimiento del 10% aproximadamente duplicará tu dinero cada 7 años.",
+      "S5_D21_FX_C2": "¡Pero para cuando eso pase, seré demasiado viejo! ¿Todo ese tiempo solo por el préstamo de $4,000?",
+      "S5_D22_FX_C3": "Bueno, para ser honesto, sí creo que su negocio tiene potencial para crecer más rápido — especialmente al principio. ¿Para qué necesitan el préstamo, de todos modos?",
+      "S5_D23_FX_C1": "Bueno, principalmente necesitamos hacer una tienda en línea para que los clientes puedan comprar nuestro producto. Es una inversión de unos $1,000.",
+      "S5_D24_FX_C2": "También necesitamos <no-glossary>expandir</no-glossary> nuestro centro de fabricación.",
+      "S5_D25_FX_C1": "Sí. El sótano está hecho un desastre — Mamá no nos deja guardar nada ahí. Así que encontramos una unidad de almacenamiento para nuestros suministros. Pero cuesta alrededor de $2,000 por el año.",
+      "S5_D26_FX_C2": "Si conseguimos la unidad de almacenamiento, finalmente tendríamos espacio para <no-glossary>expandirnos</no-glossary>. Y por eso Sr. Donovan, necesitamos este préstamo.",      
+      "S5_D31_FX_C3": "¿Saben qué? Creo que en realidad es una buena inversión. Ustedes están muy motivados — y ya han demostrado que la gente está dispuesta a pagar por su producto.",
+      "S5_D32_FX_C1": "¿Eso significa que nos dan el préstamo?",
+      "S5_D33_FX_C3": "Lo siento, debí decírselo desde el principio: Somos un banco— Simplemente no puedo aprobar un préstamo para solicitantes menores de 18 años.",
+      "S5_D34_FX_C2": "¿Puedo hablar con el gerente?",
+      "S5_D35_FX_C3": "YO SOY el gerente. Pero miren, creo que les irá muy bien. Aquí está mi tarjeta — ¡contáctenme en unos años!"
+    },
+    "S6": {
+      "S6_D1_FX_C1": "Bueno, eso fue una pérdida de nuestra presentación cuidadosamente preparada.",
+      "S6_D2_FX_C2": "No del todo. El Sr. Donovan confirmó que nuestro modelo de negocio es sólido. Simplemente carecemos de la capacidad legal para obtener financiamiento tradicional.",
+      "S6_D3_FX_C1": "¿Y ahora qué?",
+      "S6_D4_FX_C2": "¿Por qué no hablamos con mamá y vemos si podríamos usar su tarjeta de crédito?",
+      "S6_D5_FX_C1": "¿Hablas en serio? Para empezar, mamá nunca apoyaría eso. ¿Pero siquiera has considerado el riesgo potencial?",
+      "S6_D6_FX_C2": "¿Qué riesgo? Yo sería muy cuidadosa y solo gastaría dinero en el negocio. Y posiblemente en coleccionables cuidadosamente investigados.",
+      "S6_D7_FX_C1": "Hablo de las tasas de interés. Con un banco, podríamos haber conseguido una tasa de interés entre 5-10% para nuestro negocio... ¡Pero las tarjetas de crédito tienen una tasa de casi 30%!",
+      "S6_D8_FX_C2": "¡No si lo pagas todo cada mes—entonces es gratis! Mejor que gratis—puedes obtener puntos que se pueden gastar. ¡Es como si te regalaran dinero!",
+      "S6_D9_FX_C1": "No has pensado esto bien. Vamos a modelarlo."
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "Simulador de Deuda con Tarjeta de Crédito",
+        "about": {
+          "heading": "Comprendiendo la Deuda con Tarjeta de Crédito",
+          "body": "<p>Si bien el interés compuesto puede jugar a tu favor en las inversiones, funciona en tu contra cuando se trata de deudas. Este simulador muestra cómo una inversión empresarial de <strong>$3,000</strong> puede crecer exponencialmente cuando se financia con tarjetas de crédito de alto interés.</p><p style='padding-top: 10px;'>Usa los controles interactivos para ajustar la deuda inicial ($1,000–$10,000), la tasa de interés (5.99%–35.99%), el monto objetivo de la deuda ($5,000–$25,000) y la tasa de pago mínimo (1%–5%).</p><p style='padding-top: 10px;'>Cada control deslizante te permite explorar diferentes decisiones financieras: cambia la <strong>Deuda Inicial</strong> para ver cómo influye pedir más dinero prestado, ajusta la <strong>Tasa de Interés</strong> para simular diferentes condiciones de préstamo, modifica el <strong>Pago Mínimo</strong> para entender cómo los pagos pequeños afectan el crecimiento de la deuda a lo largo del tiempo y usa el <strong>Pago Objetivo</strong> para explorar cómo pagar más rápido reduce los intereses.</p><p style='padding-top: 10px;'>Alterna entre ver el crecimiento actual de la deuda y la acumulación total de intereses para entender cómo el interés compuesto perjudica a los prestatarios.</p>"
+        },
+        "help": {
+          "heading": "La Trampa de la Deuda",
+          "body": "¡Las tarjetas de crédito aplican interés compuesto en tu contra! Compras pequeñas pueden volverse mucho más costosas cuando se pagan lentamente o con pagos mínimos.<h4 style='font-weight: bold; padding-top: 10px;'>Preguntas para Considerar:</h4><p style='padding-top: 5px;'>1) Si los hermanos ponen <strong>$3,000</strong> en una tarjeta de crédito con una tasa del 29.99% APR y pagos mínimos del 1%, ¿cuántos meses tomará para que la deuda alcance <strong>$10,000</strong>?</p><p style='padding-top: 10px;'>2) ¿Cuánto seguirán debiendo después de <strong>10 años</strong> haciendo solo pagos mínimos?</p><p style='padding-top: 10px;'>3) ¿Cómo afecta el cambio de la tasa de interés del 29.99% a una tasa bancaria más baja como <strong>8%</strong> la deuda total después de 10 años?</p>"
+        },
+        "creditCostsText": "Costos del crédito",
+        "moreThanSaving": "¡más que ahorrar!",
+        "theDebtTrap": "La trampa de la deuda",
+        "creditOption": "Opción de crédito",
+        "timeToPayOff": "Tiempo para pagar:",
+        "months": "meses",
+        "interestPaid": "Interés pagado:",
+        "totalCost": "Costo total:",
+        "saveAndWait": "Ahorrar y esperar",
+        "timeToSave": "Tiempo para ahorrar:",
+        "weeks": "semanas",
+        "adjustParameters": "Ajustar parámetros",
+        "purchaseAmount": "Deuda inicial",
+        "interestRateAPR": "Tasa de interés (APR)",
+        "minimumPayment": "Pago mínimo",
+        "latePayments": "Pago objetivo de deuda",
+        "worthTheWait": "¡Vale la pena esperar!",
+        "save": "Ahorrar",
+        "byWaitingJust": "esperando solo",
+        "weeksLabel": "semanas.",
+        "warningLatePaymentImpact": "Advertencia: Impacto por pagos atrasados",
+        "latePaymentsAdd": "Los pagos atrasados agregan",
+        "inFeesAndCanDamage": "en cargos y pueden dañar tu puntaje de crédito por hasta",
+        "sevenYears": "7 años",
+        "originalPurchase": "Compra original",
+        "balance": "Saldo",
+        "interestPaidChart": "Interés pagado",
+        "month": "Mes",
+        "debtHits": "La deuda alcanza",
+        "inJust": "en solo",
+        "currentDebt": "Deuda actual",
+        "totalInterest": "Interés total",
+        "monthsUntilDebtReaches": "Meses hasta que la deuda alcance",
+        "makingMinimumPaymentsOnly": "Haciendo solo pagos mínimos",
+        "debtAfter10Years": "Deuda después de 10 años",
+        "originalDebt": "Deuda original:",
+        "monthlyPayment": "Pago mensual",
+        "never": "Nunca",
+        "warning": "Advertencia",
+        "warningMsgPt1": "Después de 10 años de pagos mínimos,",
+        "warningMsgPt2": "la deuda será",
+        "realityCheck": "Chequeo de realidad",
+        "realityCheckMsgPt1": "Tu deuda cambia a",
+        "realityCheckMsgPt2": "Las tasas de interés altas hacen que la deuda crezca exponencialmente."
+      },
+      "S7_D1_FX_C1": "Digamos que ponemos $3,000 en una tarjeta de crédito para <no-glossary>expandir</no-glossary> nuestro negocio. Establece la deuda en $3,000 y la tasa de interés en 24.99%, que es típica para las tarjetas de crédito.",
+      "S7_D2_FX_C2": "Eso no parece tan malo como solución a corto plazo...",
+      "S7_D3_FX_C1": "Ahora veamos qué pasa si solo podemos hacer pagos mínimos del 1% cada mes. Lo aterrador es cómo crece la deuda si perdemos algunos pagos o no podemos reducirla rápidamente.",
+      "S7_D4_FX_C2": "Probemos esto: establecemos la deuda inicial en $3,000, la tasa de interés (APR) en 24.99%, el pago mínimo al 1% y el objetivo de pago de deuda en $6,000. ¿Cuántos meses tomará hasta que nuestra deuda alcance los $6,000?",
+      "S7_D5_FX_C1": "¿65 meses? ¡Eso son más de 5 años! Y mira el total de intereses pagados: ¡$5,849! ¡Pagaríamos casi el doble de lo que pedimos prestado solo en intereses!",      "S7_D6_FX_C2": "¡Exactamente! Ahora hagámoslo más realista: algunas tarjetas cobran tasas de interés aún más altas.",
+      "S7_D7_FX_C1": "Correcto. Intenta esto: mantén nuestra deuda inicial original en $3,000 y el pago mínimo al 1%, pero establece la tasa de interés (APR) en 29.99%. Luego revisa cuánto interés terminaremos pagando cuando la deuda llegue a $10,000.",
+      "S7_D8_FX_C2": "¡Casi $12,000 en intereses por pedir prestados $3,000! ¡Eso es casi cuatro veces lo que pedimos prestado!",
+      "S7_D9_FX_C1": "Compárelo con las tasas bancarias del Sr. Donovan, del 5-10 %. Con un 7,99 %, pagaríamos unos 1400 $ de intereses en lugar de 12 000 $ en 81 meses.",
+      "S7_D10_FX_C2": "¡Casi nueve veces más caro! Las tarjetas de crédito son arenas movedizas financieras. Con razón las empresas exitosas evitan las deudas con intereses altos.",
+      "S7_D11_FX_C1": "Esta es exactamente la razón por la que necesitamos encontrar otras formas de hacer crecer nuestro negocio sin ninguna deuda en absoluto."
+    },
+    "S8": {
+      "S8_D1_FX_C1": "¡Vaya, esa lección sobre tarjetas de crédito fue reveladora! Pero he estado pensando: no necesitamos préstamos NI tarjetas de crédito. Podemos crecer usando lo que ya tenemos.",
+      "S8_D2_FX_C2": "¿Nuestras métricas de redes sociales?",
+      "S8_D3_FX_C1": "¡Exactamente! Obtenemos 12,000 vistas por video con una tasa de conversión del 0.5%. Eso son solo 60 ventas por video.",
+      "S8_D4_FX_C2": "Y publicamos dos veces por semana, así que son 120 ventas por video provenientes de las redes sociales.",
+      "S8_D5_FX_C1": "¿Pero qué pasaría si mejoramos nuestra tasa de conversión al 1% Y publicamos diariamente en lugar de dos veces por semana? Vamos a modelarlo"
+    },
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "Estrategia de Crecimiento en Redes Sociales",
+        "about": {
+          "heading": "Estrategia de Crecimiento en Redes Sociales",
+          "body": "<p>Transforma las visualizaciones de tus redes sociales en ingresos a través de la optimización inteligente de las tasas de conversión y la frecuencia de publicación. Esta interactiva demuestra cómo pequeñas mejoras en el compromiso de los espectadores pueden llevar a un crecimiento exponencial del negocio.</p><p style='padding-top: 10px;'>Usa los controles para ajustar las tasas de conversión actuales (0.1%-2.0%), las tasas de conversión objetivo (0.5%-3.0%), los videos actuales por semana (1-7), y los videos objetivo por semana (1-14). Alterna entre ver el crecimiento de ingresos semanales y el crecimiento de ventas semanales para ver cómo las estrategias de optimización se componen con el tiempo con un crecimiento mensual del 20%.</p>"
+        },
+        "help": {
+          "heading": "Crecimiento Exponencial en Redes Sociales",
+          "body": "Pequeños cambios en las tasas de conversión y la frecuencia de publicación pueden llevar a resultados de ingresos dramáticamente diferentes con el tiempo.<h4 style='font-weight: bold; padding-top: 10px;'>Preguntas a Considerar:</h4><p style='padding-top: 5px;'>1) Comenzando con <strong>12,000 visualizaciones por video</strong> con una tasa de conversión del 0.5% publicando 2 videos semanalmente, ¿qué pasa cuando mejoras a <strong>1.0% de conversión</strong> y <strong>7 videos por semana</strong>?</p><p style='padding-top: 10px;'>2) ¿Cómo afecta la <strong>fórmula de crecimiento exponencial R(t) = R₀ × (1 + g)ᵗ</strong> con un crecimiento mensual del 20% tus proyecciones de ingresos durante 6 meses?</p><p style='padding-top: 10px;'>3) Compara las tarjetas de estrategia actual vs estrategia objetivo - ¿cuál es el efecto multiplicador de ingresos de las mejoras combinadas?</p>"
+        },
+        "revenueGrowth": "¡Crecimiento de Ingresos!",
+        "controls": "Controles",
+        "conversion": "Conversión",
+        "currentConversion": "Conversión Actual",
+        "targetConversion": "Conversión Objetivo",
+        "posting": "Publicación",
+        "currentVideosWeek": "Videos Actuales/Semana",
+        "targetVideosWeek": "Videos Objetivo/Semana",
+        "monthGrowthProjection": "Proyección de Crecimiento de 6 Meses",
+        "monthlyGrowth": "Crecimiento Mensual",
+        "revenue": "Ingresos",
+        "sales": "Ventas",
+        "month": "Mes",
+        "monthlyRevenue": "Ingresos mensuales",
+        "weeklySales": "Ventas Semanales",
+        "monthlyRevenueGrowth": "Ingresos mensuales ({growthMultiplier}x crecimiento)",
+        "weeklySalesGrowth": "Ventas Semanales ({growthMultiplier}x crecimiento)",
+        "exponentialGrowthFormula": "Fórmula de Crecimiento Exponencial",
+        "revenueAfter": "Ingresos después de",
+        "months": "meses",
+        "initialWeeklyRevenue": "Ingresos semanales iniciales",
+        "initialMonthlyRevenue": "Ingresos mensuales iniciales",
+        "monthlyGrowthRate": "Tasa de crecimiento mensual",
+        "timeInMonths": "Tiempo en meses",
+        "minCurrentConversion": "0.1%",
+        "maxCurrentConversion": "2.0%",
+        "minTargetConversion": "0.5%",
+        "maxTargetConversion": "3.0%",
+        "minCurrentVideos": "1",
+        "maxCurrentVideos": "7",
+        "minTargetVideos": "1",
+        "maxTargetVideos": "14",
+        "currentStrategy": "Estrategia Actual",
+        "targetStrategy": "Estrategia Objetivo",
+        "conversionRateLabel": "Tasa de Conversión:",
+        "videosWeekLabel": "Videos/Semana:",
+        "salesVideoLabel": "Ventas/Video:",
+        "weeklyRevenueLabel": "Ingresos Semanales:",
+        "chartAriaLabel": "Gráfico de líneas interactivo que muestra la proyección de crecimiento de ingresos y ventas de 6 meses. Usa los botones de alternar arriba para cambiar entre las vistas de datos de ingresos y ventas.",
+        "formulaAriaLabel": "Fórmula de crecimiento exponencial: R de t es igual a R sub cero por la cantidad 1 más g cantidad elevada a la potencia de t. Donde R de t son los ingresos después de t meses, R sub cero son los ingresos semanales iniciales, g es la tasa de crecimiento mensual, y t es el tiempo en años.",
+        "monthlyRevenueBreakdown": "Desglose de Ingresos Mensuales",
+        "sellingPrice": "Precio de venta",
+        "oneMonth": "1 mes",
+        "weeks": "semanas",
+        "videosPerWeek": "Videos/semana",
+        "salesPerVideo": "Ventas/Video",
+        "closePopover": "Cerrar",
+        "showCalculationBreakdown": "Mostrar desglose del cálculo",
+        "monthlyRevenueLabel": "Ingresos Mensuales (×4)",
+        "baseline": "Línea base",
+        "baselineCurrent": "Línea base (Actual)",
+        "baselineTarget": "Línea base (Objetivo)"
+      },
+      "S9_D1_FX_C1": "Probemos modelar un escenario de crecimiento realista para nuestra estrategia en redes sociales. Usaremos una tasa de crecimiento mensual del 10% — algo constante y alcanzable a largo plazo.",
+      "S9_D1_FX_C2": "Configuraré la calculadora con nuestras métricas actuales. Tasa de conversión actual: 0.5%, tasa de conversión objetivo: 1.0%. Videos actuales por semana: 2, videos objetivo por semana: 7. Averigüemos nuestro ingreso mensual objetivo.",
+      "S9_D2_FX_C2": "La calculadora muestra que nuestro ingreso mensual actual es de $2,400, pero con la estrategia mejorada salta a $16,800.",
+      "S9_D3_FX_C1": "¡Eso es exactamente 7 veces más ingresos! Y mira las tarjetas de comparación: la estrategia actual nos da 60 ventas por video, la estrategia mejorada nos da 120 ventas por video.",
+      "S9_D4_FX_C2": "Antes solo publicábamos 2 veces por semana, pero ahora publicamos 7 veces — eso es 3.5 veces más videos. Y como nuestra tasa de conversión es el doble, eso significa que estamos creciendo unas 7 veces más rápido que antes.",
+      "S9_D5_FX_C1": "¡Y eso es antes de siquiera considerar el crecimiento exponencial mensual! Mira el mes 6: estaríamos generando alrededor de $30,000 mensuales.",
+      "S9_D6_FX_C2": "La fórmula de crecimiento exponencial muestra exactamente cómo funciona esto. Nuestros $16,800 de ingresos mensuales se convierten en $29,820 después de 6 meses con un crecimiento mensual del 10%.",
+      "S9_D7_FX_C1": "Ese es el poder del crecimiento exponencial—¡y ni siquiera gastamos dinero extra! Solo mejor contenido y publicar más consistentemente."
+    },
+    "S10": {
+      "S10_D1_FX_C1": "Ahora que hemos descubierto cómo hacer crecer nuestro negocio de forma orgánica, he estado pensando en nuestra estrategia a largo plazo. ¿Y si destinamos una parte de nuestras ganancias a inversiones en lugar de reinvertir todo en el negocio?",
+      "S10_D2_FX_C2": "¿Estás sugiriendo diversificación de cartera? Papá mencionó eso en nuestro proyecto de economía.",
+      "S10_D3_FX_C1": "¡Exactamente! Aunque nuestro negocio está creciendo rápidamente ahora, el slime podría ser una moda pasajera. Además, ya trabajamos todos los días después de la escuela: hay un límite de cuánto podemos <no-glossary>expandirnos</no-glossary> en este momento.",
+      "S10_D4_FX_C2": "Eso se llama riesgo de concentración: tener todo nuestro dinero en un solo negocio. ¿Y si el slime de repente deja de ser popular, o una gran empresa comienza a hacer productos similares?",
+      "S10_D5_FX_C1": "¡Correcto! Quizás reinvirtamos el 80 % en el negocio y destinemos el 20 % a ahorros a largo plazo. Imaginemos algunos escenarios"
+    },
+    "S11": {
+      "S11_D0_FX_C9": {
+        "title": "Calculadora de Interés Compuesto",
+        "info": {
+          "heading": "Calculadora de Proyección de Crecimiento Empresarial",
+          "description": "<p style='margin-bottom: 10px;'>Este interactivo muestra la \"octava maravilla del mundo\" de Einstein: el interés compuesto. Los hermanos están considerando invertir $50 semanales. La calculadora muestra cómo las contribuciones regulares crecen exponencialmente con el tiempo.</p><p style='font-size: 20px; line-height: 30px; font-weight: 500;'>Observe cómo incluso pequeñas diferencias en las tasas de interés (8% vs. 10%) resultan en resultados radicalmente distintos a largo plazo. La Regla del 72 ayuda a estimar el tiempo de duplicación: 72 ÷ tasa de interés = años para duplicar su dinero.</p>"        },
+        "help": {
+          "heading": "El Poder del Interés Compuesto",
+          "description": "<p>Las inversiones regulares crecen exponencialmente con el tiempo. Ve cómo las pequeñas contribuciones semanales pueden crecer a cantidades significativas a lo largo de años o décadas.</p><p style='font-size: 18px; font-weight: bold; margin-top: 10px;'>Preguntas a Considerar: </p><ul style='list-style-type: pointer; margin-left: 20px;'><li>Si los hermanos invierten $50 semanalmente con un rendimiento anual del 8%, ¿cuánto tendrán después de 10 años?</li><li>¿Cómo afecta cambiar la tasa de interés del 8% al 10% la cantidad final?</li><li>¿A qué tasa de interés se duplicaría su dinero en aproximadamente 9 años?</li></ul>"
+        },
+        "investment_parameters": "Parámetros de Inversión",
+        "initial_investment": "Inversión Inicial",
+        "current_initial_investment": "Inversión inicial actual",
+        "initial_weekly_investment_slider": "Control deslizante de inversión inicial",
+        "weekly_contribution": "Contribución Semanal",
+        "current_weekly_contribution": "Contribución semanal actual",
+        "weekly_contribution_slider": "Control deslizante de contribución semanal",
+        "annual_return_rate": "Tasa de Retorno Anual",
+        "current_annual_return_rate": "Tasa de retorno anual actual",
+        "annual_return_rate_slider": "Control deslizante de tasa de retorno anual",
+        "investment_years": "Años de Inversión",
+        "current_investment_period": "Período de inversión actual",
+        "investment_years_slider": "Control deslizante de años de inversión",
+        "years": "Años",
+        "year_investment_growth_projection": "Proyección de Crecimiento de Inversión Anual",
+        "investment_growth_projection_chart": "Gráfico de proyección de crecimiento de inversión",
+        "years_axis": "Años",
+        "value_in_usd": "Valor en USD",
+        "year": "Año",
+        "total_value": "Valor Total",
+        "total_contributed": "Total Contribuido",
+        "investment_growth": "Crecimiento de Inversión",
+        "starting_point": "Punto de Partida",
+        "total_investment_value_area": "Área de valor total de inversión",
+        "total_contributed_area": "Área total contribuida",
+        "investment_growth_area": "Área de crecimiento de inversión",
+        "investment_summary_comparison": "Comparación de resumen de inversión",
+        "final_value": "Valor Final",
+        "total_value_summary": "Resumen de valor total",
+        "after_years": "Después de {years} años:",
+        "final_value_after_years": "Valor final después de {years} años",
+        "weekly_savings": "Ahorros semanales:",
+        "weekly_savings_amount": "Cantidad de ahorros semanales: ${weeklyContribution}",
+        "annual_savings": "Ahorros anuales:",
+        "annual_savings_amount": "Ahorros anuales: {amount}",
+        "total_contributed_summary": "Resumen total contribuido",
+        "your_money_in": "Tu dinero invertido:",
+        "total_contributed_over_years": "Total contribuido durante {years} años",
+        "initial_amount": "Cantidad inicial:",
+        "initial_investment_amount": "Inversión inicial: ${initialInvestment}",
+        "weekly_contributions": "Contribuciones semanales:",
+        "total_weekly_contributions": "Total de contribuciones semanales: {amount}",
+        "investment_growth_summary": "Resumen de crecimiento de inversión",
+        "compound_interest": "Interés compuesto:",
+        "investment_growth_over_years": "Crecimiento de inversión durante {years} años",
+        "return_rate": "Tasa de retorno:",
+        "annual_return_rate_display": "Tasa de retorno anual: {rate}%",
+        "doubling_time": "Tiempo de duplicación:",
+        "money_doubles_every_years": "El dinero se duplica cada {time} años",
+        "millionaire_achievement": "Logro millonario",
+        "millionaire_status_achieved": "🎉 ¡Estado Millonario Alcanzado!",
+        "millionaire_description": "¡Invirtiendo ${weeklyContribution} semanales con {annualReturn}% de retorno anual, alcanzarás {totalValue} en {years} años!",
+        "calculator_controls": "Controles de Calculadora",
+        "compound_interest_formula": "Fórmula de Interés Compuesto",
+        "formula_explanation": "Explicación de fórmula",
+        "compound_interest_formula_description": "A es igual a P por paréntesis abierto uno más r paréntesis cerrado elevado a la t más PMT por corchete abierto paréntesis abierto uno más r paréntesis cerrado elevado a la t menos uno dividido por r corchete cerrado",
+        "formula_variables": "Variables de fórmula",
+        "where": "Donde",
+        "final_amount": "Cantidad final",
+        "principal": "Principal (${initialInvestment})",
+        "annual_interest_rate": "Tasa de interés anual ({annualReturn}%)",
+        "time_in_years": "Tiempo en años ({years})",
+        "weekly_payment": "Pago semanal (${weeklyContribution})",
+        "rule_of_72": "Regla del 72: El dinero se duplica cada ~{doublingTime} años"
+      },
+      "S11_D1_FX_C2": "Déjame calcular esto usando la calculadora de interés compuesto. Si invertimos $50 semanalmente con un rendimiento anual del 8%, ¿cuál será el valor final después de 10 años?",
+      "S11_D2_FX_C1": "¡Eso son $39,638 después de 10 años! Y eso solo por invertir $50 cada semana.",
+      "S11_D3_FX_C2": "Las matemáticas detrás de esto corresponden a la fórmula del interés compuesto para pagos regulares: <span className='font-besley'><span className='text-[#8200C3] font-bold italic'>A</span> = <span className='text-[#9F008F] font-bold italic'>P</span> (1 + <span className='text-[#0055B2] font-bold italic'>r</span>)<sup className='text-[#A13C34] font-bold italic'>t</sup> + <span className='text-[#006400] font-bold italic'>PMT</span> <span className='text-black text-xl font-bold'>&times;</span> <span style='font-family: Courier New, monospace; font-size: 1.5em; transform: scaleY(1.8); display: inline-block; vertical-align: middle;'>[</span><span style='display: inline-block; vertical-align: middle; text-align: center;'><div style='display: flex; flex-direction: column; font-size: 0.95em;'><div style='border-bottom: 2px solid black;'>(1 + <span class='text-[#0055B2] font-bold italic'>r</span>)<sup class='text-[#A13C34] font-bold italic'>t</sup> - 1</div><div><span class='text-[#0055B2] font-bold italic'>r</span></div></div></span><span style='font-family: Courier New, monospace; font-size: 1.5em; transform: scaleY(1.8); display: inline-block; vertical-align: middle;'>]</span></span>. Aquí, <span className='text-[#006400] font-besley font-bold italic'>PMT</span> es nuestro pago semanal, <span className='text-[#0055B2] font-besley font-bold italic'>r</span> es la tasa de interés semanal, y <span className='text-[#A13C34] font-besley font-bold italic'>t</span> es el número de semanas.",
+      "S11_D4_FX_C1": "¿Y si usamos diferentes tasas de retorno? Papá dice que el mercado de valores promedia un 10% históricamente. ¿Cuánto valdría nuestra inversión semanal de $50 después de 10 años al 10% en vez de 8%?",
+      "S11_D5_FX_C2": "Al 10%, eso se convierte en $44,383 — ¡son $4,745 más! El crecimiento compuesto realmente suma.",
+      "S11_D6_FX_C1": "¿Pero qué tan confiable es el 10%?",
+      "S11_D7_FX_C2": "Es el promedio histórico, pero fluctúa mucho de un año a otro. Usemos 8% para una planificación conservadora. Además, aunque nuestro negocio pueda crecer más rápido que 8% ahora, no sabemos si eso continuará para siempre.",
+      "S11_D8_FX_C1": "Tengo curiosidad — ¿qué pasa si pudiéramos invertir el doble? ¿Qué sucede si invertimos $100 semanales en vez de $50, aún al 8% durante 10 años?",
+      "S11_D9_FX_C2": "Eso serían $79,277 — ¡casi exactamente el doble de nuestra inversión inicial! Así que duplicar la inversión duplica el resultado.",
+      "S11_D10_FX_C1": "¡Esto tiene mucho sentido! Podríamos tener tanto un negocio exitoso como una sólida cartera de inversiones trabajando para nosotros al mismo tiempo.",
+      "S11_D11_FX_C2": "Exactamente. Estamos usando los mismos principios de crecimiento exponencial que hacen exitoso nuestro negocio, pero aplicándolos a la creación de riqueza."
+    },
+    "S14": {
+      "S14_D1_FX_C2": "Las matemáticas indican claramente que estamos mejor sin financiamiento externo. La función exponencial está de nuestro lado si mantenemos la paciencia y la constancia.",
+      "S14_D2_FX_C1": "La verdad, me alegra que el Sr. Donovan nos haya rechazado.",
+      "S14_D3_FX_C2": "¿Por qué estarías contento con un resultado negativo?",
+      "S14_D4_FX_C1": "Porque ahora sabemos que no necesitamos un banco. Las matemáticas están de nuestro lado.",
+      "S14_D5_FX_C2": "El tiempo y el crecimiento compuesto: mucho mejores que cualquier producto crediticio del mercado.",
+      "S14_D6_FX_C1": "No puedo esperar para mostrarle al Sr. Donovan nuestra calculadora de millonarios en unos años.",
+      "S14_D7_FX_C2": "Le costará creer que un imperio empresarial de 20 millones de dólares surgió de una inversión de 20 dólares en un fluido viscoelástico no newtoniano.",
+      "S14_D8_FX_C1": "¡Solo di slime, Ben!"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "Has conquistado Los gemelos exponenciales: dominar los patrones de crecimiento",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><div style='font-size: 20px; line-height: 30px; font-weight: 500; color: #333333; margin: 0; padding: 0;'> <p style='padding-bottom:10px;'>¡Has completado tu viaje a través de Slime Time STEAMQuest!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Calculaste tasas de crecimiento compuesto para proyecciones de negocios</li><li>Analizaste cómo las funciones exponenciales modelan el crecimiento de negocios e inversiones</li><li>Evaluaste los riesgos de las deudas con altos intereses usando modelos exponenciales</li><li>Diseñaste un camino matemático hacia la independencia financiera</li></ul><p style='padding-top:10px;'>¡Tu capacidad para aplicar funciones exponenciales a situaciones financieras reales demuestra cómo las matemáticas pueden abrir caminos hacia el éxito empresarial y la riqueza personal!</p></div>",
+      "leftsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'><mask id='mask0_7878_8043' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='81'><rect x='0.5' y='0.500977' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_7878_8043)'><path d='M70.2104 10.1126L42.3396 0.321599C41.1396 -0.105897 39.8657 -0.105897 38.6619 0.321599L10.7911 10.1126C8.52025 10.9114 7.0026 13.0826 7.0026 15.5238V32.3427C6.78844 53.4135 19.7969 76.0555 40.5017 80.001C49.9836 78.321 57.8673 72.4149 64.0596 64.0981C70.4735 55.2783 74 44.0017 74 32.3435V15.5246C74 13.0871 72.4824 10.916 70.2115 10.1134L70.2104 10.1126Z' fill='black'/><path d='M38.8213 0.779297C39.8527 0.431352 40.9382 0.409755 41.9727 0.713867L42.1797 0.779297L42.1816 0.780273L69.9854 10.0586L69.9863 10.0596L70.0527 10.082C72.1286 10.7792 73.4998 12.6569 73.5 14.748V30.7266C73.5 41.355 70.2211 51.6393 64.249 59.8057L63.6621 60.5889C57.5446 68.3927 49.7931 73.9019 40.5049 75.4912C20.4753 71.8128 7.69465 51.2107 7.50195 31.6621L7.50293 30.7305V14.748C7.50293 12.7182 8.7897 10.892 10.7568 10.1494L10.9492 10.0811L38.8203 0.780273L38.8213 0.779297Z' fill='#FFCC00' stroke='black'/></g><path d='M27.9224 17.4512C30.0596 17.4512 31.8247 19.2146 31.8248 21.3535C31.8248 23.4908 30.0614 25.2559 27.9224 25.2559C25.7659 25.2558 24.0201 23.494 24.0201 21.3535C24.0201 19.2164 25.7836 17.4512 27.9224 17.4512Z' fill='black' stroke='black'/><path d='M40.6035 20.8799C42.1801 19.6792 44.2308 19.2814 46.2139 19.8105V19.8115C48.1633 20.3385 49.7903 21.8775 50.4658 23.7676L50.5879 24.1504C51.1181 26.0989 50.7668 28.0858 49.624 29.6553L49.3848 29.9639L49.3799 29.9697C49.2084 30.1841 49.0556 30.495 49.0088 30.8291C48.9611 31.1694 49.0211 31.5887 49.3564 31.9131V31.9141L49.3662 31.9238V31.9229C49.3691 31.9256 49.3722 31.9281 49.375 31.9307L49.3994 31.957C49.5244 32.0951 49.6701 32.2142 49.8496 32.2949C50.0295 32.3758 50.2143 32.4043 50.3994 32.4043C50.8826 32.4043 51.4428 32.1635 51.7812 31.7959L51.7803 31.7949C53.1846 30.2772 55.2027 29.4015 57.2949 29.4014C59.9147 29.4014 62.3009 30.9083 63.5195 33.3828L63.8994 34.1543C64.7393 36.5389 64.2966 39.1618 62.6211 41.335C61.4034 42.9055 60.1432 43.8617 58.7695 44.2881L58.2627 44.4453L58.4502 44.9424C58.7124 45.6375 58.8437 46.3477 58.8438 47.0986C58.8438 48.8773 58.1034 50.5181 56.7764 51.6729L56.5029 51.8975C55.0031 53.0601 53.0736 53.4559 51.1895 52.9844H51.1885C49.1744 52.4595 47.5067 50.8313 46.9248 48.8135C46.9055 48.7268 46.8867 48.6444 46.8682 48.5664L46.8096 48.3115C46.5849 47.2118 45.6055 46.4852 44.5254 46.5264L44.3076 46.5449H44.3047C43.1256 46.7088 42.3081 47.6025 42.2529 48.7041L42.252 48.9053V49.4131C42.252 55.0818 37.6256 59.7061 31.959 59.7061C29.3403 59.7059 26.7605 58.6221 24.8184 56.6963L24.4395 56.2998H24.4385C22.5832 54.264 21.6037 51.6359 21.6953 49.0117L21.7285 48.4863C22.0963 44.3096 24.9557 40.808 28.9814 39.5889L29.0088 39.5801L29.0342 39.5693C29.5041 39.3673 29.8946 38.8253 29.9238 38.1992L29.9229 38.1982C29.9731 37.418 29.4874 36.7315 28.7822 36.2881C27.0421 35.041 26.3936 32.8982 27.041 30.8623L27.04 30.8613C27.7026 28.8226 29.4757 27.5381 31.6973 27.5381H31.7578C33.9545 27.5381 35.1696 28.6629 36.0469 29.6738L36.4033 30.0967L36.5781 30.3086V30.3096C36.7793 30.5636 37.0664 30.7035 37.3428 30.748C37.6121 30.7914 37.9204 30.7504 38.1768 30.5781L38.1777 30.5791C38.1789 30.5784 38.1795 30.5769 38.1807 30.5762C38.183 30.5746 38.1861 30.5739 38.1885 30.5723L38.1875 30.5713C38.8128 30.1571 39.0927 29.4359 38.7578 28.7637H38.7588C38.3252 27.8774 38.0996 26.9367 38.0996 25.9404C38.0997 23.9498 39.0207 22.1059 40.6045 20.8809L40.6035 20.8799ZM29.79 50.1074C28.948 50.1074 28.2765 50.7757 28.2764 51.6211C28.2764 52.4632 28.9445 53.1348 29.79 53.1348C30.6321 53.1347 31.3037 52.4666 31.3037 51.6211C31.3036 50.7791 30.6354 50.1075 29.79 50.1074ZM35.875 43.8799C35.033 43.8801 34.3613 44.5482 34.3613 45.3936C34.3615 46.2355 35.0298 46.907 35.875 46.9072C36.7171 46.9072 37.3885 46.2389 37.3887 45.3936C37.3887 44.5514 36.7205 43.8799 35.875 43.8799ZM50.3779 40.8369C49.5359 40.8369 48.8645 41.5053 48.8643 42.3506C48.8643 43.1927 49.5324 43.8643 50.3779 43.8643C51.2201 43.8642 51.8916 43.1961 51.8916 42.3506C51.8914 41.5086 51.2233 40.837 50.3779 40.8369ZM41.6758 38.9502C40.8337 38.9502 40.1622 39.6185 40.1621 40.4639C40.1621 41.306 40.8303 41.9775 41.6758 41.9775C42.5178 41.9773 43.1895 41.3092 43.1895 40.4639C43.1893 39.6219 42.521 38.9504 41.6758 38.9502ZM54.1318 35.9082C53.2897 35.9082 52.6182 36.5764 52.6182 37.4219C52.6182 38.264 53.2864 38.9355 54.1318 38.9355C54.974 38.9355 55.6455 38.2673 55.6455 37.4219C55.6455 36.5797 54.9773 35.9082 54.1318 35.9082ZM41.9609 33.8789C41.1188 33.8789 40.4473 34.5471 40.4473 35.3926C40.4474 36.2346 41.1155 36.9062 41.9609 36.9062C42.8029 36.9062 43.4745 36.2379 43.4746 35.3926C43.4746 34.5505 42.8064 33.879 41.9609 33.8789Z' fill='black' stroke='black'/><path d='M27.9224 15.4502C30.0596 15.4502 31.8247 17.2136 31.8248 19.3525C31.8248 21.4898 30.0614 23.2549 27.9224 23.2549C25.7659 23.2548 24.0201 21.493 24.0201 19.3525C24.0201 17.2154 25.7836 15.4503 27.9224 15.4502Z' fill='white' stroke='black'/><path d='M40.6035 18.8789C42.1801 17.6782 44.2308 17.2805 46.2139 17.8096V17.8105C48.1633 18.3375 49.7903 19.8765 50.4658 21.7666L50.5879 22.1494C51.1181 24.0979 50.7668 26.0848 49.624 27.6543L49.3848 27.9629L49.3799 27.9688C49.2084 28.1831 49.0556 28.494 49.0088 28.8281C48.9611 29.1684 49.0211 29.5877 49.3564 29.9121V29.9131L49.3662 29.9229V29.9219C49.3691 29.9246 49.3722 29.9271 49.375 29.9297L49.3994 29.9561C49.5244 30.0941 49.6701 30.2132 49.8496 30.2939C50.0295 30.3748 50.2143 30.4033 50.3994 30.4033C50.8826 30.4033 51.4428 30.1625 51.7812 29.7949L51.7803 29.7939C53.1846 28.2762 55.2027 27.4005 57.2949 27.4004C59.9147 27.4004 62.3009 28.9074 63.5195 31.3818L63.8994 32.1533C64.7393 34.538 64.2966 37.1609 62.6211 39.334C61.4034 40.9046 60.1432 41.8607 58.7695 42.2871L58.2627 42.4443L58.4502 42.9414C58.7124 43.6365 58.8437 44.3468 58.8438 45.0977C58.8438 46.8763 58.1034 48.5171 56.7764 49.6719L56.5029 49.8965C55.0031 51.0591 53.0736 51.4549 51.1895 50.9834H51.1885C49.1744 50.4586 47.5067 48.8303 46.9248 46.8125C46.9055 46.7258 46.8867 46.6434 46.8682 46.5654L46.8096 46.3105C46.5849 45.2108 45.6055 44.4843 44.5254 44.5254L44.3076 44.5439H44.3047C43.1256 44.7078 42.3081 45.6015 42.2529 46.7031L42.252 46.9043V47.4121C42.252 53.0808 37.6256 57.7051 31.959 57.7051C29.3403 57.705 26.7605 56.6212 24.8184 54.6953L24.4395 54.2988H24.4385C22.5832 52.263 21.6037 49.635 21.6953 47.0107L21.7285 46.4854C22.0963 42.3086 24.9557 38.8071 28.9814 37.5879L29.0088 37.5791L29.0342 37.5684C29.5041 37.3663 29.8946 36.8243 29.9238 36.1982L29.9229 36.1973C29.9731 35.417 29.4874 34.7305 28.7822 34.2871C27.0421 33.0401 26.3936 30.8973 27.041 28.8613L27.04 28.8604C27.7026 26.8216 29.4757 25.5371 31.6973 25.5371H31.7578C33.9545 25.5371 35.1696 26.662 36.0469 27.6729L36.4033 28.0957L36.5781 28.3076V28.3086C36.7793 28.5626 37.0664 28.7025 37.3428 28.7471C37.6121 28.7905 37.9204 28.7494 38.1768 28.5771L38.1777 28.5781C38.1789 28.5774 38.1795 28.5759 38.1807 28.5752C38.183 28.5736 38.1861 28.5729 38.1885 28.5713L38.1875 28.5703C38.8128 28.1561 39.0927 27.4349 38.7578 26.7627H38.7588C38.3252 25.8765 38.0996 24.9357 38.0996 23.9395C38.0997 21.9489 39.0207 20.1049 40.6045 18.8799L40.6035 18.8789ZM29.79 48.1064C28.948 48.1064 28.2765 48.7747 28.2764 49.6201C28.2764 50.4623 28.9445 51.1338 29.79 51.1338C30.6321 51.1337 31.3037 50.4656 31.3037 49.6201C31.3036 48.7781 30.6354 48.1065 29.79 48.1064ZM35.875 41.8789C35.033 41.8791 34.3613 42.5472 34.3613 43.3926C34.3615 44.2345 35.0298 44.9061 35.875 44.9062C36.7171 44.9062 37.3885 44.2379 37.3887 43.3926C37.3887 42.5504 36.7205 41.8789 35.875 41.8789ZM50.3779 38.8359C49.5359 38.8359 48.8645 39.5043 48.8643 40.3496C48.8643 41.1918 49.5324 41.8633 50.3779 41.8633C51.2201 41.8632 51.8916 41.1951 51.8916 40.3496C51.8914 39.5076 51.2233 38.836 50.3779 38.8359ZM41.6758 36.9492C40.8337 36.9492 40.1622 37.6175 40.1621 38.4629C40.1621 39.305 40.8303 39.9766 41.6758 39.9766C42.5178 39.9764 43.1895 39.3083 43.1895 38.4629C43.1893 37.621 42.521 36.9494 41.6758 36.9492ZM54.1318 33.9072C53.2897 33.9072 52.6182 34.5754 52.6182 35.4209C52.6182 36.263 53.2864 36.9346 54.1318 36.9346C54.974 36.9346 55.6455 36.2664 55.6455 35.4209C55.6455 34.5788 54.9773 33.9072 54.1318 33.9072ZM41.9609 31.8779C41.1188 31.8779 40.4473 32.5461 40.4473 33.3916C40.4474 34.2336 41.1155 34.9053 41.9609 34.9053C42.8029 34.9052 43.4745 34.2369 43.4746 33.3916C43.4746 32.5495 42.8064 31.878 41.9609 31.8779Z' fill='white' stroke='black'/></svg>",
+      "leftsvgarialabel": "Icono de slime",
+      "rightsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='92' height='106' viewBox='0 0 92 106' fill='none'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M2.43038 99.371C2.48123 99.3576 2.53092 99.3414 2.58123 99.3214L37.7444 85.3275L39.2059 90.879C39.7067 92.7813 41.6619 93.9216 43.5648 93.4206L51.7305 91.2709C53.6335 90.7699 54.7738 88.8147 54.273 86.9124L52.8115 81.3609L90.307 76.2267C90.3606 76.2193 90.4123 76.2089 90.4628 76.1956C90.8822 76.0852 91.2244 75.772 91.3677 75.3561C91.5293 74.8889 91.4139 74.3707 91.0694 74.0165L82.3042 64.983C83.2996 63.1409 83.5825 60.9892 83.0253 58.8727C82.6452 57.4289 81.8908 56.1114 80.8419 55.0607L46.7312 20.9424L46.5445 20.2331C44.0894 10.9075 32.8361 -1.41066 23.6051 1.01951C14.374 3.44967 10.6447 19.7116 13.0999 29.0377L13.2866 29.747L0.397333 76.2385C0.00123415 77.6692 -0.0062851 79.1874 0.37381 80.6312C0.935462 82.7646 2.2753 84.4845 4.00317 85.5858L0.827843 97.7739C0.703646 98.2519 0.858256 98.7593 1.22884 99.086C1.5594 99.3768 2.01036 99.4812 2.42977 99.3708L2.43038 99.371ZM51.7394 87.5794C51.8725 88.0849 51.5697 88.6036 51.0638 88.7368L42.8981 90.8865C42.3922 91.0197 41.8732 90.7169 41.7402 90.2118L38.2342 76.894L42.7394 73.7L48.2333 74.2616L51.7394 87.5794ZM42.5162 71.0431C42.201 71.011 41.884 71.0945 41.6254 71.2776L32.1246 78.0129L30.7983 72.975L40.9257 66.8095L52.7761 67.1891L54.1024 72.227L42.5162 71.0431ZM48.0562 25.9743L61.5789 39.5L64.1834 49.3933C64.3676 50.093 65.0837 50.5109 65.7837 50.3266C66.4841 50.1422 66.9012 49.426 66.717 48.7264L65.2565 43.1789L78.9877 56.9129C79.7096 57.6349 80.2294 58.5435 80.4916 59.5393C81.0314 61.59 80.4458 63.6969 78.9247 65.176C77.4038 66.6551 75.284 67.1811 73.2522 66.5852L57.531 61.965L48.0562 25.9743ZM57.5782 67.2893C57.848 67.2182 58.0911 67.0622 58.2692 66.8387C58.5267 66.5157 58.6168 66.0891 58.5114 65.6887L58.3101 64.924L72.5141 69.0994C74.0292 69.5432 75.5771 69.5583 77.0246 69.1773C78.3775 68.8211 79.6395 68.1154 80.7034 67.0951L87.3851 73.982L52.1392 78.8081L51.0172 74.5461L55.717 75.0265C55.8761 75.0429 56.0341 75.0295 56.1837 74.9901C56.4387 74.923 56.6694 74.7801 56.8456 74.575C57.1247 74.2483 57.2264 73.8052 57.1169 73.3895L55.5078 67.2771L57.2009 67.3315C57.3291 67.3362 57.4562 67.3214 57.5776 67.2895L57.5782 67.2893ZM15.6339 28.3699C13.543 20.4277 16.7155 5.54229 24.2721 3.55296C31.8286 1.56363 41.9192 12.9569 44.0102 20.8995L55.5294 64.6555L40.6185 64.1787C40.365 64.17 40.1126 64.2365 39.8958 64.3689L27.1526 72.126L15.6339 28.3699ZM2.92343 76.9379L8.11214 58.223L9.57246 63.7701C9.75665 64.4698 10.4727 64.8877 11.1727 64.7034C11.8731 64.519 12.2902 63.8028 12.106 63.1031L9.50152 53.2098L14.6113 34.7789L24.0861 70.769L12.6751 82.5333C11.9225 83.3121 11.0274 83.8422 10.0141 84.1089C7.30828 84.8213 3.8221 83.439 2.90722 79.9638C2.64544 78.968 2.65018 77.9216 2.92311 76.9382L2.92343 76.9379ZM6.43497 86.6493C7.7856 86.999 9.23966 87.0226 10.6819 86.6429C12.164 86.2527 13.4696 85.4831 14.5581 84.3564L24.8652 73.7289L25.0664 74.4935C25.1718 74.8936 25.4603 75.2205 25.8435 75.3752C26.2286 75.531 26.6649 75.4951 27.0154 75.2782L28.4622 74.3972L30.0714 80.5096C30.1808 80.9253 30.4874 81.2605 30.8913 81.4078C31.2946 81.5529 31.7439 81.4957 32.0957 81.2447L35.9498 78.5124L37.0718 82.7744L4.01568 95.9299L6.43497 86.6493ZM36.4409 49.7745C35.7409 49.9587 35.0248 49.5408 34.8406 48.8412L31.5757 36.4396C29.8442 37.1502 28.3495 38.3347 27.2483 39.878L28.5215 44.714C28.7056 45.4136 28.2886 46.1299 27.5882 46.3142C26.8881 46.4985 26.1721 46.0806 25.9879 45.381L20.7576 25.5135C19.4956 20.72 22.3684 15.7935 27.1628 14.5314C31.9378 13.2743 36.8418 16.1208 38.1274 20.8804C38.1291 20.8855 38.1304 20.8903 38.1322 20.8954C38.1339 20.9015 38.136 20.9075 38.1381 20.9135C38.1406 20.9209 38.1432 20.9284 38.1452 20.936L41.9481 35.3828L43.3755 40.8047C43.5596 41.5043 43.1426 42.2206 42.4422 42.405C41.7421 42.5893 41.0261 42.1713 40.8419 41.4717L39.5688 36.6357C37.8508 35.8342 35.9665 35.5393 34.1095 35.7733L37.3742 48.1742C37.5584 48.8738 37.1413 49.5901 36.4409 49.7745ZM23.2913 24.8469L26.4324 36.7784L26.4324 36.7787C28.0019 35.1966 29.9659 34.0545 32.1509 33.4793C34.336 32.904 36.6078 32.9311 38.7514 33.5344L37.3875 28.3534L34.2633 31.084C34.1067 31.2221 33.9259 31.3146 33.7366 31.3644C33.27 31.4872 32.7545 31.3471 32.4157 30.96C31.9389 30.4156 31.9948 29.5876 32.5402 29.1115L36.6435 25.5257L36.1354 23.5957L30.0559 28.669C29.9044 28.7958 29.7311 28.8823 29.5518 28.9295C29.0756 29.0549 28.548 28.9052 28.2118 28.5024C27.748 27.9466 27.8226 27.1205 28.378 26.6568L35.3309 20.8547C35.0406 20.1349 34.6345 19.4969 34.1304 18.9477L29.8661 22.5747C29.7119 22.7065 29.5353 22.7955 29.3523 22.8437C28.8799 22.9681 28.3573 22.8223 28.0199 22.4257C27.5505 21.8746 27.6175 21.0481 28.1689 20.5794L31.9238 17.3862C30.6694 16.8532 29.2467 16.6927 27.83 17.0657C24.4338 17.9597 22.3972 21.4507 23.2913 24.8469ZM41.8217 102.092L40.5432 97.2356C40.359 96.536 39.643 96.1181 38.943 96.3024C38.2427 96.4868 37.8256 97.203 38.0098 97.9026L39.2883 102.759C39.4725 103.459 40.1885 103.877 40.8885 103.692C41.5885 103.508 42.0059 102.792 41.8217 102.092ZM58.7721 92.4349L60.0506 97.2913C60.2348 97.9909 59.8173 98.7073 59.1173 98.8915C58.4174 99.0758 57.7013 98.6579 57.5171 97.9583L56.2386 93.1018C56.0544 92.4022 56.4715 91.686 57.1719 91.5016C57.8719 91.3174 58.5879 91.7353 58.7721 92.4349ZM50.6603 98.6448L52.0041 103.749C52.1883 104.449 51.7712 105.165 51.0708 105.349C50.3708 105.534 49.6548 105.116 49.4706 104.416L48.1268 99.3118C47.9427 98.6122 48.3597 97.896 49.0601 97.7116C49.7601 97.5273 50.4761 97.9452 50.6603 98.6448ZM65.6305 54.8896C65.4463 54.19 65.8634 53.4738 66.5637 53.2894C67.2637 53.1051 67.9799 53.5234 68.1639 54.2227L68.4724 55.3944C68.6566 56.094 68.2395 56.8102 67.5392 56.9946C66.8392 57.1788 66.1231 56.7609 65.939 56.0613L65.6305 54.8896ZM12.9285 71.3726C13.6288 71.1882 14.0459 70.472 13.8617 69.7724L13.5533 68.6007C13.3691 67.9011 12.6531 67.4832 11.9531 67.6674C11.2527 67.8518 10.8356 68.568 11.0198 69.2676L11.3283 70.4394C11.5124 71.1386 12.2285 71.5569 12.9285 71.3726ZM38.4313 52.1913L38.5742 52.7339C38.7584 53.4336 38.3413 54.1498 37.6409 54.3341C36.941 54.5184 36.2249 54.1005 36.0407 53.4009L35.8979 52.8583C35.7137 52.1587 36.1308 51.4425 36.8311 51.2581C37.5311 51.0738 38.2472 51.4917 38.4313 52.1913Z' fill='white'/></svg>"
+    },
+    "glossary": {
+      "compound_interest": {
+        "word": "Interés Compuesto",
+        "definition": "<strong className=\"text-[#0055B2]\">Interés Compuesto</strong> es el interés calculado tanto sobre el capital inicial como sobre el interés acumulado, lo que genera un crecimiento exponencial en lugar de lineal. La fórmula es:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'>A = P (1 + r)<sup>t</sup> + PMT × <span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>[</span><span style='display: inline-block; vertical-align: middle; text-align: center;'><div style='display: flex; flex-direction: column; font-size: 0.9em; line-height: 1.2;'><div style='border-bottom: 2px solid black;'>(1 + r)<sup>t</sup> − 1</div><div>r</div></div></span><span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>]</span></div><div style='margin-top: 5px;'><em>Donde:</em></div><div>A = Monto final</div><div>P = Capital inicial</div><div>r = Tasa de interés anual</div><div>t = Tiempo en años</div>"
+      },
+      "compound_interest_formula": {
+        "word": "Fórmula de Interés Compuesto",
+        "definition": "<strong className=\"text-[#0055B2]\">Fórmula de Interés Compuesto</strong> es una fórmula utilizada para calcular el crecimiento de una inversión a lo largo del tiempo, basada en el principio del interés compuesto. La fórmula es:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'>A = P (1 + r)<sup>t</sup> + PMT × <span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>[</span><span style='display: inline-block; vertical-align: middle; text-align: center;'><div style='display: flex; flex-direction: column; font-size: 0.9em; line-height: 1.2;'><div style='border-bottom: 2px solid black;'>(1 + r)<sup>t</sup> − 1</div><div>r</div></div></span><span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>]</span></div><div style='margin-top: 5px;'><em>Donde:</em></div><div>A = Monto final</div><div>P = Capital inicial</div><div>r = Tasa de interés anual</div><div>t = Tiempo en años</div>"
+      },
+      "exponential_growth": {
+        "word": "Crecimiento Exponencial",
+        "definition": "<strong className=\"text-[#0055B2]\">Crecimiento Exponencial</strong> es un patrón de crecimiento donde la tasa de incremento se vuelve cada vez más rápida con el tiempo, siguiendo un multiplicador constante."
+      },
+      "annual_percentage_rate": {
+        "word": "Tasa Anual Equivalente",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa Anual Equivalente (TAE)</strong> es la tasa de interés anual aplicada al dinero prestado, incluyendo tarifas y costos relacionados con el préstamo."
+      },
+      "apr": {
+        "word": "TAE",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa Anual Equivalente (TAE)</strong> es la tasa de interés anual aplicada al dinero prestado, incluyendo tarifas y costos relacionados con el préstamo."
+      },
+      "concentration_risk": {
+        "word": "Riesgo de Concentración",
+        "definition": "<strong className=\"text-[#0055B2]\">Riesgo de Concentración</strong> es el potencial de pérdidas aumentadas cuando las inversiones no están diversificadas y se concentran en un solo negocio o sector."
+      },
+      "growth_rate": {
+        "word": "Tasa de Crecimiento",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa de Crecimiento</strong> es el aumento porcentual de un valor durante un período de tiempo específico, y suele calcularse con la fórmula:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'><span style='font-style: italic'>r</span> = (R₁ ⁄ R₀)<sup>(1 ⁄ <span style='font-style: italic'>t</span>)</sup> − 1</div><div style='margin-top: 5px;'><em>Donde:</em></div><div>r = Tasa de crecimiento (expresada como decimal)</div><div>R₁ = Valor final</div><div>R₀ = Valor inicial</div><div>t = Número de períodos de tiempo</div>"
+      },
+      "growth_rates": {
+        "word": "Tasas de crecimiento",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa de Crecimiento</strong> es el aumento porcentual de un valor durante un período de tiempo específico, y suele calcularse con la fórmula:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'><span style='font-style: italic'>r</span> = (R₁ ⁄ R₀)<sup>(1 ⁄ <span style='font-style: italic'>t</span>)</sup> − 1</div><div style='margin-top: 5px;'><em>Donde:</em></div><div>r = Tasa de crecimiento (expresada como decimal)</div><div>R₁ = Valor final</div><div>R₀ = Valor inicial</div><div>t = Número de períodos de tiempo</div>"
+      },
+      "portfolio_diversification": {
+        "word": "Diversificación de Portafolio",
+        "definition": "<strong className=\"text-[#0055B2]\">Diversificación de Portafolio</strong> es la estrategia de distribuir las inversiones entre diferentes activos para reducir el riesgo y potencialmente aumentar los rendimientos."
+      },
+      "conversion_rate": {
+        "word": "Tasa de Conversión",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa de Conversión</strong> es el porcentaje de espectadores o visitantes que realizan una acción deseada (como hacer una compra)."
+      },
+      "conversion_rates": {
+        "word": "Tasas de Conversión",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa de Conversión</strong> es el porcentaje de espectadores o visitantes que realizan una acción deseada (como hacer una compra)."
+      },
+      "minimum_payment": {
+        "word": "Pago Mínimo",
+        "definition": "<strong className=\"text-[#0055B2]\">Pago Mínimo</strong> es la cantidad más pequeña que una compañía de tarjeta de crédito acepta para abonar al saldo adeudado cada mes."
+      },
+      "borax_solution": {
+        "word": "Solución de bórax",
+        "definition": "<strong className=\"text-[#0055B2]\">Solución de bórax</strong> es una mezcla de polvo de bórax (borato de sodio) disuelto en agua, comúnmente utilizada como ingrediente clave en recetas caseras de slime. El bórax actúa como un agente de entrecruzamiento que transforma el pegamento líquido en una estructura polimérica elástica y estirable, característica del slime."
+      },
+      "pmt": {
+        "word": "PMT",
+        "definition": "<strong className=\"text-[#0055B2]\">PMT</strong> es un término financiero que representa el monto de pago regular y fijo realizado a intervalos consistentes en cálculos financieros, particularmente en fórmulas de interés compuesto, préstamos y anualidades."
+      },
+      "return": {
+        "word": "rendimiento",
+        "definition": "<strong className=\"text-[#0055B2]\">Rendimiento</strong> se refiere a la ganancia o beneficio obtenido de una inversión a lo largo del tiempo."
+      }
+    },
+    "common": {
+      "samantha": "Samantha",
+      "ben": "Ben",
+      "donovan": "Mr. Donovan",
+      "samantha_description": "Joven con gafas que lleva una camiseta de \"Slime Time\" sosteniendo una tableta.",
+      "ben_description": "Niño con cabello rizado que lleva una camiseta de \"Slime Time\" sosteniendo una tableta.",
+      "donovan_description": "Hombre profesional con traje oscuro y gafas sosteniendo una tableta.",
+      "bg1_description": "Barrio suburbano con casas, cercas blancas y un árbol grande.",
+      "bg2_description": "Oficina moderna con escritorio de madera, estanterías, plantas y grandes ventanas.",
+      "bg3_description": "Sótano tipo taller con estanterías, banco de trabajo, herramientas y vigas de techo expuestas.",
+      "bg4_description": "Cuarto de almacenamiento con cajas de cartón, estanterías, pizarra blanca y un sofá azul.",
+      "bg5_description": "Fiesta en el patio trasero con niños, mesa de slime, decoraciones y luces colgantes.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "click_to_place_point": "Haz clic para colocar el punto",
+      "invalid_pair": "¡Par inválido! Prueba con otra combinación de ángulos",
+      "place_point": "Punto de ubicación",
+      "angle": "Ángulo",
+      "focusModeAnnouncement": "Por favor, cambia al modo de enfoque para seleccionar ángulos y colocarlos en las ubicaciones correctas."
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Volumen de la música de fondo",
+      "character-voice-volume-slider": "Volumen de voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "game-exponential-model": "STEAM Quest - Modal Exponencial"
+  }
+}

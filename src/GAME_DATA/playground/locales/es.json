@@ -1,0 +1,197 @@
+{
+  "dialog": {
+    "button": {
+      "start_again": "Empezar de nuevo",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<div style='font-size: 36px; line-height: 54px; font-weight: 700;'>Ecothreads</div> <div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Cómo las empresas utilizan sistemas de Funciones Lineales</div>",
+    "description": "¿Puedes ayudar a Mei a hacer que su negocio de camisetas T Ecothreads sea un éxito? En esta STEAMQuest, explorarás cómo las empresas utilizan funciones lineales para analizar costos, ingresos y puntos de equilibrio.",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "introduction": {
+      "mei_thinking": "Mis diseños de Camisetas están recibiendo mucho cariño en línea. ¿Pero puedo convertir esto en un negocio real? Necesito preguntarle a tía Lily..."
+    },
+    "aunt-lilys-office": {
+      "aunt_lily_greeting": "¡Mei! Es genial verte. ¿Cuál es esta idea de negocio que mencionaste?",
+      "mei_explanation": "Bueno, sabes que he estado vendiendo mis diseños de Camisetas ecológicas en línea. Estoy pensando en convertirlo en un negocio de pleno derecho, pero no estoy seguro de si vale la pena la inversión.",
+      "aunt_lily_offer": "¡Eso es emocionante! Me encantaría ayudar. Analicémoslo usando matemáticas empresariales. Podemos crear algunas funciones lineales para modelar tus costos e ingresos.",
+      "mei_question": "¿Funciones lineales? ¿Cómo se aplica eso a las Camisetas?",
+      "aunt_lily_explanation": "<div style='font-size: 22px; font-weight: 500; line-height: 33px; margin-bottom: 16px;'>¡Te sorprenderías!</div><div style='font-size: 22px; font-weight: 500; line-height: 33px;'>Empecemos con lo básico. En cualquier negocio, tienes costos e ingresos.</div><button className='mb-4 mt-4' data-variant='primary' data-destination='3_1,4_4' autofocus>Modelos de Costos</button><br /><button data-variant='primary' data-destination='6_1,7_2'>Modelos de Ingresos</button><br />"
+    },
+    "understanding-cost-functions": {
+      "aunt_lily_formula": "Echemos un vistazo a una fórmula para el costo",
+      "aunt_lily_explanation": "Tendrás dos tipos de costos: costos fijos, que no cambian sin importar cuántas Camisetas vendas, y costos variables, que aumentan con cada Camiseta fabricada. Digamos que tus costos fijos de equipo y configuración son $1000, y cada Camiseta cuesta $10 de fabricar.",
+      "aunt_lily_formula_explanation": "Ahora, digamos que tus costos fijos para equipo y configuración son $1000, y cada camisa cuesta $10 para producir.",
+      "mei_understanding": "¡Ah, ya lo entiendo! Entonces, ¿los 1000 dólares siguen siendo los mismos, pero el costo total aumenta en 10 dólares por cada camiseta?",
+      "aunt_lily_confirm": "¡Exactamente! Esta es una función lineal, donde x es el insumo (número de Camisetas) y C(x) es el resultado (costo total). Juguemos con los números.",
+      "aunt_lily_example": "Digamos que tus costos fijos son $1000, y cuesta $10 fabricar una Camiseta. ¿Cuál es el costo de fabricar 25 Camisetas?",
+      "mei_answer": "De acuerdo, todavía tengo que pagar $1250.",
+      "aunt_lily_question": "¿Y si vendes 100 Camisetas?",
+      "mei_calculation": "Si el costo fijo es $1000 y el costo por unidad es $10, entonces para 100 Camisetas... ¡el costo total sería $2000!",
+      "aunt_lily_praise": "¡Perfecto! Ya lo estás dominando. Ahora, hablemos de la parte divertida: ¡ganar dinero!",
+      "cost_function_calculator_interaction": {
+        "title": "Calculadora de función de costo",
+        "aria_label": "Gráfico que muestra la función de costo, mostrando la relación entre el costo y la cantidad de Camisetas producidas.",
+        "inputs": {
+          "fixed_costs": "Costos fijos",
+          "per_unit_costs": "Costo por unidad",
+          "number_of_t_shirts": "Número de Camisetas"
+        },
+        "graph_config": {
+          "number_of_t_shirts": "Número de Camisetas",
+          "cost": "Costo ($)"
+        },
+        "labels": {
+          "total_cost": "Costo total",
+          "data_visualization": "Visualización de Datos de la Calculadora de Función de Costo",
+          "calculation_result": "Resultado del Cálculo:",
+          "x_units_y_dollars_label": "donde x es el número de unidades y C(x) es el monto total en dólares"
+        },
+        "display_formulas": {
+          "cost_function": "Función de Costo"
+        },
+        "heading": "Calculadora de función de costo",
+        "instructions_heading": "Cómo utilizar esta calculadora",
+        "about_heading": "sobre funciones de costos",
+        "instructions": "<div><h3 style=\"margin-bottom: 12px; color: #333333\">Pista: Sigue estos pasos:</h3><ol style=\"color: #333333; list-style-type: decimal; padding-left: 24px; margin: 0;\"><li>Ajusta el control deslizante de Costos Fijos a $1000</li><li>Ajusta el control deslizante de Costo por Unidad a $10</li><li>El costo total será: Costos Fijos + (Costo por Unidad × Número de Camisetas)</li><li>Recuerda: Estás haciendo 25 Camisetas, ¡así que no olvides incluir TANTO el costo fijo único COMO el costo de cada Camiseta!</li></ol></div>",
+        "about": "<div><p style=\"margin-bottom: 20px; font-size: 20px;\">¡Esta calculadora te ayuda a entender los costos empresariales! Tu costo total tiene dos partes:</p><ul style=\"list-style: none; padding: 0; margin-bottom: 20px;\"><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-weight: bold; margin-right: 12px;\">1.</span><div><span style=\"color: #1E62F3; font-weight: bold;\">Costos fijos (<span style=\"font-style: italic;\">F</span>):</span> Lo que pagas incluso si no produces ningún artículo</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-weight: bold; margin-right: 12px;\">2.</span><div><span style=\"color: #1E62F3; font-weight: bold;\">Costos por unidad (<span style=\"font-style: italic;\">p</span>):</span> Costo de producir cada artículo adicional</div></li></ul><p style=\"margin-bottom: 12px;\">La función de costo se escribe como: <span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">C(x) = F + px</span>, donde:</p><ul style=\"list-style: none; padding: 0;\"><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">C(x)</span> es tu costo total en dólares</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">F</span> son los costos fijos</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">p</span> es el costo por unidad</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">x</span> es el número de artículos</div></li></ul><p style=\"margin-top: 20px;\">El gráfico muestra cómo cambia el costo total a medida que produces más artículos. ¡Ajusta los controles deslizantes para ver cómo los diferentes costos fijos y por unidad afectan tus costos totales!</p></div>"
+      },
+      "cost_function_calculator_equation": {
+        "title": "Fórmula de Costo",
+        "formula_equation": "<p aria-live='polite' style='font-size: 22px; font-family: besley; font-weight: 500; line-height: 33px; font-style: italic;'>costos totales = costos variables + costos fijos</p>",
+        "cost_types_explanation": "<p aria-live='polite' style='font-size: 22px; font-family: besley; font-weight: 500; line-height: 33px; font-style: italic;'>costos totales = costos variables + costos fijos</p><div aria-live='polite'><p style='font-weight: bold; font-size: 1.4rem; margin-top: 1rem; margin-bottom: 1rem;'>Tendrás dos tipos de costo:</p><p style='font-weight: bold; margin-bottom: 1rem;'>Costos Fijos</p><p style='margin-bottom: 1rem;'>No cambian sin importar cuántas camisetas fabriques</p><p style='font-weight: bold; margin-bottom: 1rem;'>Costos Variables</p><p>Aumentan con cada camiseta fabricada</p></div>",
+        "detailed_cost_function": "<p aria-live='polite' style='font-size: 22px; font-family: besley; font-weight: 500; line-height: 33px; font-style: italic;'>costos totales = costos variables + costos fijos</p><div aria-live='polite' aria-label='C(x) = 10x + 1000' style='font-size: 2rem; line-height: 2.5rem; display: flex;'>\\[{\\color{#CC3700}{C(x)}} = {\\color{#4168E1}10x} + {\\color{#1C6F1A}1000}\\]</div><div aria-live='polite' style='font-size: 22px; font-weight: 500; line-height: 33px;'><div style='margin-bottom: 10px;'><span style='color: #4168E1; font-weight: bold'>x</span> es el número de camisetas T vendidas</div><div style='margin-bottom: 10px;'><span style='color: #4168E1; font-weight: bold'>10x</span> es el costo variable ($10 por camiseta T)</div><div style='margin-bottom: 10px;'><span style='color: #1C6F1A; font-weight: bold'>1000</span> es el costo fijo ($1000)</div><div><span style='color: #CC3700; font-weight: bold'>C(x)</span> es el costo de x camisetas T</div></div>",
+        "data": "<p><i>costos totales = costos variables + costos fijos</i></p> <div style='font-size: 2.25rem; line-height: 2.5rem; display: flex;'>\\[{\\color{#CC3700}{C(x)}} = {\\color{#4168E1}10x} + {\\color{#1C6F1A}1000}\\]</div><p> <strong style=\"color: #CC3700\">C(x)</strong> representa el costo total de producir xxx camisetas.<br /><strong style=\"color: #1C6F1A\">1000</strong> es el costo fijo, que permanece igual sin importar cuántas camisetas se fabriquen <br /><strong style=\"color: #4168E1\">10</strong> es el costo variable por cada camiseta adicional. </p>",
+        "function_notation_info": "<div style=\" \">La expresión <strong style=\"color: #006BE0; font-style: italic;\">C(x) </strong> es una notación de función - no es <strong style=\"color: #006BE0; font-style: italic;\">C </strong> multiplicado por <strong style=\"color: #006BE0; font-style: italic;\">x </strong>. Piensa en ella como un símbolo que significa \"<strong style=\"color: #006BE0;\">la función de costo</strong>.\"<br><br>En <strong style=\"color: #006BE0; font-style: italic;\">C(x) = 10x + 1000</strong>:<br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span><strong style=\"color: #006BE0; font-style: italic;\">x</strong> representa el número de camisetas (la cantidad), no dólares</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>El costo fijo (<strong style=\"color: #006BE0; font-style: italic;\">1000</strong>) permanece igual sin importar cuántas camisetas hagas</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Podríamos haber nombrado esta función de cualquier manera (como <strong style=\"color: #006BE0; font-style: italic;\">T(x)</strong> o <strong style=\"color: #006BE0; font-style: italic;\">F(x)</strong>) - usar <strong style=\"color: #006BE0; font-style: italic;\">C</strong> solo nos ayuda a recordar que es costo</li></ul><br><strong style=\"color: #006BE0; \">Recuerda:</strong> Para encontrar el costo total para cualquier número de camisetas, reemplaza <strong style=\"color: #006BE0; font-style: italic;\">x</strong> con ese número y calcula <strong style=\"color: #006BE0; font-style: italic;\">10x + 1000</strong>.</div>"
+      }
+    },
+    "understanding-revenue-functions": {
+      "aunt_lily_explanation": "Ahora, veamos tu función de ingresos. Si vendes cada Camiseta por $25, se ve así:",
+      "mei_revenue_understanding": "Correcto, ¿comienza en cero y aumenta $25 por cada Camiseta vendida?",
+      "aunt_lily_revenue_description": "¡Exactamente! Exploremos cómo el precio de venta afecta los ingresos totales al vender una cantidad específica de Camisetas.",
+      "aunt_lily_revenue_example": "Digamos que tus costos fijos son $1000, y cuesta $10 fabricar una Camiseta. ¿Cuál es el costo de fabricar 25 Camisetas?",
+      "mei_revenue_calculation": "Bien, entonces si establezco el precio en $25 y vendo 100 Camisetas, mis ingresos serían... ¡$2500! ¡Eso sería genial!",
+      "aunt_lily_praise": "¡Perfecto! Le estás agarrando el ritmo. Ahora, hablemos de la parte divertida: ¡ganar dinero!",
+      "revenue_function_generator_interaction": {
+        "aria_label": "Gráfico que representa la función de ingresos, mostrando cómo cambian los ingresos en función del número de Camisetas vendidas.",
+        "inputs": {
+          "selling_price": "Precio de venta",
+          "number_of_t_shirts": "Número de Camisetas vendidas"
+        },
+        "graph_config": {
+          "number_of_t_shirts": "Número de Camisetas",
+          "revenue": "Ingresos ($)"
+        },
+        "labels": {
+          "total_revenue": "Ingresos Totales",
+          "data_visualization": "Visualización de Datos",
+          "calculation_result": "Resultado del Cálculo:",
+          "x_units_y_dollars_label": "Donde x es el número de unidades y c es el monto total en dólares"
+        },
+        "display_formulas": {
+          "revenue_function": "Función de ingresos"
+        },
+        "heading": "Generador de funciones de ingresos",
+        "instructions_heading": "Cómo usar esta herramienta",
+        "about_heading": "Acerca de las funciones de ingresos",
+        "about": "<div><h3 style=\"margin-bottom: 12px; color: #333333\">Empezando</h3><ul style=\"color: #333333; list-style-type: disc; padding-left: 24px; margin: 0;\"><li>Establece tu precio de venta para cada artículo usando el control deslizante</li><li>Ingresa el número de Camisetas que quieres producir</li><li>Observa tu ingreso total y la función de ingresos abajo</li><li>El gráfico se actualizará para mostrar cómo cambian tus ingresos</li></ul></div>",
+        "instructions": "<div><p style=\"margin-bottom: 12px;\">¡Esta calculadora te ayuda a entender cuánto dinero genera tu negocio! Tu ingreso total tiene una parte principal:</p><p style=\"margin: 12px 0;\"><strong>Precio por unidad (p):</strong> El precio de venta por cada artículo que vendes</p><p style=\"margin: 12px 0; \">La función de ingresos se escribe como: R(x) = px, donde:</p><ul style=\"padding-left: 20px; margin: 0; list-style-type: disc; color: #AF52DE\"><li style=\"margin-bottom: 8px; color: #333333\"><strong style=\"color: #AF52DE\">R(x)</strong> es tu ingreso total en dólares</li><li style=\"margin-bottom: 8px; color: #333333\"><strong style=\"color: #AF52DE\">p</strong> es el precio de venta por unidad</li><li style=\"margin-bottom: 8px; color: #333333\"><strong style=\"color: #AF52DE\">x</strong> es el número de artículos</li></ul><p style=\"margin-top: 12px; \">El gráfico muestra cómo cambia tu ingreso total a medida que vendes más artículos. La línea sube porque cada artículo que vendes aumenta tus ingresos. ¡Prueba diferentes precios de venta para ver cómo afectan tu ingreso total!</p></div>"
+      },
+      "revenue_function_calculator_equation": {
+        "title": "Fórmula de Ingresos",
+        "data": "<div style='font-size: 22px; font-weight: 500; line-height: 33px;'>En un modelo de ingresos, usamos la fórmula:</div><div style='font-size: 2.25rem; line-height: 2.5rem; display: flex;'>\\[{\\color{#CC3700}R(x)} = {\\color{#4168E1}25x}\\]</div><div style='font-size: 22px; font-weight: 500; line-height: 33px;'><div style='margin-bottom: 12px;'><strong style='color: #4168E1'>x</strong> es el número de camisetas T vendidas.</div><div style='margin-bottom: 12px;'><strong style='color: #4168E1'>25</strong> es el precio de cada camiseta T.</div><div><strong style='color: #CC3700'>R(x)</strong> es el ingreso total por vender x camisetas T.</div></div>",
+        "function_notation_info": "<div><strong style=\"color: #006BE0; \">¡Notación de Funciones Simplificada!</strong><br><br>Cuando escribimos <strong style=\"color: #006BE0; font-style: italic;\">R(x) = 25x</strong>, recuerda:<br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span><strong style=\"color: #006BE0; font-style: italic;\">R(x)</strong> ¡no es multiplicación! Significa \"ingresos que obtienes cuando vendes <span style=\"font-style: italic;\">x</span> Camisetas\"</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>La <strong style=\"color: #006BE0; font-style: italic;\">x</strong> puede ser cualquier número (¡eso es lo que la hace una función!)</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Cuando escribimos <strong style=\"color: #006BE0; font-style: italic;\">25x</strong>, significa <strong style=\"color: #006BE0;\">multiplicar 25 por <span style=\"font-style: italic;\">x</span></strong></li></ul><br><strong style=\"color: #006BE0;\">¡Inténtalo tú mismo:</strong><br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Si <strong style=\"color: #006BE0; font-style: italic;\">x = 2</strong> Camisetas: <strong style=\"color: #006BE0; font-style: italic;\">R(2) = 25 × 2 = $50</strong></li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Si <strong style=\"color: #006BE0; font-style: italic;\">x = 10</strong> Camisetas: <strong style=\"color: #006BE0; font-style: italic;\">R(10) = 25 × 10 = $250</strong></li></ul><br><strong style=\"color: #006BE0;\">Consejo Pro:</strong> Piensa en <strong style=\"color: #006BE0; font-style: italic;\">R(x)</strong> como una máquina - introduces el número de Camisetas, ¡y te devuelve el dinero total!<br><br><strong style=\"color: #006BE0; \">Recuerda:</strong> En <strong style=\"color: #006BE0; font-style: italic;\">R(x) = 25x</strong><br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Entrada: número de Camisetas (<strong style=\"color: #006BE0; font-style: italic;\">x</strong>)</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Salida: dinero que ganas (<strong style=\"color: #006BE0; font-style: italic;\">R(x)</strong>)</li></ul></div>"
+      }
+    },
+    "break-even-analyzer": {
+      "aunt_lily_break_even": "Bien, pero tenemos que pensar en los costos. Así que encontremos su punto de equilibrio punto.",
+      "mei_how_to_find": "¿Cómo encuentro eso?",
+      "aunt_lily_equation": "Ahí es donde entra en juego la resolución de ecuaciones. En realidad, podemos establecer las dos funciones iguales a ¡unos a otros!",
+      "mei_equation_question": "¿Eso es todo? ¿Puedo igualarlos y resolver x?",
+      "aunt_lily_equation_explanation": "Sí, porque aquí quieres saber cuándo las dos funciones son iguales. Más o menos ¡Genial! Juguemos con esto.",
+      "aunt_lily_past_context": "Hemos visto los costos e ingresos por separado. Ahora veamos cómo interactúan para determinar la rentabilidad.",
+      "aunt_lily_description": "Nuestro negocio de Camisetas tiene costos fijos de $1000 y costos variables de $10 por Camiseta. Vendemos cada Camiseta por $25.",
+      "aunt_lily_interactive_question": "<p>Ahora puedes ver cómo cambiar tus costos o precios afecta el momento en que comenzarás a obtener ganancias.</p><p style=\"margin-top: 1rem\"><strong>¿Cuántas camisetas necesitas vender para alcanzar el punto de equilibrio?</strong></p>",
+      "mei_gratitude": "Muchas gracias, tía Lily. ¡Quiero crear un negocio sostenible que sea bueno para el planeta y ganar algo de dinero! Es hora de hacer realidad este sueño.",
+      "break_even_analysis_interaction": {
+        "title": "Análisis del punto de equilibrio",
+        "aria_label": "Gráfico de análisis de punto de equilibrio que muestra la relación entre el costo y el ingreso, con el punto de equilibrio indicado donde el costo total es igual al ingreso total.",
+        "inputs": {
+          "equipment_cost": "Costo del equipo",
+          "material_cost": "Costo del material",
+          "selling_price": "Precio de venta"
+        },
+        "graph_config": {
+          "number_of_t_shirts": "Número de Camisetas",
+          "amount": "Cantidad ($)"
+        },
+        "labels": {
+          "total_cost": "Costo total",
+          "total_revenue": "Ingresos totales"
+        },
+        "display_formulas": {
+          "cost_equation": "Ecuación de costos",
+          "revenue_equation": "Ecuación de ingresos"
+        },
+        "heading": "Análisis del punto de equilibrio",
+        "about_heading": "Acerca del Análisis de Punto de Equilibrio",
+        "instructions_heading": "Cómo utilizar esta herramienta de análisis",
+        "about": "<div><p style=\"margin-bottom: 24px; color: #333333; font-size: 20px;\">Comienza entendiendo qué hace cada control deslizante:</p><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"color: #1E62F3; font-size: 24px; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; margin-right: 4px;\">Costo de Equipo:</span>Este es tu costo fijo (donde la línea de costo comienza en el eje y)</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"color: #1E62F3; font-size: 24px; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; margin-right: 4px;\">Costo de Material:</span>Esto es parte de tu costo variable (afecta la inclinación de la línea de costo)</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"color: #1E62F3; font-size: 24px; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; margin-right: 4px;\">Precio de Venta:</span>Esto determina qué tan rápido crecen tus ingresos (inclinación de la línea de ingresos)</div></li></ul><p style=\"color: #333333; font-size: 20px;\">¡Intenta cambiar solo un control deslizante a la vez para entender cómo cada uno afecta al gráfico!</p></div>",
+        "instructions": "<div><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Primero establece tu Costo de Equipo - observa cómo esto mueve el punto de inicio de la línea de costo</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Luego establece el Costo de Material - mira cómo esto cambia el ángulo de la línea de costo</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Finalmente, establece el Precio de Venta - observa cómo esto cambia el ángulo de la línea de ingresos</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>El punto de equilibrio es donde la línea roja de costo se encuentra con la línea verde de ingresos</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Recuerda: Estás buscando el punto donde Costo Total = Ingreso Total. En este punto, no estás ganando ni perdiendo dinero.</div></li></ul></div>"
+      }
+    },
+    "quest_completion": {
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: center; gap: 16px; margin-bottom: 16px;'><svg width=\"70\" height=\"70\" viewBox=\"0 0 59 65\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M19.1357 48.472L16.2404 50.8641C15.8628 51.2416 15.2332 50.8641 15.485 50.3604L15.6108 49.9829C15.8626 49.4793 15.2332 49.1017 14.8554 49.4793L9.56803 53.8855C9.19046 54.263 8.5608 53.8855 8.81262 53.3819L9.06443 52.6265C9.31623 52.1228 8.81262 51.7452 8.30903 52.1229L2.51804 56.1515C2.01444 56.5291 1.51082 56.0257 1.88867 55.5221L6.16878 49.8572C6.54635 49.4796 6.16878 48.976 5.66517 49.1018L4.90977 49.3536C4.40616 49.4794 4.02856 48.976 4.40616 48.5982L8.93809 43.4366C9.31566 43.059 8.93809 42.4294 8.43449 42.6812L8.05692 42.807C7.55331 43.0588 7.17571 42.4294 7.55331 42.0516L10.0711 39.1562C10.3229 39.5338 10.5747 39.9117 10.9523 40.2892L19.135 48.3459C18.884 48.2202 19.0098 48.3462 19.1355 48.472L19.1357 48.472Z\" fill=\"#006BE0\"/><path d=\"M14.0999 31.8555L12.2116 34.3732C11.3304 35.5062 11.4562 37.1428 12.4634 38.15L20.6461 46.3328C21.6533 47.34 23.2899 47.4657 24.4229 46.5846L26.9407 44.6962L14.0999 31.8555Z\" fill=\"#006BE0\"/><path d=\"M21.2759 18.3852L13.4705 28.7081C8.93861 27.8269 4.15437 28.3305 0 30.3447C1.00723 28.2045 2.39202 26.1903 4.15437 24.428C8.68658 19.8958 15.1067 17.7556 21.2752 18.3853L21.2759 18.3852Z\" fill=\"#006BE0\"/><path d=\"M26.1857 62.8242L23.0385 64.335L23.7936 62.8242H26.1857Z\" fill=\"#006BE0\"/><path d=\"M34.2424 54.7661C32.4801 56.5284 30.4656 57.9132 28.3257 58.9204C30.3399 54.6403 30.9695 49.9823 29.9623 45.4499L40.2852 37.6445C41.0406 43.6873 39.0262 50.1076 34.2425 54.7654L34.2424 54.7661Z\" fill=\"#006BE0\"/><path d=\"M44.4393 1.51562C39.6556 2.52285 34.8718 4.41094 32.4796 7.68417L15.7361 29.8408L28.9546 43.0593L51.1112 26.1898C54.3844 23.7978 56.2728 19.0138 57.2798 14.2301L44.4393 1.51562ZM48.0901 18.1331C46.0759 20.1473 42.6767 20.1473 40.6628 18.1331C38.6486 16.1189 38.6486 12.7197 40.6628 10.7058C42.677 8.69161 46.0762 8.69161 48.0901 10.7058C50.104 12.72 50.1043 16.1192 48.0901 18.1331Z\" fill=\"#006BE0\"/><path d=\"M58.6631 0.760243C58.6631 2.39686 58.5374 6.67697 57.7819 11.3352L47.333 0.886259C53.2497 -0.120968 58.5373 0.00504785 58.5373 0.00504785C58.5376 0.00504785 58.6634 0.382888 58.6634 0.760451L58.6631 0.760243Z\" fill=\"#006BE0\"/></svg><div style='font-size: 30px; font-weight: 700; line-height: 45px; color: #000000;'>Punto de equilibrio con funciones lineales</div></div><h2 style='font-size: 24px; font-weight: 700; color: #333333; margin: 0 0 24px 65px;'>¡Has aplicado sistemas de ecuaciones lineales en los negocios!</h2><ul style='list-style: none; padding-right: 20px; padding-left: 80px;'><li style='display: flex; align-items: start; margin-bottom: 16px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Ayudaste a Mei a encontrar el punto de equilibrio para determinar si su negocio es rentable</li><li style='display: flex; align-items: start; margin-bottom: 16px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Demostró que comprende las relaciones entre costos, ingresos y ganancias</li><li style='display: flex; align-items: start; margin-bottom: 16px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Analizó costos fijos, costos variables, precios y cantidades</li></ul></div>"
+    },
+    "glossary": {
+      "revenue": {
+        "word": "ingresos",
+        "definition": "Ingresos es la cantidad total de dinero ganado por la venta de bienes o servicios."
+      },
+      "linear_functions": {
+        "word": "funciones lineales",
+        "definition": "Funciones Lineales son relaciones matemáticas que aparecen como una línea recta en un gráfico."
+      },
+      "Linear_functions": {
+        "word": "Funciones lineales",
+        "definition": "Funciones Lineales son relaciones matemáticas que aparecen como una línea recta en un gráfico."
+      },
+      "break_even_point": {
+        "word": "punto de equilibrio",
+        "definition": "punto de equilibrio es el número mágico en el que has ganado exactamente suficiente dinero para cubrir todos tus costes, sin perder más dinero, pero tampoco ganando dinero extra todavía."
+      },
+      "profit": {
+        "word": "ganancia",
+        "definition": "Ganancia es el dinero extra que gana una empresa después de pagar todos sus costos."
+      }
+    },
+    "common": {
+      "data_visualization": "Visualización de datos",
+      "calculation_result": "Resultado del cálculo:",
+      "x_units_y_dollars_label": "Donde x es el número de unidades e c es el monto total en dólares",
+      "invalid_input_submitted": "¡Una o más entradas no son válidas!",
+      "enter_answer": "Ingresa tu respuesta",
+      "aunt_lily": "Tía Lily",
+      "mei": "Mei",
+      "cost_models": "Modelos de costos",
+      "revenue_models": "Modelos de ingresos",
+      "help": "Ayuda",
+      "info": "información"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Problem Introduction",
+    "scene_4": "Building a Spam Filter",
+    "scene_5": "Email Analysis",
+    "scene_6": "Frequency Table Analysis",
+    "scene_7": "Feature Independence Test",
+    "scene_8": "Spam Detection Model",
+    "scene_9": "Threshold Testing",
+    "scene_10": "Cost Analysis",
+    "scene_11": "Optimizing Threshold",
+    "scene_12": "Conclusion",
+    "scene_13": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Inbox Under Siege</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Battling Spam with Probability</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Can you help Ethan and Alicia build a smart spam filter to sort out real customer emails from junk? In this STEAMQuest, you'll use two-way tables, conditional probability, independence, and classification thresholds to make data-driven decisions and improve SprintTech's inbox!</p>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Welcome to SprintTech!</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I'm Alicia, and today I'll be working with our Junior Developer, Ethan, to solve an important problem. SprintTech is a marketing agency where emails are essential for reaching customers. With so many emails coming in every day, it's challenging to separate the real customer email from the spam. By using probability and data analysis, we'll build a spam filter that keeps inboxes organized and efficient!</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_F6_C1": "Ethan, our inbox is overflowing with spam emails! It's hard to find real customer emails.",
+      "S3_D2_F7_C2": "That sounds frustrating. We need to filter the emails!",
+      "S3_D3_F8_C1": "Let's build a filter to classify them into <strong>spam</strong> and <strong>not spam</strong> automatically.",
+      "S3_D4_F9_C2": "How would that even work? Spam looks different every time.",
+      "S3_D5_F10_C1": "We can analyze past emails to find patterns and use probability to decide which ones are likely spam.",
+      "S3_D6_F11_C2": "Interesting! If this helps us save time and catch real emails faster, I'm ready."
+    },
+    "S4": {
+      "S4_D1_F12_C2": "Okay, so where do we start?",
+      "S4_D2_F13_C1": "First, we need to look at past emails and identify common spam features—like certain words, links, or unknown senders.",
+      "S4_D3_F14_C2": "Makes sense. If we can find patterns, we can use them to predict which emails are spam.",
+      "S4_D4_F15_C1": "Exactly! Let's go through some sample emails and track their features."
+    },
+    "S5": {
+      "S5_D0_F17_C9": {
+        "title": "Email Feature Tracker",
+        "about": {
+          "heading": "Understanding the Math Behind Spam Detection",
+          "body": "<div style='max-width: 800px; padding: 10px; text-align: left;'><p style='margin-bottom: 20px;'>This interactive helps track how often certain features (like the word \"FREE\" or multiple links) appear in spam vs. non-spam emails. The collected data is organized in a two-way frequency table, which allows us to calculate conditional probabilities and analyze patterns in spam detection.</p> <h3 style='font-weight: bold; margin-top: 20px; margin-bottom: 15px;'>Two-Way Frequency Table</h3> <p style='margin-bottom: 10px;'>A two-way table organizes data into two categories:</p> <ul style='margin-bottom: 20px; margin-left: 20px; list-style-type: disc;'> <li style='margin-bottom: 8px;'>Rows: Email classification (Spam or Not Spam)</li> <li style='margin-bottom: 8px;'>Columns: Feature presence (Feature Present or Feature Absent)</li> </ul> <p style='margin-bottom: 20px;'>Each cell in the table represents the count of emails that match both conditions.</p> </div>"
+        },
+        "help": {
+          "heading": "",
+          "body": ""
+        },
+        "sample_emails": {
+          "emails": [
+            {
+              "id": 1,
+              "subject": "🎉 CONGRATULATIONS! You've WON a FREE iPhone 15 Pro!",
+              "content": "Dear Lucky Winner,\n\nCongratulations! You've won a brand new iPhone 15 Pro (worth $999)!\n\nClaim your FREE prize:\nhttp://claim-prize.suspicious-site.com/iphone15\nhttp://verify-winner.suspicious-site.com\nhttp://shipping-form.suspicious-site.com\n\n⚠️ IMPORTANT: Offer expires in 24 hours! Act NOW!\n\nPrize Department\nGlobal Rewards Center",
+              "sender": "prize-dept@unknown-lottery.com"
+            },
+            {
+              "id": 2,
+              "subject": "Your February 2025 Account Statement",
+              "content": "Dear Valued Customer,\n\nYour monthly statement for February 2025 is now available.\n\nTo access your statement, please log in to your secure account at www.legitbank.com.\n\nBest regards,\nCustomer Service Team\nLegitimate Bank",
+              "sender": "statements@legitbank.com"
+            },
+            {
+              "id": 3,
+              "subject": "🔥 FREE Business Growth Consultation (Limited Time)",
+              "content": "Hi there!\n\nDon't miss this AMAZING opportunity! FREE 30-minute strategy session (valued at $499)!\n\nClick to:\n➡️ Book FREE session: http://quick-book.unknown-biz.com/free\n➡️ Download FREE guide: http://resources.unknown-biz.com/guide\n➡️ Watch FREE masterclass: http://webinar.unknown-biz.com/class\n\nLimited spots! Claim your FREE consultation NOW!\n\nMarketing Team\nUnknown Business Solutions",
+              "sender": "marketing@unknown-consulting.com"
+            },
+            {
+              "id": 4,
+              "subject": "Q1 Product Planning Meeting Notes",
+              "content": "Hi team,\n\nQuick summary of today's meeting:\n- Reviewed Q4 metrics\n- Discussed Q1 roadmap\n- Planned feature launches\n\nNext meeting: Feb 19, 10:00 AM\n\nBest regards,\nJennifer Chen\nProduct Manager",
+              "sender": "jennifer.chen@company.com"
+            }
+          ]
+        },
+        "keywords": {
+          "free": "free",
+          "win": "win",
+          "unknown": "unknown"
+        },
+        "spam": "Spam",
+        "not_spam": "Not Spam",
+        "select_email": "👈 Select an email to view its content",
+        "from": "From",
+        "subject": "Subject",
+        "to": "To",
+        "date": "Date",
+        "date_value": "February 12, 2025",
+        "email_content": "Email Content",
+        "sample_email": "Sample Emails",
+        "email_from": "Email from",
+        "with_subject": "with subject",
+        "email_features": "Email Features",
+        "mark_as_spam_button": "Mark as Spam 🚫",
+        "not_spam_button": "Not Spam ✓",
+        "classified_as": "Classified as",
+        "select_email_to_analyze": "👈 Select an email to analyze its features",
+        "feature_frequency_table": "Feature Frequency Table",
+        "feature_present": "Feature Present",
+        "feature_absent": "Feature Absent",
+        "aria_label": {
+          "select_email_prompt": "Select an email prompt",
+          "email_body": "Email body",
+          "email_details": "Email details",
+          "contains_free": "Contains 'FREE'",
+          "contains_win": "Contains 'WIN'",
+          "sender_unknown": "Sender Domain Unknown",
+          "more_than_two_lakhs": "More than 2 links"
+        }
+      },
+      "S5_D1_F17_C1": "Select the first email, <strong>'Congratulations! You've won a FREE iPhone 15 Pro!'</strong>",
+      "S5_D2_F18_C1": "It's classic spam.",
+      "S5_D2_F18_C2": "Yeah, it has multiple red flags <strong>'FREE,'</strong> <strong>'WIN,'</strong> and more than two links.",
+      "S5_D3_F19_C1": "Let's check those features and mark it as spam.",
+      "S5_D4_F20_C1": "Now, select the second one, <strong>'Your February 2025 Account Statement.'</strong>",
+      "S5_D5_F21_C1": "It's from a legit source and has no suspicious words or links.",
+      "S5_D5_F21_C2": "Right, so we mark it as <strong>'Not Spam.'</strong>",
+      "S5_D6_F22_C1": "Yes, watch how the table updates, this email adds to the <strong>'Not Spam'</strong> row under <strong>'Feature Absent.'</strong>",
+      "S5_D7_F23_C2": "I can already see a pattern. Emails with words like <strong>'FREE'</strong> and lots of links mostly show up under spam, while real emails don't have these features as often.",
+      "S5_D8_F24_C1": "That's exactly what we're looking for! The table helps us measure how often these features appear in spam versus not spam emails.",
+      "S5_D9_F25_C1": "This is a good start, but we need more data to be sure. Ethan, go through the rest of our 200 sample emails, finish the frequency table, and then we'll use probability to check how strong these patterns are."
+    },
+    "S6": {
+      "S6_D0_F25_C9": {
+        "title": "Frequency Table Analysis"
+      },
+      "frequency_table": "<div style='width: 100%; max-width: 64rem; margin: 0 auto 2rem auto; font-size: 20px; line-height: 30px;'><table style='width: 100%; border-collapse: collapse; background-color: white;'><thead><tr><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: left; font-weight: bold;'></th><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; font-weight: bold;'>Feature Present</th><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; font-weight: bold;'>Feature Absent</th><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; font-weight: bold; background-color: #f3f4f6;'>Total</th></tr></thead><tbody><tr style='transition: background-color 0.2s;' onmouseover='this.style.backgroundColor=\"#f9fafb\"' onmouseout='this.style.backgroundColor=\"\"'><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: left; font-weight: bold;'>Spam</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>75</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>25</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; background-color: #f3f4f6; font-weight: bold;'>100</td></tr><tr style='transition: background-color 0.2s;' onmouseover='this.style.backgroundColor=\"#f9fafb\"' onmouseout='this.style.backgroundColor=\"\"'><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: left; font-weight: bold;'>Not Spam</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>20</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>80</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; background-color: #f3f4f6; font-weight: bold;'>100</td></tr></tbody></table></div>",
+      "S6_D1_F25_C2": "I've analyzed all 200 emails and completed the frequency table. Here it is.",
+      "S6_D2_F26_C1": "Nice. So, 75 out of 100 spam emails had these features, while 80 out of 100 not spam emails didn't. That shows a pattern.",
+      "S6_D3_F27_C2": "Yeah, spam emails are much more likely to contain these features than legit emails.",
+      "S6_D4_F28_C1": "Exactly. Now, let's calculate some probabilities. What's the probability that an email has these features, given that it's spam?",
+      "S6_D5_F29_C2": "75 out of 100, so 0.75 or 75%.",
+      "S6_D6_F30_C1": "Good. Now, what is the probability that an email doesn't have these features, given that it's not spam?",
+      "S6_D7_F31_C2": "80 out of 100, so 0.80 or 80%.",
+      "S6_D8_F32_C1": "Now, let's check if these features are independent, if they are, they won't help us much in detecting spam. If they're dependent, that means spotting these features actually helps predict spam better. Let's test that next!"
+    },
+    "S7": {
+      "S7_D0_F34_C9": {
+        "title": "Conditional Probability Calculator",
+        "conditional_probability": {
+          "feature_frequency_table": "Feature Frequency Table",
+          "free_present": "'FREE' Present",
+          "free_absent": "'FREE' Absent",
+          "win_present": "'WIN' Present",
+          "win_absent": "'WIN' Absent",
+          "spam": "Spam",
+          "not_spam": "Not Spam",
+          "conditional_probabilities": "Conditional Probabilities",
+          "p_free_given_spam": "P(FREE | spam)",
+          "probability_free_given_spam": "Probability of FREE given spam equals",
+          "p_free_given_not_spam": "P(FREE | not spam)",
+          "probability_free_given_not_spam": "Probability of FREE given not spam equals",
+          "p_win_given_spam": "P(WIN | spam)",
+          "probability_win_given_spam": "Probability of WIN given spam equals",
+          "p_win_given_not_spam": "P(WIN | not spam)",
+          "probability_win_given_not_spam": "Probability of WIN given not spam equals",
+          "p_free_win_given_spam": "P(FREE and WIN | spam)",
+          "probability_free_win_given_spam": "Probability of FREE intersection WIN given spam approximately equals",
+          "p_free_win_given_not_spam": "P(FREE and WIN | not spam)",
+          "probability_free_win_given_not_spam": "Probability of FREE intersection WIN given not spam approximately equals",
+          "probability_visualization": "Probability Visualization",
+          "bar_chart_description": "Bar chart showing conditional probabilities",
+          "blue_dotted_legend": "Blue Dotted Legend",
+          "red_lines_legend": "Red lines Legend",
+          "probability": "Probability",
+          "probability_free_present_spam": "Probability of FREE being present in spam messages",
+          "probability_free_absent_spam": "Probability of FREE being absent in spam messages",
+          "probability_win_present_spam": "Probability of WIN being present in spam messages",
+          "probability_win_absent_spam": "Probability of WIN being absent in spam messages",
+          "probability_free_present_not_spam": "Probability of FREE being present in non-spam messages",
+          "probability_free_absent_not_spam": "Probability of FREE being absent in non-spam messages",
+          "probability_win_present_not_spam": "Probability of WIN being present in non-spam messages",
+          "probability_win_absent_not_spam": "Probability of WIN being absent in non-spam messages",
+          "bar": "bar"
+        },
+        "help": {
+          "heading": "Calculating probability of words appearing in spam emails",
+          "body": "<div><ol style=\"list-style: none; padding-left: 0; margin-bottom: 24px\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start\"><span style=\"font-size: 24px; margin-right: 8px\">•</span><div>Enter the probabilities of email having word <strong>'FREE'</strong> known that it's spam (P(FREE | spam)) and an email having word <strong>'WIN'</strong> known that it's spam (P(WIN | spam)).</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start\"><span style=\"font-size: 24px; margin-right: 8px\">•</span><div>The probability of email having both words <strong>'FREE'</strong> and <strong>'WIN'</strong> known that it's spam (P(FREE and WIN | spam)) is displayed on the screen.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start\"><span style=\"font-size: 24px; margin-right: 8px\">•</span><div>Also if we assume that both features are independent, then the probability can be calculated easily using below formula: P(FREE and WIN | spam) = P(FREE | spam)  P(WIN | spam)</div></li></ol></div>"
+        },
+        "about": {
+          "heading": "Conditional Probability Formula",
+          "body": "<div style=\"margin: 20px auto;\"><p style=\"margin-bottom: 16px;\">Conditional probability measures the likelihood of an event occurring given that another event has already happened. The formula is:</p><div style=\"text-align: center; margin: 24px 0; font-size: 18px;\" aria-hidden=\"true\">P(A | B) = P(A and B) / P(B)</div><span class=\"sr-only\" aria-label=\"The conditional probability formula: P of A given B equals P of A intersection B divided by P of B\"></span><div style=\"margin-bottom: 24px;\" aria-hidden=\"true\"><p style=\"margin: 2px 0;\">P(A | B) = Probability of event A occurring given that B has occurred</p><p style=\"margin: 2px 0;\">P(A and B) = Probability of both A and B occurring together</p><p style=\"margin: 2px 0;\">P(B) = Probability of event B occurring</p></div><span class=\"sr-only\" aria-label=\"P of A given B is the probability of event A occurring given that B has occurred.\"></span><span class=\"sr-only\" aria-label=\"P of A intersection B is the probability of both A and B occurring together.\"></span><span class=\"sr-only\" aria-label=\"P of B is the probability of event B occurring.\"></span><p style=\"margin-bottom: 16px;\">For example, the probability that an email contains the word \"FREE\" given that it is spam is:</p><div style=\"text-align: center; margin: 24px 0; font-size: 18px;\" aria-hidden=\"true\">P(FREE | spam) = P(FREE and spam) / P(spam)</div><span class=\"sr-only\" aria-label=\"For example: P of FREE given spam equals P of FREE intersection spam divided by P of spam\"></span><h2 style=\"font-size: 24px; margin: 40px 0 20px 0; padding-bottom: 8px;\"><strong>Checking for Feature Independence</strong></h2><p style=\"margin-bottom: 16px;\">If two features (e.g., \"FREE\" and \"WIN\") are independent, then the probability of both appearing in a spam email should equal the product of their individual probabilities:</p><div style=\"text-align: center; margin: 24px 0; font-size: 18px;\" aria-hidden=\"true\">P(FREE and WIN | spam) = P(FREE | spam) × P(WIN | spam)</div><span class=\"sr-only\" aria-label=\"For independent features: P of FREE intersection WIN given spam equals P of FREE given spam times P of WIN given spam.\"></span><p style=\"margin-top: 16px;\" aria-hidden=\"true\">If this equation holds, the features are independent; otherwise, they are dependent, meaning knowing one feature helps predict the other.</p><span class=\"sr-only\" aria-label=\"If this equation holds, the features are independent; otherwise, they are dependent, meaning knowing one feature helps predict the other.\"></span></div>"
+        }
+      },
+      "S7_D1_F34_C1": "Let's use this interactive tool to test whether features <strong>'FREE'</strong> and <strong>'WIN'</strong> are independent or not.",
+      "S7_D2_F35_C1": "Enter the probabilities in the input boxes. The probability of <strong>'FREE'</strong> appearing in an email, given that it is spam, is 0.95, and the probability of <strong>'WIN'</strong> appearing in an email, given that it is spam, is 0.80.",
+      "S7_D3_F36_C1": "What is the probability that both <strong>'FREE'</strong> and <strong>'WIN'</strong> are present in an email known that it's spam?",
+      "S7_D4_F37_C2": "How can we check whether both features <strong>'FREE'</strong> and <strong>'WIN'</strong> are independent or not?",
+      "S7_D5_F38_C1": "We will check whether the probability that both <strong>'FREE'</strong> and <strong>'WIN'</strong> are present in a spam email is equal to the product of the probability of <strong>'FREE'</strong> present in a spam email and the probability of <strong>'WIN'</strong> present in a spam email.<br><div aria-hidden=\"true\" style=\"margin-top: 10px;\">P(FREE and WIN | spam) = P(FREE | spam) × P(WIN | spam)</div>",
+      "S7_D6_F39_C2": "0.95 × 0.80 is equal to 0.760.",
+      "S7_D7_F40_C1": "That means they're independent and checking for both together doesn't give us extra predictive power, each feature alone tells us the same thing."
+    },
+    "S8": {
+      "S8_D1_F42_C1": "Alright, we confirmed that some features are useful for predicting spam. Ethan, can you please write a code to calculate the spam probability of each email?",
+      "S8_D2_F43_C2": "Yes, sure! But how will we decide whether the email is spam or not?",
+      "S8_D3_F44_C1": "We need a threshold: if spam probability is above it, we mark it as spam, if below it, we keep it in the inbox.",
+      "S8_D4_F45_C2": "I've written code to calculate the spam probability of an email.",
+      "S8_D5_F46_C1": "Excellent! Now let's calculate the probability for each email and try filtering emails with different threshold values."
+    },
+    "S9": {
+      "S9_D0_F48_C9": {
+        "title": "Email Classification Threshold Adjuster",
+        "email_classifier": {
+          "spam": "Spam",
+          "not_spam": "Not Spam",
+          "threshold_set_to": "Threshold set to",
+          "false_positives": "False Positives",
+          "false_negatives": "False Negatives",
+          "email_from": "Email from",
+          "with_subject": "with subject",
+          "sender": "Sender",
+          "spam_probability": "Spam Probability",
+          "spam_probability_threshold": "Spam Probability Threshold",
+
+          "email1_subject": "Question about Free trial of product integration",
+          "email1_sender": "potential.customer@company.com",
+          "email1_preview": "Hi, I'm interested in integrating your product...",
+
+          "email2_subject": "CLAIM YOUR FREE PRIZE NOW!!!",
+          "email2_sender": "prizes@totally-legit-prizes.com",
+          "email2_preview": "You've won $1,000,000! Click here to claim...",
+
+          "email3_subject": "Meeting tomorrow at 2 PM",
+          "email3_sender": "team.lead@company.com",
+          "email3_preview": "Let's discuss the quarterly results...",
+
+          "email4_subject": "Enhance Your Life Now - Special Offer",
+          "email4_sender": "marketing@suspicious-pills.net",
+          "email4_preview": "Don't miss this incredible deal...",
+
+          "email5_subject": "Product feedback request",
+          "email5_sender": "support@trusted-partner.com",
+          "email5_preview": "We'd love to hear your thoughts on..."
+        },
+        "about": {
+          "heading": "Understanding the Math Behind Threshold Adjustment",
+          "body": "<div><p style=\"margin-bottom: 15px;\">A threshold is a cutoff value used to classify emails as spam or not spam based on their probability score. In this interactive, adjusting the threshold changes how emails are filtered.</p><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>How the Threshold Works</strong></p><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>If an email's spam probability is above the threshold, it is classified as spam.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>If an email's spam probability is below the threshold, it is classified as not spam.</div></li></ul><p style=\"margin-bottom: 25px;\">The goal is to balance false positives and false negatives to create an effective filter.</p><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Key Probability Concepts</strong></p><ol style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">1.</span><div><strong>False Positive (Type I Error):</strong> A real email is incorrectly classified as spam.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">2.</span><div><strong>False Negative (Type II Error):</strong> A spam email is incorrectly classified as not spam.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">3.</span><div><strong>Trade-Off in Classification:</strong><ul style=\"list-style: none; padding-left: 20px; margin-top: 8px;\"><li style=\"margin-bottom: 8px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div><strong>Lower threshold</strong> → More emails marked as spam (reduces false negatives but increases false positives).</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div><strong>Higher threshold</strong> → Fewer emails marked as spam (reduces false positives but increases false negatives).</div></li></ul></div></li></ol></div>"
+        }
+      },
+      "S9_D1_F48_C1": "Set the threshold to 50%.",
+      "S9_D1E_FX_C1": "Look at this, an actual customer got flagged as spam!",
+      "S9_D2_F49_C2": "Yeah, that <strong>'Free trial of product integration'</strong> email has a 55% spam probability, but it's a real inquiry.",
+      "S9_D3_F50_C1": "That's a false positive, we're blocking something we shouldn't. Increase the threshold to 70% so only emails with stronger spam signals get flagged.",
+      "S9_D4_F51_C2": "Looks better! The customer email is back in the inbox, but we still caught obvious spam like <strong>'CLAIM YOUR FREE PRIZE NOW!!!'</strong>",
+      "S9_D5_F52_C1": "This proves that setting the right threshold is all about balance, we need to reduce false positives while still catching real spam."
+    },
+    "S10": {
+      "S10_D1_F54_C1": "We've adjusted the threshold to reduce false positives, but we need to see the bigger picture, how much is this costing us?",
+      "S10_D2_F55_C2": "Right. If we block a real customer email, we might lose our customers. If we let spam through, it wastes time. Each mistake has a cost.",
+      "S10_D3_F56_C1": "Exactly! That's why we need to calculate how much it costs for our current threshold.",
+      "S10_D4_F57_C2": "Do we've any tool or calculator to calculate how much it costs?"
+    },
+    "S11": {
+      "S11_D0_F59_C9": {
+        "title": "Email Misclassification Cost Calculator",
+        "email_misclassification": {
+          "costOfMissingRealEmail": "Cost of Missing Real Email ($)",
+          "costOfLettingSpamThrough": "Cost of Letting Spam Through ($)",
+          "threshold": "Spam Probability Threshold",
+          "totalCost": "Total Cost",
+          "missedSpam": "Missed Spam",
+          "missedLegit": "Missed Real",
+          "emailsProcessed": "Emails Processed",
+          "cumulativeCost": "Cumulative Cost ($)",
+          "email": "Email",
+          "costOverTimeChart": "Cumulative Cost for Emails Processed Chart.",
+          "totalCostInDollars": "Total Cost ($)",
+          "thresholdInPercentage": "Threshold (%)"
+        },
+        "about": {
+          "heading": "Understanding the Cost of Classification Errors",
+          "body": "<div><p style=\"margin-bottom: 15px;\">Spam filters make decisions based on probability, but misclassifications come with costs. This interactive helps analyze the financial impact of false positives (blocking real emails) and false negatives (allowing spam).</p><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Key Concepts in Cost Analysis</strong></p><ol style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">1.</span><div><strong>False Positive Cost:</strong> When a real email is mistakenly flagged as spam, it can result in lost business or missed opportunities.<br><em>False Positive Cost = Number of missed Real Emails × Cost per missed Real Email</em></div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">2.</span><div><strong>False Negative Cost:</strong> When a spam email is mistakenly allowed in the inbox, it can waste employee time or introduce security risks.<br><em>False Negative Cost = Number of missed Spam Emails × Cost per missed Spam Email</em></div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">3.</span><div><strong>Total Cost:</strong> The overall financial impact combines both types of errors: <br><em>Total Cost = False Positive Cost + False Negative Cost</em></div></li></ol><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Adjusting the Threshold</strong></p><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>A <strong>lower threshold</strong> catches more spam but increases false positives, raising the cost of missed real emails</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>A <strong>higher threshold</strong> reduces false positives but lets more spam through, increasing wasted time and security risks</div></li></ul></div>"
+        },
+        "help": {
+          "heading": "Calculating the total cost",
+          "body": "<div><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Enter the cost of missing real email and cost of missing spam email in the respective input boxes</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Adjust the threshold value using a slider</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Total cost is displayed above the graph along with the number of real emails missed and number of spam emails missed</div></li></ul></div>"
+        }
+      },
+      "S11_D1_F59_C1": "Here is our Cost Calculator! If we miss the real email it will cost us $20 because it could be a real customer email. This could lead to lost business, delayed responses, or unhappy clients.",
+      "S11_D2_F60_C2": "Oh, that's too much! If we miss too many real emails then it will cost us a lot!",
+      "S11_D3_F60_C1": "Yes. If we miss a spam email then also it costs us $2. It's a smaller cost, but still important because we waste time dealing with emails that should have been filtered out. We end up reading, deleting, or sorting unnecessary messages",
+      "S11_D4_F61_C2": "Got it! So missing real emails is more costly because it affects our business, while missing spam costs us time.",
+      "S11_D3_F61_C1": "Exactly, now set the threshold to 75% using a slider.",
+      "S11_D4_F62_C2": "At this threshold, we will miss 48 real emails and move them into spam, and we will miss 60 spam emails and mark them as real emails.",
+      "S11_D5_F63_C1": "What is the total cost if the cost of missing a real email is $20 and the cost of missing a spam email is $2?",
+      "S11_D6_F64_C2": "I see if we increase the threshold the cost is decreasing, so can we increase the threshold to 90%?",
+      "S11_D7_F65_C1": "No Ethan, if we increase the threshold to 90%, it will definitely reduce the total cost, but we miss more spam emails, wasting even more time.",
+      "S11_D8_F66_C2": "Oh yes! We need to find a good balance between catching spam and reducing cost.",
+      "S11_D9_F67_C1": "Now Ethan, can you please set a threshold value in your code and complete the development of this spam filter?",
+      "S11_D10_F68_C2": "Yeah of course!"
+    },
+    "S_12": {
+      "S12_D1_F70_C1": "Great job, Ethan! We've built a spam filter using probability, and it's already making a difference.",
+      "S12_D2_F71_C2": "Yeah! Learning how conditional probability, independence, and cost analysis work together really helped fine-tune our threshold.",
+      "S12_D3_F72_C1": "Exactly. By balancing false positives and false negatives, we created a smarter system that actually works in a real-world setting.",
+      "S12_D4_F73_C2": "And the best part? This isn't just theory, it's a real solution that makes our inbox more efficient every day!"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You explored about Optimizing Email Management using Probability-Based Spam Filtering",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>You've completed the Inbox Under Siege: Battling Spam with Probability STEAMQuest!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You used two-way tables and conditional probability to analyze email features and identify spam patterns</li><li>You tested classification thresholds to balance false positives and false negatives in spam detection</li><li>You explored cost analysis to find the most efficient threshold by minimizing business impact</li><li>You prepared the groundwork for building a data-driven spam filter using probability models</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400;'>Your insights will help create a smarter, more efficient inbox!</p>",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_13854_7433\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"80\">\n<rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"9.5\" fill=\"#5454D8\" stroke=\"#005F20\"/>\n</mask>\n<g mask=\"url(#mask0_13854_7433)\">\n<path d=\"M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z\" fill=\"black\"/>\n<path d=\"M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z\" fill=\"#FFCC00\" stroke=\"black\"/>\n<path d=\"M22 30.3158C22 28.7461 23.2641 27.4737 24.8235 27.4737H57.7647C59.3241 27.4737 60.5882 28.7461 60.5882 30.3158V51.1579C60.5882 52.7275 59.3241 54 57.7647 54H24.8235C23.2641 54 22 52.7275 22 51.1579V30.3158Z\" fill=\"black\"/>\n<path d=\"M70 27.9474C70 33.4411 65.5755 37.8947 60.1176 37.8947C54.6598 37.8947 50.2353 33.4411 50.2353 27.9474C50.2353 22.4536 54.6598 18 60.1176 18C65.5755 18 70 22.4536 70 27.9474Z\" fill=\"black\"/>\n<path d=\"M59.0273 28.5438L58.7764 24.7642C58.7294 24.0278 58.7059 23.4991 58.7059 23.1782C58.7059 22.7416 58.8182 22.4023 59.043 22.1603C59.2729 21.9131 59.5734 21.7895 59.9444 21.7895C60.3939 21.7895 60.6944 21.9473 60.8459 22.2629C60.9975 22.5733 61.0733 23.023 61.0733 23.6122C61.0733 23.9594 61.055 24.3118 61.0184 24.6695L60.6813 28.5596C60.6447 29.0225 60.5663 29.3776 60.4461 29.6248C60.3259 29.872 60.1274 29.9957 59.8504 29.9957C59.5682 29.9957 59.3722 29.8773 59.2625 29.6406C59.1527 29.3986 59.0743 29.033 59.0273 28.5438ZM59.8974 33.7358C59.5786 33.7358 59.299 33.6332 59.0586 33.4281C58.8235 33.2176 58.7059 32.9257 58.7059 32.5522C58.7059 32.2261 58.8182 31.9499 59.043 31.7237C59.2729 31.4922 59.5525 31.3765 59.8817 31.3765C60.211 31.3765 60.4906 31.4922 60.7205 31.7237C60.9557 31.9499 61.0733 32.2261 61.0733 32.5522C61.0733 32.9204 60.9557 33.2098 60.7205 33.4202C60.4853 33.6306 60.211 33.7358 59.8974 33.7358Z\" fill=\"black\"/>\n<rect x=\"22.5\" y=\"25.9746\" width=\"37.8421\" height=\"25.5263\" rx=\"2.5\" fill=\"white\" stroke=\"black\"/>\n<path d=\"M23.4211 50.5785L36.2106 37.7891\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M59.8948 50.5785L47.1053 37.7891\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M23.4211 26.4219L41.8948 42.5271L59.4211 26.4219\" stroke=\"black\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<circle cx=\"60.3685\" cy=\"25.9474\" r=\"9.44737\" fill=\"white\" stroke=\"black\"/>\n<path d=\"M59.2708 26.5434L59.0183 22.7638C58.9709 22.0274 58.9473 21.4987 58.9473 21.1778C58.9473 20.7412 59.0604 20.4019 59.2866 20.1599C59.518 19.9127 59.8205 19.7891 60.194 19.7891C60.6464 19.7891 60.9488 19.9469 61.1014 20.2625C61.2539 20.5729 61.3302 21.0226 61.3302 21.6118C61.3302 21.959 61.3118 22.3114 61.275 22.6691L60.9357 26.5592C60.8989 27.0221 60.82 27.3772 60.699 27.6244C60.578 27.8716 60.3781 27.9952 60.0993 27.9952C59.8152 27.9952 59.618 27.8769 59.5075 27.6402C59.397 27.3982 59.3181 27.0326 59.2708 26.5434ZM60.1466 31.7354C59.8257 31.7354 59.5443 31.6328 59.3023 31.4276C59.0656 31.2172 58.9473 30.9253 58.9473 30.5518C58.9473 30.2256 59.0604 29.9495 59.2866 29.7233C59.518 29.4918 59.7994 29.3761 60.1309 29.3761C60.4623 29.3761 60.7437 29.4918 60.9751 29.7233C61.2119 29.9495 61.3302 30.2256 61.3302 30.5518C61.3302 30.92 61.2119 31.2093 60.9751 31.4198C60.7384 31.6302 60.4623 31.7354 60.1466 31.7354Z\" fill=\"black\"/>\n</g>\n</svg>",
+
+      "leftsvgarialabel": "Email alert badge icon",
+      "rightsvg": "<svg width=\"191\" height=\"110\" viewBox=\"0 0 191 110\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-top: 20px;\">\n<mask id=\"mask0_13854_7445\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"191\" height=\"110\">\n<rect width=\"191\" height=\"110\" fill=\"#D9D9D9\"/>\n</mask>\n<g mask=\"url(#mask0_13854_7445)\">\n<g opacity=\"0.2\">\n<rect x=\"40.5317\" y=\"3.72852\" width=\"121.654\" height=\"83.0815\" rx=\"3\" transform=\"rotate(17.8059 40.5317 3.72852)\" fill=\"white\"/>\n<rect x=\"104.636\" y=\"62.1084\" width=\"62.3545\" height=\"4\" rx=\"2\" transform=\"rotate(63.9221 104.636 62.1084)\" fill=\"#006BE0\"/>\n<rect width=\"62.3545\" height=\"4\" rx=\"2\" transform=\"matrix(-0.900832 0.434167 0.434167 0.900832 71.593 54.9619)\" fill=\"#006BE0\"/>\n<path d=\"M81 74L39.5 6.99918C40 4.4994 42.5 3.99993 44.5 4.99891L85 70L153.5 40C154.7 40.4 156.5 42 155 45C132.964 55.1069 88.8276 74.0219 85.5586 75.4229L85.5049 75.4459C82.7049 76.6459 81.5 75 81 74Z\" fill=\"#006BE0\"/>\n<path d=\"M182.728 50.9569C177.719 66.5506 161.018 75.1318 145.425 70.1235C129.831 65.1151 121.25 48.4139 126.258 32.8201C131.267 17.2263 147.968 8.64514 163.561 13.6535C179.155 18.6618 187.736 35.3631 182.728 50.9569Z\" fill=\"white\" stroke=\"#006BE0\" stroke-width=\"3\"/>\n<path d=\"M150.649 42.6144L153.516 31.1018C154.08 28.8604 154.516 27.2612 154.823 26.3043C155.241 25.0023 155.903 24.0989 156.81 23.5939C157.737 23.0784 158.757 22.9994 159.871 23.3571C161.22 23.7904 161.971 24.5507 162.123 25.638C162.281 26.7096 162.078 28.1238 161.513 29.8807C161.181 30.916 160.788 31.9494 160.336 32.9808L155.598 44.256C155.045 45.6012 154.47 46.5844 153.872 47.2058C153.275 47.8272 152.56 48.0044 151.729 47.7374C150.882 47.4653 150.407 46.9234 150.304 46.1117C150.207 45.2844 150.321 44.1186 150.649 42.6144ZM148.288 58.9358C147.331 58.6285 146.59 58.053 146.065 57.2095C145.561 56.3554 145.487 55.3714 145.845 54.2577C146.157 53.2851 146.759 52.5699 147.65 52.112C148.562 51.6435 149.512 51.5679 150.5 51.8853C151.489 52.2027 152.217 52.8173 152.686 53.7292C153.175 54.6305 153.263 55.5674 152.951 56.5399C152.598 57.638 151.968 58.3874 151.061 58.7881C150.153 59.1889 149.229 59.2381 148.288 58.9358Z\" fill=\"#006BE0\"/>\n</g>\n</g>\n</svg>"
+    },
+    "glossary": {
+      "conditional_probability": {
+        "word": "conditional probability",
+        "definition": "<strong class=\"text-[#0055B2]\">Conditional Probability</strong> is the probability of an event occurring given that another event has already happened."
+      },
+      "two_way_table": {
+        "word": "two-way tables",
+        "definition": "<strong class=\"text-[#0055B2]\">Two-way Tables</strong> are the tables used to organize data into categories and compare two variables."
+      },
+      "independence": {
+        "word": "independence",
+        "definition": "<strong class=\"text-[#0055B2]\">Independence</strong> in probability means two events are independent if one happening does not affect the probability of the other happening."
+      },
+      "threshold": {
+        "word": "threshold",
+        "definition": "<strong class=\"text-[#0055B2]\">Threshold</strong> value is a limit or boundary that separates one category from another."
+      },
+      "thresholds": {
+        "word": "thresholds",
+        "definition": "<strong class=\"text-[#0055B2]\">Threshold</strong> value is a limit or boundary that separates one category from another."
+      },
+      "false_positive": {
+        "word": "false positive",
+        "definition": "<strong class=\"text-[#0055B2]\">False Positive</strong> is a result where a test incorrectly identifies the presence of a condition when it is actually absent."
+      },
+      "false_positives": {
+        "word": "false positives",
+        "definition": "<strong class=\"text-[#0055B2]\">False Positive</strong> is a result where a test incorrectly identifies the presence of a condition when it is actually absent."
+      },
+      "false_negatives": {
+        "word": "false negatives",
+        "definition": "<strong class=\"text-[#0055B2]\">False Negative</strong> is a result where a test fails to detect a condition that is actually present."
+      },
+      "classification": {
+        "word": "classification",
+        "definition": "<strong class=\"text-[#0055B2]\">Classification</strong> is the process of categorizing or labeling data based on specific characteristics."
+      },
+      "independent": {
+        "word": "independent",
+        "definition": "<strong class=\"text-[#0055B2]\">Independent</strong> refers to two features where the presence of one feature does not affect the probability of the other feature appearing."
+      },
+      "data_analysis": {
+        "word": "data analysis",
+        "definition": "<strong class=\"text-[#0055B2]\">Data Analysis</strong> is the process of collecting, organizing, and studying information (data) to find useful patterns or answers."
+      },
+      "classification_thresholds": {
+        "word": "classification thresholds",
+        "definition": "<strong class=\"text-[#0055B2]\">Classification thresholds</strong> are values used to decide how to classify the data into different categories."
+      }
+    },
+    "common": {
+      "alicia": "Alicia",
+      "ethan": "Ethan",
+      "alicia_description": "Alicia, a professional woman with wavy brown hair and rectangular glasses, wearing a navy blazer while reviewing data as Support Team Lead.",
+      "ethan_description": "Ethan, a young man with styled blonde-brown hair, dressed in a casual black button-up shirt analyzing information as Junior Developer.",
+      "bg1_description": "Modern tech office at dusk with glass entrance, illuminated workspace, and bicycle parked outside.",
+      "bg2_description": "Open workspace with glass partitions, laptop on wooden table, and colorful sticky notes displayed on wall board.",
+      "bg3_description": "Modern conference room with large data projection screen, multiple laptops on wooden table, and tropical plants in blue-tinted lighting.",
+      "bg4_description": "Tech office workspace with data analytics displayed on monitors, large windows overlooking city skyline, and indoor plants adding greenery.",
+      "bg5_description": "Office break room with wooden floors, comfortable seating area, vending machines, and large windows with city views at dusk.",
+      "bg6_description": "Modern collaborative office space with bean bag chairs, presentation screen, wooden floors, and open glass partitions showing workstations in evening lighting.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "inbox-under-siege": "STEAM Quest - Inbox Under Siege"
+  }
+}

@@ -1,0 +1,46 @@
+.graph-container {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.slider-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* Graph Styles */
+.graph-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.graph-subtitle {
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+
+/* Recharts Customization */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #949494;
+  stroke-dasharray: 3 3;
+}
+
+.recharts-text {
+  font-size: 16px;
+  fill: #666666;
+}
+
+.recharts-tooltip-wrapper {
+  background: white;
+  border: 1px solid #949494;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

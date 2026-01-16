@@ -1,0 +1,475 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de inicio",
+    "scene_2": "Pantalla de bienvenida",
+    "scene_3": "Acerca del próximo campeonato",
+    "scene_4": "Resumen de rendimiento reciente",
+    "scene_5": "Conclusión del resumen de rendimiento reciente",
+    "scene_6": "Análisis de distribución de hits de Park High",
+    "scene_7": "Conclusión del análisis de distribución de hits de Park High",
+    "scene_8": "Análisis del rendimiento de lanzamiento de Park High",
+    "scene_9": "Conclusión del análisis del rendimiento de lanzamiento de Park High",
+    "scene_10": "Análisis del rendimiento de la temporada de Park High",
+    "scene_11": "Conclusión del análisis del rendimiento de la temporada de Park High",
+    "scene_12": "Distribución de la velocidad de lanzamiento de Park High",
+    "scene_13": "Conclusión",
+    "scene_14": "Pantalla final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<div style='font-size: 32px; line-height: 48px; font-weight: 700;'>Analítica de Béisbol: Un Plan de Juego para la Victoria</div> <div style='font-size: 20px; line-height: 30px; font-weight: 700;'>Llevando la Analítica de Béisbol de los Diagramas de Puntos a Grandes Victorias</div>",
+    "description": "¿Puedes ayudar al equipo de Park High a diseñar su estrategia para el campeonato? En esta STEAMQuest, usarás diagramas de puntos, diagramas de caja e histogramas para analizar el bateo, las anotaciones y el pitcheo. ¡Tus ideas basadas en datos podrían llevar al equipo al triunfo!",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": "<h1 style=\"color: #000; font-size: 1.5rem; font-weight: 700; line-height: 36px; margin-bottom: 1rem;\">¡Bienvenidos a la sesión de estrategia de banca de Park High!</h1><p>Soy el entrenador Martínez. Tenemos una sola oportunidad de ganar el campeonato, y cada decisión cuenta. Hoy, Jamie, nuestro analista de datos, y yo analizaremos nuestras estadísticas para ajustar la alineación, detectar debilidades y darle la ventaja a nuestro equipo.</p>"
+    },
+    "S3": {
+      "S3_D1_F4_C1": "Últimamente, algo no está funcionando bien en nuestro equipo...",
+      "S3_D2_F5_C2": "¿Tienes un minuto, entrenador? Quería hablar sobre nuestro próximo partido del campeonato.",
+      "S3_D3_F6_C1": "¡Jamie! ¡Qué momento! Estaba pensando en nuestros últimos partidos y algo no me cuadra.",
+      "S3_D4_F7_C2": "Yo también lo he notado. La energía del equipo no es la misma que al inicio de la temporada.",
+      "S3_D5_F8_C1": "Tenemos jugadores talentosos, buenos entrenamientos, pero cuando llega el momento del partido, simplemente no se nota.",
+      "S3_D6_F9_C2": "Sí, he estado pensando lo mismo. Déjame mostrarte algo rápidamente."
+    },
+    "S4": {
+      "S4_D0_F10_C9": {
+        "title": "Resumen del Rendimiento Reciente de Park High",
+        "last_five_games": "Últimos 5 Juegos",
+        "hits": "Golpes",
+        "runs": "Carreras",
+        "errors": "Errores",
+        "pitch_count": "Conteo de Lanzamientos",
+        "stats_title": "Estadísticas del Equipo de Béisbol",
+        "aria_label": "Tabla que muestra las estadísticas del equipo de béisbol de los últimos 5 juegos incluyendo hits, carreras, errores y conteo de lanzamientos",
+        "teams": {
+          "blue_devils": "vs Diablos Azules",
+          "hawks": "vs Halcones",
+          "tiger": "vs Tigres",
+          "eagles": "vs Águilas",
+          "bulldogs": "vs Bulldogs"
+        },
+        "averages": {
+          "last_five": "Promedio Últimos 5 Juegos",
+          "season": "Promedio de Temporada"
+        }
+      },
+      "S4_D1_F10_C2": "En realidad, entrenador, he estado registrando nuestros hits, carreras y conteos de lanzamientos durante toda la temporada. ¿Y los últimos cinco? Los números cuentan otra historia.",
+      "S4_D2_F11_C1": "Un momento... ¿Estás diciendo que hemos bajado a un promedio de 7.8 hits por partido?",
+      "S4_D3_F12_C2": "Exactamente. Y no son solo hits, nuestras carreras por partido han bajado de 6.2 a solo 2.8.",
+      "S4_D4_F13_C1": "Con razón sentía que algo andaba mal. Los hits y carreras de los últimos cinco partidos están muy por debajo de nuestros promedios de la temporada.",
+      "S4_D5_F14_C2": "Y fíjate en los conteos de lanzamientos, entrenador. Están subiendo poco a poco. Nuestros lanzadores se esfuerzan más por cada out.",
+      "S4_D6_F15_C1": "Muy bien, Jamie. Tienes toda mi atención. ¿Qué crees que deberíamos revisar primero?"
+    },
+    "S5": {
+      "S5_D1_F16_C2": "Echemos un vistazo al rendimiento reciente de nuestro equipo. He estado registrando la cantidad de hits utilizando algo llamado gráfico de puntos. Cada punto representa los hits de un juego en particular.",
+      "S5_D2_F17_C1": "¿Y cómo nos ayuda esto a ver patrones?"
+    },
+    "S6": {
+      "S6_D0_F18_C9": {
+        "title": "Análisis de la distribución de hits de Park High",
+        "game_24": "Juego 24",
+        "game_25": "Juego 25",
+        "game": "Juego",
+        "hits": "hits",
+        "show_new_games": "Mostrar nuevos juegos",
+        "not_selected": "No seleccionado",
+        "hide_new_games": "Ocultar nuevos juegos",
+        "median": "Mediana",
+        "number_of_hits": "Número de Hits",
+        "better_than": "Mejor que ",
+        "of_their_games": "de sus juegos",
+        "aria_label": {
+          "title": "Análisis de la distribución de hits de Park High",
+          "chart": "Gráfico de distribución de hits en juegos de béisbol",
+          "region": "Visualización del análisis de distribución de hits en béisbol",
+          "dot": "Juego {number} con {hits} hits",
+          "game24_button": "Seleccionar número de hits para el Juego 24",
+          "game25_button": "Seleccionar número de hits para el Juego 25"
+        },
+        "performance": {
+          "above": "Por encima de la mediana",
+          "exact": "Número de hits en la mediana",
+          "below": "Por debajo de la mediana"
+        },
+        "about": {
+          "heading": "",
+          "body": "<div style='font-size: 20px;'><ul style='list-style-type: disc; padding-left: 24px; margin-top: 8px;'><li>Un diagrama de puntos ayuda a visualizar la distribución de los hits. Cada punto representa un juego.</li><li>Cada número a lo largo de la recta numérica muestra el número de hits.</li><li>Los puntos apilados indican varios juegos con el mismo número de hits.</li><li>La mediana (valor medio) se muestra con una línea discontinua.</li></ul></div>"
+        },
+        "help": {
+          "heading": "Usando el Analizador",
+          "body": "<div><div style='margin-bottom: 24px;'><div style='font-size: 20px; font-weight: 700; margin-bottom: 12px;'>1. Visualizar datos actuales</div><ul style='list-style-type: disc; padding-left: 24px; font-size: 20px;'><li>Cada punto representa un juego</li><li>Cada número en la línea numérica muestra el número de hits</li><li>Los puntos apilados indican múltiples juegos con el mismo número de hits</li></ul></div><div style='margin-bottom: 24px;'><div style='font-size: 20px; font-weight: 700; margin-bottom: 12px;'>2. Agregar nuevos datos</div><ul style='list-style-type: disc; padding-left: 24px; font-size: 20px;'><li>Seleccionar el número de hits para el Juego 24</li><li>Seleccionar el número de hits para el Juego 25</li></ul></div><div style='margin-bottom: 24px;'><div style='font-size: 20px; font-weight: 700; margin-bottom: 12px;'>3. Leer el gráfico</div><ul style='list-style-type: disc; padding-left: 24px; font-size: 20px;'><li>Pasa el cursor sobre los puntos para ver más información sobre el juego</li><li>Observa cómo los nuevos puntos afectan la mediana de la distribución</li></ul></div></div>"
+        }
+      },
+      "S6_D1_F18_C2": "¿Ves cómo los puntos se distribuyen desde <strong>7</strong> hits hasta <strong>16</strong> hits en la parte inferior? Cuando tenemos múltiples juegos con el mismo número de hits, los puntos se apilan verticalmente. Esa línea discontinua en el medio muestra nuestra mediana: donde la mitad de nuestros juegos tuvo más hits y la otra mitad menos.",
+      "S6_D2_F19_C1": "¡Ah, ya veo! Porque <strong>13</strong> tiene tres puntos, eso significa que hubo <strong>3</strong> juegos con <strong>13</strong> hits.",
+      "S6_D3_F20_C2": "¡Exacto! Los hits están distribuidos sin una concentración clara en ningún número.",
+      "S6_D4_F21_C2": "Observando nuestros últimos <strong>23</strong> juegos, puedes pasar el cursor sobre cualquier punto para ver si el número de hits en ese juego está por debajo de la mediana, igual a la mediana o por encima de la mediana.",
+      "S6_D5_F22_C1": "¡De acuerdo, puedo ver la información de cada punto en el gráfico!",
+      "S6_D6_F23_C2": "Ahora vamos a agregar nuevos puntos para los próximos juegos. Selecciona <strong>10</strong> hits para el juego <strong>24</strong> y <strong>14</strong> hits para el juego <strong>25</strong>.",
+      "S6_D7_F24_C2": "Con estos nuevos valores que estamos introduciendo, ¿cuál es nuestra nueva mediana de aciertos?",
+      "S6_D8_F25_C1": "Veo que la mediana sigue siendo <strong>12</strong>. Porque tenemos nuevos valores a cada lado de la mediana. Por lo tanto, no debería haber ningún cambio.",
+      "S6_D9_F26_C2": "¡Correcto! Con nuestros nuevos puntos de datos, nuestra mediana se mantiene igual.",
+      "S6_D10_F27_C2": "Ahora probemos con algunos valores diferentes para ambos juegos nuevos. Selecciona <strong>8</strong> hits para el juego <strong>24</strong> y <strong>10</strong> hits para el juego <strong>25</strong>.",
+      "S6_D11_F28_C2": "¿Cuál es nuestro nuevo valor medio de acierto?",
+      "S6_D12_F29_C1": "Ahora es <strong>11</strong>. Como hemos agregado juegos con un número de hits más bajo que nuestra mediana original, eso hizo que la mediana bajara.",
+      "S6_D13_F30_C2": "Exactamente. Cuando sumamos valores inferiores a la mediana, esta se desplaza hacia la izquierda.",
+      "S6_D14_F31_C1": "Para evitar que nuestra mediana baje, debemos apuntar a al menos 12 hits en el juego 24 o el 25.",
+      "S6_D15_F32_C2": "Sí, de esa manera al menos nos mantenemos consistentes y no dejamos que los juegos con pocos hits bajen nuestro rendimiento."
+    },
+    "S7": {
+      "S7_D1_F33_C2": "Ahora analicemos a nuestros lanzadores usando diagramas de caja. Los diagramas de caja son perfectos para comparar el rendimiento de los jugadores.",
+      "S7_D2_F34_C1": "¿Diagramas de caja? Suena sofisticado, explícamelo."
+    },
+    "S8": {
+      "S8_D0_F35_C9": {
+        "title": "Análisis del rendimiento de lanzadores de Park High",
+        "help_box_title": "Analizando los diagramas de caja",
+        "help_box": "<div><ul style=\"list-style-type:disc; margin-left:20px;\"><li><strong>Componentes del diagrama</strong><ul style=\"list-style-type:circle;margin-left:20px;\"><li>Línea central = Mediana</li><li>Bordes de la caja = Q1 y Q3</li><li>Bigotes = Rango</li></ul></li><li><strong>Herramientas de comparación</strong><ul style=\"list-style-type:circle;margin-left:20px;\"><li>Comparar tamaños de caja para ver la consistencia</li><li>Comparar medianas para ver el rendimiento</li></ul></li><li><strong>Toma de decisiones</strong><ul style=\"list-style-type:circle;margin-left:20px;\"><li>Cajas más grandes indican rendimiento más variable</li><li>Medianas más altas indican mejor rendimiento típico</li></ul></li></ul></div>",
+        "info_box_title": "Análisis del diagrama de caja",
+        "info_box": "<p><strong>Los diagramas de caja proporcionan un resumen de la distribución del número de strikes por juego para cada jugador:</strong></p><ul style=\"list-style-type:disc;margin-left:20px;\"><li>La mediana muestra el rendimiento típico</li><li>La caja muestra el 50% medio de los datos</li><li>Los bigotes muestran el rango total</li></ul><p style=\"margin-top:15px;\"><strong>Esta visualización ayuda a comparar:</strong></p><ul style=\"list-style-type:disc;margin-left:20px;\"><li>Niveles de rendimiento</li><li>Consistencia</li><li>Mejores/peores partidos</li></ul>",
+        "subtitle": "Distribución de strikes por juego (Temporada actual)",
+        "aria_label": "Visualización con diagrama de caja de las distribuciones de strikes de los lanzadores de béisbol",
+        "pitcher": "Lanzador",
+        "select_pitcher": "Seleccionar lanzador:",
+        "distribution_analysis": "Análisis de la distribución de strikes",
+        "x_axis_label": "Número de strikes por juego",
+        "pitchers": {
+          "scherzer": "Ethan Miller",
+          "cole": "Lucas Johnson",
+          "degrom": "Grant Hawthorne",
+          "all": "Todos los lanzadores"
+        },
+        "stats": {
+          "min": "MÍN",
+          "q1": "Q1",
+          "median": "Mediana",
+          "q3": "Q3",
+          "max": "MÁX"
+        },
+        "understanding_box": {
+          "title": "Entendiendo los valores:",
+          "1": "Los lanzadores abridores suelen lanzar de 5 a 7 entradas, lo que resulta en 30-65 strikes por juego",
+          "2": "\"Todos los lanzadores\" muestra la distribución combinada de toda la rotación"
+        }
+      },
+      "S8_D1_F35_C2": "Piénselo como un resumen de todos sus desempeños. El recuadro muestra dónde se ubica el <strong>50%</strong> de sus desempeños, con una línea en el medio que muestra la mediana. Los bigotes muestran el rango completo.",
+      "S8_D2_F36_C1": "¡Oh! Ya veo. Aquí la parte más destacada es la caja, ¿hay alguna razón por la que nos enfoquemos en esa área?",
+      "S8_D3_F37_C2": "¡Sí, entrenador! Se llama <strong>RIC</strong> - Rango Intercuartil<span aria-hidden='true'>.</span><span class='sr-only'>, </span> Este es el <strong>50%</strong> medio de los datos, desde el percentil <strong>25</strong> (cuartil 1) hasta el percentil <strong>75</strong> (cuartil 3). Nos indica dónde se encuentra el <strong>50%</strong> medio de los rendimientos.",
+      "S8_D4_F38_C2": "¿Qué jugador tiene el mayor número máximo de strikes entre todos los jugadores?",
+      "S8_D5_F39_C2": "Correcto, Ethan tiene el mayor número máximo de strikes entre los tres jugadores.",
+      "S8_D6_F40_C1": "¿Eso significa que Ethan es el que mejor está rindiendo entre todos?",
+      "S8_D7_F41_C2": "No, necesitamos ver quién es más consistente. ¿Ves las casillas?",
+      "S8_D8_F42_C2": "Una caja más grande significa rendimiento más variable, mientras que una caja más pequeña indica consistencia.",
+      "S8_D9_F43_C2": "¿Quién muestra el rendimiento más consistente?",
+      "S8_D10_F44_C2": "¡Correcto! La caja más pequeña de Lucas muestra que es más consistente que Ethan, aunque Ethan a veces alcance números más altos de strikes.",
+      "S8_D11_F45_C1": "Esa fiabilidad podría ser crucial en un partido de campeonato. Es una información excelente para tener."
+    },
+    "S9": {
+      "S9_D1_F46_C1": "¡Genial! Ahora me gustaría analizar todos los partidos y cuántas carreras anotamos por juego. ¿Podemos usar gráficos de puntos para eso? Nos dará una mejor visión general de los datos.",
+      "S9_D2_F47_C2": "Entrenador, con más de 35 partidos, un gráfico de puntos quedaría muy saturado. Los histogramas funcionan mejor aquí: agrupan resultados similares y dan una imagen más clara de la temporada.",
+      "S9_D3_F48_C1": "¿En qué se diferencia eso de nuestro gráfico de puntos?",
+      "S9_D4_F49_C2": "En lugar de puntos individuales, las barras del histograma muestran cuántos partidos tuvimos dentro de cada rango de anotación. La altura de cada barra indica la frecuencia, es decir, cuántas veces anotamos esa cantidad de carreras.",
+      "S9_D5_F50_C1": "¿Y también es posible comparar los partidos entre nuestro equipo y el equipo rival?",
+      "S9_D6_F51_C2": "¡Por supuesto, entrenador! Eso es muy conveniente con los histogramas."
+    },
+    "S10": {
+      "S10_D0_F52_C9": {
+        "title": "Análisis del rendimiento de Park High en la temporada",
+        "aria_label": "Comparación estadística de las distribuciones de anotaciones entre los equipos Park High y Eagles",
+        "teams": {
+          "park_high": "Park High",
+          "eagles": "Eagles"
+        },
+        "team_statistics": {
+          "park_high": "Estadísticas de Park High",
+          "eagles": "Estadísticas de Eagles"
+        },
+        "stats": {
+          "mean": "<span style=\"font-size: 16px\">Media de carreras: </span>",
+          "std_dev": "<span style=\"font-size: 16px\">Desviación estándar: </span>",
+          "total_games": "Total de partidos: "
+        },
+        "chart": {
+          "runs_per_game": "Carreras por juego",
+          "number_of_games": "Número de partidos",
+          "range": "Rango",
+          "tooltip": {
+            "games": "partidos",
+            "range_prefix": "Rango:",
+            "runs_suffix": "carreras"
+          }
+        },
+        "tooltips": {
+          "mean_formula_our_team": "<div style=\"font-family: 'avenir-next'; font-size: 16px; white-space: pre-line\"><strong>Cálculo de la media para nuestro equipo:</strong><div style=\"display: block; height: 8px;\"></div>Fórmula: Media = Suma de ( <span style=\"font-family: besley; font-size: 16px; font-style: italic\"><span style=\"color: #008217;\"><b>x</b></span></span> × frecuencia ) / juegos totales <div>donde:  <span style='font-family: besley; font-size: 16px; font-style: italic'><span style='color: #008217;'><b>x</b></span></span> = centro del intervalo</div> <div style=\"display: block; height: 8px;\"></div>Ejemplo de cálculo:<div style=\"display: block; height: 8px;\"></div>Suma de ( centro del intervalo × frecuencia ):<div style=\"display: block; height: 8px;\"></div>2.5 × 1 juegos +<div style=\"display: block; height: 8px;\"></div>4.5 × 8 juegos +<div style=\"display: block; height: 8px;\"></div>6.5 × 17 juegos +<div style=\"display: block; height: 8px;\"></div>8.5 × 6 juegos +<div style=\"display: block; height: 8px;\"></div>10.5 × 2 juegos +<div style=\"display: block; height: 8px;\"></div>12.5 × 1 juegos +<div style=\"display: block; height: 8px;\"></div>14.5 × 0 juegos<div style=\"display: block; height: 8px;\"></div>Dividido por 35 juegos totales = <strong>6.67</strong></div>",
+          "std_dev_formula_our_team": "<div style=\"font-family: 'avenir-next'; font-size: 16px; white-space: pre-line\"><strong>Desviación estándar para nuestro equipo:</strong><div style=\"display: block; height: 8px;\"></div>Fórmula: Desviación estándar = √( Suma de ( ( <span style=\"font-family: besley; font-size: 16px; font-style: italic; color: #008217;\"><b>x</b></span> &minus; Media ) ² × frecuencia ) / juegos totales )<div style=\"display: block; height: 8px;\"></div>Donde:<div style=\"display: block; height: 8px;\"></div><span style=\"font-family: besley; font-size: 16px; font-style: italic; color: #008217;\"><b>x</b></span> = centro del intervalo<div style=\"display: block; height: 8px;\"></div>Media = 6.67<div style=\"display: block; height: 8px;\"></div>Pasos:<div style=\"display: block; height: 8px;\"></div>1. Calcular ( <span style=\"font-family: besley; font-size: 16px; font-style: italic; color: #008217;\"><b>x</b></span> &minus; Media ) ² para cada intervalo<div style=\"display: block; height: 8px;\"></div>2. Multiplicar por frecuencia<div style=\"display: block; height: 8px;\"></div>3. Sumar todos los valores<div style=\"display: block; height: 8px;\"></div>4. Dividir por el total de juegos (35)<div style=\"display: block; height: 8px;\"></div>5. Calcular la raíz cuadrada<div style=\"display: block; height: 8px;\"></div><div aria-label=\"Resultado: 1.99\"><strong><span aria-hidden=\"true\">Resultado: 1.99</span></strong></div></div>",
+          "mean_formula_eagles": "<div style='font-family: avenir-next; font-size: 16px; white-space: pre-line'><strong>Cálculo de la media para los Eagles:</strong><div style='display: block; height: 8px;'></div>Fórmula: Media = Suma de ( <span style='font-family: besley; font-size: 16px; font-style: italic'><span style='color: #008217;'><b>x</b></span></span> × frecuencia ) / juegos totales <div>donde: <span style='font-family: besley; font-size: 16px; font-style: italic'><span style='color: #008217;'><b>x</b></span></span> = centro del intervalo</div><div style='display: block; height: 8px;'></div>Ejemplo de cálculo:<div style='display: block; height: 8px;'></div>Suma de ( centro del intervalo × frecuencia ):<div style='display: block; height: 8px;'></div>2.5 × 4 juegos +<div style='display: block; height: 8px;'></div>4.5 × 7 juegos +<div style='display: block; height: 8px;'></div>6.5 × 9 juegos +<div style='display: block; height: 8px;'></div>8.5 × 8 juegos +<div style='display: block; height: 8px;'></div>10.5 × 5 juegos +<div style='display: block; height: 8px;'></div>12.5 × 2 juegos +<div style='display: block; height: 8px;'></div>14.5 × 1 juegos<div style='display: block; height: 8px;'></div>Dividido por 36 juegos totales = <strong>7.22</strong></div>",
+          "std_dev_formula_eagles": "<div style='font-family: avenir-next; font-size: 16px; white-space: pre-line'><strong>Desviación estándar para los Eagles:</strong><div style='display: block; height: 8px;'></div>Fórmula: Desviación estándar = √( Suma de ( ( <span style='font-family: besley; font-size: 16px; font-style: italic'><span style='color: #008217;'><b>x</b></span></span> &minus; Media ) ² × frecuencia ) / juegos totales )<div style='display: block; height: 8px;'></div>Donde:<div style='display: block; height: 8px;'></div><span style='font-family: besley; font-size: 16px; font-style: italic'><span style='color: #008217;'><b>x</b></span></span> = centro del intervalo<div style='display: block; height: 8px;'></div>Media = 7.22<div style='display: block; height: 8px;'></div>Pasos:<div style='display: block; height: 8px;'></div>1. Calcular ( <span style='font-family: besley; font-size: 16px; font-style: italic'><span style='color: #008217;'><b>x</b></span></span> &minus; Media ) ² para cada intervalo<div style='display: block; height: 8px;'></div>2. Multiplicar por frecuencia<div style='display: block; height: 8px;'></div>3. Sumar todos los valores<div style='display: block; height: 8px;'></div>4. Dividir por el total de juegos (36)<div style='display: block; height: 8px;'></div>5. Calcular la raíz cuadrada<div style='display: block; height: 8px;'></div><div aria-label='Resultado: 2.99'><strong><span aria-hidden='true'>Resultado: 2.99</span></strong></div></div>"
+        },
+        "accessibility": {
+          "chart": {
+            "games": "partidos",
+            "in_range": "en el rango",
+            "runs": "carreras",
+            "histogram_prefix": "Histograma que muestra la distribución de carreras por juego para"
+          },
+          "show_info": "Mostrar información",
+          "tooltip_aria_label": "Información del tooltip"
+        },
+        "aria": {
+          "close_tooltip": "Presiona Escape para cerrar el tooltip",
+          "tooltip_navigation": "Usa las flechas para navegar entre barras"
+        },
+        "about": {
+          "heading": "",
+          "body": "<div style='font-size: 20px;'>Los histogramas son ideales para conjuntos de datos grandes, ya que muestran:<ul style='list-style-type: disc; padding-left: 24px; margin-top: 8px;'><li>Frecuencia de diferentes totales de carreras</li><li>Patrones generales de anotación</li><li>Consistencia en la anotación del equipo</li></ul><div style='margin-top: 16px; font-weight: 700;'>Estadísticas clave:</div><ul style='list-style-type: disc; padding-left: 24px; margin-top: 8px;'><li>Promedio de carreras por juego</li><li>Desviación estándar (variabilidad)</li></ul><div style='margin-top: 8px;'>Esto ayuda a identificar tendencias de anotación y comparar el rendimiento de los equipos de forma efectiva.</div></div>"
+        },
+        "help": {
+          "heading": "Cómo leer el histograma",
+          "body": "<div><div style='margin-bottom: 24px;'><div style='font-size: 20px; font-weight: 700; margin-bottom: 12px;'>1. Altura de las barras</div><ul style='list-style-type: disc; padding-left: 24px; font-size: 20px;'><li>Muestran la frecuencia de los totales de carreras</li><li>Barras más altas indican puntuaciones más comunes</li></ul></div><div style='margin-bottom: 24px;'><div style='font-size: 20px; font-weight: 700; margin-bottom: 12px;'>2. Herramientas de análisis</div><ul style='list-style-type: disc; padding-left: 24px; font-size: 20px;'><li>La media muestra el promedio de carreras</li><li>La desviación estándar muestra la consistencia</li></ul></div></div>"
+        }
+      },
+      "S10_D1_F52_C2": "Comparemos nuestra distribución de carreras con el equipo rival, los Eagles.",
+      "S10_D2_F53_C2": "¿Qué equipo tiene un promedio mayor de carreras por juego?",
+      "S10_D3_F54_C2": "Correcto, ahora observa la dispersión... Ahí es donde entra la desviación estándar—nos muestra qué tan consistentes son los equipos. Una desviación más baja significa un rendimiento más constante.",
+      "S10_D4_F55_C2": "Mirando ambas distribuciones, ¿qué equipo parece más consistente?",
+      "S10_D5_F56_C2": "¡Bien observado! Nuestra desviación estándar es más baja comparada con la de los Eagles. Eso significa que nuestra anotación es más predecible.",
+      "S10_D6_F57_C1": "Entonces, ¿quizás tengamos menos partidos con puntajes altos que los Eagles, pero también es menos probable que tengamos partidos con puntajes muy bajos?",
+      "S10_D7_F58_C2": "¡Exactamente, entrenador! Esa consistencia puede ser una verdadera ventaja en los campeonatos donde cada carrera cuenta."
+    },
+    "S11": {
+      "S11_D1_F59_C2": "Ahora, para decidir nuestra rotación de lanzadores, tenemos una comparación interesante entre dos de nuestros lanzadores más rápidos, Steve y Sam.",
+      "S11_D2_F60_C1": "Diría que realmente necesitábamos esta conversación. ¿Qué tienes aquí, Jamie?"
+    },
+    "S12": {
+      "S12_D0_F60_C9": {
+        "title": "Distribución de Velocidad de Lanzamiento de Park High",
+        "aria_label": "Comparación de velocidades de recta entre dos lanzadores",
+        "pitchers": {
+          "steve": "Steve",
+          "sam": "Sam"
+        },
+        "stats": {
+          "total_pitches": "Número de lanzamientos:",
+          "mean": "Velocidad media:",
+          "median": "Velocidad mediana:",
+          "mean_formula_title": {
+            "steve": "Cálculo de la media para Steve:",
+            "sam": "Cálculo de la media para Sam:"
+          },
+          "mean_formula": "Fórmula: Media = Suma de (velocidad × frecuencia) / lanzamientos totales",
+          "median_formula_title": {
+            "steve": "Cálculo de la mediana para Steve:",
+            "sam": "Cálculo de la mediana para Sam:"
+          },
+          "median_formula": "Fórmula: El valor medio cuando todos los lanzamientos están ordenados",
+          "calculation": "Cálculo",
+          "divided_by": {
+            "steve": "Dividido entre 100 lanzamientos totales",
+            "sam": "Dividido entre 100 lanzamientos totales"
+          },
+          "result": "Resultado",
+          "sort_values": {
+            "steve": "Ordenar las 100 velocidades de lanzamiento en orden ascendente",
+            "sam": "Ordenar las 100 velocidades de lanzamiento en orden ascendente"
+          },
+          "find_middle": {
+            "steve": "Encontrar la posición media: 50",
+            "sam": "Encontrar la posición media: 50"
+          },
+          "take_middle_value": {
+            "steve": "Tomar el valor en la posición 50: 92.5",
+            "sam": "Tomar el valor en la posición 50: 86.5"
+          },
+          "average_middle_values": {
+            "steve": "Como hay un número par de lanzamientos, tomar el promedio de los dos valores centrales: (92.5 + 92.5)/2 = 92.5",
+            "sam": "Como hay un número par de lanzamientos, tomar el promedio de los dos valores centrales: (86.5 + 86.5)/2 = 86.5"
+          }
+        },
+        "chart": {
+          "speed_mph": "Rango de velocidad (mph)",
+          "number_of_pitches": "Número de lanzamientos",
+          "mean_speed": "Velocidad media",
+          "median_speed": "Velocidad mediana",
+          "tooltip": {
+            "pitches": "lanzamientos",
+            "range_prefix": "Rango:",
+            "mph_suffix": "mph"
+          }
+        },
+        "accessibility": {
+          "show_info": "Mostrar información de la fórmula",
+          "chart": {
+            "histogram_prefix": "Histograma de velocidad de lanzamiento para",
+            "pitches": "lanzamientos",
+            "in_range": "en el rango de velocidad",
+            "mph": "millas por hora"
+          }
+        },
+        "tooltips": {
+          "mean_formula": {
+            "steve": "<p>Fórmula de la media para los lanzamientos de Steve</p><p>Suma de (velocidad × cantidad) ÷ lanzamientos totales</p>",
+            "sam": "<p>Fórmula de la media para los lanzamientos de Sam</p><p>Suma de (velocidad × cantidad) ÷ lanzamientos totales</p>"
+          },
+          "std_dev_formula": {
+            "steve": "<p>Cálculo de la mediana para los lanzamientos de Steve</p><p>Valor medio cuando todos los lanzamientos están ordenados</p>",
+            "sam": "<p>Cálculo de la mediana para los lanzamientos de Sam</p><p>Valor medio cuando todos los lanzamientos están ordenados</p>"
+          }
+        },
+        "about": {
+          "heading": "Distribución de velocidad de lanzamiento por jugador",
+          "body": "<div style='font-size: 20px;'><strong>Rendimiento de Steve:</strong> Sigue una distribución normal donde las velocidades están agrupadas simétricamente alrededor de la media.<br/><strong>Rendimiento de Sam:</strong> Muestra una distribución sesgada a la derecha, donde la mayoría de los lanzamientos son más lentos, y unos pocos lanzamientos extremadamente rápidos elevan la media.<div style='margin-top: 12px;'><strong>Métricas clave:</strong><ul style='list-style-type: disc; padding-left: 24px; margin-top: 8px;'><li>Velocidad de lanzamiento (mph): Mide cuán rápido lanza un jugador.</li><li>Media: Representa la velocidad promedio de todos los lanzamientos. Puede verse afectada por valores atípicos, como algunos lanzamientos muy rápidos.</li><li>Mediana: Es el valor central cuando todas las velocidades están ordenadas. Es menos afectada por extremos y da una visión más clara del rendimiento típico.</li></ul></div><div style='margin-top: 12px;'>Esta comparación ayuda a evaluar qué lanzador mantiene una velocidad constante y confiable frente a quién lanza muy rápido ocasionalmente pero carece de consistencia.</div></div>"
+        },
+        "help": {
+          "heading": "Usando la herramienta de análisis",
+          "body": "<div style='font-size: 20px;'><ul style='margin-top: 8px;'><li><strong>Elementos del gráfico:</strong><ul style='list-style-type: disc; padding-left: 24px;'><li>Barras: Representan las velocidades de lanzamiento de Steve y Sam en <strong>100</strong> rectas</li><li>Eje horizontal: Velocidad de lanzamiento (mph)</li><li>Eje vertical: Número de lanzamientos</li></ul></li><li><strong>Reconocimiento de patrones:</strong><ul style='list-style-type: disc; padding-left: 24px;'><li><strong>Barras altas (Steve):</strong><ul style='list-style-type: circle; padding-left: 24px;'><li>Velocidades de lanzamiento consistentes con mínima variación</li><li>Refleja una Distribución normal donde la mayoría de los valores se agrupan estrechamente alrededor de la media en forma de campana.</li></ul></li><li><strong>Distribución más amplia y barras sesgadas (Sam):</strong><ul style='list-style-type: circle; padding-left: 24px;'><li>Muestra una distribución sesgada a la derecha, con la mayoría de los lanzamientos concentrados entre <strong>80</strong> y <strong>85</strong> mph.</li><li>Algunos lanzamientos en el rango de <strong>90</strong> a <strong>101</strong> mph elevan la media a <strong>86.6</strong> mph, pero la mediana se mantiene más baja en <strong>84.5</strong> mph.</li><li>Indica una alta variabilidad, ya que las velocidades de lanzamiento de Sam cubren un rango mucho más amplio, mostrando lanzamientos lentos y extremadamente rápidos en lugar de un rendimiento constante.</li></ul></li></ul></li><li><strong>Haciendo Comparaciones:</strong><ul style='list-style-type: disc; padding-left: 24px;'><li><strong>Forma de la distribución:</strong><ul style='list-style-type: disc; padding-left: 24px;'><li style='list-style-type: circle;'><strong>Distribución normal (simétrica):</strong> Refleja un rendimiento estable y fiable. Las velocidades de Steve están centradas y son constantes en torno a <strong>86</strong>–<strong>87</strong> mph.</li><li style='list-style-type: circle;'><strong>Distribución sesgada a la derecha:</strong> Indica inconsistencia. La distribución de Sam presenta la mayoría de los lanzamientos en los rangos de velocidad más bajos y solo unos pocos lanzamientos muy rápidos que elevan el promedio.</li></ul></li></ul></li></ul></div>"
+        }
+      },
+      "S12_D1_F60_C2": "Entrenador, aquí están los histogramas de la velocidad de las rectas de ambos lanzadores en sus últimos 100 lanzamientos. Esto debería ayudarnos a decidir quién es más adecuado para el próximo gran juego.",
+      "S12_D2_F61_C2": "Viendo las estadísticas, ¿quién tiene una velocidad promedio de lanzamiento más alta?",
+      "S12_D3_F62_C1": "Sam tiene una velocidad media de lanzamiento de <strong>86.6</strong> mph en comparación con los <strong>86.5</strong> mph de Steve. ¿Así que tal vez Sam lanza más rápido que Steve?",
+      "S12_D4_F63_C2": "Espera, no es tan simple. Una media más alta no siempre cuenta toda la historia. Si miras de cerca la distribución de Sam, está sesgada hacia la derecha. Eso significa que unos pocos lanzamientos realmente rápidos están elevando el promedio, pero la mayoría de sus lanzamientos fueron más lentos.",
+      "S12_D5_F64_C1": "Ah, ya veo. Entonces, ¿hay otra medida estadística que podamos usar?",
+      "S12_D6_F65_C2": "Sí, entrenador. Deberíamos observar la mediana. Muestra el valor medio de todos los lanzamientos y no se ve muy afectada por valores atípicos como esas rectas extremadamente rápidas.",
+      "S12_D7_F66_C2": "Ahora viendo la mediana, ¿quién crees que lanza rectas rápidas de forma más consistente?",
+      "S12_D8_F67_C2": "¡Correcto! La mediana de Sam es de 84,5 mph, que es menor que su media, y la mediana de Steve es de 86,5 mph, igual que su media.",
+      "S12_D9_F68_C2": "Eso nos indica que Steve lanza consistentemente rectas rápidas, mientras que Sam tuvo algunos lanzamientos muy rápidos pero generalmente lanzó más lento que su promedio.",
+      "S12_D10_F69_C1": "Tiene sentido. ¿Y qué hay de la consistencia?",
+      "S12_D11_F70_C2": "Podemos juzgar la consistencia observando qué tan agrupados están los lanzamientos alrededor de la mediana. Las velocidades de Steve forman un patrón en forma de campana bien ajustado, mostrando que es confiable. Las de Sam están más dispersas, con picos y bajones.",
+      "S12_D12_F71_C1": "Por lo tanto, el hecho de que la mediana de Steve sea mayor que su media y que su distribución esté más agrupada cerca del centro demuestra que tiene un rendimiento más consistente.",
+      "S12_D13_F72_C2": "Exactamente. Sam puede alcanzar mayores velocidades a veces, pero Steve es en quien puedes confiar en cada lanzamiento.",
+      "S12_D14_F73_C1": "Muy bien, vamos con Steve para la próxima apertura. La consistencia gana partidos."
+    },
+    "S13": {
+      "S13_D1_F74_C2": "¿Sabes, entrenador? Es increíble cómo diferentes herramientas estadísticas pueden revelar diferentes historias sobre el juego.",
+      "S13_D2_F75_C1": "Hoy me has abierto los ojos. Cada tipo de gráfico nos mostró algo único.",
+      "S13_D3_F76_C2": "¡Exactamente! Como por ejemplo:<ul><li>• Los diagramas de puntos nos ayudaron a detectar tendencias recientes en el rendimiento</li><li>• Los diagramas de caja mostraron la consistencia de los lanzadores</li><li>• Los histogramas nos permitieron comparar grandes conjuntos de datos</li><li>• Los patrones de distribución revelaron la verdadera historia detrás de las mayores velocidades medias de lanzamiento</li></ul>",
+      "S13_D4_F77_C1": "Y cada herramienta nos ayudó a tomar un tipo diferente de decisión. Los datos no son solo números: son una herramienta para comprender mejor el juego.",
+      "S13_D5_F78_C2": "Eso es lo que hace que la analítica del béisbol sea tan poderosa. ¡Combina el pasatiempo favorito de América con el poder del análisis estadístico!"
+    },
+    "S15": {
+      "S15_D0_F71_C9": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'/><div style='text-align: left;'><div style='display: flex; align-items: center; gap: 16px; margin-bottom: 16px;'><svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_3845_19846' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect width='80' height='80' rx='10' fill='#5454D8'/></mask><g mask='url(#mask0_3845_19846)'><rect x='-10' y='-9' width='99' height='99' fill='white'/><rect x='0.5' y='0.5' width='79' height='79' rx='11.5' stroke='#006BE0'/><path fill-rule='evenodd' clip-rule='evenodd' d='M63.3812 23.0694C59.3273 27.6365 48.2503 37.2274 39.8502 44.3543C36.7617 46.9747 34.0354 49.2615 32.1527 50.8435L28.8448 47.5033C30.4066 45.6404 32.6488 42.9604 35.2154 39.9266C42.4094 31.4218 52.1526 20.1387 56.605 16.294C61.9114 11.7108 67.9593 17.9117 63.3811 23.0696L63.3812 23.0694ZM53.6927 42.8381C50.9991 42.8381 48.526 43.7807 46.5837 45.3527C47.5202 46.2343 48.3151 47.2631 48.9322 48.4009L49.2818 48.199C49.636 47.9938 50.0891 48.1146 50.2944 48.4686C50.4996 48.8228 50.3788 49.2759 50.0248 49.4811L49.5595 49.7496C50.0075 50.8941 50.2857 52.1221 50.364 53.4021H50.8349C51.245 53.4021 51.5779 53.7344 51.5779 54.145C51.5779 54.5552 51.2456 54.888 50.8349 54.888L50.3633 54.8879C50.2849 56.1679 50.007 57.395 49.5587 58.5403L50.0241 58.8093C50.3783 59.0145 50.499 59.4677 50.2936 59.8218C50.0884 60.176 49.6353 60.2968 49.2811 60.0914L48.9315 59.8895C48.3144 61.0274 47.5195 62.0562 46.583 62.9377C48.5252 64.5102 50.9985 65.4523 53.692 65.4523C56.3855 65.4523 58.8587 64.5097 60.801 62.9373C59.8645 62.0557 59.0696 61.0268 58.4525 59.889L58.1028 60.0909C57.7487 60.2961 57.2955 60.1754 57.0903 59.8214C56.8851 59.4672 57.0059 59.0141 57.3599 58.8088L57.8252 58.5398C57.3771 57.3947 57.099 56.1673 57.0207 54.8874H56.5498C56.1396 54.8874 55.8068 54.555 55.8068 54.1444C55.8068 53.7343 56.1391 53.4014 56.5498 53.4014H57.0207C57.099 52.1209 57.3777 50.8929 57.8257 49.7479L57.3624 49.4804C57.0082 49.2768 56.8864 48.8249 57.0901 48.4712C57.2937 48.117 57.7456 47.9952 58.0998 48.1988L58.4517 48.402C59.0688 47.2636 59.8642 46.2342 60.8007 45.3522C58.8593 43.78 56.386 42.8381 53.6926 42.8381L53.6927 42.8381ZM61.891 46.3578L61.8892 46.3596C61.0267 47.1567 60.2959 48.0971 59.7355 49.1432L60.164 49.3904C60.5181 49.594 60.64 50.0459 60.4363 50.3996C60.2327 50.7538 59.7808 50.8756 59.4266 50.6719L59.1268 50.4985C58.7922 51.4121 58.5803 52.3866 58.5104 53.4019H58.9333C59.3434 53.4019 59.6756 53.7342 59.6763 54.1448C59.6763 54.555 59.344 54.8878 58.9333 54.8871H58.5104C58.5803 55.9019 58.7924 56.8758 59.1263 57.7894L59.4238 57.6178C59.778 57.4125 60.2311 57.5333 60.4364 57.8873C60.6416 58.2415 60.5208 58.6946 60.1668 58.8999L59.7361 59.1483C60.2965 60.1933 61.0266 61.1332 61.8888 61.9303L61.8905 61.932C63.8172 59.9042 64.9998 57.1627 64.9998 54.145C65.0003 51.1274 63.8177 48.3858 61.891 46.358L61.891 46.3578ZM45.4944 61.9323L45.4962 61.9305C46.3582 61.1334 47.0882 60.1936 47.6489 59.1485L47.2181 58.9001C46.8639 58.6949 46.7432 58.2417 46.9486 57.8876C47.1538 57.5334 47.6069 57.4126 47.9611 57.618L48.2586 57.7897C48.5925 56.8761 48.8046 55.9022 48.8745 54.8874H48.4516C48.0415 54.8874 47.7094 54.555 47.7094 54.1444C47.7094 53.7342 48.0417 53.4014 48.4516 53.4014H48.8745C48.8046 52.3866 48.5925 51.4127 48.2586 50.4991L47.9611 50.6707C47.6069 50.876 47.1538 50.7552 46.9486 50.4012C46.7433 50.047 46.8641 49.5939 47.2181 49.3886L47.6489 49.1402C47.0884 48.0947 46.3584 47.1553 45.4957 46.3582L45.4939 46.3565C43.5673 48.3843 42.3846 51.1258 42.3846 54.1435C42.3853 57.1627 43.5679 59.9045 45.4944 61.9323ZM14.8946 56.8345C15.7914 55.9377 17.2587 55.9377 18.1555 56.8345L22.8402 61.5192C23.737 62.416 23.737 63.8832 22.8402 64.78C21.9434 65.6768 20.4762 65.6768 19.5794 64.78L14.8946 60.0953C13.998 59.1985 13.998 57.7311 14.8946 56.8345ZM31.0204 51.7998L27.8883 48.6368C27.1857 49.4541 26.5172 50.1719 25.7251 50.964L25.658 51.0311L28.6429 54.0161L28.7202 53.9388C29.5037 53.1563 30.2131 52.4956 31.0204 51.7998ZM27.5961 55.064L24.6112 52.079L22.3176 54.3726L25.3025 57.3575L27.5961 55.064ZM24.2554 58.4047L21.2704 55.4197L20.0532 56.6369L23.0382 59.6219L24.2554 58.4047Z' fill='#006BE0'/></g></svg><div className='flex flex-col'><div style='font-size: 30px; font-weight: 700; line-height: 45px; color: #000000;'>Analizando los juegos de béisbol de Park High usando estadísticas</div><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>¡Has completado esta STEAMQuest!</h2></div></div><div style='padding-right: 20px; padding-left: 10px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><ul><li style='margin-bottom: 7px;'>• Usaste diagramas de puntos para representar el número de hits logrados por el equipo en los últimos 25 juegos</li><li style='margin-bottom: 7px;'>• Comparaste el rendimiento de bateo del equipo de Park High con el equipo rival usando histogramas y analizaste la consistencia con la desviación estándar</li><li style='margin-bottom: 7px;'>• Comparaste las tasas de strike de dos lanzadores usando diagramas de caja</li><li>• Usaste gráficos de barras para comparar el rendimiento de bateo de dos jugadores y exploraste cómo la mediana ayuda a tomar decisiones correctas cuando la distribución está sesgada</li></ul></div></div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "Ahora has explorado el análisis de los juegos de béisbol de Park High usando estadísticas",
+      "content": "<p style='padding-bottom: 10px;'>¡Has completado la STEAMQuest \"Análisis de Béisbol: Un Plan de Juego para la Victoria\"!</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Usaste diagramas de puntos para representar la cantidad de hits que el equipo ha logrado en los últimos 25 juegos.</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Comparaste el rendimiento de bateo de dos equipos usando histogramas y usaste la desviación estándar para analizar la consistencia.</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Comparaste los valores de strike de los lanzadores usando diagramas de caja.</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Usaste histogramas para comparar las velocidades de lanzamiento de dos jugadores y exploraste cómo. La mediana ayuda a tomar decisiones informadas cuando la distribución está sesgada.</li></ul><p>¡Tu análisis ayudará a llevar al equipo de Park High a la victoria con decisiones basadas en datos! ⚾ 📊</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_4433_9102' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_4433_9102)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><mask id='path-4-outside-1_4433_9102' maskUnits='userSpaceOnUse' x='42.6989' y='38.1104' width='18' height='18' fill='black'><rect fill='white' x='42.6989' y='38.1104' width='18' height='18'/><path d='M51.6435 39.1104C47.2628 39.1104 43.6989 42.6743 43.6989 47.055C43.6989 51.4358 47.2628 54.9997 51.6435 54.9997C56.0242 54.9997 59.5881 51.4358 59.5881 47.055C59.5881 42.6743 56.0242 39.1104 51.6435 39.1104ZM44.909 47.055C44.909 45.0462 45.7985 43.2429 47.2023 42.0087C47.4201 42.2931 47.6198 42.5834 47.7953 42.8859L47.039 43.6966C46.9724 43.7632 46.9785 43.8721 47.0451 43.9387C47.0754 43.9691 47.1178 43.9872 47.1601 43.9872C47.2086 43.9872 47.2509 43.9691 47.2872 43.9328L47.9649 43.2068C48.2432 43.7392 48.4672 44.2899 48.6243 44.8708L47.9588 45.1552C47.8741 45.1914 47.8318 45.2945 47.868 45.3792C47.8983 45.4457 47.9588 45.482 48.0254 45.482C48.0496 45.482 48.0738 45.482 48.0919 45.47L48.7031 45.2098C48.8302 45.7605 48.9028 46.323 48.9149 46.8979H47.971C47.8741 46.8979 47.8016 46.9765 47.8016 47.0673C47.8016 47.1581 47.8802 47.2367 47.971 47.2367H48.9149C48.9028 47.8114 48.8302 48.3742 48.7031 48.9249L48.0919 48.6647C48.0072 48.6284 47.9044 48.6647 47.868 48.7555C47.8318 48.8402 47.868 48.943 47.9588 48.9794L48.6243 49.2639C48.467 49.8386 48.2432 50.3954 47.9649 50.9278L47.2872 50.2018C47.2206 50.1353 47.1178 50.1292 47.0451 50.1957C46.9785 50.2623 46.9724 50.3651 47.039 50.4378L47.7953 51.2485C47.6198 51.551 47.4142 51.8416 47.2023 52.1258C45.7985 50.8914 44.909 49.0884 44.909 47.0794L44.909 47.055ZM51.6435 53.7896C50.0643 53.7896 48.6181 53.2388 47.4684 52.3253C47.6741 52.0531 47.8738 51.7807 48.0432 51.4904L48.5513 52.0289C48.5876 52.0651 48.6299 52.0832 48.6784 52.0832C48.7207 52.0832 48.7631 52.0651 48.7934 52.0348C48.86 51.9682 48.8661 51.8593 48.7995 51.7927L48.2186 51.1695C48.5273 50.6007 48.7813 50.0017 48.9508 49.3847L49.9915 49.8324C49.9915 49.8324 50.0339 49.8444 50.0581 49.8444C50.1247 49.8444 50.1852 49.8081 50.2155 49.7416C50.2517 49.6569 50.2155 49.554 50.1247 49.5176L49.0296 49.0457C49.1688 48.4526 49.2535 47.8416 49.2655 47.2243H50.1851C50.282 47.2243 50.3545 47.1458 50.3545 47.0549C50.3545 46.9641 50.2759 46.8856 50.1851 46.8856H49.2655C49.2535 46.2685 49.1747 45.6573 49.0296 45.0642L50.1247 44.5923C50.2094 44.556 50.2517 44.453 50.2155 44.3683C50.1792 44.2836 50.0762 44.2413 49.9915 44.2775L48.9508 44.7252C48.7753 44.1021 48.5273 43.5031 48.2186 42.9404L48.7995 42.3172C48.8661 42.2506 48.86 42.1417 48.7934 42.0751C48.7268 42.0085 48.6179 42.0146 48.5513 42.0812L48.0432 42.6197C47.8677 42.3292 47.674 42.0509 47.4684 41.7848C48.6181 40.8711 50.0642 40.3205 51.6435 40.3205C53.2227 40.3205 54.6689 40.8713 55.8186 41.7848C55.6129 42.057 55.4132 42.3294 55.2438 42.6197L54.7357 42.0812C54.6691 42.0146 54.5663 42.0085 54.4936 42.0751C54.427 42.1417 54.4209 42.2445 54.4875 42.3172L55.0684 42.9404C54.7597 43.5092 54.5057 44.1082 54.3362 44.7252L53.2955 44.2775C53.2108 44.2413 53.1079 44.2775 53.0715 44.3683C53.0353 44.453 53.0715 44.5559 53.1623 44.5923L54.2575 45.0642C54.1182 45.6573 54.0335 46.2683 54.0215 46.8856H53.1019C53.005 46.8856 52.9325 46.9641 52.9325 47.0549C52.9325 47.1458 53.0111 47.2243 53.1019 47.2243H54.0215C54.0335 47.8414 54.1123 48.4526 54.2575 49.0457L53.1623 49.5176C53.0776 49.5538 53.0353 49.6569 53.0715 49.7416C53.1018 49.8081 53.1623 49.8444 53.2289 49.8444C53.2531 49.8444 53.2773 49.8444 53.2955 49.8324L54.3362 49.3847C54.5117 50.0078 54.7597 50.6009 55.0684 51.1695L54.4875 51.7927C54.4209 51.8593 54.427 51.9682 54.4936 52.0348C54.5239 52.0651 54.5663 52.0832 54.6086 52.0832C54.6571 52.0832 54.6994 52.0651 54.7357 52.0289L55.2438 51.4904C55.4193 51.7809 55.613 52.0592 55.8186 52.3253C54.6689 53.239 53.2228 53.7896 51.6435 53.7896ZM56.0847 52.1075C55.8668 51.8231 55.6671 51.5328 55.4916 51.2302L56.2479 50.4195C56.3145 50.353 56.3084 50.244 56.2418 50.1775C56.1752 50.1109 56.0663 50.117 55.9997 50.1836L55.322 50.9096C55.0437 50.3771 54.8198 49.8265 54.6626 49.2456L55.3281 48.9612C55.4128 48.9249 55.4552 48.8219 55.4189 48.7372C55.3827 48.6525 55.2797 48.6102 55.195 48.6464L54.5838 48.9066C54.4568 48.3559 54.3841 47.7934 54.3721 47.2184H55.3159C55.4128 47.2184 55.4853 47.1399 55.4853 47.049C55.4853 46.9582 55.4067 46.8797 55.3159 46.8797H54.3721C54.3841 46.3049 54.4568 45.7422 54.5838 45.1915L55.195 45.4517C55.195 45.4517 55.2373 45.4637 55.2615 45.4637C55.3281 45.4637 55.3886 45.4275 55.4189 45.3609C55.4552 45.2762 55.4189 45.1734 55.3281 45.1369L54.6626 44.8525C54.82 44.2778 55.0437 43.721 55.322 43.1885L55.9997 43.9145C56.036 43.9508 56.0783 43.9689 56.1268 43.9689C56.1691 43.9689 56.2115 43.9508 56.2418 43.9204C56.3084 43.8539 56.3145 43.7511 56.2479 43.6784L55.4916 42.8677C55.6671 42.5651 55.8727 42.2746 56.0846 41.9904C57.4884 43.2248 58.3779 45.0278 58.3779 47.0368C58.3779 49.0457 57.4288 50.7946 56.025 52.0289L56.0847 52.1075Z'/></mask><path d='M51.6435 39.1104C47.2628 39.1104 43.6989 42.6743 43.6989 47.055C43.6989 51.4358 47.2628 54.9997 51.6435 54.9997C56.0242 54.9997 59.5881 51.4358 59.5881 47.055C59.5881 42.6743 56.0242 39.1104 51.6435 39.1104ZM44.909 47.055C44.909 45.0462 45.7985 43.2429 47.2023 42.0087C47.4201 42.2931 47.6198 42.5834 47.7953 42.8859L47.039 43.6966C46.9724 43.7632 46.9785 43.8721 47.0451 43.9387C47.0754 43.9691 47.1178 43.9872 47.1601 43.9872C47.2086 43.9872 47.2509 43.9691 47.2872 43.9328L47.9649 43.2068C48.2432 43.7392 48.4672 44.2899 48.6243 44.8708L47.9588 45.1552C47.8741 45.1914 47.8318 45.2945 47.868 45.3792C47.8983 45.4457 47.9588 45.482 48.0254 45.482C48.0496 45.482 48.0738 45.482 48.0919 45.47L48.7031 45.2098C48.8302 45.7605 48.9028 46.323 48.9149 46.8979H47.971C47.8741 46.8979 47.8016 46.9765 47.8016 47.0673C47.8016 47.1581 47.8802 47.2367 47.971 47.2367H48.9149C48.9028 47.8114 48.8302 48.3742 48.7031 48.9249L48.0919 48.6647C48.0072 48.6284 47.9044 48.6647 47.868 48.7555C47.8318 48.8402 47.868 48.943 47.9588 48.9794L48.6243 49.2639C48.467 49.8386 48.2432 50.3954 47.9649 50.9278L47.2872 50.2018C47.2206 50.1353 47.1178 50.1292 47.0451 50.1957C46.9785 50.2623 46.9724 50.3651 47.039 50.4378L47.7953 51.2485C47.6198 51.551 47.4142 51.8416 47.2023 52.1258C45.7985 50.8914 44.909 49.0884 44.909 47.0794L44.909 47.055ZM51.6435 53.7896C50.0643 53.7896 48.6181 53.2388 47.4684 52.3253C47.6741 52.0531 47.8738 51.7807 48.0432 51.4904L48.5513 52.0289C48.5876 52.0651 48.6299 52.0832 48.6784 52.0832C48.7207 52.0832 48.7631 52.0651 48.7934 52.0348C48.86 51.9682 48.8661 51.8593 48.7995 51.7927L48.2186 51.1695C48.5273 50.6007 48.7813 50.0017 48.9508 49.3847L49.9915 49.8324C49.9915 49.8324 50.0339 49.8444 50.0581 49.8444C50.1247 49.8444 50.1852 49.8081 50.2155 49.7416C50.2517 49.6569 50.2155 49.554 50.1247 49.5176L49.0296 49.0457C49.1688 48.4526 49.2535 47.8416 49.2655 47.2243H50.1851C50.282 47.2243 50.3545 47.1458 50.3545 47.0549C50.3545 46.9641 50.2759 46.8856 50.1851 46.8856H49.2655C49.2535 46.2685 49.1747 45.6573 49.0296 45.0642L50.1247 44.5923C50.2094 44.556 50.2517 44.453 50.2155 44.3683C50.1792 44.2836 50.0762 44.2413 49.9915 44.2775L48.9508 44.7252C48.7753 44.1021 48.5273 43.5031 48.2186 42.9404L48.7995 42.3172C48.8661 42.2506 48.86 42.1417 48.7934 42.0751C48.7268 42.0085 48.6179 42.0146 48.5513 42.0812L48.0432 42.6197C47.8677 42.3292 47.674 42.0509 47.4684 41.7848C48.6181 40.8711 50.0642 40.3205 51.6435 40.3205C53.2227 40.3205 54.6689 40.8713 55.8186 41.7848C55.6129 42.057 55.4132 42.3294 55.2438 42.6197L54.7357 42.0812C54.6691 42.0146 54.5663 42.0085 54.4936 42.0751C54.427 42.1417 54.4209 42.2445 54.4875 42.3172L55.0684 42.9404C54.7597 43.5092 54.5057 44.1082 54.3362 44.7252L53.2955 44.2775C53.2108 44.2413 53.1079 44.2775 53.0715 44.3683C53.0353 44.453 53.0715 44.5559 53.1623 44.5923L54.2575 45.0642C54.1182 45.6573 54.0335 46.2683 54.0215 46.8856H53.1019C53.005 46.8856 52.9325 46.9641 52.9325 47.0549C52.9325 47.1458 53.0111 47.2243 53.1019 47.2243H54.0215C54.0335 47.8414 54.1123 48.4526 54.2575 49.0457L53.1623 49.5176C53.0776 49.5538 53.0353 49.6569 53.0715 49.7416C53.1018 49.8081 53.1623 49.8444 53.2289 49.8444C53.2531 49.8444 53.2773 49.8444 53.2955 49.8324L54.3362 49.3847C54.5117 50.0078 54.7597 50.6009 55.0684 51.1695L54.4875 51.7927C54.4209 51.8593 54.427 51.9682 54.4936 52.0348C54.5239 52.0651 54.5663 52.0832 54.6086 52.0832C54.6571 52.0832 54.6994 52.0651 54.7357 52.0289L55.2438 51.4904C55.4193 51.7809 55.613 52.0592 55.8186 52.3253C54.6689 53.239 53.2228 53.7896 51.6435 53.7896ZM56.0847 52.1075C55.8668 51.8231 55.6671 51.5328 55.4916 51.2302L56.2479 50.4195C56.3145 50.353 56.3084 50.244 56.2418 50.1775C56.1752 50.1109 56.0663 50.117 55.9997 50.1836L55.322 50.9096C55.0437 50.3771 54.8198 49.8265 54.6626 49.2456L55.3281 48.9612C55.4128 48.9249 55.4552 48.8219 55.4189 48.7372C55.3827 48.6525 55.2797 48.6102 55.195 48.6464L54.5838 48.9066C54.4568 48.3559 54.3841 47.7934 54.3721 47.2184H55.3159C55.4128 47.2184 55.4853 47.1399 55.4853 47.049C55.4853 46.9582 55.4067 46.8797 55.3159 46.8797H54.3721C54.3841 46.3049 54.4568 45.7422 54.5838 45.1915L55.195 45.4517C55.195 45.4517 55.2373 45.4637 55.2615 45.4637C55.3281 45.4637 55.3886 45.4275 55.4189 45.3609C55.4552 45.2762 55.4189 45.1734 55.3281 45.1369L54.6626 44.8525C54.82 44.2778 55.0437 43.721 55.322 43.1885L55.9997 43.9145C56.036 43.9508 56.0783 43.9689 56.1268 43.9689C56.1691 43.9689 56.2115 43.9508 56.2418 43.9204C56.3084 43.8539 56.3145 43.7511 56.2479 43.6784L55.4916 42.8677C55.6671 42.5651 55.8727 42.2746 56.0846 41.9904C57.4884 43.2248 58.3779 45.0278 58.3779 47.0368C58.3779 49.0457 57.4288 50.7946 56.025 52.0289L56.0847 52.1075Z' fill='black'/><path d='M51.6435 39.1104C47.2628 39.1104 43.6989 42.6743 43.6989 47.055C43.6989 51.4358 47.2628 54.9997 51.6435 54.9997C56.0242 54.9997 59.5881 51.4358 59.5881 47.055C59.5881 42.6743 56.0242 39.1104 51.6435 39.1104ZM44.909 47.055C44.909 45.0462 45.7985 43.2429 47.2023 42.0087C47.4201 42.2931 47.6198 42.5834 47.7953 42.8859L47.039 43.6966C46.9724 43.7632 46.9785 43.8721 47.0451 43.9387C47.0754 43.9691 47.1178 43.9872 47.1601 43.9872C47.2086 43.9872 47.2509 43.9691 47.2872 43.9328L47.9649 43.2068C48.2432 43.7392 48.4672 44.2899 48.6243 44.8708L47.9588 45.1552C47.8741 45.1914 47.8318 45.2945 47.868 45.3792C47.8983 45.4457 47.9588 45.482 48.0254 45.482C48.0496 45.482 48.0738 45.482 48.0919 45.47L48.7031 45.2098C48.8302 45.7605 48.9028 46.323 48.9149 46.8979H47.971C47.8741 46.8979 47.8016 46.9765 47.8016 47.0673C47.8016 47.1581 47.8802 47.2367 47.971 47.2367H48.9149C48.9028 47.8114 48.8302 48.3742 48.7031 48.9249L48.0919 48.6647C48.0072 48.6284 47.9044 48.6647 47.868 48.7555C47.8318 48.8402 47.868 48.943 47.9588 48.9794L48.6243 49.2639C48.467 49.8386 48.2432 50.3954 47.9649 50.9278L47.2872 50.2018C47.2206 50.1353 47.1178 50.1292 47.0451 50.1957C46.9785 50.2623 46.9724 50.3651 47.039 50.4378L47.7953 51.2485C47.6198 51.551 47.4142 51.8416 47.2023 52.1258C45.7985 50.8914 44.909 49.0884 44.909 47.0794L44.909 47.055ZM51.6435 53.7896C50.0643 53.7896 48.6181 53.2388 47.4684 52.3253C47.6741 52.0531 47.8738 51.7807 48.0432 51.4904L48.5513 52.0289C48.5876 52.0651 48.6299 52.0832 48.6784 52.0832C48.7207 52.0832 48.7631 52.0651 48.7934 52.0348C48.86 51.9682 48.8661 51.8593 48.7995 51.7927L48.2186 51.1695C48.5273 50.6007 48.7813 50.0017 48.9508 49.3847L49.9915 49.8324C49.9915 49.8324 50.0339 49.8444 50.0581 49.8444C50.1247 49.8444 50.1852 49.8081 50.2155 49.7416C50.2517 49.6569 50.2155 49.554 50.1247 49.5176L49.0296 49.0457C49.1688 48.4526 49.2535 47.8416 49.2655 47.2243H50.1851C50.282 47.2243 50.3545 47.1458 50.3545 47.0549C50.3545 46.9641 50.2759 46.8856 50.1851 46.8856H49.2655C49.2535 46.2685 49.1747 45.6573 49.0296 45.0642L50.1247 44.5923C50.2094 44.556 50.2517 44.453 50.2155 44.3683C50.1792 44.2836 50.0762 44.2413 49.9915 44.2775L48.9508 44.7252C48.7753 44.1021 48.5273 43.5031 48.2186 42.9404L48.7995 42.3172C48.8661 42.2506 48.86 42.1417 48.7934 42.0751C48.7268 42.0085 48.6179 42.0146 48.5513 42.0812L48.0432 42.6197C47.8677 42.3292 47.674 42.0509 47.4684 41.7848C48.6181 40.8711 50.0642 40.3205 51.6435 40.3205C53.2227 40.3205 54.6689 40.8713 55.8186 41.7848C55.6129 42.057 55.4132 42.3294 55.2438 42.6197L54.7357 42.0812C54.6691 42.0146 54.5663 42.0085 54.4936 42.0751C54.427 42.1417 54.4209 42.2445 54.4875 42.3172L55.0684 42.9404C54.7597 43.5092 54.5057 44.1082 54.3362 44.7252L53.2955 44.2775C53.2108 44.2413 53.1079 44.2775 53.0715 44.3683C53.0353 44.453 53.0715 44.5559 53.1623 44.5923L54.2575 45.0642C54.1182 45.6573 54.0335 46.2683 54.0215 46.8856H53.1019C53.005 46.8856 52.9325 46.9641 52.9325 47.0549C52.9325 47.1458 53.0111 47.2243 53.1019 47.2243H54.0215C54.0335 47.8414 54.1123 48.4526 54.2575 49.0457L53.1623 49.5176C53.0776 49.5538 53.0353 49.6569 53.0715 49.7416C53.1018 49.8081 53.1623 49.8444 53.2289 49.8444C53.2531 49.8444 53.2773 49.8444 53.2955 49.8324L54.3362 49.3847C54.5117 50.0078 54.7597 50.6009 55.0684 51.1695L54.4875 51.7927C54.4209 51.8593 54.427 51.9682 54.4936 52.0348C54.5239 52.0651 54.5663 52.0832 54.6086 52.0832C54.6571 52.0832 54.6994 52.0651 54.7357 52.0289L55.2438 51.4904C55.4193 51.7809 55.613 52.0592 55.8186 52.3253C54.6689 53.239 53.2228 53.7896 51.6435 53.7896ZM56.0847 52.1075C55.8668 51.8231 55.6671 51.5328 55.4916 51.2302L56.2479 50.4195C56.3145 50.353 56.3084 50.244 56.2418 50.1775C56.1752 50.1109 56.0663 50.117 55.9997 50.1836L55.322 50.9096C55.0437 50.3771 54.8198 49.8265 54.6626 49.2456L55.3281 48.9612C55.4128 48.9249 55.4552 48.8219 55.4189 48.7372C55.3827 48.6525 55.2797 48.6102 55.195 48.6464L54.5838 48.9066C54.4568 48.3559 54.3841 47.7934 54.3721 47.2184H55.3159C55.4128 47.2184 55.4853 47.1399 55.4853 47.049C55.4853 46.9582 55.4067 46.8797 55.3159 46.8797H54.3721C54.3841 46.3049 54.4568 45.7422 54.5838 45.1915L55.195 45.4517C55.195 45.4517 55.2373 45.4637 55.2615 45.4637C55.3281 45.4637 55.3886 45.4275 55.4189 45.3609C55.4552 45.2762 55.4189 45.1734 55.3281 45.1369L54.6626 44.8525C54.82 44.2778 55.0437 43.721 55.322 43.1885L55.9997 43.9145C56.036 43.9508 56.0783 43.9689 56.1268 43.9689C56.1691 43.9689 56.2115 43.9508 56.2418 43.9204C56.3084 43.8539 56.3145 43.7511 56.2479 43.6784L55.4916 42.8677C55.6671 42.5651 55.8727 42.2746 56.0846 41.9904C57.4884 43.2248 58.3779 45.0278 58.3779 47.0368C58.3779 49.0457 57.4288 50.7946 56.025 52.0289L56.0847 52.1075Z' stroke='black' stroke-width='2' mask='url(#path-4-outside-1_4433_9102)'/><path d='M57.1107 24.4135L57.111 24.4138C57.6374 25.0399 57.8901 25.8433 57.8006 26.6599C57.7117 27.4697 57.3104 28.2009 56.6593 28.7074L27.6878 51.2616C28.1315 52.1953 27.9068 53.3451 27.0829 54.0418C26.6576 54.4021 26.1299 54.5915 25.5816 54.5915C25.5449 54.5915 25.5087 54.5899 25.4843 54.5889L25.4809 54.5887C25.452 54.5875 25.4365 54.5869 25.4239 54.5869H25.4027L25.3817 54.5851C24.7587 54.5323 24.1951 54.2422 23.7933 53.764C23.7932 53.7638 23.793 53.7636 23.7928 53.7634L21.0526 50.5132C21.0524 50.5129 21.0521 50.5126 21.0518 50.5123C20.6506 50.0399 20.4556 49.4351 20.5085 48.8109M57.1107 24.4135L21.4336 50.1894C21.118 49.8183 20.965 49.3449 21.0067 48.8531C21.0484 48.3612 21.2759 47.9205 21.6517 47.605M57.1107 24.4135L55.6261 22.6503L55.6246 22.6486C55.0925 22.0223 54.3449 21.6419 53.5202 21.5916L53.5201 21.5916C52.6987 21.5418 51.9058 21.8203 51.2987 22.3828L24.3751 47.2513M57.1107 24.4135L24.7152 47.6179L24.6213 47.5044L24.6189 47.5016C24.5432 47.4114 24.4617 47.3279 24.3751 47.2513M20.5085 48.8109L21.0067 48.8531L20.5085 48.8109C20.5085 48.8109 20.5085 48.8109 20.5085 48.8109ZM20.5085 48.8109C20.5613 48.1882 20.8511 47.6248 21.3289 47.2231M21.3289 47.2231C21.3286 47.2234 21.3282 47.2237 21.3278 47.2241L21.6517 47.605M21.3289 47.2231C21.3293 47.2227 21.3297 47.2224 21.3301 47.2221L21.6517 47.605M21.3289 47.2231C21.8016 46.8218 22.4108 46.6271 23.0301 46.6799L22.9879 47.1781L23.0305 46.68L24.0283 47.6123C23.7389 47.3624 23.3796 47.2114 22.9879 47.1782C22.5006 47.1365 22.0228 47.2895 21.6517 47.605M24.3751 47.2513C24.0025 46.9221 23.536 46.7228 23.0303 46.68L24.3751 47.2513ZM39.772 39.4093L26.1289 50.0295L25.7297 49.574L39.4753 39.1463L39.772 39.4093Z' fill='black' stroke='black'/><circle cx='51.5' cy='45.5' r='7.5' fill='white'/><mask id='path-7-outside-2_4433_9102' maskUnits='userSpaceOnUse' x='42.6989' y='36.0244' width='18' height='18' fill='black'><rect fill='white' x='42.6989' y='36.0244' width='18' height='18'/><path d='M51.6435 37.0244C47.2628 37.0244 43.6989 40.5883 43.6989 44.9691C43.6989 49.3498 47.2628 52.9138 51.6435 52.9138C56.0242 52.9138 59.5881 49.3499 59.5881 44.9691C59.5881 40.5884 56.0242 37.0244 51.6435 37.0244ZM44.909 44.9691C44.909 42.9602 45.7985 41.157 47.2023 39.9227C47.4201 40.2072 47.6198 40.4975 47.7953 40.8L47.039 41.6107C46.9724 41.6773 46.9785 41.7862 47.0451 41.8528C47.0754 41.8831 47.1178 41.9012 47.1601 41.9012C47.2086 41.9012 47.2509 41.8831 47.2872 41.8469L47.9649 41.1209C48.2432 41.6533 48.4672 42.204 48.6243 42.7848L47.9588 43.0693C47.8741 43.1055 47.8318 43.2085 47.868 43.2932C47.8983 43.3598 47.9588 43.396 48.0254 43.396C48.0496 43.396 48.0738 43.396 48.0919 43.384L48.7031 43.1238C48.8302 43.6745 48.9028 44.2371 48.9149 44.812H47.971C47.8741 44.812 47.8016 44.8906 47.8016 44.9814C47.8016 45.0722 47.8802 45.1508 47.971 45.1508H48.9149C48.9028 45.7255 48.8302 46.2883 48.7031 46.8389L48.0919 46.5787C48.0072 46.5425 47.9044 46.5788 47.868 46.6696C47.8318 46.7543 47.868 46.8571 47.9588 46.8935L48.6243 47.1779C48.467 47.7526 48.2432 48.3095 47.9649 48.8419L47.2872 48.1159C47.2206 48.0493 47.1178 48.0432 47.0451 48.1098C46.9785 48.1764 46.9724 48.2792 47.039 48.3519L47.7953 49.1626C47.6198 49.4651 47.4142 49.7556 47.2023 50.0398C45.7985 48.8055 44.909 47.0024 44.909 44.9935L44.909 44.9691ZM51.6435 51.7036C50.0643 51.7036 48.6181 51.1529 47.4684 50.2394C47.6741 49.9672 47.8738 49.6948 48.0432 49.4044L48.5513 49.9429C48.5876 49.9792 48.6299 49.9973 48.6784 49.9973C48.7207 49.9973 48.7631 49.9792 48.7934 49.9489C48.86 49.8823 48.8661 49.7734 48.7995 49.7068L48.2186 49.0836C48.5273 48.5148 48.7813 47.9158 48.9508 47.2987L49.9915 47.7464C49.9915 47.7464 50.0339 47.7584 50.0581 47.7584C50.1247 47.7584 50.1852 47.7222 50.2155 47.6556C50.2517 47.5709 50.2155 47.4681 50.1247 47.4317L49.0296 46.9597C49.1688 46.3667 49.2535 45.7557 49.2655 45.1384H50.1851C50.282 45.1384 50.3545 45.0598 50.3545 44.969C50.3545 44.8782 50.2759 44.7996 50.1851 44.7996H49.2655C49.2535 44.1825 49.1747 43.5714 49.0296 42.9783L50.1247 42.5063C50.2094 42.4701 50.2517 42.3671 50.2155 42.2824C50.1792 42.1977 50.0762 42.1554 49.9915 42.1916L48.9508 42.6393C48.7753 42.0161 48.5273 41.4171 48.2186 40.8544L48.7995 40.2312C48.8661 40.1647 48.86 40.0557 48.7934 39.9892C48.7268 39.9226 48.6179 39.9287 48.5513 39.9953L48.0432 40.5338C47.8677 40.2433 47.674 39.965 47.4684 39.6988C48.6181 38.7851 50.0642 38.2346 51.6435 38.2346C53.2227 38.2346 54.6689 38.7853 55.8186 39.6988C55.6129 39.971 55.4132 40.2435 55.2438 40.5338L54.7357 39.9953C54.6691 39.9287 54.5663 39.9226 54.4936 39.9892C54.427 40.0557 54.4209 40.1586 54.4875 40.2312L55.0684 40.8544C54.7597 41.4232 54.5057 42.0222 54.3362 42.6393L53.2955 42.1916C53.2108 42.1554 53.1079 42.1916 53.0715 42.2824C53.0353 42.3671 53.0715 42.4699 53.1623 42.5063L54.2575 42.9783C54.1182 43.5714 54.0335 44.1823 54.0215 44.7996H53.1019C53.005 44.7996 52.9325 44.8782 52.9325 44.969C52.9325 45.0598 53.0111 45.1384 53.1019 45.1384H54.0215C54.0335 45.7555 54.1123 46.3667 54.2575 46.9597L53.1623 47.4317C53.0776 47.4679 53.0353 47.5709 53.0715 47.6556C53.1018 47.7222 53.1623 47.7584 53.2289 47.7584C53.2531 47.7584 53.2773 47.7584 53.2955 47.7464L54.3362 47.2987C54.5117 47.9219 54.7597 48.515 55.0684 49.0836L54.4875 49.7068C54.4209 49.7734 54.427 49.8823 54.4936 49.9489C54.5239 49.9792 54.5663 49.9973 54.6086 49.9973C54.6571 49.9973 54.6994 49.9792 54.7357 49.9429L55.2438 49.4044C55.4193 49.695 55.613 49.9732 55.8186 50.2394C54.6689 51.1531 53.2228 51.7036 51.6435 51.7036ZM56.0847 50.0216C55.8668 49.7371 55.6671 49.4468 55.4916 49.1443L56.2479 48.3336C56.3145 48.267 56.3084 48.1581 56.2418 48.0915C56.1752 48.0249 56.0663 48.031 55.9997 48.0976L55.322 48.8236C55.0437 48.2912 54.8198 47.7405 54.6626 47.1596L55.3281 46.8752C55.4128 46.839 55.4552 46.736 55.4189 46.6513C55.3827 46.5666 55.2797 46.5242 55.195 46.5605L54.5838 46.8207C54.4568 46.27 54.3841 45.7074 54.3721 45.1325H55.3159C55.4128 45.1325 55.4853 45.0539 55.4853 44.9631C55.4853 44.8723 55.4067 44.7937 55.3159 44.7937H54.3721C54.3841 44.219 54.4568 43.6562 54.5838 43.1056L55.195 43.3657C55.195 43.3657 55.2373 43.3778 55.2615 43.3778C55.3281 43.3778 55.3886 43.3415 55.4189 43.2749C55.4552 43.1902 55.4189 43.0874 55.3281 43.051L54.6626 42.7666C54.82 42.1919 55.0437 41.635 55.322 41.1026L55.9997 41.8286C56.036 41.8648 56.0783 41.883 56.1268 41.883C56.1691 41.883 56.2115 41.8648 56.2418 41.8345C56.3084 41.7679 56.3145 41.6651 56.2479 41.5924L55.4916 40.7817C55.6671 40.4792 55.8727 40.1887 56.0846 39.9045C57.4884 41.1388 58.3779 42.9419 58.3779 44.9508C58.3779 46.9598 57.4288 48.7087 56.025 49.9429L56.0847 50.0216Z'/></mask><path d='M51.6435 37.0244C47.2628 37.0244 43.6989 40.5883 43.6989 44.9691C43.6989 49.3498 47.2628 52.9138 51.6435 52.9138C56.0242 52.9138 59.5881 49.3499 59.5881 44.9691C59.5881 40.5884 56.0242 37.0244 51.6435 37.0244ZM44.909 44.9691C44.909 42.9602 45.7985 41.157 47.2023 39.9227C47.4201 40.2072 47.6198 40.4975 47.7953 40.8L47.039 41.6107C46.9724 41.6773 46.9785 41.7862 47.0451 41.8528C47.0754 41.8831 47.1178 41.9012 47.1601 41.9012C47.2086 41.9012 47.2509 41.8831 47.2872 41.8469L47.9649 41.1209C48.2432 41.6533 48.4672 42.204 48.6243 42.7848L47.9588 43.0693C47.8741 43.1055 47.8318 43.2085 47.868 43.2932C47.8983 43.3598 47.9588 43.396 48.0254 43.396C48.0496 43.396 48.0738 43.396 48.0919 43.384L48.7031 43.1238C48.8302 43.6745 48.9028 44.2371 48.9149 44.812H47.971C47.8741 44.812 47.8016 44.8906 47.8016 44.9814C47.8016 45.0722 47.8802 45.1508 47.971 45.1508H48.9149C48.9028 45.7255 48.8302 46.2883 48.7031 46.8389L48.0919 46.5787C48.0072 46.5425 47.9044 46.5788 47.868 46.6696C47.8318 46.7543 47.868 46.8571 47.9588 46.8935L48.6243 47.1779C48.467 47.7526 48.2432 48.3095 47.9649 48.8419L47.2872 48.1159C47.2206 48.0493 47.1178 48.0432 47.0451 48.1098C46.9785 48.1764 46.9724 48.2792 47.039 48.3519L47.7953 49.1626C47.6198 49.4651 47.4142 49.7556 47.2023 50.0398C45.7985 48.8055 44.909 47.0024 44.909 44.9935L44.909 44.9691ZM51.6435 51.7036C50.0643 51.7036 48.6181 51.1529 47.4684 50.2394C47.6741 49.9672 47.8738 49.6948 48.0432 49.4044L48.5513 49.9429C48.5876 49.9792 48.6299 49.9973 48.6784 49.9973C48.7207 49.9973 48.7631 49.9792 48.7934 49.9489C48.86 49.8823 48.8661 49.7734 48.7995 49.7068L48.2186 49.0836C48.5273 48.5148 48.7813 47.9158 48.9508 47.2987L49.9915 47.7464C49.9915 47.7464 50.0339 47.7584 50.0581 47.7584C50.1247 47.7584 50.1852 47.7222 50.2155 47.6556C50.2517 47.5709 50.2155 47.4681 50.1247 47.4317L49.0296 46.9597C49.1688 46.3667 49.2535 45.7557 49.2655 45.1384H50.1851C50.282 45.1384 50.3545 45.0598 50.3545 44.969C50.3545 44.8782 50.2759 44.7996 50.1851 44.7996H49.2655C49.2535 44.1825 49.1747 43.5714 49.0296 42.9783L50.1247 42.5063C50.2094 42.4701 50.2517 42.3671 50.2155 42.2824C50.1792 42.1977 50.0762 42.1554 49.9915 42.1916L48.9508 42.6393C48.7753 42.0161 48.5273 41.4171 48.2186 40.8544L48.7995 40.2312C48.8661 40.1647 48.86 40.0557 48.7934 39.9892C48.7268 39.9226 48.6179 39.9287 48.5513 39.9953L48.0432 40.5338C47.8677 40.2433 47.674 39.965 47.4684 39.6988C48.6181 38.7851 50.0642 38.2346 51.6435 38.2346C53.2227 38.2346 54.6689 38.7853 55.8186 39.6988C55.6129 39.971 55.4132 40.2435 55.2438 40.5338L54.7357 39.9953C54.6691 39.9287 54.5663 39.9226 54.4936 39.9892C54.427 40.0557 54.4209 40.1586 54.4875 40.2312L55.0684 40.8544C54.7597 41.4232 54.5057 42.0222 54.3362 42.6393L53.2955 42.1916C53.2108 42.1554 53.1079 42.1916 53.0715 42.2824C53.0353 42.3671 53.0715 42.4699 53.1623 42.5063L54.2575 42.9783C54.1182 43.5714 54.0335 44.1823 54.0215 44.7996H53.1019C53.005 44.7996 52.9325 44.8782 52.9325 44.969C52.9325 45.0598 53.0111 45.1384 53.1019 45.1384H54.0215C54.0335 45.7555 54.1123 46.3667 54.2575 46.9597L53.1623 47.4317C53.0776 47.4679 53.0353 47.5709 53.0715 47.6556C53.1018 47.7222 53.1623 47.7584 53.2289 47.7584C53.2531 47.7584 53.2773 47.7584 53.2955 47.7464L54.3362 47.2987C54.5117 47.9219 54.7597 48.515 55.0684 49.0836L54.4875 49.7068C54.4209 49.7734 54.427 49.8823 54.4936 49.9489C54.5239 49.9792 54.5663 49.9973 54.6086 49.9973C54.6571 49.9973 54.6994 49.9792 54.7357 49.9429L55.2438 49.4044C55.4193 49.695 55.613 49.9732 55.8186 50.2394C54.6689 51.1531 53.2228 51.7036 51.6435 51.7036ZM56.0847 50.0216C55.8668 49.7371 55.6671 49.4468 55.4916 49.1443L56.2479 48.3336C56.3145 48.267 56.3084 48.1581 56.2418 48.0915C56.1752 48.0249 56.0663 48.031 55.9997 48.0976L55.322 48.8236C55.0437 48.2912 54.8198 47.7405 54.6626 47.1596L55.3281 46.8752C55.4128 46.839 55.4552 46.736 55.4189 46.6513C55.3827 46.5666 55.2797 46.5242 55.195 46.5605L54.5838 46.8207C54.4568 46.27 54.3841 45.7074 54.3721 45.1325H55.3159C55.4128 45.1325 55.4853 45.0539 55.4853 44.9631C55.4853 44.8723 55.4067 44.7937 55.3159 44.7937H54.3721C54.3841 44.219 54.4568 43.6562 54.5838 43.1056L55.195 43.3657C55.195 43.3657 55.2373 43.3778 55.2615 43.3778C55.3281 43.3778 55.3886 43.3415 55.4189 43.2749C55.4552 43.1902 55.4189 43.0874 55.3281 43.051L54.6626 42.7666C54.82 42.1919 55.0437 41.635 55.322 41.1026L55.9997 41.8286C56.036 41.8648 56.0783 41.883 56.1268 41.883C56.1691 41.883 56.2115 41.8648 56.2418 41.8345C56.3084 41.7679 56.3145 41.6651 56.2479 41.5924L55.4916 40.7817C55.6671 40.4792 55.8727 40.1887 56.0846 39.9045C57.4884 41.1388 58.3779 42.9419 58.3779 44.9508C58.3779 46.9598 57.4288 48.7087 56.025 49.9429L56.0847 50.0216Z' fill='white'/><path d='M51.6435 37.0244C47.2628 37.0244 43.6989 40.5883 43.6989 44.9691C43.6989 49.3498 47.2628 52.9138 51.6435 52.9138C56.0242 52.9138 59.5881 49.3499 59.5881 44.9691C59.5881 40.5884 56.0242 37.0244 51.6435 37.0244ZM44.909 44.9691C44.909 42.9602 45.7985 41.157 47.2023 39.9227C47.4201 40.2072 47.6198 40.4975 47.7953 40.8L47.039 41.6107C46.9724 41.6773 46.9785 41.7862 47.0451 41.8528C47.0754 41.8831 47.1178 41.9012 47.1601 41.9012C47.2086 41.9012 47.2509 41.8831 47.2872 41.8469L47.9649 41.1209C48.2432 41.6533 48.4672 42.204 48.6243 42.7848L47.9588 43.0693C47.8741 43.1055 47.8318 43.2085 47.868 43.2932C47.8983 43.3598 47.9588 43.396 48.0254 43.396C48.0496 43.396 48.0738 43.396 48.0919 43.384L48.7031 43.1238C48.8302 43.6745 48.9028 44.2371 48.9149 44.812H47.971C47.8741 44.812 47.8016 44.8906 47.8016 44.9814C47.8016 45.0722 47.8802 45.1508 47.971 45.1508H48.9149C48.9028 45.7255 48.8302 46.2883 48.7031 46.8389L48.0919 46.5787C48.0072 46.5425 47.9044 46.5788 47.868 46.6696C47.8318 46.7543 47.868 46.8571 47.9588 46.8935L48.6243 47.1779C48.467 47.7526 48.2432 48.3095 47.9649 48.8419L47.2872 48.1159C47.2206 48.0493 47.1178 48.0432 47.0451 48.1098C46.9785 48.1764 46.9724 48.2792 47.039 48.3519L47.7953 49.1626C47.6198 49.4651 47.4142 49.7556 47.2023 50.0398C45.7985 48.8055 44.909 47.0024 44.909 44.9935L44.909 44.9691ZM51.6435 51.7036C50.0643 51.7036 48.6181 51.1529 47.4684 50.2394C47.6741 49.9672 47.8738 49.6948 48.0432 49.4044L48.5513 49.9429C48.5876 49.9792 48.6299 49.9973 48.6784 49.9973C48.7207 49.9973 48.7631 49.9792 48.7934 49.9489C48.86 49.8823 48.8661 49.7734 48.7995 49.7068L48.2186 49.0836C48.5273 48.5148 48.7813 47.9158 48.9508 47.2987L49.9915 47.7464C49.9915 47.7464 50.0339 47.7584 50.0581 47.7584C50.1247 47.7584 50.1852 47.7222 50.2155 47.6556C50.2517 47.5709 50.2155 47.4681 50.1247 47.4317L49.0296 46.9597C49.1688 46.3667 49.2535 45.7557 49.2655 45.1384H50.1851C50.282 45.1384 50.3545 45.0598 50.3545 44.969C50.3545 44.8782 50.2759 44.7996 50.1851 44.7996H49.2655C49.2535 44.1825 49.1747 43.5714 49.0296 42.9783L50.1247 42.5063C50.2094 42.4701 50.2517 42.3671 50.2155 42.2824C50.1792 42.1977 50.0762 42.1554 49.9915 42.1916L48.9508 42.6393C48.7753 42.0161 48.5273 41.4171 48.2186 40.8544L48.7995 40.2312C48.8661 40.1647 48.86 40.0557 48.7934 39.9892C48.7268 39.9226 48.6179 39.9287 48.5513 39.9953L48.0432 40.5338C47.8677 40.2433 47.674 39.965 47.4684 39.6988C48.6181 38.7851 50.0642 38.2346 51.6435 38.2346C53.2227 38.2346 54.6689 38.7853 55.8186 39.6988C55.6129 39.971 55.4132 40.2435 55.2438 40.5338L54.7357 39.9953C54.6691 39.9287 54.5663 39.9226 54.4936 39.9892C54.427 40.0557 54.4209 40.1586 54.4875 40.2312L55.0684 40.8544C54.7597 41.4232 54.5057 42.0222 54.3362 42.6393L53.2955 42.1916C53.2108 42.1554 53.1079 42.1916 53.0715 42.2824C53.0353 42.3671 53.0715 42.4699 53.1623 42.5063L54.2575 42.9783C54.1182 43.5714 54.0335 44.1823 54.0215 44.7996H53.1019C53.005 44.7996 52.9325 44.8782 52.9325 44.969C52.9325 45.0598 53.0111 45.1384 53.1019 45.1384H54.0215C54.0335 45.7555 54.1123 46.3667 54.2575 46.9597L53.1623 47.4317C53.0776 47.4679 53.0353 47.5709 53.0715 47.6556C53.1018 47.7222 53.1623 47.7584 53.2289 47.7584C53.2531 47.7584 53.2773 47.7584 53.2955 47.7464L54.3362 47.2987C54.5117 47.9219 54.7597 48.515 55.0684 49.0836L54.4875 49.7068C54.4209 49.7734 54.427 49.8823 54.4936 49.9489C54.5239 49.9792 54.5663 49.9973 54.6086 49.9973C54.6571 49.9973 54.6994 49.9792 54.7357 49.9429L55.2438 49.4044C55.4193 49.695 55.613 49.9732 55.8186 50.2394C54.6689 51.1531 53.2228 51.7036 51.6435 51.7036ZM56.0847 50.0216C55.8668 49.7371 55.6671 49.4468 55.4916 49.1443L56.2479 48.3336C56.3145 48.267 56.3084 48.1581 56.2418 48.0915C56.1752 48.0249 56.0663 48.031 55.9997 48.0976L55.322 48.8236C55.0437 48.2912 54.8198 47.7405 54.6626 47.1596L55.3281 46.8752C55.4128 46.839 55.4552 46.736 55.4189 46.6513C55.3827 46.5666 55.2797 46.5242 55.195 46.5605L54.5838 46.8207C54.4568 46.27 54.3841 45.7074 54.3721 45.1325H55.3159C55.4128 45.1325 55.4853 45.0539 55.4853 44.9631C55.4853 44.8723 55.4067 44.7937 55.3159 44.7937H54.3721C54.3841 44.219 54.4568 43.6562 54.5838 43.1056L55.195 43.3657C55.195 43.3657 55.2373 43.3778 55.2615 43.3778C55.3281 43.3778 55.3886 43.3415 55.4189 43.2749C55.4552 43.1902 55.4189 43.0874 55.3281 43.051L54.6626 42.7666C54.82 42.1919 55.0437 41.635 55.322 41.1026L55.9997 41.8286C56.036 41.8648 56.0783 41.883 56.1268 41.883C56.1691 41.883 56.2115 41.8648 56.2418 41.8345C56.3084 41.7679 56.3145 41.6651 56.2479 41.5924L55.4916 40.7817C55.6671 40.4792 55.8727 40.1887 56.0846 39.9045C57.4884 41.1388 58.3779 42.9419 58.3779 44.9508C58.3779 46.9598 57.4288 48.7087 56.025 49.9429L56.0847 50.0216Z' stroke='black' stroke-width='2' mask='url(#path-7-outside-2_4433_9102)'/><path d='M24.3751 45.1654L51.2987 20.2968C51.9058 19.7344 52.6987 19.4558 53.5201 19.5057L53.5202 19.5057C54.3449 19.556 55.0925 19.9364 55.6246 20.5626L55.6261 20.5643L57.1107 22.3275L57.111 22.3278C57.6374 22.954 57.8901 23.7574 57.8006 24.5739C57.7117 25.3836 57.3105 26.1147 56.6597 26.6212L56.6598 26.6213L27.6878 49.1757C28.1315 50.1094 27.9068 51.2591 27.0829 51.9559C26.6576 52.3161 26.1299 52.5056 25.5816 52.5056C25.5449 52.5056 25.5087 52.504 25.4843 52.5029L25.4809 52.5028C25.452 52.5015 25.4365 52.5009 25.4239 52.5009H25.4027L25.3817 52.4991C24.7587 52.4463 24.1951 52.1563 23.7933 51.6781L23.7935 51.6783L24.1757 51.356L23.7928 51.6775L24.3751 45.1654ZM24.3751 45.1654C24.0025 44.8361 23.536 44.6369 23.0303 44.594L24.3751 45.1654ZM21.0526 48.4273L21.4336 48.1034L21.0513 48.4257L21.0518 48.4264C21.0521 48.4267 21.0524 48.427 21.0526 48.4273ZM21.3289 45.1372C20.8511 45.5389 20.5613 46.1022 20.5085 46.725L23.0301 44.594C22.4108 44.5411 21.8016 44.7358 21.3289 45.1372ZM25.2928 46.94L38.0499 35.1567L39.8363 37.2734L26.1358 47.9382L25.2928 46.94Z' fill='white' stroke='black'/></g></svg>",
+      "rightsvg": "<svg width='145' height='120' viewBox='0 0 145 120' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_4433_9111' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='145' height='120'><rect width='145' height='120' fill='#D9D9D9'/></mask><g mask='url(#mask0_4433_9111)'><g opacity='0.2'><path d='M113.899 61.1943C98.1521 61.1943 85.3415 74.0049 85.3415 89.7516C85.3415 105.498 98.1519 118.309 113.899 118.309C129.645 118.309 142.456 105.498 142.456 89.7516C142.456 74.0051 129.645 61.1943 113.899 61.1943ZM89.6914 89.7516C89.6914 82.5308 92.8887 76.049 97.9344 71.6124C98.7175 72.6348 99.4353 73.6783 100.066 74.7658L97.3475 77.6799C97.1082 77.9192 97.1302 78.3107 97.3695 78.55C97.4785 78.659 97.6307 78.7242 97.783 78.7242C97.9571 78.7242 98.1093 78.659 98.2396 78.5288L100.676 75.9192C101.676 77.8329 102.481 79.8123 103.046 81.9003L100.654 82.9227C100.349 83.0529 100.197 83.4232 100.327 83.7276C100.436 83.9669 100.654 84.0972 100.893 84.0972C100.98 84.0972 101.067 84.0972 101.132 84.054L103.329 83.1188C103.786 85.0984 104.047 87.1203 104.09 89.1869H100.698C100.349 89.1869 100.089 89.4694 100.089 89.7958C100.089 90.1222 100.371 90.4047 100.698 90.4047H104.09C104.047 92.4705 103.786 94.4934 103.329 96.4728L101.132 95.5376C100.828 95.4073 100.458 95.5376 100.327 95.864C100.197 96.1684 100.327 96.538 100.654 96.669L103.046 97.6913C102.48 99.7571 101.676 101.759 100.676 103.672L98.2396 101.063C98.0003 100.824 97.6307 100.802 97.3695 101.041C97.1302 101.28 97.1082 101.65 97.3475 101.911L100.066 104.825C99.4354 105.913 98.6962 106.957 97.9344 107.978C92.8885 103.542 89.6913 97.0605 89.6913 89.8393L89.6914 89.7516ZM113.899 113.959C108.222 113.959 103.024 111.979 98.8912 108.696C99.6304 107.717 100.348 106.738 100.957 105.695L102.784 107.63C102.914 107.761 103.066 107.826 103.24 107.826C103.393 107.826 103.545 107.76 103.654 107.651C103.893 107.412 103.915 107.021 103.676 106.781L101.588 104.541C102.697 102.497 103.61 100.344 104.219 98.1255L107.961 99.7348C107.961 99.7348 108.113 99.778 108.2 99.778C108.439 99.778 108.656 99.6477 108.766 99.4084C108.896 99.104 108.766 98.7344 108.439 98.6034L104.503 96.907C105.003 94.7752 105.308 92.579 105.351 90.3602H108.656C109.005 90.3602 109.265 90.0777 109.265 89.7513C109.265 89.4249 108.983 89.1424 108.656 89.1424H105.351C105.308 86.9243 105.024 84.7274 104.503 82.5956L108.439 80.8992C108.744 80.769 108.896 80.3987 108.766 80.0943C108.635 79.7898 108.265 79.6376 107.961 79.7679L104.219 81.3771C103.589 79.1371 102.697 76.9841 101.588 74.9614L103.676 72.7213C103.915 72.482 103.893 72.0905 103.654 71.8512C103.414 71.6119 103.023 71.6338 102.784 71.8731L100.957 73.8089C100.326 72.7646 99.6303 71.7642 98.8912 70.8076C103.024 67.5232 108.222 65.5443 113.899 65.5443C119.575 65.5443 124.773 67.5239 128.906 70.8076C128.167 71.786 127.449 72.7652 126.84 73.8089L125.013 71.8731C124.774 71.6338 124.405 71.6119 124.143 71.8512C123.904 72.0905 123.882 72.4601 124.121 72.7213L126.209 74.9614C125.1 77.006 124.187 79.159 123.578 81.3771L119.837 79.7679C119.532 79.6376 119.163 79.7679 119.032 80.0943C118.901 80.3987 119.032 80.7683 119.358 80.8992L123.294 82.5956C122.794 84.7274 122.489 86.9236 122.446 89.1424H119.141C118.792 89.1424 118.532 89.4249 118.532 89.7513C118.532 90.0777 118.814 90.3602 119.141 90.3602H122.446C122.489 92.5783 122.773 94.7752 123.294 96.907L119.358 98.6034C119.053 98.7337 118.901 99.104 119.032 99.4084C119.141 99.6477 119.358 99.778 119.597 99.778C119.684 99.778 119.771 99.778 119.837 99.7348L123.578 98.1255C124.208 100.366 125.1 102.497 126.209 104.541L124.121 106.781C123.882 107.021 123.904 107.412 124.143 107.651C124.252 107.76 124.405 107.826 124.557 107.826C124.731 107.826 124.883 107.76 125.013 107.63L126.84 105.695C127.471 106.739 128.167 107.739 128.906 108.696C124.773 111.98 119.575 113.959 113.899 113.959ZM129.862 107.913C129.079 106.89 128.361 105.847 127.731 104.759L130.449 101.845C130.689 101.606 130.667 101.215 130.427 100.975C130.188 100.736 129.796 100.758 129.557 100.997L127.121 103.607C126.121 101.693 125.316 99.7136 124.751 97.6256L127.143 96.6033C127.447 96.473 127.6 96.1027 127.469 95.7983C127.339 95.4938 126.969 95.3416 126.664 95.4719L124.467 96.4072C124.011 94.4276 123.75 92.4056 123.706 90.339H127.099C127.447 90.339 127.708 90.0565 127.708 89.7301C127.708 89.4037 127.425 89.1212 127.099 89.1212H123.706C123.75 87.0554 124.011 85.0325 124.467 83.0531L126.664 83.9884C126.664 83.9884 126.817 84.0315 126.904 84.0315C127.143 84.0315 127.36 83.9013 127.469 83.662C127.6 83.3575 127.469 82.9879 127.143 82.857L124.751 81.8346C125.316 79.7688 126.121 77.7673 127.121 75.8535L129.557 78.4631C129.687 78.5933 129.84 78.6585 130.014 78.6585C130.166 78.6585 130.318 78.5933 130.427 78.4843C130.667 78.245 130.688 77.8754 130.449 77.6142L127.73 74.7001C128.361 73.6126 129.1 72.5683 129.862 71.5468C134.908 75.9837 138.105 82.4647 138.105 89.686C138.105 96.9072 134.694 103.194 129.648 107.63L129.862 107.913Z' fill='white'/><path d='M130.824 22.3825C132.776 20.8646 133.977 18.6799 134.244 16.2451C134.511 13.8102 133.76 11.4083 132.176 9.524L126.839 3.18612C125.238 1.30165 123.003 0.167555 120.535 0.0171763C118.066 -0.132661 115.698 0.701233 113.881 2.3853L15.782 92.9964L15.3819 92.5127C14.2477 91.1619 12.6635 90.3443 10.8954 90.1944C9.14395 90.0446 7.42627 90.5946 6.09233 91.7287C4.74159 92.8628 3.92394 94.447 3.77411 96.2152C3.62428 97.9829 4.17423 99.6843 5.30833 101.018L15.1652 112.71C16.2993 114.06 17.8835 114.878 19.6516 115.028C19.8351 115.028 20.0355 115.045 20.2184 115.045C21.7695 115.045 23.2538 114.511 24.4546 113.494C27.1565 111.209 27.5735 107.206 25.422 104.438L130.826 22.3822L130.824 22.3825ZM21.9518 102.903L16.6981 96.6824L65.1972 51.8855L74.0367 62.3591L21.9519 102.903L21.9518 102.903Z' fill='white'/></g></g></svg>",
+      "leftsvgarialabel": "Icono de bate y pelota de béisbol",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#clip0_1853_3355)\"><path d=\"M68.884 30.9415L62.4383 19.7779C61.5173 18.1818 60.0503 16.9742 58.3069 16.3761L47.2371 12.5767C46.9116 12.4515 46.5496 12.5631 46.4373 12.6763C43.3436 14.7879 36.8562 14.7834 33.5483 12.6696C33.306 12.5034 33.0102 12.4796 32.7576 12.5767L21.6883 16.3761C19.9449 16.9742 18.4779 18.1818 17.5569 19.7779L11.1112 30.9415C10.8767 31.3482 11.016 31.8681 11.4227 32.1026L20.6403 37.4231C21.047 37.6576 21.5658 37.5183 21.8003 37.1127L25.0481 31.4887V64.7396C25.0481 66.2519 26.2772 67.481 27.7895 67.481H52.7914C54.3037 67.481 55.5339 66.2519 55.5339 64.7396L55.5337 32.5037L58.1947 37.1129C58.4292 37.5184 58.948 37.6578 59.3547 37.4233L68.5724 32.1027C68.979 31.8683 69.1184 31.3483 68.8839 30.9416L68.884 30.9415ZM28.6383 39.5178C28.6383 33.7057 33.3676 28.9782 39.1778 28.9782C44.9996 28.9782 49.7184 33.7126 49.7184 39.5178C49.7184 40.4042 49.6089 41.2969 49.3831 42.1617C51.3857 43.253 52.1673 45.9567 50.2735 47.8482L45.6971 52.4245C45.3601 52.7638 44.8159 52.7487 44.4917 52.4245L41.7968 49.7296C40.9759 49.9399 40.1006 50.0581 39.1777 50.0581C33.3656 50.0583 28.6381 45.3277 28.6381 39.5176L28.6383 39.5178ZM45.7579 14.9475L45.3728 16.9299C44.8745 19.498 42.6134 21.3613 39.9976 21.3613C37.3818 21.3613 35.1208 19.4979 34.6225 16.9298L34.2305 14.9111C37.5436 16.2402 42.3297 16.3544 45.7575 14.9475L45.7579 14.9475ZM52.7914 65.7797H27.7895C27.2152 65.7797 26.7474 65.313 26.7474 64.7375V60.0602H53.8348V64.7375C53.8348 65.313 53.3672 65.7797 52.7917 65.7797H52.7914ZM49.0724 46.6435V46.6447L45.094 50.6231L42.6505 48.1796C42.6505 48.1785 42.6482 48.1762 42.6471 48.1751L41.1155 46.6435C39.4108 45.007 41.9055 42.1511 43.7572 44.0029L44.4935 44.7404C44.8256 45.0725 45.3633 45.0723 45.6954 44.7404L46.4317 44.0029C48.1672 42.2674 50.8318 44.8872 49.0723 46.6435L49.0724 46.6435ZM34.3883 46.9437C34.6892 46.2869 34.578 45.7233 34.1877 45.3079C32.8824 43.9199 32.9832 40.6262 35.0249 39.2262C35.8567 38.6569 36.5376 36.7132 35.6876 36.026C34.284 34.8931 32.928 34.5895 31.9561 34.4208C33.5775 32.136 36.1658 30.7361 38.9939 30.6779C39.6243 30.6662 40.2387 30.7147 40.871 30.8388C40.564 31.4628 40.389 31.1588 40.7067 31.9818C41.204 33.2788 41.255 34.7232 40.8483 36.052C40.6493 36.7018 41.6549 37.0197 41.8418 36.342C42.0888 35.455 42.961 34.8965 43.8684 35.0438C44.7838 35.1922 45.733 35.0619 46.5736 34.6768C47.4767 36.0513 48.0191 37.7182 48.0191 39.5159C48.0191 40.286 47.9239 41.011 47.7427 41.7203C47.3624 41.7203 47.0295 41.7639 46.5566 41.931C46.5555 41.931 46.5555 41.9322 46.5555 41.9322C45.944 42.1597 45.531 42.4986 45.0953 42.9381C44.9631 42.8059 44.6491 42.4751 44.2332 42.2255C41.0015 40.2486 36.6526 44.5831 39.9138 47.8453L40.3488 48.2803C39.9682 48.3307 39.5787 48.3573 39.1775 48.3573C37.4339 48.3575 35.7717 47.8441 34.3881 46.9437L34.3883 46.9437Z\" fill=\"#005F20\"/></g><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"11.5\" stroke=\"#005F20\"/><defs><clipPath id=\"clip0_1853_3355\"><rect width=\"58\" height=\"58\" fill=\"white\" transform=\"translate(11 11)\"/></clipPath></defs></svg></div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Breaking Even with Linear Functions</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>You've Applied Systems Of Linear Equations In Business!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Mei find the break-even point to determine when her business is profitable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You showed that you understand the relationships between costs, revenue, and profit</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed fixed costs, variable costs, price, and quantities</li></ul></div>"
+    },
+    "glossary": {
+      "dot_plot": {
+        "word": "Diagrama de Puntos",
+        "definition": "Un <strong className=\"text-[#0055B2]\">diagrama de puntos</strong> es un tipo de gráfico que muestra puntos individuales de datos a lo largo de una recta numérica."
+      },
+      "dot_plots": {
+        "word": "Diagramas de Puntos",
+        "definition": "Un <strong className=\"text-[#0055B2]\">diagrama de puntos</strong> es un tipo de gráfico que muestra puntos individuales de datos a lo largo de una recta numérica."
+      },
+      "histogram": {
+        "word": "Histograma",
+        "definition": "Un <strong className=\"text-[#0055B2]\">histograma</strong> es una representación gráfica que agrupa datos en rangos y muestra las frecuencias usando barras."
+      },
+      "histograms": {
+        "word": "Histogramas",
+        "definition": "Un <strong className=\"text-[#0055B2]\">histograma</strong> es una representación gráfica que agrupa datos en rangos y muestra las frecuencias usando barras."
+      },
+      "box_plot": {
+        "word": "Diagrama de Caja",
+        "definition": "Un <strong className=\"text-[#0055B2]\">diagrama de caja</strong> es un resumen visual de los datos que muestra los valores mínimo, máximo, mediana y los cuartiles primero y tercero."
+      },
+      "box_plots": {
+        "word": "Diagramas de Caja",
+        "definition": "Un <strong className=\"text-[#0055B2]\">diagrama de caja</strong> es un resumen visual de los datos que muestra los valores mínimo, máximo, mediana y los cuartiles primero y tercero."
+      },
+      "strike": {
+        "word": "Strike",
+        "definition": "Un <strong className=\"text-[#0055B2]\">strike</strong> es un lanzamiento que el bateador intenta golpear y falla, o no intenta golpear pero está dentro de la zona de strike."
+      },
+      "strikes": {
+        "word": "Strikes",
+        "definition": "Un <strong className=\"text-[#0055B2]\">strike</strong> es un lanzamiento que el bateador intenta golpear y falla, o no intenta golpear pero está dentro de la zona de strike."
+      },
+      "strike_rate": {
+        "word": "Tasa de Strikes",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa de Strikes</strong> es el porcentaje de lanzamientos que un lanzador logra como strikes con éxito."
+      },
+      "strike_rates": {
+        "word": "Tasas de Strikes",
+        "definition": "<strong className=\"text-[#0055B2]\">Tasa de Strikes</strong> es el porcentaje de lanzamientos que un lanzador logra como strikes con éxito."
+      },
+      "iqr": {
+        "word": "IQR",
+        "definition": "<strong className=\"text-[#0055B2]\">Rango Intercuartil</strong> es la diferencia entre el tercer y el primer cuartil y representa la dispersión del 50% central de los valores de los datos."
+      },
+      "normal_distribution": {
+        "word": "Distribución Normal",
+        "definition": "<strong className=\"text-[#0055B2]\">Distribución Normal</strong> es una distribución donde los valores de datos están distribuidos simétricamente alrededor de la media y forman una curva en forma de campana."
+      },
+      "median": {
+        "word": "Mediana",
+        "definition": "<strong className=\"text-[#0055B2]\">Mediana</strong> es el valor del medio en un conjunto de datos cuando se organizan en orden."
+      },
+      "outliers": {
+        "word": "Valor Atípico",
+        "definition": "<strong className=\"text-[#0055B2]\">Valor Atípico</strong> es un punto de datos significativamente diferente de los otros en el conjunto de datos."
+      },
+      "standard_deviation": {
+        "word": "Desviación Estándar",
+        "definition": "<strong className=\"text-[#0055B2]\">Desviación Estándar</strong> es una medida que muestra cómo los datos varían, o se desvían, de la media."
+      },
+      "right_skewed": {
+        "word": "Sesgada a la Derecha",
+        "definition": "<strong className=\"text-[#0055B2]\">Sesgada a la derecha</strong> significa que la mayoría de los valores están a la izquierda, con una cola larga que se extiende hacia la derecha debido a algunos valores grandes."
+      },
+      "percentile": {
+        "word": "Percentil",
+        "definition": "Un <strong className=\"text-[#0055B2]\">percentil</strong> es el porcentaje de valores que son menores o iguales a un valor de dato en particular."
+      }
+    },
+    "common": {
+      "jamie": "Jamie",
+      "martinez": "Coach Martinez",
+      "jamie_description": "Jamie Solomon: Analista de datos inquisitivo, que combina el béisbol y el análisis con ideas precisas.",
+      "martinez_description": "Entrenador Marcus Martinez: Entrenador de béisbol experimentado, que fusiona disciplina, estrategia y motivación.",
+      "help": "Ayuda",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Entrada de edificio moderno del campus con estudiantes caminando por senderos ajardinados.",
+      "bg2_description": "Espacio de trabajo de oficina con pantallas digitales, tablón de anuncios y plantas en tema azul.",
+      "bg3_description": "Aula de informática vacía con monitores azules y gran pantalla de proyección.",
+      "bg4_description": "Campo de béisbol con gradas, dugout y jugadores practicando."
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control deslizante del volumen de la música de fondo",
+      "character-voice-volume-slider": "Control deslizante del volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "baseball-game-plan": "STEAM Quest - Béisbol por los Números"
+  }
+}

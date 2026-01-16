@@ -1,0 +1,36 @@
+.table-container {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 2px solid #e5e7eb;
+  margin: 1rem;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th {
+  padding: 0.75rem 1.5rem;
+  text-align: left;
+  font-size: 1.35rem;
+  font-weight: 700;
+  background-color: #f9fafb;
+}
+
+.table-container td {
+  padding: 1rem 1.5rem;
+  font-size: 1.35rem;
+}
+
+.table-container tbody tr {
+  border-top: 1px solid #d0d2d6;
+}
+
+.table-container .row-even {
+  background-color: white;
+}
+
+.table-container .row-odd {
+  background-color: #f9fafb;
+}

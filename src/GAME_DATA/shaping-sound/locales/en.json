@@ -1,0 +1,377 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "ADSR Introduction",
+    "scene_4": "Drum Beats without ADSR",
+    "scene_5": "The ADSR Envelope",
+    "scene_6": "Attack Phase Function Transformations",
+    "scene_7X": "ADSR Envelope Function",
+    "scene_7": "ADSR Transformations on Kick Drum",
+    "scene_8": "ADSR Transformations on Cymbal",
+    "scene_9": "Remix beats with ADSR",
+    "scene_10": "Conclusion",
+    "scene_11": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 36px; line-height: 54px; font-weight: 700;'>Shaping Digital Beats</h1> <h2 style='font-size: 24px; line-height: 36px; font-weight: 700;'>Exploring ADSR and Function Transformations</h2>",
+    "description": "Join Dr. Ava Whitaker and Micah Daniels in a hands-on journey through digital synthesis! In this STEAMQuest, you'll explore the ADSR envelope and use function transformations to shape the sound of digital drums.",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>Welcome to the world of sound design!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>I’m Dr. Ava Whitaker, and alongside me is Micah Daniels, a keen learner who’s eager to explore how math is applied in music. Together, we'll use ADSR and function transformations to control how sounds evolve over time, from their sharp attack to their smooth release.</p>"
+      }
+    },
+    "S3": {
+      "S3_D0_FX_C9": {
+        "title": "Digital Synthesizer",
+        "description": "A modern digital synthesizer featuring a waveform display and four LED-lit ADSR control knobs labeled Attack, Decay, Sustain, and Release.",
+        "alt": "Digital synthesizer with a display and control dials."
+      },
+      "S3_D1_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Whoa, that looks awesome! What are you working on?</div>",
+      "S3_D2_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I'm shaping a drum sound using a digital synthesizer. See this waveform? Every time I tweak these controls, it changes how the sound behaves over time.</div>",
+      "S3_D3_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I see the rotary knobs labeled <strong>Attack</strong>, <strong>Decay</strong>, <strong>Sustain</strong>, and <strong>Release</strong>… What do they do?</div>",
+      "S3_D4_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Good question! These four controls make up what's called the <strong>ADSR envelope</strong>. They define how a sound plays out over time, from start to finish.</div>",
+      "S3_D5_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So, does every sound have an ADSR?</div>",
+      "S3_D6_F8_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pretty much! But before we dive into how it works, let's first hear what a sound is like <strong>without ADSR</strong> applied.</div>",
+      "S3_D7_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Alright, let's check it out!</div>"
+    },
+    "S4": {
+      "S4_D0_F10_C9": {
+        "title": "Drum Beats without ADSR",
+        "about": {
+          "heading": "Raw Drum Sounds Without ADSR",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Kick Drum:</strong> The kick drum is a low-pitched drum sound that typically provides the pulse or foundation of a beat</li><li><strong>Cymbal:</strong> A cymbal is a high-pitched, metallic percussion instrument often used to emphasize a rhythmic pattern or add texture</li><li><strong>Raw Sound:</strong> These sounds are played without any ADSR envelope shaping, showing how drums sound in their most basic form</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to use this tool",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Play the Beat:</strong> Press the Play button to hear both the kick drum and cymbal playing together at a fixed tempo</li><li><strong>Test Individual Sounds:</strong> Click on the Kick or Cymbal buttons to hear each instrument individually and understand their basic characteristics</li></ul></div>"
+        },
+        "translations": {
+          "ariaLabel": "Waveform Visualizer",
+          "playLabel": "Play",
+          "stopLabel": "Stop",
+          "kickInstrument": "Kick",
+          "cymbalInstrument": "Cymbal",
+
+          "drumSetup": {
+            "image": "./assets/images/drum_setup.webp",
+            "alt": "Drum Setup",
+            "ariaLabel": "A drum setup having one Kick Drum and Cymbal."
+          }
+        }
+      },
+      "S4_D1_F10_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Press the <strong>Play</strong> button and hear what it sounds like without ADSR.</div>",
+      "S4_D2_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh, that's… really abrupt. Each beat just starts and stops instantly, with no flow at all.</div>",
+      "S4_D3_F12_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. This is the most basic version of a drum sound. The sound's amplitude jumps instantly to its peak and then drops back to zero, with no transition. The lack of smooth transitions is what makes it feel abrupt.</div>",
+      "S4_D4_F13_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So, what kind of drum is this?</div>",
+      "S4_D5_F14_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's a <strong>kick drum</strong>—it's the deep, low-pitched beat that gives any melody its pulse. In most music, it's used to drive the rhythm.</div>",
+      "S4_D6_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And what about the other one?</div>",
+      "S4_D7_F16_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's the <strong>cymbal</strong>. It's the high-pitched metallic sound that rings out, often used to add emphasis in a beat.</div>",
+      "S4_D8_F17_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Got it. So kick for the deep beat and cymbal for the bright crashes.</div>",
+      "S4_D9_F18_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right. Since we haven't applied ADSR yet, right now, every beat just starts and stops instantly—no smoothness, no natural fade.</div>",
+      "S4_D10_F19_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Okay, I get it now. But can you now explain to me about ADSR?</div>"
+    },
+    "S5": {
+      "S5_D0_F24_C9": {
+        "title": "The ADSR Envelope",
+        "image": "./assets/backgrounds/the-adsr-envelop.webp",
+        "longDescription": "A technical diagram showing the ADSR (Attack, Decay, Sustain, Release) envelope, which is fundamental in sound synthesis. The graph displays amplitude over time, with clear sections marked for each phase. The Attack phase shows the initial rise from zero to maximum amplitude, followed by the Decay phase where the sound drops to the Sustain level. The Sustain phase maintains a constant amplitude while the key is held, and finally, the Release phase shows how the sound fades to silence after the key is released. Each section is color-coded and clearly labeled with detailed explanations of their functions.",
+        "alt": "Sound envelope diagram showing Attack, Decay, Sustain and Release phases."
+      },
+      "S5_D1_F24_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let me break it down:<br><ul style='list-style-type: disc; padding-left: 20px;'><li><strong>Attack</strong> is the beginning. It's how quickly the sound reaches full volume when you trigger a beat. A sharp attack makes it hit instantly, while a slow attack fades in smoothly</li><li><strong>Decay</strong> comes next. It's how quickly the sound drops after that initial peak</li><li><strong>Sustain</strong> is the middle—it's the volume level the sound holds while it plays</li><li><strong>Release</strong> is the end. It's how the sound fades out after the beat stops</li></ul></div>",
+      "S5_D2_F25_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So these stages control how a sound evolves over time?</div>",
+      "S5_D3_F26_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! And each stage follows a mathematical <no-glossary>function</no-glossary> we can adjust. The attack phase is especially important because it shapes how the sound starts. Let's begin by adjusting that.</div>"
+    },
+    "S6": {
+      "S6_D0_F27_C9": {
+        "title": "Attack Phase Function Transformations",
+        "about": {
+          "heading": "Attack Phase Transformations: Understanding the Changes",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Attack phase:</strong> Defines how quickly the amplitude reaches its peak after the sound is triggered</li><li><strong>Vertical Shift</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(f of t plus k)</span><span aria-hidden='true'>(<span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #008217; font-style: italic'>t</span>) + <span style='color: #00749d; font-style: italic'>k</span>)</span></span>: Increasing this value will move the graph up and make the sound start louder, while decreasing it will move the graph down and make the sound start quieter.</li><li><strong>Horizontal Shift</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(f of t plus k)</span><span aria-hidden='true'>(<span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #008217; font-style: italic'>t</span> + <span style='color: #0061fc; font-style: italic'>k</span>))</span></span>: Increasing this value will move the graph to the right and delay the start of the attack phase, while decreasing it will move the graph to the left and make the attack phase start sooner.</li><li><strong>Vertical Scale</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(k times f of t)</span><span aria-hidden='true'>(<span style='color: #677600; font-style: italic'>k</span> × <span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #008217; font-style: italic'>t</span>))</span></span>: Increasing this value will stretch the graph vertically and make the sound louder, while decreasing it will compress the graph vertically and make the sound quieter.</li><li><strong>Horizontal Scale</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(f of k times t)</span><span aria-hidden='true'>(<span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #db0072; font-style: italic'>k</span> × <span style='color: #008217; font-style: italic'>t</span>))</span></span>: Increasing this value will compress the graph horizontally, making the sound reach full volume faster, while decreasing it will stretch the graph horizontally, making the sound reach full volume more slowly.</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to Use Attack Phase Transformations",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Adjust the Sliders</strong>: Use the four sliders to manipulate the Vertical Shift, Vertical Scale, Horizontal Scale, and Horizontal Shift of the attack phase. Each slider affects a different aspect of the sound's attack</li><li><strong>Match the Target Curve</strong>: Your goal is to match the gray dashed curve</li><li><strong>Test with Kick Drum</strong>: After adjusting the sliders, press Play to hear the sound with your transformations applied. You can test the changes you've made to the attack phase and listen to how the sound evolves</li></ul></div>"
+        },
+        "translations": {
+          "originalFunctionLabel": "Original Function",
+          "originalFunctionAriaLabel": " f of T equals 10 T",
+          "transformedFunctionLabel": "Transformed Function",
+          "transformedFunctionAriaLabel": " f of T equals 1.5 times f of 0.8 times the quantity T plus 0.1, all plus 0.2",
+          "targetFunctionLabel": "Target Function",
+          "targetFunctionAriaLabel": "f of T equals 10 T",
+          "functionTransformationsLabel": "Function Transformations",
+          "functionTransDescription": "Adjust the sliders to match the gray dashed target curve precisely. You will see a checkmark (<span style='color: #008217;'>✓</span>) when the sliders are accurately positioned (within ±0.1).",
+          "verticalShiftLabel": "Vertical Shift <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#E0002B] italic'>f</span>(<span className='text-[#008217] italic'>t</span>) + <span className='text-[#00749D] italic'>k</span>)</span><span class='sr-only'>(f of t plus k)</span>",
+          "verticalScaleLabel": "Vertical Scale <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#677600] italic'>k</span> × <span className='text-[#E0002B] italic'>f</span>(<span className='text-[#008217] italic'>t</span>))</span><span class='sr-only'>(k times f of t)</span>",
+          "horizontalShiftLabel": "Horizontal Shift <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#E0002B] italic'>f</span>(<span className='text-[#008217] italic'>t</span> + <span className='text-[#0061FC] italic'>k</span>))</span><span class='sr-only'>(f of t plus k)</span>",
+          "horizontalScaleLabel": "Horizontal Scale <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#E0002B] italic'>f</span>(<span className='text-[#DB0072] italic'>k</span> × <span className='text-[#008217] italic'>t</span>))</span><span class='sr-only'>(f of k times t)</span>",
+          "testLabel": "Test with Kick Drum",
+          "testDescription": "Amplitude values above 1.0 will increase volume and kick drum intensity.",
+          "playLabel": "Click to Play",
+          "transformed": "Transformed",
+          "xAxisLabel": "Time (s)",
+          "yAxisLabel": "Amplitude",
+          "volumeLabel": "Volume",
+          "target": "Target",
+          "functionDescription": "Where <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">t</span> = time in seconds and <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #E0002B; font-style: italic;\">f</span>(<em style=\"color: #008217;\">t</em>)</span> = amplitude at time <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">t</span>.",
+          "attack": "Attack Phase"
+        }
+      },
+      "S6_D1_F27_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The attack phase controls how quickly the sound builds up when a beat starts.</div>",
+      "S6_D2_F28_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So, it's like the first impression of the sound?</div>",
+      "S6_D3_F29_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. Here, the attack phase is modeled by a simple linear function: <em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) = <strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em>. That means the amplitude increases steadily over time.</div>",
+      "S6_D4_F30_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Okay, so it's just a straight line going up?</div>",
+      "S6_D5_F31_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right. The <no-glossary>function</no-glossary> creates a smooth, predictable increase in volume from the moment the beat is triggered. Now let's modify it.</div>",
+      "S6_D6_F32_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>But why would I need to change that? Doesn't the smooth increase work fine?</div>",
+      "S6_D7_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>In some cases, sure. But adjusting how fast the volume rises changes how the sound feels. A slow attack makes it fade in softly, while a fast attack gives it a sharp, punchy start.</div>",
+      "S6_D8_F34_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh, so if the attack is too fast, the sound might feel too harsh, and if it's too slow, it might not stand out?</div>",
+      "S6_D9_F35_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right, that's where function transformations come in. By adjusting the slope, shifts, and scale, you can fine-tune both the timing and intensity of the attack.</div>",
+      "S6_D10_F36_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Got it! So, the <no-glossary>function</no-glossary> gives me a basic structure, and transformations help me shape it the way I want?</div>",
+      "S6_D11_F37_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>You got it. Now, let's try modifying the attack phase step by step!</div>",
+      "S6_D12_F38_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let's start with <strong>Vertical Shift (<em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) + <em style='color: #00749D;'>k</em></em>)</strong>. It moves the graph up or down, adjusting the starting volume.</div>",
+      "S6_D13_F39_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So if I lower it, the sound starts quieter, like it's fading in from a distance?</div>",
+      "S6_D14_F40_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. Now, <strong>Horizontal Shift (<em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em> + <em style='color: #0061FC;'>k</em>)</em>)</strong> moves the graph left or right, changing when the attack phase begins. A right shift delays the sound, while a left shift makes it start sooner.</div>",
+      "S6_D15_F41_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh, so shifts don't change the shape of the attack—just when it starts or how loud it begins?</div>",
+      "S6_D16_F42_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's right. Shifts only change its starting position and starting sound level.</div>",
+      "S6_D17_F43_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now that we've looked at shifting, let's talk about scales. Scaling is important because it lets us adjust the intensity and duration of the sound's attack, making it fit the needs of the composition.</div>",
+      "S6_D18_F44_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So, scaling helps control how dramatic or smooth the attack feels?</div>",
+      "S6_D19_F45_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><strong>Vertical Scale (<em style='font-family: besley;'><em style='color: #677600;'>k</em> × <em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>)</em>)</strong> stretches or compresses the graph vertically, affecting intensity. Scaling up makes the attack stronger, while scaling down softens it.</div>",
+      "S6_D20_F46_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh! So a taller graph means the sound gets louder, but not necessarily faster?</div>",
+      "S6_D21_F47_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's correct. Now, the speed of attack phase is controlled by <strong>Horizontal Scale (<em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #DB0072;'>k</em> × <em style='color: #008217;'>t</em>)</em>)</strong>. It stretches or compresses the graph horizontally, changing how long the attack phase lasts.</div>",
+      "S6_D22_F48_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So if I compress it horizontally, the attack happens much faster, like a sharp entrance?</div>",
+      "S6_D23_F49_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right, scaling reshapes the attack—affecting how quickly and intensely the sound builds, without shifting the whole graph.</div>",
+      "S6_D24_F50_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Before we start transforming the curve, let's understand why we aim to match <em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) = <strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em>.</div>",
+      "S6_D25_F51_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Why this <no-glossary>equation</no-glossary> for the attack phase?</div>",
+      "S6_D26_F52_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) = <strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em> is a simple linear function that gives a clean, smooth rise in volume, ideal for a quick yet controlled attack.</div>",
+      "S6_D27_F53_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So it ensures the sound builds steadily instead of jumping to full volume?</div>",
+      "S6_D28_F54_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes! Now that we understand why we use <em style='font-family: besley;'><strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em> as a reference, let's apply the transformations to fine-tune the attack phase and match the gray dashed <strong>target curve</strong>.</div>",
+      "S6_D29_F55_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It's amazing how each transformation worked together. The vertical changes controlled how loud the sound felt, and the horizontal changes adjusted the timing.</div>",
+      "S6_D30_F56_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's right! The attack phase sets the tone for how a sound begins. With these transformations, you now have the tools to shape it precisely, making beats sound smooth and natural.</div>",
+      "S6_D31_F57_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That makes sense. Adjusting the attack properly helps the beats feel more controlled instead of too sudden.</div>",
+      "S6_D32_F58_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Next, we'll look at the entire ADSR envelope—how the sound evolves from start to finish.</div>"
+    },
+    "S7": {
+      "S7_X": {
+        "S7_D0_FX_C9": {
+          "title": "ADSR Envelope Function",
+          "body": "<img src='./assets/images/adsr_phases.webp' atl='ADSR Envelope' aria-label='Different phases of ADSR envelope along with timings'/><div aria-label=\"f of t equals to f attack of t if t is greater than or equal to 0 and less than A. f decay of t if t is greater than or equal to A and less than A plus D. f sustain if t is greater than or equal to A plus D and less than tr. f release if t is greater than or equal to tr and less than tr plus R. zero if t is greater than or equal to tr plus R.\"><div style='margin-top: 20px; overflow-x: auto; overflow-y: hidden; white-space: nowrap; width: 100%;'><div style='display: inline-flex; align-items: center; gap: 10px; font-size: 24px;'><p style='font-family: Besley; color: #8e24aa; font-weight: bold;'><em><span style='color: #8E24AA;'>f</span>(<span style='color: #008217;'>t</span>)</em></p><p>=</p><p style='font-size: 120px;'>{</p><div><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>attack</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>decay</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>sustain</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>release</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold;\">0,</p></div><div style=\"margin-left: 20px;\"><p style=\"font-family: Besley; font-weight: bold;\">0 &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #e0002b;\">A</em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #e0002b;\">A</em> &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #e0002b;\">A</em> + <em style=\"color: #0055b2;\">D</em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #e0002b;\">A</em> + <em style=\"color: #0055b2;\">D</em> &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #DB0072;\">t<sub>r</sub></em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #DB0072;\">t<sub>r</sub></em> &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #DB0072;\">t<sub>r</sub></em> + <em style=\"color: #677600;\">R</em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #008217;\">t</em> &ge; <em style=\"color: #DB0072;\">t<sub>r</sub></em> + <em style=\"color: #677600;\">R</em></p></div></div></div><div style=\"font-size: 20px; margin-top: 20px; padding-bottom: 24px;\"><p>Where,</p><p><span style='font-family: Besley; color: #8e24aa; font-weight: bold;'><em><span style='color: #8E24AA;'>f</span>(<span style='color: #008217;'>t</span>)</em></span> is the <no-glossary>amplitude</no-glossary> at time <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">t</span></p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #e0002b;\">A</span> is the attack duration</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #0055b2;\">D</span> is the decay duration</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">R</span> is the release duration</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">t<sub>r</sub></span>​ is the time when the note is released</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">S</span> is the sustain level (a constant value)</p></div></div>"
+        },
+        "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The ADSR envelope describes how a sound's amplitude changes over time. Since each phase behaves differently, we model it with a piecewise function.</div>",
+        "S7_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So different equations apply depending on what phase the sound is in?</div>",
+        "S7_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Each segment handles a specific time range. Let's go through each one.</div>",
+        "S7_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The <strong>Attack phase</strong>, starting at time <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = 0</span>, is linear growth up to a peak amplitude at time <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span></span>, which is the attack duration.</div>",
+        "S7_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Then comes the <strong>Decay phase</strong>. From <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span></span> to <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span> + <span style=\"font-style: italic; color: #0055b2;\">D</span></span>, the amplitude decreases from the peak to the sustain level <span style=\"font-family: Besley; font-weight: bold; color: #DB0072; font-style: italic;\">S</span>, where <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #0055b2;\">D</span> is the decay duration.</div>",
+        "S7_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The <strong>Sustain phase</strong> begins at <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span> + <span style=\"font-style: italic; color: #0055b2;\">D</span></span> and lasts as long as the note is held. During this phase, the amplitude stays constant at the sustain level <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">S</span>.</div>",
+        "S7_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>When the note is released at time <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"color: #00749D; font-style: italic;\">t<sub>r</sub></span></span>, the <strong>Release phase</strong> starts. Over the next <span style=\"font-family: Besley; font-weight: bold; color: #677600; font-style: italic;\">R</span> units of time, the amplitude drops from <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">S</span> to <span style=\"font-family: Besley; font-weight: bold;\">0</span>, ending at <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"color: #00749D; font-style: italic;\">t<sub>r</sub></span> + <span style=\"font-style: italic; color: #677600;\">R</span></span>.</div>",
+        "S7_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Got it. So the amplitude just follows the shape defined by those four phases.</div>",
+        "S7_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. Each one shapes the sound in time — from the very start to the moment it fades out.</div>"
+      },
+      "S7_D0_F59_C9": {
+        "title": "ADSR Transformations on Kick Drum",
+        "about": {
+          "heading": "ADSR Envelope Transformations: Understanding the Changes",
+          "body": "<div><p><strong>ADSR Envelope:</strong> The ADSR envelope defines the shape of a sound over time, broken into four phases:</p><ul style='list-style-type: disc;margin: 10px 0px 10px 10px;padding-left: 20px;'><li><strong>Attack:</strong> The initial rise in amplitude, from zero to peak</li><li><strong>Decay:</strong> The drop in amplitude after the peak, leading to the sustain level</li><li><strong>Sustain:</strong> The steady amplitude while the note is held</li><li><strong>Release:</strong> The gradual fade-out of sound after the note is released</li></ul><p style='font-weight: bold'>Transformation Parameters:</p><ul style='list-style-type: disc;margin: 10px 0px 10px 10px;padding-left: 20px;'><li><strong>Vertical Shift:</strong> Moves the graph up or down, adjusting the starting volume or baseline level of the sound without changing its shape.</li><li><strong>Horizontal Shift:</strong> Moves the graph left or right, adjusting when each ADSR phase begins in time.</li><li><strong>Vertical Scale:</strong> Stretches or compresses the graph vertically, increasing or decreasing the volume of the sound across the ADSR phases.</li><li><strong>Horizontal Scale:</strong> Stretches or compresses the graph horizontally, changing the duration of each phase (e.g., how quickly the sound reaches full volume).</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to Use ADSR Transformation",
+          "body": "<div><ul style='list-style-type: disc;margin: 10px 0px 10px 10px;padding-left: 20px;'><li><strong>Adjust the Sliders:</strong> You can modify the Vertical Shift, Vertical Scale, Horizontal Scale, and Horizontal Shift parameters to transform the ADSR envelope</li><li><strong>Match the Target Envelope:</strong> Your goal is to match the solid curve to the dashed curve. You will see a checkmark (<span style='color: #008217;'>✓</span>) when the sliders are accurately positioned</li><li><strong>Test with Kick Drum:</strong> After adjusting the sliders, press the Play button to listen to how the transformations impact the ADSR envelope and the overall sound</li></ul></div>"
+        },
+        "translations": {
+          "adsrValuesLabel": "<span className='font-bold'>ADSR Values:</span> Attack = 0.01s, Decay = 0.2s, Sustain = 80%, Sustain Time = 0.2s, Release = 0.2s",
+          "transformationsParamsLabel": "Transformation Parameters",
+          "verticalShiftLabel": "Vertical Shift",
+          "verticalScaleLabel": "Vertical Scale",
+          "horizontalShiftLabel": "Horizontal Shift",
+          "horizontalScaleLabel": "Horizontal Scale",
+          "testLabel": "Test with Kick Drum",
+          "playLabel": "Click to Play",
+          "transformed": "Transformed",
+          "xAxisLabel": "Time (s)",
+          "yAxisLabel": "Amplitude",
+          "target": "Target"
+        }
+      },
+      "S7_D10_F64_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now, let's apply these concepts. Your goal is to match the gray dashed curve, which represents a target ADSR envelope. Use the sliders to adjust the amplitude and timing for each phase.</div>",
+      "S7_D11_F65_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Why are we matching it?</div>",
+      "S7_D12_F66_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Because this <strong>target curve</strong> represents the ideal sound shape we want to create for our kick drum. Matching it ensures the sound evolves in a smooth, natural way, fitting the rhythm.</div>",
+      "S7_D13_F67_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Got it! Let me give it a try and match the curve.</div>",
+      "S7_D14_F68_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Adjusting the sliders really helped me understand how each phase controls how a sound develops and fades over time.</div>",
+      "S7_D15_F69_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Well done, Micah! By learning these transformations, you can now shape not just the attack phase, but the entire way a sound evolves in a beat.</div>",
+      "S7_D16_F70_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This makes so much sense now. I see how adjusting the envelope lets the sound flow naturally instead of feeling too abrupt.</div>",
+      "S7_D17_F71_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Great job adjusting the ADSR envelope for the kick drum! Now, let's apply the same concept to the cymbal.</div>"
+    },
+    "S8": {
+      "S8_D0_F72_C9": {
+        "title": "ADSR Transformations on Cymbal",
+        "about": {
+          "heading": "ADSR Envelope Transformations: Modifying the Cymbal Sound",
+          "body": "<div><p style='font-weight: bold'>Transformation Parameters:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Vertical Shift:</strong> Moves the graph up or down, adjusting the starting volume or baseline level of the sound without changing its shape.</li><li><strong>Horizontal Shift:</strong> Moves the graph left or right, adjusting when each ADSR phase begins in time.</li><li><strong>Vertical Scale:</strong> Stretches or compresses the graph vertically, increasing or decreasing the volume of the sound across the ADSR phases.</li><li><strong>Horizontal Scale:</strong> Stretches or compresses the graph horizontally, changing the duration of each phase (e.g., how quickly the sound reaches full volume).</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to Use ADSR Transformation",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Adjust the Sliders:</strong> You can modify the Vertical Shift, Vertical Scale, Horizontal Scale, and Horizontal Shift parameters to transform the ADSR envelope</li><li><strong>Match the Target Envelope:</strong> Your goal is to match the solid curve to the dashed curve. You will see a checkmark (<span style='color: #008217;'>✓</span>) when the sliders are accurately positioned</li><li><strong>Test with Cymbal:</strong> After adjusting the sliders, press the <strong>Play</strong> button to listen to how the transformations impact the ADSR envelope and the overall sound</li></ul></div>"
+        },
+        "translations": {
+          "adsrValuesLabel": "<span className='font-bold'>ADSR Values:</span> Attack = 0.1s, Decay = 0.4s, Sustain = 10%, Sustain Time = 0.2s, Release = 0.8s",
+          "transformationsParamsLabel": "Transformation Parameters",
+          "verticalShiftLabel": "Vertical Shift",
+          "verticalScaleLabel": "Vertical Scale",
+          "horizontalShiftLabel": "Horizontal Shift",
+          "horizontalScaleLabel": "Horizontal Scale",
+          "testLabel": "Test with Cymbal Sound",
+          "playLabel": "Click to Play",
+          "transformed": "Transformed",
+          "xAxisLabel": "Time (s)",
+          "yAxisLabel": "Amplitude",
+          "target": "Target"
+        }
+      },
+      "S8_D1_F72_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh, right! The cymbal doesn't hit like a kick drum—it rings out for a while.</div>",
+      "S8_D2_F73_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! The attack is usually very short, but the release is much longer since the sound naturally fades over time. Your goal is to match the gray dashed <strong>target curve</strong> for the cymbal's ADSR envelope.</div>",
+      "S8_D3_F74_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tuning the settings really helped me see how each phase controls how the cymbal's sound builds and fades.</div>",
+      "S8_D4_F75_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Well done, Micah! Now you can shape not just short, punchy sounds like the kick drum, but also long, ringing sounds like the cymbal.</div>"
+    },
+    "S9": {
+      "S9_D0_F76_C9": {
+        "title": "Remix Beats with ADSR",
+        "about": {
+          "heading": "ADSR Sound Shaping",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Kick Drum</strong>: The kick drum is a low-pitched drum sound that typically provides the pulse or foundation of a beat</li><li><strong>Cymbal</strong>: A cymbal is a high-pitched, metallic percussion instrument often used to emphasize a rhythmic pattern or add texture</li></ul></div>"
+        },
+        "help": {
+          "heading": "ADSR Beat Shaper: Understanding the Controls",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Adjusting the ADSR</strong>: Use the ADSR values found earlier for each of the instrument and hear the difference</li></ul></div>"
+        },
+        "translations": {
+          "ariaLabel": "Waveform Visualizer",
+          "playLabel": "Play",
+          "stopLabel": "Stop",
+          "kickInstrument": "Kick",
+          "cymbalInstrument": "Cymbal",
+          "kickTempo": "Kick Tempo (BPM)",
+          "cymbalTempo": "Cymbal Tempo (BPM)",
+          "presetsLabel": "Rhythm Pattern Presets",
+          "secondsLabel": "seconds",
+          "attack": "Attack",
+          "decay": "Decay",
+          "sustain": "Sustain",
+          "release": "Release",
+          "editingLabel": "Editing",
+          "selectedLabel": "Selected"
+        }
+      },
+      "S9_D1_F76_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now that you understand the ADSR envelope, let's apply it to shape the final sound. Can you recall how each phase works?</div>",
+      "S9_D2_F77_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yeah! Attack controls how the sound begins, decay adjusts how it settles after the peak, sustain determines how long it holds, and release controls how it fades out.</div>",
+      "S9_D3_F78_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes, earlier, we explored how transformations affect these phases. But before we apply our final ADSR values—let's hear the beat again without any shaping. Click the <strong>Play</strong> button.</div>",
+      "S9_D4_F79_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right, it still sounds rough and harsh. Nothing flows or holds.</div>",
+      "S9_D5_F80_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's because it's missing dynamic shaping. Now, let's apply the final ADSR values we arrived at to both the kick drum and cymbal.</div>",
+      "S9_D6_F81_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So, these are the values we determined earlier—not new transformations?</div>",
+      "S9_D7_F82_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's right! These settings give each beat proper balance, helping each sound take its space and feel more intentional.</div>",
+      "S9_D8_F83_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Adjust the ADSR values for the kick drum and hear the difference. Use the sliders to set the values we established earlier.<br><ul style='list-style-type: disc; padding-left: 20px; margin-top: 10px;'><li><strong>Attack:</strong> <strong>0.01s</strong> for a sharp impact</li><li><strong>Decay:</strong> <strong>0.2s</strong> to control the drop-off</li><li><strong>Sustain:</strong> <strong>0.8</strong> (<strong>80%</strong> amplitude) to keep the body of the sound</li><li><strong>Release:</strong> <strong>0.2s</strong> for a clean finish</li></ul></div>",
+      "S9_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now switch to cymbal and adjust the ADSR values for it. Use the sliders to set the values.<br><ul style='list-style-type: disc; padding-left: 20px; margin-top: 10px;'><li><strong>Attack:</strong> <strong>0.1s</strong> for a smooth onset</li><li><strong>Decay:</strong> <strong>0.4s</strong> to let it settle</li><li><strong>Sustain:</strong> <strong>0.1</strong> (<strong>10%</strong> amplitude) to maintain a subtle presence</li><li><strong>Release:</strong> <strong>0.8s</strong> for a natural fade-out</li></ul></div>",
+      "S9_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Great! Now that we’ve adjusted the ADSR values let’s hear the beat again. Click the <strong>Play</strong> button.</div>",
+      "S9_D11_F84_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Whoa! The kick sounds controlled, and the cymbal rings out smoothly. Everything feels more balanced now.</div>",
+      "S9_D12_F85_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right, by shaping each sound with ADSR, we control how they interact, making the beat sound natural and well-defined.</div>"
+    },
+    "S10": {
+      "S10_D1_F86_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Thank you, Dr. Whitaker. Understanding the math behind sound shaping has completely changed how I think about music. Now, I have the tools to adjust ADSR and shape beats with precision.</div>",
+      "S10_D2_F87_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>You've done an incredible job, Micah! Music is where math and creativity meet, and now you can use both to craft any sound exactly how you want it.</div>",
+      "S10_D3_F88_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yeah! It's amazing how small adjustments can change the entire feel of a beat. I never realized how much control ADSR gives over sound.</div>",
+      "S10_D4_F89_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! Whether you're working with a drum kit, a synth, or even a live instrument, these concepts help shape the way sound moves and evolves.</div>"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You've explored ADSR and Function Transformations",
+      "content": "<p style='padding-bottom: 10px;'>Congratulations! You completed the Mathematics of Music STEAMQuest</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Dr. Ava Whitaker shape dynamic beats using the ADSR envelope</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You explored how function transformations impact the amplitude and timing across the Attack, Decay, Sustain, and Release phases</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You gained experience with piecewise-defined functions to refine the dynamics of both the kick drum and cymbal</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You applied mathematical tools to shape beats and create a natural flow in your composition</li></ul><p>Keep going! Your journey of shaping sound with math continues.</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_13904_1187' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_13904_1187)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M38.8213 0.77832C39.8527 0.430375 40.9382 0.408778 41.9727 0.712891L42.1797 0.77832L42.1816 0.779297L69.9854 10.0576L69.9863 10.0586L70.0527 10.0811C72.1286 10.7782 73.4998 12.6559 73.5 14.7471V30.7256C73.5 41.354 70.2211 51.6383 64.249 59.8047L63.6621 60.5879C57.5446 68.3917 49.7931 73.9009 40.5049 75.4902C20.4753 71.8118 7.69465 51.2098 7.50195 31.6611L7.50293 30.7295V14.7471C7.50293 12.7173 8.7897 10.891 10.7568 10.1484L10.9492 10.0801L38.8203 0.779297L38.8213 0.77832Z' fill='#FFCC00' stroke='black'/><circle cx='40' cy='38' r='17.5' fill='black' stroke='black'/><circle cx='40' cy='35' r='17.5' fill='white' stroke='black'/><path d='M47.7869 26.4049C47.6269 26.0245 47.3376 25.7438 46.9922 25.6338C46.6467 25.5237 46.2782 25.595 45.9798 25.8293C45.6813 26.0637 45.4817 26.4388 45.4311 26.86L44.5129 34.503L42.8539 28.5825C42.767 28.2603 42.5891 27.9838 42.3505 27.7998C42.1118 27.6158 41.827 27.5356 41.5442 27.5727C41.2621 27.606 40.9978 27.7524 40.7948 27.9877C40.5917 28.2231 40.4619 28.5334 40.4266 28.8679L39.7151 35.6366L37.8917 24.796C37.8354 24.4608 37.6835 24.1588 37.4619 23.941C37.2402 23.7233 36.9623 23.6031 36.6747 23.6006H36.6658C36.3798 23.6006 36.1024 23.7174 35.8798 23.9313C35.6574 24.145 35.5033 24.4432 35.4431 24.7758L33.8371 33.6896L32.8352 30.5134C32.7498 30.2425 32.5999 30.0069 32.4037 29.8357C32.2074 29.6647 31.9735 29.5654 31.7305 29.5503C31.4868 29.5308 31.2439 29.5984 31.0328 29.7445C30.8218 29.8907 30.6522 30.1085 30.546 30.3701L29.225 33.5135H28.3304C27.8837 33.5135 27.4709 33.7969 27.2475 34.257C27.0242 34.717 27.0242 35.2839 27.2475 35.7439C27.4709 36.204 27.8836 36.4874 28.3304 36.4874H29.9975C30.2297 36.4874 30.4574 36.4106 30.6548 36.2653C30.8524 36.1202 31.0121 35.9124 31.116 35.6655L31.5011 34.7498L32.9949 39.4875H32.9947C33.122 39.8916 33.3907 40.2101 33.7309 40.36C34.0712 40.5101 34.4494 40.4768 34.7675 40.2691C35.0855 40.0612 35.312 39.6994 35.3879 39.2775L36.6235 32.4188L38.7741 45.2051L38.7742 45.205C38.8307 45.5418 38.9838 45.8451 39.2071 46.0631C39.4303 46.281 39.7104 46.4003 39.9992 46.4006L40.0456 46.3997V46.3995C40.3423 46.3866 40.6253 46.2486 40.8442 46.0103C41.0632 45.7719 41.2037 45.4488 41.2406 45.0984L42.2239 35.742L43.8145 41.4187C43.9342 41.8456 44.2099 42.1851 44.5646 42.342C44.9192 42.499 45.3145 42.4566 45.6397 42.2266C45.9651 41.9965 46.1852 41.6037 46.2386 41.1583L47.3407 31.9926L48.884 35.6656L48.8842 35.6654C48.988 35.9125 49.1477 36.12 49.3452 36.2652C49.5428 36.4105 49.7703 36.4873 50.0026 36.4873H51.6697C52.1164 36.4873 52.5291 36.2038 52.7525 35.7438C52.9759 35.2838 52.9759 34.7169 52.7525 34.2568C52.5291 33.7968 52.1164 33.5134 51.6697 33.5134H50.7759L47.7869 26.4049Z' fill='black'/></g></svg>",
+      "rightsvg": "<svg width='90' height='79' viewBox='0 0 90 79' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' d='M72.1216 9.71664C71.5641 8.39853 70.5566 7.42603 69.3536 7.04504C68.1501 6.66346 66.8668 6.91033 65.8276 7.72235C64.7879 8.53436 64.0925 9.83421 63.9165 11.2935L60.7184 37.7758L54.9401 17.2618C54.6375 16.1455 54.0178 15.1874 53.1868 14.5499C52.3553 13.9123 51.3632 13.6343 50.3783 13.7631C49.3958 13.8785 48.4753 14.3857 47.7681 15.2009C47.0609 16.0167 46.6086 17.0917 46.4857 18.2509L44.0075 41.7038L37.6567 4.14209C37.4607 2.9807 36.9318 1.93419 36.1596 1.17963C35.3876 0.425048 34.4196 0.00858703 33.418 0H33.3871C32.391 0 31.4248 0.40466 30.6495 1.14582C29.8747 1.88645 29.3381 2.91956 29.1285 4.07187L23.5348 34.9577L20.045 23.9523C19.7479 23.0136 19.2257 22.1974 18.5422 21.6042C17.8586 21.0117 17.0439 20.6677 16.1974 20.6151C15.3487 20.5475 14.5026 20.782 13.7673 21.2881C13.0324 21.7948 12.4418 22.5494 12.0721 23.4558L7.47094 34.3473H4.35498C2.79909 34.3473 1.36154 35.3294 0.583476 36.9234C-0.194492 38.5174 -0.194492 40.4816 0.583476 42.0756C1.36144 43.6696 2.79898 44.6517 4.35498 44.6517H10.1614C10.9702 44.6517 11.7632 44.3855 12.4509 43.8821C13.139 43.3792 13.6952 42.6595 14.0572 41.804L15.3986 38.6311L20.6012 55.0468H20.6008C21.044 56.4469 21.9798 57.5504 23.1647 58.0699C24.35 58.59 25.6674 58.4746 26.7751 57.7549C27.8829 57.0347 28.6717 55.781 28.9362 54.319L33.2398 30.5542L40.7301 74.8578L40.7305 74.8572C40.9274 76.0246 41.4604 77.0754 42.2383 77.8306C43.0158 78.5857 43.9912 78.9989 44.9973 79L45.1588 78.9968V78.9962C46.1921 78.9517 47.1779 78.4735 47.9404 77.6475C48.703 76.8216 49.1924 75.7021 49.3208 74.4881L52.7457 42.0689L58.2858 61.738C58.7027 63.2172 59.663 64.3936 60.8983 64.9372C62.1335 65.4814 63.5102 65.3344 64.643 64.5374C65.7761 63.7404 66.5427 62.3794 66.7287 60.8359L70.5674 29.0776L75.9428 41.8042L75.9433 41.8036C76.3048 42.6596 76.861 43.3788 77.5491 43.8817C78.2373 44.3851 79.0298 44.6513 79.8386 44.6513H85.645C87.2009 44.6513 88.6385 43.6692 89.4165 42.0752C90.1945 40.4812 90.1945 38.517 89.4165 36.923C88.6386 35.3289 87.201 34.3469 85.645 34.3469H82.5322L72.1216 9.71664Z' fill='white'/></svg>",
+      "leftsvgarialabel": "Audio waves icon"
+    },
+    "glossary": {
+      "adsr_envelope": {
+        "word": "ADSR envelope",
+        "definition": "An <strong className=\"text-[#0055B2]\">ADSR envelope</strong> is a way to shape the amplitude (loudness) of a sound over time, particularly in synthesizers. ADSR stands for Attack, Decay, Sustain, and Release, which are the four parameters that define the envelope's behavior. <div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/adsr.webp' alt='ADSR Envelope' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;'/></div>"
+      },
+      "function_transformations": {
+        "word": "function transformations",
+        "definition": "<strong className=\"text-[#0055B2]\">Function Transformations</strong> are modifications made to the graph of a function, such as translations, reflections, stretches, or compressions, that change its position or shape on a coordinate plane."
+      },
+      "amplitude": {
+        "word": "amplitude",
+        "definition": "<strong className=\"text-[#0055B2]\">Amplitude</strong> is the measure of the strength or intensity of a sound wave."
+      },
+      "envelope": {
+        "word": "Envelope",
+        "definition": "<strong className=\"text-[#0055B2]\">Envelope</strong> refers to the shape of a sound's amplitude over time."
+      },
+      "piecewise_function": {
+        "word": "Piecewise Function",
+        "definition": "<strong className=\"text-[#0055B2]\">Piecewise Function</strong> is a mathematical function defined by different expressions for different intervals of the input variable."
+      },
+      "pitch": {
+        "word": "Pitch",
+        "definition": "<strong className=\"text-[#0055B2]\">Pitch</strong> refers to the perceived frequency of a sound, determining whether it sounds high or low."
+      },
+      "digital_synthesizer": {
+        "word": "digital synthesizer",
+        "definition": "<strong className=\"text-[#0055B2]\">Digital Synthesizer</strong> is an electronic instrument that is used to generate and manipulate sound, allowing for a wide range of tones, effects, and musical expressions."
+      },
+      "note": {
+        "word": "note",
+        "definition": "A <strong className=\"text-[#0055B2]\">note</strong> is a single sound that is played or sung. It starts when the sound begins and ends when it stops."
+      }
+    },
+    "common": {
+      "whitaker": "Dr. Whitaker",
+      "micah": "Micah",
+      "whitaker_description": "A woman with glasses and headphones holding tablet in leather jacket.",
+      "micah_description": "A young person with headphones holding tablet wearing dark jacket.",
+      "vertical_shift": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Vertical Shift (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em>) + <em style='color: #00749D;'>k</em></em>):</div>",
+      "vertical_scale": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Vertical Scale (<em style='font-family: besley;'><em style='color: #677600;'>k</em> × <em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em>)</em>):</div>",
+      "horizontal_shift": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Horizontal Scale (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #DB0072;'>k</em> × <em style='color: #008217;'>t</em>)</em>):</div>",
+      "horizontal_scale": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Horizontal Shift (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em> + <em style='color: #0061FC;'>k</em>)</em>):</div>",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Modern building on snowy shore with two people walking.",
+      "bg2_description": "Modern interior with digital displays overlooking snowy mountain landscape.",
+      "bg3_description": "Sound recording studio with wood panels overlooking snow-covered landscape.",
+      "bg4_description": "Person working at desk with large windows overlooking snowy mountains.",
+      "bg5_description": "Conference room with people watching presentation, windows overlooking arctic landscape."
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "shaping-sound": "STEAM Quest - Shaping Sound"
+  }
+}

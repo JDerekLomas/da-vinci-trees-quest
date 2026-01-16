@@ -1,0 +1,130 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "The Problem",
+    "scene_3": "What is a Matrix?",
+    "scene_4": "The Multiplication Rule",
+    "scene_5": "Practice",
+    "scene_6": "Scaling Up",
+    "scene_7": "Real Application",
+    "scene_7b": "Image Transformation",
+    "scene_8": "Matrix Math in AI",
+    "scene_9": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Start again",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct!",
+      "try-again": "Try again",
+      "submit": "Submit"
+    }
+  },
+  "start": {
+    "title": "<div style='font-size: 36px; line-height: 54px; font-weight: 700;'>Matrix Multiplication</div> <div style='font-size: 24px; line-height: 36px; font-weight: 700;'>The Math Behind Game Graphics</div>",
+    "description": "Join Alex, a game development intern, as they discover how matrices power the graphics transformations in video games. Learn the fundamentals of matrix multiplication and see math in action!",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "common": {
+      "alex": "Alex",
+      "alex_description": "A young game development intern in their early 20s with short neat dark hair combed to the side, wearing glasses and a casual tech hoodie over a gaming t-shirt. They look enthusiastic and curious.",
+      "dr_chen": "Dr. Chen",
+      "dr_chen_description": "Dr. Maya Chen, a senior graphics engineer in her 40s with long dark hair pulled back, wearing a professional blazer. She has a confident, mentoring demeanor.",
+      "quest_progress": "Quest progress",
+      "bg1_description": "A modern game development studio lobby with sleek furniture, game artwork on walls, and large monitors displaying game demos.",
+      "bg2_description": "A bright computer lab with rows of workstations, mathematical equations on whiteboards, and 3D modeling software on screens.",
+      "bg3_description": "A cozy office space with dual monitors showing code and graphics, surrounded by game memorabilia and tech books.",
+      "bg4_description": "A creative workspace with sketches of game characters, 3D models on screen, and colorful sticky notes with math formulas.",
+      "bg5_description": "A high-tech visualization room with large displays showing 3D graphics and matrix transformations in action."
+    },
+    "the-problem": {
+      "alex_confused": "Dr. Chen! The character model I'm working on keeps getting distorted when I try to rotate it. The scaling is all wrong too. What's happening?",
+      "chen_introduction": "Ah, you've discovered one of the fundamental challenges in computer graphics! Every transformation you see in games - rotation, scaling, translation - is powered by matrix multiplication.",
+      "alex_question": "Matrix multiplication? I learned about matrices in math class, but I never thought they'd be this important for game development!"
+    },
+    "what-is-matrix": {
+      "matrix_intro": {
+        "title": "What is a Matrix?",
+        "content": "<div style='font-size: 20px; line-height: 30px;'><p style='margin-bottom: 16px;'>A <strong style='color: #006BE0;'>matrix</strong> is a rectangular array of numbers arranged in rows and columns.</p><div style='font-size: 24px; text-align: center; margin: 20px 0; font-family: serif;'>\\[A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}\\]</div><p>This is a <strong style='color: #006BE0;'>2×2 matrix</strong> - it has 2 rows and 2 columns.</p></div>",
+        "about_heading": "Why Matrices?",
+        "about": "<div><p style='margin-bottom: 12px;'>Matrices are perfect for representing transformations because:</p><ul style='list-style: none; padding: 0;'><li style='margin-bottom: 8px;'><span style='color: #006BE0; font-weight: bold;'>•</span> They can encode multiple operations at once</li><li style='margin-bottom: 8px;'><span style='color: #006BE0; font-weight: bold;'>•</span> Multiplying matrices combines transformations</li><li style='margin-bottom: 8px;'><span style='color: #006BE0; font-weight: bold;'>•</span> GPUs are optimized for matrix math</li></ul></div>"
+      },
+      "chen_explanation": "Think of a matrix as a compact way to store related numbers. In graphics, we use matrices to describe how to transform points in space.",
+      "alex_understanding": "So instead of writing separate equations for x and y, we can put everything in one matrix?",
+      "dimensions": {
+        "title": "Matrix Dimensions",
+        "content": "<div style='font-size: 20px; line-height: 30px;'><p style='margin-bottom: 16px;'>We describe a matrix by its <strong style='color: #006BE0;'>dimensions</strong>: rows × columns</p><div style='display: flex; justify-content: space-around; margin: 20px 0;'><div style='text-align: center;'><div style='font-size: 20px; font-family: serif;'>\\[\\begin{bmatrix} 1 & 2 \\end{bmatrix}\\]</div><p style='color: #666;'>1×2</p></div><div style='text-align: center;'><div style='font-size: 20px; font-family: serif;'>\\[\\begin{bmatrix} 1 \\\\ 2 \\end{bmatrix}\\]</div><p style='color: #666;'>2×1</p></div><div style='text-align: center;'><div style='font-size: 20px; font-family: serif;'>\\[\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}\\]</div><p style='color: #666;'>2×2</p></div></div></div>"
+      },
+      "chen_dimensions": "Exactly! And for multiplying matrices, the dimensions matter. You can only multiply an m×n matrix by an n×p matrix."
+    },
+    "multiplication-rule": {
+      "rule": {
+        "title": "The Multiplication Rule",
+        "content": "<div style='font-size: 20px; line-height: 30px;'><p style='margin-bottom: 16px;'>To multiply matrices, we use the <strong style='color: #006BE0;'>row-by-column</strong> method:</p><div style='font-size: 18px; text-align: center; margin: 20px 0; font-family: serif;'>\\[\\begin{bmatrix} {\\color{#E53935}a} & {\\color{#E53935}b} \\\\ c & d \\end{bmatrix} \\times \\begin{bmatrix} {\\color{#1E88E5}e} & f \\\\ {\\color{#1E88E5}g} & h \\end{bmatrix} = \\begin{bmatrix} {\\color{#7B1FA2}ae+bg} & af+bh \\\\ ce+dg & cf+dh \\end{bmatrix}\\]</div><p>Each element is the <strong style='color: #7B1FA2;'>dot product</strong> of a row and a column.</p></div>",
+        "about_heading": "Row × Column",
+        "about": "<div><p style='margin-bottom: 12px;'>For the element in row i, column j:</p><ol style='padding-left: 20px;'><li style='margin-bottom: 8px;'>Take row i from the first matrix</li><li style='margin-bottom: 8px;'>Take column j from the second matrix</li><li style='margin-bottom: 8px;'>Multiply corresponding elements</li><li style='margin-bottom: 8px;'>Add them all up!</li></ol></div>"
+      },
+      "chen_row_column": "Here's the key insight: each element in the result comes from multiplying one row by one column. Let me show you with a simple example.",
+      "alex_pattern": "Oh, I see the pattern! For the top-left element, I multiply the first row by the first column and add the products together.",
+      "chen_confirm": "Exactly right! Now let's practice with some numbers."
+    },
+    "practice": {
+      "calculator": {
+        "heading": "Matrix Multiplication Calculator",
+        "about_heading": "How It Works",
+        "about": "<div><p style='margin-bottom: 12px;'>This calculator shows you step-by-step matrix multiplication.</p><p style='margin-bottom: 12px;'>Watch how each element in the result is calculated from the corresponding row and column.</p><p>Try changing the input values to see how the result changes!</p></div>",
+        "help_heading": "Need Help?",
+        "help": "<div><p style='margin-bottom: 12px;'><strong>To find element (1,1):</strong></p><ol style='padding-left: 20px;'><li>Multiply first element of Row 1 by first element of Column 1</li><li>Multiply second element of Row 1 by second element of Column 1</li><li>Add the two products together</li></ol></div>"
+      },
+      "chen_try_it": "Let's try multiplying these two 2×2 matrices. What value goes in the top-left position of the result?",
+      "alex_success": "I got it! I multiplied the first row by the first column: (1×5) + (2×7) = 5 + 14 = 19!"
+    },
+    "scaling-up": {
+      "chen_3d": "Now here's where it gets really powerful. In 3D graphics, we use 4×4 matrices to handle rotation, scaling, AND translation all at once. This is called a transformation matrix.",
+      "alex_realization": "So when I was having problems with my character model, it was probably because I was applying the matrices in the wrong order?"
+    },
+    "application": {
+      "visualizer": {
+        "heading": "Transformation Visualizer",
+        "about_heading": "What You're Seeing",
+        "about": "<div><p style='margin-bottom: 12px;'>This visualizer shows how matrix multiplication transforms a shape.</p><p style='margin-bottom: 12px;'><strong style='color: #E53935;'>Rotation Matrix:</strong> Rotates the shape</p><p style='margin-bottom: 12px;'><strong style='color: #1E88E5;'>Scaling Matrix:</strong> Makes it bigger or smaller</p><p>Watch the shape transform as you adjust the values!</p></div>"
+      },
+      "chen_demo": "Watch what happens when we apply different transformation matrices to this shape. Each matrix multiplication changes its position, rotation, or size.",
+      "alex_amazed": "This is incredible! The math we just learned is actually making the graphics work!",
+      "chen_conclusion": "And that's just the beginning! Game engines use these same principles for everything from character animations to camera movements. Matrix multiplication is the foundation of all computer graphics."
+    },
+    "image-transformer": {
+      "title": "Image Transformer",
+      "heading": "See Matrices Transform Images",
+      "about_heading": "What's Happening",
+      "about": "<div><p style='margin-bottom: 12px;'>Every pixel in game graphics goes through matrix transformations.</p><p style='margin-bottom: 12px;'><strong style='color: #4F46E5;'>Rotation</strong> spins the image around its center</p><p style='margin-bottom: 12px;'><strong style='color: #059669;'>Scale X/Y</strong> stretches or squashes the image</p><p style='margin-bottom: 12px;'><strong style='color: #7C3AED;'>Shear</strong> slants the image diagonally</p><p>The matrix values update in real-time as you adjust the sliders!</p></div>",
+      "chen_intro": "Now let's see what these matrices actually do to a game sprite. This is exactly what happens to every character and object in a video game - thousands of times per second!",
+      "alex_wow": "Wow! I can actually see the numbers in the matrix changing as I move the sliders. So when the game rotates my character, it's multiplying every vertex by a matrix like this?"
+    },
+    "ai-connection": {
+      "alex_question": "This is amazing for game graphics, but I've heard that AI also uses a lot of matrix multiplication. Is that true?",
+      "chen_ai_intro": "Absolutely! Neural networks - the technology behind ChatGPT, image recognition, and game AI - are essentially giant matrix multiplication machines. Each layer of a neural network multiplies your input by a weight matrix, then passes it to the next layer.",
+      "alex_amazed": "So when I'm chatting with an AI or when a game opponent predicts my moves, it's all just matrices being multiplied together?",
+      "chen_gpu_connection": "Exactly! And here's the connection: GPUs were originally built for game graphics, which is all matrix math. It turns out the same hardware is perfect for AI. That's why gaming GPUs became the foundation of the AI revolution - they're matrix multiplication powerhouses!"
+    },
+    "quest_completion": {
+      "learning_points": "<div style='text-align: center;'><h2 style='font-size: 32px; margin-bottom: 24px; color: #1E88E5;'>Quest Complete!</h2><div style='text-align: left; font-size: 18px; line-height: 28px;'><p style='margin-bottom: 16px;'><strong>What You Learned:</strong></p><ul style='list-style: none; padding: 0;'><li style='margin-bottom: 12px;'>✓ Matrices are rectangular arrays of numbers with rows and columns</li><li style='margin-bottom: 12px;'>✓ Matrix dimensions are written as rows × columns</li><li style='margin-bottom: 12px;'>✓ Matrix multiplication uses the row-by-column method</li><li style='margin-bottom: 12px;'>✓ The result element (i,j) is the dot product of row i and column j</li><li style='margin-bottom: 12px;'>✓ Transformation matrices power all computer graphics</li><li style='margin-bottom: 12px;'>✓ Neural networks and AI are built on matrix multiplication</li><li style='margin-bottom: 12px;'>✓ GPUs excel at both game graphics AND AI because both rely on matrix math</li></ul></div></div>"
+    },
+    "glossary": {
+      "transformation_matrix": {
+        "word": "transformation matrix",
+        "definition": "<div><strong>Transformation Matrix</strong><p style='margin-top: 8px;'>A matrix that, when multiplied with a point or vector, changes its position, rotation, or scale. In 3D graphics, 4×4 transformation matrices are used to combine multiple transformations into a single operation.</p></div>"
+      },
+      "dot_product": {
+        "word": "dot product",
+        "definition": "<div><strong>Dot Product</strong><p style='margin-top: 8px;'>The sum of products of corresponding elements. For vectors [a, b] and [c, d], the dot product is ac + bd.</p></div>"
+      },
+      "neural_network": {
+        "word": "neural network",
+        "definition": "<div><strong>Neural Network</strong><p style='margin-top: 8px;'>A type of AI that learns patterns from data. It consists of layers of nodes that process information through matrix multiplications and activation functions. Neural networks power ChatGPT, image recognition, and many game AI systems.</p></div>"
+      }
+    }
+  }
+}

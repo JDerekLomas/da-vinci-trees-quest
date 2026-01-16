@@ -1,0 +1,48 @@
+import { TheLadderProblemConfig } from '../interactives/interface';
+
+const theLadderProblemConfig: TheLadderProblemConfig = {
+  translations: {
+    title: 'scenes.S10.S10_D0_FX_C9.title',
+    heightOnWallLabel: 'scenes.S10.S10_D0_FX_C9.heightOnWallLabel',
+    distanceFromWallLabel: 'scenes.S10.S10_D0_FX_C9.distanceFromWallLabel',
+    ladderLengthLabel: 'scenes.S10.S10_D0_FX_C9.ladderLengthLabel',
+    ladderLengthSliderLabel: 'scenes.S10.S10_D0_FX_C9.ladderLengthSliderLabel',
+    ladderLengthSliderAriaLabel: 'scenes.S10.S10_D0_FX_C9.ladderLengthSliderAriaLabel',
+    distanceFromWallSliderAriaLabel: 'scenes.S10.S10_D0_FX_C9.distanceFromWallSliderAriaLabel',
+    distanceFeedback: 'scenes.S10.S10_D0_FX_C9.distanceFeedback',
+    ladderFeedback: 'scenes.S10.S10_D0_FX_C9.ladderFeedback',
+    rightAngleMarker: 'scenes.S10.S10_D0_FX_C9.rightAngleMarker',
+    ladder: 'scenes.S10.S10_D0_FX_C9.ladder',
+    wall: 'scenes.S10.S10_D0_FX_C9.wall',
+    ground: 'scenes.S10.S10_D0_FX_C9.ground',
+    // Step 2 translations
+    finalChallengeTitle: 'scenes.S10.S10_D0_FX_C9.finalChallengeTitle',
+    step1Description: 'scenes.S10.S10_D0_FX_C9.step1Description',
+    step2Description: 'scenes.S10.S10_D0_FX_C9.step2Description',
+    step3Description: 'scenes.S10.S10_D0_FX_C9.step3Description',
+    challengeCompleted: 'scenes.S10.S10_D0_FX_C9.challengeCompleted',
+    horizontalDistanceLabel: 'scenes.S10.S10_D0_FX_C9.horizontalDistanceLabel',
+    verticalDistanceLabel: 'scenes.S10.S10_D0_FX_C9.verticalDistanceLabel',
+    directDistanceLabel: 'scenes.S10.S10_D0_FX_C9.directDistanceLabel',
+    checkDeltaX: 'scenes.S10.S10_D0_FX_C9.checkDeltaX',
+    checkDeltaY: 'scenes.S10.S10_D0_FX_C9.checkDeltaY',
+    checkDistance: 'scenes.S10.S10_D0_FX_C9.checkDistance',
+    complete: 'scenes.S10.S10_D0_FX_C9.complete',
+    deltaXCorrect: 'scenes.S10.S10_D0_FX_C9.deltaXCorrect',
+    deltaYCorrect: 'scenes.S10.S10_D0_FX_C9.deltaYCorrect',
+    hypotenuseCorrect: 'scenes.S10.S10_D0_FX_C9.hypotenuseCorrect',
+    deltaXIncorrect: 'scenes.S10.S10_D0_FX_C9.deltaXIncorrect',
+    deltaYIncorrect: 'scenes.S10.S10_D0_FX_C9.deltaYIncorrect',
+    hypotenuseIncorrect: 'scenes.S10.S10_D0_FX_C9.hypotenuseIncorrect',
+    harbor: 'scenes.S10.S10_D0_FX_C9.harbor',
+    market: 'scenes.S10.S10_D0_FX_C9.market',
+    problem1InfoHeading: 'scenes.S10.S10_D0_FX_C9.problem1Info.heading',
+    problem1InfoBody: 'scenes.S10.S10_D0_FX_C9.problem1Info.body',
+    problem2InfoHeading: 'scenes.S10.S10_D0_FX_C9.problem2Info.heading',
+    problem2InfoBody: 'scenes.S10.S10_D0_FX_C9.problem2Info.body',
+    proof1Title: 'scenes.S10.S10_D0_FX_C9.problem1',
+    proof2Title: 'scenes.S10.S10_D0_FX_C9.problem2',
+  },
+};
+
+export default theLadderProblemConfig;

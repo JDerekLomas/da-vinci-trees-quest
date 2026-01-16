@@ -1,0 +1,375 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción a ADSR",
+    "scene_4": "Ritmos de Batería sin ADSR",
+    "scene_5": "La Envolvente ADSR",
+    "scene_6": "Transformaciones de la Fase de Ataque",
+    "scene_7X": "Función de Envolvente ADSR",
+    "scene_7": "Transformaciones ADSR en el Bombo",
+    "scene_8": "Transformaciones ADSR en el Platillo",
+    "scene_9": "Remezcla Ritmos con ADSR",
+    "scene_10": "Conclusión",
+    "scene_11": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 36px; line-height: 54px; font-weight: 700;'>Moldeando Ritmos Digitales</h1> <h2 style='font-size: 24px; line-height: 36px; font-weight: 700;'>Explorando ADSR y Transformaciones de Funciones</h2>",
+    "description": "¡Únete a la Dra. Ava Whitaker y a Micah Daniels en un viaje práctico a través de la síntesis digital! En esta STEAMQuest, explorarás la envolvente ADSR y usarás transformaciones de funciones para moldear el sonido de las baterías digitales.",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>¡Bienvenidos al mundo del diseño de sonido!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>Soy la Dra. Ava Whitaker, y junto a mí está Micah Daniels, un estudiante entusiasta con ganas de explorar cómo se aplican las matemáticas a la música. Juntos, usaremos ADSR y transformaciones de funciones para controlar la evolución de los sonidos con el tiempo, desde su ataque agudo hasta su suave liberación.</p>"
+      }
+    },
+    "S3": {
+      "S3_D0_FX_C9": {
+        "title": "Sintetizador digital",
+        "description": "Un sintetizador digital moderno con pantalla de forma de onda y cuatro perillas de control ADSR con iluminación LED: Ataque, Decaimiento, Sustain y Release.",
+        "alt": "Sintetizador digital con pantalla y diales de control."
+      },
+      "S3_D1_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau, eso se ve increíble! ¿En qué estás trabajando?</div>",
+      "S3_D2_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Estoy formando un sonido de batería usando un sintetizador digital. ¿Ves esta forma de onda? Cada vez que ajusto estos controles, cambia cómo se comporta el sonido a lo largo del tiempo.</div>",
+      "S3_D3_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Veo las perillas giratorias etiquetadas <strong>Ataque</strong>, <strong>Decaimiento</strong>, <strong>Sostenido</strong> y <strong>Liberación</strong>… ¿Qué hacen?</div>",
+      "S3_D4_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Buena pregunta! Estos cuatro controles conforman lo que se conoce como el <strong>envolvente ADSR</strong>. Definen cómo se desarrolla un sonido a lo largo del tiempo, de principio a fin.</div>",
+      "S3_D5_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿todo sonido tiene un ADSR?</div>",
+      "S3_D6_F8_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Más o menos! Pero antes de profundizar en cómo funciona, primero escuchemos cómo suena un sonido <strong>sin aplicar ADSR</strong>.</div>",
+      "S3_D7_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Bien, vamos a verlo!</div>"
+    },
+    "S4": {
+      "S4_D0_F10_C9": {
+        "title": "Ritmos de batería sin ADSR",
+        "about": {
+          "heading": "Sonidos de Batería Crudos Sin ADSR",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Bombo:</strong> El bombo es un sonido de tambor de tono bajo que generalmente proporciona el pulso o la base de un ritmo</li><li><strong>Platillo:</strong> Un platillo es un instrumento de percusión metálico y agudo que a menudo se usa para enfatizar un patrón rítmico o agregar textura</li><li><strong>Sonido Crudo:</strong> Estos sonidos se reproducen sin ningún moldeado de envolvente ADSR, mostrando cómo suenan los tambores en su forma más básica</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo usar esta herramienta",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Reproducir el Ritmo:</strong> Presiona el botón Reproducir para escuchar tanto el bombo como el platillo tocando juntos a un tempo fijo</li><li><strong>Probar Sonidos Individuales:</strong> Haz clic en los botones de Bombo o Platillo para escuchar cada instrumento individualmente y entender sus características básicas</li></ul></div>"
+        },
+        "translations": {
+          "ariaLabel": "Visualizador de forma de onda",
+          "playLabel": "Reproducir",
+          "stopLabel": "Detener",
+          "kickInstrument": "Bombo",
+          "cymbalInstrument": "Platillo",
+
+          "drumSetup": {
+            "image": "./assets/images/drum_setup_es.webp",
+            "alt": "Configuración de batería",
+            "ariaLabel": "Una configuración de batería que cuenta con un bombo y un platillo."
+          }
+        }
+      },
+      "S4_D1_F10_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Presione el botón <strong>Reproducir</strong> y escuche cómo suena sin ADSR.</div>",
+      "S4_D2_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh, eso es… realmente abrupto. Cada golpe simplemente comienza y se detiene al instante, sin ningún flujo.</div>",
+      "S4_D3_F12_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Esta es la versión más básica de un sonido de batería. La amplitud del sonido salta instantáneamente a su punto máximo y luego cae a cero, sin ninguna transición. La falta de transiciones suaves es lo que lo hace sentir abrupto.</div>",
+      "S4_D4_F13_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿qué tipo de batería es esta?</div>",
+      "S4_D5_F14_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es un <strong>bombo</strong>— es el golpe profundo y de tono bajo que da pulso a cualquier melodía. En la mayoría de la música, se utiliza para impulsar el ritmo.</div>",
+      "S4_D6_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y qué hay de la otra?</div>",
+      "S4_D7_F16_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es la <strong>platillo</strong>. Es el sonido metálico agudo que resuena, y se utiliza a menudo para dar énfasis en un ritmo.</div>",
+      "S4_D8_F17_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entendido. Entonces, bombo para el golpe profundo y platillo para los choques brillantes.</div>",
+      "S4_D9_F18_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. Como aún no hemos aplicado ADSR, por ahora, cada latido empieza y termina instantáneamente, sin suavidad ni desvanecimiento natural.</div>",
+      "S4_D10_F19_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Está bien, ya lo entiendo. Pero ahora, ¿puedes explicarme sobre el ADSR?</div>"
+    },
+    "S5": {
+      "S5_D0_F24_C9": {
+        "title": "El Envolvente ADSR",
+        "image": "./assets/backgrounds/the-adsr-envelop-es.webp",
+        "longDescription": "Un diagrama técnico que muestra la envolvente ADSR (Ataque, Decaimiento, Sostenimiento, Liberación), fundamental en la síntesis de sonido. El gráfico muestra la amplitud a lo largo del tiempo, con secciones claramente marcadas para cada fase. La fase de Ataque muestra el ascenso inicial desde cero hasta la amplitud máxima, seguida por la fase de Decaimiento donde el sonido cae hasta el nivel de Sostenimiento. La fase de Sostenimiento mantiene una amplitud constante mientras se mantiene presionada la tecla, y finalmente, la fase de Liberación muestra cómo el sonido se desvanece hasta el silencio después de soltar la tecla. Cada sección está codificada por colores y claramente etiquetada con explicaciones detalladas de sus funciones.",
+        "alt": "Diagrama de envolvente sonora mostrando fases ADSR."
+      },
+      "S5_D1_F24_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Déjame explicarlo:<br><ul style='list-style-type: disc; padding-left: 20px;'><li><strong>Ataque</strong> es el comienzo. Es qué tan rápido el sonido alcanza el volumen completo cuando activas un ritmo. Un ataque fuerte lo hace sonar al instante, mientras que un ataque lento se desvanece suavemente</li><li><strong>Decaimiento</strong> viene después. Es qué tan rápido cae el sonido después del pico inicial</li><li><strong>Sostenido</strong> es la parte intermedia—es el nivel de volumen que el sonido mantiene mientras se reproduce</li><li><strong>Liberación</strong> es el final. Es cómo se desvanece el sonido después de que el ritmo se detiene</li></ul></div>",
+      "S5_D2_F25_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces, estas etapas controlan cómo evoluciona un sonido a lo largo del tiempo?</div>",
+      "S5_D3_F26_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exacto! Y cada etapa sigue una <no-glossary>función</no-glossary> matemática que podemos ajustar. La fase de ataque es especialmente importante porque define cómo comienza el sonido. Comencemos ajustándola.</div>"
+    },
+    "S6": {
+      "S6_D0_F27_C9": {
+        "title": "Transformaciones de la Fase de Ataque",
+        "about": {
+          "heading": "Transformaciones de la Fase de Ataque: Comprendiendo los Cambios",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Fase de ataque:</strong> Define la rapidez con la que la amplitud alcanza su pico después de que se activa el sonido</li><li><strong>Desplazamiento vertical</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(f de t más k)</span><span aria-hidden='true'>(<span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #008217; font-style: italic'>t</span>) + <span style='color: #00749d; font-style: italic'>k</span>)</span></span>: Aumentar este valor moverá el gráfico hacia arriba y hace que el sonido comience más fuerte, mientras que disminuirlo moverá el gráfico hacia abajo y hará que el sonido comience más bajo.</li><li><strong>Desplazamiento horizontal</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(f de t más k)</span><span aria-hidden='true'>(<span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #008217; font-style: italic'>t</span> + <span style='color: #0061fc; font-style: italic'>k</span>))</span></span>: Aumentar este valor moverá el gráfico hacia la derecha y retrasará el inicio de la fase de ataque, mientras que disminuirlo moverá el gráfico hacia la izquierda y hará que la fase de ataque comience antes.</li><li><strong>Escala vertical</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(k por f de t)</span><span aria-hidden='true'>(<span style='color: #677600; font-style: italic'>k</span> × <span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #008217; font-style: italic'>t</span>))</span></span>: Aumentar este valor estirará el gráfico verticalmente y hará que el sonido sea más fuerte, mientras que disminuirlo comprimirá el gráfico verticalmente y hará que el sonido sea más bajo.</li><li><strong>Escala horizontal</strong><span style='font-family: Besley; font-weight: bold'><span class='sr-only'>(f de k por t)</span><span aria-hidden='true'>(<span style='color: #e0002b; font-style: italic'>f</span>(<span style='color: #db0072; font-style: italic'>k</span> × <span style='color: #008217; font-style: italic'>t</span>))</span></span>: Aumentar este valor comprimirá el gráfico horizontalmente, haciendo que el sonido alcance el volumen completo más rápido, mientras que disminuirlo estirará el gráfico horizontalmente, haciendo que el sonido alcance el volumen completo más lentamente.</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar las Transformaciones de la Fase de Ataque",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Ajusta los deslizadores</strong>: Usa los cuatro deslizadores para manipular el Desplazamiento Vertical, Escala Vertical, Escala Horizontal y Desplazamiento Horizontal de la fase de ataque. Cada deslizador afecta un aspecto diferente del ataque del sonido</li><li><strong>Empareja la curva objetivo</strong>: Tu objetivo es emparejar la curva de discontinua grises</li><li><strong>Prueba con el bombo</strong>: Después de ajustar los deslizadores, presiona Reproducir para escuchar el sonido con tus transformaciones aplicadas. Puedes probar los cambios realizados en la fase de ataque y escuchar cómo evoluciona el sonido</li></ul></div>"
+        },
+        "translations": {
+          "originalFunctionLabel": "Función Original",
+          "originalFunctionAriaLabel": " f de T igual a 10 T",
+          "transformedFunctionLabel": "Función Transformada",
+          "transformedFunctionAriaLabel": " f de T es igual a 1.5 veces f de 0.8 por la cantidad T más 0.1, todo más 0.2",
+          "targetFunctionLabel": "Función objetivo",
+          "targetFunctionAriaLabel": "f de T es igual a 10 T",
+          "functionTransformationsLabel": "Transformaciones de Función",
+          "functionTransDescription": "Ajusta los deslizadores para emparejar con precisión la curva objetivo de discontinua grises. Verás una marca de verificación (<span style='color: #008217;'>✓</span>) cuando los deslizadores estén posicionados correctamente (dentro de ±0.1).",
+          "verticalShiftLabel": "Desplazamiento Vertical <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#E0002B] italic'>f</span>(<span className='text-[#008217] italic'>t</span>) + <span className='text-[#00749D] italic'>k</span>)</span><span class='sr-only'>(f de t más k)</span>",
+          "verticalScaleLabel": "Escala Vertical <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#677600] italic'>k</span> × <span className='text-[#E0002B]'>f</span>(<span className='text-[#008217] italic'>t</span>))</span><span class='sr-only'>(k por f de t)</span>",
+          "horizontalShiftLabel": "Desplazamiento Horizontal <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#E0002B] italic'>f</span>(<span className='text-[#008217] italic'>t</span> + <span className='text-[#0061FC] italic'>k</span>))</span><span class='sr-only'>(f de t más k)</span>",
+          "horizontalScaleLabel": "Escala Horizontal <span aria-hidden='true' className='font-besley font-bold'>(<span className='text-[#E0002B] italic'>f</span>(<span className='text-[#DB0072]'>k</span> × <span className='text-[#008217] italic'>t</span>))</span><span class='sr-only'>(f de k por t)</span>",
+          "testLabel": "Prueba con el Bombo",
+          "testDescription": "Los valores de amplitud por encima de 1.0 aumentarán el volumen e intensidad del bombo.",
+          "playLabel": "Haz clic para Reproducir",
+          "transformed": "Transformado",
+          "xAxisLabel": "Tiempo (s)",
+          "yAxisLabel": "Amplitud",
+          "volumeLabel": "Volumen",
+          "target": "Objetivo",
+          "functionDescription": "Donde <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">t</span> = tiempo en segundos y <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #E0002B; font-style: italic;\">f</span>(<em style=\"color: #008217;\">t</em>)</span> = amplitud en el tiempo <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">t</span>.",
+          "attack": "Fase de ataque"
+        }
+      },
+      "S6_D1_F27_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La fase de ataque controla qué tan rápido aumenta el sonido cuando comienza un ritmo.</div>",
+      "S6_D2_F28_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces es como la primera impresión del sonido?</div>",
+      "S6_D3_F29_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Aquí, la fase de ataque se modela con una función lineal simple: <em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) = <strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em>. Eso significa que la amplitud aumenta de forma constante con el tiempo.</div>",
+      "S6_D4_F30_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Está bien, entonces es solo una línea recta que sube?</div>",
+      "S6_D5_F31_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. La <no-glossary>función</no-glossary> crea un aumento suave y predecible en el volumen desde el momento en que se activa el ritmo. Ahora vamos a modificarlo.</div>",
+      "S6_D6_F32_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pero ¿por qué necesitaría cambiar eso? ¿No funciona bien el aumento suave?</div>",
+      "S6_D7_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>En algunos casos, sí. Pero ajustar qué tan rápido sube el volumen cambia cómo se siente el sonido. Un ataque lento lo hace aparecer suavemente, mientras que uno rápido le da un comienzo fuerte y enérgico.</div>",
+      "S6_D8_F34_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ah, entonces si el ataque es muy rápido, el sonido puede sentirse demasiado agresivo, y si es muy lento, puede que no resalte.</div>",
+      "S6_D9_F35_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto, ahí es donde entran las transformaciones de funciones. Ajustando la pendiente, los desplazamientos y la escala, puedes afinar tanto el tiempo como la intensidad del ataque.</div>",
+      "S6_D10_F36_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Entiendo! Entonces, la función me da una estructura básica, y las transformaciones me ayudan a darle la forma que quiero.</div>",
+      "S6_D11_F37_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Lo entiendes. ¡Ahora intentemos modificar la fase de ataque paso a paso!</div>",
+      "S6_D12_F38_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Empecemos con <strong>Desplazamiento vertical (<em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) + <em style='color: #00749D;'>k</em></em>)</strong>. Mueve la gráfico hacia arriba o abajo, ajustando el volumen inicial.</div>",
+      "S6_D13_F39_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces si lo bajo, el sonido empieza más suave, como si viniera desde lejos.</div>",
+      "S6_D14_F40_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Ahora, el <strong>Desplazamiento horizontal (<em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em> + <em style='color: #0061FC;'>k</em>)</em>)</strong> mueve la gráfico a la izquierda o derecha, cambiando cuándo comienza la fase de ataque. Un desplazamiento a la derecha retrasa el sonido, mientras que uno a la izquierda lo hace empezar antes.</div>",
+      "S6_D15_F41_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ah, entonces los desplazamientos no cambian la forma del ataque—solo cuándo empieza o qué tan fuerte inicia.</div>",
+      "S6_D16_F42_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Así es. Los cambios solo cambian su posición inicial y el nivel de sonido inicial.</div>",
+      "S6_D17_F43_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora que hemos visto los desplazamientos, hablemos de escalas. Escalar es importante porque nos permite ajustar la intensidad y duración del ataque del sonido, haciéndolo encajar con la composición.</div>",
+      "S6_D18_F44_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿escalar ayuda a controlar qué tan dramático o suave se siente el ataque?</div>",
+      "S6_D19_F45_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><strong>Escala vertical (<em style='font-family: besley;'><em style='color: #677600;'>k</em> × <em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>)</em>)</strong> estira o comprime el gráfico verticalmente, afectando la intensidad. Escalar hacia arriba hace que el ataque sea más fuerte, mientras que escalar hacia abajo lo suaviza.</div>",
+      "S6_D20_F46_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Oh! Entonces, ¿un gráfico más alto significa que el sonido es más fuerte, pero no necesariamente más rápido?</div>",
+      "S6_D21_F47_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es correcto. Ahora, la velocidad de la fase de ataque está controlada por <strong>Escala horizontal (<em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #DB0072;'>k</em> × <em style='color: #008217;'>t</em>)</em>)</strong>. Estira o comprime el gráfico horizontalmente, cambiando la duración de la fase de ataque.</div>",
+      "S6_D22_F48_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces si la comprimo horizontalmente, el ataque ocurre mucho más rápido, como una entrada brusca.</div>",
+      "S6_D23_F49_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto, escalar cambia la forma del ataque—afectando qué tan rápido y con cuánta intensidad se construye el sonido, sin desplazar todo el gráfico.</div>",
+      "S6_D24_F50_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Antes de empezar a transformar la curva, entendamos por qué queremos igualar <em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) = <strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em>.</div>",
+      "S6_D25_F51_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Por qué esta <no-glossary>ecuación</no-glossary> para la fase de ataque?</div>",
+      "S6_D26_F52_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><em style='font-family: besley;'><em style='color: #E0002B;'>f</em>(<em style='color: #008217;'>t</em>) = <strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em> es una función lineal simple que proporciona un aumento limpio y suave en el volumen, ideal para un ataque rápido pero controlado.</div>",
+      "S6_D27_F53_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces asegura que el sonido aumente de forma constante en lugar de saltar de golpe al volumen máximo?</div>",
+      "S6_D28_F54_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí! Ahora que entendemos por qué usamos <em style='font-family: besley;'><strong style='color: #DB0072'>10</strong><em style='color: #008217;'>t</em></em> como referencia, apliquemos las transformaciones para ajustar la fase de ataque y que coincida con la <strong>curva objetivo</strong> discontinua gris.</div>",
+      "S6_D28_F54_C9_prefix1": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Desplazamiento vertical (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em>) + <em style='color: #00749D;'>k</em></em>):</div>",
+      "S6_D28_F54_C9_prefix2": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Escala vertical (<em style='font-family: besley;'><em style='color: #677600;'>k</em> × <em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em>)</em>):</div>",
+      "S6_D28_F54_C9_prefix3": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Escala horizontal (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #DB0072;'>k</em> × <em style='color: #008217;'>t</em>)</em>):</div>",
+      "S6_D28_F54_C9_prefix4": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Desplazamiento horizontal (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em> + <em style='color: #0061FC;'>k</em>)</em>):</div>",
+      "S6_D29_F55_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Es increíble cómo cada transformación funcionó en conjunto. Los cambios verticales controlaban qué tan fuerte se sentía el sonido, y los horizontales ajustaban el tiempo.</div>",
+      "S6_D30_F56_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es correcto! La fase de ataque marca el tono de cómo comienza un sonido. Con estas transformaciones, ahora tienes las herramientas para darle forma con precisión, haciendo que los ritmos suenen suaves y naturales.</div>",
+      "S6_D31_F57_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tiene sentido. Ajustar bien el ataque ayuda a que los ritmos se sientan más controlados y no demasiado bruscos.</div>",
+      "S6_D32_F58_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>A continuación, veremos el sobre ADSR completo—cómo evoluciona el sonido desde el inicio hasta el final.</div>"
+    },
+    "S7": {
+      "S7_X": {
+        "S7_D0_FX_C9": {
+          "title": "Función de Envolvente ADSR",
+          "body": "<img src='./assets/images/adsr_phases_es.webp' atl='Sobre ADSR' aria-label='Diferentes fases de la envolvente ADSR junto con sus tiempos'/><div aria-label=\"f de t es igual a f ataque de t si t es mayor o igual a 0 y menor que A. f decaimiento de t si t es mayor o igual a A y menor que A más D. f sostenido si t es mayor o igual a A más D y menor que tr. f liberación si t es mayor o igual que tr y menor que tr más R. cero si t es mayor o igual que tr más R.\"><div style='margin-top: 20px; overflow-x: auto; overflow-y: hidden; white-space: nowrap; width: 100%;'><div style='display: inline-flex; align-items: center; gap: 10px; font-size: 24px;'><p style='font-family: Besley; color: #8e24aa; font-weight: bold;'><em><span style='color: #8E24AA;'>f</span>(<span style='color: #008217;'>t</span>)</em></p><p>=</p><p style='font-size: 120px;'>{</p><div><p style=\"font-family: Besley; font-style: italic; font-weight: bold; color: #8e24aa;\">f<sub>ataque</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>decaimiento</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>sostener</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #8e24aa;\">f<sub>liberación</sub>(<span style=\"color: #008217;\">t</span>),</p><p style=\"font-family: Besley; font-weight: bold;\">0,</p></div><div style=\"margin-left: 20px;\"><p style=\"font-family: Besley; font-weight: bold;\">0 &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #e0002b;\">A</em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #e0002b;\">A</em> &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #e0002b;\">A</em> + <em style=\"color: #0055b2;\">D</em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #e0002b;\">A</em> + <em style=\"color: #0055b2;\">D</em> &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #DB0072;\">t<sub>r</sub></em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #DB0072;\">t<sub>r</sub></em> &le; <em style=\"color: #008217;\">t</em> &lt; <em style=\"color: #DB0072;\">t<sub>r</sub></em> + <em style=\"color: #677600;\">R</em></p><p style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #008217;\">t</em> &ge; <em style=\"color: #DB0072;\">t<sub>r</sub></em> + <em style=\"color: #677600;\">R</em></p></div></div></div><div style=\"font-size: 20px; margin-top: 20px; padding-bottom: 16px;\"><p>Donde,</p><p><span style='font-family: Besley; color: #8e24aa; font-weight: bold;'><em><span style='color: #8E24AA;'>f</span>(<span style='color: #008217;'>t</span>)</em></span> es la <no-glossary>amplitud</no-glossary> en el instante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">t</span></p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #e0002b;\">A</span> es la duración del ataque</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #0055b2;\">D</span> es la duración del decaimiento</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">R</span> es la duración de la liberación</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">t<sub>r</sub></span>​ es el momento en que se libera la nota</p><p><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">S</span> es el nivel de sustain (un valor constante)</p></div></div>"
+        },
+        "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La envolvente ADSR describe cómo cambia la amplitud de un sonido con el tiempo. Dado que cada fase se comporta de forma diferente, la modelamos con una <no-glossary>función</no-glossary> por partes.</div>",
+        "S7_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces se aplican diferentes ecuaciones según la fase del sonido?</div>",
+        "S7_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Cada segmento maneja un rango de tiempo específico. Analicemos cada uno.</div>",
+        "S7_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La <strong>fase de ataque</strong>, que comienza en el tiempo <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = 0</span>, presenta un crecimiento lineal hasta una amplitud máxima en el tiempo <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span></span>, que es la duración del ataque.</div>",
+        "S7_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Luego viene la <strong>fase de decaimiento</strong>. De <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span></span> a <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span> + <span style=\"font-style: italic; color: #0055b2;\">D</span></span>, la amplitud disminuye desde el pico hasta el nivel de sostenido <span style=\"font-family: Besley; font-weight: bold; color: #DB0072; font-style: italic;\">S</span>, donde <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #0055b2;\">D</span> es la duración de la caída.</div>",
+        "S7_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La <strong>fase de sostenido</strong> comienza en <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"font-style: italic; color: #e0002b;\">A</span> + <span style=\"font-style: italic; color: #0055b2;\">D</span></span> y dura mientras se mantiene la nota. Durante esta fase, la amplitud se mantiene constante en el nivel de sostenido <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">S</span>.</div>",
+        "S7_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando se suelta la nota en el instante <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"color: #00749D; font-style: italic;\">t<sub>r</sub></span></span>, comienza la <strong>fase de liberación</strong>. Durante las siguientes <span style=\"font-family: Besley; font-weight: bold; color: #677600; font-style: italic;\">R</span> unidades de tiempo, la amplitud disminuye de <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">S</span> a <span style=\"font-family: Besley; font-weight: bold;\">0</span>, terminando en <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #008217;\">t</span> = <span style=\"color: #00749D; font-style: italic;\">t<sub>r</sub></span> + <span style=\"font-style: italic; color: #677600;\">R</span></span>.</div>",
+        "S7_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entendido. Así que la amplitud simplemente sigue la forma definida por esas cuatro fases.</div>",
+        "S7_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. Cada uno moldea el sonido a su ritmo, desde el principio hasta el momento en que se desvanece.</div>"
+      },
+      "S7_D0_F59_C9": {
+        "title": "Transformaciones ADSR en el Bombo",
+        "about": {
+          "heading": "Transformaciones del Sobre ADSR: Comprendiendo los Cambios",
+          "body": "<div><p><strong>Envolvente ADSR:</strong> La envolvente ADSR define la forma de un sonido a lo largo del tiempo, dividida en cuatro fases:</p><ul style='list-style-type: disc;margin: 10px 0px 10px 10px;padding-left: 20px;'><li><strong>Ataque:</strong> El aumento inicial de la amplitud, de cero al pico</li><li><strong>Decaimiento:</strong> La caída de la amplitud después del pico, que conduce al nivel de sostenido</li><li><strong>Sostenido:</strong> La amplitud constante mientras se mantiene la nota</li><li><strong>Liberación:</strong> El desvanecimiento gradual del sonido después de soltar la nota</li></ul><p style='font-weight: bold'>Parámetros de transformación:</p><ul style='list-style-type: disc;margin: 10px 0px 10px 10px;padding-left: 20px;'><li><strong>Desplazamiento vertical:</strong> Mueve el gráfico hacia arriba o hacia abajo, ajustando el volumen inicial o el nivel base del sonido sin cambiar su forma.</li><li><strong>Desplazamiento horizontal:</strong> Mueve el gráfico hacia la izquierda o hacia la derecha, ajustando el inicio temporal de cada fase ADSR.</li><li><strong>Escala vertical:</strong> Estira o comprime el gráfico verticalmente, aumentando o disminuyendo el volumen del sonido a lo largo de las fases ADSR.</li><li><strong>Escala horizontal:</strong> Estira o comprime el gráfico horizontalmente, modificando la duración de cada fase (p. ej., la rapidez con la que el sonido alcanza el volumen máximo).</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Transformación ADSR",
+          "body": "<div><ul style='list-style-type: disc;margin: 10px 0px 10px 10px;padding-left: 20px;'><li><strong>Ajusta los Deslizadores:</strong> Puedes modificar los parámetros de Desplazamiento Vertical, Escala Vertical, Escala Horizontal y Desplazamiento Horizontal para transformar el sobre ADSR</li><li><strong>Iguala al Sobre Objetivo:</strong> Tu objetivo es igualar la curva sólida con la curva discontinua. Verás una marca de verificación (<span style='color: #008217;'>✓</span>) cuando los deslizadores estén correctamente posicionados</li><li><strong>Prueba con Bombo:</strong> Después de ajustar los deslizadores, presiona el botón Reproducir para escuchar cómo impactan las transformaciones en el sobre ADSR y en el sonido general</li></ul></div>"
+        },
+        "translations": {
+          "adsrValuesLabel": "<span className='font-bold'>Valores ADSR:</span> Ataque = 0.01s, Decaimiento = 0.2s, Sostenido = 80%, Tiempo de Sostenido = 0.2s, Relajación = 0.2s",
+          "transformationsParamsLabel": "Parámetros de Transformación",
+          "verticalShiftLabel": "Desplazamiento Vertical",
+          "verticalScaleLabel": "Escala Vertical",
+          "horizontalShiftLabel": "Desplazamiento Horizontal",
+          "horizontalScaleLabel": "Escala Horizontal",
+          "testLabel": "Prueba con Bombo",
+          "playLabel": "Haz clic para Reproducir",
+          "transformed": "Transformado",
+          "xAxisLabel": "Tiempo (s)",
+          "yAxisLabel": "Amplitud",
+          "target": "Objetivo"
+        }
+      },
+      "S7_D10_F64_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, apliquemos estos conceptos. Tu objetivo es igualar la curva discontinua gris, que representa una envolvente ADSR objetivo. Usa los deslizadores para ajustar la amplitud y el tiempo de cada fase.</div>",
+      "S7_D11_F65_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Por qué tenemos que igualarla?</div>",
+      "S7_D12_F66_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Porque esta <strong>curva objetivo</strong> representa la forma ideal del sonido que queremos crear para nuestro bombo. Igualarla asegura que el sonido evolucione de forma suave y natural, encajando con el ritmo.</div>",
+      "S7_D13_F67_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Entendido! Déjame intentarlo e igualar la curva.</div>",
+      "S7_D14_F68_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ajustar los deslizadores realmente me ayudó a entender cómo cada fase controla cómo se desarrolla y desvanece un sonido a lo largo del tiempo.</div>",
+      "S7_D15_F69_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Bien hecho, Micah! Al aprender estas transformaciones, ahora puedes moldear no solo la fase de ataque, sino todo el desarrollo de un sonido en un ritmo.</div>",
+      "S7_D16_F70_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora todo tiene mucho sentido. Veo cómo ajustar la envolvente permite que el sonido fluya naturalmente en lugar de sentirse muy brusco.</div>",
+      "S7_D17_F71_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Buen trabajo ajustando la envolvente ADSR para el bombo! Ahora, apliquemos el mismo concepto al platillo.</div>"
+    },
+    "S8": {
+      "S8_D0_F72_C9": {
+        "title": "Transformaciones ADSR en Platillo",
+        "about": {
+          "heading": "Transformaciones de Envolvente ADSR: Modificando el Sonido del Platillo",
+          "body": "<div><p style='font-weight: bold'>Parámetros de transformación:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Desplazamiento vertical:</strong> Mueve el gráfico hacia arriba o hacia abajo, ajustando el volumen inicial o el nivel base del sonido sin cambiar su forma.</li><li><strong>Desplazamiento horizontal:</strong> Mueve el gráfico hacia la izquierda o hacia la derecha, ajustando el inicio temporal de cada fase ADSR.</li><li><strong>Escala vertical:</strong> Estira o comprime el gráfico verticalmente, aumentando o disminuyendo el volumen del sonido a lo largo de las fases ADSR.</li><li><strong>Escala horizontal:</strong> Estira o comprime el gráfico horizontalmente, modificando la duración de cada fase (p. ej., la rapidez con la que el sonido alcanza el volumen máximo).</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Transformación ADSR",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Ajusta los Deslizadores:</strong> Puedes modificar los parámetros de Desplazamiento Vertical, Escala Vertical, Escala Horizontal y Desplazamiento Horizontal para transformar la envolvente ADSR</li><li><strong>Iguala la Envolvente Objetivo:</strong> Tu objetivo es igualar la curva sólida con la curva discontinua. Verás una marca de verificación (<span style='color: #008217;'>✓</span>) cuando los deslizadores estén correctamente posicionados</li><li><strong>Prueba con el Platillo:</strong> Después de ajustar los deslizadores, presiona el botón <strong>Reproducir</strong> para escuchar cómo las transformaciones afectan la envolvente ADSR y el sonido general</li></ul></div>"
+        },
+        "translations": {
+          "adsrValuesLabel": "<span className='font-bold'>Valores ADSR:</span> Ataque = 0.1s, Decaimiento = 0.4s, Sostenido = 10%, Tiempo de Sostenido = 0.2s, Liberación = 0.8s",
+          "transformationsParamsLabel": "Parámetros de Transformación",
+          "verticalShiftLabel": "Desplazamiento Vertical",
+          "verticalScaleLabel": "Escala Vertical",
+          "horizontalShiftLabel": "Desplazamiento Horizontal",
+          "horizontalScaleLabel": "Escala Horizontal",
+          "testLabel": "Probar con Sonido de Platillo",
+          "playLabel": "Haz clic para Reproducir",
+          "transformed": "Transformado",
+          "xAxisLabel": "Tiempo (s)",
+          "yAxisLabel": "Amplitud",
+          "target": "Objetivo"
+        }
+      },
+      "S8_D1_F72_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ah, claro! El platillo no golpea como el bombo—resuena durante un tiempo.</div>",
+      "S8_D2_F73_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! El ataque suele ser muy corto, pero la liberación es mucho más larga, ya que el sonido se desvanece de forma natural con el tiempo. Tu objetivo es igualar la <strong>curva objetivo</strong> discontinua gris de la envolvente ADSR del platillo.</div>",
+      "S8_D3_F74_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ajustar la configuración realmente me ayudó a ver cómo cada fase controla cómo se construye y se desvanece el sonido del platillo.</div>",
+      "S8_D4_F75_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Bien hecho, Micah! Ahora puedes moldear no solo sonidos cortos y fuertes como el bombo, sino también sonidos largos y resonantes como el platillo.</div>"
+    },
+    "S9": {
+      "S9_D0_F76_C9": {
+        "title": "Remezcla Ritmos con ADSR",
+        "about": {
+          "heading": "Moldeado de Sonido ADSR",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Bombo</strong>: El bombo es un sonido de tambor de tono bajo que normalmente proporciona el pulso o la base de un ritmo</li><li><strong>Platillo</strong>: Un platillo es un instrumento de percusión metálico y agudo que se usa a menudo para enfatizar un patrón rítmico o añadir textura</li></ul></div>"
+        },
+        "help": {
+          "heading": "Moldeador de Ritmos ADSR: Entendiendo los Controles",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Ajuste del ADSR</strong>: Usa los valores ADSR encontrados anteriormente para cada instrumento y escucha la diferencia</li></ul></div>"
+        },
+        "translations": {
+          "ariaLabel": "Visualizador de Forma de Onda",
+          "playLabel": "Reproducir",
+          "stopLabel": "Detener",
+          "kickInstrument": "Bombo",
+          "cymbalInstrument": "Platillo",
+
+          "secondsLabel": "Segundos",
+          "attack": "Ataque",
+          "decay": "Decaimiento",
+          "sustain": "Sostenido",
+          "release": "Relajación",
+          "editingLabel": "Editando",
+          "selectedLabel": "Seleccionado"
+        }
+      },
+      "S9_D1_F76_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora que comprendes la envolvente ADSR, apliquémosla para moldear el sonido final. ¿Recuerdas cómo funciona cada fase?</div>",
+      "S9_D2_F77_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí! El ataque controla cómo comienza el sonido, el decaimiento ajusta cómo se asienta después del pico, el sustain determina cuánto tiempo se mantiene y la liberación controla cómo se desvanece.</div>",
+      "S9_D3_F78_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí, antes exploramos cómo las transformaciones afectan estas fases. Pero antes de aplicar nuestros valores finales de ADSR, escuchemos el ritmo nuevamente sin ningún moldeado. Haga clic en el botón <strong>Reproducir</strong>.</div>",
+      "S9_D4_F79_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí, todavía suena tosco y fuerte. Nada fluye ni se mantiene.</div>",
+      "S9_D5_F80_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es porque le falta moldeado dinámico. Ahora, apliquemos los valores finales de ADSR que determinamos al bombo y al platillo.</div>",
+      "S9_D6_F81_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿estos son los valores que definimos antes, no nuevas transformaciones?</div>",
+      "S9_D7_F82_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es! Estas configuraciones le dan a cada ritmo un equilibrio adecuado, ayudando a que cada sonido tenga su espacio y se sienta más intencional.</div>",
+      "S9_D8_F83_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ajusta los valores de ADSR del bombo y escucha la diferencia. Usa los controles deslizantes para configurar los valores que establecimos anteriormente.<br><ul style='list-style-type: disc; padding-left: 20px; margin-top: 10px;'><li><strong>Ataque:</strong> <strong>0.01 s</strong> para un impacto agudo</li><li><strong>Decaimiento:</strong> <strong>0.2 s</strong> para controlar la caída</li><li><strong>Sostenido:</strong> <strong>0.8</strong> (<strong>80%</strong> de amplitud) para mantener el cuerpo del sonido</li><li><strong>Liberación:</strong> <strong>0.2 s</strong> para un sonido limpio Terminar</li></ul></div>",
+      "S9_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora cambia a platillo y ajusta los valores ADSR. Usa los controles deslizantes para configurar los valores.<br><ul style='list-style-type: disc; padding-left: 20px; margin-top: 10px;'><li><strong>Ataque:</strong> <strong>0.1 s</strong> para un inicio suave</li><li><strong>Decaimiento:</strong> <strong>0.4 s</strong> para que se asiente</li><li><strong>Sostenido:</strong> <strong>0.1</strong> (<strong>10%</strong> de amplitud) para mantener una presencia sutil</li><li><strong>Liberación:</strong> <strong>0.8 s</strong> para un sonido natural Desvanecimiento</li></ul></div>",
+      "S9_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Genial! Ahora que hemos ajustado los valores ADSR, escuchemos el ritmo de nuevo. Haz clic en el botón <strong>Reproducir</strong>.</div>",
+      "S9_D11_F84_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! El bombo suena controlado y el platillo resuena suavemente. Todo se siente más equilibrado ahora.</div>",
+      "S9_D12_F85_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto, al moldear cada sonido con ADSR, controlamos cómo interactúan, haciendo que el ritmo suene natural y bien definido.</div>"
+    },
+    "S10": {
+      "S10_D1_F86_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Gracias, Dra. Whitaker. Entender las matemáticas detrás del moldeado del sonido ha cambiado por completo cómo pienso sobre la música. Ahora tengo las herramientas para ajustar ADSR y moldear ritmos con precisión.</div>",
+      "S10_D2_F87_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Has hecho un trabajo increíble, Micah! La música es donde se encuentran las matemáticas y la creatividad, y ahora puedes usar ambas para crear cualquier sonido exactamente como lo desees.</div>",
+      "S10_D3_F88_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí! Es increíble cómo pequeños ajustes pueden cambiar por completo la sensación de un ritmo. Nunca me di cuenta de cuánto control da ADSR sobre el sonido.</div>",
+      "S10_D4_F89_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Ya sea que trabajes con una batería, un sintetizador o incluso un instrumento en vivo, estos conceptos ayudan a moldear cómo se mueve y evoluciona el sonido.</div>"
+    },
+    "quest_completion": {
+      "greetings": "Felicidades!",
+      "subheading": "Has explorado ADSR y transformaciones de funciones.",
+      "content": "<p style='padding-bottom: 10px;'>Felicidades! ¡Has completado la Misión de Matemáticas de la Música!</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Ayudaste a la Dra. Ava Whitaker a moldear ritmos dinámicos utilizando la envolvente ADSR</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Exploraste cómo las transformaciones de funciones impactan la amplitud y el tiempo a través de las fases de Ataque, Decaimiento, Sostenimiento y Liberación</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Adquiriste experiencia con funciones definidas por partes para refinar la dinámica tanto del bombo como del platillo</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Aplicaste herramientas matemáticas para dar forma a los ritmos y crear un flujo natural en tu composición</li></ul><p>Sigue adelante! Tu camino para moldear el sonido con las matemáticas continúa.</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_13904_1187' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_13904_1187)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M38.8213 0.77832C39.8527 0.430375 40.9382 0.408778 41.9727 0.712891L42.1797 0.77832L42.1816 0.779297L69.9854 10.0576L69.9863 10.0586L70.0527 10.0811C72.1286 10.7782 73.4998 12.6559 73.5 14.7471V30.7256C73.5 41.354 70.2211 51.6383 64.249 59.8047L63.6621 60.5879C57.5446 68.3917 49.7931 73.9009 40.5049 75.4902C20.4753 71.8118 7.69465 51.2098 7.50195 31.6611L7.50293 30.7295V14.7471C7.50293 12.7173 8.7897 10.891 10.7568 10.1484L10.9492 10.0801L38.8203 0.779297L38.8213 0.77832Z' fill='#FFCC00' stroke='black'/><circle cx='40' cy='38' r='17.5' fill='black' stroke='black'/><circle cx='40' cy='35' r='17.5' fill='white' stroke='black'/><path d='M47.7869 26.4049C47.6269 26.0245 47.3376 25.7438 46.9922 25.6338C46.6467 25.5237 46.2782 25.595 45.9798 25.8293C45.6813 26.0637 45.4817 26.4388 45.4311 26.86L44.5129 34.503L42.8539 28.5825C42.767 28.2603 42.5891 27.9838 42.3505 27.7998C42.1118 27.6158 41.827 27.5356 41.5442 27.5727C41.2621 27.606 40.9978 27.7524 40.7948 27.9877C40.5917 28.2231 40.4619 28.5334 40.4266 28.8679L39.7151 35.6366L37.8917 24.796C37.8354 24.4608 37.6835 24.1588 37.4619 23.941C37.2402 23.7233 36.9623 23.6031 36.6747 23.6006H36.6658C36.3798 23.6006 36.1024 23.7174 35.8798 23.9313C35.6574 24.145 35.5033 24.4432 35.4431 24.7758L33.8371 33.6896L32.8352 30.5134C32.7498 30.2425 32.5999 30.0069 32.4037 29.8357C32.2074 29.6647 31.9735 29.5654 31.7305 29.5503C31.4868 29.5308 31.2439 29.5984 31.0328 29.7445C30.8218 29.8907 30.6522 30.1085 30.546 30.3701L29.225 33.5135H28.3304C27.8837 33.5135 27.4709 33.7969 27.2475 34.257C27.0242 34.717 27.0242 35.2839 27.2475 35.7439C27.4709 36.204 27.8836 36.4874 28.3304 36.4874H29.9975C30.2297 36.4874 30.4574 36.4106 30.6548 36.2653C30.8524 36.1202 31.0121 35.9124 31.116 35.6655L31.5011 34.7498L32.9949 39.4875H32.9947C33.122 39.8916 33.3907 40.2101 33.7309 40.36C34.0712 40.5101 34.4494 40.4768 34.7675 40.2691C35.0855 40.0612 35.312 39.6994 35.3879 39.2775L36.6235 32.4188L38.7741 45.2051L38.7742 45.205C38.8307 45.5418 38.9838 45.8451 39.2071 46.0631C39.4303 46.281 39.7104 46.4003 39.9992 46.4006L40.0456 46.3997V46.3995C40.3423 46.3866 40.6253 46.2486 40.8442 46.0103C41.0632 45.7719 41.2037 45.4488 41.2406 45.0984L42.2239 35.742L43.8145 41.4187C43.9342 41.8456 44.2099 42.1851 44.5646 42.342C44.9192 42.499 45.3145 42.4566 45.6397 42.2266C45.9651 41.9965 46.1852 41.6037 46.2386 41.1583L47.3407 31.9926L48.884 35.6656L48.8842 35.6654C48.988 35.9125 49.1477 36.12 49.3452 36.2652C49.5428 36.4105 49.7703 36.4873 50.0026 36.4873H51.6697C52.1164 36.4873 52.5291 36.2038 52.7525 35.7438C52.9759 35.2838 52.9759 34.7169 52.7525 34.2568C52.5291 33.7968 52.1164 33.5134 51.6697 33.5134H50.7759L47.7869 26.4049Z' fill='black'/></g></svg>",
+      "rightsvg": "<svg width='90' height='79' viewBox='0 0 90 79' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' d='M72.1216 9.71664C71.5641 8.39853 70.5566 7.42603 69.3536 7.04504C68.1501 6.66346 66.8668 6.91033 65.8276 7.72235C64.7879 8.53436 64.0925 9.83421 63.9165 11.2935L60.7184 37.7758L54.9401 17.2618C54.6375 16.1455 54.0178 15.1874 53.1868 14.5499C52.3553 13.9123 51.3632 13.6343 50.3783 13.7631C49.3958 13.8785 48.4753 14.3857 47.7681 15.2009C47.0609 16.0167 46.6086 17.0917 46.4857 18.2509L44.0075 41.7038L37.6567 4.14209C37.4607 2.9807 36.9318 1.93419 36.1596 1.17963C35.3876 0.425048 34.4196 0.00858703 33.418 0H33.3871C32.391 0 31.4248 0.40466 30.6495 1.14582C29.8747 1.88645 29.3381 2.91956 29.1285 4.07187L23.5348 34.9577L20.045 23.9523C19.7479 23.0136 19.2257 22.1974 18.5422 21.6042C17.8586 21.0117 17.0439 20.6677 16.1974 20.6151C15.3487 20.5475 14.5026 20.782 13.7673 21.2881C13.0324 21.7948 12.4418 22.5494 12.0721 23.4558L7.47094 34.3473H4.35498C2.79909 34.3473 1.36154 35.3294 0.583476 36.9234C-0.194492 38.5174 -0.194492 40.4816 0.583476 42.0756C1.36144 43.6696 2.79898 44.6517 4.35498 44.6517H10.1614C10.9702 44.6517 11.7632 44.3855 12.4509 43.8821C13.139 43.3792 13.6952 42.6595 14.0572 41.804L15.3986 38.6311L20.6012 55.0468H20.6008C21.044 56.4469 21.9798 57.5504 23.1647 58.0699C24.35 58.59 25.6674 58.4746 26.7751 57.7549C27.8829 57.0347 28.6717 55.781 28.9362 54.319L33.2398 30.5542L40.7301 74.8578L40.7305 74.8572C40.9274 76.0246 41.4604 77.0754 42.2383 77.8306C43.0158 78.5857 43.9912 78.9989 44.9973 79L45.1588 78.9968V78.9962C46.1921 78.9517 47.1779 78.4735 47.9404 77.6475C48.703 76.8216 49.1924 75.7021 49.3208 74.4881L52.7457 42.0689L58.2858 61.738C58.7027 63.2172 59.663 64.3936 60.8983 64.9372C62.1335 65.4814 63.5102 65.3344 64.643 64.5374C65.7761 63.7404 66.5427 62.3794 66.7287 60.8359L70.5674 29.0776L75.9428 41.8042L75.9433 41.8036C76.3048 42.6596 76.861 43.3788 77.5491 43.8817C78.2373 44.3851 79.0298 44.6513 79.8386 44.6513H85.645C87.2009 44.6513 88.6385 43.6692 89.4165 42.0752C90.1945 40.4812 90.1945 38.517 89.4165 36.923C88.6386 35.3289 87.201 34.3469 85.645 34.3469H82.5322L72.1216 9.71664Z' fill='white'/></svg>",
+      "leftsvgarialabel": "Icono de onda de audio"
+    },
+    "glossary": {
+      "adsr_envelope": {
+        "word": "Envolvente ADSR",
+        "definition": "Una <strong className=\"text-[#0055B2]\">envolvente ADSR</strong> es una forma de moldear la amplitud (volumen) de un sonido a lo largo del tiempo, especialmente en sintetizadores. ADSR significa Ataque, Decaimiento, Sustain y Release, que son los cuatro parámetros que definen el comportamiento de la envolvente. <div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/adsr_es.webp' alt='Envolvente ADSR' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: container; border-radius: 8px;'/></div>"
+      },
+      "function_transformations": {
+        "word": "transformaciones de funciones",
+        "definition": "Las <strong className=\"text-[#0055B2]\">transformaciones de funciones</strong> son modificaciones realizadas en la gráfica de una función, como traslaciones, reflexiones, estiramientos o compresiones, que cambian su posición o forma en un plano de coordenadas."
+      },
+      "amplitude": {
+        "word": "amplitud",
+        "definition": "<strong className=\"text-[#0055B2]\">Amplitud</strong> es la medida de la fuerza o intensidad de una onda sonora."
+      },
+      "piecewise_function": {
+        "word": "Función por Partes",
+        "definition": "<strong className=\"text-[#0055B2]\">Función por Partes</strong> es una función matemática definida por diferentes expresiones para diferentes intervalos de la variable de entrada."
+      },
+      "pitch": {
+        "word": "Tono",
+        "definition": "<strong className=\"text-[#0055B2]\">Tono</strong> se refiere a la frecuencia percibida de un sonido, determinando si suena alto o bajo."
+      },
+      "digital_synthesizer": {
+        "word": "sintetizador digital",
+        "definition": "<strong className=\"text-[#0055B2]\">Un sintetizador digital</strong> es un instrumento electrónico que se utiliza para generar y manipular sonido, lo que permite una amplia gama de tonos, efectos y expresiones musicales."
+      },
+      "note": {
+        "word": "nota",
+        "definition": "Una <strong className=\"text-[#0055B2]\">nota</strong> es un sonido único que se toca o canta. Comienza cuando el sonido empieza y termina cuando se detiene."
+      }
+    },
+    "common": {
+      "whitaker": "Dr. Whitaker",
+      "micah": "Micah",
+      "whitaker_description": "Una mujer con gafas y auriculares sosteniendo una tableta, con chaqueta de cuero.",
+      "micah_description": "Una persona joven con auriculares sosteniendo una tableta, con chaqueta oscura.",
+      "vertical_shift": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Desplazamiento vertical (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em>) + <em style='color: #00749D;'>k</em></em>):</div>",
+      "vertical_scale": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Escala vertical (<em style='font-family: besley;'><em style='color: #677600;'>k</em> × <em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em>)</em>):</div>",
+      "horizontal_shift": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Escala horizontal (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #DB0072;'>k</em> × <em style='color: #008217;'>t</em>)</em>):</div>",
+      "horizontal_scale": "<div style='display: flex; align-items: center; gap: 0px 6px; font-size: 20px;'>Desplazamiento horizontal (<em style='font-family: besley;'><em style='color: #E0002B;'>A</em>(<em style='color: #008217;'>t</em> + <em style='color: #0061FC;'>k</em>)</em>):</div>",
+      "help": "Ayuda",
+      "info": "información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "bg1_description": "Edificio moderno en una orilla nevada con dos personas caminando.",
+      "bg2_description": "Interior moderno con pantallas digitales con vista a un paisaje montañoso nevado.",
+      "bg3_description": "Estudio de grabación de sonido con paneles de madera y vista a un paisaje cubierto de nieve.",
+      "bg4_description": "Persona trabajando en un escritorio con grandes ventanas con vista a montañas nevadas.",
+      "bg5_description": "Sala de conferencias con personas viendo una presentación, ventanas con vista al paisaje ártico."
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Volumen de la música de fondo",
+      "character-voice-volume-slider": "Volumen de voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "skytrack-internship": "STEAM Quest - Pasantía SkyTrack"
+  }
+}

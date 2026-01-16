@@ -1,0 +1,375 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Conociendo a tu Guía",
+    "scene_4": "Introducción",
+    "scene_5": "El Monocordio Virtual",
+    "scene_6": "De la Música a la Geometría",
+    "scene_7": "Números Pares e Impares y Figurados",
+    "scene_8": "Introducción al Teorema de Pitágoras",
+    "scene_9": "Las Pruebas del Teorema de Pitágoras",
+    "scene_10": "Resuelve el Desafío",
+    "scene_11": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>La Misión de Pitágoras</h1>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Como nuevo aprendiz, descubrirás los secretos matemáticos que revolucionaron nuestra comprensión de los números, la música y la geometría. Domina el famoso teorema de Pitágoras mediante experimentos prácticos y conviértete en uno de los Mathematikoi, los guardianes de la sabiduría matemática.</p>",
+    "start_game": "Comenzar Búsqueda"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Narrador</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Corre el año 520 a. C. En la bulliciosa colonia griega de Crotona, Italia, ha echado raíces una escuela sin igual, fundada por Pitágoras, el legendario pensador y amante de la sabiduría. Eres un nuevo aprendiz en busca de conocimiento, y para unirte al círculo íntimo de los Matemáticos, primero debes pasar las iniciaciones; tu guía te espera.</div>"      
+      }
+    },
+    "S4": {
+      "S4_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bienvenido, aprendiz. Soy Myia, hija de Pitágoras. Mi padre cree que para comprender el mundo, primero debemos descubrir su lenguaje oculto: los números, pues todo sigue patrones, desde las estaciones hasta tu propio ritmo cardíaco.</div>",
+      "S4_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Al entender estos patrones, entendemos el universo. Antes de explorar las formas de la tierra, escuchemos la música del cosmos. Te asombrarás de lo que los números pueden revelar.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "El monocordio virtual",
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<div><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Haz clic en cualquier botón de proporción para escuchar ese intervalo musical.</li><li>Haz clic en <strong>Reproducir frecuencias</strong> para reproducir ambos tonos juntos de forma continua.</li><li>Haz clic en la cuerda derecha para escuchar solo la frecuencia base.</li><li>Arrastra el control deslizante para ajustar la longitud de la cuerda manualmente.</li></ul><p style='margin-top:10px'><strong>Consejos</strong></p><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Prueba <strong>2:1</strong> para la octava, <strong>3:2</strong> para la quinta, <strong>4:3</strong> para la cuarta.</li><li>Las relaciones simples suenan más armoniosas que las complejas.</li><li>Observa cómo se actualizan los valores de frecuencia a medida que ajustas la configuración.</li></ul></div>"        },
+        "info": {
+          "heading": "Acerca del Monocordio",
+          "body": "<div><p>Pitágoras usó este sencillo instrumento para descubrir que la música sigue leyes matemáticas.</p><p><strong>Cómo funciona</strong></p><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Una cuerda estirada sobre una caja de resonancia.</li><li>Mover el puente divide la cuerda en diferentes longitudes.</li><li>Longitudes más cortas = tonos más agudos.</li><li>La proporción determina el intervalo musical.</li></ul><p style='margin-top:10px'><strong>Descubrimientos clave</strong></p><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Proporción <strong>2:1</strong> = octava (misma nota, más aguda).</li><li>Proporción <strong>3:2</strong> = quinta perfecta (muy armoniosa).</li><li>Proporción <strong>4:3</strong> = cuarta perfecta (también armoniosa).</li><li>Las proporciones simples con números pequeños suenan mejor.</li></ul><p style='margin-top:10px'>Esto se convirtió en la base de la teoría musical y mostró que las matemáticas crean belleza.</p></div>"
+        },
+        "baseFrequencyLabel": "Frecuencia base:",
+        "dividedFrequencyLabel": "Frecuencia variable:",
+        "proportionsTitle": "Proporciones",
+        "playFrequenciesButton": "Reproducir frecuencias",
+        "fundamentalStringAriaLabel": "Reproducir frecuencia base",
+        "dividedStringAriaLabel": "Reproducir frecuencia variable",
+        "hertz": "hercios",
+        "virtualMonochordStrings": "Monocordio virtual con dos cuerdas. La cuerda izquierda es la de frecuencia variable y la derecha, la de frecuencia base.",
+        "fundamentalToneString": "Cadena de frecuencia base",
+        "dividedFrequencyString": "Cadena de frecuencia variable",
+        "proportionAriaLabel": "Proporción:",
+        "twelveToEleven": "doce a once",
+        "nineToEight": "nueve a ocho",
+        "eightToSeven": "ocho a siete",
+        "sevenToSix": "siete a seis",
+        "sixToFive": "seis a cinco",
+        "fiveToFour": "cinco a cuatro",
+        "fourToThree": "cuatro a tres",
+        "sevenToFive": "siete a cinco",
+        "rootTwoToOne": "raíz cuadrada de dos a uno",
+        "threeToTwo": "tres a dos",
+        "fiveToThree": "cinco a tres",
+        "twelveToSeven": "doce a siete",
+        "rootThreeToOne": "raíz cuadrada de tres a uno",
+        "sixteenToNine": "dieciséis a nueve",
+        "fifteenToEight": "quince a ocho",
+        "twoToOne": "dos a uno",
+        "rootFiveToOne": "raíz cuadrada de cinco a uno",
+        "threeToOne": "tres a uno",
+        "sevenToTwo": "siete a dos",
+        "fourToOne": "cuatro a uno",
+        "fiveToOne": "cinco a uno"
+      },
+      "S5_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Este es un monocordio. Será tu primer maestro. Pulsa la cuerda de la izquierda</div>",
+      "S5_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, pulsa la otra cuerda. Es exactamente la mitad de longitud: una proporción de <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #475569;'>2</span>:<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #CA8A04;'>1</span>.</div>",
+      "S5_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esta es una octava. La misma nota, pero más alta. Presiona reproducir para escuchar ambas notas al mismo tiempo.</div>",
+      "S5_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Interesante, que la proporción de las dos cuerdas cambie la sensación del sonido. No todos los sonidos son tan agradables, ¿verdad? Prueba la proporción de <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #475569;'>3</span>:<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #CA8A04;'>2</span>. Esa es otra buena combinación.</div>",
+      "S5_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora puedes probar estas otras proporciones matemáticas que fueron descubiertas por mi padre, como <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #475569;'>4</span>:<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #CA8A04;'>3</span> o <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #475569;'>5</span>:<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #CA8A04;'>4</span>. ¿Sabías que podrías escuchar la belleza de las matemáticas?</div>"
+    },
+    "S6": {
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El quinto perfecto—esa proporción <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #475569;'>3</span>:<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #CA8A04;'>2</span>—es tan agradable que formó la base de la afinación musical durante siglos. Pero los números no se detienen ahí: mi padre aprendió de los sacerdotes egipcios que también pueden medir las formas de la tierra, lo que se llama geometría, ¡y puedo mostrarte esas formas con estas piedritas!</div>"
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "Números pares e impares y números figurados",
+        "about": {
+          "heading": "Acerca de las matemáticas con guijarros",
+          "body": "<div><p>Los antiguos griegos usaban guijarros para entender patrones numéricos antes de que existieran las matemáticas escritas.</p><p><strong>Números pares e impares:</strong></p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Los números pares se dividen en dos grupos iguales</li><li>Los números impares siempre tienen uno sobrante</li><li>Esto crea arreglos simétricos vs asimétricos</li></ul><p><strong>Números figurados:</strong></p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Números triangulares: 1, 3, 6, 10, 15, 21...</li><li>Números cuadrados: 1, 4, 9, 16, 25, 36...</li><li>Estos números forman figuras geométricas perfectas con guijarros</li></ul><p>Este método práctico ayudó a los matemáticos antiguos a entender propiedades de los números que aún usamos hoy.</p></div>"
+        },
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Usa el deslizador para seleccionar cuántos guijarros arreglar</li><li>En el primer paso, observa cómo los guijarros se organizan en dos filas</li><li>Los números pares forman rectángulos perfectos sin guijarros sobrantes</li><li>Los números impares siempre tienen un guijarro sobrante</li><li>Intenta arreglar guijarros en triángulos y cuadrados</li></ul><p><strong>Consejos:</strong></p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Prueba números como 9, 16, 25 para ver cuadrados perfectos</li><li>Prueba números como 3, 6, 10, 15 para ver triángulos perfectos</li><li>Observa cómo algunos números funcionan para ambas formas</li></ul></div>"
+        },
+        "translations": {
+          "stage": "Etapa",
+          "stage1": {
+            "title": "Números Pares e Impares",
+            "description": "Usa el deslizador para explorar cómo los números pueden ser pares o impares.",
+            "evenOdd": {
+              "title": "Números Pares e Impares",
+              "description": "Explora cómo los números se organizan en dos filas",
+              "even": "Par (Simétrico)",
+              "odd": "Impar (Asimétrico)"
+            }
+          },
+          "stage2": {
+            "title": "Explorando Formas",
+            "description": "Ahora ve qué números forman triángulos o cuadrados perfectos.",
+            "shapes": {
+              "title": "Números Triangulares y Cuadrados",
+              "description": "Organiza guijarros en formas geométricas",
+              "triangle": "Intentando Triángulo",
+              "square": "Intentando Cuadrado",
+              "perfectTriangle": "¡Triángulo Perfecto!",
+              "notTriangle": "No es un Triángulo",
+              "perfectSquare": "¡Cuadrado Perfecto!",
+              "notSquare": "No es un Cuadrado"
+            }
+          },
+          "common": {
+            "pebbles": "Guijarros",
+            "next": "Siguiente",
+            "back": "Atrás",
+            "exploreShapes": "Explorar Formas",
+            "backToEvenOdd": "Volver a Pares e Impares"
+          },
+          "accessibility": {
+            "instructions": {
+              "title": "Instrucciones Interactivas",
+              "overview": "Esta interactiva te permite explorar patrones numéricos usando guijarros.",
+              "sliderInteraction": "Usa el deslizador para cambiar el número de guijarros",
+              "buttonInteraction": "Usa los botones para navegar entre etapas"
+            },
+            "visualizationSection": "Sección de Visualización",
+            "controlsSection": "Sección de Controles",
+            "pebbleSlider": "Deslizador de conteo de guijarros, actualmente configurado en {{count}} guijarros",
+            "evenOddVisualization": "Visualización de Números Pares e Impares",
+            "shapeVisualization": "Visualización de Formas",
+            "triangleSection": "Sección de triángulo con {{count}} guijarros",
+            "squareSection": "Sección de cuadrado con {{count}} guijarros",
+            "pebbleCount": "Conteo de guijarros: {{count}}",
+            "evenLabel": "Número par (arreglo simétrico)",
+            "oddLabel": "Número impar (arreglo asimétrico)",
+            "perfectTriangleLabel": "Formación de triángulo perfecto",
+            "notTriangleLabel": "No es un triángulo perfecto",
+            "perfectSquareLabel": "Formación de cuadrado perfecto",
+            "notSquareLabel": "No es un cuadrado perfecto",
+            "stepChanged": "Movido al paso {{stepNumber}} de {{totalSteps}}: {{stageName}}",
+            "countChanged": "Cambiado el conteo de guijarros a {{count}}",
+            "currentStage": "Etapa actual {{stageNumber}}: {{stageName}}, paso {{currentStep}} de {{totalSteps}}",
+            "pebble": "Guijarro",
+            "leftoverPebble": "Guijarro sobrante",
+            "pebbleGrid": "Cuadrícula de {{count}} guijarros"
+          }
+        }
+      },
+      "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Comencemos con los números pares e impares. Todos los números pares pueden formar un <no-glossary>rectángulo</no-glossary> perfecto en dos filas. Los impares siempre dejan uno sobrante. ¡Pruébalo con el deslizador!</div>",
+      "S7_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Algunos números son especiales, porque pueden formar cuadrados perfectos. Nueve, por ejemplo, forma un cuadrado con 3 piedritas en cada lado. Pero 10 no puede. ¡Pruébalo tú mismo!</div>",
+      "S7_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente! Por eso decimos que tres por tres es 'tres al cuadrado'.</div>",
+      "S7_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora te enseñaré la forma más sagrada de mi padre. ¿Cuánto es <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #DC2626;'>1</span> + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #2563EB;'>2</span> + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>3</span> + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #059669;'>4</span>?</div>",
+      "S7_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Correcto! Usa el deslizador para poner 10 piedritas. Diez forma un triángulo equilátero. ¡Contempla el Tetractys!</div>",
+      "S7_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Las filas—una, dos, tres, cuatro—suman diez. A mi padre le encanta porque contiene las proporciones musicales que acabas de descubrir. También representa los bloques básicos del universo: el punto, la línea, el plano y el sólido.</div>",
+      "S7_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto demuestra que las matemáticas tienen su propia armonía—y que el universo está construido con números. ¿Cuáles de estos pueden formar triángulos?</div>"
+    },
+    "S8": {
+      "S8_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora que has visto cómo los números tienen sus propias formas, déjame mostrarte el poderoso secreto que descubrió mi padre: cómo los constructores en Croton usan una cuerda de 12 nudos para formar un <no-glossary>ángulo recto</no-glossary> perfecto con lados de 3, 4 y 5 unidades, y cómo mi padre reveló la ley universal escondida en los cuadrados de sus lados que explica por qué siempre funciona.</div>"
+    },
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "Las Pruebas del Teorema de Pitágoras",
+        "info": {
+          "heading": "Acerca de Este Interactivo",
+          "body": "Explora tres formas diferentes de probar el teorema de Pitágoras: usando piedrecitas, áreas de agua y disección geométrica."
+        },
+        "help": {
+          "heading": "Cómo Usar",
+          "body": "Sigue la guía de Myia a través de cada método de prueba. Interactúa con las piedrecitas, vierte el agua y reorganiza los triángulos para ver el teorema en acción."
+        },
+        "proof1Info": {
+          "heading": "Acerca de la Demostración con Guijarros",
+          "body": "<div><p><strong>Cómo usar la herramienta de Guijarros</strong></p><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Selecciona un triple pitagórico (3-4-5, 6-8-10 o 5-12-13).</li><li>Haz clic en <strong>Calcular y Animar</strong>.</li><li>Observa cómo los guijarros del <strong><span style='color: #DC2626'>cuadrado rojo (a<sup>2</sup>)</span></strong> y del <strong><span style='color:#2563EB'>cuadrado azul (b<sup>2</sup>)</span></strong> llenan el <strong><span style='color:#16A34A'>cuadrado verde (c<sup>2</sup>)</span></strong>.</li><li>Arrastra para mover la vista y usa la rueda del ratón para acercar o alejar.</li></ul><p style='margin-top:10px'><strong>Lo que estás viendo</strong></p><p>Los guijarros muestran el <strong>Teorema de Pitágoras</strong>: <em>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></em>. Los dos cuadrados pequeños siempre se combinan para llenar exactamente el cuadrado más grande — tal como lo demostraron los antiguos griegos usando guijarros.</p></div>"
+        },
+        "proof2Info": {
+          "heading": "Acerca de la Demostración con Agua",
+          "body": "<div><p><strong>Cómo usar la herramienta de Agua</strong></p><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Usa los controles para fijar los valores de <span style='color:#2563EB'>a</span> y <span style='color:#DC2626'>b</span>.</li><li>Haz clic en <strong>Verter A</strong> para vaciar el <span style='color:#2563EB'>cuadrado azul (a<sup>2</sup>)</span> en el cuadrado gris.</li><li>Haz clic en <strong>Verter B</strong> para vaciar el <span style='color:#DC2626'>cuadrado rojo (b<sup>2</sup>)</span> en el cuadrado gris.</li><li>Usa la rueda del ratón para acercar/alejar, arrastra para mover y pulsa <strong>Reiniciar</strong> para probar de nuevo.</li></ul><p style='margin-top:10px'><strong>Lo que estás viendo</strong></p><div style='text-align:center;margin:10px 0'><span style='font-family:Besley;font-style:italic;font-weight:bold'><span style='color:#2563EB'>a<sup>2</sup></span> + <span style='color:#DC2626'>b<sup>2</sup></span> = <span style='color:#16A34A'>c<sup>2</sup></span></span></div><p>El agua de los dos cuadrados pequeños llena el cuadrado más grande, demostrando el <strong>Teorema de Pitágoras</strong>.</p><p><strong>¿Por qué agua?</strong> Los guijarros solo funcionan con números enteros, pero el <span style='color:#3B82F6'>agua</span> funciona con cualquier valor, haciendo la demostración más general.</p></div>"
+        },
+        "proof3Info": {
+          "heading": "Acerca de la Demostración por Disección",
+          "body": "<div><p><strong>Cómo usar la herramienta de Disección</strong></p><ul style=\"list-style: pointer; padding-left: 30px; margin: 0;\"><li>Usa los controles para ajustar las longitudes de <span style='color:#2563EB'>a</span> y <span style='color:#DC2626'>b</span>.</li><li>Haz clic en <strong>Reordenar</strong> para mover los cuatro triángulos rectángulos idénticos.</li><li>La primera disposición muestra el <span style='color:#16A34A'>cuadrado verde inclinado (c<sup>2</sup>)</span>.</li><li>La segunda disposición muestra el <span style='color:#2563EB'>cuadrado azul (a<sup>2</sup>)</span> y el <span style='color:#DC2626'>cuadrado roja (b<sup>2</sup>)</span>.</li></ul><p style='margin-top:10px'><strong>Lo que estás viendo</strong></p><div style='text-align:center;margin:10px 0'><span style='font-family:Besley;font-style:italic;font-weight:bold'><span style='color:#2563EB'>a<sup>2</sup></span> + <span style='color:#DC2626'>b<sup>2</sup></span> = <span style='color:#16A34A'>c<sup>2</sup></span></span></div><p>Los mismos cuatro triángulos pueden organizarse de dos maneras: alrededor del cuadrado de la hipotenusa (<span style='color:#16A34A'>c<sup>2</sup></span>) o alrededor de los cuadrados de los catetos (<span style='color:#2563EB'>a<sup>2</sup></span> y <span style='color:#DC2626'>b<sup>2</sup></span>). Como las piezas y el área total nunca cambian, se demuestra claramente el <strong>Teorema de Pitágoras</strong>.</p></div>"
+        },
+        "proof1Title": "<strong className=\"text-blue-600\">Prueba 1:</strong> La Prueba de Piedrecitas",
+        "proof2Title": "<strong className=\"text-blue-600\">Prueba 2:</strong> La Prueba de Vertido",
+        "proof3Title": "<strong className=\"text-blue-600\">Prueba 3:</strong> La Prueba de Disección",
+        "selectPerfectTriple": "Selecciona una Terna Perfecta",
+        "animateProof": "Animar Prueba",
+        "reset": "Reiniciar",
+        "pourA": "Verter A",
+        "pourB": "Verter B",
+        "resetWater": "Reiniciar Agua",
+        "area": "Área",
+        "proof1CanvasInitialAriaLabel": "El diagrama contiene tres cuadrados: Cuadrado A con {aSquared} piedrecitas, cuadrado B con {bSquared} piedrecitas y cuadrado C vacío. Haz clic en el botón Animar prueba para mover piedrecitas del cuadrado A y cuadrado B al cuadrado C para demostrar que el número de piedrecitas en el cuadrado C es igual al número total de piedrecitas en el cuadrado A y cuadrado B.",
+        "proof1CanvasAnimatingAriaLabel": "Moviendo {aSquared} piedrecitas del cuadrado A y {bSquared} piedrecitas del cuadrado B al cuadrado C. Ahora el cuadrado A y cuadrado B están vacíos y el cuadrado C tiene {cSquared} piedrecitas.",
+        "proof2CanvasInitialAriaLabel": "El diagrama muestra que el cuadrado A Área {aSquared} y cuadrado B Área {bSquared} están llenos de agua y el cuadrado C está vacío. Haz clic en el botón Verter A para mover agua del Cuadrado A al Cuadrado C o haz clic en el botón Verter B para mover agua del Cuadrado B al Cuadrado C.",
+        "proof2CanvasPouringBAriaLabel": "Moviendo agua del Cuadrado B al Cuadrado C Área {bSquared}. Haz clic en el botón Verter A para mover agua del Cuadrado A al Cuadrado C.",
+        "proof2CanvasPouringAAriaLabel": "Moviendo agua del Cuadrado A al Cuadrado C Área {aSquared}. Haz clic en el botón Verter B para mover agua del Cuadrado B al Cuadrado C.",
+        "proof2CanvasCompletedAriaLabel": "Se movió agua de ambos Cuadrado A y Cuadrado B al Cuadrado C. Ahora el Cuadrado A y Cuadrado B están vacíos y el Cuadrado C está lleno de agua. Área {cSquared}.",
+        "screenReaderValues": "a es igual a {a}, b es igual a {b}, c es igual a {c} y por lo tanto a al cuadrado es igual a {aSquared}, b al cuadrado es igual a {bSquared}, c al cuadrado es igual a {cSquared}",
+        "screenReaderSquaredValues": "a al cuadrado es igual a {aSquared}, b al cuadrado es igual a {bSquared} y c al cuadrado es igual a {cSquared}",
+        "tripleThreeFourFive": "3-4-5",
+        "tripleSixEightTen": "6-8-10",
+        "tripleFiveTwelveThirteen": "5-12-13",
+        "tripleThreeFourFiveAriaLabel": "tres cuatro cinco",
+        "tripleSixEightTenAriaLabel": "seis ocho diez",
+        "tripleFiveTwelveThirteenAriaLabel": "cinco doce trece",
+        "selected": "seleccionado",
+        "rearrange": "Reorganizar",
+        "firstPosition": "Primera posición: Cuatro triángulos rectángulos idénticos se disponen alrededor de la hipotenusa c al cuadrado.",
+        "secondPosition": "Segunda posición: Cuatro triángulos rectángulos idénticos se disponen alrededor de los catetos a al cuadrado y b al cuadrado. El área total permanece igual, lo que demuestra que a al cuadrado más b al cuadrado es igual a c al cuadrado."
+      },
+      "S9_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>A mi padre le encantan los triángulos. Descubrió que los rectángulos pueden describirse como la combinación de dos triángulos, y que estos triángulos especiales con un ángulo de 90 grados se llaman triángulos rectángulos.</div>",
+      "S9_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando hacemos cuadrados a partir de los lados de un triángulo rectángulo, las piedritas en los cuadrados más pequeños suman perfectamente para formar el cuadrado del lado más largo, la hipotenusa. Por eso lo escribimos como <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #DC2626;'>a</span>&sup2; + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #2563EB;'>b</span>&sup2; = <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #16A34A;'>c</span>&sup2;.</div>",
+      "S9_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Lo ves? Las piedritas en los dos cuadrados más pequeños suman exactamente el mismo número que en el más grande. ¡Inténtalo con otro triángulo!</div>",
+      "S9_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mi padre quería demostrar que su teorema funciona para TODOS los triángulos rectángulos, no solo los que tienen números enteros. Observa cómo el agua revela esta verdad universal.</div>",
+      "S9_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El área de cada cuadrado es igual al cuadrado de su lado. El volumen del agua representa perfectamente esa área: puede llenar cualquier forma, a diferencia de las piedritas que solo funcionan con números enteros.</div>",
+      "S9_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora vierte el agua de los dos cuadrados más pequeños en el cuadrado más grande. ¡Observa cómo las áreas se combinan y lo llenan exactamente!</div>",
+      "S9_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto demuestra el verdadero poder del teorema: funciona para cualquier triángulo rectángulo, sin importar los números que elijas.</div>",
+      "S9_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está la demostración más elegante de todas: no usa números, ni conteo, solo razonamiento geométrico puro que convenció incluso a los más grandes estudiosos.</div>",
+      "S9_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mira estos cuatro triángulos rectángulos idénticos dispuestos alrededor del cuadrado verde inclinado. Esta área verde representa <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #16A34A;'>c</span>&sup2;, el cuadrado de la hipotenusa.</div>",
+      "S9_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora reubica los mismos cuatro triángulos en las esquinas. Ahora rodean dos cuadrados separados: uno azul para <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #DC2626;'>a</span>&sup2; y uno naranja para <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #2563EB;'>b</span>&sup2;.</div>",
+      "S9_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La magia es que usamos exactamente las mismas piezas en ambas disposiciones. Como los triángulos ocupan el mismo espacio, las áreas restantes deben ser iguales. Acabas de demostrar <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #DC2626;'>a</span>&sup2; + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #2563EB;'>b</span>&sup2; = <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #16A34A;'>c</span>&sup2; usando solo lógica y formas.</div>"
+    },
+    "S10": {
+      "S10_D0_FX_C9": {
+        "heightOnWallLabel": "Altura en la Pared",
+        "distanceFromWallLabel": "Distancia desde la Pared",
+        "info": {
+          "heading": "Acerca de este interactivo",
+          "body": "Aplicaremos el teorema de Pitágoras para resolver problemas del mundo real."
+        },
+        "help": {
+          "heading": "Cómo usar",
+          "body": "Sigue los pasos y pon en práctica lo aprendido."
+        },
+        "problem1Info": {
+          "heading": "El Problema de la Escalera",
+          "body": "<div><p><strong>Entendiendo el Problema de la Escalera</strong></p><ul style=\"list-style: disc; padding-left: 30px; margin: 0;\"><li>Una escalera de longitud <em>l</em> está apoyada contra una pared</li><li>La base de la escalera está a una distancia <em>d</em> de la pared</li><li>Usa los deslizadores para ajustar la longitud de la escalera y la distancia de la pared</li><li>Observa cómo cambia la altura <em>h</em> en la pared al mover los deslizadores</li><li>La visualización muestra el triángulo rectángulo formado por la escalera, la pared y el suelo</li></ul><p style='margin-top:10px'><strong>El Teorema de Pitágoras</strong></p><p>Este problema demuestra el teorema de Pitágoras: <strong>h² + d² = l²</strong></p><p>Donde:</p><ul style=\"list-style: disc; padding-left: 30px; margin: 0;\"><li><strong>h</strong> = altura en la pared (azul)</li><li><strong>d</strong> = distancia de la pared (amarillo/dorado)</li><li><strong>l</strong> = longitud de la escalera (morado)</li></ul></div>"
+        },
+        "problem2Info": {
+          "heading": "El Desafío Final",
+          "body": "<div><p><strong>Cómo Jugar</strong></p><ul style=\"list-style: disc; padding-left: 30px; margin: 0;\"><li>Encuentra la distancia entre el Puerto (punto azul) y el Mercado (punto rojo) en la cuadrícula de coordenadas</li><li>Completa tres pasos en orden: distancia horizontal (Δx), distancia vertical (Δy), y distancia directa</li><li>Aparecen guías visuales para ayudarte a entender cada medición</li><li>Ingresa tu respuesta y haz clic en el botón de verificar para confirmar</li><li>Observa cómo aparecen los componentes del triángulo mientras avanzas en cada paso</li></ul><p style='margin-top:10px'><strong>Lo Que Estás Aprendiendo</strong></p><p>Este desafío aplica el <strong>teorema de Pitágoras a la geometría de coordenadas</strong>:</p><ul style=\"list-style: disc; padding-left: 30px; margin: 0;\"><li><strong>Δx</strong> = distancia horizontal entre puntos (rosa)</li><li><strong>Δy</strong> = distancia vertical entre puntos (morado)</li><li><strong>Distancia directa</strong> = hipotenusa usando √(Δx² + Δy²) (verde)</li></ul><p>¡Verás cómo funciona el teorema con puntos de coordenadas reales!</p></div>"
+        },
+        "ladderLengthLabel": "Longitud de la Escalera",
+        "title": "Aplicaciones Prácticas",
+        "ladderLengthSliderLabel": "Longitud de la Escalera",
+        "ladderLengthSliderAriaLabel": "Control Deslizante de Longitud de Escalera",
+        "distanceFromWallSliderAriaLabel": "Control Deslizante de Distancia desde la Pared",
+        "distanceFeedback": "¡No puede exceder esta distancia - no se formaría un triángulo válido!",
+        "ladderFeedback": "¡No se puede hacer la escalera más corta - invalidaría la distancia actual desde la pared!",
+        "rightAngleMarker": "Marcador de Ángulo Recto",
+        "ladder": "Escalera",
+        "wall": "Pared",
+        "ground": "Suelo",
+        "finalChallengeTitle": "El Desafío Final",
+        "step1Description": "Paso 1: Encuentra la distancia horizontal (<span style='font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;'>(Δx)</span>) entre los puntos.",
+        "step2Description": "Paso 2: Encuentra la distancia vertical (<span style='font-family: Besley; font-weight: bold; font-style: italic; color: #8E24AA;'>(Δy)</span>) entre los puntos.",
+        "step3Description": "Paso 3: Calcula la distancia directa más corta (<span style='font-family: Besley; font-weight: bold; font-style: italic; color: #008217;'>(HM)</span>).",
+        "challengeCompleted": "¡Desafío completado!",
+        "horizontalDistanceLabel": "Distancia Horizontal (Δx):",
+        "verticalDistanceLabel": "Distancia Vertical (Δy):",
+        "directDistanceLabel": "Distancia Directa (HM):",
+        "checkDeltaX": "Verificar Δx",
+        "checkDeltaY": "Verificar Δy",
+        "checkDistance": "Verificar Distancia",
+        "complete": "¡Completado!",
+        "deltaXCorrect": "¡Correcto! Ahora encuentra la distancia vertical (<span style='font-family: Besley; font-weight: bold; font-style: italic;'>Δy</span>).",
+        "deltaYCorrect": "¡Excelente! Ahora calcula la distancia directa usando <span style='font-family: Besley; font-weight: bold; font-style: italic;'>a² + b² = c²</span>.",
+        "hypotenuseCorrect": "¡Perfecto! Has completado el desafío.",
+        "deltaXIncorrect": "No es correcto. Cuenta los cuadrados horizontales de la cuadrícula entre los puntos.",
+        "deltaYIncorrect": "No es correcto. Cuenta los cuadrados verticales de la cuadrícula entre los puntos.",
+        "hypotenuseIncorrect": "Eso no es correcto. Recuerda: <span style='font-family: Besley; font-weight: bold; font-style: italic;'>c = √(a² + b²)</span>",
+        "harbor": "Puerto",
+        "market": "Mercado",
+        "problem1": "<div><strong class='text-blue-600'>Problema 1:</strong> El problema de la escalera</div>",
+        "problem2": "<div><strong class='text-blue-600'>Problema 2:</strong> El desafío final</div>"
+      },
+      "S10_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora debes usar el teorema para ayudar a la gente en Croton. Un trabajador tiene una escalera de 15 pies y coloca la base a 9 pies de la pared. ¿Qué altura alcanzará? Recuerda, la escalera forma la hipotenusa de un triángulo rectángulo.</div>",
+      "S10_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Encontraste que 9² + 12² = 15², por lo que la escalera alcanza 12 pies de altura. Este es otro triple pitagórico: 9-12-15.</div>",
+      "S10_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora necesito viajar desde el Puerto en la coordenada (2, 1) hasta el Mercado en (10, 7). ¿Cuál es la distancia más corta? Piensa en esto como un triángulo rectángulo en la cuadrícula de coordenadas. Cuenta el cambio horizontal y vertical, y luego usa el teorema.</div>",
+      "S10_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Brillante! La base horizontal es de 8 unidades, la vertical de 6 unidades, y 8² + 6² = 10². La distancia más corta es de 10 unidades. ¡Has dominado el antiguo arte de usar las matemáticas para resolver problemas reales!</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "¡Has dominado los secretos de Pitágoras!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>Has completado con éxito la Misión Pitágoras: El Aprendiz de Croton.</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Descubriste la armonía en los ratios musicales</li><li>Exploraste las formas de los números con las antiguas piedritas</li><li>Probaste el teorema de Pitágoras</li><li>Resolvió problemas del mundo real usando matemáticas</li><li>Te uniste a las filas de los Mathematikoi</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400;'>Ahora llevas adelante la antigua sabiduría de que las matemáticas son el lenguaje oculto del universo.</p>",
+      "leftsvg": "<svg width=\"80\" height=\"81\" viewBox=\"0 0 80 81\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><mask id=\"mask0_29847_3083\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"81\"><path d=\"M70 1H10C4.75329 1 0.5 5.25329 0.5 10.5V70.5C0.5 75.7467 4.75329 80 10 80H70C75.2467 80 79.5 75.7467 79.5 70.5V10.5C79.5 5.25329 75.2467 1 70 1Z\" fill=\"#5454D8\" stroke=\"#005F20\"/></mask><g mask=\"url(#mask0_29847_3083)\"><path d=\"M70.2104 10.6116L42.3396 0.820622C41.1396 0.393126 39.8657 0.393126 38.6619 0.820622L10.7911 10.6116C8.52025 11.4104 7.0026 13.5816 7.0026 16.0228V32.8417C6.78844 53.9125 19.7969 76.5545 40.5017 80.5C49.9836 78.82 57.8673 72.9139 64.0596 64.5971C70.4735 55.7773 74 44.5007 74 32.8425V16.0236C74 13.5861 72.4824 11.415 70.2115 10.6124L70.2104 10.6116Z\" fill=\"black\"/><path d=\"M42.1793 1.27821L42.1813 1.27887L69.9853 10.558L70.0524 10.5808C72.1286 11.2779 73.5 13.156 73.5 15.2474V31.2254C73.5 42.1958 70.0068 52.7994 63.6644 61.086C57.5464 68.8912 49.7941 74.4029 40.5048 75.9923C20.1568 72.2556 7.29051 51.0507 7.50258 31.23L7.5026 31.2246V15.2467C7.5026 13.1514 8.8742 11.2738 10.9494 10.5803C10.9493 10.5803 10.9495 10.5803 10.9494 10.5803L38.8202 1.27888L38.8217 1.27836C39.922 0.907158 41.0834 0.90732 42.1793 1.27821Z\" fill=\"#FFCC00\"/><path d=\"M10.9494 10.5803C8.8742 11.2738 7.5026 13.1514 7.5026 15.2467V31.2246L7.50258 31.23C7.29051 51.0507 20.1568 72.2556 40.5048 75.9923C49.7941 74.4029 57.5464 68.8912 63.6644 61.086C70.0068 52.7994 73.5 42.1958 73.5 31.2254V15.2474C73.5 13.156 72.1286 11.2779 70.0524 10.5808L69.9853 10.558L42.1813 1.27887L42.1793 1.27821C41.0834 0.90732 39.922 0.907158 38.8217 1.27836L38.8202 1.27888L10.9494 10.5803ZM10.9494 10.5803C10.9493 10.5803 10.9495 10.5803 10.9494 10.5803Z\" stroke=\"black\"/></g><path d=\"M56.793 52H35.25V45.25C35.25 44.6977 34.8023 44.25 34.25 44.25H27.5V22.707L56.793 52Z\" fill=\"black\" stroke=\"black\"/><path d=\"M35.5 45V52H27.5V45H35.5Z\" fill=\"black\" stroke=\"black\"/><path d=\"M56.793 50H35.25V43.25C35.25 42.6977 34.8023 42.25 34.25 42.25H27.5V20.707L56.793 50Z\" fill=\"white\" stroke=\"black\"/><path d=\"M32.958 44.541V49.999H27.5V44.541H32.958Z\" fill=\"white\" stroke=\"black\"/></svg>",
+      "leftsvgarialabel": "Icono de insignia de triángulo rectángulo",
+      "rightsvg": "<svg width=\"107\" height=\"106\" viewBox=\"0 0 107 106\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g opacity=\"0.2\"><path d=\"M26.217 71.2439C26.4888 71.2926 26.6697 71.5524 26.621 71.8242L22.7811 93.2785C22.7325 93.5503 22.9134 93.8101 23.1852 93.8587L88.8207 105.606C89.2592 105.685 89.5737 105.194 89.3191 104.828L17.0087 0.990581C16.7541 0.625031 16.1847 0.74974 16.1062 1.18822L4.3586 66.8237C4.30995 67.0955 4.49087 67.3553 4.76269 67.404L26.217 71.2439Z\" fill=\"white\"/><path d=\"M3.51347 71.5459C3.56212 71.2741 3.82192 71.0932 4.09374 71.1418L21.8082 74.3124C22.0801 74.361 22.261 74.6208 22.2123 74.8927L19.0418 92.6072C18.9931 92.879 18.7333 93.0599 18.4615 93.0112L0.74698 89.8407C0.475157 89.792 0.294241 89.5322 0.342893 89.2604L3.51347 71.5459Z\" fill=\"white\"/></g></svg>"
+    },
+    "glossary": {
+      "monochord": {
+        "word": "Monocordio",
+        "definition": "Un <strong className=\"text-[#0055B2]\">monocordio</strong> es un instrumento musical simple con una cuerda usado para demostrar proporciones matemáticas en la armonía y el sonido. Los filósofos griegos antiguos lo usaban para descubrir las relaciones matemáticas que crean música hermosa.<br><div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/images/monochord.webp' alt='Envolvente ADSR' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: container; border-radius: 8px;'/>"
+      },
+      "mathematikoi": {
+        "word": "Mathematikoi",
+        "definition": "Los <strong className=\"text-[#0055B2]\">Mathematikoi</strong> eran el círculo interno de estudiantes de Pitágoras que aprendían los secretos matemáticos y filosóficos más profundos. Eran los guardianes de la sabiduría matemática en la antigua Grecia."
+      },
+      "tetractys": {
+        "word": "Tetractys",
+        "definition": "El <strong className=\"text-[#0055B2]\">Tetractys</strong> es un arreglo triangular sagrado de diez puntos (1+2+3+4=10) que representa la armonía de las relaciones matemáticas. Contiene las proporciones musicales y representa los bloques de construcción del universo: el punto, la línea, el plano y el sólido."
+      },
+      "right-triangle": {
+        "word": "Triángulo Rectángulo",
+        "definition": "Un <strong className=\"text-[#0055B2]\">triángulo rectángulo</strong> es un triángulo con un ángulo de 90 grados, donde se aplica el teorema de Pitágoras. Los constructores antiguos usaban triángulos rectángulos para crear esquinas perfectas en sus construcciones."
+      },
+      "right-triangles": {
+        "word": "Triángulos Rectángulo",
+        "definition": "Un <strong className=\"text-[#0055B2]\">triángulo rectángulo</strong> es un triángulo con un ángulo de 90 grados, donde se aplica el teorema de Pitágoras. Los constructores antiguos usaban triángulos rectángulos para crear esquinas perfectas en sus construcciones."
+      },
+      "hypotenuse": {
+        "word": "Hipotenusa",
+        "definition": "La <strong className=\"text-[#0055B2]\">hipotenusa</strong> es el lado más largo de un triángulo rectángulo, opuesto al ángulo recto. Es el lado representado por 'c' en la ecuación del teorema de Pitágoras a²+b²=c²."
+      },
+      "figurate-numbers": {
+        "word": "Números figurados",
+        "definition": "Los <strong className=\"text-[#0055B2]\">números figurados</strong> son números que pueden representarse mediante formas geométricas regulares, como números triangulares o números cuadrados. Los matemáticos griegos antiguos descubrieron estos patrones usando piedrecitas dispuestas en formas geométricas."
+      },
+      "pythagorean-theorem": {
+        "word": "Teorema de Pitágoras",
+        "definition": "El <strong className=\"text-[#0055B2]\">teorema de Pitágoras</strong> es el principio matemático que establece que en un triángulo rectángulo, a²+b²=c², donde c es la hipotenusa y a y b son los otros dos lados. Esta ley universal fue descubierta por Pitágoras y todavía se usa hoy en día en construcción, navegación y muchos otros campos."
+      }
+    },
+    "common": {
+      "bg1_description": "Gran templo de estilo griego con columnas dóricas con vistas al mar al atardecer.",
+      "bg2_description": "Interior de una antigua biblioteca con estantes de madera, pergaminos y columnata abierta.",
+      "bg3_description": "Larga estoa con columnas, bancos y gente caminando por el paseo marítimo.",
+      "bg4_description": "Sala de biblioteca clásica con techos altos, estanterías y pilas centrales de agua.",
+      "bg5_description": "Patio abierto con columnatas, suelos de mosaico y personas con túnicas de estilo romano.",
+      "char1": "Myia",
+      "char1_description": "Una mujer con un vestido rojo de estilo griego sosteniendo un pergamino enrollado en su brazo.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergent"
+  },
+  "game": {
+    "pythagoras-quest": "La búsqueda de Pitágoras"
+  }
+}

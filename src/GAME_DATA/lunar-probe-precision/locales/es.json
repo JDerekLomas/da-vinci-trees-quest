@@ -1,0 +1,559 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de inicio",
+    "scene_2": "Pantalla de bienvenida",
+    "scene_3": "Vida en las cuevas lunares",
+    "scene_3E": "Luz del cielo lunar",
+    "scene_4": "Trayectoria de la sonda lunar",
+    "scene_5": "Lanzamiento de la sonda lunar",
+    "scene_6E": "Introducción a la Forma Estándar",
+    "scene_6": "Fórmula para la forma estándar",
+    "scene_7": "Explorador de fórmulas cuadráticas",
+    "scene_8E": "Introducción a la forma de vértice",
+    "scene_8": "Forma de vértice",
+    "scene_9": "Navegación de la sonda lunar",
+    "scene_10": "Enfoque más simple",
+    "scene_11": "Trayectoria de la sonda y raíces cuadráticas",
+    "scene_12": "Conclusión",
+    "scene_13": "Pantalla final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "equation": {
+    "yEquals": "y igual",
+    "times": "por",
+    "qty": "la cantidad",
+    "minus": "menos",
+    "plus": "más",
+    "squared": "cuadrado",
+    "point": "punto",
+    "zero": "cero"
+  },
+  "status": {
+    "launching": "La sonda está lanzando, por favor espere.",
+    "hit": "El objetivo ha sido alcanzado con éxito."
+  },
+  "start": {
+    "title": "<div style='font-size: 32px; line-height: 48px; font-weight: 700;'>El disparo a la luna</div> <div style='font-size: 20px; line-height: 30px; font-weight: 700;'>Explorando los tubos de lava de la Luna con funciones cuadráticas</div>",
+    "description": "Usando simulaciones avanzadas y el poder de las funciones cuadráticas, ayudarás a navegar una sonda lunar hacia la entrada de una enorme cueva en la Luna que algún día podría albergar astronautas, almacenar suministros y desbloquear recursos vitales.",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D0_FSQ2_C0": {
+        "img": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>La formación lunar</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/moonFormationOrigin.webp' alt='Origen de la Formación de la Luna' title='Origen de la Formación de la Luna' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div></div>",
+        "imgDescription": "Una gran colisión con un planeta llamado Theia creó la Luna a partir de escombros espaciales.",
+        "img2": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>El Nacimiento de la Luna</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/theMoltenMoon.webp' alt='La Luna Fundida' title='La Luna Fundida' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div></div>",
+        "imgDescription2": "La roca caliente expulsada al espacio se unió para dar origen a la Luna.",
+        "img3": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>De Bola de Lava a Superficie Lunar</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/lavaFlowsOnTheMoon.webp' alt='Flujos de Lava en la Luna' title='Flujos de Lava en la Luna' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div></div>",
+        "imgDescription3": "La Luna pasó de ser una bola de lava caliente a una superficie sólida con el tiempo.",
+        "img4": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>Cómo Nacen los Tubos de Lava</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/birthOfLavaTubes.webp' alt='Nacimiento de los Tubos de Lava' title='Nacimiento de los Tubos de Lava' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription4": "La lava se enfría por fuera mientras sigue fluyendo por dentro y forma túneles huecos.",
+        "img5": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>El Proceso de Formación en Cuatro Pasos</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/lavaTubesFormation1.webp' alt='Formación de Tubos de Lava 1' title='Formación de Tubos de Lava 1' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription5": "Los tubos de lava se forman cuando la lava drenada deja una cueva vacía bajo la corteza.",
+        "img6": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>Dentro de un Sistema de Tubos de Lava</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/lavaTubesFormation2.webp' alt='Formación de Tubos de Lava 2' title='Formación de Tubos de Lava 2' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription6": "La lava fluye por debajo de la roca sólida como un río subterráneo.",
+        "img7": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>Tubos de Lava Visibles desde el Espacio</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/birdEyeView.webp' alt='Vista Aérea' title='Vista Aérea' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription7": "Los techos colapsados muestran el recorrido de los tubos de lava desde el espacio.",
+        "img8": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>Una Claraboya Natural</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/theSkylight.webp' alt='La Claraboya' title='La Claraboya' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription8": "Las claraboyas son aberturas que permiten entrar a enormes tubos de lava subterráneos."
+      },
+      "S2_D1_FSQ2_C2": "<h1 style=\"color: #000; font-size: 1.5rem; font-weight: 700; line-height: 36px; margin-bottom: 1rem;\">Bienvenido al Centro de Investigación Espacial</h1><p style=\"margin-bottom: 1rem;\">Bajo la superficie de la Luna se encuentran vastos tubos de lava — túneles silenciosos intactos durante miles de millones de años. Los científicos creen que estas cámaras ocultas podrían algún día albergar astronautas y recursos vitales, pero nadie las ha explorado jamás… hasta ahora.</p>",
+      "S2_D2_FSQ2_C2": "Hola Ethan, bienvenido a tu sesión informativa de la misión. Comencemos desde el principio. ¿Estás familiarizado con cómo se formó la Luna, hace 4.5 mil millones de años?",
+      "S2_D3_FSQ2_C1": "¿Algo sobre una colisión masiva? No estoy seguro de los detalles.",
+      "S2_D3_FSQ2_C2": "Tienes razón. Dos planetas, la Tierra y un objeto del tamaño de Marte llamado Theia, colisionaron. El impacto fue enorme. Expulsó una gran cantidad de material fundido al espacio. Con el tiempo, este material se agrupó y finalmente formó nuestra Luna.",
+      "S2_D4_FSQ2_C1": "Fascinante — ¿esto tiene algo que ver con nuestra misión?",
+      "S2_D4_FSQ2_C2": "¡Sí! Porque estos eventos ayudaron a crear una red de cuevas en la Luna—cuevas donde los humanos podrían algún día crear colonias.",
+      "S2_D5_FSQ2_C2": "Verás, la Luna no siempre fue el mundo frío y gris que vemos hoy. Solía ser una bola fundida de lava, brillando como un segundo sol en el cielo de la Tierra.",
+      "S2_D6_FSQ2_C1": "¿Qué? ¿Una Luna fundida? ¿Una bola gigante de lava? Es difícil de imaginar. ¿Supongo que eventualmente se enfrió?",
+      "S2_D6_FSQ2_C2": "Sí, pero de manera desigual. Incluso después de enfriarse en la superficie, seguía estando fundida por debajo. De hecho, la Luna tenía muchos volcanes, donde la lava salía a la superficie. Todavía puedes ver la evidencia hoy: ¿ves esas manchas oscuras en la Luna? Esos son antiguos flujos de lava.",
+      "S2_D7_FSQ2_C1": "¿Así que la Luna estaba básicamente cubierta de ríos de lava?",
+      "S2_D7_FSQ2_C2": "¡Sí! Y, esto es aún más interesante: cuando esos ríos de lava se enfrían, a menudo dejan una red de túneles. Los llamamos tubos de lava.",
+      "S2_D8_FSQ2_C1": "¿Tubos de lava? ¿Dices que hay una red de túneles de lava bajo la luna? ¿Cómo lo sabemos?",
+      "S2_D8_FSQ2_C2": "En la Tierra, los científicos han descubierto que la superficie exterior de la lava en movimiento se enfría primero y se endurece en roca sólida. Sin embargo, debajo de esta corteza sólida, la lava fundida sigue fluyendo—como un río subterráneo. Luego, una vez que toda esta lava fluida se drena, deja una vasta red de tubos de lava huecos.",
+      "S2_D10_FSQ2_C1": "¿Y los científicos creen que esto ocurre en la luna también?",
+      "S2_D10_FSQ2_C2": "¡Lo sabemos! A veces podemos verlos desde telescopios.",
+      "S2_D11_FSQ2_C1": "¿Pero cómo puedes ver túneles en la luna, si están bajo tierra?",
+      "S2_D11_FSQ2_C2": "¡Buena pregunta! Bueno, a veces los meteoritos o los sismos lunares pueden colapsar el techo de un túnel. ¿Puedes ver esto aquí?",
+      "S2_D13_FSQ2_C1": "¡Vaya, el techo colapsado revela la forma del túnel!",
+      "S2_D13_FSQ2_C2": "En la Tierra, los tubos de lava también a veces tienen el techo colapsado. Pueden ser hermosos. Los llamamos claraboyas. Y ese es el objetivo de nuestra misión: lanzar una sonda dentro de la claraboya de un tubo de lava.",
+      "S2_D14_FSQ2_C1": "Increíble.",
+      "S2_D15_FSQ2_C2": "Y, como la gravedad de la luna es solo una sexta parte de la gravedad en la tierra, los túneles pueden ser mucho, mucho más grandes que en la tierra. Algunas cuevas pueden ser lo suficientemente grandes como para albergar ciudades enteras.",
+      "S2_D16_FSQ2_C1": "¿Pero por qué alguien querría vivir bajo tierra en la luna?",
+      "S2_D16_FSQ2_C2": "¡Principalmente por protección! La atmósfera de la tierra quema la mayoría de los meteoritos pequeños. Pero en la luna, serían un peligro mortal. La atmósfera de la tierra también nos protege de la radiación solar cancerígena. Finalmente, la superficie de la luna tiene una temperatura extrema: ¡de 250°F durante el día a -208°F en la noche! La temperatura sería fría en los túneles lunares, pero estable.",
+      "S2_D15_FSQ2_C1": "Entonces, en vez de construir una costosa colonia lunar en la superficie, podríamos aprovechar las estructuras que ya existen en la luna.",
+      "S2_D12_FSQ2_C2": "Así es. Hay un gran potencial. Por eso nuestra misión es recolectar datos preliminares sobre estas cuevas. Hemos diseñado un módulo lunar equipado con un dispositivo de proyectiles que puede lanzar sondas lunares dentro de las claraboyas de tubos de lava cercanos.",
+      "S2_D2_FSQ2_C1": "¿Vamos a lanzar la sonda? ¿Por qué no un robot o un rover?",
+      "S2_D9_FSQ2_C2": "Con un solo dispositivo en el módulo, podemos lanzar múltiples sondas a cuevas cercanas. Así podemos recolectar muchos más datos."
+    },
+    "S3": {
+      "S3_D1_FSQ1_C1": "Capitán, se siente irreal ver la superficie de la Luna así desde la Tierra. Solía soñar con explorarla.",
+      "S3_D2_FSQ3_C2": "No estás solo en ese sueño, Ethan. Pero lo que es fascinante de nuestra misión no es solo la superficie, sino lo que hay debajo.",
+      "S3_D3_FSQ1_C1": "¿Te refieres a los tubos de lava, verdad? ¿Qué son exactamente?",
+      "S3_D4_FSQ3_C2": "Cuando se formó la Luna, estaba cubierta de lava. Con el tiempo, la lava fluyó y se enfrió. La capa exterior se endureció primero, creando una enorme red de tubos de lava huecos.",
+      "S3_D5_FSQ1_C1": "¡Así que la Luna tiene cuevas!",
+      "S3_D6_FSQ3_C2": "¡Así es! Y como la gravedad en la Luna es solo ⅙ de la gravedad terrestre, algunas cuevas son enormes; podríamos construir una ciudad entera en algunas de ellas.",
+      "S3_D7_FSQ1_C1": "¡Una ciudad! ¿Acaso no querría la gente vivir en la superficie de la Luna?",
+      "S3_D8_FSQ3_C2": "Como la Luna no tiene atmósfera, vivir en la superficie expondría a las personas a una radiación peligrosa. Para vivir en la superficie, necesitaríamos construir muros muy gruesos para bloquear la radiación.",
+      "S3_D9_FSQ1_C1": "¡Ah, pero si viviéramos en las cuevas de la Luna, estaríamos protegidos! ¿Cómo sabemos realmente que estas cuevas son reales si aún no las hemos explorado?",
+      "S3_D10_FSQ3_C2": "¡Buena pregunta! En algunos lugares, los techos de los tubos de lava lunares se han derrumbado, formando 'aberturas'. Estas aberturas pueden darnos acceso al vasto sistema de túneles debajo."
+    },
+    "S5": {
+      "S5_D0_FSQ4_C9": {
+        "title": "Lanzamiento de la Sonda Lunar",
+        "initial_velocity": "Velocidad Inicial",
+        "launch_angle": "Ángulo de Lanzamiento",
+        "target_position": "Posición Objetivo:",
+        "adjust_slider": "Ajusta el ángulo y la velocidad, luego lanza",
+        "hit_position": "Posición de Impacto:",
+        "hit": "¡ACIERTO!",
+        "miss": "¡FALLO!",
+        "reset": "Reiniciar",
+        "launch_probe": "Lanzar Sonda",
+        "launching": "Lanzando...",
+        "target_hit": "¡Objetivo Alcanzado!",
+        "probe_in_flight": "Sonda en vuelo...",
+        "target_hit_reset": "¡Objetivo Alcanzado! Reinicia para intentar de nuevo",
+        "feet_unit": "ft",
+        "degrees_unit": "°",
+        "velocity_unit": "ft/s",
+        "graph": {
+          "xAxisLabel": "Distancia (ft)",
+          "yAxisLabel": "Altura (ft)",
+          "tooltipDistance": "Distancia",
+          "tooltipHeight": "Altura"
+        },
+        "help": {
+          "heading": "Cómo Alcanzar la Cueva",
+          "body": "<div><div style='margin-bottom: 16px;'><span style='font-size: 20px; font-weight: 600;'>Ajustar Controles:</span><span style='font-size: 20px; line-height: 1.6;'> Usa los controles deslizantes para modificar la <strong>Velocidad Inicial (20-50 ft/s)</strong> y el <strong>Ángulo de Lanzamiento (0-90°).</strong> Observa cómo se actualiza la trayectoria en tiempo real.</span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Fijar Objetivo:</span><span style='font-size: 20px; line-height: 1.6;'> El objetivo es golpear el blanco rojo ubicado en <strong>(50, 0).</strong></span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Lanzar Sonda:</span><span style='font-size: 20px; line-height: 1.6;'> Haz clic en el botón <strong>\"Lanzar Sonda\"</strong> para ver si la sonda alcanza el objetivo.</span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Reiniciar:</span><span style='font-size: 20px; line-height: 1.6;'> Usa el botón <strong>\"Reiniciar\"</strong> para comenzar de nuevo y probar nuevos valores.</span></div></div>"
+        },
+        "about": {
+          "heading": "Cómo la Velocidad y el Ángulo Afectan la Trayectoria",
+          "body": "<div><div style='margin-bottom: 16px;'><span style='font-size: 20px; font-weight: 600;'>Velocidad:</span><span style='font-size: 20px; line-height: 1.6;'> Una mayor velocidad aumenta tanto la altura como la distancia de la trayectoria.</span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Ángulo:</span><div style='font-size: 20px; line-height: 1.6; margin-top: 8px;'>• Alcance óptimo a 45°, equilibra perfectamente los componentes de velocidad horizontal y vertical, maximizando así la distancia recorrida<br>• < 45°: Más plano, mayor alcance<br>• > 45°: Más alto, menor Alcance</div></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Efecto combinado:</span><span style='font-size: 20px; line-height: 1.6;'> La velocidad y el ángulo juntos definen la forma de la trayectoria y el alcance del objetivo.</span></div></div>"
+        },
+        "feedback_short_distance": "¡Potencia insuficiente! Intenta aumentar la velocidad.",
+        "feedback_long_distance": "¡Demasiada potencia! Intenta disminuir la velocidad.",
+        "feedback_close": "¡Cerca! Ajusta la velocidad.",
+        "feedback_angle_high": "¡Ángulo demasiado pronunciado! Intenta cambiar el ángulo.",
+        "feedback_adjust_angle": "¡Buena distancia! Ajusta el ángulo.",
+        "feedback_adjust_both": "Intenta ajustar la velocidad y el ángulo."
+      },
+      "S5_D1_FSQ4_C2": "Tu tarea es probar la trayectoria balística de la sonda. Para máxima eficiencia, nuestro sistema de lanzamiento está calibrado al ángulo óptimo de 45 grados.",
+      "S5_D2_FSQ4_C1": "¿Por qué específicamente 45 grados?",
+      "S5_D3_FSQ4_C2": "A 45 grados, los proyectiles alcanzan su máximo alcance para cualquier velocidad dada - ¡es física básica! Tu trabajo es determinar la velocidad de lanzamiento exacta necesaria para alcanzar la claraboya a 50 pies.",
+      "S5_D4_FSQ4_C1": "¿Entonces solo necesito ajustar la velocidad? Eso debería hacer el cálculo más preciso.",
+      "S5_D4_FSQ5_C2": "¡Exactamente! El ángulo de lanzamiento está fijado en 45 grados. Ajusta el ángulo a 45 y luego encuentra la velocidad correcta para alcanzar el objetivo.",
+      "S5_D5_FSQ4_C2": "Recuerda, estamos en la Luna donde la gravedad es mucho más débil que en la Tierra. Encuentra la velocidad para lanzar la sonda.",
+      "S5_D6_FSQ4_C2": "¡Excelente! Encontraste la velocidad precisa necesaria. Esto crea el arco parabólico perfecto para alcanzar la claraboya."
+    },
+    "S6": {
+      "S5_D4_FSQ4_C2": "¡Felicidades por llegar a la claraboya! ¿Ves por qué podríamos querer un modelo matemático en lugar de solo prueba y error?",
+      "S6_D1_FSQ4_C1": "¿Sí, podemos calcular la trayectoria exacta de antemano?",
+      "S6_D2_FSQ4_C2": "Por supuesto. Este movimiento balístico es en realidad muy fácil de modelar con una ecuación matemática llamada función cuadrática.",
+      "S6_D3_FSQ4_C1": "¡Cuadráticas! Ok, hagámoslo.",
+      "S6_D4_FSQ4_C2": "La forma estándar de una función cuadrática es <em style='color: #E0002B; font-family: besley;'>y</em> = <em style='color: #8E24AA; font-family: besley;'>a</em><em style='color: #0061FC; font-family: besley;'>x<sup>2</sup></em> + <em style='color: #DB0072; font-family: besley;'>b</em><em style='color: #0061FC; font-family: besley;'>x</em> + <em style='color: #008217; font-family: besley;'>c</em>. Cada <no-glossary>parámetro</no-glossary> controla un aspecto diferente de nuestra trayectoria."
+    },
+    "S7": {
+      "S7_D0_FSQ4_C9": {
+        "title": "Fórmula para la Forma Estándar",
+        "standard_form_title": "Forma Estándar: ",
+        "standard_form_formula_ariaLabel": "y igual a a por x al cuadrado más b por x más c, donde a, b y c son parámetros que controlan la forma de la parábola",
+        "standard_form_subtitle": "Observa cómo cada parámetro afecta la parábola",
+        "param_a_label": "Parámetro 'a'",
+        "param_a_description": "Controla la forma y la dirección",
+        "param_a_effect": "Se abre hacia abajo",
+        "param_b_label": "Parámetro 'b'",
+        "param_b_description": "Controla la posición horizontal",
+        "param_b_effect": "Desplazamiento horizontal",
+        "param_c_label": "Parámetro 'c'",
+        "param_c_description": "Controla la intersección con el eje y",
+        "param_c_effect": "Intersección con el eje y",
+        "visualization_title": "Visualización de la Parábola",
+        "parameters_title": "Parámetros",
+        "current_value_label": "Valor actual:",
+        "current_equation_label": "Ecuación actual:",
+        "y_intercept_label": "Intersección con el eje y:",
+        "origin_label": "0",
+        "y_intercept_marker": "c",
+        "opens_up_text": "Se abre hacia arriba",
+        "opens_down_text": "Se abre hacia abajo",
+        "narrow_text": "Estrecha",
+        "wide_text": "Ancha",
+        "left_shift_text": "Desplazamiento a la izquierda",
+        "right_shift_text": "Desplazamiento a la derecha",
+        "no_shift_text": "Sin desplazamiento",
+        "above_axis_text": "Por encima del eje",
+        "below_axis_text": "Por debajo del eje",
+        "on_axis_text": "En el eje",
+        "vertex_label": "Vértice:"
+      },
+      "S7_D3_FSQ4_C2": "Ajustar estos controlará la trayectoria de la sonda. Para nuestra misión lunar, necesitamos un valor negativo para el parámetro <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em> para crear un arco descendente. Haz clic en el parámetro '<em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em>' y prueba diferentes valores.",
+      "S7_D4_FSQ4_C1": "Ok, cuando <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em> es -0.02, se abre hacia abajo, y cuando es -0.05, es más empinada pero sigue abriéndose hacia abajo. ¡Ahora veo por qué necesitamos valores negativos para nuestra misión lunar! ¿Y qué pasa con <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em>? ¿Cómo afecta eso las cosas?",
+      "S7_D5_FSQ4_C2": "El valor de <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em> ayuda a ajustar nuestra trayectoria. Prueba diferentes opciones para ver cuál nos mantiene a salvo por encima de los obstáculos.",
+      "S7_D6_FSQ4_C1": "¡Interesante! Cuando <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em> es positivo, la parábola se desplaza hacia un lado, y cuando es negativo, se desplaza hacia el otro. ¿Así que esto controla la posición horizontal del pico. ¿Y <em style='color: #677600; font-family: besley; font-style: italic;'>c</em>?",
+      "S7_D7_FSQ4_C2": "Esa es nuestra altura inicial, define la intersección con el eje y: el punto desde donde lanzamos la sonda. Para esta misión, comenzamos a nivel del suelo, así que <em style='color: #677600; font-family: besley; font-style: italic;'>c</em> será cero. Prueba el parámetro '<em style='color: #677600; font-family: besley; font-style: italic;'>c</em>' para ver cómo afecta el punto de lanzamiento.",
+      "S7_D8_FSQ4_C1": "¡Oh, veo el parabola moviéndose arriba y abajo! Cuando <em style='color: #677600; font-family: besley; font-style: italic;'>c</em> es positivo, comenzamos más alto, y cuando es negativo, comenzamos por debajo del nivel del suelo.",
+      "S7_D9_FSQ4_C2": "¡Perfecto! <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em> da forma a la curva, <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em> la posiciona y <em style='color: #677600; font-family: besley; font-style: italic;'>c</em> define nuestro punto de lanzamiento. Ahora solo necesitamos la combinación correcta para alcanzar el objetivo."
+    },
+    "S8": {
+      "S8_D0_FSQ4_C9": {
+        "title": "Explorador de Fórmulas Cuadráticas",
+        "controls": {
+          "groupLabel": "Controles de la Función",
+          "a": {
+            "label": "a",
+            "description": "Controla la apertura"
+          },
+          "b": {
+            "label": "b",
+            "description": "Controla el desplazamiento"
+          },
+          "c": {
+            "label": "c",
+            "description": "Altura inicial"
+          }
+        },
+        "graph": {
+          "xAxisLabel": "Distancia (ft)",
+          "yAxisLabel": "Altura (ft)",
+          "tooltipDistance": "Distancia",
+          "tooltipHeight": "Altura"
+        },
+        "buttons": {
+          "reset": "Reiniciar",
+          "start": "Iniciar",
+          "launching": "Lanzando...",
+          "targetHit": "¡Objetivo Alcanzado!",
+          "launch": "Lanzamiento"
+        },
+        "status": {
+          "target": "Objetivo",
+          "position": "Posición",
+          "xIntercepts": "Intersecciones X",
+          "adjustCurve": "Ajusta la curva para alcanzar el objetivo",
+          "probeInMotion": "Sonda en movimiento...",
+          "hit": "¡ACIERTO!",
+          "miss": "¡FALLO!"
+        },
+        "aria": {
+          "graph": "Visualización de función cuadrática"
+        },
+        "equation": {
+          "currentEquation": "Ecuación actual",
+          "plus": "más",
+          "minus": "menos",
+          "equals": "igual a",
+          "square": "cuadrado"
+        },
+        "help": {
+          "heading": "Guiando la Sonda a la Cueva",
+          "body": "<div><ul style='display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><span style='font-size: 20px; font-weight: 600;'>Ajusta los Deslizadores:</span><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: circle; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong><em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> (Forma de la Curva):</strong> Controla qué tan amplia es la trayectoria de la sonda y si la trayectoria parabólica se abre hacia arriba o hacia abajo</li><li><strong><em style='color: #DB0072; font-family: \"Besley\", serif;'>b</em> (Desplazamiento):</strong> Una vez que se establece <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em>, <em style='color: #DB0072; font-family: \"Besley\", serif;'>b</em> ayuda a determinar el vértice de la trayectoria de la sonda</li><li><strong><em style='color: #008217; font-family: \"Besley\", serif;'>c</em> (Altura de Lanzamiento):</strong> Ajusta la altura inicial de la sonda, como la posición de la plataforma de lanzamiento</li></ul></li><li><span style='font-size: 20px; font-weight: 600;'>Observa la Trayectoria:</span><span style='font-size: 20px; line-height: 1.6;'> Observa cómo la curva se ajusta en tiempo real para apuntar la sonda hacia el objetivo.</span></li><li><span style='font-size: 20px; font-weight: 600;'>Lanza la Sonda:</span><span style='font-size: 20px; line-height: 1.6;'> Presiona <strong>Iniciar</strong> para enviar la sonda en su misión a la cueva en <strong>(50, 0)</strong>.</span></li><li><span style='font-size: 20px; font-weight: 600;'>Reinicia para Otro Intento:</span><span style='font-size: 20px; line-height: 1.6;'> Usa <strong>Reiniciar</strong> para ajustar e intentarlo de nuevo.</span></li></ul></div>"
+        },
+        "about": {
+          "heading": "Forma Estándar de la Función Cuadrática",
+          "body": "<div><p style='font-size: 20px; line-height: 1.6; font-family: \"Besley\", serif;'>La ecuación <em style='color: #E0002B;'>y</em> = <em style='color: #8E24AA;'>a</em> <em style='color: #0061FC;'>x&sup2;</em> + <em style='color: #DB0072;'>b</em> <em style='color: #0061FC;'>x</em> + <em style='color: #008217;'>c</em></p> representa una parábola, una curva que modela el movimiento de un proyectil como la trayectoria de la sonda a luna, donde <em>y</em> es la altura de la sonda en pies a una distancia horizontal de <em>x</em> pie.</p></div><div style='margin-bottom: 16px;'><span style='font-size: 20px; font-weight: 600;'><br />Desglose de coeficientes:</span><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong><em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> (Apertura y dirección):</strong> controla el <strong>ancho</strong> y la <strong>dirección</strong> de la curva</li><li><strong><em style='color: #DB0072; font-family: \"Besley\", serif;'>b</em> (Shift):</strong> junto con <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em>, determina la ubicación del <strong>vértice</strong> de la curva (el punto más alto o más bajo)</li><li><strong><em style='color: #008217; font-family: \"Besley\", serif;'>c</em> (Inicio vertical - Intersección con Y):</strong> establece la altura inicial de la curva en el eje y</li></ul></div>"
+        }
+      },
+      "S8_D1_FSQ4_C1": "Muy bien, pero ¿cómo determinamos el modelo matemático exacto para esta trayectoria?",
+      "S8_D2_FSQ4_C2": "Usando la forma estándar: <em style='color: #E0002B; font-family: besley;'>y</em> = <em style='color: #8E24AA; font-family: besley;'>a</em><em style='color: #0061FC; font-family: besley;'>x<sup>2</sup></em> + <em style='color: #DB0072; font-family: besley;'>b</em><em style='color: #0061FC; font-family: besley;'>x</em> + <em style='color: #008217; font-family: besley;'>c</em>. Determinemos cada parámetro sistemáticamente. Dado que el proyectil se lanza desde el nivel del suelo en <strong>(0, 0)</strong>, ¿qué valor debería tener <em style='color: #008217; font-family: besley;'>c</em>?",
+      "S8_D3_FSQ4_C1": "Si estamos comenzando al nivel del suelo... ¡<em style='color: #008217; font-family: besley;'>c</em> debería ser 0!",
+      "S8_D4_FSQ4_C2": "¡Correcto! Ahora, nuestros ingenieros de misión han determinado que para la mecánica óptima de trayectoria lunar, el parámetro <em style='color: #DB0072; font-family: besley;'>b</em> debe ser 1.0.",
+      "S8_D5_FSQ4_C1": "Entonces si <em style='color: #008217; font-family: besley;'>c</em> = 0 y <em style='color: #DB0072; font-family: besley;'>b</em> = 1.0, ¿eso deja solo <em style='color: #8E24AA; font-family: besley;'>a</em> por determinar? Un parámetro desconocido por resolver - ¡eso es mucho más limpio!",
+      "S8_D6_FSQ4_C2": "¡Así es! Necesitamos encontrar el valor de <em style='color: #8E24AA; font-family: besley;'>a</em> que crea una trayectoria de (0,0) a (50,0). Recuerda, <em style='color: #8E24AA; font-family: besley;'>a</em> debe ser negativo para crear una parábola que se abre hacia abajo y que traiga nuestra sonda de vuelta al nivel del suelo. ¿Qué debería ser <em style='color: #8E24AA; font-family: besley;'>a</em>?",
+      "S8_D7_FSQ4_C2": "¡Excelente deducción! Determinaste que a = -0.02 es el valor preciso necesario. Este coeficiente negativo representa el efecto de la gravedad lunar en nuestro movimiento de proyectil.",
+      "S8_D8_FSQ4_C2": "Con esa ecuación, creaste un modelo matemático que aseguró una trayectoria precisa. Pero hay diferentes formas de ecuaciones cuadráticas que pueden ser más fáciles de controlar.",
+      "S8_D9_FSQ4_C1": "Genial, porque la forma estándar fue un poco desafiante.",
+      "S8_D10_FSQ4_C2": "La siguiente ecuación se llama <strong>forma de vértice</strong>. En lugar de cambiar la forma general, puedes controlar directamente el <strong>punto más alto</strong> de la curva—su pico. Explorémosla y veamos cómo cambiar los parámetros afecta la trayectoria."
+    },
+    "S9": {
+      "S9_D0_FCH1_C9": {
+        "title": "Forma de Vértice",
+        "vertex_form_title": "Forma de Vértice: ",
+        "vertex_form_formula_ariaLabel": "y igual a a por el cuadrado de x menos h más k, donde a, h y k son parámetros que controlan la forma y posición de la parábola",
+        "vertex_form_subtitle": "Explora cómo los diferentes valores de parámetros afectan la parábola",
+        "param_a_label": "Parámetro 'a'",
+        "param_a_description": "Controla forma y dirección",
+        "param_a_effect": "Se abre hacia abajo",
+        "param_h_label": "Parámetro 'h'",
+        "param_h_description": "Posición horizontal del vértice",
+        "param_h_effect": "Desplazamiento horizontal",
+        "param_k_label": "Parámetro 'k'",
+        "param_k_description": "Posición vertical del vértice",
+        "param_k_effect": "Desplazamiento vertical",
+        "visualization_title": "Visualización de la Parábola",
+        "parameters_title": "Parámetros",
+        "current_value_label": "Valor actual:",
+        "current_equation_label": "Ecuación Actual:",
+        "vertex_label": "Vértice:",
+        "origin_label": "0",
+        "vertex_marker": "V",
+        "opens_up_text": "Se abre hacia arriba",
+        "opens_down_text": "Se abre hacia abajo",
+        "narrow_text": "Estrecha",
+        "wide_text": "Ancha"
+      },
+      "S9_D1_FCH1_C2": "La forma de vértice nos da control directo sobre el pico de la trayectoria. En la fórmula, el parámetro <em style='color: #8E24AA; font-family: besley;'>a</em> nos indica si la curva se abre hacia arriba o hacia abajo, y el valor controla qué tan empinada es la curva.",
+      "S9_D2_FCH2_C2": "Intenta hacer clic en el parámetro '<em style='color: #8E24AA; font-family: besley;'>a</em>' y prueba valores para ver este efecto.",
+      "S9_D3_FCH3_C1": "¡Puedo verlo! Cuando <em style='color: #8E24AA; font-family: besley;'>a</em> es -0.02, se abre hacia abajo con una curva suave, y cuando es -0.05, es mucho más empinada pero sigue abriéndose hacia abajo.",
+      "S9_D5_FCH5_C2": "En efecto. Y mientras mayor sea el valor absoluto de <em style='color: #8E24AA; font-family: besley;'>a</em>, más empinada y estrecha será la curva. Un valor absoluto menor de <em style='color: #8E24AA; font-family: besley;'>a</em> hace que la curva sea más ancha y suave. Así que <em style='color: #8E24AA; font-family: besley;'>a</em> determina la forma: más ancha o más estrecha, abriéndose hacia arriba o hacia abajo.",
+      "S9_D6_FCH6_C2": "Ahora <em style='color: #A8351D; font-family: besley;'>h</em> es la coordenada x del vértice, el punto más alto o más bajo de la curva. Haz clic en '<em style='color: #A8351D; font-family: besley;'>h</em>' y prueba valores para ver cómo mueve el vértice horizontalmente.",
+      "S9_D7_FCH7_C1": "¡Increíble! Cuando <em style='color: #A8351D; font-family: besley;'>h</em> es 25, el vértice se mueve a la derecha, y cuando es -25, el vértice se mueve a la izquierda. Así que <em style='color: #A8351D; font-family: besley;'>h</em> decide dónde se alinea el vértice horizontalmente. Entendido.",
+      "S9_D8_FCH8_C2": "Ahora, <em style='color: #008217; font-family: besley;'>k</em>. Esto establece la posición vertical del vértice. Determina qué tan alto volará la sonda antes de descender. Prueba el parámetro '<em style='color: #008217; font-family: besley;'>k</em>' para ver cómo afecta la altura del vértice.",
+      "S9_D9_FCH9_C1": "¡Perfecto! Cuando <em style='color: #008217; font-family: besley;'>k</em> es 30, el vértice está muy alto, y cuando es -30, el vértice está por debajo del eje x. Así que <em style='color: #008217; font-family: besley;'>k</em> determina la altura del vértice. ¡Tiene sentido!",
+      "S9_D10_FCH10_C2": "¡Ese es el poder de la forma de vértice! Tienes control directo sobre exactamente dónde ocurre el pico y qué tan alto llega. Esto hace que la planificación de la misión sea mucho más precisa."
+    },
+    "S10": {
+      "S10_D0_FSQ4_C9": {
+        "title": "Navegación de la Sonda Lunar",
+        "heading": "Encuentra un Camino Entre los Puntos de Lanzamiento y Aterrizaje",
+        "controls": {
+          "groupLabel": "Controles de Función",
+          "value": "valor",
+          "a": {
+            "description": "Curvatura",
+            "ariaLabel": "Ajustar el valor a para controlar la inclinación de la curva"
+          },
+          "h": {
+            "description": "Horizontal",
+            "ariaLabel": "Ajustar el valor h para controlar la posición horizontal"
+          },
+          "k": {
+            "description": "Vertical",
+            "ariaLabel": "Ajustar el valor k para controlar la posición vertical"
+          }
+        },
+        "graph": {
+          "axis": {
+            "x": {
+              "label": "Distancia (ft)",
+              "var": "Distancia",
+              "ariaLabel": "Distancia horizontal en pies"
+            },
+            "y": {
+              "label": "Altura (ft)",
+              "var": "Altura",
+              "ariaLabel": "Altura vertical en pies"
+            }
+          },
+          "tooltip": {
+            "ariaLabel": "Altura actual"
+          },
+          "ariaDescription": "Gráfico que muestra la trayectoria de la sonda desde el punto de lanzamiento hasta el objetivo"
+        },
+        "equation": {
+          "ariaLabel": "Ecuación cuadrática actual en forma de vértice"
+        },
+        "mission": "Misión: Crear una trayectoria desde (0,0) hasta (50,0) pies",
+        "xIntercepts": "Intersecciones X",
+        "status": {
+          "perfect": "¡Perfecto! ¡Tu trayectoria conecta exitosamente los puntos de lanzamiento y aterrizaje!",
+          "keepAdjusting": "¡Sigue ajustando! La trayectoria debe conectar el punto de lanzamiento (0,0) y el punto de aterrizaje (50,0) pies.",
+          "targetBelowLevel": "Las intersecciones X deben ser (0,0) y (50,0) pies. Ajusta la curva para asegurarte de que conecta estos puntos.",
+          "hit": "¡ACIERTO!",
+          "miss": "¡FALLO!",
+          "reset": "Reiniciar",
+          "launch": "Lanzar"
+        },
+        "help": {
+          "heading": "Ajuste de la trayectoria",
+          "body": "<div><span style=\"font-size: 20px; font-weight: 600;\">1. Ajusta los Deslizadores:</span><ul style=\"font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;\"><li><strong>Desplazamiento Horizontal (<em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em>):</strong><ul style=\"font-size: 20px; line-height: 1.6; display: block; list-style-type: circle; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;\"><li>Controla la posición horizontal del vértice de la trayectoria de la sonda</li><li>Aumentar <em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> desplaza la trayectoria de la sonda hacia la derecha, y disminuir <em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> la desplaza hacia la izquierda</li></ul></li><li><strong>Desplazamiento Vertical (<em style='color: #008217; font-family: \"Besley\", serif;'>k</em>):</strong><ul style=\"font-size: 20px; line-height: 1.6; display: block; list-style-type: circle; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;\"><li>Controla la posición vertical del vértice de la trayectoria de la sonda</li><li>Aumentar <em style='color: #008217; font-family: \"Besley\", serif;'>k</em> eleva la trayectoria de la sonda, y disminuir <em style='color: #008217; font-family: \"Besley\", serif;'>k</em> la baja</li></ul></li></ul><span style=\"font-size: 20px; font-weight: 600;\">2. Observa cómo la curva se actualiza en tiempo real</span> <span style=\"font-size: 20px; line-height: 1.6;\"> mientras ajustas los valores, asegurándote de que comience desde <strong>(0,0)</strong> y llegue a <strong>(50,0)</strong>.</span></div>"
+        },
+        "about": {
+          "heading": "Forma del Vértice de la Función Cuadrática",
+          "body": "<div><div><span style='font-size: 20px; line-height: 1.6;'> La forma del vértice de una función cuadrática es <p style='font-family: \"Besley\", serif;'><em style='color: #E0002B;' aria-hidden='true'>y</em> = <em style='color: #8E24AA;' aria-hidden='true'>a</em>(<em style='color: #0061FC;' aria-hidden='true'>x</em> − <em style='color: #A8351D;' aria-hidden='true'>h</em>)<em style='color: #0061FC;' aria-hidden='true'><sup style='color: #DB0072;'>2</sup></em> + <em style='color: #008217;' aria-hidden='true'>k</em></p>, que representa una parábola, una curva que modela el movimiento de un proyectil como la trayectoria de la sonda de luna, donde <em>y</em> es la altura de la sonda en pies a una distancia horizontal <em>x</em> en pies. </span></div><div style='margin-bottom: 16px;'><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong><em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> (Desplazamiento Horizontal):</strong> Mueve la parábola hacia la izquierda o derecha. Determina la coordenada x del vértice. Por ejemplo, si <em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> = &minus;3, la parábola se desplaza 3 pies hacia la izquierda</li><li><strong><em style='color: #008217; font-family: \"Besley\", serif;'>k</em> (Desplazamiento Vertical):</strong> Mueve la parábola hacia arriba o abajo. Establece la coordenada y del vértice. Por ejemplo, si <em style='color: #008217; font-family: \"Besley\", serif;'>k</em> = 4, el vértice se eleva 4 pies hacia arriba</li><li><strong><em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> (Apertura y Forma):</strong> Controla la dirección y la amplitud de la parábola. Si <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> &gt; 0, la parábola se abre hacia arriba; si <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> &lt; 0, se abre hacia abajo</li><li><em style='color: #E0002B; font-family: \"Besley\", serif;'>y</em> = altura de la sonda en pies</li><li><em style='color: #0061FC; font-family: \"Besley\", serif;'>x</em> = distancia horizontal en pies</li></ul></div></div>"
+        }
+      },
+      "S10_D1_FSQ4_C2": "Necesitamos que la sonda entre y salga de la superficie lunar en <strong>(0, 0)</strong> y <strong>(50, 0)</strong>.",
+      "S10_D2_FSQ4_C1": "Entonces necesitamos una curva que toque ambos puntos — igual que antes.",
+      "S10_D3_FSQ4_C2": "Exactamente. En la forma de vértice, primero elegimos el vértice. La curva debe ser simétrica, ¿entonces dónde deberíamos colocarlo horizontalmente?",
+      "S10_D4_FSQ4_C1": "A la mitad entre 0 y 50… eso es 25. Entonces <em style='color: #A8351D; font-family: besley;'>h</em> = 25.",
+      "S10_D5_FSQ4_C2": "¡Perfecto! Ahora, nuestros ingenieros de misión han determinado que el parámetro <em style='color: #8E24AA; font-family: besley;'>a</em> debe ser <strong>-0.1</strong> para nuestra misión de la sonda lunar.",
+      "S10_D6_FSQ4_C1": "Entonces <em style='color: #8E24AA; font-family: besley;'>a</em> es negativo porque la parábola se abre hacia abajo, ¿y es un número pequeño porque queremos una curva ancha y suave?",
+      "S10_D7_FSQ4_C2": "¡Precisamente! Eso nos deja encontrar la altura del pico <em style='color: #008217; font-family: besley;'>k</em> que hace que nuestra trayectoria pase por ambos puntos de lanzamiento y objetivo. ¿Puedes encontrar la altura del pico que crea la trayectoria perfecta?",
+      "S10_D8_FSQ4_C2": "¡Excelente! Encontraste <em style='color: #008217; font-family: besley;'>k</em> = 62.5 pies - la altura del pico perfecta para nuestras condiciones de gravedad lunar."
+    },
+    "S11": {
+      "S11_D1_FPS1_C2": "Hasta ahora has lanzado la sonda usando la forma estándar y la forma de vértice de la función cuadrática. ¿Cuál encontraste más desafiante?",
+      "S11_D2_FPS2_C1": "<p>Hmm, la forma estándar fue un poco complicada al principio porque tuve que pensar en cómo <em style='color: #8E24AA; font-family: besley;'>a</em>, <em style='color: #DB0072; font-family: besley;'>b</em> y <em style='color: #008217; font-family: besley;'>c</em> trabajaban juntas. No estaba claro de inmediato cómo se desplazaba el vértice.</p>",
+      "S11_D3_FPS3_C2": "Estoy de acuerdo. La forma estándar facilita identificar el punto de intersección con el eje y y si la curva se abre hacia arriba o hacia abajo, pero no te dice directamente dónde está el vértice. ¿Qué tal la forma de vértice?",
+      "S11_D4_FPS4_C1": "<p>La forma de vértice fue más intuitiva para ajustar la trayectoria. Saber la posición exacta del vértice facilitó apuntar, pero encontrar el equilibrio correcto entre <em style='color: #8E24AA; font-family: besley;'>a</em>, <em style='color: #A8351D; font-family: besley;'>h</em> y <em style='color: #008217; font-family: besley;'>k</em> aún requirió algo de ensayo y error.</p>",
+      "S11_D5_FPS5_C2": "Precisamente. La forma de vértice es ideal para localizar el punto más alto de la trayectoria, pero déjame mostrarte un enfoque más simple.",
+      "S11_D6_FPS6_C1": "¿Más sencillo? Estoy todo oídos, Capitán. ¿Cuál es el enfoque?"
+    },
+    "S12": {
+      "S12_D0_FSQ4_C9": {
+        "title": "Trayectoria de la sonda y raíces cuadráticas",
+        "description": "Puntos requeridos: Inicio (0ft, 0ft) → Objetivo (50ft, 0ft)",
+        "instruction": "Ajusta la parábola para que pase por ambos puntos",
+        "currentPoints": "Puntos actuales",
+        "controls": {
+          "parabolaOpening": "Apertura parábola",
+          "firstRoot": "Primera intersección x",
+          "secondRoot": "Segunda intersección x",
+          "aAriaLabel": "Ajustar los valores de apertura de la parábola",
+          "x1AriaLabel": "Ajustar los valores de la primera intersección con el eje x",
+          "x2AriaLabel": "Ajustar los valores de la segunda intersección con el eje x"
+        },
+
+        "graph": {
+          "xAxisLabel": "Distancia (ft)",
+          "yAxisLabel": "Altura (ft)",
+          "tooltipDistance": "Distancia",
+          "tooltipHeight": "Altura"
+        },
+
+        "points": {
+          "launchPoint": "Punto de lanzamiento en (0,0)",
+          "targetPoint": "Punto objetivo en (50,0)",
+          "probePosition": "Sonda en posición"
+        },
+
+        "buttons": {
+          "resetProbe": "Reiniciar",
+          "launchProbe": "Lanzar"
+        },
+
+        "feedback": {
+          "success": "¡Perfecto! Tu trayectoria pasa por ambos puntos requeridos.",
+          "error": {
+            "invalidTrajectory": "Intenta de nuevo. La trayectoria debe pasar por (0,0) y (50,0).",
+            "needTwoRoots": "La trayectoria necesita dos puntos donde y = 0 para lanzar la sonda."
+          },
+          "hit": "¡ACIERTO!",
+          "miss": "¡FALLO!"
+        },
+        "aria": {
+          "simulator": "Simulador de Trayectoria de Sonda Lunar",
+          "controls": "Controles de Trayectoria",
+          "equation": "Ecuación cuadrática actual",
+          "graph": "Visualización del gráfico de trayectoria",
+          "resetButton": "Reiniciar posición de la sonda",
+          "launchButton": "Iniciar animación de lanzamiento"
+        },
+        "about": {
+          "heading": "Función Cuadrática en Forma Factorizada",
+          "body": "<div><div><span style='font-size: 20px; line-height: 1.6;'> La función cuadrática en forma factorizada es una representación poderosa utilizada para analizar las raíces (intersecciones con el eje x) y el comportamiento general de una parábola. </span> <br /><em style='font-family: besley;'><span style='color: #E0002B;'>f</span>(<span style='color: #0061FC;'>x</span>)</em> = <em style='color: #8E24AA; font-family: besley;'>a</em> (<em style='color: #0061FC; font-family: besley;'>x</em> - <em style='color: #633300; font-family: besley;'>x<sub>1</sub></em>) (<em style='color: #0061FC; font-family: besley;'>x</em> - <em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em>)</div><div style='margin-bottom: 16px;'><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong>Raíces (<em style='color: #633300; font-family: besley;'>x<sub>1</sub></em>, <em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em>):</strong> <em style='color: #633300; font-family: besley;'>x<sub>1</sub></em> y <em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em> representan los puntos donde la función cuadrática intersecta el eje x (<em style='font-family: besley;'><span style='color: #E0002B;'>f</span>(<span style='color: #0061FC;'>x</span>)</em> = 0)</li><li><strong>Parámetro <em style='color: #8E24AA; font-family: besley;'>a</em>:</strong> Controla la amplitud y la dirección de la parábola</li></ul></div></div>"
+        },
+        "help": {
+          "heading": "Ajustando la Trayectoria",
+          "body": "<div><span style='font-size: 20px; font-weight: 600;'>1. Ajusta los Deslizadores:</span><ol style='font-size: 20px; line-height: 1.6; display: block; list-style-type: decimal; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong>Apertura de la Parábola (<em style='color: #8E24AA; font-family: besley;'>a</em>):</strong> Controla la amplitud y la dirección de la parábola.</li><li><strong>Primera Raíz (<em style='color: #633300; font-family: besley;'>x<sub>1</sub></em>):</strong> Ajusta para establecer el punto inicial de la trayectoria en el extremo izquierdo del camino.</li><li><strong>Segunda Raíz (<em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em>):</strong> Ajusta para posicionar el punto final de la trayectoria en el objetivo.</li></ol><span style='font-size: 20px; font-weight: 600;'>2. Observa cómo la curva se actualiza en tiempo real</span> <span style='font-size: 20px; line-height: 1.6;'> mientras ajustas los valores, asegurándote de que comience desde <strong>(0,0)</strong> y termine en <strong>(50, 0)</strong>. </span></div>"
+        }
+      },
+      "S12_D1_FSQ4_C2": "Permíteme presentarte otra forma de modelar la trayectoria: usando las intersecciones con el eje x de la función cuadrática.",
+      "S12_D2_FSQ4_C1": "¿Las intersecciones x? ¿Los puntos donde la parábola cruza el eje x",
+      "S12_D3_FSQ4_C2": "¡Y en nuestro modelo, ahí es donde la parábola se cruza con el suelo! Al enfocarnos en las intersecciones <em style='color: #0061FC; font-family: besley; font-style: italic;'>x</em>, podemos controlar directamente dónde comienza y dónde aterriza la sonda. La ecuación en forma factorizada se ve así: <em style='color: #E0002B; font-family: besley; font-style: italic;'>y</em> = <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em>(<em style='color: #0061FC; font-family: besley; font-style: italic;'>x</em>−<em style='color: #633300; font-family: besley; font-style: italic;'>x₁</em>)(<em style='color: #0061FC; font-family: besley; font-style: italic;'>x</em>−<em style='color: #00749D; font-family: besley; font-style: italic;'>x₂</em>). Aquí, <em style='color: #633300; font-family: besley; font-style: italic;'>x₁</em> es la primera intersección x de la parábola y <em style='color: #00749D; font-family: besley; font-style: italic;'>x₂</em> es la segunda.",
+      "S12_D4_FSQ4_C1": "¿Entonces solo necesito establecer el punto de inicio y el punto final para definir la parábola? ¡Eso es mucho más fácil!",
+      "S12_D5_FSQ4_C2": "¡Exactamente! Es la misma matemática cuadrática, pero en una forma mucho más fácil de controlar. Probémoslo con este interactivo. Ajusta <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em>, <em style='color: #633300; font-family: besley; font-style: italic;'>x₁</em> y <em style='color: #00749D; font-family: besley; font-style: italic;'>x₂</em> para alinear perfectamente la trayectoria de la sonda con la claraboya en (50,0). <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em> te permite controlar qué tan empinada o suave es la curva.",
+      "S12_D6_FSQ4_C1": "¡Mucho más fácil!",
+      "S12_D7_FSQ4_C2": "Esa es la belleza de la forma factorizada: las raíces de la parábola, que definen los puntos de inicio y final."
+    },
+    "S13": {
+      "S13_D1_FSQ3_C1": "¡Así que estas diferentes formas de la cuadrática son como tener diferentes herramientas para distintos trabajos! Describen la misma curva, pero algunas son más apropiadas para situaciones específicas.",
+      "S13_D2_FSQ3_C2": "Así es. Y estas trayectorias no son solo ejercicios académicos, Ethan. Son la base para el futuro de la humanidad en la Luna. Los datos recolectados por estas sondas guiarán futuras exploraciones de estas cuevas. ¡Incluso podrían llevarnos a descubrir fuentes de hielo, protegidas del ardiente sol!",
+      "S13_D3_FSQ3_C1": "Es increíble que las ecuaciones cuadráticas sean un modelo tan perfecto para trayectorias balísticas.",
+      "S13_D4_FSQ3_C2": "En la Tierra, la resistencia del aire y el viento hacen que las trayectorias balísticas sean más difíciles de modelar. Pero en la Luna, las trayectorias son simplemente parabólicas.",
+      "S13_D11_FSQ3_C1": "Por supuesto, Capitán. Por la ciencia, por la exploración, por nuestro futuro entre las estrellas."
+    },
+    "S14": {
+      "S14_D0_FSQE_C9": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'/><div style='text-align:left;'><div style='display:flex;align-items:center;gap:16px;margin-bottom:16px;'><svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_5880_8101' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect width='80' height='80' rx='10' fill='#5454D8'/></mask><g mask='url(#mask0_5880_8101)'><rect x='-10' y='-9' width='99' height='99' fill='white'/><rect x='0.5' y='0.5' width='79' height='79' rx='11.5' stroke='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M55.3513 64.7968H47.1749C47.2825 64.5816 47.2825 64.3665 47.2825 64.1513V63.6134C46.3143 59.4178 42.9793 55.9754 38.4607 55.9754C33.9422 55.9754 30.1769 59.418 29.639 63.9366C29.639 64.1517 29.639 64.4745 29.7466 64.7972H17.1595C16.8368 64.7972 16.6216 64.582 16.514 64.2593C16.7292 64.3669 16.8368 64.3669 17.052 64.3669C17.3747 64.4745 17.5899 64.4744 17.805 64.4744C20.4946 64.3669 22.4309 62.1077 22.3234 59.5258C22.3234 57.4818 20.8173 55.6529 18.8808 55.115H18.4505C18.7733 54.3619 19.096 53.7164 19.5264 52.9634C19.6339 53.071 19.6339 53.071 19.6339 53.1785C21.5704 55.115 24.2599 56.2984 27.0571 56.2984C32.6511 56.2984 37.1696 51.78 37.1696 46.078C37.1696 44.8946 36.9544 43.6037 36.5241 42.4202C36.5241 42.3127 36.5241 42.3127 36.4166 42.2051H38.4606C40.7198 42.2051 42.979 42.5278 45.0231 43.1733C44.9155 43.1733 44.9155 43.2809 44.9155 43.2809C44.0549 44.4643 43.5169 45.7553 43.3018 47.1538C42.226 52.7478 45.8838 58.2344 51.5856 59.4182C52.4463 59.5258 53.4145 59.6333 54.2752 59.5258C56.104 59.4182 57.8253 58.7727 59.3316 57.8045L59.4392 57.6969C59.5468 57.912 59.6544 58.2348 59.6544 58.4499H59.3316C56.8573 58.7727 55.136 60.8167 55.136 63.1833V63.506C55.136 63.9363 55.2436 64.3667 55.3512 64.6894L55.3513 64.7968Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M17.8055 63.1843H17.2675C16.8372 63.0767 16.6221 62.7539 16.6221 62.4312C16.7297 60.4947 17.16 58.6659 17.6979 56.8372C17.8055 56.5145 18.2358 56.2993 18.5586 56.4069C19.9571 56.7296 21.0329 58.0206 21.0329 59.5268C21.1405 61.4632 19.7419 63.077 17.8055 63.1845L17.8055 63.1843Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M59.8693 64.7966H57.1798C56.8571 64.7966 56.6419 64.5814 56.5343 64.2587C56.4268 63.9359 56.4268 63.6132 56.4268 63.1828C56.4268 61.4615 57.7177 59.9554 59.439 59.7402C59.7618 59.7402 60.0845 59.9554 60.1921 60.2782C60.4072 61.5691 60.5148 62.7525 60.5148 64.0435V64.1511C60.5148 64.4738 60.1921 64.7965 59.8694 64.7965L59.8693 64.7966Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M45.3462 64.7965H31.5758C31.3606 64.7965 31.1455 64.6889 31.0379 64.5813C30.9303 64.3662 30.9303 64.2586 30.9303 64.0434C31.3606 60.1705 34.5881 57.2656 38.4609 57.2656C42.3336 57.2656 45.5613 60.1703 45.9914 63.9355V64.1507C45.9914 64.4734 45.7763 64.7962 45.346 64.7962L45.3462 64.7965Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M27.0573 55.008C24.5829 55.008 22.324 54.0397 20.6022 52.2108C20.387 51.9957 20.387 51.6729 20.4946 51.4578C23.9372 46.7245 28.8858 43.4967 34.5877 42.5286C34.9104 42.421 35.2331 42.6362 35.3407 42.8514C35.7711 43.9272 35.8787 45.003 35.8787 46.0788C35.8787 51.0274 31.8981 55.0079 27.0569 55.0079L27.0573 55.008Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M54.1679 58.2346C53.4149 58.3422 52.5542 58.2346 51.8012 58.127C46.8526 57.1588 43.6248 52.3178 44.5933 47.3691C44.8085 46.1858 45.2388 45.0024 45.9919 44.0341C46.0994 43.7114 46.5298 43.6038 46.7449 43.819C52.2315 46.0782 56.6426 50.4889 58.794 55.9755C59.0092 56.1906 58.9016 56.5134 58.5788 56.7285C57.2879 57.5892 55.7817 58.1271 54.168 58.2346L54.1679 58.2346Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M35.5564 41.0226V36.3966H41.3656V41.0226C40.3974 40.915 39.4291 40.915 38.461 40.915C37.4928 40.915 36.5245 40.915 35.5563 41.0226H35.5564ZM35.5564 35.1059V22.4114H41.3656V35.1059H35.5564ZM35.5564 21.1202V17.0322C35.5564 16.7094 35.8791 16.3867 36.2018 16.3867H40.7203C41.043 16.3867 41.3657 16.7095 41.3657 17.0322V21.1202H35.5564Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M56.6425 30.4799H42.6573V17.0322C42.6573 16.817 42.5497 16.6019 42.5497 16.3867H56.5353C56.8581 16.3867 56.9657 16.6019 57.1808 16.7095C57.2884 16.9246 57.2884 17.1398 57.1808 17.3549L54.1685 23.3799L57.0732 29.4049C57.1808 29.5125 57.2884 29.6201 57.2884 29.8353C57.2884 30.158 56.9656 30.4807 56.6429 30.4807L56.6425 30.4799Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M65.3545 64.7968H11.5628C11.2401 64.7968 10.9174 64.474 10.9174 64.1513C10.9174 63.721 11.2401 63.5059 11.5628 63.5059H65.3545C65.6773 63.5059 66 63.721 66 64.1513C66 64.4741 65.6773 64.7968 65.3545 64.7968Z' fill='#0055B2'/></g></svg><div className='flex flex-col'><div style='font-size:30px;font-weight:700;line-height:45px;color:#000000;'>Explorando los Tubos de Lava de la Luna con Cuadráticas</div><h2 style='font-size:24px;font-weight:700;color:#005F20;'>¡Completaste el STEAMQuest Disparo a la Luna!</h2></div></div><div style='padding-right:20px;padding-left:10px;font-size:22px;font-weight:400;line-height:33px;color:#333333;'><ul><li style='margin-bottom:7px;'>• Navegaste con éxito la sonda hacia la abertura del tubo de lava en la Luna con precisión</li><li style='margin-bottom:7px;'>• Exploraste las funciones cuadráticas en sus formas estándar, vértice y factorizada</li><li style='margin-bottom:7px;'>• Usaste ángulos, trayectorias y funciones cuadráticas para lograr una navegación precisa de la sonda</li></ul></div></div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "¡Exploraste los tubos de lava de la Luna con ecuaciones cuadráticas!",
+      "content": "<p style='padding-bottom: 10px;'>¡Completaste tu viaje a través del STEAMQuest!</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Descubriste cómo las funciones cuadráticas modelan el movimiento real de proyectiles para la exploración espacial</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Aprendiste a controlar los parámetros de la trayectoria usando la forma estándar (<em style='font-family: besley; font-style: italic;'><span style='color: #E0002B;'>y</span> = <span style='color: #8E24AA;'>a</span><span style='color: #0061FC;'>x<sup>2</sup></span> + <span style='color: #DB0072;'>b</span><span style='color: #0061FC;'>x</span> + <span style='color: #008217;'>c</span></em>)</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Has aplicado la forma factorizada para planificar rutas precisas desde el inicio hasta el objetivo.</li></ul>¡Tu experiencia matemática ayudó a trazar el rumbo para los futuros asentamientos lunares de la humanidad en antiguos santuarios de tubos de lava!",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_6462_7673' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_6462_7673)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><circle cx='40' cy='40' r='20' fill='black'/><circle cx='40.5' cy='37.5' r='18.5' fill='white'/><circle cx='41.5' cy='32.5' r='3.5' fill='black'/><circle cx='30' cy='37' r='4' fill='black'/><circle cx='38.5' cy='46.5' r='3.5' fill='black'/><circle cx='48' cy='37' r='2' fill='black'/><circle cx='34' cy='24' r='2' fill='black'/><circle cx='42' cy='20' r='1' fill='black'/><circle cx='48' cy='47' r='2' fill='black'/><circle cx='54.5' cy='40.5' r='2.5' fill='black'/><circle cx='50.5' cy='25.5' r='3.5' fill='black'/><path d='M33.0256 44.2341C25.4871 36.0802 28.6068 25.4658 31 21.5C25.2564 23.7974 21.7094 31.4136 20.8205 34.952C19.3025 42.87 24.5299 50.0802 27.3333 52.6956C37.4871 62.1828 48.8205 55.1059 51.8974 53.5674C54.3589 52.3366 55.7094 49.1966 56 48C51.5727 50.2222 40.5641 52.3879 33.0256 44.2341Z' fill='black'/><path d='M40 58C28.9731 58 20 49.0254 20 38C20 26.9731 28.9731 18 40 18C51.0269 18 60 26.9746 60 38C60 49.0269 51.0254 58 40 58ZM40 19.3639C29.7232 19.3639 21.3624 27.7247 21.3624 38.0015C21.3624 48.2784 29.7232 56.6391 40 56.6391C50.2768 56.6391 58.6376 48.2784 58.6376 38.0015C58.6376 27.7247 50.2768 19.3639 40 19.3639Z' fill='black'/></g></svg>",
+      "rightsvg": "<svg width='145' height='120' viewBox='0 0 145 120' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.2'><mask id='mask0_6462_7655' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='145' height='120'><rect width='145' height='120' fill='#D9D9D9'/></mask><g mask='url(#mask0_6462_7655)'><circle cx='74.75' cy='68.25' r='64.75' fill='white'/><circle cx='78.25' cy='50.75' r='12.25' fill='#006BE0'/><circle cx='38' cy='66.5' r='14' fill='#006BE0'/><circle cx='67.75' cy='99.75' r='12.25' fill='#006BE0'/><circle cx='101' cy='66.5' r='7' fill='#006BE0'/><circle cx='52' cy='21' r='7' fill='#006BE0'/><circle cx='80.0001' cy='7' r='3.5' fill='#006BE0'/><circle cx='101' cy='101.5' r='7' fill='#006BE0'/><circle cx='123.75' cy='78.75' r='8.75' fill='#006BE0'/><circle cx='109.75' cy='26.25' r='12.25' fill='#006BE0'/><path d='M48.5898 91.8193C22.2052 63.2808 33.1241 26.1303 41.5002 12.25C21.3976 20.291 8.98296 46.9475 5.87185 59.3321C0.55903 87.0449 18.8548 112.281 28.6667 121.435C64.2052 154.64 103.872 129.871 114.641 124.486C123.256 120.178 127.983 109.188 129 105C113.504 112.778 74.9744 120.358 48.5898 91.8193Z' fill='#006BE0'/><path d='M73 140C34.4058 140 3 108.589 3 70C3 31.4058 34.4058 0 73 0C111.594 0 143 31.4111 143 70C143 108.594 111.589 140 73 140ZM73 4.77378C37.0311 4.77378 7.76848 34.0364 7.76848 70.0053C7.76848 105.974 37.0311 135.237 73 135.237C108.969 135.237 138.232 105.974 138.232 70.0053C138.232 34.0364 108.969 4.77378 73 4.77378Z' fill='white'/></g></g></svg>",
+      "leftsvgarialabel": "Icono de la luna"
+    },
+    "glossary": {
+      "quadratic_function": {
+        "word": "Función Cuadrática",
+        "definition": "<strong className=\"text-[#0055B2]\">Función Cuadrática</strong> es una función polinómica de segundo grado que puede escribirse en la forma estándar <em style='font-family: besley;'>y</em> = <em style='font-family: besley;'>ax<sup>2</sup></em> + <em style='font-family: besley;'>bx</em> + <em style='font-family: besley;'>c</em>, donde <em style='font-family: besley;'>a</em> y <em style='font-family: besley;'>b</em> son coeficientes y <em style='font-family: besley;'>c</em> es una constante, y su gráfica es parábolas."
+      },
+      "quadratic_functions": {
+        "word": "Funciones Cuadráticas",
+        "definition": "<strong className=\"text-[#0055B2]\">Funciones Cuadráticas</strong> son funciones polinómicas de segundo grado que pueden escribirse en la forma estándar <em style='font-family: besley;'>y</em> = <em style='font-family: besley;'>ax<sup>2</sup></em> + <em style='font-family: besley;'>bx</em> + <em style='font-family: besley;'>c</em>, donde <em style='font-family: besley;'>a</em> y <em style='font-family: besley;'>b</em> son coeficientes y <em style='font-family: besley;'>c</em> es una constante, y su gráfica es parábolas."
+      },
+      "trajectory": {
+        "word": "Trayectoria",
+        "definition": "<strong className=\"text-[#0055B2]\">Trayectoria</strong> es el camino curvo que sigue un objeto cuando es lanzado, disparado o se mueve por el espacio, a menudo influenciado por la gravedad y otras fuerzas."
+      },
+      "trayectorias": {
+        "word": "Trayectorias",
+        "definition": "Las <strong className=\"text-[#0055B2]\">trayectorias</strong> son las trayectorias curvas que sigue un objeto al ser lanzado o moverse por el espacio, a menudo influenciado por la gravedad y otras fuerzas."
+      },
+      "skylight": {
+        "word": "Claraboya",
+        "definition": "Un <strong className=\"text-[#0055B2]\">tragaluz</strong> en los tubos de lava es una abertura natural en el techo del tubo que permite la entrada de luz, a menudo creada por el colapso del techo.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/theSkylight.webp' alt='Claraboya' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "skylights": {
+        "word": "Claraboyas",
+        "definition": "<strong className=\"text-[#0055B2]\">Claraboyas</strong> en los tubos de lava, son aperturas naturales en el techo del tubo que permiten la entrada de luz, a menudo creadas por el colapso del techo.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/theSkylight.webp' alt='Claraboya' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "probe": {
+        "word": "Sonda",
+        "definition": "Una <strong className=\"text-[#0055B2]\">sonda</strong> es una pequeña herramienta de investigación lanzada desde un módulo lunar para entrar y explorar tubos de lava subterráneos a través de aberturas estrechas llamadas claraboyas. Sigue una trayectoria curva (parabólica), que puede modelarse usando ecuaciones cuadráticas.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/lunarLanderSetup.webp' alt='Sonda' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "lava_tubes": {
+        "word": "Tubos de lava",
+        "definition": "<strong className=\"text-[#0055B2]\">Tubos de lava</strong> son túneles subterráneos naturales formados por el flujo de lava durante una erupción volcánica. A medida que la capa exterior de la lava se enfría y endurece, la lava caliente continúa fluyendo por debajo de la superficie. Cuando el flujo finalmente se detiene y se drena, deja un túnel hueco en forma de tubo.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/largeChamberInterior.webp' alt='Tubos de lava' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "ballistic": {
+        "word": "Balístico",
+        "definition": "<strong className=\"text-[#0055B2]\">Balístico</strong> se refiere al movimiento de proyectiles u objetos impulsados por el aire, normalmente bajo la influencia de la gravedad y otras fuerzas."
+      }
+    },
+    "common": {
+      "ethan": "Ethan Kim",
+      "emma": "Captain Emma Torres",
+      "ethan_description": "Ethan Kim: Ingeniero de sistemas astuto coreano-estadounidense, innovando con tecnología moderna.",
+      "emma_description": "Capitana Emma Torres: Veterana comandante de misión, que combina experiencia con sabiduría cultural.",
+      "help": "Ayuda",
+      "info": "Info",
+      "angle": "Ángulo",
+      "velocity": "Velocidad",
+      "root_x1": "Raíz x<sub>1</sub>",
+      "root_x2": "Raíz x<sub>2</sub>",
+      "coefficient_a": "Coeficiente a",
+      "coefficient_b": "Coeficiente b",
+      "coefficient_c": "Coeficiente c",
+      "coefficient_h": "Coeficiente h",
+      "coefficient_k": "Coeficiente k",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "no_solution": "Sin solución",
+      "infinite_solution": "Solución infinita",
+      "bg1_description": "Centro espacial futurista con pantallas interactivas y personal uniformado.",
+      "bg2_description": "Sala de control de misión con pantalla lunar y estaciones de monitoreo",
+      "bg3_description": "Estación de control de base lunar con vista de la Tierra.",
+      "bg4_description": "Centro de operaciones espaciales con múltiples pantallas planetarias",
+      "bg5_description": "Reunión de equipo en sala de control futurista con pantalla holográfica."
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Volumen de la música de fondo",
+      "character-voice-volume-slider": "Volumen de voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "lunar-probe-precision": "STEAM Quest - El disparo a la luna"
+  }
+}

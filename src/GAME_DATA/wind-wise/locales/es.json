@@ -1,0 +1,530 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción al Laboratorio",
+    "scene_4": "Datos de energía eólica",
+    "scene_5": "Enfoque de Modelado",
+    "scene_6": "Ajuste de Modelo Lineal",
+    "scene_7": "Más Allá de lo Lineal",
+    "scene_8": "Ajuste de Modelo Cuadrático",
+    "scene_9": "Física del Viento",
+    "scene_10": "Ajuste de Modelo Cúbico",
+    "scene_11": "Límites de la Turbina",
+    "scene_12": "Definición de Regiones mediante Restricciones",
+    "scene_13": "Términos Combinados",
+    "scene_14": "Explorador de Modelos Polinomiales",
+    "scene_15": "Conclusión",
+    "scene_16": "Pantalla Final",
+    "scene_17": "Concepto erróneo"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333;'>La Ciencia Detrás de la Eficiencia de las Turbinas Eólicas</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333;'>Modelado Polinómico para la Generación de Energía Sostenible</h2>",
+    "description": "<p style='font-size: 20px; line-height: 30px; font-weight: 500;'>Carmen y Marcus están en una misión para entender cómo el viento se convierte en energía.</p><p style='font-size: 20px; line-height: 30px; font-weight: 500; margin-top: 10px;'>En este STEAMQuest, exploran datos del mundo real y usan modelos polinómicos para predecir el rendimiento de las turbinas, mejorar la eficiencia y ayudar a diseñar los sistemas que alimentarán nuestro futuro.</p>",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Bienvenido al Centro Nacional de Tecnología Eólica</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><p>Descubre la ciencia de vanguardia detrás de la energía eólica en el Centro Nacional de Tecnología Eólica, donde ingenieros e investigadores optimizan el rendimiento de las turbinas eólicas.</p><p style='margin-top: 10px;'>Únase a Carmen y Marcus mientras exploran datos reales de turbinas, identifican limitaciones de modelos simples y construyen ecuaciones polinomiales para predecir y maximizar la energía. ¡Prepárate para una aventura matemática en energía sostenible!</p></div>"
+      }
+    },
+    "S3": {
+      "S3_D1_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Bienvenido a nuestro laboratorio de energía eólica, Marcus! He oído que estás interesado en aprender más sobre la modelización de turbinas eólicas.</div>",
+      "S3_D2_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí, definitivamente! He estado estudiando los conceptos básicos de la energía eólica en mis clases, pero estoy emocionado de ver cómo funciona con datos reales.</div>",
+      "S3_D3_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Llega en el momento justo. Acabamos de recopilar algunos datos interesantes de nuestras últimas pruebas con turbinas. Déjame mostrarte algo.</div>"
+    },
+    "S4": {
+      "S4_D0_F7_C9": {
+        "title": "Datos de energía eólica",
+        "graphConfig": {
+          "ariaLabel": "Gráfico de datos de energía eólica",
+          "xAxisLabel": "Velocidad del Viento (mph)",
+          "yAxisLabel": "Salida de Potencia (hp)",
+          "scatterName": "Datos Reales",
+          "lineName": "Modelo Lineal",
+          "tooltip": {
+            "xLabel": "Velocidad del Viento",
+            "yLabel": "Salida de Potencia"
+          }
+        }
+      },
+      "S4_D1_F7_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué ves aquí?</div>",
+      "S4_D2_F8_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, cada punto muestra cuánta energía obtenemos a diferentes velocidades del viento. Parece haber un patrón... comienza lento, luego aumenta rápidamente y se estabiliza a velocidades más altas.</div>",
+      "S4_D3_F9_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Buena observación! Estos son datos reales de una de nuestras turbinas. Pero para que esto sea útil en predicciones y optimización, necesitamos encontrar una función matemática que describa esta relación.</div>",
+      "S4_D4_F10_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces necesitamos ajustar una curva a estos puntos?</div>",
+      "S5_D1_F11_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Comencemos con el enfoque más simple posible: una función lineal. Ya que esa es la que probablemente hayas aprendido en la escuela.</div>"
+    },
+    "S6": {
+      "S6_D0_F12_C9": {
+        "title": "Ajuste de modelos lineales",
+        "about": {
+          "heading": "Datos Observados",
+          "body": "<div><ol><li style='font-weight: bold'>1. Fórmula Principal: <span role='math' aria-label='P de v es igual a c v más d' style='font-family: Besley'><span style='font-style: italic; color:#E0002B'>P(v)</span> = <em style='color: #DB0072'>c</em> <em style='color: #0061FC'>v</em> + <span style='font-style: italic; color: #677600'>d</span></span></li><li><p style='font-weight: bold'>2. Ajustes:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #DB0072'>c</span>: Controla la pendiente de la relación lineal</li><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #677600'>d</span>: Controla la intersección en el eje y</li></ul></li></ol></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad:",
+          "body": "<div><ol style='list-style-type: decimal; padding-left: 20px;'><li>Observe el gráfico de dispersión que muestra la velocidad del viento frente a la salida de potencia</li><li>Ajuste el deslizador de la pendiente (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #DB0072'>c</span>) para controlar la rapidez con la que aumenta la potencia con la velocidad del viento</li><li>Ajuste el deslizador de la intersección (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #677600'>d</span>) para desplazar toda la línea hacia arriba o hacia abajo</li><li>Use el botón “Optimizar Ajuste” para encontrar la mejor aproximación lineal posible</li></ol><p style='font-weight: bold; padding-top: 10px;'>Cosas a Observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Note cómo cambia la pendiente de la línea al modificarla</li><li>Vea cómo la intersección desplaza toda la línea sin cambiar su ángulo</li><li>Observe dónde la línea coincide o difiere de los puntos de datos reales</li><li>Preste atención al porcentaje de ajuste del modelo mientras hace ajustes</li></ul></div>"
+        },
+        "inputLabels": {
+          "slope": "Pendiente (<span style='font-style: italic; font-family: Besley; color: #DB0072'>c</span>)",
+          "intercept": "Intersección (<span style='font-style: italic; font-family: Besley; color: #677600'>d</span>)"
+        },
+        "graphConfig": {
+          "ariaLabel": "Gráfico de ajuste de modelo lineal",
+          "xAxisLabel": "Velocidad del Viento (mph)",
+          "yAxisLabel": "Salida de Potencia (hp)",
+          "scatterName": "Datos Reales",
+          "lineName": "Modelo Lineal",
+          "tooltip": {
+            "xLabel": "Velocidad del Viento",
+            "yLabel": "Salida de Potencia"
+          }
+        },
+        "translations": {
+          "modelPerformance": "Rendimiento del Modelo",
+          "optimizeFit": "Optimizar Ajuste"
+        },
+        "announcements": {
+          "slope": {
+            "msg1": "La línea se está volviendo más empinada hacia arriba",
+            "msg2": "La línea se está volviendo menos empinada hacia arriba",
+            "msg3": "La línea ahora es horizontal",
+            "msg4": "La línea se está volviendo menos empinada hacia abajo",
+            "msg5": "La línea se está volviendo más empinada hacia abajo"
+          },
+          "intercept": {
+            "msg1": "La línea se está desplazando hacia arriba",
+            "msg2": "La línea se está desplazando hacia abajo"
+          }
+        }
+      },
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Echemos un vistazo más de cerca a cómo la velocidad del viento se relaciona con la salida de potencia. Hemos añadido un modelo lineal al gráfico: <span style='font-family: Besley; font-weight: bold; color: #E0002B;'>P</span> = <span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v</span> + <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span><br/><br/>donde:<br/><span style='font-family: Besley; font-weight: bold; color: #E0002B;'>P</span> es la salida de potencia<br/><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v</span> es la velocidad del viento<br/><span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span> es la pendiente<br/>y <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span> es la intersección con el eje y.<br/>Puedes ajustar <span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span> y <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span> usando los controles deslizantes.</div>",
+      "S6_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces qué cambian realmente esos valores?</div>",
+      "S6_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Buena pregunta. Vamos a averiguarlo uno a la vez. Comienza ajustando la pendiente, <span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span>. Esto controla qué tan rápido aumenta la salida de potencia con la velocidad del viento.</div>",
+      "S6_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando aumentas <span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span>, ¿qué le sucede a la línea?</div>",
+      "S6_D4_FX_C1_optionA": "La línea se desplaza hacia arriba sin cambiar su inclinación.",
+      "S6_D4_FX_C1_optionB": "La línea se vuelve más pronunciada.",
+      "S6_D4_FX_C1_optionC": "La línea se vuelve más horizontal.",
+      "S6_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora intenta ajustar la intersección, <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span>. Ese es el punto donde la línea comienza en el eje vertical: nos indica la potencia base cuando la velocidad del viento es cero.</div>",
+      "S6_D5U_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué sucede cuando aumentas <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span>?</div>",
+      "S6_D5_FX_C1_optionA": "La línea se desplaza hacia arriba sin cambiar su inclinación.",
+      "S6_D5_FX_C1_optionB": "La línea se vuelve más pronunciada.",
+      "S6_D5_FX_C1_optionC": "La línea se desplaza hacia abajo sin cambiar su inclinación.",
+      "S6_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Grandes observaciones. Ahora que has visto cómo cada parte del modelo afecta la línea, podemos usar el botón Optimizar Ajuste para dejar que la computadora encuentre los mejores valores para <span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span> y <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span> para que coincidan con nuestros datos del mundo real.</div>",
+      "S6_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Interesante! La computadora encontró valores que hacen que la línea se ajuste mejor, pero incluso esta línea de mejor ajuste no captura realmente cómo se curva la data, especialmente a mayores velocidades del viento.</div>",
+      "S6_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y esa es una idea crucial. Nuestro modelo <span style='font-family: Besley; font-weight: bold; color: #E0002B;'>P</span> = <span style='font-family: Besley; font-weight: bold; color: #DB0072;'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v</span> + <span style='font-family: Besley; font-weight: bold; color: #677600;'>d</span> nos da una línea recta, pero la potencia de la turbina no sigue un camino perfectamente recto, ¿verdad?</div>",
+      "S6_D9_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí, la línea no sigue la curva en absoluto. ¿Entonces cómo lo arreglamos?</div>"
+    },
+    "S7": {
+      "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente pregunta. En ingeniería, construimos modelos paso a paso para que coincidan con lo que observamos. ¿Qué tal si añadimos un término que pueda ayudar a capturar ese comportamiento curvo?</div>",
+      "S7_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Te refieres a añadir algo para doblar la línea? Si estamos tratando de igualar esa forma curva, ¿tendría sentido añadir un término al cuadrado?</div>",
+      "S7_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Pensamiento perfecto! Sí, podemos agregar un término cuadrático - algo como <span style='font-family: Besley; font-weight: bold;'><span style='color: #8E24AA;'>b</span><span style='font-style: italic; color: #0061FC;'>v²</span></span> - a nuestro modelo lineal. Entonces nuestra nueva ecuación se convierte en <span style='font-family: Besley; font-weight: bold;'><span style='color: #E0002B;'>P</span> = <span style='font-style: italic; color: #DB0072;'>c</span><span style='font-style: italic; color: #0061FC;'>v</span> + <span style='font-style: italic; color: #8E24AA;'>b</span><span style='font-style: italic; color: #0061FC;'>v²</span> + <span style='font-style: italic; color: #677600;'>d</span></span>. Ese término <span style='font-family: Besley; font-weight: bold;'><span style='font-style: italic; color: #8E24AA;'>b</span><span style='font-style: italic; color: #0061FC;'>v²</span></span> se vuelve más influyente a velocidades de viento más altas y ayuda a nuestro modelo a curvarse para coincidir con la curva de rendimiento real—especialmente donde el modelo lineal se queda corto.</div>",
+      "S7_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso tiene sentido: el término al cuadrado nos daría más flexibilidad para seguir el patrón de datos real.</div>"
+    },
+    "S17": {
+      "S17_D0_FX_C9": {
+        "title": "Concepto erróneo",
+        "about": {
+          "heading": "Datos Observados",
+          "body": ""
+        },
+        "help": {
+          "heading": "Cómo Usar el Interactivo:",
+          "body": ""
+        },
+        "linearTerm": "Término Lineal",
+        "quadraticTerm": "Término Cuadrático",
+        "correctCombined": "Combinación Correcta",
+        "misconception": "Concepto Erróneo (v³)",
+        "xLabel": "Velocidad del Viento (v) en mph",
+        "windSpeed": "Velocidad del Viento (v)",
+        "yLabel": "Potencia (P) en kW",
+        "showMisconception": "Mostrar Concepto Erróneo",
+        "hideMisconception": "Ocultar Concepto Erróneo",
+        "correctCombinedPolynomial": "Polinomio Combinado Correcto",
+        "misconceptionHeading": "Concepto Erróneo",
+        "yAxisScale": "Escala del Eje Y"
+      },
+      "S17_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Hmm, esto puede sonar tonto, pero cuando tenemos tanto <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v</span> como <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v²</span> en la misma expresión, ¿no se combinan en <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v³</span>? Pensé que sumábamos los exponentes con la misma variable.</div>",
+      "S17_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pregunta interesante. Vamos a hacer una pausa y explorar este concepto erróneo común. Usemos nuestro modelo interactivo para ver qué está pasando realmente con estos términos.</div>",
+      "S17_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Así que tenemos un monomio lineal y uno cuadrático. He establecido el coeficiente lineal en <strong>60</strong> y el cuadrático en <strong>20</strong>.</div>",
+      "S17_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Bien! Ahora observa la forma de cada función individualmente. ¿Qué diferencias notas entre ellas?</div>",
+      "S17_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, la función lineal hace una línea recta que sube a una tasa constante. La función cuadrática comienza lentamente pero se curva hacia arriba más rápidamente a medida que aumenta la velocidad del viento.</div>",
+      "S17_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente observación. Estas son relaciones matemáticas fundamentalmente diferentes. Cada función captura un aspecto diferente de cómo la salida de potencia se relaciona con la velocidad del viento.</div>",
+      "S17_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, abordemos directamente tu pregunta sobre cómo combinar exponentes. Cuando sumamos los monomios <strong>20</strong><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v²</span> y <strong>60</strong><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v</span>, no estamos creando un monomio <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v³</span>.</div>",
+      "S17_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pero pensé que cuando combinamos términos con la misma variable, sumamos los exponentes. ¿No nos daría eso <strong>80</strong><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v³</span>?</div>",
+      "S17_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es exactamente el concepto erróneo. Permíteme mostrarte tanto la función polinómica combinada correcta como cómo se vería realmente una función monomia <strong>80</strong><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v³</span>. Mira cómo se comportan de manera diferente.</div>",
+      "S17_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! Son formas completamente diferentes. El monomio cúbico crece extremadamente rápido a velocidades de viento más altas.</div>",
+      "S17_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Intenta aumentar el rango del eje y: esto te ayudará a ver cómo la curva del concepto erróneo explota en comparación con el polinomio combinado correcto. La diferencia se vuelve más obvia a medida que aumenta la velocidad del viento.</div>",
+      "S17_D12_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ya veo: a velocidades de viento más bajas, el monomio cúbico en realidad crece más lentamente y luego de repente se dispara. El polinomio combinado tiene una forma completamente diferente.</div>",
+      "S17_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Esto muestra por qué no podemos sumar exponentes en diferentes términos. Solo combinamos términos semejantes, lo que significa términos con exactamente la misma variable y exponente. Los términos <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v²</span>, <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0061FC;'>v</span> y las constantes contribuyen de manera diferente a la forma de nuestro modelo.</div>",
+      "S17_D14_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Gracias por aclarar eso. No volveré a cometer ese error.</div>",
+      "S17_D15_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora que entendemos cómo funcionan los términos juntos, volvamos a nuestro modelo de turbina y veamos cómo afecta la adición de este término cuadrático a nuestro ajuste.</div>"
+    },
+    "S8": {
+      "S8_D0_F29_C9": {
+        "title": "Ajuste de modelos cuadráticos",
+        "about": {
+          "heading": "Datos Observados",
+          "body": "<div><ol><li style='font-weight: bold'>1. Fórmula Principal: <span role='math' aria-label='P de v es igual a b v superíndice 2 más c v más d' style='font-family: Besley'><span style='font-style: italic; color:#E0002B'>P(v)</span> = <em style='color: #8E24AA'>b</em> <em style='color: #0061FC'>v²</em> + <em style='color: #DB0072'>c</em> <em style='color: #0061FC'>v</em> + <span style='font-style: italic; color: #677600'>d</span></span></li><li><p style='font-weight: bold'>2. Ajustes:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #8E24AA'>b</span>: Controla la influencia del término cuadrático</li><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #DB0072'>c</span>: Ajusta el componente lineal</li><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #677600'>d</span>: Establece la intersección con el eje Y</li></ul></li></ol></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad:",
+          "body": "<div><ol style='list-style-type: decimal; padding-left:20px;'><li>Comienza con tu comprensión del modelo lineal</li><li>Experimenta con el término cuadrático (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #8E24AA'>b</span>) para agregar curvatura</li><li>Ajusta utilizando tanto el término lineal (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #DB0072'>c</span>) como el cuadrático (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #8E24AA'>b</span>) juntos</li><li>Usa la intersección (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #677600'>d</span>) para los ajustes finales</li><li>Compara el porcentaje de ajuste con el modelo lineal</li></ol><p style='font-weight: bold; padding-top: 10px'>Cosas para Observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observa cómo el término cuadrático crea una curvatura ascendente</li><li>Nota cómo la combinación de términos lineales y cuadráticos brinda más flexibilidad</li><li>Observa cómo la curva se ajusta mejor a la forma natural de los datos</li><li>Compara este porcentaje de ajuste con el rendimiento del modelo lineal</li></ul></div>"
+        },
+        "inputLabels": {
+          "bend": "Término Cuadrático (<span style='font-style: italic; font-family: Besley; color: #8E24AA'>b</span>)",
+          "slope": "Término Lineal (<span style='font-style: italic; font-family: Besley; color: #DB0072'>c</span>)",
+          "intercept": "Término Constante (<span style='font-style: italic; font-family: Besley; color: #677600'>d</span>)"
+        },
+        "graphConfig": {
+          "ariaLabel": "Gráfico de ajuste de modelo cuadrático",
+          "xAxisLabel": "Velocidad del Viento (mph)",
+          "yAxisLabel": "Producción de Energía (hp)",
+          "scatterName": "Datos Reales",
+          "lineName": "Modelo Cuadrático",
+          "tooltip": {
+            "xLabel": "Velocidad del Viento",
+            "yLabel": "Producción de Energía"
+          }
+        },
+        "translations": {
+          "modelPerformance": "Desempeño del Modelo",
+          "optimizeFit": "Optimizar Ajuste"
+        },
+        "announcements": {
+          "bend": {
+            "msg1": "La curva se está doblando y volviéndose más empinada hacia arriba",
+            "msg2": "La curva se está desdoblando y volviéndose menos empinada hacia arriba"
+          },
+          "slope": {
+            "msg1": "La curva se está volviendo más empinada hacia arriba",
+            "msg2": "La curva se está volviendo menos empinada hacia arriba"
+          },
+          "intercept": {
+            "msg1": "La curva se está desplazando hacia arriba",
+            "msg2": "La curva se está desplazando hacia abajo"
+          }
+        }
+      },
+      "S8_D1_F29_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esta vez tenemos tres coeficientes con los que trabajar. Tómate un tiempo para explorar cómo cada uno afecta la curva.</div>",
+      "S8_D2_F30_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando aumentas el coeficiente <em style='font-family: \"Besley\", serif; color: #8E24AA'>b</em> (el término cuadrático), ¿qué sucede con la forma de la curva?</div>",
+      "S8_D2_F30_C9_optionA": "La curva se vuelve más lineal.",
+      "S8_D2_F30_C9_optionB": "La curva se curva más pronunciadamente hacia arriba a velocidades de viento más altas.",
+      "S8_D2_F30_C9_optionC": "La curva se desplaza hacia arriba sin cambiar de forma.",
+      "S8_D3_F31_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora intenta usar el botón 'Optimizar Ajuste' para encontrar la mejor aproximación cuadrática.</div>",
+      "S8_D4_F32_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El modelo cuadrático sigue mejor el patrón de la curva que el lineal, pero siento que todavía nos falta algo fundamental en nuestro enfoque.</div>",
+      "S8_D5_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tienes razón. En realidad, hay una relación fundamental que aún no hemos considerado. ¿Recuerdas de tu curso de física de ingeniería cómo la energía cinética del aire en movimiento se relaciona con su velocidad?</div>",
+      "S8_D6_F34_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno... la energía cinética es proporcional al cuadrado de la velocidad, pero también hay que considerar el caudal de masa del aire...</div>",
+      "S8_D7_F35_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Y cuando combinas esos factores, la potencia disponible en el viento es en realidad proporcional al cubo de la velocidad del viento.</div>",
+      "S8_D8_F36_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto es la física básica de la energía eólica. ¿Deberíamos intentar incorporar esa relación en nuestro modelo?</div>",
+      "S8_D9_F37_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí! Ahora necesitamos un término cúbico. Eso reflejaría mejor la física real de cómo funcionan las turbinas eólicas.</div>"
+    },
+    "S9": {
+      "S9_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está la ecuación real basada en la física para la potencia del viento: <span role='math' aria-label=\"P igual a un medio D A v al cubo\"><em style='font-family: \"Besley\", serif; font-weight: 600; color:#E0002B'>P</em> = <span style='display: inline-block; vertical-align: middle; text-align: center;'><em style='font-family: \"Besley\", serif; font-weight: 600; color:#8E24AA'>D</em>·<em style='font-family: \"Besley\", serif; font-weight: 600; color:#DB0072'>A</em>·<em style='font-family: \"Besley\", serif; font-weight: 600; color:#0061FC'>v³</em><hr style='border-color: #000;' /><em style='font-family: \"Besley\", serif; font-weight: 600; color:#677600'>2</em></span></span><br/> Donde:<br/><em style='font-family: \"Besley\", serif; font-weight: 600; color:#E0002B'>P</em> es la potencia disponible en el viento<br /><em style='font-family: \"Besley\", serif; font-weight: 600; color:#8E24AA'>D</em> es la densidad del aire<br /><em style='font-family: \"Besley\", serif; font-weight: 600; color:#DB0072'>A</em> es el área barrida por las aspas de la turbina<br /><em style='font-family: \"Besley\", serif; font-weight: 600; color:#0061FC'>v</em> es la velocidad del viento.</div>",
+      "S9_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La ecuación nos da la potencia máxima teórica que podría ser capturada por una turbina eólica.</div>",
+      "S9_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿La velocidad del viento está al cubo? Entonces, un pequeño cambio en la velocidad del viento hace una gran diferencia en la salida de potencia.</div>",
+      "S9_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Si la velocidad del viento se duplica, la potencia disponible aumenta por un factor de <strong>8</strong>. Por eso la gráfica se curva hacia arriba tan bruscamente. No es solo un dato, es física.</div>",
+      "S9_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora tiene sentido. Entonces, la razón por la que los datos se curvan de la manera en que lo hacen no es solo aleatoriedad, es porque la relación entre el viento y la potencia es fundamentalmente no lineal.</div>",
+      "S9_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto nuevamente. Esa curva que ves en la gráfica cuenta la historia de la energía cinética moviéndose a través del aire. Nuestro trabajo de modelado no es solo dibujar la curva, es entender de dónde viene esa forma.</div>",
+      "S9_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entendido. Entonces, cuando añadimos un término <em style='font-family: \"Besley\", serif; font-weight: 600; font-style: italic; color:#0061FC;'>v³</em> a nuestro modelo, no solo estamos mejorando el ajuste, sino que lo estamos anclando al comportamiento real de la potencia del viento.</div>",
+      "S9_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Es una cosa igualar los datos. Es otra explicar con teoría. Cuando combinamos ambos, datos y física, es cuando nuestros modelos se vuelven verdaderamente poderosos. ¿Listo para probarlo?</div>"
+    },
+    "S10": {
+      "S10_D0_F43_C9": {
+        "title": "Ajuste de modelo cúbico",
+        "about": {
+          "heading": "Datos Observados",
+          "body": "<div><ol><li style='font-weight: bold'>1. Fórmula Principal: <span role='math' aria-label='P de v es igual a a v superíndice 3 más b v superíndice 2 más c v más d' style='font-family: Besley'><span style='font-style: italic; color:#E0002B'>P(v)</span> = <em style='color: #008217'>a</em> <em style='color: #0061FC'>v³</em> + <em style='color: #8E24AA'>b</em> <em style='color: #0061FC'>v²</em> + <em style='color: #DB0072'>c</em> <em style='color: #0061FC'>v</em> + <span style='font-style: italic; color: #677600'>d</span></span></li><li><p style='font-weight: bold'>2. Ajustes:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #008217'>a</span>: Controla el término cúbico (basado en física)</li><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #8E24AA'>b</span>: Ajusta la influencia cuadrática</li><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #DB0072'>c</span>: Modifica el componente lineal</li><li>Deslizador para <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #677600'>d</span>: Controla el desplazamiento</li></ul></li></ol></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad:",
+          "body": "<div><ol style='list-style-type: decimal; padding-left: 20px'><li>Comienza con el comportamiento del modelo cuadrático</li><li>Agrega el término cúbico (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #008217'>a</span>) para ajustarse a la relación basada en física</li><li>Equilibra los tres términos (<span style='font-family: Besley; font-style: italic; font-weight: bold; color: #008217'>a</span>, <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #8E24AA'>b</span> y <span style='font-family: Besley; font-style: italic; font-weight: bold; color: #DB0072'>c</span>) para optimizar el ajuste</li><li>Usa el botón “Optimizar Ajuste” para encontrar la mejor combinación</li><li>Presta atención a cómo se ajusta la curva a mayores velocidades del viento</li></ol><p style='font-weight: bold; padding-top: 10px'>Cosas a Observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observa cómo el término cúbico afecta el comportamiento a mayores velocidades del viento</li><li>Nota la mejora en el ajuste en comparación con modelos anteriores</li><li>Observa cómo cada término contribuye a la forma general</li><li>Comprueba cómo esto coincide con la relación cúbica teórica</li></ul></div>"
+        },
+        "inputLabels": {
+          "cubic": "Término Cúbico (<span style='font-style: italic; font-family: Besley; color: #008217'>a</span>)",
+          "bend": "Término Cuadrático (<span style='font-style: italic; font-family: Besley; color: #8E24AA'>b</span>)",
+          "slope": "Término Lineal (<span style='font-style: italic; font-family: Besley; color: #DB0072'>c</span>)",
+          "intercept": "Término Constante (<span style='font-style: italic; font-family: Besley; color: #677600'>d</span>)"
+        },
+        "graphConfig": {
+          "ariaLabel": "Gráfico de ajuste del modelo cúbico",
+          "xAxisLabel": "Velocidad del Viento (mph)",
+          "yAxisLabel": "Salida de Potencia (hp)",
+          "scatterName": "Datos Reales",
+          "lineName": "Modelo Cúbico",
+          "tooltip": {
+            "xLabel": "Velocidad del Viento",
+            "yLabel": "Salida de Potencia"
+          }
+        },
+        "translations": {
+          "modelPerformance": "Desempeño del Modelo",
+          "optimizeFit": "Optimizar Ajuste"
+        },
+        "announcements": {
+          "cubic": {
+            "msg1": "La curva se está doblando y volviendo más empinada hacia arriba",
+            "msg2": "La curva se está enderezando y volviendo menos empinada hacia arriba"
+          },
+          "bend": {
+            "msg1": "La curva se está doblando y volviendo más empinada hacia arriba",
+            "msg2": "La curva se está enderezando y volviendo menos empinada hacia arriba"
+          },
+          "slope": {
+            "msg1": "La curva se está volviendo más empinada hacia arriba",
+            "msg2": "La curva se está volviendo menos empinada hacia arriba"
+          },
+          "intercept": {
+            "msg1": "La curva se está desplazando hacia arriba",
+            "msg2": "La curva se está desplazando hacia abajo"
+          }
+        }
+      },
+      "S10_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora estamos más cerca de la física. Probemos un modelo cúbico: <div role='math' aria-label='P igual a a por v al cubo más b por v al cuadrado más c por v más d'><em style='font-family: \"Besley\", serif; font-weight: bold; color: #E0002B;'>P</em> = <em style='font-family: \"Besley\", serif; font-weight: bold; color: #008217;'>a</em>·<em style='font-family: \"Besley\", serif; font-weight: bold; color: #0061FC;'>v³</em> + <em style='font-family: \"Besley\", serif; font-weight: bold; color: #8E24AA;'>b</em>·<em style='font-family: \"Besley\", serif; font-weight: bold; color: #0061FC;'>v²</em> + <em style='font-family: \"Besley\", serif; font-weight: bold; color: #DB0072;'>c</em>·<em style='font-family: \"Besley\", serif; font-weight: bold; color: #0061FC;'>v</em> + <em style='font-family: \"Besley\", serif; font-weight: bold; color: #677600;'>d</em></div> Donde:<br> <em style='font-family: \"Besley\", serif; font-weight: bold; font-style: italic; color: #0061FC;'>v</em> es la velocidad del viento, <br><em style='font-family: \"Besley\", serif; font-weight: bold; font-style: italic; color: #008217;'>a</em>, <em style='font-family: \"Besley\", serif; font-weight: bold; font-style: italic; color: #8E24AA;'>b</em> y <em style='font-family: \"Besley\", serif; font-weight: bold; font-style: italic; color: #0061FC;'>c</em> dan forma a la curva, <br><em style='font-family: \"Besley\", serif; font-weight: bold; font-style: italic; color: #677600;'>d</em> la desplaza hacia arriba o hacia abajo.</div>",
+      "S10_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esta estructura refleja la física de la potencia del viento de manera más directa que nuestros modelos anteriores.</div>",
+      "S10_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Antes de ajustar los coeficientes, basado en la física que discutimos, ¿qué esperarías que suceda cuando la velocidad del viento se duplica?</div>",
+      "S10_D3_FX_C1_optionA": "La salida de potencia se duplica",
+      "S10_D3_FX_C1_optionB": "La salida de potencia aumenta cuatro veces",
+      "S10_D3_FX_C1_optionC": "La salida de potencia aumenta ocho veces",
+      "S10_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Permíteme intentar ajustar los controles deslizantes para igualar lo que esperaríamos, enfatizando el término cúbico para reflejar esa relación.</div>",
+      "S10_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Después de probar la curva, ¿qué notas sobre el modelo cúbico en comparación con los datos reales?</div>",
+      "S10_D5_FX_C1_optionA": "Coincide perfectamente con los datos",
+      "S10_D5_FX_C1_optionB": "Sobreestima la potencia a mayores velocidades del viento",
+      "S10_D5_FX_C1_optionC": "Subestima la potencia en general",
+      "S10_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Buenas observaciones. El término cúbico nos da una base física fuerte, pero el ajuste no es perfecto. Esto se debe a que las turbinas reales no se comportan exactamente como predice la física.</div>",
+      "S10_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. Los datos reales muestran una curva que el modelo cúbico sobrepasa. No se trata solo de física, también de ingeniería.</div>",
+      "S10_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Cosas como la eficiencia de la turbina, la resistencia del aire y los límites mecánicos afectan la salida de potencia. Nuestro modelo comienza con la física, pero para coincidir con la realidad, tenemos que tener en cuenta esos detalles operativos.</div>"
+    },
+    "S11": {
+      "S11_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pausemos las matemáticas. En el mundo real, las turbinas eólicas no pueden generar energía infinita — incluso si la velocidad del viento sigue aumentando. Hay un límite.</div>",
+      "S11_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí, yo también vi eso, la curva se aplana en la parte superior. Es como si la turbina alcanzara un límite.</div>",
+      "S11_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Las turbinas están construidas con límites operacionales estrictos para mantenerse seguras y eficientes. Analicemos qué significan realmente esos límites.</div>",
+      "S11_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué tipo de límites? ¿Velocidad? ¿Potencia? ¿Cosas estructurales?</div>",
+      "S11_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Piensa en el extremo inferior, si el viento apenas se mueve, ¿puede hacer girar las aspas lo suficientemente rápido como para generar potencia?</div>",
+      "S11_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Probablemente no. Si el viento es demasiado débil, las aspas simplemente se quedan allí. No hay giro, no hay potencia.</div>",
+      "S11_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Ahora, en el extremo superior, demasiado viento puede dañar la turbina. Por lo tanto, los sistemas se activan para ralentizar las cosas, creando esos plateaus en la curva de potencia.</div>",
+      "S11_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso tiene sentido. Veamos cómo esos límites influyen en la curva de potencia de nuestros datos.</div>"
+    },
+    "S12": {
+      "S12_D0_F58_C9": {
+        "title": "Definición de Región mediante Restricciones",
+        "about": {
+          "heading": "Datos Observados",
+          "body": "<div><ul><li><p style='font-weight: bold'>Regiones Clave:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><span style='color: #E0002B; font-weight: bold'>Región izquierda</span> - Sin generación de energía (0 - velocidad de arranque)</li><li><span style='color: #0061FC; font-weight: bold'>Región central</span> - Rango de operación (arranque - velocidad nominal)</li><li><span style='color: #008217; font-weight: bold'>Región derecha</span> - Meseta de potencia nominal (por encima de velocidad nominal)</li></ul></li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo usar la Interactiva:",
+          "body": "<div><ol style='list-style-type: decimal; padding-left: 20px'><li>Ajusta el control deslizante de la velocidad de entrada para marcar la velocidad mínima del viento necesaria para que comience la generación de energía</li><li>Ajusta el control deslizante de la velocidad nominal para identificar dónde se estabiliza la generación de energía</li></ol><p style='font-weight: bold; padding-top: 10px'>Cosas a observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Regiones definidas por los datos</li><li>Considera cómo estas restricciones se relacionan con limitaciones físicas</li></ul></div>"
+        },
+        "inputLabels": {
+          "cutIn": "Velocidad de Corte",
+          "rated": "Velocidad Nominal"
+        },
+        "graphConfig": {
+          "ariaLabel": "Gráfico de Definición de Región mediante Restricciones",
+          "xAxisLabel": "Velocidad del Viento (mph)",
+          "yAxisLabel": "Producción de Potencia (hp)",
+          "scatterName": "Datos de la Turbina",
+          "tooltip": {
+            "xLabel": "Velocidad del Viento",
+            "yLabel": "Producción de Potencia"
+          }
+        },
+        "mph": "mph",
+        "feedback": {
+          "cutIn1": "🎯 ¡Perfecto!",
+          "cutIn2": "🔥 ¡Casi ahí!",
+          "cutIn3": "👀 ¡Cada vez más cerca!",
+          "cutIn4": "❄️ ¡Sigue explorando!",
+          "rated1": "🎯 ¡En el punto!&nbsp;<div class='sr-only'>Producción de Potencia: 1500 hp</div>",
+          "rated2": "🔥 ¡Muy cerca!",
+          "rated3": "👀 ¡Casi lo logras!",
+          "rated4": "❄️ ¡Sigue buscando!"
+        }
+      },
+      "S12_D1_F58_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Intentemos identificar estas regiones operativas clave en nuestros datos. He añadido dos controles deslizantes que nos ayudarán a marcar estos puntos de transición importantes.</div>",
+      "S12_D2_F59_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué es exactamente lo que debo buscar?</div>",
+      "S12_D3_F60_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Comienza con el control deslizante de velocidad de arranque. Observa dónde comienza realmente la generación de energía en nuestro diagrama de dispersión. Intenta ajustar el control deslizante y observa la retroalimentación debajo.</div>",
+      "S12_D4_F61_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bien, estoy observando las velocidades del viento más bajas... tratando de encontrar dónde vemos por primera vez que se genera energía.</div>",
+      "S12_D5_F62_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es! Sigue explorando. Observa con más atención las velocidades del viento más bajas y fíjate dónde empiezan a aparecer las primeras lecturas de energía distintas de cero.</div>",
+      "S12_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cuándo comienza realmente nuestra generación de energía? ¿Cuál es la velocidad de arranque?</div>",
+      "S12_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Basándome en el ajuste del control deslizante y observando los puntos de datos, veo que es <strong>1.4 mph</strong>, es decir, cuando comenzamos a obtener lecturas de energía distintas de cero.</div>",
+      "S12_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente observación! Eso es exactamente correcto: <strong>1.4 mph</strong> es nuestra velocidad de arranque. Ahora, veamos la velocidad nominal.</div>",
+      "S12_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿A qué velocidad del viento la turbina alcanza su potencia máxima de <strong>1500 hp</strong>?</div>",
+      "S12_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Observando dónde se estabiliza la salida de energía... ajustando el control deslizante... veo que es a <strong>12.3 mph</strong>.</div>",
+      "S12_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Has identificado ambos puntos operativos clave: nuestra velocidad de arranque de <strong>1.4 mph</strong> y la velocidad nominal de <strong>12.3 mph</strong>.</div>",
+      "S12_D12_F63_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora puedes ver claramente nuestras tres regiones operativas distintas.</div>",
+      "S12_D13_F64_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Los veo:</div> <ul style='list-style-type: disc; font-size: 20px; line-height: 30px; font-weight: 500; margin-top: 4px; padding-left: 20px;'> <li>La región izquierda donde <strong>no hay generación de energía</strong> por debajo de la velocidad de arranque</li> <li>La región central donde la potencia aumenta con la velocidad del viento</li> <li>La región derecha donde la potencia permanece constante en la potencia máxima</li> </ul>",
+      "S12_D14_F65_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Estas regiones no son arbitrarias: son restricciones cuidadosamente diseñadas que protegen la turbina mientras maximizan su producción de energía. <br>La velocidad de arranque asegura que operemos únicamente cuando es energéticamente eficiente hacerlo, y la velocidad nominal previene daños por una generación excesiva de energía.</div>",
+      "S12_D15_F66_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Es fascinante cómo estas restricciones físicas moldean el comportamiento de la turbina de manera tan dramática!</div>",
+      "S12_D16_F67_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí es donde la ingeniería se encuentra con la física. Ahora que entendemos estas regiones operativas, estaremos mejor preparados para analizar cómo nuestros diferentes términos polinómicos modelan el comportamiento de cada región.</div>"
+    },
+    "S13": {
+      "S13_D1_F68_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora analicemos más de cerca cómo funciona realmente nuestro modelo polinomial dentro de estos límites.</div>",
+      "S13_D2_F69_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Te refieres a enfocarnos en esa región intermedia, entre la velocidad de arranque y la velocidad nominal?</div>",
+      "S13_D3_F70_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! ¿Recuerdas cómo fuimos agregando términos uno por uno a nuestro modelo? Ahora podemos ver cómo cada término contribuye al comportamiento general.</div>",
+      "S13_D4_F71_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y cómo se combinan para ajustarse a los datos reales?</div>",
+      "S13_D5_F72_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. Tengo una herramienta especial que nos permitirá visualizar la contribución de cada término por separado.</div>"
+    },
+    "S14": {
+      "S14_D0_F73_C9": {
+        "title": "Modelo de Potencia de Turbina Eólica",
+        "about": {
+          "heading": "Datos Observados",
+          "body": "<div><ol><li style='font-weight: bold'>1. Fórmula Primaria: <span role='math' aria-label='P de v es igual a a v superíndice 3 más b v superíndice 2 más c v' style='font-family: Besley'><span style='font-style: italic; color:#E0002B'>P(v)</span> = <em style='color: #008217'>a</em> <em style='color: #0061FC'>v³</em> + <em style='color: #8E24AA'>b</em> <em style='color: #0061FC'>v²</em> + <em style='color: #DB0072'>c</em> <em style='color: #0061FC'>v</em></span></li><li><p style='font-weight: bold'>2. Características:</p><ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li>Activación individual de términos con código de color:<ul style='margin: 10px 0px 10px 10px;'><li>- Término cúbico (verde): Base física</li><li>- Término cuadrático (azul): Pérdidas de eficiencia</li><li>- Término lineal (magenta): Ajuste fino</li><li>- Modelo completo (marrón): Efecto combinado</li></ul></li></ul></li></ol></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad:",
+          "body": "<div><ol style='list-style-type: decimal; padding-left: 20px'><li>Comenzando solo con el término cúbico</li><li>Puede agregar términos uno a la vez para ver sus efectos individuales</li><li>Usa los interruptores para activar/desactivar distintos términos</li><li>Compara los porcentajes de ajuste individuales y combinados</li><li>Experimenta con diferentes combinaciones de términos</li></ol><p style='font-weight: bold; padding-top: 10px'>Aspectos a Observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observa cómo cada término contribuye de manera diferente al ajuste general</li><li>Ve cómo los términos trabajan juntos para mejorar la precisión</li><li>Observa cómo cambia el modelo al activar o desactivar términos</li><li>Compara el término cúbico basado en la física con los ajustes empíricos</li><li>Presta atención a cómo los términos combinados se acercan al comportamiento real de la turbina</li></ul></div>"
+        },
+        "inputLabels": {
+          "cubic": "Término Cúbico (<span style='font-style: italic; font-weight: bold; font-family: Besley; color: #005F20'>a</span>)",
+          "quadratic": "Término Cuadrático (<span style='font-style: italic; font-weight: bold; font-family: Besley; color: #0055B2'>b</span>)",
+          "linear": "Término Lineal (<span style='font-style: italic; font-weight: bold; font-family: Besley; color: #9F008F'>c</span>)"
+        },
+        "modelComponents": {
+          "cubic": "Término Cúbico",
+          "quadratic": "Término Cuadrático",
+          "linear": "Término Lineal",
+          "full": "Polinomio Completo"
+        },
+        "graphConfig": {
+          "ariaLabel": "Gráfico del Modelo de Potencia de Turbina Eólica",
+          "xAxisLabel": "Velocidad del Viento (mph)",
+          "yAxisLabel": "Salida de Potencia (hp)",
+          "scatterName": "Datos Reales"
+        },
+        "translations": {
+          "fitLabel": "ajuste",
+          "modelComponentsLabel": "Componentes del Modelo"
+        }
+      },
+      "S14_D1_F73_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Echa un vistazo a este polinomio <span role='math' aria-label='P of v equals 0.40 v superscript 3 plus 5.00 v superscript 2 plus 3.50 v'><em style='font-family: \"Besley\", serif; font-weight: 600; color:#E0002B'>P(v)</em> = <em style='font-family: \"Besley\", serif; font-weight: 600; color:#008217'>0.40</em> <em style='font-family: \"Besley\", serif; color:#0061FC'>v³</em> + <em style='font-family: \"Besley\", serif; font-weight: 600; color:#8E24AA'>5.00</em> <em style='font-family: \"Besley\", serif; color:#0061FC'>v²</em> + <em style='font-family: \"Besley\", serif; font-weight: 600; color:#DB0072'>3.50</em> <em style='font-family: \"Besley\", serif; color:#0061FC'>v</em></span>. Observa que no hay término constante.</div>",
+      "S14_D2_F74_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Por qué no?</div>",
+      "S14_D3_F75_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Piensa en lo que representa ese término constante: es la intersección con el eje Y, la producción de energía cuando la velocidad del viento es cero. Si no hay viento, ¿deberíamos esperar alguna producción de energía?</div>",
+      "S14_D4_F76_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ah, claro que no! Cuando la velocidad es cero, la potencia debe ser cero. Así que no hay necesidad de ese término.</div>",
+      "S14_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Ahora, entendamos cómo cada término contribuye a modelar diferentes aspectos del comportamiento de la turbina. Tenemos tres regiones a considerar: por debajo de la velocidad de arranque, la región de operación y por encima de la velocidad nominal.</div>",
+      "S14_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué afirmación describe mejor cómo cambia la producción de energía de una turbina eólica en su principal región de operación (entre la velocidad de arranque y la velocidad nominal)?</div>",
+      "S14_D6_FX_C9_optionA": "Aumenta linealmente con la velocidad del viento",
+      "S14_D6_FX_C9_optionB": "Sigue una trayectoria curva suave que se vuelve gradualmente más pronunciada",
+      "S14_D6_FX_C9_optionC": "Salta repentinamente entre diferentes niveles de potencia",
+      "S14_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mirando el diagrama de dispersión, diría que sigue una trayectoria curva que se vuelve más empinada.</div>",
+      "S14_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Buena observación! Este comportamiento curvo es la razón por la que necesitamos múltiples términos. Comencemos con el término cúbico, que está basado en la física de la energía eólica. Intenta ajustar su coeficiente.</div>",
+      "S14_D9_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Noto que crea una curva pronunciada. Pero parece demasiado agresiva por sí sola.</div>",
+      "S14_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahí es donde entra el término cuadrático. Ayuda a moderar el comportamiento de la curva, especialmente en el rango medio. Intenta ajustar ambos términos juntos.</div>",
+      "S14_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando aumentas el coeficiente cuadrático manteniendo los otros términos constantes, ¿qué sucede con la forma de la curva?</div>",
+      "S14_D11_FX_C9_optionA": "Se vuelve más pronunciada a velocidades de viento más altas",
+      "S14_D11_FX_C9_optionB": "Se vuelve más gradual en toda su extensión",
+      "S14_D11_FX_C9_optionC": "Se dobla más en la región media",
+      "S14_D12_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Después de ajustarlo, puedo ver que el término cuadrático realmente ayuda a dar forma a esa sección media de la curva.</div>",
+      "S14_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Y finalmente, tenemos el término lineal, que nos ayuda a afinar el modelo, especialmente en el rango de bajas velocidades del viento. Cuando combinamos los tres términos, cada uno contribuye a capturar un aspecto diferente del comportamiento de la turbina.</div>",
+      "S14_D14_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora veo cómo trabajan juntos. Pero, ¿qué pasa con esos puntos de corte? El modelo cambia repentinamente a ciertas velocidades del viento.</div>",
+      "S14_D15_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es! Por eso usamos una función por partes. Tenemos comportamientos específicos que debemos modelar: potencia cero por debajo de la velocidad de arranque, nuestro polinomio en la región de operación y una potencia nominal constante por encima de la velocidad nominal. Cada parte tiene un propósito específico.</div>",
+      "S14_D16_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Es fascinante cómo las matemáticas coinciden con las limitaciones físicas de la turbina!</div>",
+      "S14_D17_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Este es un ejemplo perfecto de cómo usamos las matemáticas para modelar sistemas de ingeniería del mundo real. Cada término y cada parte de nuestra función tienen un significado físico y un propósito práctico.</div>"
+    },
+    "S15": {
+      "S15_D1_F92_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ha sido un gran viaje a través de la modelización de turbinas eólicas! Mirando atrás, es increíble cómo construimos esto paso a paso.</div>",
+      "S15_D2_F93_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Lo has hecho genial! ¿Por qué no resumes lo que hemos aprendido?</div>",
+      "S15_D3_F94_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, comenzamos entendiendo cómo los términos polinómicos se conectan con la física real. El término cúbico es nuestra base: representa la física real de la energía eólica. Luego agregamos los términos cuadrático y lineal para tener en cuenta los factores del mundo real.</div>",
+      "S15_D4_F95_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Y no olvides esas regiones operativas!</div>",
+      "S15_D5_F96_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Cierto! Comprender la velocidad de arranque, la zona operativa y la velocidad nominal nos ayudó a crear un modelo más práctico. Y nos aseguramos de que nuestro modelo respetara la física básica: sin viento, no hay generación de energía.</div>",
+      "S15_D6_F97_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Has demostrado que la modelización matemática no se trata solo de ajustar curvas, sino de comprender el significado físico detrás de cada término.</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicidades!",
+      "subheading": "¡Ahora eres competente en la modelización matemática de turbinas eólicas!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><div style='font-size: 20px; line-height: 30px; font-weight: 500; color: #333333; margin: 0; padding: 0;'><p style='padding-left: 5px; margin: 0;'>Completaste con éxito el WindWise STEAMQuest.</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Construiste un modelo polinomial para capturar el comportamiento esencial de la turbina</li><li>Relacionaste conceptos matemáticos con las operaciones físicas de la turbina eólica</li><li>Definiste regiones clave del rendimiento de la turbina y su impacto en la generación de energía</li></ul><p style='padding-left: 5px; margin: 0;'>¡Sigue explorando cómo los modelos matemáticos conectan la teoría y la ingeniería para optimizar sistemas del mundo real!</p></div>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_9963_12581' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_9963_12581)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9495 10.0803 10.9495 10.0803 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.407321 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><path d='M41.8219 32.3589C43.4177 33.478 43.8039 35.6789 42.6847 37.2746C41.5656 38.8703 39.3647 39.2566 37.769 38.1374C36.1732 37.0182 35.787 34.8174 36.906 33.2217C38.0252 31.626 40.2262 31.2397 41.8218 32.3589' fill='black' stroke='black'/><path d='M39.4306 40.3008L37.129 57.9468H42.4996L40.198 40.3008C39.6608 40.3775 39.8911 40.3008 39.4307 40.3008H39.4306Z' fill='black' stroke='black'/><path d='M36.4384 39.0731L35.6711 40.3006L32.0653 37.999L24.7767 49.2771L29.6868 52.4227L37.7427 39.8404C37.2057 39.6102 36.8988 39.38 36.4384 39.0732L36.4384 39.0731Z' fill='black' stroke='black'/><path d='M44.4175 37.3086C44.1874 37.8456 43.8805 38.2292 43.5736 38.6128L44.8011 39.3801L42.4995 42.9859L53.8543 50.2745L57 45.3644L44.4175 37.3086Z' fill='black' stroke='black'/><path d='M35.9783 31.9386L34.7508 31.1714L37.0524 27.5655L25.7744 20.2002L22.6289 25.1871L35.2112 33.2426C35.4413 32.7056 35.6714 32.322 35.9784 31.9384L35.9783 31.9386Z' fill='black' stroke='black'/><path d='M43.19 31.4781L43.9573 30.2506L47.5632 32.5522L54.7749 21.1974L49.9416 18.0518L41.8857 30.634C42.4227 30.8642 42.8064 31.0944 43.19 31.4781L43.19 31.4781Z' fill='black' stroke='black'/><path d='M41.8219 30.3589C43.4177 31.478 43.8039 33.6789 42.6847 35.2746C41.5656 36.8703 39.3647 37.2566 37.769 36.1374C36.1732 35.0182 35.787 32.8174 36.906 31.2217C38.0252 29.626 40.2262 29.2397 41.8218 30.3589' fill='white' stroke='black'/><path d='M39.4306 38.3008L37.129 55.9468H42.4996L40.198 38.3008C39.6608 38.3775 39.8911 38.3008 39.4307 38.3008H39.4306Z' fill='white' stroke='black'/><path d='M36.4384 37.0731L35.6711 38.3006L32.0653 35.999L24.7767 47.2771L29.6868 50.4227L37.7427 37.8404C37.2057 37.6102 36.8988 37.38 36.4384 37.0732L36.4384 37.0731Z' fill='white' stroke='black'/><path d='M44.4175 35.3086C44.1874 35.8456 43.8805 36.2292 43.5736 36.6128L44.8011 37.3801L42.4995 40.9859L53.8543 48.2745L57 43.3644L44.4175 35.3086Z' fill='white' stroke='black'/><path d='M35.9783 29.9386L34.7508 29.1714L37.0524 25.5655L25.7744 18.2002L22.6289 23.1871L35.2112 31.2426C35.4413 30.7056 35.6714 30.322 35.9784 29.9384L35.9783 29.9386Z' fill='white' stroke='black'/><path d='M43.19 29.4781L43.9573 28.2506L47.5632 30.5522L54.7749 19.1974L49.9416 16.0518L41.8857 28.634C42.4227 28.8642 42.8064 29.0944 43.19 29.4781L43.19 29.4781Z' fill='white' stroke='black'/></g></svg>",
+      "leftsvgarialabel": "Icono de insignia de turbina eólica",
+      "rightsvg": "<svg width='143' height='154' viewBox='0 0 143 154' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_9963_12607' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='16' y='13' width='114' height='129'><g opacity='0.2'><path d='M81.6039 62.4951C85.8681 66.9551 85.6337 73.8476 81.0808 77.89C76.5279 81.9324 69.3804 81.5941 65.1164 77.1341C60.8521 72.674 61.0866 65.7815 65.6391 61.739C70.192 57.6967 77.3399 58.0351 81.6034 62.495' fill='white'/><path d='M81.6039 62.4951C85.8681 66.9551 85.6337 73.8476 81.0808 77.89C76.5279 81.9324 69.3804 81.5941 65.1164 77.1341C60.8521 72.674 61.0866 65.7815 65.6391 61.739C70.192 57.6967 77.3399 58.0351 81.6034 62.495' stroke='black'/><path d='M68.7173 85.2815L49.755 137.271L66.7637 140.977L71.1474 85.8109C69.3955 85.6734 70.1755 85.5992 68.7175 85.2815L68.7173 85.2815Z' fill='white' stroke='black'/><path d='M60.0582 78.8287L56.873 82.0769L47.2946 72.5984L17.2925 102.281L30.3277 115.224L63.5665 82.0572C62.0649 80.9906 61.2726 80.0789 60.0584 78.8289L60.0582 78.8287Z' fill='white' stroke='black'/><path d='M86.3244 79.3193C85.2619 80.8218 84.0684 81.8006 82.8748 82.7793L86.103 85.9601L76.6618 95.5468L106.396 125.56L119.287 112.514L86.3244 79.3193Z' fill='white' stroke='black'/><path d='M63.823 56.8682L60.5718 53.6969L70.0362 44.1836L40.3755 14.0777L27.4016 27.2597L60.6003 60.352C61.6644 58.86 62.6261 57.838 63.8235 56.8674L63.823 56.8682Z' fill='white' stroke='black'/><path d='M85.8457 60.5746L89.0564 57.2774L98.6798 66.868L128.734 36.4453L115.876 23.4018L82.3726 57.0696C83.882 58.1478 84.9157 59.1227 85.8456 60.5744L85.8457 60.5746Z' fill='white' stroke='black'/></g></mask><g mask='url(#mask0_9963_12607)'><rect x='-23.8099' y='-7.02344' width='191' height='142' fill='#D9D9D9'/></g></svg>"
+    },
+    "glossary": {
+      "cut_in_speed": {
+        "word": "Velocidad de conexión",
+        "definition": "<strong className=\"text-[#0055B2]\">Velocidad de conexión</strong> es la velocidad mínima del viento a la cual una turbina eólica comienza a generar energía."
+      },
+      "rated_speed": {
+        "word": "Velocidad nominal",
+        "definition": "<strong className=\"text-[#0055B2]\">Velocidad nominal</strong> es la velocidad del viento a la cual una turbina eólica alcanza su máxima producción de energía."
+      },
+      "operating_zone": {
+        "word": "Zona de operación",
+        "definition": "<strong className=\"text-[#0055B2]\">Zona de operación</strong> es la región entre la velocidad de conexión y la velocidad nominal donde la producción de energía aumenta con la velocidad del viento."
+      },
+      "cubic_term": {
+        "word": "Término cúbico",
+        "definition": "<strong className=\"text-[#0055B2]\">Término cúbico (av³)</strong> es un término matemático que representa la física fundamental de la energía eólica, indicando cómo la producción de energía aumenta con el cubo de la velocidad del viento."
+      },
+      "quadratic_term": {
+        "word": "Término cuadrático",
+        "definition": "<strong className=\"text-[#0055B2]\">Término cuadrático (bv²)</strong> tiene en cuenta las pérdidas de eficiencia de la turbina, representando factores que causan que la producción de energía aumente con el cuadrado de la velocidad del viento."
+      },
+      "linear_term": {
+        "word": "Término lineal",
+        "definition": "<strong className=\"text-[#0055B2]\">Término lineal (cv)</strong> es un término de ajuste fino que ayuda a que el modelo matemático se ajuste al comportamiento real de la turbina, representando factores donde la producción de energía aumenta linealmente con la velocidad del viento."
+      },
+      "power_curve": {
+        "word": "Curva de potencia",
+        "definition": "<strong className=\"text-[#0055B2]\">Curva de potencia</strong> es un gráfico que muestra la relación entre la velocidad del viento y la producción de energía de una turbina."
+      },
+      "fit_percentage": {
+        "word": "Porcentaje de ajuste",
+        "definition": "<strong className=\"text-[#0055B2]\">Porcentaje de ajuste</strong> es una medida de qué tan bien un modelo matemático se ajusta a los datos reales de la turbina."
+      },
+      "model_components": {
+        "word": "Componentes del modelo",
+        "definition": "<strong className=\"text-[#0055B2]\">Componentes del modelo</strong> son los términos individuales en un polinomio que representan diferentes efectos físicos que influyen en el rendimiento de la turbina."
+      },
+      "swept_area": {
+        "word": "Área Barrida",
+        "definition": "<strong className=\"text-[#0055B2]\">Área Barrida</strong> es el área circular total cubierta por las palas de la turbina mientras rotan, medida perpendicularmente a la dirección del viento."
+      }
+    },
+    "common": {
+      "carmen": "Carmen",
+      "marcus": "Marcus",
+      "carmen_description": "Una ingeniera principal nativa americana con equipo de campo práctico y una tableta, vistiendo un atuendo profesional pero informal y con una expresión confiada.",
+      "marcus_description": "Un joven pasante afroamericano con ropa casual de estudiante, usando gafas y llevando una laptop, con una mochila llena de materiales de estudio.",
+      "bg1_description": "Entrada al centro de operaciones de un parque eólico, rodeado de campos dorados y turbinas.",
+      "bg2_description": "Sala de control de energía eólica con operadores monitoreando el rendimiento de las turbinas.",
+      "bg3_description": "Panel de gestión de un parque eólico que muestra análisis de generación de energía.",
+      "bg4_description": "Centro de comando de energía eólica al atardecer con estaciones de monitoreo de turbinas.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Introduce tu respuesta"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Volumen de la música de fondo",
+      "character-voice-volume-slider": "Volumen de voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "wind-wise": "STEAM Quest - Sabio del Viento"
+  }
+}

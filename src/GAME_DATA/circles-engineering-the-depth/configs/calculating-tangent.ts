@@ -1,0 +1,51 @@
+import { Interaction } from '../interactives/interface';
+
+const interaction: Interaction = {
+  type: 'calculating-tangent',
+  ariaLabel: 'scenes.S6.S6_D0_F19_C9.ariaLabel',
+  depthInput: {
+    id: 'depth',
+    type: 'slider',
+    label: 'scenes.S6.S6_D0_F19_C9.tunnelDepth',
+    min: 17,
+    max: 50,
+    value: 40,
+    step: 0.3048,
+    unit: 'ft',
+  },
+  totalSteps: 2,
+  CONSTS: {
+    PIXELS_PER_METER: 6,
+    TUNNEL_DIAMETER: 11.58,
+    PONTOON_WIDTH: 30,
+    PONTOON_HEIGHT: 5,
+    SVG_WIDTH: 500,
+    SVG_HEIGHT: 500,
+  },
+  translations: {
+    cableLength: 'scenes.S6.S6_D0_F19_C9.cableLength',
+    mcLabel: 'scenes.S6.S6_D0_F19_C9.mcLabel',
+    tunnelDiameter: 'scenes.S6.S6_D0_F19_C9.tunnelDiameter',
+    showCalculation: 'scenes.S6.S6_D0_F19_C9.showCalculation',
+    hideCalculation: 'scenes.S6.S6_D0_F19_C9.hideCalculation',
+    showCalculationAria: 'scenes.S6.S6_D0_F19_C9.showCalculationAria',
+    hideCalculationAria: 'scenes.S6.S6_D0_F19_C9.hideCalculationAria',
+    pythagoreanTheorem: 'scenes.S6.S6_D0_F19_C9.pythagoreanTheorem',
+    pythagoreanTheoremAriaLabel: 'scenes.S6.S6_D0_F19_C9.pythagoreanTheoremAriaLabel',
+    hypotenuseLabel: 'scenes.S6.S6_D0_F19_C9.hypotenuseLabel',
+    radiusLabel: 'scenes.S6.S6_D0_F19_C9.radiusLabel',
+    cableLengthLabel: 'scenes.S6.S6_D0_F19_C9.cableLengthLabel',
+    step1Title: 'scenes.S6.S6_D0_F19_C9.step1Title',
+    step1FormulaAriaLabel: 'scenes.S6.S6_D0_F19_C9.step1FormulaAriaLabel',
+    step2Title: 'scenes.S6.S6_D0_F19_C9.step2Title',
+    step2Formula1AriaLabel: 'scenes.S6.S6_D0_F19_C9.step2Formula1AriaLabel',
+    step2Formula2AriaLabel: 'scenes.S6.S6_D0_F19_C9.step2Formula2AriaLabel',
+    step2Formula3AriaLabel: 'scenes.S6.S6_D0_F19_C9.step2Formula3AriaLabel',
+    step2Formula4AriaLabel: 'scenes.S6.S6_D0_F19_C9.step2Formula4AriaLabel',
+    step3Title: 'scenes.S6.S6_D0_F19_C9.step3Title',
+    step3Formula1AriaLabel: 'scenes.S6.S6_D0_F19_C9.step3Formula1AriaLabel',
+    step3Formula2AriaLabel: 'scenes.S6.S6_D0_F19_C9.step3Formula2AriaLabel',
+  },
+};
+
+export default interaction;

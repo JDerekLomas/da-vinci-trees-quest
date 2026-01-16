@@ -1,0 +1,408 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción al Problema",
+    "scene_4": "Construyendo un Filtro de Spam",
+    "scene_5": "Análisis de Correos Electrónicos",
+    "scene_6": "Análisis de Tabla de Frecuencia",
+    "scene_7": "Prueba de Independencia de Características",
+    "scene_8": "Modelo de Detección de Spam",
+    "scene_9": "Prueba de Umbral",
+    "scene_10": "Análisis de Costos",
+    "scene_11": "Optimización del Umbral",
+    "scene_12": "Conclusión",
+    "scene_13": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Bandeja de Entrada Bajo Asedio</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Combatiendo el Spam con Probabilidad</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>¿Puedes ayudar a Ethan y Alicia a construir un filtro inteligente para separar los correos electrónicos reales de los no deseados? En esta STEAMQuest, utilizarás tablas de doble entrada, probabilidad condicional, independencia y umbrales de clasificación para tomar decisiones basadas en datos y mejorar la bandeja de entrada de SprintTech!</p>",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>¡Bienvenido a SprintTech!</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Soy Alicia, y hoy trabajaré con nuestro Desarrollador Junior, Ethan, para resolver un problema importante. SprintTech es una agencia de marketing donde los correos electrónicos son esenciales para llegar a los clientes. Con tantos correos llegando cada día, es un desafío separar los correos reales de los clientes del spam. ¡Usando probabilidad y análisis de datos, construiremos un filtro de spam que mantenga las bandejas de entrada organizadas y eficientes!</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_F6_C1": "Ethan, ¡nuestra bandeja de entrada está desbordada de correos spam! Es difícil encontrar los correos reales de clientes.",
+      "S3_D2_F7_C2": "Eso suena frustrante. ¡Necesitamos filtrar los correos!",
+      "S3_D3_F8_C1": "Creemos un filtro para clasificarlos automáticamente en <strong>spam</strong> y <strong>no spam</strong>.",
+      "S3_D4_F9_C2": "¿Cómo funcionaría eso? El spam se ve diferente cada vez.",
+      "S3_D5_F10_C1": "Podemos analizar correos electrónicos anteriores para encontrar patrones y usar la probabilidad para decidir cuáles son probablemente spam.",
+      "S3_D6_F11_C2": "¡Interesante! Si esto nos ayuda a ahorrar tiempo y captar correos reales más rápido, estoy listo."
+    },
+    "S4": {
+      "S4_D1_F12_C2": "Bien, entonces ¿por dónde empezamos?",
+      "S4_D2_F13_C1": "Primero, necesitamos revisar correos anteriores e identificar características comunes del spam—como ciertas palabras, enlaces o remitentes desconocidos.",
+      "S4_D3_F14_C2": "Tiene sentido. Si podemos encontrar patrones, podemos usarlos para predecir qué correos son spam.",
+      "S4_D4_F15_C1": "¡Exactamente! Revisemos algunos correos de muestra y rastreemos sus características."
+    },
+    "S5": {
+      "S5_D0_F17_C9": {
+        "title": "Rastreador de Características de Correo",
+        "about": {
+          "heading": "Entendiendo las matemáticas detrás de la detección de correo basura",
+          "body": "<div style='max-width: 800px; padding: 10px; text-align: left;'><p style='margin-bottom: 20px;'>Este interactivo ayuda a rastrear la frecuencia con la que ciertas características (como la palabra \"GRATIS\" o varios enlaces) aparecen en correos electrónicos spam y no spam. Los datos recopilados se organizan en una tabla de frecuencia bidireccional, que permite calcular probabilidades condicionales y analizar patrones en la detección de spam.</p> <h3 style='font-weight: bold; margin-top: 20px; margin-bottom: 15px;'>Tabla de Frecuencia Bidireccional</h3> <p style='margin-bottom: 10px;'>Una tabla bidireccional organiza los datos en dos categorías:</p> <ul style='margin-bottom: 20px; margin-left: 20px; list-style-type: disc;'> <li style='margin-bottom: 8px;'>Filas: Clasificación de correo electrónico (Spam o No Spam)</li> <li style='margin-bottom: 8px;'>Columnas: Presencia de función (Función presente o Función ausente)</li> </ul> <p style='margin-bottom: 20px;'>Cada celda de la tabla representa el recuento de correos electrónicos que cumplen ambas condiciones.</p> </div>"
+        },
+        "help": {
+          "heading": "",
+          "body": ""
+        },
+        "sample_emails": {
+          "emails": [
+            {
+              "id": 1,
+              "subject": "🎉 ¡FELICIDADES! ¡GANÓ un iPhone 15 Pro GRATIS!",
+              "content": "Estimado/a afortunado/a ganador/a:\n\n¡Felicidades! ¡Ganó un iPhone 15 Pro nuevo (valorado en $999)!\n\nReclame su premio GRATIS:\nhttp://claim-prize.suspicious-site.com/iphone15\nhttp://verify-winner.suspicious-site.com\nhttp://shipping-form.suspicious-site.com\n\n⚠️ IMPORTANTE: ¡La oferta vence en 24 horas! ¡Aproveche ahora!\n\nDepartamento de Premios\nCentro Global de Recompensas",
+              "sender": "prize-dept@unknown-lottery.com"
+            },
+            {
+              "id": 2,
+              "subject": "Su Estado de cuenta de febrero de 2025",
+              "content": "Estimado cliente:\n\nSu estado de cuenta mensual de febrero de 2025 ya está disponible.\n\nPara acceder a su estado de cuenta, inicie sesión en su cuenta segura en www.legitbank.com.\n\nAtentamente,\nEquipo de Atención al Cliente\nLegitbank",
+              "sender": "statements@legitbank.com"
+            },
+            {
+              "id": 3,
+              "subject": "🔥Consulta gratuita sobre crecimiento empresarial (tiempo limitado)",
+              "content": "¡Hola!\n\n¡No se pierda esta increíble oportunidad! ¡Sesión de estrategia GRATUITA de 30 minutos (valorada en $499)!\n\nHaz clic para:\n➡️ Reservar sesión GRATUITA: http://quick-book.unknown-biz.com/free\n➡️ Descargar guía GRATUITA: http://resources.unknown-biz.com/guide\n➡️ Ver clase magistral GRATUITA: http://webinar.unknown-biz.com/class\n\n¡Plazas limitadas! ¡Solicita tu consulta GRATUITA AHORA!\n\nEquipo de Marketing\nUnknown Business Solutions",
+              "sender": "marketing@unknown-consulting.com"
+            },
+            {
+              "id": 4,
+              "subject": "Notas de la Reunión de Planificación de Producto del 1.er trimestre",
+              "content": "Hola equipo,\n\nResumen rápido de la reunión de hoy:\n- Revisión de las métricas del 4.er trimestre\n- Discusión sobre la hoja de ruta del 1.er trimestre\n- Lanzamientos de funciones planificados\n\nPróxima reunión: 19 de febrero, 10:00 a. m.\n\nAtentamente,\nJennifer Chen\nGerente de Producto",
+              "sender": "jennifer.chen@company.com"
+            }
+          ]
+        },
+        "keywords": {
+          "free": "gratis",
+          "win": "ganar",
+          "unknown": "desconocido"
+        },
+        "spam": "Correo no deseado",
+        "not_spam": "No es correo no deseado",
+        "select_email": "👈 Selecciona un correo electrónico para ver su contenido",
+        "from": "De",
+        "subject": "Asunto",
+        "to": "Para",
+        "date": "Fecha",
+        "date_value": "12 de febrero de 2025",
+        "email_content": "Contenido del correo electrónico",
+        "sample_email": "Ejemplos de correos electrónicos",
+        "email_from": "Correo electrónico de",
+        "with_subject": "Con asunto",
+        "email_features": "Características del correo electrónico",
+        "mark_as_spam_button": "Marcar como spam 🚫",
+        "not_spam_button": "No es spam ✓",
+        "classified_as": "Clasificado como",
+        "select_email_to_analyze": "👈 Selecciona un correo electrónico para analizar sus características",
+        "feature_frequency_table": "Tabla de frecuencia de características",
+        "feature_present": "Función presente",
+        "feature_absent": "Función ausente",
+        "aria_label": {
+          "select_email_prompt": "Seleccionar una solicitud de correo electrónico",
+          "email_body": "Cuerpo del correo electrónico",
+          "email_details": "Detalles del correo electrónico",
+          "contains_free": "Contiene 'GRATIS'",
+          "contains_win": "Contiene 'GANAR'",
+          "sender_unknown": "Dominio del remitente desconocido",
+          "more_than_two_lakhs": "Más de 2 enlaces"
+        }
+      },
+      "S5_D1_F17_C1": "Selecciona el primer correo electrónico, <strong>'¡FELICIDADES! ¡GANÓ un iPhone 15 Pro GRATIS!'</strong>",
+      "S5_D2_F18_C1": "Es un clásico correo spam.",
+      "S5_D2_F18_C2": "Sí, tiene múltiples señales de alerta <strong>'GRATIS,'</strong> <strong>'GANAR,'</strong> y más de dos enlaces.",
+      "S5_D3_F19_C1": "Revisemos esas características y marquémoslo como spam.",
+      "S5_D4_F20_C1": "Ahora, selecciona el segundo, <strong>'Su Estado de cuenta de febrero de 2025.'</strong>",
+      "S5_D5_F21_C1": "Es de una fuente legítima y no tiene palabras ni enlaces sospechosos.",
+      "S5_D5_F21_C2": "Correcto, así que lo marcamos como <strong>'No Spam.'</strong>",
+      "S5_D6_F22_C1": "Sí, observa cómo se actualiza la tabla, este correo se añade a la fila <strong>'No Spam'</strong> bajo <strong>'Característica Ausente.'</strong>",
+      "S5_D7_F23_C2": "Ya puedo ver un patrón. Los correos con palabras como <strong>'GRATIS'</strong> y muchos enlaces aparecen principalmente como spam, mientras que los correos reales no tienen estas características con tanta frecuencia.",
+      "S5_D8_F24_C1": "¡Eso es exactamente lo que estamos buscando! La tabla nos ayuda a medir con qué frecuencia aparecen estas características en correos spam versus no spam.",
+      "S5_D9_F25_C1": "Este es un buen comienzo, pero necesitamos más datos para estar seguros. Ethan, revisa el resto de nuestros 200 correos de muestra, completa la tabla de frecuencia, y luego usaremos probabilidad para comprobar qué tan fuertes son estos patrones."
+    },
+    "S6": {
+      "S6_D0_F25_C9": {
+        "title": "Análisis de la tabla de frecuencias"
+      },
+      "frequency_table": "<div style='width: 100%; max-width: 64rem; margin: 0 auto 2rem auto; font-size: 20px; line-height: 30px;'><table style='width: 100%; border-collapse: collapse; background-color: white;'><thead><tr><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: left; font-weight: bold;'></th><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; font-weight: bold;'>Característica Presente</th><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; font-weight: bold;'>Característica Ausente</th><th style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; font-weight: bold; background-color: #f3f4f6;'>Total</th></tr></thead><tbody><tr style='transition: background-color 0.2s;' onmouseover='this.style.backgroundColor=\"#f9fafb\"' onmouseout='this.style.backgroundColor=\"\"'><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: left; font-weight: bold;'>Spam</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>75</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>25</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; background-color: #f3f4f6; font-weight: bold;'>100</td></tr><tr style='transition: background-color 0.2s;' onmouseover='this.style.backgroundColor=\"#f9fafb\"' onmouseout='this.style.backgroundColor=\"\"'><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: left; font-weight: bold;'>No es Spam</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>20</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center;'>80</td><td style='border: 1px solid #e5e7eb; padding: 12px 16px; text-align: center; background-color: #f3f4f6; font-weight: bold;'>100</td></tr></tbody></table></div>",
+      "S6_D1_F25_C2": "He analizado los 200 correos y completado la tabla de frecuencia. Aquí está.",
+      "S6_D2_F26_C1": "Bien. Entonces, 75 de cada 100 correos spam tenían estas características, mientras que 80 de cada 100 correos no spam no las tenían. Eso muestra un patrón.",
+      "S6_D3_F27_C2": "Sí, los correos electrónicos de spam tienen muchas más probabilidades de contener estas características que los correos legítimos.",
+      "S6_D4_F28_C1": "Exactamente. Ahora, calculemos algunas probabilidades. ¿Cuál es la probabilidad de que un correo electrónico tenga estas características, dado que es spam?",
+      "S6_D5_F29_C2": "75 de 100, así que 0.75 o 75%.",
+      "S6_D6_F30_C1": "Bien. Ahora, ¿cuál es la probabilidad de que un correo electrónico no tenga estas características, dado que no es spam?",
+      "S6_D7_F31_C2": "80 de 100, así que 0.80 o 80%.",
+      "S6_D8_F32_C1": "Ahora, verifiquemos si estas características son independientes, si lo son, no nos ayudarán mucho a detectar spam. Si son dependientes, significa que detectar estas características realmente ayuda a predecir mejor el spam. ¡Probemos eso a continuación!"
+    },
+    "S7": {
+      "S7_D0_F34_C9": {
+        "title": "Calculadora de Probabilidad Condicional",
+        "conditional_probability": {
+          "feature_frequency_table": "Tabla de frecuencia de características",
+          "free_present": "'GRATIS' Presente",
+          "free_absent": "'GRATIS' Ausente",
+          "win_present": "'GANAR' Presente",
+          "win_absent": "'GANAR' Ausente",
+          "spam": "correo basura",
+          "not_spam": "No correo basura",
+          "conditional_probabilities": "Probabilidades condicionales",
+          "p_free_given_spam": "P(GANAR | correo basura)",
+          "probability_free_given_spam": "Probabilidad de que GRATIS dado correo basura sea igual a",
+          "p_free_given_not_spam": "P(GRATIS | no correo basura)",
+          "probability_free_given_not_spam": "Probabilidad de que GRATIS dado no correo basura sea igual a",
+          "p_win_given_spam": "P(GANAR | correo basura)",
+          "probability_win_given_spam": "Probabilidad de GANAR dado correo basura igual a",
+          "p_win_given_not_spam": "P(GANAR | no correo basura)",
+          "probability_win_given_not_spam": "Probabilidad de GANAR dado correo basura igual a",
+          "p_free_win_given_spam": "P(GRATIS y GANAR | correo basura)",
+          "probability_free_win_given_spam": "Probabilidad de intersección GRATUITA con GANAR dado correo basura aproximadamente igual a",
+          "p_free_win_given_not_spam": "P(GRATIS y GANAR | no correo basura)",
+          "probability_free_win_given_not_spam": "La probabilidad de intersección de GRATIS con GANAR dado no correo basura es aproximadamente igual a",
+          "probability_visualization": "Visualización de probabilidad",
+          "bar_chart_description": "Gráfico de barras que muestra probabilidades condicionales",
+          "blue_dotted_legend": "Leyenda de puntos azules",
+          "red_lines_legend": "Leyenda de líneas rojas",
+          "probability": "Probabilidad",
+          "probability_free_present_spam": "Probabilidad de que GRATIS esté presente en mensajes de correo basura",
+          "probability_free_absent_spam": "Probabilidad de que GRATIS esté ausente en mensajes de correo basura",
+          "probability_win_present_spam": "Probabilidad de que GANAR esté presente en mensajes de correo basura",
+          "probability_win_absent_spam": "Probabilidad de que GANAR esté ausente en mensajes de correo basura",
+          "probability_free_present_not_spam": "Probabilidad de que GRATIS esté presente en mensajes que no son correo basura",
+          "probability_free_absent_not_spam": "Probabilidad de que GRATIS esté ausente en mensajes que no son correo basura",
+          "probability_win_present_not_spam": "Probabilidad de que GANAR esté presente en mensajes que no son correo basura",
+          "probability_win_absent_not_spam": "Probabilidad de que GANAR esté ausente en mensajes que no son correo basura",
+          "bar": "bar"
+        },
+        "help": {
+          "heading": "Cálculo de la probabilidad de que aparezcan palabras en correos electrónicos spam",
+          "body": "<div><ol style=\"list-style: none; padding-left: 0; margin-bottom: 24px\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start\"><span style=\"font-size: 24px; margin-right: 8px\">•</span><div>Ingresa las probabilidades de que un correo tenga la palabra <strong>'FREE'</strong> sabiendo que es spam (P(FREE | spam)) y de que un correo tenga la palabra <strong>'WIN'</strong> sabiendo que es spam (P(WIN | spam)).</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start\"><span style=\"font-size: 24px; margin-right: 8px\">•</span><div>La probabilidad de que un correo tenga ambas palabras <strong>'FREE'</strong> y <strong>'WIN'</strong> sabiendo que es spam (P(FREE and WIN | spam)) se muestra en pantalla.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start\"><span style=\"font-size: 24px; margin-right: 8px\">•</span><div>Además, si asumimos que ambas características son independientes, entonces la probabilidad se puede calcular fácilmente usando la siguiente fórmula: P(FREE and WIN | spam) = P(FREE | spam) × P(WIN | spam)</div></li></ol></div>"
+        },
+        "about": {
+          "heading": "Fórmula de probabilidad condicional",
+          "body": "<div style=\"margin: 20px auto;\"><p style=\"margin-bottom: 16px;\">La probabilidad condicional mide la probabilidad de que un evento ocurra dado que otro evento ya ha ocurrido. La fórmula es:</p><div style=\"text-align: center; margin: 24px 0; font-size: 18px;\" aria-hidden=\"true\">P(A | B) = P(A y B) / P(B)</div><span class=\"sr-only\" aria-label=\"La fórmula de probabilidad condicional: P de A dado B es igual a P de A intersección B dividido por P de B\"></span><div style=\"margin-bottom: 24px;\" aria-hidden=\"true\"><p style=\"margin: 2px 0;\">P(A | B) = Probabilidad de que el evento A ocurra dado que B ha ocurrido</p><p style=\"margin: 2px 0;\">P(A y B) = Probabilidad de que A y B ocurran juntos</p><p style=\"margin: 2px 0;\">P(B) = Probabilidad de que el evento B ocurra</p></div><span class=\"sr-only\" aria-label=\"P de A dado B es la probabilidad de que el evento A ocurra dado que B ha ocurrido.\"></span><span class=\"sr-only\" aria-label=\"P de A intersección B es la probabilidad de que A y B ocurran juntos.\"></span><span class=\"sr-only\" aria-label=\"P de B es la probabilidad de que el evento B ocurra.\"></span><p style=\"margin-bottom: 16px;\">Por ejemplo, la probabilidad de que un correo electrónico contenga la palabra \"GRATIS\" dado que es spam es:</p><div style=\"text-align: center; margin: 24px 0; font-size: 18px;\" aria-hidden=\"true\">P(GRATIS | spam) = P(GRATIS y spam) / P(spam)</div><span class=\"sr-only\" aria-label=\"Por ejemplo: P de GRATIS dado spam es igual a P de GRATIS intersección spam dividido por P de spam\"></span><h2 style=\"font-size: 24px; margin: 40px 0 20px 0; padding-bottom: 8px;\"><strong>Comprobación de la independencia de las características</strong></h2><p style=\"margin-bottom: 16px;\">Si dos características (p. ej., \"GRATIS\" y \"GANAR\") son independientes, entonces la probabilidad de que ambas aparezcan en un correo electrónico spam debe ser igual al producto de sus probabilidades individuales:</p><div style=\"text-align: center; margin: 24px 0; font-size: 18px;\" aria-hidden=\"true\">P(GRATIS y GANANCIA | spam) = P(GRATIS | spam) × P(GANANCIA | spam)</div><span class=\"sr-only\" aria-label=\"Para características independientes: P de GRATIS intersección GANANCIA dado spam es igual a P de GRATIS dado spam multiplicado por P de GANANCIA dado spam.\"></span><p style=\"margin-top: 16px;\" aria-hidden=\"true\">Si esta ecuación se cumple, las características son independientes; de lo contrario, son dependientes, lo que significa que conocer una característica ayuda a predecir la otra.</p><span class=\"sr-only\" aria-label=\"Si esta ecuación se cumple, las características son independientes; de lo contrario, son dependientes, lo que significa que conocer una característica ayuda a predecir la otra.\"></span></div>"
+        }
+      },
+      "S7_D1_F34_C1": "Usemos esta herramienta interactiva para probar si las características <strong>'GRATIS'</strong> y <strong>'GANAR'</strong> son independientes o no.",
+      "S7_D2_F35_C1": "Ingresa las probabilidades en los cuadros de entrada. La probabilidad de que <strong>'GRATIS'</strong> aparezca en un correo electrónico, dado que es spam, es 0.95, y la probabilidad de que <strong>'GANAR'</strong> aparezca en un correo electrónico, dado que es spam, es 0.80",
+      "S7_D3_F36_C1": "¿Cuál es la probabilidad de que tanto <strong>'FREE'</strong> como <strong>'WIN'</strong> estén presentes en un correo electrónico sabiendo que es spam?",
+      "S7_D4_F37_C2": "¿Cómo podemos verificar si ambas características <strong>'FREE'</strong> y <strong>'WIN'</strong> son independientes o no?",
+      "S7_D5_F38_C1": "Comprobaremos si la probabilidad de que <strong>'GRATIS'</strong> y <strong>'GANAR'</strong> estén presentes en un correo no deseado es igual al producto de la probabilidad de que <strong>'GRATIS'</strong> esté presente en un correo no deseado y la probabilidad de que <strong>'GANAR'</strong> esté presente en un correo no deseado.<br><div aria-hidden=\"true\" style=\"margin-top: 10px;\">P(GRATIS y GANAR | correo no deseado) = P(GRATIS | correo no deseado) × P(GANAR | correo no deseado)</div>",
+      "S7_D6_F39_C2": "0.95 × 0.80 es igual a 0.760",
+      "S7_D7_F40_C1": "Eso significa que son independientes y verificar ambas juntas no nos da poder predictivo adicional, cada característica por sí sola nos dice lo mismo."
+    },
+    "S8": {
+      "S8_D1_F42_C1": "Bien, confirmamos que algunas características son útiles para predecir spam. Ethan, ¿Puedes escribir un código para calcular la probabilidad de spam de cada correo?",
+      "S8_D2_F43_C2": "¡Sí, claro! Pero ¿cómo decidiremos si el correo es spam o no?",
+      "S8_D3_F44_C1": "Necesitamos un umbral: si la probabilidad de spam está por encima, lo marcamos como spam, si está por debajo, lo mantenemos en la bandeja de entrada.",
+      "S8_D4_F45_C2": "He escrito código para calcular la probabilidad de spam de un correo.",
+      "S8_D5_F46_C1": "¡Excelente! Ahora calculemos la probabilidad para cada correo y probemos filtrando correos con diferentes valores de umbral."
+    },
+    "S9": {
+      "S9_D0_F48_C9": {
+        "title": "Ajustador de Umbral de Clasificación de Correos",
+        "email_classifier": {
+          "spam": "Spam",
+          "not_spam": "No es spam",
+          "threshold_set_to": "Umbral establecido en",
+          "false_positives": "Falsos positivos",
+          "false_negatives": "Falsos negativos",
+          "email_from": "Correo electrónico de",
+          "with_subject": "Con asunto",
+          "sender": "Remitente",
+          "spam_probability": "Probabilidad de spam",
+          "spam_probability_threshold": "Umbral de probabilidad de spam",
+
+          "email1_subject": "Pregunta sobre la prueba gratuita de la integración del producto",
+          "email1_sender": "potential.customer@company.com",
+          "email1_preview": "Hola, me interesa integrar su producto...",
+
+          "email2_subject": "¡¡¡RECLAMA TU PREMIO GRATIS AHORA!!!",
+          "email2_sender": "prizes@totally-legit-prizes.com",
+          "email2_preview": "¡Has ganado $1,000,000! Haz clic aquí para reclamar...",
+
+          "email3_subject": "Reunión mañana a las 14:00",
+          "email3_sender": "team.lead@company.com",
+          "email3_preview": "Hablemos de los resultados trimestrales...",
+
+          "email4_subject": "Mejora tu vida ahora - Oferta especial",
+          "email4_sender": "marketing@suspicious-pills.net",
+          "email4_preview": "¡No te pierdas esta increíble oferta!",
+
+          "email5_subject": "Solicita comentarios sobre el producto",
+          "email5_sender": "support@trusted-partner.com",
+          "email5_preview": "Nos encantaría conocer tu opinión sobre..."
+        },
+        "about": {
+          "heading": "Entendiendo las matemáticas detrás del ajuste del umbral",
+          "body": "<div><p style=\"margin-bottom: 15px;\">Un umbral es un valor de corte que se utiliza para clasificar los correos electrónicos como spam o no spam según su puntuación de probabilidad. En este interactivo, ajustar el umbral cambia la forma en que se filtran los correos electrónicos.</p><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Cómo funciona el umbral</strong></p><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Si la probabilidad de spam de un correo electrónico supera el umbral, se clasifica como spam.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Si la probabilidad de spam de un correo electrónico está por debajo del umbral, se clasifica como no spam.</div></li></ul><p style=\"margin-bottom: 25px;\">El objetivo es equilibrar los falsos positivos y los falsos negativos para crear un filtro eficaz.</p><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Conceptos clave de probabilidad</strong></p><ol style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">1.</span><div><strong>Falso positivo (error tipo I):</strong> Un correo electrónico real se clasifica incorrectamente como spam.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">2.</span><div><strong>Falso negativo (error tipo II):</strong> Un correo electrónico spam se clasifica incorrectamente como no spam.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">3.</span><div><strong>Compensación en la clasificación:</strong><ul style=\"list-style: none; padding-left: 20px; margin-top: 8px;\"><li style=\"margin-bottom: 8px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div><strong>Umbral más bajo</strong> → Más correos electrónicos marcados como spam (reduce los falsos negativos pero aumenta los falsos positivos).</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div><strong>Umbral más alto</strong> → Menos correos electrónicos marcados como spam (reduce los falsos positivos, pero aumenta los falsos negativos).</div></li></ul></div></li></ol></div>"
+        }
+      },
+      "S9_D1_F48_C1": "Establece el umbral en 50%.",
+      "S9_D1E_FX_C1": "Mira esto, un cliente real fue marcado como spam.",
+      "S9_D2_F49_C2": "Sí, ese correo de <strong>'Prueba gratuita de integración de producto'</strong> tiene una probabilidad de spam del 55%, pero es una consulta real.",
+      "S9_D3_F50_C1": "Eso es un falso positivo, estamos bloqueando algo que no deberíamos. Aumenta el umbral al 70% para que solo los correos con señales de spam más fuertes sean marcados.",
+      "S9_D4_F51_C2": "¡Se ve mejor! El correo del cliente está de vuelta en la bandeja de entrada, pero aún detectamos spam obvio como <strong>'¡¡¡RECLAMA TU PREMIO GRATIS AHORA!!!'</strong>",
+      "S9_D5_F52_C1": "Esto demuestra que establecer el umbral correcto se trata de equilibrio, necesitamos reducir los falsos positivos mientras seguimos detectando spam real."
+    },
+    "S10": {
+      "S10_D1_F54_C1": "Hemos ajustado el umbral para reducir los falsos positivos, pero necesitamos ver el panorama completo, ¿cuánto nos está costando esto?",
+      "S10_D2_F55_C2": "Cierto. Si bloqueamos un correo real de cliente, podríamos perder clientes. Si dejamos pasar spam, perdemos tiempo. Cada error tiene un costo.",
+      "S10_D3_F56_C1": "¡Exactamente! Por eso necesitamos calcular cuánto nos cuesta con nuestro umbral actual.",
+      "S10_D4_F57_C2": "¿Tenemos alguna herramienta o calculadora para calcular cuánto cuesta?"
+    },
+    "S11": {
+      "S11_D0_F59_C9": {
+        "title": "Calculadora de Costo de Clasificación Errónea de Correos",
+        "email_misclassification": {
+          "costOfMissingRealEmail": "Costo de correo electrónico real no detectado ($)",
+          "costOfLettingSpamThrough": "Costo de dejar pasar Correo basura ($)",
+          "threshold": "Umbral de probabilidad de Correo basura",
+          "totalCost": "Costo total",
+          "missedSpam": "Correo basura no detectado",
+          "missedLegit": "Correo real no detectado",
+          "emailsProcessed": "Correos electrónicos procesados",
+          "cumulativeCost": "Costo acumulado ($)",
+          "email": "Correo electrónico",
+          "costOverTimeChart": "Gráfico de costo acumulado de correos electrónicos procesados",
+          "totalCostInDollars": "Costo total ($)",
+          "thresholdInPercentage": "Umbral (%)"
+        },
+        "about": {
+          "heading": "Comprendiendo el Costo de los Errores de Clasificación",
+          "body": "<div><p style=\"margin-bottom: 15px;\">Los filtros de Correo basura toman decisiones basadas en la probabilidad, pero las clasificaciones erróneas tienen costos. Este interactivo ayuda a analizar el impacto financiero de los falsos positivos (bloqueo de correos electrónicos reales) y los falsos negativos (permiso de Correo basura).</p><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Conceptos Clave en el Análisis de Costos</strong></p><ol style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">1.</span><div><strong>Costo de falso positivo:</strong> Cuando un correo electrónico real se marca por error como Correo basura, puede resultar en la pérdida de negocios u oportunidades.<br><em>Costo de falso positivo = Número de correos electrónicos reales no recibidos × Costo por correo electrónico real no recibido</em></div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">2.</span><div><strong>Costo de falso negativo:</strong> Cuando un correo electrónico Correo basura se permite por error en la bandeja de entrada, puede desperdiciar el tiempo de los empleados o presentar riesgos de seguridad.<br><em>Costo de falso negativo = Número de correos electrónicos Correo basura no recibidos × Costo por correo electrónico Correo basura no recibido</em></div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">3.</span><div><strong>Costo total:</strong> El impacto financiero general combina ambos tipos de errores: <br><em>Costo total = Costo de falso positivo + Costo de falso negativo</em></div></li></ol><p style=\"margin-bottom: 24px; font-size: 20px;\"><strong>Ajuste del umbral</strong></p><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Un umbral más bajo detecta más Correo basura, pero aumenta los falsos positivos, lo que eleva el coste de los correos electrónicos reales no detectados.</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Un umbral más alto reduce los falsos positivos, pero deja pasar más Correo basura, lo que aumenta la pérdida de tiempo y los riesgos de seguridad.</div></li></ul></div>"
+        },
+        "help": {
+          "heading": "Cálculo del coste total",
+          "body": "<div><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Ingrese el costo de perder correos electrónicos reales y el costo de perder correos electrónicos no deseados en los cuadros de entrada respectivos</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>Ajuste el valor del umbral usando un control deslizante</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"font-size: 24px; margin-right: 8px;\">•</span><div>El costo total se muestra sobre el gráfico junto con la cantidad de correos electrónicos reales y no recibidos y la cantidad de correos electrónicos no deseados no recibidos.</div></li></ul></div>"
+        }
+      },
+      "S11_D1_F59_C1": "¡Aquí está nuestra Calculadora de Costos! Si perdemos un correo real, nos costará $20 porque podría ser un correo de un cliente real. Esto podría llevar a pérdida de negocios, respuestas retrasadas o clientes insatisfechos.",
+      "S11_D2_F60_C2": "¡Oh, eso es demasiado! ¡Si perdemos demasiados correos reales nos costará mucho!",
+      "S11_D3_F60_C1": "Sí. Si dejamos pasar un correo spam, también nos cuesta $2. Es un costo menor, pero sigue siendo importante porque perdemos tiempo gestionando correos que deberían haber sido filtrados. Terminamos leyendo, eliminando o clasificando mensajes innecesarios.",
+      "S11_D4_F61_C2": "¡Entendido! Así que perder correos reales es más costoso porque afecta nuestro negocio, mientras que dejar pasar spam nos cuesta tiempo.",
+      "S11_D3_F61_C1": "Exactamente, ahora ajusta el umbral al 75% usando el control deslizante.",
+      "S11_D4_F62_C2": "Con este umbral, perderemos 48 correos reales y los moveremos a spam, y perderemos 60 correos spam y los marcaremos como reales.",
+      "S11_D5_F63_C1": "¿Cuál es el costo total si el costo de perder un correo real es $20 y el costo de dejar pasar un correo spam es $2?",
+      "S11_D6_F64_C2": "Veo que si aumentamos el umbral el costo está disminuyendo, ¿podemos aumentar el umbral a 90%?",
+      "S11_D7_F65_C1": "No Ethan, si aumentamos el umbral al 90%, definitivamente reducirá el costo total, pero dejaremos pasar más correos spam, lo que nos hará perder aún más tiempo.",
+      "S11_D8_F66_C2": "¡Oh, cierto! Necesitamos encontrar un buen equilibrio entre atrapar spam y reducir el costo.",
+      "S11_D9_F67_C1": "Ahora Ethan, ¿puedes establecer un valor de umbral en tu código y completar el desarrollo de este filtro de spam?",
+      "S11_D10_F68_C2": "¡Sí, por supuesto!"
+    },
+    "S_12": {
+      "S12_D1_F70_C1": "¡Buen trabajo, Ethan! Hemos construido un filtro de spam usando probabilidad, y ya está marcando la diferencia.",
+      "S12_D2_F71_C2": "¡Sí! Aprender cómo la probabilidad condicional, la independencia y el análisis de costos funcionan juntos realmente ayudó a afinar nuestro umbral.",
+      "S12_D3_F72_C1": "Exactamente. Al equilibrar falsos positivos y falsos negativos, creamos un sistema más inteligente que realmente funciona en un entorno real.",
+      "S12_D4_F73_C2": "¡Y lo mejor de todo! Esto no es solo teoría, es una solución real que hace nuestra bandeja de entrada más eficiente cada día."
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "Ha explorado cómo optimizar la gestión del correo electrónico mediante el filtrado de spam basado en probabilidad",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>¡Has completado la STEAMQuest Bandeja de entrada bajo asedio: cómo combatir el spam con probabilidad!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Usaste tablas de doble entrada y probabilidad condicional para analizar características de correos electrónicos e identificar patrones de spam</li><li>Probaste umbrales de clasificación para equilibrar falsos positivos y falsos negativos en la detección de spam</li><li>Exploraste análisis de costos para encontrar el umbral más eficiente al minimizar el impacto empresarial</li><li>Preparaste las bases para construir un filtro de spam basado en datos utilizando modelos de probabilidad</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400;'>Tus conocimientos ayudarán a crear una bandeja de entrada más inteligente y eficiente!</p>",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_13854_7433\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"80\">\n<rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"9.5\" fill=\"#5454D8\" stroke=\"#005F20\"/>\n</mask>\n<g mask=\"url(#mask0_13854_7433)\">\n<path d=\"M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z\" fill=\"black\"/>\n<path d=\"M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z\" fill=\"#FFCC00\" stroke=\"black\"/>\n<path d=\"M22 30.3158C22 28.7461 23.2641 27.4737 24.8235 27.4737H57.7647C59.3241 27.4737 60.5882 28.7461 60.5882 30.3158V51.1579C60.5882 52.7275 59.3241 54 57.7647 54H24.8235C23.2641 54 22 52.7275 22 51.1579V30.3158Z\" fill=\"black\"/>\n<path d=\"M70 27.9474C70 33.4411 65.5755 37.8947 60.1176 37.8947C54.6598 37.8947 50.2353 33.4411 50.2353 27.9474C50.2353 22.4536 54.6598 18 60.1176 18C65.5755 18 70 22.4536 70 27.9474Z\" fill=\"black\"/>\n<path d=\"M59.0273 28.5438L58.7764 24.7642C58.7294 24.0278 58.7059 23.4991 58.7059 23.1782C58.7059 22.7416 58.8182 22.4023 59.043 22.1603C59.2729 21.9131 59.5734 21.7895 59.9444 21.7895C60.3939 21.7895 60.6944 21.9473 60.8459 22.2629C60.9975 22.5733 61.0733 23.023 61.0733 23.6122C61.0733 23.9594 61.055 24.3118 61.0184 24.6695L60.6813 28.5596C60.6447 29.0225 60.5663 29.3776 60.4461 29.6248C60.3259 29.872 60.1274 29.9957 59.8504 29.9957C59.5682 29.9957 59.3722 29.8773 59.2625 29.6406C59.1527 29.3986 59.0743 29.033 59.0273 28.5438ZM59.8974 33.7358C59.5786 33.7358 59.299 33.6332 59.0586 33.4281C58.8235 33.2176 58.7059 32.9257 58.7059 32.5522C58.7059 32.2261 58.8182 31.9499 59.043 31.7237C59.2729 31.4922 59.5525 31.3765 59.8817 31.3765C60.211 31.3765 60.4906 31.4922 60.7205 31.7237C60.9557 31.9499 61.0733 32.2261 61.0733 32.5522C61.0733 32.9204 60.9557 33.2098 60.7205 33.4202C60.4853 33.6306 60.211 33.7358 59.8974 33.7358Z\" fill=\"black\"/>\n<rect x=\"22.5\" y=\"25.9746\" width=\"37.8421\" height=\"25.5263\" rx=\"2.5\" fill=\"white\" stroke=\"black\"/>\n<path d=\"M23.4211 50.5785L36.2106 37.7891\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M59.8948 50.5785L47.1053 37.7891\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M23.4211 26.4219L41.8948 42.5271L59.4211 26.4219\" stroke=\"black\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<circle cx=\"60.3685\" cy=\"25.9474\" r=\"9.44737\" fill=\"white\" stroke=\"black\"/>\n<path d=\"M59.2708 26.5434L59.0183 22.7638C58.9709 22.0274 58.9473 21.4987 58.9473 21.1778C58.9473 20.7412 59.0604 20.4019 59.2866 20.1599C59.518 19.9127 59.8205 19.7891 60.194 19.7891C60.6464 19.7891 60.9488 19.9469 61.1014 20.2625C61.2539 20.5729 61.3302 21.0226 61.3302 21.6118C61.3302 21.959 61.3118 22.3114 61.275 22.6691L60.9357 26.5592C60.8989 27.0221 60.82 27.3772 60.699 27.6244C60.578 27.8716 60.3781 27.9952 60.0993 27.9952C59.8152 27.9952 59.618 27.8769 59.5075 27.6402C59.397 27.3982 59.3181 27.0326 59.2708 26.5434ZM60.1466 31.7354C59.8257 31.7354 59.5443 31.6328 59.3023 31.4276C59.0656 31.2172 58.9473 30.9253 58.9473 30.5518C58.9473 30.2256 59.0604 29.9495 59.2866 29.7233C59.518 29.4918 59.7994 29.3761 60.1309 29.3761C60.4623 29.3761 60.7437 29.4918 60.9751 29.7233C61.2119 29.9495 61.3302 30.2256 61.3302 30.5518C61.3302 30.92 61.2119 31.2093 60.9751 31.4198C60.7384 31.6302 60.4623 31.7354 60.1466 31.7354Z\" fill=\"black\"/>\n</g>\n</svg>",
+
+      "leftsvgarialabel": "Icono de insignia de alerta de correo electrónico",
+      "rightsvg": "<svg width=\"191\" height=\"110\" viewBox=\"0 0 191 110\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-top: 20px;\">\n<mask id=\"mask0_13854_7445\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"191\" height=\"110\">\n<rect width=\"191\" height=\"110\" fill=\"#D9D9D9\"/>\n</mask>\n<g mask=\"url(#mask0_13854_7445)\">\n<g opacity=\"0.2\">\n<rect x=\"40.5317\" y=\"3.72852\" width=\"121.654\" height=\"83.0815\" rx=\"3\" transform=\"rotate(17.8059 40.5317 3.72852)\" fill=\"white\"/>\n<rect x=\"104.636\" y=\"62.1084\" width=\"62.3545\" height=\"4\" rx=\"2\" transform=\"rotate(63.9221 104.636 62.1084)\" fill=\"#006BE0\"/>\n<rect width=\"62.3545\" height=\"4\" rx=\"2\" transform=\"matrix(-0.900832 0.434167 0.434167 0.900832 71.593 54.9619)\" fill=\"#006BE0\"/>\n<path d=\"M81 74L39.5 6.99918C40 4.4994 42.5 3.99993 44.5 4.99891L85 70L153.5 40C154.7 40.4 156.5 42 155 45C132.964 55.1069 88.8276 74.0219 85.5586 75.4229L85.5049 75.4459C82.7049 76.6459 81.5 75 81 74Z\" fill=\"#006BE0\"/>\n<path d=\"M182.728 50.9569C177.719 66.5506 161.018 75.1318 145.425 70.1235C129.831 65.1151 121.25 48.4139 126.258 32.8201C131.267 17.2263 147.968 8.64514 163.561 13.6535C179.155 18.6618 187.736 35.3631 182.728 50.9569Z\" fill=\"white\" stroke=\"#006BE0\" stroke-width=\"3\"/>\n<path d=\"M150.649 42.6144L153.516 31.1018C154.08 28.8604 154.516 27.2612 154.823 26.3043C155.241 25.0023 155.903 24.0989 156.81 23.5939C157.737 23.0784 158.757 22.9994 159.871 23.3571C161.22 23.7904 161.971 24.5507 162.123 25.638C162.281 26.7096 162.078 28.1238 161.513 29.8807C161.181 30.916 160.788 31.9494 160.336 32.9808L155.598 44.256C155.045 45.6012 154.47 46.5844 153.872 47.2058C153.275 47.8272 152.56 48.0044 151.729 47.7374C150.882 47.4653 150.407 46.9234 150.304 46.1117C150.207 45.2844 150.321 44.1186 150.649 42.6144ZM148.288 58.9358C147.331 58.6285 146.59 58.053 146.065 57.2095C145.561 56.3554 145.487 55.3714 145.845 54.2577C146.157 53.2851 146.759 52.5699 147.65 52.112C148.562 51.6435 149.512 51.5679 150.5 51.8853C151.489 52.2027 152.217 52.8173 152.686 53.7292C153.175 54.6305 153.263 55.5674 152.951 56.5399C152.598 57.638 151.968 58.3874 151.061 58.7881C150.153 59.1889 149.229 59.2381 148.288 58.9358Z\" fill=\"#006BE0\"/>\n</g>\n</g>\n</svg>"
+    },
+    "glossary": {
+      "conditional_probability": {
+        "word": "probabilidad condicional",
+        "definition": "<strong class=\"text-[#0055B2]\">Probabilidad Condicional</strong> es la probabilidad de que ocurra un evento dado que otro evento ya ha sucedido."
+      },
+      "two_way_table": {
+        "word": "tablas de doble entrada",
+        "definition": "<strong class=\"text-[#0055B2]\">Tablas de Doble Entrada</strong> son tablas utilizadas para organizar datos en categorías y comparar dos variables."
+      },
+      "independence": {
+        "word": "independencia",
+        "definition": "<strong class=\"text-[#0055B2]\">Independencia</strong> en probabilidad significa que dos eventos son independientes si la ocurrencia de uno no afecta la probabilidad de que ocurra el otro."
+      },
+      "threshold": {
+        "word": "umbral",
+        "definition": "<strong class=\"text-[#0055B2]\">Umbral</strong> es un valor límite o frontera que separa una categoría de otra."
+      },
+      "thresholds": {
+        "word": "umbrales",
+        "definition": "<strong class=\"text-[#0055B2]\">Umbral</strong> es un valor límite o frontera que separa una categoría de otra."
+      },
+      "false_positive": {
+        "word": "falso positivo",
+        "definition": "<strong class=\"text-[#0055B2]\">Falso Positivo</strong> es un resultado donde una prueba identifica incorrectamente la presencia de una condición cuando en realidad está ausente."
+      },
+      "false_positives": {
+        "word": "falsos positivos",
+        "definition": "<strong class=\"text-[#0055B2]\">Falso Positivo</strong> es un resultado donde una prueba identifica incorrectamente la presencia de una condición cuando en realidad está ausente."
+      },
+      "false_negatives": {
+        "word": "falsos negativos",
+        "definition": "<strong class=\"text-[#0055B2]\">Falso Negativo</strong> es un resultado donde una prueba no detecta una condición que está realmente presente."
+      },
+      "classification": {
+        "word": "clasificación",
+        "definition": "<strong class=\"text-[#0055B2]\">Clasificación</strong> es el proceso de categorizar o etiquetar datos basándose en características específicas."
+      },
+      "independent": {
+        "word": "independiente",
+        "definition": "<strong class=\"text-[#0055B2]\">Independiente</strong> se refiere a dos características donde la presencia de una característica no afecta la probabilidad de que aparezca la otra."
+      },
+      "data_analysis": {
+        "word": "análisis de datos",
+        "definition": "<strong class=\"text-[#0055B2]\">Análisis de Datos</strong> es el proceso de recopilar, organizar y estudiar información (datos) para encontrar patrones útiles o respuestas."
+      },
+      "classification_thresholds": {
+        "word": "umbrales de clasificación",
+        "definition": "<strong class=\"text-[#0055B2]\">Umbrales de Clasificación</strong> son valores utilizados para decidir cómo clasificar los datos en diferentes categorías."
+      }
+    },
+    "common": {
+      "alicia": "Alicia",
+      "ethan": "Ethan",
+      "alicia_description": "Alicia, una mujer profesional con cabello castaño ondulado y gafas rectangulares, vistiendo un blazer azul marino mientras revisa datos como Líder de Equipo de Soporte.",
+      "ethan_description": "Ethan, un joven con cabello rubio-castaño estilizado, vestido con una camisa negra casual analizando información como Desarrollador Junior.",
+      "bg1_description": "Oficina tecnológica moderna al atardecer con entrada de cristal, espacio de trabajo iluminado y bicicleta estacionada afuera.",
+      "bg2_description": "Espacio de trabajo abierto con mamparas de cristal, portátil sobre mesa de madera y notas adhesivas coloridas en el tablero de la pared.",
+      "bg3_description": "Sala de conferencias moderna con gran pantalla de proyección de datos, múltiples portátiles sobre mesa de madera y plantas tropicales en iluminación azulada.",
+      "bg4_description": "Espacio de trabajo de oficina tecnológica con análisis de datos mostrados en monitores, grandes ventanas con vista al horizonte de la ciudad y plantas de interior añadiendo verdor.",
+      "bg5_description": "Sala de descanso de oficina con suelos de madera, área de asientos confortable, máquinas expendedoras y grandes ventanas con vistas a la ciudad al atardecer.",
+      "bg6_description": "Espacio de oficina colaborativo moderno con sillones puff, pantalla de presentación, suelos de madera y mamparas de cristal abiertas que muestran estaciones de trabajo en iluminación nocturna.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Introduce tu respuesta"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control deslizante del volumen de la música de fondo",
+      "character-voice-volume-slider": "Control deslizante del volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "inbox-under-siege": "STEAM Quest - Bandeja de Entrada Bajo Asedio"
+  }
+}

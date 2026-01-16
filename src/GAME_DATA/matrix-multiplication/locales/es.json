@@ -1,0 +1,41 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "El Problema",
+    "scene_3": "¿Qué es una Matriz?",
+    "scene_4": "La Regla de Multiplicación",
+    "scene_5": "Práctica",
+    "scene_6": "Escalando",
+    "scene_7": "Aplicación Real",
+    "scene_8": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Empezar de nuevo",
+      "next": "Siguiente",
+      "back": "Atrás",
+      "correct": "¡Correcto!",
+      "try-again": "Intentar de nuevo",
+      "submit": "Enviar"
+    }
+  },
+  "start": {
+    "title": "<div style='font-size: 36px; line-height: 54px; font-weight: 700;'>Multiplicación de Matrices</div> <div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Las Matemáticas Detrás de los Gráficos de Videojuegos</div>",
+    "description": "Únete a Alex, un pasante de desarrollo de videojuegos, mientras descubre cómo las matrices potencian las transformaciones gráficas en los videojuegos. ¡Aprende los fundamentos de la multiplicación de matrices y ve las matemáticas en acción!",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "common": {
+      "alex": "Alex",
+      "alex_description": "Un joven pasante de desarrollo de videojuegos de unos 20 años con cabello oscuro y ondulado corto, usando gafas y una sudadera casual de tecnología sobre una camiseta de videojuegos. Se ve entusiasta y curioso.",
+      "dr_chen": "Dra. Chen",
+      "dr_chen_description": "La Dra. Maya Chen, una ingeniera gráfica senior de unos 40 años con cabello largo y oscuro recogido, usando un blazer profesional. Tiene un aire seguro y de mentora.",
+      "quest_progress": "Progreso del quest",
+      "bg1_description": "Un vestíbulo moderno de estudio de desarrollo de videojuegos con muebles elegantes, arte de videojuegos en las paredes y grandes monitores mostrando demos de juegos.",
+      "bg2_description": "Un laboratorio de computación brillante con filas de estaciones de trabajo, ecuaciones matemáticas en pizarras y software de modelado 3D en las pantallas.",
+      "bg3_description": "Un espacio de oficina acogedor con monitores duales mostrando código y gráficos, rodeado de recuerdos de videojuegos y libros de tecnología.",
+      "bg4_description": "Un espacio de trabajo creativo con bocetos de personajes de juegos, modelos 3D en pantalla y notas adhesivas coloridas con fórmulas matemáticas.",
+      "bg5_description": "Una sala de visualización de alta tecnología con grandes pantallas mostrando gráficos 3D y transformaciones de matrices en acción."
+    }
+  }
+}

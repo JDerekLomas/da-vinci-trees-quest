@@ -1,0 +1,3 @@
+export default (interactiveResponses: Record<string, Record<string, string | number | boolean | null>>) => {
+  return !(interactiveResponses?.['10_0']?.['step-3-part-1-completed'] === true);
+};

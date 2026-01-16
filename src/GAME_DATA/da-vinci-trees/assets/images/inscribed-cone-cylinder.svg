@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-70 -95 660 330">
+ <title>Inscribed cone sphere cylinder</title>
+ <desc>A cone, sphere and cylinder of the same radius and height to illustrate their 1:2:3 volume ratio, by CMG Lee.</desc>
+ <defs>
+  <linearGradient id="grad_cone" x1="0%" y1="-10%" x2="100%" y2="20%">
+   <stop offset="0%"  stop-color="#ff0000"/>
+   <stop offset="50%" stop-color="#ff9966"/>
+   <stop offset="99%" stop-color="#ff0000"/>
+  </linearGradient>
+  <radialGradient id="grad_sphere" cx="33%" cy="33%" r="75%" fx="40%" fy="25%">
+   <stop offset="10%" stop-color="#00ff99"/>
+   <stop offset="90%" stop-color="#006633"/>
+  </radialGradient>
+  <linearGradient id="grad_cylinder" x1="0%" y1="0%" x2="100%" y2="0%">
+   <stop offset="0%"  stop-color="#0033ff"/>
+   <stop offset="30%" stop-color="#3366ff"/>
+   <stop offset="99%" stop-color="#0000ff"/>
+  </linearGradient>
+
+  <text id="h" x="0" y="0.6ex" stroke="none"
+   ><tspan font-style="italic">h</tspan><tspan dx="0.2ex">=</tspan
+   ><tspan dx="0.1ex">2</tspan><tspan font-style="italic">r</tspan></text>
+  <g id="h1">
+   <use xlink:href="#h" x="100"/>
+   <path d="M 65,-50 H 70 V 50 H 65" stroke-width="0.5" fill="none"/>
+  </g>
+  <g id="h2">
+   <use xlink:href="#h" x="-102"/>
+   <path d="M -5,-50 H -70 V 50 H -65" stroke-width="0.5" fill="none"/>
+  </g>
+  <g id="r">
+   <text x="30" y="110" dy="0.6ex" font-style="italic" stroke="none">r</text>
+  </g>
+  <g id="r1">
+   <use xlink:href="#r"/>
+   <path d="M 61.237,65 V 95 H 0 V 90" stroke-width="0.5" fill="none"/>
+  </g>
+  <g id="r2">
+   <use xlink:href="#r"/>
+   <path d="M 61.237,20 V 95 H 0 V 65" stroke-width="0.5" fill="none"/>
+  </g>
+
+  <path id="dotted" d="M -57.282,37.5 A 61.237,35.355 0 0 1 57.282,37.5" stroke-dasharray="2,5" fill="none"/>
+
+  <g id="cone">
+   <path d="M 0,-50 L 57.282,37.5 A 61.237,35.355 0 1 1 -57.282,37.5 Z" fill="url(#grad_cone)"/>
+   <use xlink:href="#dotted"/>
+  </g>
+  <g id="sphere">
+   <ellipse cx="0" cy="0" rx="61.237" ry="61.237" fill="url(#grad_sphere)"/>
+  </g>
+  <g id="cylinder">
+   <ellipse cx="0" cy="-50" rx="61.237" ry="35.355" fill="#6699ff"/>
+   <path d="M -61.237,-50 A 61.237,35.355 0 0 0 61.237,-50 V 50 A 61.237,35.355 0 0 1 -61.237,50 Z" fill="url(#grad_cylinder)"/>
+   <use xlink:href="#dotted"/>
+  </g>
+
+  <text id="v" x="-16" y="170" text-anchor="start" stroke="none"><tspan>&#183;</tspan
+   ><tspan x="0" dy="-0.5em">2</tspan><tspan font-style="italic">&#960;r</tspan><tspan dx="0.2ex">&#179;</tspan
+   ><tspan x="0">___</tspan><tspan x="15" dy="1em">3</tspan></text>
+  <text id="a" x="-16" y="225" text-anchor="start" stroke="none"><tspan>&#183;</tspan
+   ><tspan x="0">2</tspan><tspan font-style="italic">&#960;r</tspan><tspan dx="0.2ex">&#178;</tspan></text>
+ </defs>
+
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g font-family="Helvetica,Arial,sans-serif" font-size="24" text-anchor="middle" fill="#000000" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+  <g>
+   <use xlink:href="#cylinder" fill-opacity="0.5"/>
+   <use xlink:href="#sphere"   fill-opacity="0.4"/>
+   <use xlink:href="#cone"     fill-opacity="0.5"/>
+   <use xlink:href="#sphere"   fill-opacity="0"/>
+   <use xlink:href="#cylinder" fill-opacity="0"/>
+   <text x="95" y="170" stroke="none"><tspan font-style="italic">V</tspan><tspan dx="0.5ex">:</tspan></text>
+   <text x="95" y="225" stroke="none"><tspan font-style="italic">A</tspan><tspan dx="0.5ex">:</tspan></text>
+  </g>
+  <g transform="translate(195,0)">
+   <use xlink:href="#cone" fill-opacity="0.5"/>
+   <use xlink:href="#h2"/>
+   <use xlink:href="#r1"/>
+  </g>
+  <g transform="translate(185,0)">
+   <text x="-30" y="170" stroke="none">1</text><use xlink:href="#v"/>
+   <text x="-30" y="225" stroke="none" font-style="italic">&#981;</text><use xlink:href="#a"/>
+  </g>
+  <g transform="translate(315,0)">
+   <use xlink:href="#sphere" fill-opacity="0.5"/>
+   <use xlink:href="#r2"/>
+  </g>
+  <g transform="translate(320,0)">
+   <text x="-30" y="170" stroke="none">2</text><use xlink:href="#v"/>
+   <text x="-30" y="225" stroke="none">2</text><use xlink:href="#a"/>
+  </g>
+  <g transform="translate(455,0)">
+   <use xlink:href="#cylinder" fill-opacity="0.5"/>
+   <use xlink:href="#h1"/>
+   <use xlink:href="#r1"/>
+  </g>
+  <g transform="translate(455,0)">
+   <text x="-30" y="170" stroke="none">3</text><use xlink:href="#v"/>
+   <text x="-30" y="225" stroke="none">3</text><use xlink:href="#a"/>
+  </g>
+ </g>
+</svg>

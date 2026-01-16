@@ -1,0 +1,506 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción",
+    "scene_4": "Analizador de Rango de Rendimiento",
+    "scene_5": "Introducción al Segmento de Carrera",
+    "scene_6": "Calculadora de Segmento de Carrera",
+    "scene_7": "Introducción a la Intensidad de Entrenamiento",
+    "scene_8": "Optimizador de Intensidad de Entrenamiento",
+    "scene_9": "Introducción al Rendimiento en Carrera",
+    "scene_10": "Predictor de Rendimiento en Carrera",
+    "scene_11": "Conclusión",
+    "scene_12": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Entra en la Zona</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>Una Búsqueda de Ciencias del Deporte</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Nina Thompson es súper rápida, pero el talento natural no es suficiente para ganar el campeonato estatal. Con la guía del Dr. Rivera, debe dominar la estrategia y la precisión—desbloqueando el sorprendente poder de las matemáticas para llevarla más allá de la línea de meta.</div>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<span style='color: #333333; font-size: 24px; line-height: 36px; font-weight: 700;'>Bienvenido a La Matemática del Rendimiento en Pista</span>",
+        "body": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><p>En la pista, cada milisegundo cuenta. En esta búsqueda, usarás álgebra—ecuaciones, desigualdades y modelos—para analizar las carreras de Nina, afinar su entrenamiento y ayudarla a transformar la velocidad en victoria.</p></div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>El entrenador dice que necesito aumentar mi ritmo si quiero clasificar para los campeonatos estatales. Pero he estado entrenando duro durante semanas, y mis tiempos no están mejorando consistentemente.</div>",
+      "S3_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>He estado revisando tus datos de rendimiento, Nina. Tienes una habilidad natural tremenda, pero tus tiempos varían bastante de una carrera a otra.</div>",
+      "S3_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Lo sé. Algunos días siento que vuelo, y otros que corro por arenas movedizas. La semana pasada corrí los <strong role='text'>200 <span aria-hidden='true' role='text'>m</span><span className='sr-only'>metros</span></strong> en <strong>27 s</strong>, pero ayer llegué a los <strong>30 s</strong>. ¡Es muy frustrante!</div>",
+      "S3_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cuál es el tiempo de clasificación para los campeonatos estatales?</div>",
+      "S3_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><strong>26 s</strong> o menos. Así que incluso mi mejor tiempo aún no es lo suficientemente bueno.</div>",
+      "S3_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando hablamos de tiempos de clasificación, realmente estamos hablando de desigualdades. Las matemáticas no reemplazarán una buena nutrición y recuperación, pero nos dan un objetivo más claro para complementar esos elementos esenciales.</div>",
+      "S3_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Desigualdades? ¿Como menor que y mayor que de la clase de álgebra?</div>",
+      "S3_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. El estándar de clasificación estatal puede escribirse como <strong><i className='font-besley'>t</i> ≤ 26</strong>, donde <strong><i className='font-besley'>t</i></strong> representa tu tiempo en segundos. En este momento, tus tiempos van desde <strong>27 a 30 s</strong>, que podríamos escribir como <strong>27 ≤ <i className='font-besley'>t</i> ≤ 30</strong>.</div>",
+      "S3_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Así que mi rango actual no se superpone en absoluto con el rango de clasificación. Estoy completamente fuera de él.</div>",
+      "S3_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Así es. Pero eso también nos da un objetivo claro. Necesitamos ajustar todo tu rango de rendimiento para que esté completamente en o por debajo de ese umbral de <strong aria-label='26 segundos' role='text'>26 s</strong>.</div>",
+      "S3_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Pero ¿por cuánto? Si estoy corriendo <strong>30 s</strong> en mis días libres, eso es una gran brecha para cerrar.</div>",
+      "S3_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Usemos algo de matemáticas para calcular exactamente cuánto necesitas mejorar. Tengo una herramienta en mi tableta que puede ayudarnos a visualizar esto. Analizaremos tu rango de rendimiento actual y determinaremos con precisión cuánto necesitas mejorar para clasificar con confianza.</div>"
+    },
+    "S6": {
+      "S6_D0_F20_C9": {
+        "about": {
+          "heading": "Análisis del Rango de Rendimiento para Atletas",
+          "body": "Los conceptos clave demostrados en esta interactiva: <ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px;'> <li> <strong>Rangos de Rendimiento:</strong> Los atletas típicamente realizan dentro de un rango en lugar de un único nivel constante </li> <li> <strong>Notación de Desigualdad:</strong> Las desigualdades matemáticas <strong>(27 ≤ <i className='font-besley'>t</i> ≤ 30)</strong> representan límites de rendimiento </li> <li> <strong>Estándares de Calificación:</strong> Los estándares de competición pueden representarse como umbrales de desigualdad <strong>(<i className='font-besley'>t</i> ≤ 26)</strong> </li> </ol> <p class='mt-2 mb-1 font-bold'>En esta interactiva, usted:</p> <ul style='list-style-type:disc; margin-left: 30px;'> <li> Visualizará el rango actual de rendimiento de Nina como una desigualdad </li> <li> Calculará la mejora necesaria para cambiar todo su rango por debajo del umbral de calificación </li> <li> Verá cómo las desigualdades matemáticas proporcionan objetivos precisos para la mejora atlética </li> </ul>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactiva",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px;'><li><strong>Observar rango actual:</strong> El interactivo comienza mostrando el rango de tiempo actual de Nina <strong>(27-30 s)</strong> y el estándar de calificación <strong aria-hidden='true'>(≤ 26 s)</strong><span className='sr-only'>menor o igual a 26 segundos</span></li><li><strong>Mejora de entrada:</strong> Establece el valor en segundos que crees que Nina necesita mejorar</li><li><strong>Analizar resultado:</strong> Observa cómo tu mejora cambia el rango de rendimiento de Nina</li><li><strong>Verificar calificación:</strong> La visualización mostrará si tu mejora es suficiente para la calificación</li></ol><strong>Aspectos a observar:</strong><ul style='list-style-type:disc; margin-left: 30px; margin-top: 10px;'><li>Observe cómo cambia todo el rango al aplicar un valor de mejora</li><li>Preste atención a si el rango modificado cae completamente por debajo de la línea de calificación</li><li>Considere qué valor de mejora garantiza que incluso el peor desempeño de Nina sea válido</li></ul>"
+        },
+        "title": "Analizador de Rango de Rendimiento",
+        "label_1": "Tiempo Inferior Actual (segundos)",
+        "label_2": "Tiempo Superior Actual (segundos)",
+        "label_3": "Mejora (segundos)",
+        "labelQualifying": "Estándar de Calificación: t ≤ 26 segundos",
+        "ariaLabelQualifying": "El Estándar de Calificación es t menor o igual a 26 segundos",
+        "labelCurrentTime": "Rango de Tiempo Actual",
+        "labelImprovedTimeNotQualifying": "Rango Mejorado (No Califica)",
+        "labelImprovedTimeQualifying": "Rango Mejorado (¡Califica!)",
+        "feedback_1": "¡Correcto! Con una mejora de 4 segundos, todo el rango de rendimiento de Nina calificaría.",
+        "feedback_2": "No es suficiente mejora. Los peores rendimientos de Nina aún no calificarían.",
+        "feedback_3": "Esto funcionaría, pero es más que la mejora mínima necesaria.",
+        "qualifyingTime": "Calificar: 26 segundos"
+      },
+      "S6_D1_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Bien, vamos a ingresar tus tiempos en este analizador. ¿Puedes ajustar esos controles deslizantes allí? Establece el mejor en <strong>27 <span role='text' aria-label='seconds'>s</span></strong>, que es tu mejor tiempo, y el peor en <strong>30 <span role='text' aria-label='seconds'>s</span></strong> para tus días malos.</div>",
+      "S6_D2_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Entendido! Así que ajustaré la herramienta para mostrar mi rango actual de <strong>27 <span role='text' aria-label='seconds'>s</span></strong> a <strong>30 <span role='text' aria-label='seconds'>s</span></strong>.<br/>Y también puedo ver que muestra que necesito llegar a <strong>26 <span role='text' aria-label='seconds'>s</span></strong> o menos para clasificar.</div>",
+      "S6_D3_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora que ya has ingresado tu rango actual, aquí está la pregunta importante: ¿cuánto necesitas mejorar para asegurarte de que calificarás para el estado sin ninguna duda, incluso en tus peores días?</div>",
+      "S6_D4_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, necesito que mi tiempo sea menor o igual a <strong>26 s</strong>... pero ese es solo el requisito básico. Para estar segura de clasificar, incluso mi carrera más lenta debe estar por debajo del tiempo de calificación.</div>",
+      "S6_D5_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Entonces piensa en tu rango actual y cuánto necesita cambiar para estar completamente por debajo del umbral de calificación.</div>",
+      "S6_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cuántos segundos de mejora necesitas para asegurar que todo tu rango de rendimiento caiga por debajo del tiempo de calificación de <strong>26 s</strong> o menos?</div>",
+      "S6_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Creo que necesito mejorar <strong>4 s</strong>! Mi peor tiempo actual es de <strong>30 s</strong>, y necesito ser menor o igual a <strong>26 s</strong>, así que <strong aria-hidden='true'>30 - 26 = 4 s</strong><span className='sr-only'>30 menos 26 es igual a 4 segundos</span>.</div>",
+      "S6_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es exactamente correcto! Si mejoras en <strong>4 s</strong> en todo tu rango, tu nuevo rango sería <strong>23 a 26 s</strong>. Esto significa que incluso en tu peor día, aún calificarías.</div>",
+      "S6_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Eso lo hace tan claro. Necesito una mejora de <strong>4 s</strong> para estar absolutamente segura de que calificaré. Es un gran objetivo, pero al menos ahora sé exactamente a qué apuntar.</div>",
+      "S6_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Por eso las desigualdades son tan poderosas en el entrenamiento deportivo. Nos ayudan a definir objetivos y límites precisos. Ahora que sabemos el objetivo, podemos dividir tu carrera y averiguar exactamente de dónde saldrán esos <strong>4 s</strong>.</div>",
+      "S6_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Así que estamos usando álgebra para hacerme más rápida. ¡Nunca pensé que la clase de matemáticas me ayudaría en la pista!</div>",
+      "S6_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Las matemáticas están en todas partes en los deportes, Nina. Ahora profundicemos y analicemos tu carrera por segmentos para encontrar esos segundos que necesitamos...</div>"
+    },
+    "S7": {
+      "S7_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>He estado pensando en lo que discutimos antes. La mejora de <b>4 segundos</b> parece mucho, pero creo que sé parte del problema.</div>",
+      "S7_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué has notado sobre tu forma de correr?</div>",
+      "S7_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Empiezo rápido, pero siento que me estoy desacelerando demasiado en la segunda mitad de la carrera. En la <no-glossary>recta final</no-glossary>, siento como si estuviera gateando en comparación con cómo empecé.</div>",
+      "S7_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es una excelente autoconciencia, Nina. Muchos velocistas tienen este problema. Obtengamos algunos datos concretos para confirmar tu observación.</div>",
+      "S7_D5_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Hemos dividido tu carrera de <strong>200 <span role='text' aria-label='meter'>m</span></strong> en cuatro segmentos de <strong>50 <span role='text' aria-label='meter'>m</span></strong> con puertas de tiempo posicionadas cada <strong>50 m</strong>. Estos sensores registraron cuánto tiempo tomó cada segmento. Analicemos lo que nos muestran.</div>",
+      "S7_D6_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces mi primer <strong aria-label='50 metros' role='text'>50 m</strong> fue <strong>7.2 s</strong>, luego <strong>6.4 s</strong> para el segundo <strong aria-label='50 metros' role='text'>50 m</strong>—eso es más rápido porque alcancé mi zancada. Pero luego sube a <strong>7.1 s</strong> para el tercer segmento, y <strong>7.8 s</strong> para la recta final. ¡Ahí es donde lo estoy perdiendo!</div>",
+      "S7_D7_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Pero el tiempo solo no cuenta toda la historia. Para entender verdaderamente tu rendimiento, necesitamos calcular tu velocidad en cada segmento.",
+      "S7_D8_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cómo lo hacemos?</div>",
+      "S7_D9_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Usaremos la ecuación fundamental que relaciona distancia, velocidad y tiempo: <span role='text' aria-label='distancia = velocidad por tiempo'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #E0002B'>Distancia</span> = <span style='color: #0061FC'>Velocidad</span> × <span style='color: #008217'>Tiempo</span> </span> </span>. Como queremos encontrar tu velocidad, podemos reorganizar esta ecuación.</div>",
+      "S7_D10_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, si<span role='text' aria-label='distancia = velocidad por tiempo'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'><span style='color: #E0002B'>Distancia</span> =<span style='color: #0061FC'>Velocidad</span> ×<span style='color: #008217'>Tiempo</span></span></span>, entonces <span role='text' aria-label='velocidad = distancia dividida por tiempo'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #0061FC'>Velocidad</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #E0002B;'>Distancia</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #008217;'>Tiempo</span></span></span></span>, ¿verdad?</div>",
+      "S7_D11_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Acabas de reorganizar una ecuación literal para resolver una variable diferente. Esa es una habilidad algebraica clave que tiene una aplicación real aquí. Como cada segmento mide <strong>50 m</strong>, podemos calcular tu velocidad en cada segmento usando: <span role='text' aria-label='speed = 50 dividido entre tiempo'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #E0002B;'>s</span><span style='color: negro;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #0061FC;'>50</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #008217;'>t</span></span></span></span>, donde <span style='color: #008217; font-weight: 700; font-style: italic; font-family: Besley;'>t</span> es tu tiempo en segundos.</div>",
+      "S7_D12_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Y eso nos dirá exactamente dónde estoy perdiendo velocidad.</div>",
+      "S7_D13_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Así es. Usemos el Calculador de Segmentos de Carrera para analizar tu rendimiento actual e identificar dónde necesitas mejorar para reducir esos <strong>4 s</strong>.</div>"
+    },
+    "S8": {
+      "S8_D0_F42_C9": {
+        "header": {
+          "title": "Calculadora de Segmentos de Carrera"
+        },
+        "about": {
+          "heading": "Análisis de Segmentos de Carrera para Velocistas",
+          "body": "<p>Los conceptos clave demostrados en este interactivo:</p> <ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px'> <li> <strong>Relación Distancia-Velocidad-Tiempo:</strong> La fórmula fundamental <span role='text' aria-label='distancia igual a velocidad por tiempo'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #E0002B'>d</span> = <span style='color: #0061FC'>s</span> × <span style='color: #008217'>t</span> </span> </span> y sus reordenamientos (<span role='text' aria-label='velocidad igual a distancia dividida por tiempo, tiempo igual a distancia dividida por velocidad'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #0061FC'>s</span> = <span style='color: #E0002B'>d</span> / <span style='color: #008217'>t</span> , <span style='color: #008217'>t</span> = <span style='color: #E0002B'>d</span> / <span style='color: #0061FC'>s</span> </span> </span>) </li> <li> <strong>Análisis de Segmentos:</strong> Dividir una carrera en segmentos revela áreas específicas para mejorar </li> <li> <strong>Cálculo de Velocidad:</strong> Convertir datos de tiempo en métricas de velocidad expone patrones de rendimiento </li> </ol> <p><strong>En este interactivo, usted:</strong></p> <ul style='list-style-type: disc; margin-left: 30px; margin-top: 10px'> <li> Dividirá la carrera de <strong>200 m</strong> de Nina en <strong>cuatro segmentos de 50 m</strong> </li> <li> Calculará la velocidad para cada segmento usando la fórmula reordenada <span role='text' aria-label='velocidad igual a distancia dividida por tiempo'> <span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley;'> <span style='color: #0061FC'>s</span> = <span style='color: #E0002B'>d</span> / <span style='color: #008217'>t</span> </span> </span> </li> <li> Identificará dónde ocurren las mayores pérdidas de tiempo </li> <li> Establecerá velocidades objetivo y calculará los tiempos resultantes de los segmentos para lograr la clasificación </li> </ul>"
+        },
+        "help": {
+          "heading": "Cómo Usar el Interactivo:",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px'> <li> <strong>Revisar Datos Actuales:</strong> Observe los tiempos actuales de los segmentos y el tiempo total de la carrera de Nina </li> <li> <strong>Calcular Velocidades:</strong> Haga clic en \"Calcular Velocidad\" para convertir los tiempos de los segmentos en metros por segundo </li> <li> <strong>Calcular:</strong> Ingrese la Distancia y la Velocidad y haga clic en \"Calcular\" para ver cómo los cambios de velocidad afectan los tiempos de los segmentos </li> </ol> <strong>Cosas para Observar:</strong> <ul style='list-style-type: disc; margin-left: 30px; margin-top: 10px'> <li>Note qué segmentos muestran la mayor disminución de velocidad</li> <li>Preste atención a la relación entre pequeñas mejoras en los segmentos y el tiempo total de la carrera</li> <li>Considere las mejoras realistas en cada segmento basado en el rendimiento actual</li> </ul>"
+        },
+        "racePerformanceVisualization": "Visualización del Rendimiento en Carrera",
+        "currentTime": "Tiempo Actual",
+        "qualifyingTime": "Tiempo de Clasificación",
+        "speedAnalysisBySegment": "Análisis de Velocidad por Segmento",
+        "segment": "Segmento",
+        "distance": "Distancia",
+        "time": "Tiempo",
+        "speed": "Velocidad",
+        "calculate": "Calcular",
+        "calculateSpeedsAndAnalyzeRace": "Calcular Velocidades",
+        "reset": "Reiniciar",
+        "distanceRateTimeCalculator": "Calculadora de Distancia-Velocidad-Tiempo",
+        "distanceRateTimeCalculatorAriaLabel": "Calculadora de Distancia-Velocidad-Tiempo",
+        "distanceRateTimeCalculatorFeedback": "Retroalimentación de la Calculadora de Distancia-Velocidad-Tiempo",
+        "distanceRateTimeCalculatorFeedbackAriaLabel": "Retroalimentación de la Calculadora de Distancia-Velocidad-Tiempo",
+        "distanceSpeedTimeFormulas": "Fórmulas de Distancia-Velocidad-Tiempo",
+        "distanceSpeedTimeCalculator": "Calculadora de Distancia-Velocidad-Tiempo",
+        "meters": "metros",
+        "seconds": "segundos",
+        "metersPerSecond": "metros/segundo",
+        "pleaseEnterExactlyTwoValuesToCalculateTheThird": "Por favor, ingrese exactamente dos valores para calcular el tercero.",
+        "ariaLabelDistanceFormular": "Distancia es igual a velocidad por tiempo",
+        "ariaLabelSpeedFormular": "Velocidad es igual a distancia dividida por tiempo",
+        "ariaLabelTimeFormular": "Tiempo es igual a distancia dividida por velocidad",
+        "ariaLabelCurrentTime": "Tiempo Actual es 28.5 segundos",
+        "ariaLabelQualifyingTime": "Tiempo de Clasificación es menos de 26.0 segundos",
+        "ariaLabelSegment_1": "Segmento 1 es de 0 a 50 metros en 7.2 segundos",
+        "ariaLabelSegment_2": "Segmento 2 es de 50 a 100 metros en 6.4 segundos",
+        "ariaLabelSegment_3": "Segmento 3 es de 100 a 150 metros en 7.1 segundos",
+        "ariaLabelSegment_4": "Segmento 4 es de 150 a 200 metros en 7.8 segundos",
+        "solutionLabel": "Solución",
+        "ariaDeleteIcon": "Claro",
+        "lessThanOrEqualTo": "menor o igual que"
+      },
+      "S8_D1_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está la calculadora. He establecido la distancia para cada segmento en <strong>50 m</strong>. Y aquí están tus tiempos actuales para cada segmento de tu última carrera.</div>",
+      "S8_D2_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, mi tiempo total actual es de <strong>28.5 s</strong>. Necesito bajar de <strong>26 s</strong> para clasificar.</div>",
+      "S8_D3_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Primero, calculemos tu velocidad en cada segmento usando <span role='text' aria-label='speed = distance between time'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #0061FC'>s</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #E0002B;'>d</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #008217;'>t</span></span></span></span>. Como cada segmento mide 50 m, dividiremos 50 entre el tiempo que tardaste en cada segmento.<br />Haz clic en \"Calcular velocidades\" en la calculadora para ver los resultados.</div>",
+      "S8_D4_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ahora lo veo claramente! Soy más rápida en el <strong>segmento 2</strong>, luego empiezo a disminuir la velocidad drásticamente, especialmente en el tramo final.</div>",
+      "S8_D5_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, si queremos mejorar tu tiempo total para clasificar, necesitamos mantener una mejor velocidad a lo largo de la carrera. Seamos realistas, no podemos esperar que mantengas tu velocidad máxima durante toda la carrera, pero podemos trabajar para minimizar la disminución.</div>",
+      "S8_D6_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿cuáles deberían ser mis tiempos objetivo para cada segmento para clasificar?</div>",
+      "S8_D7_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Ahí es donde usamos nuestra ecuación nuevamente, pero resuelta para el tiempo: <span role='text' aria-label='tiempo = distancia dividida por velocidad'><span aria-hidden='true' style='font-weight: 700; font-style: italic; font-family: Besley; display: inline-flex; align-items: center; gap: 6px;'><span style='color: #008217'>t</span><span style='color: black;'>=</span><span style='display: inline-flex; flex-direction: column; align-items: center; font-style: italic;'><span style='color: #E0002B;'>d</span><span style='border-top: 2px solid black; width: 100%; margin: 2px 0;'></span><span style='color: #0061FC;'>s</span></span></span></span>. Si establecemos velocidades objetivo para cada segmento, podemos calcular los tiempos de segmento que necesitas lograr.</div>",
+      "S8_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Si quieres lograr un tiempo total de <strong>25.5 <span role='text' aria-label='segundos'>s</span></strong> (lo que te clasificaría para el estado), y planeas mantener tu velocidad del <strong>segmento 2</strong> (<strong>7.81 <span role='text' aria-label='metros por segundo'> m/s</span></strong>) a través del <strong>segmento 3</strong>, ¿cuánto tiempo tomaría el tercer segmento?</div>",
+      "S8_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Si puedo mantener mi velocidad del <strong>segmento 2</strong> a través del <strong>segmento 3</strong>, entonces el <strong>segmento 3</strong> tomaría el mismo tiempo que el <strong>segmento 2</strong>, ¡eso es <strong>6.4 s</strong>!</div>",
+      "S8_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Cálculo excelente! Eso solo te ahorraría <strong>0.7 <span role='text' aria-label='segundos'>s</span></strong> de tu tiempo actual, llevándote a <strong>27.8 <span role='text' aria-label='segundos'>s</span></strong> en total. Pero aún necesitas encontrar otros <strong>1.8 <span role='text' aria-label='segundos'>s</span></strong> para alcanzar tu meta de <strong>26 <span role='text' aria-label='segundos'>s</span></strong>.</div>",
+      "S8_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces necesito mejorar otros segmentos también. ¿Dónde crees que tengo más potencial de mejora?</div>",
+      "S8_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Mirando tus datos de velocidad, tu segmento final es significativamente más lento que los otros—<strong>6.41 <span role='text' aria-label='metros por segundo'>m/s</span></strong> comparado con más de <strong>7 <span role='text' aria-label='metros por segundo'>m/s</span></strong> en los <strong>segmentos 2 y 3</strong>. Ahí es donde estás perdiendo más tiempo.</div>",
+      "S8_D13_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Dado que hemos identificado que el <strong>segmento 4</strong> es tu mayor oportunidad, seamos específicos sobre nuestro objetivo. Necesitas reducir tu tiempo total en <strong>1.8 <span role='text' aria-label='seconds'>segundos</span></strong> para alcanzar <strong>26 <span role='text' aria-label='seconds'>segundos</span></strong>. Si enfocas toda esa mejora en el <strong>segmento 4</strong>, ¿cuál debería ser tu nuevo tiempo objetivo para ese segmento?</div>",
+      "S8_D13_FX_C1_optionA": "Reducir el <strong>segmento 4</strong> de <strong>7.8 <span role='text' aria-label='seconds'>segundos</span></strong> a <strong>6.8 <span role='text' aria-label='seconds'>segundos</span></strong>",
+      "S8_D13_FX_C1_optionB": "Reducir el <strong>segmento 4</strong> de <strong>7.8 <span role='text' aria-label='seconds'>segundos</span></strong> a <strong>6.0 <span role='text' aria-label='seconds'>segundos</span></strong>",
+      "S8_D13_FX_C1_optionC": "Reducir el <strong>segmento 4</strong> de <strong>7.8 <span role='text' aria-label='seconds'>segundos</span></strong> a <strong>6.5 <span role='text' aria-label='seconds'>segundos</span></strong>",
+      "S8_D14_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es correcto! Necesito reducir el <strong>segmento 4</strong> a <strong>6.0 <span role='text' aria-label='seconds'>s</span></strong>. Esa es una gran mejora desde <strong>7.8 <span role='text' aria-label='seconds'>s</span></strong>, pero como es mi segmento más lento, es donde tengo más margen para mejorar.</div>",
+      "S8_D15_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Tu último <strong>50 <span role='text' aria-label='meter'>m</span></strong> es actualmente tu sección más débil a <strong>6.41 <span role='text' aria-label='meter per seconds'>m/s</span></strong>. Si podemos acercar eso a las velocidades de tu <strong>segmento 2 y 3</strong> a través del entrenamiento, tendrás un camino realista hacia la clasificación.</div>",
+      "S8_D16_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, al usar la fórmula de distancia y resolver para diferentes variables, ¡hemos identificado exactamente en qué debo enfocar mi entrenamiento! Necesito trabajar en mantener mi velocidad a través del <strong>segmento 3</strong> y mejorar significativamente mi velocidad final en el <strong>segmento 4</strong>.</div>",
+      "S8_D17_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. Este es el poder de las ecuaciones literales en el análisis deportivo. Al resolver para diferentes variables, podemos identificar áreas específicas para mejorar y establecer metas realistas y específicas. Ahora, hablemos sobre cómo diseñar un entrenamiento que te ayude a alcanzar estos objetivos...</div>"
+    },
+    "S9": {
+      "S9_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>He estado tratando de seguir el plan que desarrollamos, pero estoy notando algo frustrante en mi entrenamiento.</div>",
+      "S9_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué pasa, Nina?</div>",
+      "S9_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Algunos días empujo demasiado y me siento completamente agotada al día siguiente. Incluso tuve que saltarme el entrenamiento el jueves pasado porque mis músculos estaban muy adoloridos. Pero otros días, no empujo lo suficiente y no veo ninguna mejora. Es difícil encontrar el equilibrio adecuado.</div>",
+      "S9_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Ese es un desafío común para los atletas. La intensidad del entrenamiento es crucial, de hecho, hay un principio científico llamado 'umbral del efecto de entrenamiento'.</div>",
+      "S9_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué es eso?</div>",
+      "S9_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Significa que para ver una mejora, necesitas entrenar por encima de una cierta <no-glossary>intensidad mínima</no-glossary>. Pero también hay un límite superior, más allá del cual corres el riesgo de lesión o sobreentrenamiento. La clave es encontrar ese punto ideal en el medio.</div>",
+      "S9_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, necesito entrenar lo suficientemente duro para mejorar, pero no tanto como para lastimarme o necesitar un tiempo de recuperación excesivo.</div>",
+      "S9_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Esto es en realidad una aplicación perfecta para desigualdades compuestas. Podemos definir tu intensidad de entrenamiento óptima como un rango con límites inferiores y superiores.</div>",
+      "S9_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Como mantenerse entre dos valores?</div>",
+      "S9_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. En términos matemáticos, si llamamos a tu intensidad de entrenamiento '<strong>n</strong>', medida como un porcentaje del esfuerzo máximo, podríamos escribir algo como <strong>75% ≤ n ≤ 90%</strong>, lo que significa que tu intensidad debería ser al menos <strong>75%</strong> pero no más de <strong>90%</strong> de tu esfuerzo máximo.</div>",
+      "S9_D11_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Eso tiene sentido. Pero, ¿cómo determinamos qué valores deberían ser para mí específicamente?</div>",
+      "S9_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Hay rangos establecidos basados en investigaciones de ciencias del deporte, pero podemos afinarlos para ti basados en tu frecuencia cardíaca y patrones de recuperación. Permíteme mostrarte una herramienta que puede ayudarnos a visualizar y calcular tus zonas de entrenamiento óptimas.</div>"
+    },
+    "S10": {
+      "S10_D0_F60_C9": {
+        "header": {
+          "title": "Optimizador de Intensidad de Entrenamiento"
+        },
+        "about": {
+          "heading": "Zonas de Intensidad de Entrenamiento para Atletas",
+          "body": "<p>Los conceptos clave demostrados en este interactivo:</p><ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-top: 10px; margin-left: 20px'><li><strong>Rangos de Entrenamiento Óptimos:</strong> Los principios científicos establecen zonas efectivas de intensidad de entrenamiento</li><li><strong>Desigualdades Compuestas:</strong> Expresiones matemáticas como <strong>80% ≤ i ≤ 90%</strong> representan límites de entrenamiento</li><li><strong>Condiciones OR:</strong> Requisitos de entrenamiento complejos combinan múltiples rangos (recuperación O rendimiento máximo)</li><li><strong>Conversión de Unidades:</strong> Traducción de intensidades basadas en porcentajes a métricas prácticas (velocidades, tiempos)</li></ol><p>En este interactivo, usted:</p><ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'><li>Visualizará zonas de intensidad de entrenamiento como desigualdades compuestas</li><li>Convertirá rangos de intensidad basados en porcentajes a velocidades y tiempos concretos</li><li>Aplicará desigualdades compuestas para protocolos de entrenamiento especializados</li><li>Calculará parámetros precisos de entrenamiento basados en restricciones matemáticas</li></ul>"
+        },
+        "help": {
+          "heading": "Cómo Usar el Interactivo:",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-left: 20px'> <li><strong>Revisar el espectro de intensidad:</strong> Observa la visualización de las diferentes zonas de entrenamiento (recuperación, regular, máximo)</li> <li><strong>Seleccionar tipo de entrenamiento:</strong> Elige el tipo de sesión de entrenamiento (recuperación, regular o máximo rendimiento)</li> <li><strong>Ingresar distancia:</strong> Introduce la distancia para las repeticiones (<span aria-hidden='true'>p. ej., <strong>100 m</strong> o <strong>200 m</strong></span><span className='sr-only'>ejemplo, 100 metros o 200 metros</span>)</li> <li><strong>Analizar casos compuestos:</strong> Para entrenamientos especializados, usa la herramienta de condición OR para combinar Rangos</li> </ol> <p><strong>Aspectos a observar:</strong></p> <ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'> <li>Observe cómo las diferentes intensidades de entrenamiento se traducen en objetivos específicos de velocidad y tiempo</li> <li>Preste atención a los límites entre las zonas de entrenamiento</li> <li>Considere cómo las desigualdades compuestas con condiciones OR crean escenarios de entrenamiento más complejos</li> </ul>"
+        },
+        "trainingIntensityZones": "Zonas de Intensidad de Entrenamiento",
+        "workoutCalculator": "Calculadora de Entrenamiento",
+        "workoutType": "Tipo de Entrenamiento",
+        "distance": "Distancia (metros)",
+        "specialized": "Especializado: Recuperación O Máximo (No Regular)",
+        "intensityRange": "Rango de Intensidad (porcentaje)",
+        "speedRange": "Rango de Velocidad (metros/segundo)",
+        "timeRange": "Rango de Tiempo para",
+        "recovery": "Recuperación",
+        "regular": "Regular",
+        "peak": "Máximo",
+        "seconds": "segundos",
+        "meters": "metros",
+        "recoveryWorkout": "Entrenamiento de Recuperación",
+        "regularWorkout": "Entrenamiento Regular",
+        "peakWorkout": "Entrenamiento de Máximo Rendimiento",
+        "specializedWorkout": "Entrenamiento Especializado (Recuperación O Máximo)",
+        "ariaLabelRecovery": "Zona de Recuperación con intensidad del 60-80% a una velocidad de 4.80 a 6.40 metros por segundo",
+        "ariaLabelRegular": "Zona Regular con intensidad del 80-90% a una velocidad de 6.40 a 7.20 metros por segundo",
+        "ariaLabelPeak": "Zona de Máximo Rendimiento con intensidad del 90-95% a una velocidad de 7.20 a 7.60 metros por segundo",
+        "ariaLabelIsLessThanEqual": "es menor o igual que",
+        "ariaLabelIntensityRange": "Rango de Intensidad en porcentaje",
+        "ariaLabelSpeedRange": "Rango de Velocidad en metros por segundo",
+        "ariaLabelTimeFor": "Rango de Tiempo para",
+        "ariaLabelTo": "a",
+        "ninaTrainingData": "Datos de Entrenamiento de Nina",
+        "maximumSpeed": "Velocidad Máxima",
+        "monday": "Lunes",
+        "wednesday": "Miércoles",
+        "friday": "Viernes",
+        "tooEasyMinimalImprovement": "Demasiado fácil, mejora mínima",
+        "excellentButExcessiveSoreness": "Excelente pero con dolor excesivo",
+        "goodBalanceOfChallengeAndRecovery": "Buen equilibrio de desafío y recuperación",
+        "mpers": "m/s",
+        "inputFieldAria": "Campo de entrada",
+        "selectFieldAria": "Seleccionar campo",
+        "eightMetersPerSecond": "8.0 metros por segundo",
+        "seventyFivePercentIntensity": "75% de intensidad a una velocidad de 6 metros por segundo",
+        "ninetyFivePercentIntensity": "95% de intensidad a una velocidad de 7.6 metros por segundo",
+        "eightyTwoPercentIntensity": "82% de intensidad a una velocidad de 6.6 metros por segundo"
+      },
+      "S10_D1_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Esta herramienta nos ayuda a definir tu intensidad de entrenamiento óptima para diferentes tipos de entrenamientos. Los científicos del deporte suelen medir la intensidad basada en la frecuencia cardíaca, porcentaje de velocidad máxima o tasa de esfuerzo percibido.</div>",
+      "S10_D2_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>He oído hablar de las zonas de frecuencia cardíaca antes.</div>",
+      "S10_D3_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. Para el entrenamiento de sprint, solemos usar un porcentaje de la velocidad máxima. Veamos tus datos de entrenamiento recientes que muestra la herramienta.</div>",
+      "S10_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Mirando estos datos y la investigación en ciencias del deporte, podemos establecer que tu rango de intensidad de entrenamiento óptimo para sesiones de entrenamiento regular debe estar entre <strong>80%</strong> y <strong>90%</strong> de tu máximo. Representemos esto como una desigualdad compuesta.</div>",
+      "S10_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, si mi velocidad máxima es <strong>8.0 <span role='text' aria-label='meter per seconds'> m/s</span></strong>, entonces mi rango de entrenamiento óptimo sería... déjame ver, <strong>80%</strong> de <strong>8.0</strong> es <strong>6.4 <span role='text' aria-label='meter per seconds'> m/s</span></strong>, y <strong>90%</strong> es <strong>7.2 <span role='text' aria-label='meter per seconds'> m/s</span></strong>. Entonces, ¿está en algún lugar entre esos dos valores?</div>",
+      "S10_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ese es el cálculo correcto! Ahora practiquemos escribiendo eso como una desigualdad compuesta formal.</div>",
+      "S10_D7_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Para tu entrenamiento de intervalos de sprint, la intensidad recomendada es del <strong>80%</strong> al <strong>90%</strong> de tu velocidad máxima (<strong>8.0<span role='text' aria-label='metros por segundo'> m/s</span></strong>). Escribe esto como una desigualdad compuesta en términos de velocidad (<strong>s</strong>) en metros por segundo.</div>",
+      "S10_D7_FX_C1_prefix_text": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><span role='text' aria-label='menor o igual a'>≤</span> Velocidad <span role='text' aria-label='menor o igual a'>≤</span></div>",
+      "S10_D8_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Escribiría: <strong>6,4 ≤ S ≤ 7,2</strong>, donde <strong>S</strong> es mi velocidad en <span aria-hidden='true'>m/s</span><span className='sr-only'>metros por segundo</span>.</div>",
+      "S10_D9_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Ahora, la investigación en ciencias del deporte también muestra que diferentes tipos de entrenamiento requieren diferentes rangos de intensidad: <ul style='margin-left: 20px; list-style-type: disc;'><li>Sesiones de recuperación: <strong>60%</strong> a <strong>80%</strong> (<strong>4.8</strong> a <strong>6.4<span role='text' aria-label='metros por segundo'> m/s</span></strong>)</li><li>Entrenamiento regular: <strong>80%</strong> a <strong>90%</strong> (<strong>6.4</strong> a <strong>7.2<span role='text' aria-label='metros por segundo'> m/s</span></strong>)</li><li>Rendimiento máximo: <strong>90%</strong> a <strong>95%</strong> (<strong>7.2</strong> a <strong>7.6<span role='text' aria-label='metros por segundo'> m/s</span></strong>)</li></ul></div>",
+      "S10_D10_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Noté que hay alguna superposición en el <strong>90%</strong>.</div>",
+      "S10_D11_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Buena observación. Los puntos límite a menudo aparecen en múltiples zonas, mostrando cómo la intensidad del entrenamiento existe en un continuo.</div>",
+      "S10_D12_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Tienes una competición dentro de un mes. Tu entrenador quiere que hagas un entrenamiento que evite la zona de intensidad de entrenamiento habitual, pero que proporcione una recuperación adecuada o un estímulo máximo adecuado. Usando <strong>p</strong> como porcentaje de intensidad, ¿qué desigualdad compuesta representa correctamente las intensidades permitidas para el entrenamiento de hoy?</div>",
+      "S10_D12_FX_C1_optionA": "<strong>60% ≤ p ≤ 80%</strong> O <strong>90% ≤ p ≤ 95%</strong>",
+      "S10_D12_FX_C1_optionB": "<strong>p < 80%</strong> O <strong>p > 90%</strong>",
+      "S10_D12_FX_C1_optionC": "<strong>60% < p < 95%</strong>",
+      "S10_D13_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Como necesito recuperación <strong>(60% a 80%)</strong> o rendimiento máximo <strong>(90% a 95%)</strong>, pero no entrenamiento regular <strong>(80% a 90%)</strong>, elegiría A: <strong>60% ≤ p ≤ 80%</strong> O <strong>90% ≤ p ≤ 95%</strong>.</div>",
+      "S10_D14_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente! Has usado desigualdades compuestas para representar múltiples rangos aceptables. Ahora traduzcamos estos rangos de porcentaje en objetivos reales de entrenamiento.</div>",
+      "S10_D15_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cómo hacemos eso?</div>",
+      "S10_D16_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Podemos usar la ecuación de distancia nuevamente. Si conocemos tu rango de velocidad deseado, podemos calcular los tiempos objetivo para tus repeticiones.</div>",
+      "S10_D17_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Tu entrenador asigna un entrenamiento: <strong>8 × 100 m repeticiones</strong> a una intensidad del <strong>60% al 80%</strong> (sesión de recuperación). Si tu velocidad máxima es <strong>8.0<span role='text' aria-label='metros por segundo'> m/s</span></strong>, ¿cuál es el rango de tiempos aceptables (en segundos) para cada repetición de <strong>100 m</strong>?</div>",
+      "S10_D17_FX_C1_prefix_text": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'><span role='text' aria-label='menor o igual a'>≤</span> Tiempo <span role='text' aria-label='menor o igual a'>≤</span></div>",
+      "S10_D18_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Para una sesión de recuperación al 60% al 80% de mi velocidad máxima: <ol style='margin-left: 20px; list-style-type: disc;'><li><strong>60%</strong> de <strong>8.0<span role='text' aria-label='metro por segundos'> m/s</span></strong> es <strong>4.8<span role='text' aria-label='metro por segundos'> m/s</span></strong></li><li><strong>80%</strong> de <strong>8.0<span role='text' aria-label='metro por segundos'> m/s</span></strong> es <strong>6.4<span role='text' aria-label='metro por segundos'> m/s</span></strong></li><li>Para mi tiempo más rápido permitido: <strong>100 ÷ 6.4 = 15.6 s</strong></li><li>Para mi tiempo más lento permitido: <strong>100 ÷ 4.8 = 20.8 s</strong></li></ol><p>Entonces, mi rango aceptable es de <strong>15.6 a 20.8 s</strong> por cada <strong>100 m</strong> de repetición.</p></div>",
+      "S10_D19_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente trabajo! Ahora tienes objetivos específicos y medibles para tu entrenamiento. Si completas cada repetición entre <strong>15.6</strong> y <strong>20.8 s</strong>, estarás entrenando en tu zona de recuperación óptima.</div>",
+      "S10_D20_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Esto es increíble! En lugar de solo adivinar sobre entrenamientos 'fáciles' o 'duros', ahora tengo objetivos de tiempo exactos para diferentes propósitos de entrenamiento.</div>",
+      "S10_D21_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Ese es el poder de las desigualdades compuestas en el entrenamiento. Nos dan límites precisos para diferentes zonas de entrenamiento, ayudándote a entrenar de manera más inteligente, no solo más duro. Al mantenerte dentro de estos rangos, mejorarás de manera constante sin riesgo de lesión o agotamiento.</div>",
+      "S10_D22_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Y puedo ver cómo esto se conecta con nuestro objetivo general. Al entrenar a las intensidades correctas, podré alcanzar esos tiempos de segmento que calculamos anteriormente, lo que me ayudará a estar por debajo del tiempo de clasificación de <strong>26 s</strong>.</div>",
+      "S10_D23_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Todo está conectado. Ahora, hablemos sobre cómo predecir tu rendimiento el día de la carrera basado en estos indicadores de entrenamiento...</div>"
+    },
+    "S11": {
+      "S11_D1_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>He estado siguiendo nuestro plan de entrenamiento durante tres semanas ahora, y puedo ver una mejora en mis pruebas de tiempo. La semana pasada corrí los <strong>200<span role='text' aria-label='metros'> m</span></strong> en <strong>26.8 s</strong>, y ayer lo reduje a <strong>26.2 s</strong>.</div>",
+      "S11_D2_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ese es un progreso excelente, Nina! Estás muy cerca del tiempo de clasificación de <strong>26 s</strong>.</div>",
+      "S11_D3_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Pero eso todavía es práctica. Mis contrarrelojes y mis métricas de entrenamiento están mejorando, pero todavía me preocupa si alcanzaré mi objetivo el día de la carrera. La competición clasificatoria es en solo una semana.</div>",
+      "S11_D4_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es una preocupación válida. El rendimiento el día de la carrera no siempre coincide exactamente con lo que vemos en la práctica.</div>",
+      "S11_D5_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! A veces lo hago mejor en la competencia con la adrenalina, pero otras veces la presión me afecta. ¿Podemos predecir qué podría pasar?</div>",
+      "S11_D6_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>No podemos predecir el tiempo exacto que correrás, pero podemos modelar el rango de resultados probables basado en tus datos de entrenamiento. Aquí es donde las matemáticas, específicamente las ecuaciones y desigualdades de valor absoluto, se vuelven muy útiles.</div>",
+      "S11_D7_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cómo funciona eso?</div>",
+      "S11_D8_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>El rendimiento del día de la carrera suele correlacionarse con los indicadores de entrenamiento, pero con cierta variación. Podemos modelarlo con una ecuación que incluye el resultado de la contrarreloj más un factor del día de la carrera que considera todas las variables que podrían afectar el rendimiento.</div>",
+      "S11_D9_FX_C2": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Como el clima, la competencia, los nervios y todo eso?</div>",
+      "S11_D10_FX_C1": "<div style='color: #333333; font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Las investigaciones demuestran que, para la mayoría de los velocistas, los tiempos de carrera suelen ser aproximadamente el <strong>95%</strong> de sus tiempos de contrarreloj recientes, más o menos un factor del día de la carrera. Permítanme mostrarles cómo podemos usar modelos matemáticos para predecir su rango de rendimiento probable.</div>"
+    },
+    "S12": {
+      "S12_D0_F80_C9": {
+        "header": {
+          "title": "Predictor de Rendimiento en Carrera"
+        },
+        "about": {
+          "heading": "Modelado de Rendimiento en Día de Carrera",
+          "body": "<p>Conceptos clave que se muestran en este interactivo:</p><ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-top: 10px; margin-left: 20px'><li><strong>Predicción del rendimiento:</strong> Los modelos matemáticos pueden predecir el rendimiento en carrera a partir de los datos de entrenamiento.</li><li><strong>Desigualdades de valor absoluto:</strong> La expresión <strong style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>|RDF| ≤ 0.8</strong> representa un rango de <strong style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>-0.8</strong> a <strong style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>+0.8</strong></li><li><strong>Factores Variables:</strong> Los elementos del día de la carrera (clima, competencia, estado mental) generan variabilidad en el rendimiento.</li><li><strong>Intervalos de Confianza:</strong> Los rangos de rendimiento previstos proporcionan confianza estadística para la clasificación.</li></ol><p>En este interactivo, aprenderás a:</p><ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'><li>Aplicar una fórmula predictiva para estimar el rendimiento en carrera a partir de los resultados de una contrarreloj.</li><li>Usar desigualdades de valor absoluto para modelar la variabilidad del día de la carrera.</li><li>Calcular los escenarios más favorables y más desfavorables con base en el modelo de predicción.</li></ul>"
+        },
+        "help": {
+          "heading": "Cómo Usar el Interactivo",
+          "body": "<ol style='list-style-type: decimal; padding-left: 20px; margin-bottom: 10px; margin-left: 20px'><li><strong>Ingresar Prueba de Tiempo:</strong> Ingrese el resultado más reciente de la prueba de tiempo de Nina</li><li><strong>Aplicar la Fórmula:</strong> Haga clic en 'Calcular' para aplicar la fórmula de predicción (<span style='font-family: besley; font-weight: bold; font-style: italic;'><span style='color: #DB0072;'>Tiempo de Carrera</span> = 0.95 × <span style='color: #0061FC;'>Prueba de Tiempo</span> + <span style='color: #633300;'>Factor del Día de Carrera</span></span>)</li><li><strong>Ver Rango Predicho:</strong> Observe el rango calculado basado en el Factor del Día de Carrera (<span style='font-family: besley; font-weight: bold; font-style: italic; color: #633300;'>|RDF| ≤ 0.8</span>)</li><li><strong>Probar Clasificación:</strong> Verifique si todo el rango predicho cae por debajo del umbral de clasificación</li></ol><p><strong>Cosas para Observar:</strong></p><ul style='list-style-type: disc; margin-left: 30px; margin-top: 5px'><li>Note cómo la desigualdad de valor absoluto crea un rango simétrico alrededor de la predicción base</li><li>Preste atención a si el peor escenario aún cumple con los estándares de clasificación</li><li>Considere cómo este modelo matemático proporciona confianza a pesar de las incertidumbres del día de carrera</li></ul>"
+        },
+        "predictionFormula": "Fórmula de Predicción",
+        "raceTime": "Tiempo de Carrera",
+        "timeTrial": "Prueba de Tiempo",
+        "timeTrialResult": "Resultado de la Prueba de Tiempo",
+        "calculationSteps": "Pasos de Cálculo",
+        "basePrediction": "Predicción Base",
+        "baseCase": "Caso Base",
+        "worstCase": "Peor Caso",
+        "raceDayFactor": "Factor del Día de Carrera",
+        "qualificationStatus": "Estado de Clasificación",
+        "willQualify": "Se Clasificará",
+        "mayNotQualify": "Puede que No se Clasifique",
+        "willQualifyDescription": "Incluso en su peor escenario, superará el tiempo de clasificación por",
+        "mayNotQualifyDescription": "Su peor escenario no cumple con el estándar de clasificación",
+        "predictedRaceTimeRange": "Rango de Tiempo de Carrera Predicho",
+        "seconds": "segundos",
+        "inputFieldAria": "Campo de entrada"
+      },
+      "S12_D1_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está nuestro predictor de rendimiento en carrera. Tiene sus resultados más recientes de pruebas de tiempo.</div>",
+      "S12_D2_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, la fórmula multiplica mi prueba de tiempo por <strong>0.95</strong>, lo que significa que debería rendir aproximadamente un <strong>5%</strong> mejor en una situación de carrera debido a la adrenalina y la competencia?</div>",
+      "S12_D3_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es correcto. Eso nos da una predicción base. Pero luego agregamos el Factor del Día de Carrera, que puede ser positivo o negativo hasta <strong style='color: #633300; font-family: besley;'>0.8 s</strong>, basado en investigaciones de ciencias del deporte sobre la variabilidad del rendimiento en sprint.</div>",
+      "S12_D4_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y es ahí donde entra el valor absoluto? <span role='text' aria-label='el valor absoluto de RDF es menor o igual a 0.8'><span aria-hidden='true'><strong style='color: #633300; font-family: besley;'><i>|RDF| ≤ 0.8</i></strong></span></span> significa que el Factor del Día de Carrera podría estar en cualquier lugar desde <strong style='color: #633300; font-family: besley;'>-0.8</strong> a <strong style='color: #633300; font-family: besley;'>+0.8 s</strong>?</div>",
+      "S12_D5_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Acabas de interpretar una desigualdad de valor absoluto. Calculemos tu rango de tiempo de carrera predicho.</div>",
+      "S12_D6_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Basado en tu prueba de tiempo de <strong>26.2 s</strong> y la fórmula de predicción (<i><b style='font-family: besley;'><span style='color: #DB0072;'>Tiempo de Carrera</span> = 0.95 × <span style='color: #0061FC;'>Prueba de Tiempo</span> + <span style='color: #633300;'>Factor del Día de Carrera</span></b></i>, donde <span role='text' aria-label='el-valor-absoluto de Factor del Día de Carrera es menor o igual a 0.8'><span aria-hidden='true'><i><b style='font-family: besley; color: #633300;'>|RDF| ≤ 0.8</b></i></span></span>), ¿cuál es el peor escenario para tu tiempo de carrera?</div>",
+      "S12_D7_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Déjame pensar en esto. Mi predicción base es <i style='font-family: besley;'><strong>0.95 × <span style='color: #0061FC;'>26.2</span> = <span style='color: #DB0072;'>24.89 segundos</span></strong></i>. El peor caso añadiría el máximo Factor del Día de Carrera de <strong style='color: #633300; font-family: besley;'>+0.8 s</strong>. Así que <i style='font-family: besley;'><strong> <span style='color: #DB0072;'>24.89</span> + <span style='color: #633300;'>0.8</span> = <span style='color: #DB0072;'>25.69 segundos</span></strong></i>.</div>",
+      "S12_D8_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Cálculo perfecto! Incluso en tu peor escenario, aún superarías el estándar de clasificación de <strong>26 s</strong>.</div>",
+      "S12_D9_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Qué alivio! Y mi mejor caso sería <strong>24.09 s</strong>, ¡lo cual sería increíble!</div>",
+      "S12_D10_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora pensemos en cómo interpretar esta desigualdad de valor absoluto en términos de tu preparación para el día de carrera. Podemos escribirla como <span role='text' aria-label='menos 0.8 es menor o igual que el Factor del Día de Carrera que es menor o igual a 0.8'><span aria-hidden='true'><i style='font-family: besley; color: #633300;'><strong>-0.8 ≤ RDF ≤ 0.8</strong></i></span></span>, lo que significa que hay un rango de factores que podrían influir en tu rendimiento de manera positiva o negativa.</div>",
+      "S12_D11_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Si deseas asegurar que incluso con un Factor del Día de Carrera negativo máximo, tu tiempo de carrera aún será inferior a <strong style='font-family: besley; color: #DB0072;'>25 s</strong>, ¿cuál debe ser tu tiempo en la prueba de tiempo? Redondea tu respuesta a un decimal.</div>",
+      "S12_D12_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Necesito trabajar hacia atrás a través de la fórmula. Si mi tiempo de carrera necesita ser inferior a <strong style='font-family: besley; color: #DB0072;'>25 s</strong> incluso con un <strong style='font-family: besley; color: #633300;'>+0.8 s</strong> Factor del Día de Carrera, entonces:<br/><i style='font-family: besley;'><strong><span style='color: #DB0072;'>25</span> = (0.95 × <span style='color: #0061FC;'>Prueba de Tiempo</span>) + <span style='color: #633300;'>0.8</span> × <span style='color: #DB0072;'>24.2</span> <br/> <span style='color: #DB0072;'>25</span> = 0.95 × <span style='color: #0061FC;'>Prueba de Tiempo</span> <br/> <span style='color: #0061FC;'>Prueba de Tiempo</span> = <span style='color: #DB0072;'>24.2</span> ÷ <span style='color: #0061FC;'>0.95</span> = <span style='color: #DB0072;'>25.47</span></strong></i><br/>, que redondea a <strong style='font-family: besley; color: #DB0072;'>25.5 s</strong>.</div>",
+      "S12_D13_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente trabajo! Acabas de resolver una desigualdad que involucra valor absoluto para encontrar un objetivo para tu entrenamiento. Si puedes reducir tu prueba de tiempo a <strong style='font-family: besley; color: #0061FC;'>25.5 s</strong>, estarás prácticamente garantizado a romper <strong style='font-family: besley; color: #DB0072;'>25 s</strong> el día de la carrera.</div>",
+      "S12_D14_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Pero espera, hay otra forma de ver esto.</div>",
+      "S12_D15_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Dado que el tiempo de clasificación es <strong style='font-family: besley; color: #DB0072;'>26 s</strong>, y tu rango de tiempo de carrera predicho actual es de <strong style='font-family: besley; color: #DB0072;'>24.09</strong> a <strong style='font-family: besley; color: #DB0072;'>25.69 s</strong>, ¿en cuánto has superado ya la mejora mínima necesaria para clasificar?</div>",
+      "S12_D15_FX_C1_optionA": "0.31 segundos",
+      "S12_D15_FX_C1_optionB": "0.81 segundos",
+      "S12_D15_FX_C1_optionC": "1.11 segundos",
+      "S12_D16_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Déjame pensar en esto. Mi peor escenario es <strong style='font-family: besley; color: #DB0072;'>25.69 s</strong>. El tiempo de clasificación es <strong style='font-family: besley; color: #DB0072;'>26 s</strong>. Así que ya estoy <span role='text' aria-label='26 menos 25.69 igual a 0.31 segundos'><span aria-hidden='true'><strong style='font-family: besley; color: #DB0072;'>26 - 25.69 = 0.31 s</strong></span></span> mejor que el tiempo de clasificación, ¡incluso en mi peor escenario!</div>",
+      "S12_D17_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Eso es exactamente correcto! El modelo de desigualdad de valor absoluto nos muestra que ya has mejorado lo suficiente para clasificar con alta confianza. El trabajo que hemos hecho analizando tus segmentos de carrera y optimizando tu intensidad de entrenamiento ha valido la pena.</div>",
+      "S12_D18_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Esto es increíble! Pasé de superar constantemente el tiempo de clasificación a tener evidencia matemática de que clasificaré, incluso considerando las variables del día de la carrera.</div>",
+      "S12_D19_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Ese es el poder del modelado matemático en los deportes. Al crear ecuaciones que incluyen variables para factores inciertos y usar desigualdades de valor absoluto para limitar esas incertidumbres, podemos hacer predicciones confiables incluso en situaciones impredecibles.</div>",
+      "S12_D20_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿estoy listo para el campeonato estatal en una semana?</div>",
+      "S12_D21_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Basado en nuestro modelo matemático, ¡sí! Pero sigamos trabajando en esos objetivos de entrenamiento para impulsar tu potencial aún más. Cuanto mejores sean tus pruebas de tiempo, más fuerte será tu posición el día de la carrera.</div>",
+      "S12_D22_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora estoy segura. Entiendo exactamente lo que necesito hacer y por qué funciona. ¡Las matemáticas realmente marcan la diferencia en el rendimiento deportivo!</div>"
+    },
+    "S13": {
+      "S13_D1_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿lista para la carrera de mañana?</div>",
+      "S13_D2_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Me siento más preparada que nunca. Es increíble cómo nuestro enfoque ha cambiado mi comprensión de las carreras.</div>",
+      "S13_D3_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué aspectos crees que marcaron la mayor diferencia?</div>",
+      "S13_D4_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Cuando comenzamos, solo corría por sensación. Ahora entiendo exactamente lo que necesito hacer. Dividir mi carrera en segmentos me mostró dónde estaba perdiendo tiempo, especialmente en ese tramo final. Y tener rangos específicos de intensidad de entrenamiento en lugar de solo adivinar qué significaba 'duro' o 'fácil' ha sido un cambio de juego.</div>",
+      "S13_D5_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Has aplicado los conceptos matemáticos notablemente bien. Las desigualdades de valor absoluto en nuestro modelo de predicción te dieron confianza, ¿verdad?</div>",
+      "S13_D6_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¡Absolutamente! Entender que mi tiempo de carrera caería dentro de ese rango calculado, incluso con variables del día de la carrera, eliminó las conjeturas. Nunca pensé que el álgebra sería la clave para mejorar mis tiempos de sprint.</div>",
+      "S13_D7_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es la verdadera victoria aquí. Ya sea que estés resolviendo variables en clase o en la pista, las matemáticas te dan las herramientas para entender y mejorar.</div>",
+      "S13_D8_FX_C2": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>¿Sabes qué es gracioso? Creo que extrañaré nuestras sesiones cuando termine la temporada.</div>",
+      "S13_D9_FX_C1": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'>Siempre habrá la próxima temporada, y muchas más matemáticas por aplicar. Por ahora, concéntrate en mañana y confía en tu preparación. Los números no mienten.</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "Has adquirido experiencia en las matemáticas del entrenamiento atlético.",
+      "content": "<div style='color: #333300; font-size: 20px; line-height: 30px; font-weight: 500;'><p style='padding-bottom: 10px;'>Has completado con éxito la STEAMQuest Sprint to the Finish.</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Aplicaste desigualdades para establecer objetivos de rendimiento claros y estándares de clasificación</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Usaste ecuaciones literales para analizar segmentos de carrera e identificar áreas de mejora</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Trabajaste con desigualdades compuestas para determinar zonas de intensidad de entrenamiento óptimas</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Empleaste desigualdades de valor absoluto para predecir rangos de rendimiento en el día de la carrera</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'>¡Sigue explorando cómo los principios matemáticos pueden mejorar el entrenamiento y el rendimiento atlético!</p></div>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_9360_8560' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_9360_8560)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><path d='M56.8644 36.4568L56.8628 36.4569L52.3622 36.787L52.5028 33.108L52.5028 33.108C52.544 32.029 52.0723 31.176 51.477 30.4598C51.1806 30.1032 50.8451 29.7704 50.5157 29.4552C50.4218 29.3654 50.329 29.2776 50.2375 29.191C50.0013 28.9674 49.7732 28.7515 49.5546 28.5283L44.5151 23.3832C43.5902 22.381 42.0242 22.3101 41.0114 23.2253L41.011 23.2257L36.0479 27.7225C36.0478 27.7225 36.0478 27.7226 36.0477 27.7227C35.4628 28.2514 35.2032 28.8974 35.2155 29.5399C35.2275 30.1694 35.4991 30.7563 35.904 31.1981C36.3089 31.64 36.8705 31.9623 37.4974 32.0331C38.1369 32.1053 38.8071 31.9106 39.392 31.382L39.3925 31.3816L42.582 28.4915L44.289 30.2338L22.2463 52.2646C22.2462 52.2646 22.2462 52.2647 22.2462 52.2647C21.6885 52.8217 21.4612 53.4797 21.5053 54.1205C21.5485 54.7484 21.8487 55.3208 22.2749 55.7417C22.7011 56.1626 23.2778 56.4563 23.9072 56.4955C24.5492 56.5356 25.2086 56.3077 25.7663 55.7508L25.7665 55.7506L39.7517 41.7733C39.7768 41.7998 39.8026 41.8258 39.8289 41.8513L44.33 46.4823L37.6009 47.1241C36.8154 47.1977 36.2188 47.5579 35.8409 48.0773C35.4705 48.5864 35.3322 49.217 35.3889 49.8123C35.4455 50.4076 35.7002 51.001 36.1597 51.4319C36.6284 51.8714 37.2819 52.1143 38.0673 52.0406L38.0681 52.0405L49.8531 50.9162C51.92 50.7892 52.9801 48.2775 51.4875 46.7364L51.4869 46.7358L45.1174 40.1822L47.3145 38.1714C47.3126 38.203 47.3108 38.2348 47.309 38.2668C47.2829 38.7317 47.2655 39.2185 47.2947 39.6298C47.3916 40.9954 48.5836 42.0182 49.9501 41.9225L49.9517 41.9224L57.2142 41.3909C57.2146 41.3908 57.215 41.3908 57.2154 41.3908C58.003 41.3353 58.6084 40.9887 58.9989 40.478C59.382 39.977 59.5356 39.3488 59.4931 38.7514C59.4507 38.154 59.2099 37.5538 58.7601 37.1114C58.3013 36.6603 57.6527 36.4016 56.8644 36.4568ZM54.2363 21.5C51.8172 21.5 49.8502 23.4483 49.8502 25.8593C49.8502 28.27 51.817 30.2185 54.2363 30.2185C56.6553 30.2185 58.6223 28.27 58.6223 25.8593C58.6225 23.4484 56.6554 21.5 54.2363 21.5Z' fill='black' stroke='black'/><path d='M56.8644 34.4568L56.8628 34.4569L52.3622 34.787L52.5028 31.108L52.5028 31.108C52.544 30.029 52.0723 29.176 51.477 28.4598C51.1806 28.1032 50.8451 27.7704 50.5157 27.4552C50.4218 27.3654 50.329 27.2776 50.2375 27.191C50.0013 26.9674 49.7732 26.7515 49.5546 26.5283L44.5151 21.3832C43.5902 20.381 42.0242 20.3101 41.0114 21.2253L41.011 21.2257L36.0479 25.7225C36.0478 25.7225 36.0478 25.7226 36.0477 25.7227C35.4628 26.2514 35.2032 26.8974 35.2155 27.5399C35.2275 28.1694 35.4991 28.7563 35.904 29.1981C36.3089 29.64 36.8705 29.9623 37.4974 30.0331C38.1369 30.1053 38.8071 29.9106 39.392 29.382L39.3925 29.3816L42.582 26.4915L44.289 28.2338L22.2463 50.2646C22.2462 50.2646 22.2462 50.2647 22.2462 50.2647C21.6885 50.8217 21.4612 51.4797 21.5053 52.1205C21.5485 52.7484 21.8487 53.3208 22.2749 53.7417C22.7011 54.1626 23.2778 54.4563 23.9072 54.4955C24.5492 54.5356 25.2086 54.3077 25.7663 53.7508L25.7665 53.7506L39.7517 39.7733C39.7768 39.7998 39.8026 39.8258 39.8289 39.8513L44.33 44.4823L37.6009 45.1241C36.8154 45.1977 36.2188 45.5579 35.8409 46.0773C35.4705 46.5864 35.3322 47.217 35.3889 47.8123C35.4455 48.4076 35.7002 49.001 36.1597 49.4319C36.6284 49.8714 37.2819 50.1143 38.0673 50.0406L38.0681 50.0405L49.8531 48.9162C51.92 48.7892 52.9801 46.2775 51.4875 44.7364L51.4869 44.7358L45.1174 38.1822L47.3145 36.1714C47.3126 36.203 47.3108 36.2348 47.309 36.2668C47.2829 36.7317 47.2655 37.2185 47.2947 37.6298C47.3916 38.9954 48.5836 40.0182 49.9501 39.9225L49.9517 39.9224L57.2142 39.3909C57.2146 39.3908 57.215 39.3908 57.2154 39.3908C58.003 39.3353 58.6084 38.9887 58.9989 38.478C59.382 37.977 59.5356 37.3488 59.4931 36.7514C59.4507 36.154 59.2099 35.5538 58.7601 35.1114C58.3013 34.6603 57.6527 34.4016 56.8644 34.4568ZM54.2363 19.5C51.8172 19.5 49.8502 21.4483 49.8502 23.8593C49.8502 26.27 51.817 28.2185 54.2363 28.2185C56.6553 28.2185 58.6223 26.27 58.6223 23.8593C58.6225 21.4484 56.6554 19.5 54.2363 19.5Z' fill='white' stroke='black'/></g></svg>",
+      "rightsvg": "<svg width='191' height='129' viewBox='0 0 191 129' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_9360_8556' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='191' height='129'><rect width='191' height='129' fill='#D9D9D9'/></mask><g mask='url(#mask0_9360_8556)'><path opacity='0.2' d='M145.222 58.9838C154.875 58.3125 155.909 72.7845 146.258 73.4562L119.362 75.4107C115.309 75.6926 111.791 72.6818 111.506 68.6853C111.307 65.9144 111.736 61.9307 111.847 59.0396L98.9398 70.7693L123.854 96.2217C128.243 100.722 125.146 108.124 118.989 108.477L75.3196 112.613C65.7046 113.509 64.3241 99.0927 73.9381 98.1984L102.698 95.4744L83.3214 75.6796C82.7703 75.1548 82.3051 74.5504 81.9434 73.8844L28.6374 126.783C21.8236 133.539 11.4071 123.324 18.2202 116.568L101.135 34.2851L92.2853 25.3166L79.156 37.1289C72.0107 43.541 62.1109 32.8144 69.2566 26.4023L87.635 9.86851C90.6389 7.17329 95.2903 7.38932 98.0236 10.3508L116.704 29.2875C121.307 33.9538 127.349 38.1001 127.093 44.7681L126.493 60.3474L145.222 58.9838ZM135.361 4C127.415 4 120.972 10.352 120.972 18.1884C120.972 26.0244 127.414 32.3769 135.361 32.3769C143.308 32.3769 149.75 26.0244 149.75 18.1884C149.751 10.3521 143.308 4 135.361 4Z' fill='white'/></g></svg>",
+      "leftsvgarialabel": "Ícono de atleta corriendo",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#clip0_1853_3355)\"><path d=\"M68.884 30.9415L62.4383 19.7779C61.5173 18.1818 60.0503 16.9742 58.3069 16.3761L47.2371 12.5767C46.9116 12.4515 46.5496 12.5631 46.4373 12.6763C43.3436 14.7879 36.8562 14.7834 33.5483 12.6696C33.306 12.5034 33.0102 12.4796 32.7576 12.5767L21.6883 16.3761C19.9449 16.9742 18.4779 18.1818 17.5569 19.7779L11.1112 30.9415C10.8767 31.3482 11.016 31.8681 11.4227 32.1026L20.6403 37.4231C21.047 37.6576 21.5658 37.5183 21.8003 37.1127L25.0481 31.4887V64.7396C25.0481 66.2519 26.2772 67.481 27.7895 67.481H52.7914C54.3037 67.481 55.5339 66.2519 55.5339 64.7396L55.5337 32.5037L58.1947 37.1129C58.4292 37.5184 58.948 37.6578 59.3547 37.4233L68.5724 32.1027C68.979 31.8683 69.1184 31.3483 68.8839 30.9416L68.884 30.9415ZM28.6383 39.5178C28.6383 33.7057 33.3676 28.9782 39.1778 28.9782C44.9996 28.9782 49.7184 33.7126 49.7184 39.5178C49.7184 40.4042 49.6089 41.2969 49.3831 42.1617C51.3857 43.253 52.1673 45.9567 50.2735 47.8482L45.6971 52.4245C45.3601 52.7638 44.8159 52.7487 44.4917 52.4245L41.7968 49.7296C40.9759 49.9399 40.1006 50.0581 39.1777 50.0581C33.3656 50.0583 28.6381 45.3277 28.6381 39.5176L28.6383 39.5178ZM45.7579 14.9475L45.3728 16.9299C44.8745 19.498 42.6134 21.3613 39.9976 21.3613C37.3818 21.3613 35.1208 19.4979 34.6225 16.9298L34.2305 14.9111C37.5436 16.2402 42.3297 16.3544 45.7575 14.9475L45.7579 14.9475ZM52.7914 65.7797H27.7895C27.2152 65.7797 26.7474 65.313 26.7474 64.7375V60.0602H53.8348V64.7375C53.8348 65.313 53.3672 65.7797 52.7917 65.7797H52.7914ZM49.0724 46.6435V46.6447L45.094 50.6231L42.6505 48.1796C42.6505 48.1785 42.6482 48.1762 42.6471 48.1751L41.1155 46.6435C39.4108 45.007 41.9055 42.1511 43.7572 44.0029L44.4935 44.7404C44.8256 45.0725 45.3633 45.0723 45.6954 44.7404L46.4317 44.0029C48.1672 42.2674 50.8318 44.8872 49.0723 46.6435L49.0724 46.6435ZM34.3883 46.9437C34.6892 46.2869 34.578 45.7233 34.1877 45.3079C32.8824 43.9199 32.9832 40.6262 35.0249 39.2262C35.8567 38.6569 36.5376 36.7132 35.6876 36.026C34.284 34.8931 32.928 34.5895 31.9561 34.4208C33.5775 32.136 36.1658 30.7361 38.9939 30.6779C39.6243 30.6662 40.2387 30.7147 40.871 30.8388C40.564 31.4628 40.389 31.1588 40.7067 31.9818C41.204 33.2788 41.255 34.7232 40.8483 36.052C40.6493 36.7018 41.6549 37.0197 41.8418 36.342C42.0888 35.455 42.961 34.8965 43.8684 35.0438C44.7838 35.1922 45.733 35.0619 46.5736 34.6768C47.4767 36.0513 48.0191 37.7182 48.0191 39.5159C48.0191 40.286 47.9239 41.011 47.7427 41.7203C47.3624 41.7203 47.0295 41.7639 46.5566 41.931C46.5555 41.931 46.5555 41.9322 46.5555 41.9322C45.944 42.1597 45.531 42.4986 45.0953 42.9381C44.9631 42.8059 44.6491 42.4751 44.2332 42.2255C41.0015 40.2486 36.6526 44.5831 39.9138 47.8453L40.3488 48.2803C39.9682 48.3307 39.5787 48.3573 39.1775 48.3573C37.4339 48.3575 35.7717 47.8441 34.3881 46.9437L34.3883 46.9437Z\" fill=\"#005F20\"/></g><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"11.5\" stroke=\"#005F20\"/><defs><clipPath id=\"clip0_1853_3355\"><rect width=\"58\" height=\"58\" fill=\"white\" transform=\"translate(11 11)\"/></clipPath></defs></svg></div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Breaking Even with Linear Functions</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>You've Applied Systems Of Linear Equations In Business!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Mei find the break-even point to determine when her business is profitable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You showed that you understand the relationships between costs, revenue, and profit</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed fixed costs, variable costs, price, and quantities</li></ul></div>"
+    },
+    "glossary": {
+      "heart_rates": {
+        "word": "frecuencias cardíacas",
+        "definition": "<strong class=\"text-[#0055B2]\">Frecuencias Cardíacas</strong> son el número de latidos del corazón por minuto, que varía según el nivel de actividad y la intensidad del entrenamiento."
+      },
+      "heart_rate": {
+        "word": "frecuencia cardíaca",
+        "definition": "<strong class=\"text-[#0055B2]\">Frecuencia Cardíaca</strong> es el número de latidos del corazón por minuto, que varía según el nivel de actividad y la intensidad del entrenamiento."
+      },
+      "training_zone": {
+        "word": "zona de entrenamiento",
+        "definition": "<strong class=\"text-[#0055B2]\">Zona de Entrenamiento</strong> es un rango específico de valores de frecuencia cardíaca utilizado para optimizar diferentes tipos de entrenamiento atlético."
+      },
+      "training_zones": {
+        "word": "zonas de entrenamiento",
+        "definition": "<strong class=\"text-[#0055B2]\">Zonas de Entrenamiento</strong> son rangos específicos de valores de frecuencia cardíaca utilizados para optimizar diferentes tipos de entrenamiento atlético."
+      },
+      "maxheartrate": {
+        "word": "frecuencia cardíaca máxima",
+        "definition": "<strong class=\"text-[#0055B2]\">Frecuencia Cardíaca Máxima</strong> es el número más alto de latidos por minuto que tu corazón puede alcanzar durante un esfuerzo máximo, calculado como 220−edad."
+      },
+      "mhr": {
+        "word": "FCM",
+        "definition": "<strong class=\"text-[#0055B2]\">FCM</strong> es el número más alto de latidos por minuto que tu corazón puede alcanzar durante un esfuerzo máximo, calculado como 220−edad."
+      },
+      "pace": {
+        "word": "ritmo",
+        "definition": "<strong class=\"text-[#0055B2]\">Ritmo</strong> es la cantidad de tiempo que toma cubrir una cierta distancia, comúnmente expresado como minutos por milla o kilómetro."
+      },
+      "paces": {
+        "word": "ritmos",
+        "definition": "<strong class=\"text-[#0055B2]\">Ritmos</strong> son las cantidades de tiempo que toma cubrir ciertas distancias, comúnmente expresadas como minutos por milla o kilómetro."
+      },
+      "pacing": {
+        "word": "ritmo",
+        "definition": "<strong class=\"text-[#0055B2]\">Ritmo</strong> es la cantidad de tiempo que toma cubrir una cierta distancia, comúnmente expresado como minutos por milla o kilómetro."
+      },
+      "performance_ranges": {
+        "word": "rangos de rendimiento",
+        "definition": "<strong class=\"text-[#0055B2]\">Rangos de Rendimiento</strong> son las variaciones en los tiempos de rendimiento, representadas como un rango entre un límite inferior y uno superior."
+      },
+      "compound_inequality": {
+        "word": "Desigualdad Compuesta",
+        "definition": "<strong class=\"text-[#0055B2]\">Desigualdad Compuesta</strong> es una declaración matemática que combina dos o más desigualdades con condiciones <strong>\"y\"</strong> o <strong>\"o\"</strong> (por ejemplo, 75% ≤ i ≤ 90%)."
+      },
+      "compound_inequalities": {
+        "word": "Desigualdades Compuestas",
+        "definition": "<strong class=\"text-[#0055B2]\">Desigualdades Compuestas</strong> son declaraciones matemáticas que combinan dos o más desigualdades con condiciones <strong>\"y\"</strong> o <strong>\"o\"</strong> (por ejemplo, 75% ≤ i ≤ 90%)."
+      },
+      "absolute_value": {
+        "word": "valor absoluto",
+        "definition": "<strong class=\"text-[#0055B2]\">Valor Absoluto</strong> es la distancia de un número desde cero en una línea numérica."
+      },
+      "maximum_heart_rate": {
+        "word": "frecuencia cardíaca máxima",
+        "definition": "<strong class=\"text-[#0055B2]\">Frecuencia Cardíaca Máxima</strong> es el número más alto de latidos por minuto que tu corazón puede alcanzar durante un esfuerzo máximo, calculado como 220−edad."
+      },
+      "bpm": {
+        "word": "ppm",
+        "definition": "<strong class=\"text-[#0055B2]\">PPM</strong> significa pulsaciones por minuto, una unidad de medida para la frecuencia cardíaca."
+      },
+      "inequalities": {
+        "word": "desigualdades",
+        "definition": "<strong class=\"text-[#0055B2]\">Desigualdades</strong> son declaraciones matemáticas que comparan dos expresiones utilizando símbolos de desigualdad para mostrar sus valores relativos, indicando que una cantidad es mayor que, menor que, mayor o igual a, o menor o igual a otra cantidad."
+      },
+      "inequality": {
+        "word": "desigualdad",
+        "definition": "<strong class=\"text-[#0055B2]\">Desigualdad</strong> es una declaración matemática que muestra la relación entre expresiones que no son iguales, utilizando símbolos como < (menor que), > (mayor que), ≤ (menor o igual que), o ≥ (mayor o igual que)."
+      },
+      "absolute_value_inequality": {
+        "word": "desigualdad de valor absoluto",
+        "definition": "<strong class=\"text-[#0055B2]\">Desigualdad de Valor Absoluto</strong> es una desigualdad que involucra expresiones de valor absoluto, a menudo utilizada para representar un rango de valores dentro de una cierta distancia de un punto central."
+      },
+      "literal_equation": {
+        "word": "ecuación literal",
+        "definition": "<strong class=\"text-[#0055B2]\">Ecuación Literal</strong> es una ecuación donde las variables representan cantidades físicas, permitiendo reorganizar para resolver diferentes variables."
+      },
+      "distance_formula": {
+        "word": "Ecuación de distancia",
+        "definition": "<strong class=\"text-[#0055B2]\">Ecuación de distancia</strong> es Distancia = Velocidad × Tiempo (o d = vt), fundamental para calcular velocidad, distancia o tiempo cuando se conocen las otras dos variables."
+      },
+      "training_effect_threshold": {
+        "word": "umbral de efecto de entrenamiento",
+        "definition": "<strong class=\"text-[#0055B2]\">Umbral de Efecto de Entrenamiento</strong> es el nivel mínimo de intensidad requerido durante el ejercicio para producir mejoras medibles en la condición física."
+      },
+      "performance_range": {
+        "word": "rango de rendimiento",
+        "definition": "<strong class=\"text-[#0055B2]\">Rango de Rendimiento</strong> es el intervalo entre el mejor y el peor rendimiento de un atleta, utilizado para evaluar la consistencia y las necesidades de mejora."
+      },
+      "race_segment_analysis": {
+        "word": "análisis de segmento de carrera",
+        "definition": "<strong class=\"text-[#0055B2]\">Análisis de Segmento de Carrera</strong> es desglosar una carrera en secciones más cortas para identificar fortalezas, debilidades y áreas de mejora."
+      },
+      "race_day_factor": {
+        "word": "factor del día de la carrera",
+        "definition": "<strong class=\"text-[#0055B2]\">Factor del Día de la Carrera</strong> es una variable en la predicción de rendimiento que tiene en cuenta las condiciones de la competencia, a menudo representada como un rango utilizando el valor absoluto."
+      },
+      "mathematical_modeling": {
+        "word": "modelado matemático",
+        "definition": "<strong class=\"text-[#0055B2]\">Modelado Matemático</strong> es el proceso de usar ecuaciones matemáticas para representar situaciones del mundo real y hacer predicciones."
+      },
+      "baseline_prediction": {
+        "word": "predicción base",
+        "definition": "<strong class=\"text-[#0055B2]\">Predicción Base</strong> es una estimación inicial del rendimiento basada en datos conocidos antes de tener en cuenta factores variables."
+      },
+      "performance_variability": {
+        "word": "variabilidad del rendimiento",
+        "definition": "<strong class=\"text-[#0055B2]\">Variabilidad del Rendimiento</strong> es el rango esperado de desviación del rendimiento predicho debido a varios factores."
+      },
+      "metric": {
+        "word": "métrica",
+        "definition": "<strong class=\"text-[#0055B2]\">Métrica</strong> es un estándar de medición utilizado para evaluar el rendimiento."
+      }
+    },
+    "common": {
+      "rivera": "Dr. Rivera",
+      "nina": "Nina",
+      "rivera_description": "Dr. Rivera: Mujer hispana de 40 años, casual elegante, cálida, usa analogías deportivas.",
+      "nina_description": "Nina: Atleta de pista negra de 20 años, decidida, con ropa deportiva y un reloj inteligente.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "bg1_description": "Entrada de edificio moderno con jardines exuberantes y pantallas digitales.",
+      "bg2_description": "Interior de vestíbulo de alta tecnología con pantallas luminosas y suelo reflectante.",
+      "bg3_description": "Centro de fitness luminoso con cintas de correr y pantallas de datos.",
+      "bg4_description": "Pista atlética junto a instalación deportiva moderna con paisajismo tropical.",
+      "metersPerSeconds": "metros por segundo"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control deslizante del volumen de la música de fondo",
+      "character-voice-volume-slider": "Control deslizante del volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "get-in-the-zone": "STEAM Quest - Entra en la Zona"
+  }
+}

@@ -1,0 +1,47 @@
+const interaction = {
+  title: 'scenes.S11.S11_D0_FX_C9.title',
+  ariaLabel: 'scenes.S11.S11_D0_FX_C9.ariaLabel',
+  type: 'drone-flight-time',
+  speedInput: {
+    type: 'slider',
+    id: 'drone-speed',
+    label: 'scenes.S11.S11_D0_FX_C9.translations.speedLabel',
+    min: 6,
+    max: 13.5,
+    step: 0.5,
+    defaultValue: 7.5,
+  },
+  mission: {
+    distance: 3,
+    roundtripDistance: 6,
+    maxTravelTime: 0.25, // 15 minutes in hours
+  },
+  translations: {
+    title: 'scenes.S11.S11_D0_FX_C9.translations.title',
+    formulaTitle: 'scenes.S11.S11_D0_FX_C9.translations.formulaTitle',
+    formulaDescription1: 'scenes.S11.S11_D0_FX_C9.translations.formulaDescription1',
+    formulaDescription2: 'scenes.S11.S11_D0_FX_C9.translations.formulaDescription2',
+    formulaDescription3: 'scenes.S11.S11_D0_FX_C9.translations.formulaDescription3',
+    speedUnit: 'scenes.S11.S11_D0_FX_C9.translations.speedUnit',
+    distanceUnit: 'scenes.S11.S11_D0_FX_C9.translations.distanceUnit',
+    currentStatsTitle: 'scenes.S11.S11_D0_FX_C9.translations.currentStatsTitle',
+    flightTime: 'scenes.S11.S11_D0_FX_C9.translations.flightTime',
+    targetDistance: 'scenes.S11.S11_D0_FX_C9.translations.targetDistance',
+    roundtrip: 'scenes.S11.S11_D0_FX_C9.translations.roundtrip',
+    maxRange: 'scenes.S11.S11_D0_FX_C9.translations.maxRange',
+    timeLeft: 'scenes.S11.S11_D0_FX_C9.translations.timeLeft',
+    travelTime: 'scenes.S11.S11_D0_FX_C9.translations.travelTime',
+    chartTitle: 'scenes.S11.S11_D0_FX_C9.translations.chartTitle',
+    chartDescription: 'scenes.S11.S11_D0_FX_C9.translations.chartDescription',
+    missionStatus: 'scenes.S11.S11_D0_FX_C9.translations.missionStatus',
+    success: 'scenes.S11.S11_D0_FX_C9.translations.success',
+    failure: 'scenes.S11.S11_D0_FX_C9.translations.failure',
+    missionSuccess: 'scenes.S11.S11_D0_FX_C9.translations.missionSuccess',
+    missionFailureRange: 'scenes.S11.S11_D0_FX_C9.translations.missionFailureRange',
+    missionFailureTime: 'scenes.S11.S11_D0_FX_C9.translations.missionFailureTime',
+    speedLabel: 'scenes.S11.S11_D0_FX_C9.translations.speedLabel',
+    hours: 'scenes.S11.S11_D0_FX_C9.translations.hours',
+  },
+};
+
+export default interaction;

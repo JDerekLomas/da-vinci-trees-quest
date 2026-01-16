@@ -1,0 +1,27 @@
+import { RadioButtonInteraction } from '../interactives/interface';
+
+const newtonsCanonQuestionConfig: RadioButtonInteraction = {
+  title: '',
+  type: 'radio-button',
+  correctnessFunction: (selectedValue) => selectedValue === 'opt3',
+  options: [
+    {
+      value: 'opt1',
+      label: 'scenes.S7.question_1.option_1',
+    },
+    {
+      value: 'opt2',
+      label: 'scenes.S7.question_1.option_2',
+    },
+    {
+      value: 'opt3',
+      label: 'scenes.S7.question_1.option_3',
+    },
+    {
+      value: 'opt4',
+      label: 'scenes.S7.question_1.option_4',
+    },
+  ],
+};
+
+export default newtonsCanonQuestionConfig;

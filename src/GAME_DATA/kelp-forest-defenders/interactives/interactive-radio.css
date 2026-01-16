@@ -1,0 +1,21 @@
+.interactive-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.interactive-radio-option {
+  display: flex;
+  align-items: flex-start; /* Changed from center to flex-start */
+  gap: 8px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #555555;
+}
+
+.interactive-radio-option input[type='radio'] {
+  width: 24px;
+  height: 24px;
+  accent-color: #006be0;
+  flex-shrink: 0; /* Prevents the input from shrinking */
+}

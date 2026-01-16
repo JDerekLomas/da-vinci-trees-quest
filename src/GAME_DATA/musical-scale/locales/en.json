@@ -1,0 +1,393 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introduction to Sound and Ratio",
+    "scene_4": "Musical Intervals",
+    "scene_5": "Octaves and Fifths",
+    "scene_6": "Dividing the Octave",
+    "scene_7": "Why 12 Semitones",
+    "scene_8": "Different Base Systems",
+    "scene_9": "Reimagining Musical Scales",
+    "scene_10": "Building Your Synth",
+    "scene_11": "Basic Synth",
+    "scene_12": "Conclusion",
+    "scene_13": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Building a Synthesizer</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Exploring Equal Temperament and the Math of Musical Harmony</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Can you help Emery build a synth that creates harmonious melodies for the school fair? In this STEAMQuest, you’ll explore musical ratios, frequencies and equal temperament to craft a synth that balances perfect intervals and seamless transitions.</p>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C2": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>Welcome to the Sound Design Lab!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>I’m Noelle and joining me is Emery, an enthusiastic student ready to dive into the science of sound. Together, we’ll explore the magic of musical ratios, intervals, and how math shapes the way we hear and create music.</p>"
+      }
+    },
+    "S3": {
+      "S3_D1_F12_C2": "Hey Emery, excited for the school fair? I hear you're planning to build a synthesizer for the event!",
+      "S3_D2_F13_C1": "Yeah! I've always wanted to create and control my own music, but... I have no idea where to start. How do you even make sound with a synth?",
+      "S3_D3_F14_C2": "Well, it's all about understanding the science behind sound! You see, sound is made up of vibrations, and to create music, we need to manipulate those vibrations.",
+      "S3_D4_F15_C1": "So, what's the first step in making those vibrations work for music?",
+      "S3_D5_F16_C2": "Great question! The first thing to understand is that different pitches, or notes, are just vibrations happening at different speeds. The speed of these vibrations is called <strong>frequency</strong>, and it's measured in <strong>hertz (Hz)</strong>, that's how many vibrations happen per second.",
+      "S3_D6_F17_C1": "So, faster vibrations mean a higher pitch, and slower vibrations mean a lower pitch, right?",
+      "S3_D7_F18_C2": "That's correct! When you play two notes together, the ratio between their frequencies determines how they sound when combined. If the ratio is simple, like <strong>2:1</strong>, the notes will sound harmonious together.",
+      "S3_D8_F19_C1": "So, if the frequency of one note is twice as fast as another, they sound good together?",
+      "S3_D9_F20_C2": "Yes! That's an example of an octave. So, if you play a note and then play it one octave higher, it sounds similar, but with a higher pitch.",
+      "S3_D10_F21_C1": "That's interesting!"
+    },
+    "S4": {
+      "S4_D1_F22_C2": "There are more important ratios such as the <strong>perfect fifth (3:2)</strong>. It's one of the most harmonious intervals in music.",
+      "S4_D2_F23_C1": "So, these ratios are the building blocks of melodies and harmonies?",
+      "S4_D3_F24_C2": "Yes! When the ratio is simple, like <strong>2:1</strong> or <strong>3:2</strong>, the notes sound smooth and harmonious. But with more uneven ratios, like <strong>15:8</strong>, the sound has more tension — we call that a more complex or dissonant sound.",
+      "S4_D4_F25_C1": "Wait, so the harmony of music is based on mathematical ratios? That's wild!",
+      "S4_D5_F26_C2": "Let's hear them out! I've set up a tool so we can listen to the differences between the octaves and perfect fifths."
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Octaves and Fifths",
+        "about": {
+          "heading": "Understanding Music Intervals",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'><b>Musical Intervals</b> describe how far apart two notes are in terms of pitch. Instead of measuring this distance as a simple difference in frequency, musicians describe it as a <b>ratio</b> between the two frequencies.</li><li style='margin-top: 1rem;'><b>Octave (2:1 ratio)</b>: When one note’s frequency is exactly double another’s, the two notes sound similar but at different pitches. This is called an octave.</li><li style='margin-top: 1rem;'><b>Perfect Fifth (3:2 ratio)</b>: A perfect fifth occurs when the second note’s frequency is <b>1.5 times</b> the first note’s frequency. This interval sounds harmonious and is used frequently in music.</li><li style='margin-top: 1rem;'><b>Frequency and Pitch</b>: Pitch is determined by frequency—higher frequencies correspond to higher pitches. Each interval is defined by the <b>proportional relationship</b> between the frequencies of two notes, not by their numeric difference.</li></ul>"
+        },
+        "help": {
+          "heading": "How to Use Musical Interval Visualization",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'>Click the \"Play Sequence\" button to hear the notes and the interval between them. First, you will hear the <b>440 Hz note (A)</b>, followed by <b>880 Hz (A')</b>, and then both together.</li><li style='margin-top: 1rem;'>Do the same for perfect fifth as well. Click the \"Play Sequence\" button to hear the notes and the interval between them. First, you will hear the <b>440 Hz note (A)</b>, followed by <b>660 Hz (E)</b>, and then both together.</li></ul>"
+        },
+        "interactive_data": {
+          "musicalInterval": "Musical Intervals",
+          "playText": "Play",
+          "octaveModeText": "Octave",
+          "perfectFifthModeText": "Perfect Fifth",
+          "modeText": "Mode",
+          "toggleText": "Toggle",
+          "frequencyRatioText": "Frequency Ratio",
+          "simplifiedRatioText": "Simplified Ratio",
+          "playSequence": "Play Sequence",
+          "noteA": "A",
+          "noteE": "E",
+          "noteAPrime": "A'",
+          "hertz": "Hz",
+          "sequenceComplete": "Sequence complete",
+          "playNoteA": "Play note A at 440 Hertz",
+          "playNoteE": "Play note E at 660 Hertz",
+          "playNoteAPrime": "Play note A prime at 880 Hertz",
+          "pianoKeysLabel": "Piano keys",
+          "playingNoteA": "Playing note A (440 Hz)",
+          "playingNoteE": "Playing note E (660 Hz)",
+          "playingNoteAPrime": "Playing note A prime (880 Hz)",
+          "playingBothOctave": "Playing both A (440 Hz) and A prime (880 Hz) together - octave interval",
+          "playingBothFifth": "Playing both A (440 Hz) and E (660 Hz) together - perfect fifth interval",
+          "switchedToOctave": "Switched to octave mode",
+          "switchedToFifth": "Switched to perfect fifth mode",
+          "playingOctaveSequence": "Playing octave sequence",
+          "playingFifthSequence": "Playing perfect fifth sequence",
+          "visualizationDescription": "This visualization shows three notes on a horizontal line: A at 440 Hz on the left, {0} in the middle, and A prime at 880 Hz on the right. Active notes are highlighted with red markers.",
+          "octaveRatioDescription": "The ratio of frequencies is 880 divided by 440, which equals 2 to 1, representing an octave.",
+          "fifthRatioDescription": "The ratio of frequencies is 660 divided by 440, which equals 3 to 2, representing a perfect fifth."
+        }
+      },
+      "S5_D1_F28_C2": "First, we'll check out the octave. We will hear the note <strong>440 Hz</strong>, then <strong>880 Hz</strong>, which is exactly double the frequency. This is a <strong>2:1</strong> ratio, and we call it an octave.",
+      "S5_D2_F29_C2": "The notes will sound similar, just one higher than the other. That gap between pitches is called an interval — and this one, with a <strong>2:1</strong> ratio, is one of the most natural. Click ‘Play Sequence’ to hear it!",
+      "S5_D3_F30_C1": "Wow! They sound really good together — like they fit, even though one’s higher. It feels like the same note, just at a different level.",
+      "S5_D4_F31_C2": "That's right! It's amazing how these common ratios create such a pleasing sound. Now, let's move on to the perfect fifth!",
+      "S5_D5_F32_C1": "So, this one's different from the octave?",
+      "S5_D6_F33_C2": "Yep! In the perfect fifth, the second note's frequency is in a <strong>3:2 ratio</strong> with the first note's frequency. Let's listen to <strong>440 Hz</strong> and <strong>660 Hz</strong>. This <strong>3:2 ratio</strong> creates a rich, harmonious sound. Go ahead and click 'Play Sequence' to hear the difference!",
+      "S5_D7_F34_C1": "Oh, that sounds really nice too! It's not quite as familiar as the octave, but it still feels like they belong together.",
+      "S5_D8_F35_C2": "You got it! The perfect fifth has a rich, pleasant sound you’ll hear in lots of music, especially in chords. What’s cool is that even when the ratios aren’t as simple, they can still sound harmonious — just in a more layered or textured way."
+    },
+    "S6": {
+      "S6_D1_F36_C1": "I'm starting to get how these ratios work. It's like the building blocks of music!",
+      "S6_D2_F37_C2": "That's right! And speaking of building blocks, we use these ratios to divide the octave into smaller steps—specifically, <strong>12</strong> equal steps, also called semitones.",
+      "S6_D3_F38_C1": "So, why not more or fewer steps? What makes <strong>12</strong> the magic number?",
+      "S6_D4_F39_C2": "Because it balances mathematical <no-glossary>accuracy</no-glossary> and playability. That’s why most modern instruments, like pianos and guitars, use <strong>12</strong> semitones per octave."
+    },
+    "S7": {
+      "S7_D0_F40_C9": {
+        "title": "Why 12 Semitones",
+        "about": {
+          "heading": "Exploring Musical Temperament and the Perfect Fifth",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'><b>Equal Temperament Tuning:</b> Equal temperament is a tuning system where the octave is divided into equal steps. This system, commonly used in instruments like pianos and guitars, makes it possible to play in any key without retuning. The most common version divides the octave into <b>12 equal steps</b>, each step representing a semitone.</li><li style='margin-top: 1rem;'><b>Perfect Fifth (3:2 ratio):</b> The perfect fifth interval is considered one of the most harmonious. It is defined by a <b>3:2</b> frequency ratio. In equal temperament tuning, this interval is closely approximated, though not mathematically exact.</li></ul>"
+        },
+        "help": {
+          "heading": "How to Use the Musical Temperament",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'><b>Slider for Steps:</b> Use the slider to adjust the number of steps (N) in the octave. As you move the slider, you will see how changing the number of steps affects the approximation of the perfect fifth ratio <b>(3:2)</b></li></ul>"
+        },
+        "interactive_data": {
+          "forText": "For",
+          "approximationErrorText": "Approximation Error",
+          "closestIntegerText": "Closest Integer",
+          "errorText": "Error",
+          "sliderHeading": "Test different values of N to see which gives integer-ish k:",
+          "stepInOctaveText": "Steps in octave",
+          "excellentChoiceText": "✓ Excellent choice!",
+          "excellentChoiceDescription": "N = 12 gives k ≈ 7.02, very close to 7. This is why 12-tone equal temperament became the standard.",
+          "seventeenToneText": "✓ Good approximation",
+          "seventeenToneDescription": "N = 17 gives k ≈ 9.94, very close to 10. Used in other tuning systems but harder to play on traditional instruments.",
+          "nineteenToneText": "✓ Good approximation",
+          "nineteenToneDescription": "N = 19 gives k ≈ 11.11, very close to 11. More accurate for some intervals but makes instrument design more complicated.",
+          "veryAccurateText": "✓ Very accurate",
+          "veryAccurateDescription": "N = 24 gives k ≈ 14.04, very close to 14. Gets even closer to the 3:2 ratio but harder to play on traditional instruments.",
+          "yAxisLabel": "Error (%)",
+          "errorLabel": "Error",
+          "pointAriaLabel": "Division {divisions}, error {error}%",
+          "closestLabel": "Closest Integer",
+          "perfectFifthLabel": "Perfect fifth",
+          "tooMessyLabel": "Too messy",
+          "complexSystemLabel": "More complex system",
+          "tooFineLabel": "Too fine for most instruments",
+          "testValuesText": "Test values",
+          "sliderAriaLabel": "Divisions slider",
+          "chartAriaLabel": "Chart of error values",
+          "xAxisLabel": "Divisions",
+          "approximatelyEquals": "approximately equals",
+          "multipliedBy": "multiplied by"
+        }
+      },
+      "S7_D1_F41_C2": "See, we start by thinking about this: when we divide the octave into <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> equal steps, the frequency of the note at each step is <span className='font-bold font-besley' aria-label=\"2 raised to the power of 1 over N\">2<sup>1/<span className='text-[#E0002B] italic'>N</span></sup></span> times the frequency of the note at the previous step.",
+      "S7_D2_F42_C1": "Okay, so with each step, we're slowly climbing up the octave?",
+      "S7_D3_F43_C2": "That's right! Now, remember, we love the sound of the perfect fifth — that's a <strong>3:2</strong> ratio. So, the question becomes: after how many steps, say <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> steps, do we get as close as possible to that perfect fifth ratio?",
+      "S7_D4_F44_C1": "So we're looking for the value of <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> that gets us to the <strong>3:2</strong> mark?",
+      "S7_D5_F45_C2": "Yes! Mathematically, we want <span role=\"text\" aria-label=\"2 raised to the power of 1 over N, all raised to the power of k, equals 3 over 2\"><span aria-hidden=\"true\"><b style='font-family: besley;'>(</span><span style='font-family: besley;' aria-hidden=\"true\">2</span><sup><span aria-hidden=\"true\">1</span>/<span style='font-style: italic; color: #E0002B;' aria-hidden=\"true\">N</span></sup><span aria-hidden=\"true\">)</span><sup><span style='font-style: italic; color: #0061FC;' aria-hidden=\"true\">k</span></sup><span aria-hidden=\"true\"> = </span><span aria-hidden=\"true\">3/2</span></span></b>. This means after <span className='font-bold font-besley italic text-[#0061FC]'>k</span> steps, we've climbed up to a frequency that's in the perfect fifth position.",
+      "S7_D6_F46_C1": "Got it. But how do we find <span className='font-bold font-besley italic text-[#0061FC]'>k</span>?",
+      "S7_D7_F47_C2": "Good question! We can rearrange the equation. First, we take the log <strong>base 2</strong> of both sides. That gives us: <span role=\"text\" className='font-bold font-besley' aria-label=\"k divided by N equals log base 2 of 3 over 2\"><span className='italic text-[#0061FC]' aria-hidden=\"true\">k</span><span aria-hidden=\"true\">/</span><span className='italic text-[#E0002B]' aria-hidden=\"true\">N</span><span aria-hidden=\"true\"> = </span><span aria-hidden=\"true\">log</span><sub aria-hidden=\"true\">2</sub><span aria-hidden=\"true\">(</span><span aria-hidden=\"true\">3/2</span><span aria-hidden=\"true\">)</span></span>.",
+      "S7_D8_F48_C1": "Okay, so now we just multiply both sides by <span className='font-bold font-besley italic text-[#E0002B]'>N</span>?",
+      "S7_D9_F49_C2": "Yup! So, <span role=\"text\" className='font-bold font-besley' aria-label=\"k equals N times log base 2 of 3 over 2\"><span className='italic text-[#0061FC]' aria-hidden=\"true\">k</span><span aria-hidden=\"true\"> = </span><span className='italic text-[#E0002B]' aria-hidden=\"true\">N</span><span aria-hidden=\"true\"> × </span><span aria-hidden=\"true\">log</span><sub aria-hidden=\"true\">2</sub><span aria-hidden=\"true\">(</span><span aria-hidden=\"true\">3/2</span><span aria-hidden=\"true\">)</span></span> which eventually gives us <span role=\"text\" className='font-bold font-besley' aria-label=\"k approximately equals 0.58496 times N\"><span className='italic text-[#0061FC]' aria-hidden=\"true\">k</span><span aria-hidden=\"true\"> ≈ </span><span aria-hidden=\"true\">0.58496</span><span aria-hidden=\"true\"> × </span><span className='italic font-bold font-besley text-[#E0002B]' aria-hidden=\"true\">N</span></span>.",
+      "S7_D10_F50_C1": "Alright, so now we try different values of <span className='font-bold font-besley italic text-[#E0002B]'>N</span> to see when <span className='font-bold font-besley italic text-[#0061FC]'>k</span> becomes a whole number?",
+      "S7_D11_F51_C2": "Spot on! Now, try moving the slider and watch how <span className='font-bold font-besley italic text-[#0061FC]'>k</span> changes. Can you spot which <span className='font-bold font-besley italic text-[#E0002B]'>N</span> makes <span className='font-bold font-besley italic text-[#0061FC]'>k</span> almost a whole number?",
+      "S7_D12_F52_C1": "Hmm... I see that when <span className='font-bold font-besley italic text-[#E0002B]'>N</span> is <strong>12</strong>, <span className='font-bold font-besley italic text-[#0061FC]'>k</span> is around <strong className='text-[#0061FC]'>7.02</strong> — that's pretty close to a whole number!",
+      "S7_D13_F53_C2": "Correct! That's one reason why <strong>12</strong> steps per octave became the standard — the perfect fifth lands close to a whole number of steps, making it easy to play. But try a few other values too",
+      "S7_D14_F54_C1": "Looks like <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> = <strong>7</strong>, <strong>17</strong>, and <strong>24</strong> also give <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> values that are pretty close to whole numbers.",
+      "S7_D15_F55_C2": "Good catch! Those are used in other tuning systems, like 7-tone and 24-tone scales. Some get even closer to the <strong>3:2</strong> ratio — but they're not as common, since they're harder to play on traditional instruments.",
+      "S7_D14_F56_C1": "What about <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> = <strong>19</strong>? It gives <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> around <strong>11.1</strong> — that seems really close too.",
+      "S7_D15_F57_C2": "Yep! The 19-tone scale is a great example. It's more accurate for some intervals, but it makes instrument design and playing a bit more complicated. <strong>12</strong> is a great compromise — close enough to key intervals and practical for musicians.",
+      "S7_D16_F56_C1": "So, <strong>12</strong> steps really are a smart choice!",
+      "S7_D17_F57_C2": "Yes it is! It balances mathematical <no-glossary>accuracy</no-glossary> and playability. That's why most modern instruments, like pianos and guitars, use <strong>12</strong> semitones per octave.",
+      "S7_D18_F58_C1": "And because <span style='font-family: besley; font-style: italic; color: #0061FC;'><i><b>k</b></i></span> is about <strong>7</strong> when <span style='font-family: besley; font-style: italic; color: #E0002B;'><i><b>N</b></i></span> is <strong>12</strong>, that means the 7th note in the scale lands close to the perfect fifth, right?",
+      "S7_D19_F59_C2": "Precisely! Starting from any note, if you count <strong>7</strong> steps up in a 12-tone scale, you land on a note that's very close to a <strong>3:2</strong> frequency ratio — that's the perfect fifth. And that's one reason the 12-step system sounds so natural to our ears."
+    },
+    "S8": {
+      "S8_D1_F58_C1": "Hmm... I think I get it now. Since an octave is a <strong>2:1</strong> ratio, dividing it into <strong className='text-[#00749D]'>12</strong> steps means after <strong className='text-[#00749D]'>12</strong> steps the frequency will be doubled.",
+      "S8_D2_FX_C2": "Yes. But now the question is what constant factor must each step multiply by so that after <strong className='text-[#00749D]'>12</strong> steps the frequency will be doubled.",
+      "S8_D3_FX_C2": "Let's say we start with base frequency <strong style=\"font-family: Besley; font-style: italic; color: #E0002B;\">f</strong>, we need to find a constant factor <strong style=\"font-family: Besley; font-style: italic; color: #008217;\">r</strong> so that if we repeatedly multiply <strong style=\"font-family: Besley; font-style: italic; color: #E0002B;\">f</strong> with <strong style=\"font-family: Besley; font-style: italic; color: #008217;\">r</strong> for <strong className='text-[#00749D] font-besley'>12</strong> times, we arrive at <strong style=\"font-family: Besley;\">2<em style=\"color: #E0002B;\">f</em></strong>.",
+      "S8_D4_FX_C1": "So <span className=\"sr-only\">f multiply by r raised to the power of 12 equals to 2f</span><strong style=\"font-family: Besley;\" aria-hidden=\"true\"><em style=\"color: #E0002B;\">f</em> × <em style=\"color: #008217;\">r<sup style=\"color: #00749D;\">12</sup></em> = 2<em style=\"color: #E0002B;\">f</em></strong> which means <span className=\"sr-only\">r raised to the power of 12 equals to 2</span><strong style=\"font-family: Besley;\" aria-hidden=\"true\"><em style=\"color: #008217;\">r<sup style=\"color: #00749D;\">12</sup></em> = 2</strong>. Therefore <span className=\"sr-only\">r equals to 2 raised to the power of 1 over 12</span><strong style=\"font-family: Besley;\" aria-hidden=\"true\"><em style=\"color: #008217;\">r</em> = 2<sup>1/<span style=\"color: #00749D;\">12</span></sup></strong>.",
+      "S8_D5_F59_C2": "That's right! Each semitone moves us a little higher, multiplying the frequency by about <strong className='text-[#677600]'>1.0595</strong> — that's <span role='text' aria-label='2 raised to the power of 1 over 12'><strong>2<sup><span aria-hidden='true'>1</span>/<span className='text-[#00749D]'>12</span></sup></strong></span> or twelfth <no-glossary>root</no-glossary> of 2, since fractional exponents and roots mean the same thing.",
+      "S8_D6_F60_C1": "But wait… this makes me wonder. We're using <strong>2</strong> because an octave is a <span role='text' aria-label='2 to 1 ratio'><span aria-hidden='true'><strong>2:1 ratio</strong></span></span>, right? What if we used a different base? Like, what if we thought of the octave as something like <strong>1.5</strong> or <strong>3</strong> instead of <strong>2</strong>?",
+      "S8_D7_F61_C2": "Ah, that’s a brilliant question! If we change the base value, we change how much the frequency changes with each step increase. It would give us a completely different scale.",
+      "S8_D8_F62_C1": "Really? So the steps would be smaller or larger depending on the base?",
+      "S8_D9_F63_C2": "Let me show you."
+    },
+    "S9": {
+      "S9_D0_F64_C9": {
+        "title": "Beyond the Octave: Reimagining Musical Scales",
+        "about": {
+          "heading": "Understanding Musical Scale Mathematics",
+          "body": "<h3 style=\"font-weight: bold; margin-bottom: 8px;\">What is a Musical Scale?</h3><p>A musical scale is a sequence of musical notes arranged by frequency. In Western music, we use the <strong>equal-tempered scale</strong>, which divides an octave into 12 equally-spaced steps called semitones.</p><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Exploring Different Base Values:</h3><p>The first formula explores how different base values affect a single note's frequency:</p><p style=\"margin-top: 10px; margin-bottom: 10px; text-align: center;\"><strong style=\"font-family: Besley;\"><em style=\"color: #8e24aa\">f(x)</em> = 440 × (<em style=\"color: #633300;\">x</em>)<sup><span style=\"color: #00749d;\">1</span> / 12</sup></strong></p><p>Where:</p><ul><li><strong><em style=\"color: #8e24aa; font-family: Besley;\">f(x)</em></strong> = frequency of one step above the starting note in Hz</li><li><strong style=\"font-family: Besley;\">440</strong> = frequency of the base note in Hz</li><li><strong style=\"font-family: Besley; color: #633300; font-style: italic;\">x</strong> = base value (experimental octave ratio)</li><li><strong style=\"font-family: Besley;\"><span style=\"color: #00749d;\">1</span> / 12</strong> = the fractional exponent representing one step out of 12</li></ul><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Why do bases other than 2 sound wrong?</h3><ul style=\"list-style-type: disc;\"><li style=\"margin-left: 20px;\"><strong>Base 1.5:</strong> Each step multiplies by 1.5<sup>1/12</sup> ≈ 1.035 (too small - melody sounds \"squeezed\")</li><li style=\"margin-left: 20px;\"><strong>Base 2.5:</strong> Each step multiplies by 2.5<sup>1/12</sup> ≈ 1.080 (too large - melody sounds \"stretched\")</li><li style=\"margin-left: 20px;\"><strong>Base 4:</strong> Each step multiplies by 4<sup>1/12</sup> ≈ 1.122 (much too large - melody sounds \"pulled apart\")</li><li style=\"margin-left: 20px;\">Only <strong>base 2</strong> gives the perfect step size: 2<sup>1/12</sup> ≈ 1.059</li></ul><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Building the Complete 12-Note Scale:</h3><p>With the base fixed at 2, we can calculate the frequency of any note in the full scale:</p><p style=\"margin-top: 10px; margin-bottom: 10px; text-align: center;\"><strong style=\"font-family: Besley;\"><em style=\"color: #8e24aa;\">f(n)</em> = 440 × (2)<sup><span style=\"color: #00749d;\"><em>n</em></span> / 12</sup></strong></p><p>Where:</p><ul><li><strong><em style=\"color: #8e24aa; font-family: Besley;\">f(n)</em></strong> = frequency of the nth note in Hz</li><li><strong style=\"font-family: Besley; font-style: italic; color: #00749D;\">n</strong> = step number (0 through 12)</li><li><strong style=\"font-family: Besley;\">12</strong> in the denominator divides the octave into 12 equal steps</li></ul>"
+        },
+        "help": {
+          "heading": "How to use this Tool?",
+          "body": "<h3 style=\"font-weight: bold; margin-bottom: 8px;\">Exploring Different Base Values:</h3><ul style=\"list-style-type: disc; margin-left: 20px;\"><li style=\"margin-top: 1rem;\">Start by clicking \"Mary Lamb\" with base 2 selected to hear how the standard scale sounds.</li><li style=\"margin-top: 1rem;\">Listen carefully to how the melody flows - this is your reference point.</li><li style=\"margin-top: 1rem;\"><strong>Experimenting with base values:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Try each base value button (1.5, 2.5, 3, 4) and replay the melody.</li><li style=\"margin-top: 0.5rem;\">Pay attention to how the melody sounds different with each base.</li><li style=\"margin-top: 0.5rem;\">Notice whether the tune sounds \"squeezed together\" or \"stretched out\".</li></ul></li><li style=\"margin-top: 1rem;\"><strong>Understanding the Math:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Look at the frequency formula and the example calculation shown</li><li style=\"margin-top: 0.5rem;\">Each base value creates a different step size between notes</li><li style=\"margin-top: 0.5rem;\">The graph shows how frequency changes as you adjust the base value</li></ul></li></ul><h3 style=\"font-weight: bold; margin-top: 16px; margin-bottom: 8px;\">Building the Complete Scale:</h3><ul style=\"list-style-type: disc; margin-left: 20px;\"><li style=\"margin-top: 1rem;\">Notice that the base is now fixed at 2, but you can explore different step numbers (<em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em>)</li><li style=\"margin-top: 1rem;\">Use the frequency formula <strong style=\"font-family: Besley;\"><em style=\"color: #8e24aa;\">f(n)</em> = 440 × (2)<sup><span style=\"color: #00749d;\"><em>n</em></span> / 12</sup></strong> to calculate frequencies</li><li style=\"margin-top: 1rem;\">The graph shows all 12 steps of the chromatic scale</li><li style=\"margin-top: 1rem;\"><strong>Working with the Formula:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Start with step 0 (<em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> = 0)</li><li style=\"margin-top: 0.5rem;\">Substitute different values of <em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> into the formula</li><li style=\"margin-top: 0.5rem;\">Check your calculations against the table provided</li></ul></li><li style=\"margin-top: 1rem;\"><strong>Key Mathematical Concepts:</strong><ul style=\"list-style-type: circle; margin-left: 20px;\"><li style=\"margin-top: 0.5rem;\">Each step multiplies the previous frequency by the same ratio</li><li style=\"margin-top: 0.5rem;\">After 12 steps, the frequency should double (creating an octave)</li><li style=\"margin-top: 0.5rem;\">The exponent <strong style=\"font-family: Besley; font-weight: bold;\"><em style=\"color: #00749D;\">n</em> / 12</strong> represents what fraction of an octave you've traveled</li></ul></li></ul>"
+        },
+        "interactive_data": {
+          "x_label": "Step (n)",
+          "y_label": "Ratio",
+          "base_label": "Base Value",
+          "textBase": "Base",
+          "textStandard": "Standard",
+          "textSteps": "Step",
+          "textRatio": "Ratio",
+          "textFrequency": "Frequency",
+          "textNotes": "Notes",
+          "infoAdjacent": "Adjacent note ratio",
+          "infoStandard": "Standard equal temperament",
+          "infoNonStandard": "Non-standard tuning",
+          "textFrequencyFormula": "Frequency Formula",
+          "playScale": "Play Scale",
+          "playMaryLamb": "Mary Lamb",
+          "playTwinkle": "Twinkle",
+          "playStop": "Stop",
+          "textOctave": "Octave",
+          "ariaLabelStep": "Step",
+          "ariaLabelRatio": "with ratio",
+          "ariaLabelFrequency": "frequency",
+          "ariaLabelHz": "Hertz",
+          "ariaLabelStandardRatio": "standard ratio",
+          "ariaLabelStandardFrequency": "standard frequency",
+          "ariaLabelKey": "Musical key",
+          "ariaLabelPlay": "Play",
+          "ariaLabelStop": "Stop playback",
+          "ariaLabelBaseValue": "Change base value to",
+          "ariaLabelChart": "Musical ratio visualization chart",
+          "ariaLabelKeyboard": "Musical keyboard",
+          "ariaLabelPoint": "Data point",
+          "raisedToTwelfthPowerEquals": "raised to the twelfth power equals",
+          "fOfNIsEqual": "f of n is equal to four forty times",
+          "raisedToNOverTwelve": "raised to the n over twelve",
+          "step1_x_label": "Base Value (x)",
+          "step1_y_label": "Frequency (Hz)",
+          "step1_tooltip_base_value": "Base Value",
+          "step1_tooltip_frequency": "Frequency",
+          "step1_ariaLabelChart": "Base value versus frequency chart showing how different base values affect the frequency of the first note",
+          "step1_formula_pronunciation": "f of x equals four hundred forty times x raised to the power of one over twelve",
+          "step1_formula_explanation": "Where <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">x</span> = base value",
+          "step1_calculation_pronunciation": "f of {{baseValue}} equals four hundred forty times {{baseValue}} raised to the power of one over twelve equals to {{frequency}} Hertz",
+          "step2_formula_pronunciation": "f of n equals four hundred forty times two raised to the power of n over twelve",
+          "step2_formula_explanation": "Where <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">n</span> = step number (0 to 12)",
+          "freq_ratio_label": "Frequencies & Ratios"
+        }
+      },
+      "S9_D1_FX_C2": "Before changing to any other base, let's first hear our classic \"Mary Had a Little Lamb\" — it's a great melody for noticing how the notes naturally step across the scale — using the standard base of <strong>2</strong>.",
+      "S9_D2_FX_C1": "Ah, now that feels familiar! The tune sounds clean and just right.",
+      "S9_D3_FX_C2": "Exactly! That's the magic of base <strong>2</strong> — it gives us the natural flow our ears expect.",
+      "S9_D4_FX_C2": "With base <strong>2</strong>, each step multiplies the frequency by the same factor: the twelfth root of <strong>2</strong> or <span className='sr-only'>2 raised to the power of 1 over 12</span><span aria-hidden='true'><strong>2<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span> which is about <strong>1.059</strong>. That's what gives us <strong>12</strong> evenly spaced notes that land perfectly one octave above the starting pitch.",
+      "S9_D5_FX_C2": "Now, let's change the base to <strong>1.5</strong> and play \"Mary Had a Little Lamb\" again to hear how it sounds!",
+      "S9_D6_FX_C1": "Whoa! That sounds... way off! Like Mary's lamb got completely lost!",
+      "S9_D7_FX_C2": "Right? Since the base is smaller, the steps between notes shrink — so the melody gets all squeezed and loses its shape.",
+      "S9_D8_FX_C2": "With base <strong>1.5</strong>, each step only multiplies by the twelfth root of <strong>1.5</strong> or <span className='sr-only'>1 point 5 raised to the power of 1 over 12</span><span aria-hidden='true'><strong>1.5<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span> — which is about <strong>1.035</strong>. So each note steps up less, and everything sounds squeezed together.",
+      "S9_D10_FX_C2": "Go ahead and explore some of the other base values too — like <strong>2.5</strong>, <strong>3</strong>, or even <strong>4</strong>. It's fun to hear how each one reshapes the melody.",
+      "S9_D11_FX_C1": "Huh... none of them really feel right. Some sound stretched out, some squished — just not how a song should sound.",
+      "S9_D12_FX_C2": "That's because each base changes how quickly the frequency grows between notes.",
+      "S9_D13_FX_C2": "For example, base <strong>2.5</strong> gives us steps of the twelfth root of <strong>2.5</strong> or <span className='sr-only'>2 point 5 raised to the power of 1 over 12</span><span aria-hidden='true'><strong>2.5<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span> — which is about <strong>1.08</strong> — a bit too much. Base <strong>4</strong> jumps all the way to around twelfth root of <strong>4</strong> or <span className='sr-only'>4 raised to the power of 1 over 12</span><span aria-hidden='true'><strong>4<sup>1/<span className='text-[#00749D]'>12</span></sup></strong></span> — which is about <strong>1.12</strong> per step! That’s why everything sounds too spread out — like the melody’s been pulled apart.",
+      "S9_D14_FX_C2": "Mathematically, they all follow the same pattern — multiplying by the <strong>12</strong>th root of the base — but only base <strong>2</strong> gives us that perfectly balanced step size that lands on a clean, doubled frequency after <strong>12</strong> steps.",
+      "S9_D15_FX_C2": "That's why musicians use base <strong>2</strong>: it sounds smooth, natural, and complete — just the way our ears like it.",
+      "S9_D16_FX_C2": "Now that we understand why base <strong>2</strong> is the best choice, let's explore how it shapes the full scale. With base <strong>2</strong> fixed, we can move through all twelve notes, each one a step in the equal-tempered scale.",
+      "S9_D17_FX_C1": "So each step increases the frequency by the same amount?",
+      "S9_D18_FX_C2": "Not exactly the same amount, but by the same ratio. Each note's frequency is calculated using this <no-glossary>formula</no-glossary>: <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"f of n equals to 440 multiply by 2 raised to the power of n over twelve\"><span style=\"color: #8E24AA;\"><em>f</em>(<em>n</em>)</span> = 440 × (<span style=\"color: #633300;\">2</span>)<sup><span style=\"color: #00749D; font-style: italic;\">n</span>/12</sup></span>, where <em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> is the number of steps from the starting note, which is <strong>440 Hz</strong>.",
+      "S9_D19_FX_C1": "So if I want the frequency of the 3rd step, I just plug in <em style=\"font-family: Besley; font-weight: bold; color: #00749D;\">n</em> = 3 in the <no-glossary>formula</no-glossary>?",
+      "S9_D20_FX_C2": "Yes. What will be the frequency (in Hz) of the 3rd step?",
+      "S9_D21_FX_C1": "So after <strong>12</strong> steps, the frequency doubles and we reach the same note one octave higher.",
+      "S9_D22_FX_C2": "Correct! That's the beauty of the equal-tempered scale—each step builds consistently on the one before it."
+    },
+
+    "S10": {
+      "S10_D1_F72_C2": "Alright, now that we've finalized the base value and explored how to calculate frequency of any note, let's build a synth for your school fair.",
+      "S10_D2_F73_C2": "Each note becomes <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"2 raised to the power of 1 over 12\"><span style=\"color: #633300;\">2</span><sup><span style=\"color: #00749D; font-style: italic;\">1</span>/<span style=\"color: #00749D; font-style: italic;\">12</span></sup></span> times the previous one.",
+      "S10_D3_F74_C1": "So if I have to build my synth, I'd just need to make sure each note is <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"2 raised to the power of 1 over 12\"><span style=\"color: #633300;\">2</span><sup><span style=\"color: #00749D; font-style: italic;\">1</span>/<span style=\"color: #00749D; font-style: italic;\">12</span></sup></span> apart in frequency?",
+      "S10_D4_F75_C2": "Exactly! That's the foundation of your synth. Start from your base note, and multiply by <span style=\"font-family: Besley; font-weight: bold;\" aria-label=\"2 raised to the power of 1 over 12\"><span style=\"color: #633300;\">2</span><sup><span style=\"color: #00749D; font-style: italic;\">1</span>/<span style=\"color: #00749D; font-style: italic;\">12</span></sup></span> for each step you move up."
+    },
+    "S11": {
+      "S11_D0_F77_C9": {
+        "title": "Basic Synth",
+        "about": {
+          "heading": "Understanding the Synthesizer",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'>This simple synthesizer built with equal temperament scale lets you hear how each semitone is equidistant from each other</li></ul>"
+        },
+        "help": {
+          "heading": "How to Use the Synthesizer",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li style='margin-top: 1rem;'>Press the buttons to play scales or well-known melodies like \"Mary Had a Little Lamb\" or \"Twinkle, Twinkle, Little Star.\" Click \"Stop\" to halt the sound</li></ul>"
+        },
+        "interactive_data": {
+          "place_scale": "Play Scale",
+          "mary_lamb": "Mary Lamb",
+          "twinkle": "Twinkle",
+          "stop": "Stop",
+          "button_to_play_note": "Button to play note",
+          "with_frequency": "with frequency"
+        }
+      },
+      "S11_D1_F78_C1": "Alright, check this out — this is what I came up with!",
+      "S11_D2_FX_C1": "I've set it up so my base note starts at, say, <strong>440 Hz</strong>, and every next note multiplies by <strong>2<sup>1/<span className='text-[#00749D]'>12</span></sup></strong>. Now I've got a full keyboard! It's like I've built a mini version of the piano.",
+      "S11_D3_FX_C1": "Click on \"Play Scale\" to hear all 12 notes together.",
+      "S11_D4_F81_C2": "Impressive! You've built your very own synth, using everything you've learned about sound, math, and music. You're ready to start making some serious music now!",
+      "S11_D5_FX_C1": "Click on \"Twinkle\" to play our classic \"Twinkle Twinkle Little Star\" nursery rhyme."
+    },
+
+    "S12": {
+      "S12_D1_F82_C2": "Great job, Emery! You've used math to create your very own synth and learned how music is built on ratios and frequencies.",
+      "S12_D2_F83_C1": "It's amazing! I never realized how much math is behind the music we hear every day, but now I get it!",
+      "S12_D3_F84_C2": "Exactly! Now you can experiment with scales, melodies, and different ratios to create your own sounds.",
+      "S12_D4_F85_C1": "I'm excited to keep exploring. I've got the tools to make music just the way I want!"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You Explored How to Create a Synth Using Math",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>You've successfully completed the Synth Builder STEAMQuest!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You learned how musical scales and frequencies are built using mathematical ratios</li><li>You explored how dividing the octave into 12 steps gives us the familiar 2:1 ratio for natural harmony</li><li>You experimented with different bases using a radical function to see how they affect the sound of melodies and scales</li><li>You learned to build your own synth, applying equal temperament to create a working keyboard with natural intervals</li></ul>Your journey of exploring sound and math has just begun. Explore more, create new tunes, and keep experimenting with sound!",
+      "leftsvg": "<svg width='79' height='81' viewBox='0 0 79 81' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_19849_1196' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='-1' y='0' width='81' height='81'><path d='M69.5 1H9.5C4.25329 1 0 5.25329 0 10.5V70.5C0 75.7467 4.25329 80 9.5 80H69.5C74.7467 80 79 75.7467 79 70.5V10.5C79 5.25329 74.7467 1 69.5 1Z' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_19849_1196)'><path d='M69.7104 10.6116L41.8396 0.820622C40.6396 0.393126 39.3657 0.393126 38.1619 0.820622L10.2911 10.6116C8.02025 11.4104 6.5026 13.5816 6.5026 16.0228V32.8417C6.28844 53.9125 19.2969 76.5545 40.0017 80.5C49.4836 78.82 57.3673 72.9139 63.5596 64.5971C69.9735 55.7773 73.5 44.5007 73.5 32.8425V16.0236C73.5 13.5861 71.9824 11.415 69.7115 10.6124L69.7104 10.6116Z' fill='black'/><path d='M41.6793 1.27821L41.6813 1.27887L69.4853 10.558L69.5524 10.5808C71.6286 11.2779 73 13.156 73 15.2474V31.2254C73 42.1958 69.5068 52.7994 63.1644 61.086C57.0464 68.8912 49.2941 74.4029 40.0048 75.9923C19.6568 72.2556 6.79051 51.0507 7.00258 31.23L7.0026 31.2246V15.2467C7.0026 13.1514 8.3742 11.2738 10.4494 10.5803C10.4493 10.5803 10.4495 10.5803 10.4494 10.5803L38.3202 1.27888L38.3217 1.27836C39.422 0.907158 40.5834 0.90732 41.6793 1.27821Z' fill='#FFCC00'/><path d='M10.4494 10.5803C8.3742 11.2738 7.0026 13.1514 7.0026 15.2467V31.2246L7.00258 31.23C6.79051 51.0507 19.6568 72.2556 40.0048 75.9923C49.2941 74.4029 57.0464 68.8912 63.1644 61.086C69.5068 52.7994 73 42.1958 73 31.2254V15.2474C73 13.156 71.6286 11.2779 69.5524 10.5808L69.4853 10.558L41.6813 1.27887L41.6793 1.27821C40.5834 0.90732 39.422 0.907158 38.3217 1.27836L38.3202 1.27888L10.4494 10.5803ZM10.4494 10.5803C10.4493 10.5803 10.4495 10.5803 10.4494 10.5803Z' stroke='black'/></g><path d='M51.5 25.7394V43.1978C51.5 44.5894 50.955 45.9233 49.9827 46.907C49.0117 47.892 47.695 48.4441 46.3215 48.4441C44.9477 48.4441 43.6312 47.892 42.6603 46.907C41.688 45.9233 41.1429 44.5894 41.1429 43.1978C41.1429 41.8061 41.6879 40.4724 42.6603 39.4887C43.6312 38.5037 44.9479 37.9515 46.3215 37.9515C47.4452 37.9555 48.5379 38.3332 49.4286 39.0283V30.7953L32.8571 33.5942V46.3455C32.8571 47.7371 32.3121 49.071 31.3397 50.0547C30.3688 51.0397 29.0521 51.5918 27.6785 51.5918C26.3048 51.5918 24.9883 51.0397 24.0173 50.0547C23.0451 49.071 22.5 47.7371 22.5 46.3455C22.5 44.9538 23.045 43.6201 24.0173 42.6364C24.9883 41.6514 26.305 41.0992 27.6785 41.0992C28.8023 41.1032 29.895 41.4809 30.7857 42.1761V28.1866C30.7818 26.6468 31.8823 25.3312 33.3828 25.0822L47.8828 22.6347C48.7826 22.4826 49.7044 22.7396 50.4009 23.3377C51.0988 23.9358 51.5 24.8134 51.5 25.7394Z' fill='black'/><path d='M51.5 23.6475V41.106C51.5 42.4976 50.955 43.8315 49.9827 44.8151C49.0117 45.8001 47.695 46.3523 46.3215 46.3523C44.9477 46.3523 43.6312 45.8001 42.6603 44.8151C41.688 43.8314 41.1429 42.4975 41.1429 41.106C41.1429 39.7143 41.6879 38.3805 42.6603 37.3969C43.6312 36.4119 44.9479 35.8597 46.3215 35.8597C47.4452 35.8636 48.5379 36.2414 49.4286 36.9365V28.7035L32.8571 31.5024V44.2537C32.8571 45.6453 32.3121 46.9792 31.3397 47.9628C30.3688 48.9478 29.0521 49.5 27.6785 49.5C26.3048 49.5 24.9883 48.9478 24.0173 47.9628C23.0451 46.9791 22.5 45.6452 22.5 44.2537C22.5 42.862 23.045 41.5282 24.0173 40.5446C24.9883 39.5596 26.305 39.0074 27.6785 39.0074C28.8023 39.0113 29.895 39.3891 30.7857 40.0842V26.0948C30.7818 24.555 31.8823 23.2393 33.3828 22.9903L47.8828 20.5429C48.7826 20.3907 49.7044 20.6478 50.4009 21.2459C51.0988 21.844 51.5 22.7215 51.5 23.6475Z' fill='white'/><path d='M52 25.7396V41.106V43.198C52 44.7201 51.4039 46.1806 50.3382 47.2587C49.2739 48.3381 47.8294 48.9443 46.3215 48.9443C44.8133 48.9443 43.3689 48.3381 42.3046 47.2586C41.2391 46.1806 40.6429 44.72 40.6429 43.198C40.6429 42.8447 40.675 42.4947 40.7377 42.152C40.675 41.8093 40.6429 41.4593 40.6429 41.106C40.6429 39.5838 41.239 38.1234 42.3047 37.0454C43.369 35.966 44.8135 35.3597 46.3215 35.3597H46.3232C47.2358 35.3629 48.1296 35.5905 48.9286 36.0171V31.3871L33.3571 34.0171V44.2537V46.3457C33.3571 47.8678 32.761 49.3283 31.6953 50.4064C30.631 51.4858 29.1865 52.092 27.6785 52.092C26.1703 52.092 24.7258 51.4857 23.6615 50.4061C22.5961 49.328 22 47.8676 22 46.3457C22 45.9924 22.0321 45.6424 22.0948 45.2997C22.0321 44.957 22 44.607 22 44.2537C22 42.7315 22.5961 41.2711 23.6617 40.1931C24.7261 39.1137 26.1706 38.5074 27.6785 38.5074H27.6803C28.5929 38.5106 29.4867 38.7382 30.2857 39.1648V28.1875C30.2857 28.1816 30.2857 28.1757 30.2857 28.1699V26.0954C30.2857 24.1727 31.5 23 33.3009 22.4971M52 25.7396L33.3009 22.4971M52 25.7396V23.6475C52 22.5772 51.5362 21.5606 50.7267 20.8665C49.9181 20.1723 48.8467 19.8728 47.7996 20.0498L33.3009 22.4971' stroke='black'/><path d='M51.5 24.5V27L34.5 25.5L32.5 23.5L33.5 23L39.5 22L51.5 24.5Z' fill='white'/></svg>",
+      "leftsvgarialabel": "A musical note icon on a background, symbolizing music or sound.",
+      "rightsvg": "<svg width='113' height='119' viewBox='0 0 113 119' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' d='M108.106 12.1923L112.391 79.8185C112.733 85.2089 110.949 90.5096 107.424 94.5584C103.905 98.6122 98.9403 101.074 93.6198 101.412C88.2986 101.749 83.0633 99.9331 79.0606 96.3559C75.0529 92.7842 72.6141 87.7511 72.2726 82.361C71.9309 76.9702 73.7147 71.6699 77.2395 67.6211C80.7589 63.5673 85.7235 61.1051 91.044 60.768C95.398 60.5073 99.7232 61.7024 103.344 64.1763L101.323 32.2853L37.8196 47.195L40.9497 96.5878C41.2913 101.978 39.5076 107.279 35.9827 111.328C32.4634 115.381 27.4988 117.844 22.1783 118.181C16.8571 118.518 11.6218 116.702 7.61907 113.125C3.61142 109.553 1.17264 104.52 0.83105 99.1302C0.489416 93.7394 2.27323 88.4392 5.79804 84.3904C9.31739 80.3366 14.282 77.8744 19.6025 77.5372C23.9565 77.2766 28.2817 78.4716 31.9026 80.9455L28.4685 26.7567C28.0754 20.7932 32.0151 15.4269 37.7662 14.094L93.3322 1.05424C96.7802 0.244024 100.414 1.01352 103.259 3.15925C106.109 5.30466 107.878 8.60541 108.106 12.1923Z' fill='white'/></svg>"
+    },
+    "glossary": {
+      "equal_temperament": {
+        "word": "equal temperament",
+        "definition": "<strong class=\"text-[#0055B2]\">Equal Temperament</strong> is a tuning system where the octave is divided into equal steps, making it possible to play in any key without retuning. The most common version divides the octave into 12 equal semitones."
+      },
+      "frequency": {
+        "word": "frequency",
+        "definition": "<strong class=\"text-[#0055B2]\">Frequency</strong> is the number of vibrations per second, measured in Hertz (Hz), which determines the pitch of a sound."
+      },
+      "harmonies": {
+        "word": "harmonies",
+        "definition": "<strong class=\"text-[#0055B2]\">Harmonies</strong> are combinations of notes played together that create pleasing sounds, often built using mathematical ratios between frequencies."
+      },
+      "melodies": {
+        "word": "melodies",
+        "definition": "<strong class=\"text-[#0055B2]\">Melodies</strong> are sequences of notes played one after another to create musical phrases and recognizable tunes."
+      },
+      "note": {
+        "word": "note",
+        "definition": "A <strong class=\"text-[#0055B2]\">Note</strong> is a musical sound with a specific pitch, represented by a letter name (A, B, C, etc.) and corresponding to a particular frequency."
+      },
+      "octave": {
+        "word": "octave",
+        "definition": "An <strong class=\"text-[#0055B2]\">Octave</strong> is the interval between two notes where the higher note has twice the frequency of the lower note."
+      },
+      "pitch": {
+        "word": "pitch",
+        "definition": "<strong class=\"text-[#0055B2]\">Pitch</strong> is how high or low a sound is perceived, determined by the frequency of the sound wave."
+      },
+      "semitone": {
+        "word": "semitone",
+        "definition": "A <strong class=\"text-[#0055B2]\">Semitone</strong> is the smallest musical interval in equal temperament, represented as one step on a piano keyboard."
+      },
+      "synth": {
+        "word": "synth",
+        "definition": "A <strong class=\"text-[#0055B2]\">Synth</strong> is an electronic instrument that generates sound through mathematical functions and waveforms."
+      }
+    },
+    "common": {
+      "noelle": "Noelle",
+      "emery": "Emery",
+      "noelle_description": "A woman with curly black hair wrapped in a patterned headscarf wears gold hoop earrings, layered necklaces, and a black leather jacket over a mustard floral dress, holding a tablet and exuding warmth and confidence.",
+      "emery_description": "A curious student with short curly hair and headphones around their neck, eager to build a synth but uncertain where to begin with sound design and musical theory.",
+      "bg1_description": "A modern, illuminated building nestled in a dense forest at night. The structure has large glass windows and a warm, inviting glow from within. Two people are walking towards the entrance, which is surrounded by tall, leafless trees shrouded in mist. The scene conveys a sense of tranquility and mystery.",
+      "bg2_description": "The interior of a warmly lit reception area with large glass windows that offer a view of the surrounding forest. Several people are gathered, some standing near a reception desk while others are seated on benches. The room features modern design elements, including a curved ceiling with circular patterns and ambient lighting. The atmosphere is welcoming and professional.",
+      "bg3_description": "A sophisticated audio recording studio with state-of-the-art equipment. The room is equipped with multiple monitors displaying audio waveforms, a mixing console, and several speakers arranged around the space. The walls are lined with acoustic panels to enhance sound quality. The overall design is sleek and functional, ideal for professional audio production.",
+      "bg4_description": "An advanced audio control room featuring a large screen displaying audio waveforms and data. The room is equipped with high-end audio equipment, including speakers and a mixing console. The design includes wooden paneling and ambient lighting, creating a focused and professional environment suitable for audio editing and mastering.",
+      "bg5_description": "A lecture hall or conference room filled with an audience facing a stage where a presentation is taking place. The room has large windows offering a view of a forested landscape outside. The presenter stands at a podium, gesturing towards a projection screen displaying slides. The audience appears engaged, with some clapping and others taking notes. The setting is well-lit with hanging lamps, creating a conducive learning environment.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "game": {
+    "musical-scale": "STEAM Quest - Musical Scale"
+  },
+  "popover": {
+    "close": "Close popover"
+  }
+}

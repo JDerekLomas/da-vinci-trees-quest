@@ -1,0 +1,85 @@
+const interaction = {
+  totalSteps: 3,
+  gridSize: 400,
+  margins: {
+    top: 15,
+    right: 20,
+    bottom: 70,
+    left: 80,
+  },
+  defaultStations: [
+    { id: '1', name: 'A', x: 1, y: 1, bearing: 42, color: '#E0002B', placed: true, bearingDrawn: false },
+    { id: '2', name: 'B', x: 7, y: 2, bearing: 330, color: '#0061FC', placed: true, bearingDrawn: false },
+    { id: '3', name: 'C', x: 1, y: 7, bearing: 82, color: '#008217', placed: true, bearingDrawn: false },
+  ],
+  translations: {
+    tNauticalMiles: 'scenes.S6.S6_D0_F0_C9.translations.nauticalMiles',
+    tSquareNauticalMiles: 'scenes.S6.S6_D0_F0_C9.translations.squareNauticalMiles',
+    tStepLabel: 'scenes.S6.S6_D0_F0_C9.translations.stepLabel',
+    tStage: 'scenes.S6.S6_D0_F0_C9.translations.stage',
+    tStation: 'scenes.S6.S6_D0_F0_C9.translations.station',
+    tPosition: 'scenes.S6.S6_D0_F0_C9.translations.position',
+    tTargetBearing: 'scenes.S6.S6_D0_F0_C9.translations.targetBearing',
+    tYourBearing: 'scenes.S6.S6_D0_F0_C9.translations.yourBearing',
+    tStatus: 'scenes.S6.S6_D0_F0_C9.translations.status',
+    tPoint: 'scenes.S6.S6_D0_F0_C9.translations.point',
+    tBetween: 'scenes.S6.S6_D0_F0_C9.translations.between',
+    tSide: 'scenes.S6.S6_D0_F0_C9.translations.side',
+    tLength: 'scenes.S6.S6_D0_F0_C9.translations.length',
+    tStage1: {
+      label: 'scenes.S6.S6_D0_F0_C9.translations.stage1.label',
+      subLabel: 'scenes.S6.S6_D0_F0_C9.translations.stage1.subLabel',
+      xAxisLabel: 'scenes.S6.S6_D0_F0_C9.translations.stage1.xAxisLabel',
+      yAxisLabel: 'scenes.S6.S6_D0_F0_C9.translations.stage1.yAxisLabel',
+      origin: 'scenes.S6.S6_D0_F0_C9.translations.stage1.origin',
+      notSet: 'scenes.S6.S6_D0_F0_C9.translations.stage1.notSet',
+      correct: 'scenes.S6.S6_D0_F0_C9.translations.stage1.correct',
+      wrong: 'scenes.S6.S6_D0_F0_C9.translations.stage1.wrong',
+    },
+    tStage2: {
+      label: 'scenes.S6.S6_D0_F0_C9.translations.stage2.label',
+      cockedHat: 'scenes.S6.S6_D0_F0_C9.translations.stage2.cockedHat',
+      uncertaintyArea: 'scenes.S6.S6_D0_F0_C9.translations.stage2.uncertaintyArea',
+      intersection: 'scenes.S6.S6_D0_F0_C9.translations.stage2.intersection',
+    },
+    tStage3: {
+      label: 'scenes.S6.S6_D0_F0_C9.translations.stage3.label',
+      heronFormulaLabel: 'scenes.S6.S6_D0_F0_C9.translations.stage3.heronFormulaLabel',
+      area: 'scenes.S6.S6_D0_F0_C9.translations.stage3.area',
+      step1: 'scenes.S6.S6_D0_F0_C9.translations.stage3.step1',
+      step2: 'scenes.S6.S6_D0_F0_C9.translations.stage3.step2',
+      step3: 'scenes.S6.S6_D0_F0_C9.translations.stage3.step3',
+      triangleInformation: 'scenes.S6.S6_D0_F0_C9.translations.stage3.triangleInformation',
+      intersections: 'scenes.S6.S6_D0_F0_C9.translations.stage3.intersections',
+      triangleSides: 'scenes.S6.S6_D0_F0_C9.translations.stage3.triangleSides',
+    },
+    // Accessibility translations
+    tAccessibility: {
+      keyboardInstructions: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.keyboardInstructions',
+      stationInstructions: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.stationInstructions',
+      bearingInstructions: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.bearingInstructions',
+      chartDescription: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.chartDescription',
+      stationDescription: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.stationDescription',
+      currentStationDescription: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.currentStationDescription',
+      bearingLineDescription: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.bearingLineDescription',
+      angleDisplayDescription: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.angleDisplayDescription',
+      tableDescription: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.tableDescription',
+      stationButtonLabel: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.stationButtonLabel',
+      bearingAdjustmentLabel: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.bearingAdjustmentLabel',
+      confirmBearingLabel: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.confirmBearingLabel',
+      cancelBearingLabel: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.cancelBearingLabel',
+      stationCompleteLabel: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.stationCompleteLabel',
+      stationIncompleteLabel: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.stationIncompleteLabel',
+      currentAngleAnnouncement: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.currentAngleAnnouncement',
+      bearingConfirmedAnnouncement:
+        'scenes.S6.S6_D0_F0_C9.translations.accessibility.bearingConfirmedAnnouncement',
+      stationSelectedAnnouncement: 'scenes.S6.S6_D0_F0_C9.translations.accessibility.stationSelectedAnnouncement',
+      allStationsCompleteAnnouncement:
+        'scenes.S6.S6_D0_F0_C9.translations.accessibility.allStationsCompleteAnnouncement',
+    },
+  },
+};
+
+export type TriangulationPlotterConfig = typeof interaction;
+
+export default interaction;

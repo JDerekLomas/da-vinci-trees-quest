@@ -1,0 +1,62 @@
+import { HitsAnalysisInteraction } from '../interactives/interface';
+
+const interaction: HitsAnalysisInteraction = {
+  title: 'scenes.S6.S6_D0_F18_C9.title',
+  type: 'hits-analysis',
+  ariaLabel: 'scenes.S6.S6_D0_F18_C9.aria_label.title',
+  data: [
+    { id: 1, date: 'Game 1', hits: 13 },
+    { id: 2, date: 'Game 2', hits: 10 },
+    { id: 3, date: 'Game 3', hits: 14 },
+    { id: 4, date: 'Game 4', hits: 8 },
+    { id: 5, date: 'Game 5', hits: 12 },
+    { id: 6, date: 'Game 6', hits: 9 },
+    { id: 7, date: 'Game 7', hits: 15 },
+    { id: 8, date: 'Game 8', hits: 11 },
+    { id: 9, date: 'Game 9', hits: 13 },
+    { id: 10, date: 'Game 10', hits: 7 },
+    { id: 11, date: 'Game 11', hits: 16 },
+    { id: 12, date: 'Game 12', hits: 10 },
+    { id: 13, date: 'Game 13', hits: 14 },
+    { id: 14, date: 'Game 14', hits: 9 },
+    { id: 15, date: 'Game 15', hits: 12 },
+    { id: 16, date: 'Game 16', hits: 8 },
+    { id: 17, date: 'Game 17', hits: 15 },
+    { id: 18, date: 'Game 18', hits: 11 },
+    { id: 19, date: 'Game 19', hits: 13 },
+    { id: 20, date: 'Game 20', hits: 10 },
+    { id: 21, date: 'Game 21', hits: 14 },
+    { id: 22, date: 'Game 22', hits: 9 },
+    { id: 23, date: 'Game 23', hits: 16 },
+  ],
+  gameOptions: [8, 10, 12, 14, 16],
+  colors: {
+    baseGames: '#238B21',
+    game24: '#006BE0',
+    game25: '#A22DDC',
+    medianLine: '#4B5563',
+    grid: '#e5e7eb',
+    axis: '#374151',
+  },
+  labels: {
+    game24: 'scenes.S6.S6_D0_F18_C9.game_24',
+    game25: 'scenes.S6.S6_D0_F18_C9.game_25',
+    median: 'scenes.S6.S6_D0_F18_C9.median',
+    showGames: 'scenes.S6.S6_D0_F18_C9.show_new_games',
+    hideGames: 'scenes.S6.S6_D0_F18_C9.hide_new_games',
+    notSelected: 'scenes.S6.S6_D0_F18_C9.not_selected',
+    hits: 'scenes.S6.S6_D0_F18_C9.hits',
+  },
+  chart: {
+    width: 600,
+    height: 300,
+    margin: {
+      top: 20,
+      right: 40,
+      bottom: 30,
+      left: 40,
+    },
+  },
+};
+
+export default interaction;

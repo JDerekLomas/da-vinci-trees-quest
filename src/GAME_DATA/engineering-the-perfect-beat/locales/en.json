@@ -1,0 +1,562 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Story Introduction",
+    "scene_4": "Understanding Sound Intensity",
+    "scene_5": "Measuring Sound Pressure",
+    "scene_6": "Logarithmic Scale Explorer",
+    "scene_7": "Mathematical Sound Intensity",
+    "scene_8": "Understanding the Formula",
+    "scene_9": "Decibels and Intensity Relationship",
+    "scene_10": "Decibel Formula Breakdown",
+    "scene_11": "Calculating Safe Decibel Levels",
+    "scene_12": "Logarithmic Applications",
+    "scene_13": "Speaker Combination Safety",
+    "scene_14": "Sound and Distance Introduction",
+    "scene_15": "Formula Explanation",
+    "scene_16": "Inverse Square Law Exploration",
+    "scene_17": "Festival Setup Planning",
+    "scene_18": "Speaker Placement Optimizer",
+    "scene_19": "Conclusion",
+    "scene_20": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Engineering the Perfect Beat</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>With Exponential and Logarithmic Functions</h2>",
+    "description": "Can you help Max and Jazz design a sound system that delivers great audio while protecting the ears of festival-goers for the SoundWave Music Festival? In this STEAMQuest, you'll apply exponential and logarithmic functions to control sound intensity and ensure safe listening levels.",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": "<h1 style=\"color: #000; font-size: 1.5rem; font-weight: 700; line-height: 36px; margin-bottom: 1rem;\">Welcome to Sound Wave Engineering</h1><p>The festival grounds are empty for now, but the real work has already begun. Towering speakers stand in position as engineers fine-tune their placement, adjusting levels and distances to ensure the perfect sound.</p>"
+    },
+    "S3": {
+      "S3_D1_F6_C1": "Hey Max! How's it going? Ready for the big festival?",
+      "S3_D2_F7_C2": "Hey Jazz, I'm really glad you're here. It's my first time working on a music festival this big, and I keep thinking about all the things that could go wrong.",
+      "S3_D3_F8_C1": "First festival jitters, huh? I remember those days. What's on your mind specifically?",
+      "S3_D4_F9_C2": "Well, I'm worried about the venue setup. How do we make sure everyone gets to enjoy the music properly? I've been to concerts where it's painfully loud up front, but you can barely hear anything in the back.",
+      "S3_D5_F10_C1": "Ah, that's the art and science of sound engineering right there! It's all about finding the optimal spot between clarity and safety.",
+      "S3_D5_F11_C2": "Yeah, and I'm guessing there's more to it than just turning up the volume."
+    },
+    "S4": {
+      "S4_D1_F13_C1": "You're absolutely right. Let's start by understanding sound intensity itself. Every sound you hear has a measurable intensity. This intensity is based on the pressure it creates in the air.",
+      "S4_D2_F14_C2": "Pressure in the air? Like how sound waves move?",
+      "S4_D3_F15_C1": "That's right. When a sound is made, it creates vibrations in the air, which we measure as pressure. Here's a table showing the sound pressures for some everyday sounds."
+    },
+    "S5": {
+      "S5_D0_F14_C9": {
+        "title": "Sound Wave Visualizer",
+        "body": "Interactive sound wave visualization with pressure measurements",
+        "about": {
+          "heading": "Sound Wave Visualization",
+          "body": "<div><p style='font-family: besley; margin-bottom: 15px;'>This interactive demonstrates the relationship between sound pressure levels and their visual representation as waves. Each sound source has different characteristics:</p><ul style='list-style-type: disc; padding-left: 20px;'><li><strong>Threshold of hearing (0 dB):</strong> The quietest sound humans can detect</li><li><strong>Whisper (20 dB):</strong> Very quiet, barely audible</li><li><strong>Quiet room (40 dB):</strong> Background ambient sound</li><li><strong>Normal conversation (60 dB):</strong> Typical speaking volume</li><li><strong>Concert/Siren (80 dB):</strong> Loud, potentially harmful with prolonged exposure</li><li><strong>Jet engine (100 dB):</strong> Very loud, immediate hearing damage risk</li></ul><p style='margin-top: 15px;'>The wave amplitude is scaled logarithmically to match how humans perceive loudness differences.</p></div>"
+        },
+        "help": {
+          "heading": "How to Use",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li>Click on any sound source button to select it and see its wave animation</li><li>Watch the animated wave change amplitude based on the sound's intensity</li><li>Observe the data panel showing pressure values, decibel levels, and logarithmic relationships</li><li>Notice how the wave color matches the sound source's intensity level</li><li>Compare different sources to see how pressure values scale exponentially</li></ul></div>"
+        },
+        "soundWaveVisualizer": {
+          "title": "Festival Sound Visualizer",
+          "sounds": {
+            "threshold": "Threshold of hearing",
+            "whisper": "Whisper",
+            "quietRoom": "Quiet room",
+            "normalConversation": "Normal conversation",
+            "concertSiren": "Concert / Siren",
+            "jetEngine": "Jet engine"
+          },
+          "labels": {
+            "header": "Festival Sound Visualizer",
+            "subtitle": "Select a sound source to see its wave and data relationships.",
+            "selectSoundSource": "Select Sound Source",
+            "decibelsLoudness": "Decibels (Loudness)",
+            "pressurePsi": "Pressure (psi)",
+            "scaledPressure": "Scaled Pressure (x10¹⁰)",
+            "log10ScaledPressure": "Log₁₀ (Scaled Pressure)",
+            "amplitudeExplanation": "Amplitude is the wave's height. It's scaled logarithmically to mirror how we perceive loudness!",
+            "selectSourceToBegin": "Select a sound source to begin"
+          }
+        }
+      },
+      "S5_D1_F15_C1": "Every sound you hear creates a pressure wave in the air. Let's see what those actually look like.",
+      "S5_D2_F16_C2": "Whoa, this wave is barely moving. Is that the quietest sound?",
+      "S5_D3_F17_C1": "Good eye. That's the threshold of hearing—the softest sound the human ear can pick up. Now try clicking through the other sounds. Watch how the wave height changes.",
+      "S5_D4_F18_C2": "These waves are getting huge! And look at these pressure numbers... they're jumping all over the place. Jet engine is 10,000 times bigger than a whisper!",
+      "S5_D5_F19_C1": "Exactly! Notice how the wave gets taller as the pressure increases. But those pressure numbers are hard to work with, aren't they?",
+      "S5_D6_F20_C2": "Definitely. It's tough to see the pattern when the numbers have so many zeros and are so spread out.",
+      "S5_D7_F21_C1": "That's exactly the challenge we need to solve. Let's test what you observed first. \nWhich of these is most likely true based on what you just saw?",
+      "S5_D7_F21_C1_option1": "The louder the sound, the taller the wave.",
+      "S5_D7_F21_C1_option2": "Pressure and wave height increase at the same steady rate.",
+      "S5_D7_F21_C1_option3": "A whisper and a jet engine create almost the same wave.",
+      "S5_D7_F21_C1_option4": "Wave height doesn't change as pressure increases.",
+      "S5_D8_F22_C1": "Correct! Louder sounds do create taller waves. But you noticed something important - those pressure values are all over the place and hard to compare.",
+      "S5_D9_F23_C2": "Yeah, the numbers make it difficult to see the relationships. There has to be a better way to visualize this.",
+      "S5_D10_F24_C1": "There definitely is! Let's explore that next..."
+    },
+    "S6": {
+      "S6_D0_F18_C9": {
+        "help": {
+          "heading": "How to Use",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li>Click <strong>Linear Scale</strong> or <strong>Logarithmic Scale</strong> tabs to switch between different y-axis displays</li><li>Use the <strong>navigation arrow buttons</strong> (◀ ▶) in the top right to move between different sound sources</li><li>The <strong>red dot</strong> indicates your current selection</li><li>Hover over data points to see detailed pressure values in tooltips</li></ul></div>"
+        },
+        "about": {
+          "heading": "Different Scales of Sound Levels",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li><strong>Linear Scale:</strong><ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li>Shows actual pressure values in psi (pounds per square inch)</li><li>Y-axis increases in equal steps</li><li>Makes lower pressure values appear compressed due to the large range</li></ul></li><li><strong>Logarithmic Scale:</strong><ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li>Y-axis represents powers of 10 (10⁰, 10¹, 10², 10³...)</li><li>Each step represents a 10-fold increase in pressure</li><li>Better reflects how humans perceive sound intensity differences</li></ul></li></ul></div>"
+        },
+        "title": "Logarithmic Explorer",
+        "graphDescription1": "Logarithmic scale sound pressure chart",
+        "graphDescription2": "Linear scale sound pressure chart",
+        "currentSelection": "Current selection: ",
+        "tableHeaders": {
+          "source": "Source",
+          "pressure": "Pressure (psi)",
+          "scaled": "Scaled (×10⁵)",
+          "log": "Log₁₀"
+        },
+        "tabs": {
+          "linear": "Linear Scale",
+          "log": "Logarithmic Scale"
+        },
+        "descriptions": {
+          "linear": "This extended vertical scale helps show the dramatic differences between sound pressure levels",
+          "log": "The logarithmic scale spreads out the values more evenly, making it easier to see the relationships between different sound levels"
+        },
+        "data": {
+          "source1": "Threshold of hearing",
+          "source2": "Whisper",
+          "source3": "Quiet room",
+          "source4": "Normal conversation",
+          "source5": "Concert / Siren",
+          "source6": "Jet engine"
+        },
+        "srRowDescription": "Source: {source}, Pressure: {pressure} psi, Scaled: {scaled}, Log: {log}",
+        "soundSource": "Sound Source",
+        "logarithmicScale": "Logarithmic Scaled Pressure (psi)",
+        "scaledPressure": "Scaled Pressure",
+        "dataPointFor": "Data point for ",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "S6_D1_F22_C1": "On the linear scale, quieter sounds like a whisper or quiet room are crammed near the bottom, while louder ones dominate.",
+      "S6_D2_F23_C2": "Yeah, and scrolling to the top is tiring! The y-axis ticks are so close together—it takes forever to see the louder sounds.",
+      "S6_D3_F24_C1": "Exactly. That's why we need a logarithmic scale. Let's switch and check it out.",
+      "S6_D4_F25_C2": "Oh, this is so much better! The quieter sounds, like a whisper and a quiet room, are now spread out. I can finally see the differences between them.",
+      "S6_D5_F26_C1": "Perfect! Look at the y-axis—it's multiplying by 10 at each tick: 1, 10, 100, 1,000, and so on.",
+      "S6_D6_F27_C2": "Oh, I see! Instead of equal spacing like in the linear scale, this scale makes it easier to handle both small and large values.",
+      "S6_D7_F28_C1": "That's the power of a logarithmic scale. It spreads out the smaller values while compressing the larger ones, making comparisons much clearer."
+    },
+    "S7": {
+      "S7_D1_F30_C2": "So the logarithmic scale makes it easier to compare sound loudness. But what exactly are we comparing? How does it connect to these intensities?",
+      "S7_D2_F31_C1": "Great question, Max. Let's talk about the relationship between the intensity of a sound and how we represent it mathematically. Sound intensity doesn't increase in a simple, linear way—it grows exponentially.",
+      "S7_D3_F32_C2": "Exponentially? What does that mean?",
+      "S7_D4_F33_C1": "It means as the sound gets louder, the intensity multiplies by a factor.",
+      "S7_D5_F34_C2": "Multiplies by a factor? So, if one sound is twice as loud, does its intensity double?",
+      "S7_D6_F35_C1": "Not quite. Sound intensity grows exponentially, meaning that even a small increase in how loud something seems can mean the intensity multiplies many times over.",
+      "S7_D7_F36_C2": "So, the intensity increases faster than the loudness we hear?",
+      "S7_D8_F37_C1": "Absolutely! If a sound's intensity doubles, we don't perceive it as twice as loud—it feels like a much smaller change. That's because our ears respond to sound intensity on a logarithmic scale.",
+      "S7_D9_F38_C2": "Oh, so there's a better way to represent it than using the raw intensity values?",
+      "S7_D10_F39_C1": "Yes, and that's where decibels, or dB, come in. Decibels allow us to compress these massive intensity values into smaller, more manageable numbers while keeping the relationships intact.",
+      "S7_D11_F40_C2": "Oh, so decibels simplify the comparison?",
+      "S7_D12_F41_C1": "That's right. Instead of saying \"this sound is a million times more intense,\" we can just say \"this sound is 60 dB.\" But it's still based on the same exponential relationship.",
+      "S7_D13_F42_C2": "What's the exponential relationship?"
+    },
+    "S8": {
+      "S8_D0_F44_C9": {
+        "title": "Inverse Decibel Formula",
+        "body": "<div role=\"text\" aria-label=\"I equals I zero times 10 raised to the power of dB divided by 10\" style='font-size: 40px; font-family: besley; margin-bottom: 20px;'><span style='font-style: italic; font-family: besley; color: #0061FC;' aria-hidden=\"true\">I</span> <span style='font-family: besley;' aria-hidden=\"true\">=</span> <span aria-hidden=\"true\"><span style='font-style: italic; font-family: besley; color: #633300;'>I</span><sub style='font-family: besley; color: #633300;'>0</sub></span> <span style='font-family: besley;' aria-hidden=\"true\">×</span> <span style='font-family: besley; color: #DB0072;' aria-hidden=\"true\">10</span><sup style='font-family: besley;' aria-hidden=\"true\"><div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-style: italic; color: #E0002B;'>dB</span></div><div style='padding-top: 2px; line-height: 1.2;'><span style='color: #DB0072;'>10</span></div></div></sup></div><p style='font-size: 20px; margin-bottom: 10px;'><span style='font-style: italic; font-family: besley; color: #0061FC;'>I:</span> Intensity of the sound being measured, typically in watts per square meter (W/m²) or pounds per square inch for sound pressure.</p><p style='font-size: 20px; margin-bottom: 10px;'><span role=\"text\" aria-label=\"I zero\"><span aria-hidden=\"true\" style='font-style: italic; font-family: besley; color: #633300;'>I</span><sub aria-hidden=\"true\" style='font-family: besley; color: #633300;'>0</sub></span>: Reference intensity, the threshold of hearing—the quietest sound the human ear can detect, usually 1 × <span role=\"math\" aria-label=\"ten to the power of negative twelve\">10<sup>-12</sup></span> W/m².</p><p style='font-size: 20px; margin-bottom: 10px;'><span style='font-style: italic; font-family: besley; color: #E0002B;'>dB:</span> Decibel level, a unit used to measure the relative intensity of a sound compared to a reference intensity.</p>"
+      },
+      "S8_D1_F44_C1": "<div role=\"text\" aria-label=\"I equals I zero times 10 raised to the power of dB divided by 10\" style='font-family: besley; font-size: 22px; font-weight: 400; text-align: left; margin: 12px;'><span style='color: #0061FC' aria-hidden=\"true\"><span className=\"eq-text italic\">I</span></span><span aria-hidden=\"true\"> = </span><span aria-hidden=\"true\"><span style='color: #633300' className=\"eq-text italic\">I</span><sub style='color: #633300'>0</sub></span><span aria-hidden=\"true\"> × </span><span style='color: #DB0072' aria-hidden=\"true\">10</span><sup aria-hidden=\"true\"><div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='color: #E0002B' className=\"eq-text italic\">dB</span></div><div style='padding-top: 2px; line-height: 1.2;'><span style='color: #DB0072'>10</span></div></div></sup></div>",
+      "S8_D2_F45_C2": "What does that mean?",
+      "S8_D3_F46_C1": "<span role=\"text\" aria-label=\"I zero\"><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden=\"true\">I<sub style='font-family: besley; font-style: normal; color: #633300'>0</sub></span></span> is the quietest sound the human ear can hear—our reference intensity. The formula tells us how many times louder a sound is compared to that. For example, at 10 dB, the intensity is <span style='font-family: besley;'>10</span> times greater than <span role=\"text\" aria-label=\"I zero\"><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden=\"true\">I<sub style='font-family: besley; font-style: normal; color: #633300'>0</sub></span></span>.",
+      "S8_D4_F47_C2": "So the formula connects how loud we perceive a sound to its actual intensity. That's interesting!",
+      "S8_D5_F48_C1": "Correct. Now let's use this graph to explore. You can adjust the decibel levels and see how quickly the intensity grows—it'll make the exponential relationship crystal clear."
+    },
+    "S9": {
+      "S9_D0_F50_C9": {
+        "help": {
+          "heading": "How to Use",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li>Use the slider to adjust values - this moves the red dot along the curve showing the exact relationship between decibels (<span style='font-family: besley; font-style: italic; color: #E0002B;'>dB</span>) and relative intensity (<div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic; color: #0061FC;'>I</span></div><div style='padding-top: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic; color: #633300;'>I</span><sub style='color: #633300;'>0</sub></div></div>) at that point</li><li>Click \"Flip Axes\" button to see how the exponential curve transforms into a logarithmic curve - this helps visualize the same relationship from a different perspective</li></ul></div>"
+        },
+        "about": {
+          "heading": "Intensity and Decibel Relation",
+          "body": "<div><div role=\"text\" aria-label=\"Decibels equals ten times log base ten of I divided by I zero\"><span aria-hidden=\"true\"><p style='font-family: besley;'><span style='font-style: italic; color: #E0002B;'>dB</span> = <span style='font-style: italic; color: #DB0072;'>10</span> × <span style='font-style: italic; color: #8E24AA;'>log<sub>10</sub></span> (<span style='font-style: italic; color: #0061FC;'>I</span>/<span style='font-style: italic; color: #633300;'>I</span><sub style='color: #633300;'>0</sub>)</p></span></div><div role=\"text\" aria-label=\"Intensity equals I zero times ten raised to the power of decibels divided by ten\"><span aria-hidden=\"true\"><p style='font-family: besley; margin-top: 12px;'><span style='font-style: italic; color: #0061FC;'>I</span> = <span style='font-style: italic; color: #633300;'>I</span><sub style='color: #633300;'>0</sub> × <span style='font-style: italic; color: #DB0072;'>10</span><sup>(<span style='font-style: italic; color: #E0002B;'>dB</span>/<span style='font-style: italic; color: #DB0072;'>10</span>)</sup></p></span></div><strong>where</strong><ul style='list-style-type: disc; padding-left: 20px;'><li><span style='font-family: besley; font-style: italic; color: #E0002B;'>dB</span>: decibel (<span style='font-family: besley; font-style: italic; color: #E0002B;'>dB</span>) represents a relative measure of loudness or sound pressure level as perceived by human hearing</li><li><span style='font-family: besley; font-style: italic; color: #0061FC;'>I</span>: This represents the measured intensity (often sound or power) that you're comparing</li><li><span style='font-family: besley; font-style: italic; color: #633300;'>I</span><sub style='color: #633300;'>0</sub>: This is the reference intensity that serves as a baseline for comparison. <span style='font-family: besley; font-style: italic; color: #633300;'>I</span><sub style='color: #633300;'>0</sub> is typically <strong><span role=\"math\" aria-label=\"10 raised to negative 12\">10<sup>-12</sup> </span><span role=\"math\" aria-label=\"watts per meter square\">W/m²</span></strong>, which corresponds to the threshold of human hearing.</li></ul></div>"
+        },
+        "title": "Intensity and Decibel Relationship",
+        "flipButton": {
+          "label": "Flip Axes",
+          "icon": "ArrowRightLeft"
+        },
+        "sliders": {
+          "intensity": {
+            "label": "Relative Intensity"
+          },
+          "decibels": {
+            "label": "Decibels"
+          }
+        },
+        "tooltips": {
+          "intensity": "Intensity",
+          "decibels": "dB"
+        },
+        "equations": {
+          "intensity": "Intensity equals I zero times ten raised to the power of decibels divided by ten.",
+          "decibel": "Decibels equals ten times the logarithm base ten of intensity divided by I zero."
+        },
+        "axes": {
+          "intensityPlain": "Relative Intensity ",
+          "intensity": "Relative Intensity (I/I₀)",
+          "decibels": "Decibels (dB)"
+        },
+        "dataPoint": "Data point: ",
+        "note": "Note: ",
+        "noteMsg": " represents the reference intensity (typically the threshold of hearing)",
+        "corresponding": "Corresponding",
+        "formulas": {
+          "intensityToDb": {
+            "ariaLabel": "dB equals 10 times log base 10 of I divided by I zero"
+          },
+          "dbToIntensity": {
+            "ariaLabel": "I equals I zero times 10 raised to the power of dB divided by 10"
+          }
+        }
+      },
+      "S9_D1_F50_C1": "Let's start by setting the decibel value to 10. What is the corresponding intensity?",
+      "S9_D2_F51_C2": "It's <span style='font-family: besley; font-size: 22px;'>10</span> times <span role=\"text\" aria-label=\"I Zero\"><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden=\"true\">I<sub style='color: #633300'>0</sub></span></span>.",
+      "S9_D3_F52_C1": "Great! Now increase the decibel value to 20. What is the intensity?",
+      "S9_D4_F53_C2": "Whoa! The intensity jumped to <span style='font-family: besley; font-size: 22px;'>100</span> times <span role=\"text\" aria-label=\"I zero\"><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden=\"true\">I<sub style='color: #633300'>0</sub></span></span>.",
+      "S9_D5_F54_C1": "That's correct. The intensity increased by a factor of <span style='font-family: besley;  font-size: 22px;'>10</span> when the decibel level went from <span style='font-family: besley;  font-size: 22px;'>10</span> to <span style='font-family: besley; font-size: 22px;'>20</span>. But what if we wanted to reverse the process? Suppose we know the intensity—how can we figure out the decibel value?",
+      "S9_D6_F55_C2": "Oh, I hadn't thought about that. How do we solve that?",
+      "S9_D7_F57_C1": "It's about turning the exponential equation into a logarithmic one. First, flip the axes so that intensity is on the x-axis and decibels are on the y-axis. This lets us see how intensity maps back to decibels.",
+      "S9_D8_F58_C1": "Notice how the curve helps us find the corresponding decibel value for any intensity. For example, if the intensity is <span style='font-family: besley; font-size: 22px;'>100</span> times <span role=\"text\" aria-label=\"I zero\"><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden=\"true\">I<sub style='color: #633300'>0</sub></span></span>, what's the decibel value?",
+      "S9_D9_F59_C2": "Oh, I see! So if I know the intensity, I can trace it back to find the decibel value."
+    },
+    "S10": {
+      "S10_D0_F57_C9": {
+        "title": "Decibel Formula",
+        "body": "<div role=\"text\" aria-label=\"dB equals 10 times log base 10 of I divided by I zero\" style='font-size: 40px; font-family: besley; margin-bottom: 20px;'><span style='font-style: italic; font-family: besley; color: #E0002B;' aria-hidden=\"true\">dB</span> <span style='font-family: besley;' aria-hidden=\"true\">=</span> <span style='font-family: besley; color: #DB0072;' aria-hidden=\"true\">10</span> <span style='font-family: besley;' aria-hidden=\"true\">×</span> <span style='font-style: italic; font-family: besley; color: #8E24AA;' aria-hidden=\"true\">log</span><sub style='font-family: besley; color: #8E24AA;' aria-hidden=\"true\">10</sub> <span style='font-family: besley;' aria-hidden=\"true\">(</span><div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span aria-hidden=\"true\"><span style='font-style: italic; font-family: besley; color: #0061FC;'>I</span></span></div><div style='padding-top: 2px; line-height: 1.2;'><span aria-hidden=\"true\"><span style='font-style: italic; font-family: besley; color: #633300;'>I</span><sub style='font-family: besley; color: #633300;'>0</sub></span></div></div><span style='font-family: besley;' aria-hidden=\"true\">)</span></div><p style='font-size: 20px; margin-bottom: 10px;'><span style='font-style: italic; font-family: besley; color: #0061FC;'>I</span>: Intensity of the sound being measured, typically in watts per square meter (W/m²) or pounds per square inch for sound pressure.</p><p style='font-size: 20px; margin-bottom: 10px;'><span role=\"text\" aria-label=\"I zero\"><span aria-hidden=\"true\" style='font-style: italic; font-family: besley; color: #633300;'>I</span><sub aria-hidden=\"true\" style='font-family: besley; color: #633300;'>0</sub></span>: Reference intensity, the threshold of hearing—the quietest sound the human ear can detect, usually 1 × <span role=\"math\" aria-label=\"ten to the power of negative twelve\"><span aria-hidden=\"true\">10<sup>-12</sup></span></span> W/m².</p><p style='font-size: 20px;'><span style='font-style: italic; font-family: besley; color: #E0002B;'>dB</span>: Decibel level, a unit used to measure the relative intensity of a sound compared to a reference intensity.</p>",
+        "help": {
+          "heading": "How to Use",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li>Click on any of the four example cards (Whisper, Normal Speech, Rock Concert, Jet Engine) to select different sound sources</li><li>Review the term explanations to understand each part of the <span style='font-family: besley; font-style: italic; color: #E0002B;'>dB</span> formula</li><li>Follow the step-by-step calculation breakdown to see how intensity values are converted to decibels</li><li>Check the result box to see the final <span style='font-family: besley; font-style: italic; color: #E0002B;'>dB</span> level for the selected example</li></ul></div>"
+        },
+        "decibelInteractive": {
+          "title": "Decibel Formula Interactive",
+          "convertTitle": "Convert to dB",
+          "intensityLabel": "Intensity: {intensity} W/m²",
+          "resultLabel": "Result: {db} dB",
+          "terms": {
+            "db": "Decibel level - the result we calculate",
+            "log10": "Base-10 logarithm function",
+            "I": "Intensity being measured (W/m²)",
+            "I0": "Reference intensity: 1 × 10⁻¹² W/m²"
+          },
+          "examples": {
+            "whisper": "Whisper",
+            "whisperCalc": "dB = 10 × log₁₀(10⁻¹⁰ / 10⁻¹²)\ndB = 10 × log₁₀(10²) = 10 × 2 = 20 dB",
+            "speech": "Normal Speech",
+            "speechCalc": "dB = 10 × log₁₀(10⁻⁶ / 10⁻¹²)\ndB = 10 × log₁₀(10⁶) = 10 × 6 = 60 dB",
+            "rock": "Rock Concert",
+            "rockCalc": "dB = 10 × log₁₀(10⁻¹ / 10⁻¹²)\ndB = 10 × log₁₀(10¹¹) = 10 × 11 = 110 dB",
+            "jet": "Jet Engine",
+            "jetCalc": "dB = 10 × log₁₀(10² / 10⁻¹²)\ndB = 10 × log₁₀(10¹⁴) = 10 × 14 = 140 dB"
+          },
+          "examplesTitle": "Intensity to dB Conversion Examples"
+        }
+      },
+      "S10_D1_F60_C1": "Perfect! And here's how it works mathematically. From the exponential <no-glossary>formula</no-glossary>, we can isolate <span style='font-family: besley; font-style: italic; color: #E0002B;'>dB</span> by applying <span style='font-family: besley; color: #DB0072;'>base-10</span> <span style='font-family: besley; font-style: italic; color: #8E24AA;'>log</span> ⇒ <div role=\"text\" aria-label=\"dB equals 10 log base 10 of I divided by I zero\" style='display: inline-block;'><span style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden=\"true\">dB</span><span aria-hidden=\"true\"> = </span><span style='font-family: besley; color: #DB0072;' aria-hidden=\"true\">10</span><span aria-hidden=\"true\"> </span><span style='font-family: besley; font-style: italic; color: #8E24AA;' aria-hidden=\"true\">log</span><sub style='font-family: besley; color: #8E24AA;' aria-hidden=\"true\">10</sub><span aria-hidden=\"true\"> (</span><div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic; color: #0061FC;' aria-hidden=\"true\">I</span></div><div style='padding-top: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden=\"true\">I</span><sub style='font-family: besley; color: #633300;' aria-hidden=\"true\">0</sub></div></div><span aria-hidden=\"true\">)</span></div>",
+      "S10_D2_F61_C2": "I see! So we take the intensity, divide it by the reference intensity, then take the log and multiply by 10. That makes sense!",
+      "S10_D3_F62_C1": "Great! Let's test your understanding. Based on examples given on the left side: \n\n If normal speech has an intensity of <span style='font-family: besley;'>1 × 10⁻⁶</span> W/m², what would be its decibel level?",
+      "S10_D4_F63_C2": "Alright, let me work through this step by step.<br>I'll use the <no-glossary>formula</no-glossary> with <span style='font-family: besley; font-style: italic; color: #0061FC; font-weight: bold;'>I = 1 × 10⁻⁶</span> and <span style='font-family: besley; font-style: italic; color: #633300; font-weight: bold;'>I<sub style=\"color: #633300; font-family: besley; font-weight: bold;\">₀</sub> = 1 × 10⁻¹²</span>.<br>When I divide them,<br> I get <span style='font-family: besley; font-weight: bold;'>10⁻⁶</span> / <span style='font-family: besley; font-weight: bold;'>10⁻¹²</span> = <span style='font-family: besley; font-weight: bold;'>10⁶</span>.<br>Then <span style='font-family: besley; font-style: italic; color: #8E24AA;'>log<sub style=\"color: #8E24AA; font-family: besley;\">₁₀</sub></span> of <span style='font-family: besley; font-weight: bold;'>10⁶</span> equals <span style='font-family: besley; font-weight: bold;'>6</span>,<br>and finally <b><span style='font-family: besley;'>10</span> × <span style='font-family: besley; font-weight: bold;'>6</span> = <span style='font-family: besley; font-weight: bold;'>60</span> dB!</b>",
+      "S10_D5_F64_C1": "Excellent! Now you understand how to convert between intensity and decibels. This <no-glossary>formula</no-glossary> is going to be crucial when we start working with multiple speakers later on."
+    },
+    "S11": {
+      "S11_D1_F63_C2": "Jazz, I've been wondering—if we add more speakers playing at the same spot, does that just make the sound twice as loud? Like if one speaker is <span style='font-family: besley; '>90 </span>dB, would two make it <span style='font-family: besley; '>180 </span>dB?",
+      "S11_D2_F64_C1": "Good question, Max, but it doesn't work like that. Sound levels don't simply add up—it's a logarithmic process.",
+      "S11_D3_F65_C2": "Logarithmic? So adding speakers doesn't just double the sound level?"
+    },
+    "S12": {
+      "S12_D0_F76_C9": {
+        "help": {
+          "heading": "How to Use",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li>Select number of speakers (1-8) using the buttons</li><li>Adjust base speaker level using the slider (80-100 <span aria-label='decibel' role='text'><span style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>dB</span></span>)</li><li>Check combined sound level displayed in green box</li><li>Observe how adding identical speakers increases total <span aria-label='decibel' role='text'><span style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>dB</span></span> level, but not linearly - doubling speakers doesn't double <span aria-label='decibel' role='text'><span style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>dB</span></span> level</li></ul></div>"
+        },
+        "about": {
+          "heading": "Combined Sound Level Formula",
+          "body": "<div><p style='font-family: besley; margin-bottom: 15px;'><span aria-label='dB total equals 10 times log base 10 of the sum of 10 to the power of dB i divided by 10' role='text'><span style='font-style: italic; color: #00749D;' aria-hidden='true'>dB<sub>total</sub></span><span aria-hidden='true'> = </span><span style='font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><span aria-hidden='true'> </span><span style='font-style: italic; color: #8E24AA;' aria-hidden='true'>log<sub>10</sub></span><span aria-hidden='true'> (Σ </span><span style='font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><sup style='font-style: italic; color: #E0002B;' aria-hidden='true'>(<span aria-hidden='true'>dB<sub>i</sub></span>/<span aria-hidden='true'>10</span>)</sup><span aria-hidden='true'>)</span></span></p><p style='font-size: 20px; margin-bottom: 10px;'><span style='font-family: besley; color: #00749D; font-style: italic;'>dB</span><sub style='font-family: besley; font-style: italic; color: #00749D;'>total</sub>: The total sound level in decibels after combining multiple sound sources.</p><p style='font-size: 20px; margin-bottom: 10px;'><span role=\"text\" aria-label=\"Sigma\">Σ</span> <span style='font-family: besley; color: #DB0072;'>10</span><sup>(<span style='font-family: besley; color: #E0002B; font-style: italic;'>dB</span><sub style='font-family: besley; color: #E0002B;'>i</sub>/<span style='font-family: besley; color: #DB0072;'>10</span>)</sup>: The sum of the intensities of all individual sound sources, converted from decibels to their linear intensity values.</p><p style='font-size: 20px; margin-bottom: 15px;'><span style='font-family: besley; color: #E0002B; font-style: italic;'>dB</span><sub style='font-family: besley; color: #E0002B;'>i</sub>: The decibel level of each individual sound source.</p><strong>Derivation:</strong><ol style='padding-left: 20px; list-style-type: decimal;'><li><span aria-label='I equals I 0 times 10 to the power of dB divided by 10' role='text'><span style='font-family: besley; font-style: italic; color: #0061FC;' aria-hidden='true'>I</span><span aria-hidden='true'> = </span><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden='true'>I<sub>0</sub></span><span aria-hidden='true'> × </span><span style='font-family: besley; font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><sup style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>(<span aria-hidden='true'>dB</span>/<span aria-hidden='true'>10</span>)</sup></span></li><li><span aria-label='For multiple sources, I total equals the sum of I i equals I 0 times the sum of 10 to the power of dB 1 divided by 10 plus 10 to the power of dB 2 divided by 10 and so on' role='text'><span aria-hidden='true'>For multiple sources: </span><span style='font-family: besley; font-style: italic; color: #A8351D;' aria-hidden='true'>I<sub>total</sub></span><span aria-hidden='true'> = Σ </span><span style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>I<sub>i</sub></span><span aria-hidden='true'> = </span><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden='true'>I<sub>0</sub></span><span aria-hidden='true'> (Σ </span><span style='font-family: besley; font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><sup style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>(<span aria-hidden='true'>dB<sub>1</sub></span>/<span aria-hidden='true'>10</span>)</sup><span aria-hidden='true'> + </span><span style='font-family: besley; font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><sup style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>(<span aria-hidden='true'>dB<sub>2</sub></span>/<span aria-hidden='true'>10</span>)</sup><span aria-hidden='true'> + ... )</span></span></li><li><span aria-label='Convert back: dB total equals 10 times log base 10 of I total divided by I 0' role='text'><span aria-hidden='true'>Convert back: </span><span style='font-family: besley; font-style: italic; color: #00749D;' aria-hidden='true'>dB<sub>total</sub></span><span aria-hidden='true'> = </span><span style='font-family: besley; font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><span aria-hidden='true'> </span><span style='font-family: besley; font-style: italic; color: #8E24AA;' aria-hidden='true'>log<sub>10</sub></span><span aria-hidden='true'> (</span><span style='font-family: besley; font-style: italic; color: #A8351D;' aria-hidden='true'>I<sub>total</sub></span><span aria-hidden='true'>/</span><span style='font-family: besley; font-style: italic; color: #633300;' aria-hidden='true'>I<sub>0</sub></span><span aria-hidden='true'>)</span></span></li><li><span aria-label='For n identical sources: dB total equals 10 times log base 10 of n times 10 to the power of dB divided by 10' role='text'><span aria-hidden='true'>For </span><span style='font-family: besley; font-style: italic; color: #677600;' aria-hidden='true'>n</span><span aria-hidden='true'> identical sources: </span><span style='font-family: besley; font-style: italic; color: #00749D;' aria-hidden='true'>dB<sub>total</sub></span><span aria-hidden='true'> = </span><span style='font-family: besley; font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><span aria-hidden='true'> </span><span style='font-family: besley; font-style: italic; color: #8E24AA;' aria-hidden='true'>log<sub>10</sub></span><span aria-hidden='true'> (</span><span style='font-family: besley; font-style: italic; color: #677600;' aria-hidden='true'>n</span><span aria-hidden='true'> × </span><span style='font-family: besley; font-style: italic; color: #DB0072;' aria-hidden='true'>10</span><sup style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden='true'>(<span aria-hidden='true'>dB</span>/<span aria-hidden='true'>10</span>)</sup><span aria-hidden='true'>)</span></span></li></ol></div>"
+        },
+        "title": "Sound Level Addition Simulator",
+        "formula": {
+          "formula": "dBₜₒₜₐₗ = 10 log₁₀(Σ 10^(dBᵢ/10))",
+          "for": "For ",
+          "identicalSourcesWithLevel": " identical sources with level:",
+          "equation": "db total equals 10 log base 10 times ",
+          "equation2": "multiplied by ten raised to the power of dB divided by 10"
+        },
+        "sliderLabel": "Base Speaker Level",
+        "combinedSoundLevel": "Combined Sound Level",
+        "baseLevelPerSpeaker": "Base Level per Speaker",
+        "recommendedAction": "Recommended Action",
+        "levelGuideTitle": "Level Guide:",
+        "levelGuide": {
+          "danger": ">95 dB: Danger",
+          "optimal": "75-95 dB: Optimal",
+          "low": "<75 dB: Low"
+        },
+        "exposureLimits": {
+          "danger": "Limit exposure immediately",
+          "optimal": "Safe for extended periods",
+          "low": "Increase amplification recommended"
+        },
+        "safetyInfo": {
+          "danger": {
+            "label": "Danger Zone",
+            "description": "Sound levels exceed safe limits. Reduce volume immediately."
+          },
+          "optimal": {
+            "label": "Optimal Zone",
+            "description": "Sound levels are in the ideal range for performance."
+          },
+          "low": {
+            "label": "Low Level Zone",
+            "description": "Sound levels are below optimal range. Consider increasing amplification."
+          }
+        },
+        "staticText": {
+          "soundLevelUpdatedTo": "Sound Level Updated to",
+          "with": "with",
+          "speaker": "Speaker",
+          "speakers": "speaker(s)",
+          "listener": "Listener",
+          "atPosition": "at position",
+          "set": "Set",
+          "standard": "Standard",
+          "maximum": "Maximum",
+          "stage": "Stage"
+        }
+      },
+      "S12_D1_F69_C1": "No, we use this formula, <span role=\"text\" aria-label=\"dB total equals 10 log base 10 of the sum of 10 raised to the power of dB i divided by 10\"><span style='font-family: besley; font-style: italic; color: #00749D;' aria-hidden=\"true\">dB<sub style='color: #00749D;'>total</sub></span> <span aria-hidden=\"true\">=</span> <span style='font-family: besley;' aria-hidden=\"true\"><span style='color: #DB0072;'>10</span> <span style='font-style: italic; color: #8E24AA;'>log</span><sub style='color: #8E24AA;'>10</sub></span> <span aria-hidden=\"true\">(Σ</span> <span style='font-family: besley;' aria-hidden=\"true\"><span style='color: #DB0072;'>10</span><sup>(<div style='display: inline-block; text-align: center; vertical-align: middle; margin-top: 12px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-style: italic; color: #E0002B;'>dB<sub style='color: #E0002B;'>i</sub></span></div><div style='padding-top: 2px; line-height: 1.2;'><span style='color: #DB0072;'>10</span></div></div>)</sup></span><span aria-hidden=\"true\">).</span></span>",
+      "S12_D2_F70_C1": "<strong>Σ (sigma)</strong> represents summation—it tells us to add up the intensity values from all sound sources. Instead of writing each term separately, sigma provides a compact way to represent the total intensity.",
+      "S12_D3_F71_C2": "So we first sum their intensities, then apply the logarithm?",
+      "S12_D4_F72_C1": "Indeed! Since intensity differences can be huge, the logarithm helps scale them properly, preventing smaller sounds from being overshadowed by louder ones.",
+      "S12_D5_F73_C2": " That makes sense! Instead of adding decibel values directly, we work with intensities first, then use the logarithm to get the total.",
+      "S12_D6_F74_C1": "Right! Now let's apply this to our setup and see it in action.",
+      "S12_D7_F76_C1": "Let's say, each speaker is set to 90 <span style='font-family: besley; font-style: italic;'>dB</span> then how many can we add before the total sound level goes over 95 <span style='font-family: besley; font-style: italic;'>dB</span>—the threshold for safe listening?",
+      "S12_D8_F77_C2": "Okay, with two speakers, it's 93 <span style='font-family: besley; font-style: italic; '>dB</span>. Adding a third makes it 94.8 <span style='font-family: besley; font-style: italic; '>dB</span>. But when I add a fourth, it jumps to 96 <span style='font-family: besley; font-style: italic; '>dB</span>—just past the safe zone.",
+      "S12_D9_F78_C1": "You've got it! With three speakers, the total is still safe, but adding that fourth one pushes it over the limit. That's why careful planning is key for sound setups—it's not just about adding more speakers.",
+      "S12_D10_F79_C2": "Got it. So, understanding how sound levels combine helps ensure both great audio and safety for listeners."
+    },
+
+    "S14": {
+      "S14_D1_F81_C1": "Now that we've figured out how sound levels combine from multiple speakers, let's talk about another crucial factor: distance.",
+      "S14_D2_F82_C2": "Distance? You mean how far people are standing from the speakers?",
+      "S14_D3_F83_C1": "Exactly! The farther you move from a sound source, the quieter it seems. This happens because sound intensity spreads out as it travels, following something called the inverse square law.",
+      "S14_D4_F84_C2": "The inverse square law? How does that work?"
+    },
+    "S15": {
+      "S15_D0_F86_C9": {
+        "title": "Inverse Square Law Formula",
+        "inverseSquare": {
+          "title": "Inverse Square Law: ",
+          "ariaLabel": "Graph showing the relationship between distance ratio and intensity ratio based on the inverse square law.",
+          "chartAriaLabel": "Line chart depicting the inverse square law relationship.",
+          "xAxisLabel": "Distance Ratio (d₂/d₁)",
+          "yAxisLabel": "Intensity Ratio (I₁/I₂)",
+          "tooltipIntensityLabel": "Intensity Ratio",
+          "tooltipDistanceLabel": "Distance Ratio",
+          "and": " and ",
+          "intensitiesDescription": " are intensities",
+          "distancesDescription": " are distances",
+          "equationAriaLabel": "I1 divided by I2 equals d2 divided by d1 whole squared"
+        }
+      },
+      "S15_D1_F86_C1": "The inverse square law means that the intensity of sound decreases with the square of the distance. Mathematically, it's written as: <span role=\"text\" aria-label=\"I 1 divided by I 2 equals open parenthesis d 2 divided by d 1 whole squared\"><span aria-hidden=\"true\"><div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic; color: #E0002B;'>I</span><sub style='font-family: besley; color: #E0002B;'>1</sub></div><div style='padding-top: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic; color: #8E24AA;'>I</span><sub style='font-family: besley; color: #8E24AA;'>2</sub></div></div> = (<div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic;'><span style='color: #008217;'>d</span><sub style='color: #008217;'>2</sub></span></div><div style='padding-top: 2px; line-height: 1.2;'><span style='font-family: besley; font-style: italic;'><span style='color: #677600;'>d</span><sub style='color: #677600;'>1</sub></span></div></div>)<sup style='color: #DB0072;'>2</sup></span></span>",
+      "S15_D2_F87_C2": "Oh, so if I double the distance, the intensity drops to a quarter?",
+      "S15_D3_F88_C1": "That's correct! Let's use this tool to see it in action."
+    },
+    "S16": {
+      "S16_D0_90_C9": {
+        "help": {
+          "heading": "How to Use",
+          "body": "<div><ul style='list-style-type: disc; padding-left: 20px;'><li>Use the distance slider at the bottom to adjust '<span style='font-family: besley; font-style: italic;'>r</span>' (distance from source)</li><li>The gray sphere represents the sound source</li><li>Mesh surfaces show intensity at different distances</li><li>See how doubling the distance reduces the intensity to ¼</li></ul><br><strong>How to Navigate</strong><ul style='list-style-type: disc; padding-left: 20px;'><li><strong>Mouse:</strong> Click and drag to rotate, scroll wheel to zoom in and out</li><li><strong>Touch:</strong> Drag to rotate, pinch to zoom in and out</li><li><strong>Keyboard:</strong> Use arrow keys to rotate</li><li><strong>Zoom:</strong> Press <strong>+</strong> to zoom in and <strong>-</strong> to zoom out, or use mouse wheel/pinch gestures</li></ul></div>"
+        },
+        "about": {
+          "heading": "Inverse Square Law for Sound Intensity",
+          "body": "<div><p style='font-family: besley; font-weight: bold;'><div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-style: italic; color: #E0002B;'>I</span><sub style='color: #E0002B;'>1</sub></div><div style='padding-top: 2px; line-height: 1.2;'><span style='font-style: italic; color: #8E24AA;'>I</span><sub style='color: #8E24AA;'>2</sub></div></div> = (<div style='display: inline-block; text-align: center; vertical-align: middle; margin: 0 2px;'><div style='border-bottom: 1px solid #374151; padding-bottom: 2px; line-height: 1.2;'><span style='font-style: italic; color: #008217;'>d</span><sub style='color: #008217;'>2</sub></div><div style='padding-top: 2px; line-height: 1.2;'><span style='font-style: italic; color: #677600;'>d</span><sub style='color: #677600;'>1</sub></div></div>)<sup style='color: #DB0072;'>2</sup></p><strong>where</strong><ul style='list-style-type: disc; padding-left: 20px;'><li><span style='font-family: besley; font-style: italic; color: #E0002B;'>I</span><sub style='color: #E0002B;'>1</sub>: Sound intensity at distance <span style='font-family: besley; font-style: italic; color: #677600;'>d</span><sub style='color: #677600;'>1</sub></li><li><span style='font-family: besley; font-style: italic; color: #8E24AA;'>I</span><sub style='color: #8E24AA;'>2</sub>: Sound intensity at distance <span style='font-family: besley; font-style: italic; color: #008217;'>d</span><sub style='color: #008217;'>2</sub></li><li><span style='font-family: besley; font-style: italic; color: #677600;'>d</span><sub style='color: #677600;'>1</sub>: First distance from sound source</li><li><span style='font-family: besley; font-style: italic; color: #008217;'>d</span><sub style='color: #008217;'>2</sub>: Second distance from sound source</li></ul><strong>What it means:</strong><p>The sound intensity decreases proportionally to the square of the distance from the source. For example:</p><ul style='list-style-type: disc; padding-left: 20px;'><li>If you double the distance (<span style='font-family: besley; font-style: italic; color: #008217;'>d</span><sub style='color: #008217;'>2</sub> = <span style='color: #A8351D;'>2</span><span style='font-style: italic; color: #677600;'>d</span><sub style='color: #677600;'>1</sub>), intensity drops to ¼</li><li>If you triple the distance (<span style='font-family: besley; font-style: italic; color: #008217;'>d</span><sub style='color: #008217;'>2</sub> = <span style='color: #A8351D;'>3</span><span style='font-style: italic; color: #677600;'>d</span><sub style='color: #677600;'>1</sub>), intensity drops to ⅑</li></ul></div>"
+        },
+        "title": "Inverse Square Law",
+        "labels": {
+          "intensity": "I",
+          "radiusUnit": "r",
+          "soundSource": "Sound Source",
+          "distance": "Distance",
+          "units": "m",
+          "unitsFull": "meters"
+        },
+        "infoText": "Use the arrow keys to rotate, + to zoom in, and - to zoom out. Hold Ctrl + arrow keys to pan.",
+        "equation1": "I2 equals I1 times (r1 divided by r2) squared, equals I1 times (1 divided by",
+        "equation2": ") squared, equals I1 divided by{' '}",
+        "equation3": ", equals ",
+        "equation4": " watts per meter squared",
+        "graphDescription": "3D graph with a slider demonstrating Inverse Square Law"
+      },
+      "S16_D1_F90_C1": "Imagine the sound intensity at 1 meter from the speaker is <span role=\"math\" aria-label=\"I1 equals 100 watts per meter square\"></span><span style='font-family: besley; font-style: italic; color: #E0002B;' aria-hidden=\"true\">I<sub style='font-family: besley; color: #E0002B;'>1</sub></span> <span aria-hidden=\"true\">=</span> <span style='font-family: besley; color: #DB0072;' aria-hidden=\"true\">100 </span><span style='font-family: besley; font-style: italic;' aria-hidden=\"true\">W/m².</span></> If the distance is doubled to <span role=\"text\" aria-label=\"d 2 equals 2\"><span style='font-family: besley; font-style: italic; color: #008217;' aria-hidden=\"true\">d<sub>2</sub></span><span aria-hidden=\"true\"> = </span><span style='font-family: besley; color: #008217;' aria-hidden=\"true\">2</span></span>, what is the intensity?",
+      "S16_D2_F91_C2": "Okay, so <span role=\"text\" aria-label=\"I 2 equals 100 divided by 4 equals 25 watts per meter squared\"><span style='font-family: besley; font-style: italic; color: #8E24AA;' aria-hidden=\"true\">I</span><sub style='font-family: besley; color: #8E24AA;'>2</sub><span style='font-family: besley; color: #DB0072;' aria-hidden=\"true\"> = 100/4 = 25 </span><span style='font-family: besley; font-style: italic;' aria-hidden=\"true\">W/m²</span></span>. Doubling the distance reduces the intensity to one-fourth!",
+      "S16_D3_F92_C1": "Exactly! That's the beauty of the inverse square law—it shows how distance plays a huge role in sound intensity. This is why proper speaker placement is so critical in large spaces like festivals.",
+      "S16_D4_F93_C2": "Got it. Even a small change in distance can have a big impact on the sound people hear!"
+    },
+    "S17": {
+      "S17_D1_F95_C1": "Now that you understand how multiple speakers combine their sound and how distance affects intensity, let's see how we can bring these two concepts together.",
+      "S17_D2_F96_C2": "That sounds perfect! Combining them should help us find the ideal setup for the festival."
+    },
+    "S18": {
+      "S18_D0_F98_C9": {
+        "title": "Speaker Distance Optimizer",
+        "formulas": {
+          "inverseSquare": {
+            "label": "Formula 1: Inverse Square Law",
+            "formula": "<span className=\"sr-only\">L2 equals L1 minus 20 log base 10 times (r2 divided by r1)</span><span aria-hidden=\"true\" style='font-family: Besley; font-weight: bold;'><em style='color: #8E24AA;'>L<sub style='color: #8E24AA;'>2</sub></em> = <em style='color: #E0002B;'>L<sub style='color: #E0002B;'>1</sub></em> - <span style='color: #DB0072;'>20</span> <span style='color: #8E24AA;'>log<sub>10</sub></span> (<em style='color: #008217;'>r<sub style='color: #008217;'>2</sub></em>/<em style='color: #677600;'>r<sub style='color: #677600;'>1</sub></em>)</span>",
+            "ariaLabel": "L2 equals L1 minus 20 times log base 10 of r2 divided by r1"
+          },
+          "logarithmicAddition": {
+            "label": "Formula 2: Logarithmic Addition",
+            "formula": "<span className=\"sr-only\">L total equals 10 log base 10 times the sum of 10 raised to L i divided by 10</span><span aria-hidden=\"true\" style='font-family: Besley; font-weight: bold;'><em style='color: #00749D;'>L<sub style='color: #00749D;'>total</sub></em> = <span style='color: #DB0072;'>10</span> <span style='color: #8E24AA;'>log<sub>10</sub></span> (∑ <span style='color: #DB0072;'>10</span><sup>(<em style='color: #E0002B;'>L<sub style='color: #E0002B;'>i</sub></em> / <span style='color: #DB0072;'>10</span>)</sup>)</span>",
+            "ariaLabel": "L total equals 10 times log base 10 of the sum of 10 raised to the power of L i divided by 10"
+          }
+        },
+        "sliderLabels": {
+          "distance": "Speaker Distance from Center",
+          "intensity": "Speaker Sound Intensity (at 1 meter)"
+        },
+        "staticText": {
+          "stage": "Stage",
+          "selectedPoint": "Selected Point",
+          "speaker": "Speaker",
+          "listener": "Listener",
+          "audience": "Audience",
+          "meter": "meter",
+          "simulationArea": "Speaker simulation area",
+          "calculationsHeading": "Sound Calculations",
+          "speakerDetails": "Speaker Details",
+          "soundLevel": "Sound Level",
+          "soundLevelZones": "Sound Level Zones",
+          "speakersAt": "Speakers at",
+          "combinedLevel": "Combined Level"
+        },
+        "zones": {
+          "tooWeak": "Too Weak: <75 dB",
+          "optimal": "Optimal: 75-95 dB",
+          "danger": "Danger Zone: >95 dB"
+        },
+        "a11y": {
+          "instructions": "Use arrow keys to adjust sliders. Press Home or End to set minimum or maximum values.",
+          "sliderStepInfo": "Hold Shift with arrow keys for larger steps.",
+          "speakerPositionChange": "Speaker positions updated.",
+          "soundLevelChange": "Sound level updated to",
+          "distanceAnnouncement": "Distance is now",
+          "intensityAnnouncement": "Intensity is now"
+        },
+        "info": {
+          "heading": "Formulas",
+          "body": "<div><style>.fraction {display: inline-block;text-align: center;vertical-align: middle;margin: 0 2px;}.fraction .numerator {display: block;border-bottom: 1px solid #000;padding-bottom: 2px;line-height: 1;}.fraction .denominator {display: block;padding-top: 2px;line-height: 1;}</style><p style='font-weight: bold; padding-bottom: 10px; font-size: 1.1em; color: #2c3e50;'>Converting from Intensity to Decibel Form</p><p style='margin-bottom: 8px;'><strong>Original Inverse Square Law (Intensity Form):</strong></p><p style='font-family: Besley; font-weight: bold; margin-bottom: 10px;'><span class=\"fraction\"><span class=\"numerator\"><em style='color: #E0002B;'>I<sub style='color: #E0002B; font-style: normal;'>1</sub></em></span><span class=\"denominator\"><em style='color: #8E24AA;'>I<sub style='color: #8E24AA; font-style: normal;'>2</sub></em></span></span> = <span class=\"fraction\"><span class=\"numerator\">(<em style='color: #008217;'>d<sub style='color: #008217; font-style: normal;'>2</sub></em>)</span><span class=\"denominator\">(<em style='color: #677600;'>d<sub style='color: #677600; font-style: normal;'>1</sub></em>)</span></span><sup style='color: #DB0072;'>2</sup></p><p style='margin-bottom: 8px;'><strong>Converted to Decibel Form:</strong></p><p style='font-family: Besley; font-weight: bold; margin-bottom: 10px;'><em style='color: #8E24AA;'>L<sub style='color: #8E24AA; font-style: normal;'>2</sub></em> = <em style='color: #E0002B;'>L<sub style='color: #E0002B; font-style: normal;'>1</sub></em> - <span style='color: #DB0072;'>20</span> <span style='color: #8E24AA;'>log<sub style='font-style: normal;'>10</sub></span><span class=\"fraction\"><span class=\"numerator\">(<em style='color: #008217;'>r<sub style='color: #008217; font-style: normal;'>2</sub></em>)</span><span class=\"denominator\">(<em style='color: #677600;'>r<sub style='color: #677600; font-style: normal;'>1</sub></em>)</span></span></p><p style='margin-bottom: 8px;'><strong>How we get there:</strong></p><ul style='list-style-type: disc; margin: 5px 0px 10px 0px; padding-left: 20px;'><li>Start with the intensity relationship: <em style='font-family: Besley;'>I<sub>2</sub> = I<sub>1</sub> × <span class=\"fraction\"><span class=\"numerator\">(d<sub>1</sub>)</span><span class=\"denominator\">(d<sub>2</sub>)</span></span><sup>2</sup></em></li><li>Apply the decibel formula to both intensities: <em style='font-family: Besley;'>L = 10 log<sub>10</sub><span class=\"fraction\"><span class=\"numerator\">(I)</span><span class=\"denominator\">(I<sub>0</sub>)</span></span></em></li><li>Use logarithm properties to combine terms</li><li>The \"square\" becomes a factor of 20 (since 10 × 2 = 20)</li></ul><p style='margin: 10px 0px; padding: 10px; background: #f0f8ff; border-left: 4px solid #3498db;'><strong>Why this matters:</strong> The decibel form lets us work directly with sound levels instead of intensity ratios, making calculations much more practical for sound engineering.</p><hr style='margin: 20px 0px; border: 1px solid #dee2e6;'/><p style='font-weight: bold; padding-bottom: 10px'>Sound Level at a New Distance:</p><p style='font-family: Besley; font-weight: bold;' aria-label=\"Sound level at new distance equals sound level at reference distance minus 20 times log base 10 of ratio of new distance to reference distance\"><em style='color: #8E24AA;'>L<sub style='color: #8E24AA; font-style: normal;'>2</sub></em> = <em style='color: #E0002B;'>L<sub style='color: #E0002B; font-style: normal;'>1</sub></em> - <span style='color: #DB0072;'>20</span> <span style='color: #8E24AA;'>log<sub style='font-style: normal;'>10</sub></span> <span class=\"fraction\"><span class=\"numerator\">(<em style='color: #008217;'>r<sub style='color: #008217; font-style: normal;'>2</sub></em>)</span><span class=\"denominator\">(<em style='color: #677600;'>r<sub style='color: #677600; font-style: normal;'>1</sub></em>)</span></span></p><ul style='list-style-type: disc; margin: 10px 0px 10px 0px; padding-left: 20px;'><li><em style='font-family: Besley; color: #E0002B;'>L<sub style='font-family: Besley; color: #E0002B; font-style: normal;'>1</sub></em>: Sound level at the reference distance <em style='font-family: Besley; color: #677600;'>r<sub style='font-family: Besley; color: #677600; font-style: normal;'>1</sub></em>.</li><li><em style='font-family: Besley; color: #8E24AA;'>L<sub style='font-family: Besley; color: #8E24AA; font-style: normal;'>2</sub></em>: Sound level at the new distance <em style='font-family: Besley; color: #008217;'>r<sub style='color: #008217; font-style: normal;'>2</sub></em>.</li><li><em style='font-family: Besley; color: #677600;'>r<sub style='font-family: Besley; color: #677600; font-style: normal;'>1</sub></em>: Reference distance (here it is 1m).</li><li><em style='font-family: Besley; color: #008217;'>r<sub style='font-family: Besley; color: #008217; font-style: normal;'>2</sub></em>: New distance.</li></ul><p style='font-weight: bold; padding-bottom: 10px; padding-top: 15px'>Logarithmic Addition for Combined Sound Levels:</p><p style='font-family: Besley; font-weight: bold;' aria-label=\"Total sound level equals 10 times log base 10 of the sum from i equals 1 to n of 10 raised to the power of L sub i divided by 10\"><em style='color: #00749D;'>L<sub style='color: #00749D; font-style: normal;'>total</sub></em> = <span style='color: #DB0072;'>10</span> <span style='color: #8E24AA;'>log<sub style='font-style: normal;'>10</sub></span> (∑<sub style='font-style: normal;'>i=1</sub><sup style='font-style: normal;'>n</sup> <span style='color: #DB0072;'>10</span><sup>(<span class=\"fraction\"><span class=\"numerator\"><em style='color: #E0002B;'>L<sub style='color: #E0002B; font-style: normal;'>i</sub></em></span><span class=\"denominator\"><span style='color: #DB0072;'>10</span></span></span>)</sup>)</p><ul style='list-style-type: disc; margin: 10px 0px 10px 0px; padding-left: 20px;'><li><em style='font-family: Besley; color: #00749D;'>L<sub style='font-family: Besley; color: #00749D; font-style: normal;'>total</sub></em>: Combined sound level from multiple speakers.</li><li><em style='font-family: Besley; color: #E0002B;'>L<sub style='color: #E0002B; font-style: normal;'>i</sub></em>: Sound level from each individual speaker.</li><li><em style='font-family: Besley;'>n</em>: Total number of speakers.</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to use:",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 0px; padding-left: 20px;'><li>Adjust <span style='font-weight: bold;'>Speaker Distance</span> slider to change distance between speakers and audience</li><li>Use <span style='font-weight: bold;'>Speaker Sound Intensity</span> slider to modify the initial sound level (at 1 meter)</li><li>Observe the color-coded audience members (green: optimal, yellow: too weak)</li><li>Watch the speaker level calculations update in real-time</li></ul></div>"
+        }
+      },
+      "S18_D1_F98_C1": "Take a look at this setup. The audience is spread out across the venue, and we have speakers positioned at different points to ensure everyone gets a balanced sound experience.",
+      "S18_D2_F99_C2": "Right, but if the speakers are at different distances from the audience, won't the sound levels vary a lot?",
+      "S18_D3_F100_C1": "True. That's where this interactive comes in handy. It uses the inverse square law and logarithmic addition to help us figure out the best placement and sound levels.",
+      "S18_D4_F101_C2": "Wait, I think we learned that the inverse square law was I₁/I₂ = (d₂/d₁)², but this <no-glossary>formula</no-glossary> looks completely different.",
+      "S18_D5_F102_C1": "Good catch! Remember, we converted from working with intensities to working with decibels. When we take the logarithm of both sides and account for the decibel scale, that squared relationship becomes the factor of 20 you see here.",
+      "S18_D6_F103_C2": "Ah, so it's the same physics, just expressed in the decibel form!",
+      "S18_D7_F104_C1": "Exactly! Now, let's say each speaker produces 125 dB at 1 meter. What do you think is the closest distance to the center where the sound stays within the safe range, at or below 95 dB?",
+      "S18_D8_F105_C2": "Looks like the closest distance is 62.9 meters.",
+      "S18_D9_F106_C1": "Exactly, this shows how critical it is to consider both the inverse square law and logarithmic addition when designing sound setups."
+    },
+    "S19": {
+      "S19_D1_F106_C2": "This makes so much sense now! It's not just about making it loud enough - it's about smart placement and balanced sound.",
+      "S19_D2_F107_C1": "You've got it! And notice how we used math to solve a real festival problem. No guesswork needed.",
+      "S19_D3_F108_C2": "The inverse square law for distance, logarithmic addition for multiple speakers... it all connects together."
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You have engineered the perfect sound experience!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' />You successfully completed Engineering The Perfect Beat STEAMQuest.<br><br><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You explored exponential sound intensity and the role of logarithms in managing decibel levels</li><li>You learned how the inverse square law explains intensity decreases with distance</li><li>You applied mathematical models to calculate safe distances and optimize speaker placement</li><li>You designed festival layouts for balanced, safe, and immersive sound experiences</li></ul><br>Keep exploring the science that makes great sound possible!",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><mask id=\"mask0_7897_7610\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"80\"><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"9.5\" fill=\"#5454D8\" stroke=\"#005F20\"/></mask><g mask=\"url(#mask0_7897_7610)\"><path d=\"M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z\" fill=\"black\"/><path d=\"M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9495 10.0803 10.9495 10.0803 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.407321 42.1793 0.778208Z\" fill=\"#FFCC00\" stroke=\"black\"/></g><path d=\"M47.2663 45.9238L47.2596 45.9179C46.8388 45.5365 46.8678 45.0034 47.2511 44.6928L47.2599 44.6856L47.2684 44.6781C49.025 43.1177 50.002 41.0377 50.002 38.7969C50.002 36.5542 49.025 34.4761 47.2684 32.9157L47.2602 32.9085L47.2517 32.9016C46.8673 32.589 46.841 32.0495 47.2684 31.6699L47.2766 31.6626L47.2845 31.6549C47.6691 31.2818 48.3881 31.261 48.8484 31.6699C53.2734 35.6023 53.2735 41.9926 48.8491 45.9232C48.6241 46.1215 48.316 46.2241 48.0574 46.2241C47.7953 46.2241 47.4899 46.1225 47.2663 45.9238Z\" fill=\"black\" stroke=\"black\"/><path d=\"M51.7546 27.6847L51.7629 27.6773C52.1533 27.3394 52.8835 27.3175 53.3554 27.6512C60.2209 33.7675 60.2149 43.7055 53.3374 49.8151C53.1124 50.0133 52.8043 50.116 52.5457 50.116C52.2836 50.116 51.9782 50.0143 51.7546 49.8156L51.7464 49.8084L51.7379 49.8015C51.354 49.4894 51.3273 48.9509 51.7529 48.5713C54.7424 45.9669 56.3586 42.4613 56.3586 38.7502C56.3586 35.034 54.6841 31.5327 51.7546 28.9305L51.7464 28.9232L51.7379 28.9163C51.3535 28.6038 51.3272 28.0643 51.7546 27.6847Z\" fill=\"black\" stroke=\"black\"/><path d=\"M27.7836 31.9395V31.4395H23.9539C21.7619 31.4395 20 33.0063 20 34.9515V42.6414C19.9979 44.5884 21.7619 46.1554 23.9539 46.1554H27.7836V45.6554M27.7836 31.9395H23.9539C21.9809 31.9395 20.5 33.3364 20.5 34.9515V42.6414V42.6419C20.4983 44.2582 21.9805 45.6554 23.9539 45.6554H27.7836M27.7836 31.9395H28.2836V45.6554H27.7836M27.7836 31.9395V45.6554\" fill=\"black\" stroke=\"black\"/><path d=\"M39.8147 52.8358L39.8138 52.8351L30.9213 45.8289V31.7659L39.8115 24.7616C40.4738 24.2527 41.3519 24.1393 42.0899 24.4482L42.0907 24.4485C42.8398 24.7606 43.2798 25.4037 43.2798 26.0749V51.52C43.2798 52.1883 42.8435 52.828 42.0981 53.1433C41.7914 53.2579 41.5325 53.2971 41.2141 53.2971C40.6742 53.2971 40.1978 53.1391 39.8147 52.8358Z\" fill=\"black\" stroke=\"black\"/><path d=\"M47.2663 44.1465L47.2596 44.1405C46.8388 43.7592 46.8678 43.226 47.2511 42.9154L47.2599 42.9083L47.2684 42.9008C49.025 41.3403 50.002 39.2604 50.002 37.0196C50.002 34.7768 49.025 32.6987 47.2684 31.1384L47.2602 31.1311L47.2517 31.1242C46.8673 30.8117 46.841 30.2722 47.2684 29.8926L47.2766 29.8853L47.2845 29.8776C47.6691 29.5044 48.3881 29.4837 48.8484 29.8926C53.2734 33.825 53.2735 40.2153 48.8491 44.1459C48.6241 44.3441 48.316 44.4468 48.0574 44.4468C47.7953 44.4468 47.4899 44.3452 47.2663 44.1465Z\" fill=\"white\" stroke=\"black\"/><path d=\"M51.7546 25.9074L51.7629 25.9C52.1533 25.562 52.8835 25.5401 53.3554 25.8738C60.2209 31.9901 60.2149 41.9281 53.3374 48.0377C53.1124 48.2359 52.8043 48.3386 52.5457 48.3386C52.2836 48.3386 51.9782 48.237 51.7546 48.0383L51.7464 48.0311L51.7379 48.0242C51.354 47.712 51.3273 47.1735 51.7529 46.794C54.7424 44.1896 56.3586 40.6839 56.3586 36.9728C56.3586 33.2567 54.6841 29.7553 51.7546 27.1531L51.7464 27.1459L51.7379 27.139C51.3535 26.8265 51.3272 26.287 51.7546 25.9074Z\" fill=\"white\" stroke=\"black\"/><path d=\"M27.7836 30.1621V29.6621H23.9539C21.7619 29.6621 20 31.229 20 33.1742V40.8641C19.9979 42.8111 21.7619 44.378 23.9539 44.378H27.7836V43.878M27.7836 30.1621H23.9539C21.9809 30.1621 20.5 31.559 20.5 33.1742V40.8641V40.8646C20.4983 42.4809 21.9805 43.878 23.9539 43.878H27.7836M27.7836 30.1621H28.2836V43.878H27.7836M27.7836 30.1621V43.878\" fill=\"white\" stroke=\"black\"/><path d=\"M39.8147 51.0585L39.8138 51.0577L30.9213 44.0515V29.9886L39.8115 22.9843C40.4738 22.4753 41.3519 22.3619 42.0899 22.6709L42.0907 22.6712C42.8398 22.9832 43.2798 23.6263 43.2798 24.2976V49.7427C43.2798 50.411 42.8435 51.0506 42.0981 51.366C41.7914 51.4806 41.5325 51.5198 41.2141 51.5198C40.6742 51.5198 40.1978 51.3618 39.8147 51.0585Z\" fill=\"white\" stroke=\"black\"/></svg>",
+      "leftsvgarialabel": "Speaker Icon",
+      "rightsvg": "<div style='margin-right: -50px; margin-top: 20px; opacity: 0.2;'><svg width='120' height='86' viewBox='0 0 120 86' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M60.8129 85.7676C58.9981 85.7676 57.3312 85.232 55.9716 84.1556L30.5542 64.1297L30.2527 64.1297L30.2527 22.4611L30.5542 22.4611L55.9716 2.43557C58.2415 0.687125 61.268 0.282829 63.8394 1.3592C66.4106 2.43026 68.0776 4.71957 68.0776 7.27132L68.0776 79.3199C68.0776 81.8717 66.4108 84.1557 63.8394 85.232C62.7812 85.6311 61.871 85.7676 60.8129 85.7676ZM89.7183 16.4154C87.9035 14.9399 87.9035 12.3829 89.7183 10.771L89.7183 10.7707C91.3852 9.29004 94.258 9.29004 96.0787 10.6289C116.206 28.5072 116.206 57.6741 96.0787 75.5524C95.1683 76.3557 93.9566 76.76 92.8985 76.76C91.8344 76.76 90.6286 76.361 89.7183 75.5524C87.9035 74.077 87.9035 71.52 89.7183 69.908C97.8933 62.7885 102.279 53.2428 102.279 43.1617C102.279 33.0806 97.7396 23.5404 89.7183 16.4154ZM80.1897 65.7402C79.1257 65.7402 77.9198 65.3412 77.0095 64.5326L77.0095 64.5328C75.1948 62.9156 75.1948 60.3638 77.0154 58.8884C81.7088 54.7193 84.2801 49.2062 84.2801 43.294C84.2801 37.3765 81.7089 31.8687 77.0154 27.6997C75.2007 26.2242 75.2007 23.6672 77.0154 22.0552C78.6765 20.4433 81.5552 20.4433 83.3699 22.0552C96.5339 33.7538 96.5339 52.8396 83.3699 64.5326C82.4596 65.3359 81.2478 65.7402 80.1897 65.7402ZM11.94 64.1297L24.1997 64.1297L24.1997 22.4611L11.94 22.4611C5.73333 22.4611 0.744421 26.8978 0.744422 32.4057L0.744422 54.1798C0.738511 59.6929 5.73333 64.1297 11.94 64.1297Z' fill='white'/></svg></div>"
+    },
+    "glossary": {
+      "decibels": {
+        "word": "Decibels",
+        "definition": "<strong className=\"text-[#0055B2]\">Decibels</strong> is a logarithmic unit that measures sound levels relative to a reference intensity."
+      },
+      "logarithmic_scale": {
+        "word": "Logarithmic scale",
+        "definition": "<strong className=\"text-[#0055B2]\">Logarithmic scale</strong>  is a scale where values increase by factors of 10, making large differences easier to compare."
+      },
+      "exponential_growth": {
+        "word": "Exponential growth",
+        "definition": "<strong className=\"text-[#0055B2]\">Exponential growth</strong> is a pattern where a quantity multiplies by a fixed factor instead of increasing linearly."
+      },
+      "inverse_square_law": {
+        "word": "Inverse square law",
+        "definition": "<strong className=\"text-[#0055B2]\">Inverse square law</strong> states that sound intensity decreases in proportion to the square of the distance from a point source in a free field."
+      },
+      "summation": {
+        "word": "Summation",
+        "definition": "<strong className=\"text-[#0055B2]\">Summation</strong> is a  mathematical symbol that represents adding multiple values together."
+      },
+      "logarithmic_addition": {
+        "word": "Logarithmic addition",
+        "definition": "<strong className=\"text-[#0055B2]\">Logarithmic addition</strong>  is a process of combining values in a logarithmic scale instead of adding them directly."
+      },
+      "reference_intensity": {
+        "word": "Reference intensity",
+        "definition": "<strong className=\"text-[#0055B2]\">Reference intensity</strong> is a baseline intensity level used for comparison in decibel calculations."
+      }
+    },
+    "common": {
+      "jazz": "Jazz",
+      "max": "Max",
+      "jazz_description": "A veteran sound engineer in a yellow plaid flannel over black, with curly hair and headphones.",
+      "max_description": "A focused young male student with long black hair, wearing a blue hoodie, a white t-shirt, headphones around his neck, and a smartwatch on his wrist, holding a digital tablet.",
+      "bg1_description": "Outdoor amphitheater sound station overlooking stage in red rock canyon.",
+      "bg2_description": "Recording studio control room with mixing console and recording booth window.",
+      "bg3_description": "Music festival main stage and vendors in red rock canyon sunset.",
+      "bg4_description": "Concert venue with crowd enjoying performance under blue stage lights.",
+      "bg5_description": "Professional audio engineering workspace with multiple workstations and technical sound analysis displays.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "game-engineering-the-perfect-beat": "STEAM Quest - Engineering the Perfect Beat"
+  }
+}

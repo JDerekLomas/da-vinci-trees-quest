@@ -1,0 +1,647 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Señal de Socorro",
+    "scene_4": "Recolección de Rumbos RDF",
+    "scene_5": "Trazado de Rumbos",
+    "scene_6": "Trazador de Triangulación",
+    "scene_7": "Refinando el Área de Búsqueda",
+    "scene_8": "Geometría de Círculos: Circuncentro vs Incentro",
+    "scene_9": "Resultado del Rescate y Reflexión",
+    "scene_10": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Rescate Calculado:</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>Cuando las Matemáticas se Encuentran con Desastres Marítimos</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Febrero de 1954, costa del Mar del Norte. Un buque de carga se perdió en una tormenta furiosa. Tres rumbos de radio y un puñado de principios geométricos eran todo lo que teníamos para salvar veintisiete vidas. Esa noche, el jefe del puerto Quinn me mostró que las matemáticas no eran solo teoría de aula, sino nuestra herramienta más poderosa en la carrera contra el tiempo y la marea.</div>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Cuando las Matemáticas se Encuentran con el Desastre Marítimo: Una Exploración Matemática Práctica</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Únete a Thomas Harlow en Puerto Blackrock mientras aprende a usar el equipo de <b>Radiogonometría (RDF)</b> para localizar el Meridian desaparecido. Guía a la tripulación del barco a través de la toma de mediciones precisas de rumbo, luego aplica triangulación y geometría circular para determinar su posición exacta y planificar una operación de rescate eficiente.</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_F1_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué ocurre, señor? Escuché la alarma de emergencia.</div>",
+      "S3_D2_F2_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Llamada de socorro del carguero Meridian. Está atrapado en la tormenta en algún lugar del Mar del Norte.</div>",
+      "S3_D3_F3_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Tenemos sus coordenadas?</div>",
+      "S3_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Afortunadamente, el Meridian aún tiene contacto de radio con nosotros. Y tienen equipo de Radiogoniometría (RDF) a bordo. Eso les ayudará a triangular su posición desde tres balizas de radio cercanas.</div>",
+      "S3_D5_F5_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Control de Blackrock, aquí la Primera Oficial Mitchell a bordo del Meridian. Tenemos nuestro equipo RDF operativo.</div>",
+      "S3_D6_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Exactamente cómo tomará Sarah esas marcaciones, señor?</div>",
+      "S3_D7_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Buena pregunta, Thomas. Sarah necesitará rodar en tres balizas de radio costeras. <br>Primero, sintonizará la frecuencia de cada baliza, luego girará lentamente su antena direccional. <br>Buscará la más fuerte señal, lo que nos dará el rodamiento a ese Beacon.</div>"
+    },
+    "S4": {
+      "S4_D0_FX_C9": {
+        "title": "Estación de Dirección RDF",
+        "about": {
+          "heading": "Equipo de Radio Dirección",
+          "body": "<div><p>Los principios clave demostrados en esta interactiva:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Sintonía de Frecuencia</strong>: La Radio Dirección requiere sintonización precisa a la frecuencia correcta para cada baliza.</li><li><strong>Antena Direccional</strong>: Una antena direccional rotativa debe estar alineada con la fuente de señal para máxima recepción.</li><li><strong>Fuerza de Señal</strong>: La fuerza de la señal recibida indica qué tan precisamente está apuntada la antena hacia la baliza.</li><li><strong>Medición de Dirección</strong>: El ángulo en el que la antena recibe la señal más fuerte representa la dirección hacia la baliza.</li></ol><p>En esta interactiva, usted:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Sintonizará su radio a la frecuencia correcta para cada baliza costera</li><li>Rotará la antena direccional para encontrar la señal más fuerte</li><li>Registrará la dirección cuando la fuerza de señal alcance su pico</li><li>Recolectará direcciones de las tres balizas para triangulación</li></ul></div>"
+        },
+        "help": {
+          "heading": "¿Necesita Ayuda?",
+          "body": "<div><p>Para tomar direcciones usando el equipo RDF:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Seleccione una baliza para trabajar (comience con Baliza A)</li><li>Sintonice el dial de frecuencia a la frecuencia de la baliza<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Baliza A: 285 kHz</li><li>Baliza B: 315 kHz</li><li>Baliza C: 405 kHz</li></ul></li><li>Espere a que aparezca el indicador 'SINTONIZADO'</li><li>Rote el control deslizante de dirección de antena para encontrar la señal más fuerte</li><li>Cuando la fuerza de señal alcance 100%, haga clic en 'Bloquear Dirección'</li><li>Repita para las tres balizas para completar los datos de triangulación</li></ol><p><strong>Consejos para el Éxito</strong>:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Observe la pantalla de brújula para ver la dirección de su antena</li><li>Monitoree el medidor de fuerza de señal para recepción pico</li><li>Revise el registro de direcciones para rastrear su progreso</li></ul></div>"
+        },
+        "ui": {
+          "rdfBearingStation": "Estación de Dirección RDF",
+          "selectBeacon": "Seleccionar Baliza",
+          "frequencyTuning": "Sintonía de Frecuencia",
+          "antennaDirection": "Dirección de Antena",
+          "signalStrength": "Fuerza de Señal",
+          "lockBearing": "Registrar Dirección",
+          "findSignalPeak": "Encontrar Pico de Señal",
+          "compassBearing": "Dirección de Brújula",
+          "bearingsLog": "Registro de Direcciones",
+          "allBearingsComplete": "Todas las Direcciones Completas",
+          "reset": "Reiniciar",
+          "progress": "Progreso",
+          "complete": "Completo",
+          "locked": "Bloqueado",
+          "tuned": "SINTONIZADO",
+          "tuning": "SINTONIZANDO",
+          "completed": "Completado",
+          "noBearingsRecorded": "Aún no se han registrado direcciones",
+          "accuracy": "precisión",
+          "target": "Objetivo",
+          "rotateAntenna": "Rote la antena para la señal más fuerte",
+          "strongSignalDetected": "¡Señal fuerte detectada! Haga clic en 'Registrar Dirección' para grabar",
+          "signalFound": "Señal encontrada. Rote la antena para encontrar el pico de señal más fuerte.",
+          "tuneToFrequency": "Sintonice a",
+          "selectBeaconToBegin": "Seleccione una baliza para comenzar a tomar direcciones.",
+          "allBearingsCollected": "¡Todas las direcciones recolectadas! Excelente trabajo, Sarah. Listo para triangulación.",
+          "signalPeak": "PICO",
+          "signalVeryStrong": "MUY FUERTE",
+          "signalStrong": "FUERTE",
+          "signalWeak": "DÉBIL",
+          "signalNoise": "RUIDO",
+          "compassNorth": "N",
+          "compassEast": "E",
+          "compassSouth": "S",
+          "compassWest": "O",
+          "beacon": "Baliza",
+          "frequencyUnit": "kHz",
+          "frequencyUnitFull": "kilohertz",
+          "beaconA": "Baliza A",
+          "beaconB": "Baliza B",
+          "beaconC": "Baliza C",
+          "degreeSymbol": "°",
+          "percentageSymbol": "%",
+          "plusMinusSymbol": "±",
+          "checkmarkSymbol": "✓",
+          "bearingLogCount": "({{current}}/{{total}})",
+          "bearingAccuracyLabel": "{{plusMinus}}{{accuracy}}{{degree}} {{accuracyText}}",
+          "frequencyDisplay": "{{frequency}} {{unit}}",
+          "antennaAngleDisplay": "{{angle}}{{degree}}",
+          "signalStrengthDisplay": "{{strength}}{{percentage}}",
+          "bearingDegreeDisplay": "{{bearing}}{{degree}}"
+        },
+        "accessibility": {
+          "instructions": "Instrucciones de Radio Dirección para Lectores de Pantalla",
+          "instructionStep1": "Paso 1: Seleccione una baliza de las tres opciones disponibles: A, B o C. Cada baliza transmite en una frecuencia diferente.",
+          "instructionStep2": "Paso 2: Use el control deslizante de frecuencia para sintonizar a la frecuencia correcta de la baliza. El estado mostrará 'SINTONIZADO' cuando esté ajustado correctamente.",
+          "instructionStep3": "Paso 3: Use el control deslizante de dirección de antena para rotar la antena y encontrar la señal más fuerte. Observe el medidor de fuerza de señal.",
+          "instructionStep4": "Paso 4: Cuando la fuerza de señal alcance 100% (PICO), haga clic en 'Registrar Dirección' para guardar la medición del rumbo.",
+          "keyboardInstructions": "Use las flechas del teclado para ajustar los controles deslizantes. Mantenga Shift para ajustes finos, Ctrl para ajustes gruesos. Use Inicio/Fin para valores mínimo/máximo.",
+
+          "progressHeading": "Progreso de Recolección de Rumbos",
+          "progressStatus": "{{completed}} de {{total}} rumbos completados",
+
+          "beaconSelected": "{{beacon}} seleccionada. Frecuencia: {{frequency}} {{unit}}. Por favor sintonice a esta frecuencia.",
+          "beaconCompleted": "El rumbo de esta baliza ya ha sido registrado.",
+          "beaconActive": "Trabajando actualmente en esta baliza.",
+          "beaconAvailable": "Disponible para seleccionar para medición de rumbo.",
+          "beaconLocked": "Esta baliza está bloqueada hasta que se completen los rumbos anteriores.",
+
+          "frequencySliderLabel": "Sintonización de frecuencia para {{beacon}}. Actual: {{current}} {{unit}}, Objetivo: {{target}} {{unit}}",
+          "frequencyValue": "{{frequency}} {{unit}}",
+          "frequencyHelp": "Use las flechas del teclado para ajustar la frecuencia en pasos de 5 kHz. Use Shift+flechas para ajuste fino de 1 kHz. Página Arriba/Abajo para saltos de 25 kHz.",
+          "frequencyAdjusted": "Frecuencia ajustada a {{frequency}} {{unit}}",
+          "frequencyTuned": "{{beacon}} sintonizada exitosamente a {{frequency}} {{unit}}. Ahora puede ajustar la dirección de la antena.",
+
+          "antennaSliderLabel": "Dirección de antena para {{beacon}}. Rumbo actual: {{current}}{{degree}}",
+          "antennaValue": "{{angle}}{{degree}}",
+          "antennaHelp": "Use las flechas del teclado para rotar la antena en pasos de 1 grado. Mantenga Shift para ajuste fino de 0.5 grados, Ctrl para ajuste grueso de 5 grados.",
+          "antennaAdjusted": "Antena rotada a {{angle}}{{degree}}",
+
+          "signalStrengthMeter": "Medidor de fuerza de señal mostrando calidad de recepción",
+          "signalStrengthDescription": "Fuerza de señal actual: {{strength}}{{percentage}}, Nivel: {{level}}",
+          "signalStrengthChanged": "Fuerza de señal cambió a {{strength}}{{percentage}} - {{level}}",
+          "peakSignalFound": "¡Señal pico encontrada! Ahora puede registrar este rumbo.",
+
+          "bearingRecorded": "Rumbo registrado para {{beacon}} a {{bearing}}{{degree}}. {{total}} rumbos completados, {{remaining}} restantes.",
+          "allBearingsComplete": "¡Todos los rumbos registrados exitosamente! Datos de triangulación completos.",
+          "lockBearingHelp": "Haga clic para registrar la medición de rumbo actual en fuerza de señal pico.",
+          "findPeakHelp": "Rote la antena para encontrar la fuerza de señal pico antes de registrar el rumbo.",
+
+          "compassDescription": "Brújula mostrando antena apuntando a {{angle}}{{degree}}",
+          "recordedBearingsList": "Lista de rumbos de baliza registrados",
+          "completedBearingsList": "Lista completa de todos los rumbos registrados para triangulación",
+          "completedBeaconIcon": "Rumbo completado para baliza {{beacon}}"
+        }
+      },
+      "S4_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sarah, sintoniza tu radio a <strong>285 kHz</strong> para la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>. Ajusta tu dial de frecuencia hasta obtener una señal clara.</div>",
+      "S4_D2_F2_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sintonizando a <strong>285 kHz</strong>... ¡Estoy recibiendo una señal! La <span style='color:#E0002B; font-weight: 700;'>Baliza A</span> está llegando claramente ahora.</div>",
+      "S4_D3_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfecto. Ahora necesitas rotar tu antena direccional para encontrar dónde esa señal es más fuerte. La antena te dará la señal más fuerte cuando esté alineada con la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>.</div>",
+      "S4_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿En qué rumbo obtienes la señal más fuerte de la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>?</div>",
+      "S4_D5_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente trabajo, Sarah. Ese rumbo nos dice la dirección desde tu posición hacia la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>. Registra ese rumbo.</div>",
+      "S4_D6_F6_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Rumbo a la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span> registrado a <strong>42 grados</strong>.</div>",
+      "S4_D7_F7_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces ahora tenemos una línea desde el barco apuntando hacia la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>?</div>",
+      "S4_D8_F8_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. Pero una línea solo nos dice que el barco está en algún lugar a lo largo de esta línea. Necesitamos más rumbos para determinar la ubicación exacta.</div>",
+      "S4_D9_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora para la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span>, Sarah. Cambia la frecuencia a <strong>315 kHz</strong>. Mismo proceso: encuentra la señal, luego localiza la dirección de recepción más fuerte.</div>",
+      "S4_D10_F10_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Señal de la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span> adquirida. Rotando antena para el rumbo de la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span>... buscando el pico de señal.</div>",
+      "S4_D11_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sarah, ¿qué lectura de rumbo muestra la fuerza de señal pico para la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span>?</div>",
+      "S4_D12_F12_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente. Registra ese segundo rumbo.</div>",
+      "S4_D13_F13_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Segundo rumbo registrado a <strong>330 grados</strong>. Dos rumbos completados.</div>",
+      "S4_D14_F14_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Ahora tenemos dos líneas que deberían intersectarse para mostrar la posición aproximada del barco?</div>",
+      "S4_D15_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La <no-glossary>intersección</no-glossary> de las líneas mostraría su posición exacta, excepto que el RDF tiene bastante error. Un tercer rumbo nos dará mucha mejor precisión.</div>",
+      "S4_D16_F16_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Baliza final, Sarah. Sintoniza a la <span style='color:#008217; font-weight: 700;'>Baliza C</span> a <strong>405 kHz</strong>. Este tercer rumbo completará nuestros datos de triangulación.</div>",
+      "S4_D17_F17_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sintonizando a <strong>405 kHz</strong> para la <span style='color:#008217; font-weight: 700;'>Baliza C</span>... La señal es fuerte. Listo para el barrido de rumbo.</div>",
+      "S4_D18_F18_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfecto. Encuentra ese pico de señal y tendremos los tres rumbos necesarios para el trazado preciso de la posición.</div>",
+      "S4_D19_F19_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Rotando antena para el rumbo final en la <span style='color:#008217; font-weight: 700;'>Baliza C</span>...</div>",
+      "S4_D20_F20_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué grados muestra la antena para la fuerza de señal máxima para la <span style='color:#008217; font-weight: 700;'>Baliza C</span>?</div>",
+      "S4_D21_F21_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente trabajo, Sarah. Registra ese rumbo final y transmítenos los tres.</div>",
+      "S4_D22_F22_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Rumbo final registrado a <strong>82 grados</strong>. Transmitiendo todos los rumbos ahora.</div>"
+    },
+    "S5": {
+      "S5_D1_F1_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Control Blackrock, aquí Meridian. Marcaciones RDF completadas:<br><span style='color:#E0002B; font-weight: 700;'>Baliza A</span> a <strong>42 grados</strong>,<br><span style='color:#0061FC; font-weight: 700;'>Baliza B</span> a <strong>330 grados</strong>,<br><span style='color:#008217; font-weight: 700;'>Baliza C</span> a <strong>82 grados</strong>.</div>",
+      "S5_D2_F2_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Copiadas todas las marcaciones, Meridian. Ahora tenemos los datos necesarios para trazar su posición.</div>",
+      "S5_D3_F3_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces trazaremos estas tres líneas de marcación en nuestra carta y veremos dónde se intersectan?</div>",
+      "S5_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cada línea de marcación muestra una dirección desde el barco hasta una ubicación de baliza conocida en el mapa. Sin embargo, no se alinearán exactamente—siempre hay algún error e incertidumbre. En su lugar, las líneas crearán un triángulo — esa es el área donde el Meridian probablemente esté ubicado.</div>"
+    },
+    "S6": {
+      "S6_D0_F0_C9": {
+        "title": "Trazador de Triangulación",
+        "about": {
+          "heading": "Principios de Radiogoniometría",
+          "body": "<div><p>Las propiedades clave demostradas en esta actividad interactiva son:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Líneas de Demora</strong>: Una línea de demora muestra la dirección desde la cual se recibe una señal de radio, medida en grados desde el norte verdadero.</li><li><strong>Propiedad de Triangulación</strong>: Cuando se trazan tres líneas de demora desde diferentes estaciones, teóricamente deberían intersectarse en un solo punto.</li><li><strong>Formación de Triángulo</strong>: Debido a errores de medición, las líneas normalmente forman un triángulo en lugar de encontrarse en un punto único.</li><li><strong>Zona de Incertidumbre</strong>: Este triángulo representa el área donde es más probable que se encuentre la embarcación.</li></ol><p>En esta actividad interactiva, usted:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Trazará líneas de demora desde tres estaciones costeras de RDF</li><li>Observará cómo se intersectan para formar un triángulo</li></ul></div>"
+        },
+        "help": {
+          "heading": "¿Necesita Ayuda?",
+          "body": "<div><p>Para ubicar la embarcación usando triangulación:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Trace las posiciones de las tres estaciones RDF en la carta náutica</li><li>Dibuje líneas de demora desde cada estación con los ángulos especificados<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Estación A: 42°</li><li>Estación B: 330°</li><li>Estación C: 82°</li></ul></li><li>Observe dónde se intersectan estas líneas para formar un triángulo</li><li>La posición más probable de la embarcación está dentro de este triángulo</li></ol></div>"
+        },
+        "translations": {
+          "nauticalMiles": "millas náuticas",
+          "squareNauticalMiles": "millas náuticas cuadradas",
+          "stepLabel": "Paso {step} de {totalSteps}: {description}",
+          "stage": "Etapa",
+          "station": "Estación",
+          "position": "Posición",
+          "targetBearing": "Rumbo Objetivo",
+          "yourBearing": "Tu Rumbo",
+          "status": "Estado",
+          "point": "Punto",
+          "between": "Entre",
+          "side": "Lado",
+          "length": "Longitud",
+          "stage1": {
+            "label": "Establecer rumbo para la Estación {label} ({bearing}°)",
+            "subLabel": "Haz clic en la estación intermitente y establece su rumbo exactamente en {bearing}°",
+            "xAxisLabel": "Millas Náuticas (Este)",
+            "yAxisLabel": "Millas Náuticas (Norte)",
+            "origin": "Origen",
+            "notSet": "No Establecido",
+            "correct": "Correcto",
+            "wrong": "Incorrecto"
+          },
+          "stage2": {
+            "label": "Observa el triángulo 'sombrero ladeado' formado por las líneas de rumbo",
+            "cockedHat": "Sombrero Ladeado",
+            "uncertaintyArea": "Área de Incertidumbre",
+            "intersection": "Intersección"
+          },
+          "stage3": {
+            "label": "Calcula el área del triángulo usando la fórmula de Heron",
+            "heronFormulaLabel": "Fórmula de Heron para el Área del Triángulo",
+            "area": "Área",
+            "step1": "Calcular el semi-perímetro",
+            "step2": "Aplicar la fórmula de Heron",
+            "step3": "Calcular el resultado",
+            "triangleInformation": "Información del Triángulo",
+            "intersections": "Intersecciones",
+            "triangleSides": "Lados del Triángulo"
+          },
+          "accessibility": {
+            "keyboardInstructions": "Navegación por Teclado: Use Tab para navegar entre estaciones. Presione Enter o Espacio para seleccionar una estación. Use las teclas de flecha para ajustar el ángulo de rumbo. Presione Enter para confirmar el rumbo o Escape para cancelar.",
+            "stationInstructions": "Use Tab para navegar entre estaciones RDF. Presione Enter o Espacio para seleccionar la estación actual para ajuste de rumbo.",
+            "bearingInstructions": "Use las teclas de flecha Arriba/Abajo para ajustar el ángulo de rumbo. Presione Enter para confirmar o Escape para cancelar. El ángulo actual se anuncia mientras ajusta.",
+            "chartDescription": "Carta náutica que muestra estaciones RDF y líneas de rumbo. Las coordenadas de la cuadrícula van de 0 a 10 millas náuticas.",
+            "stationDescription": "Estación RDF con coordenadas e información de rumbo. Haga clic o presione Enter para seleccionar para ajuste de rumbo.",
+            "currentStationDescription": "Estación activa actual para ajuste de rumbo. Use las teclas de flecha para ajustar el ángulo de rumbo.",
+            "bearingLineDescription": "Línea de rumbo que muestra la dirección desde la estación. La línea se extiende hasta los límites de la carta.",
+            "angleDisplayDescription": "Pantalla de ángulo de rumbo actual. Muestra grados desde el norte verdadero.",
+            "tableDescription": "Tabla de información de estaciones que muestra coordenadas, rumbos objetivo y estado actual.",
+            "stationButtonLabel": "Estación {name} en coordenadas ({x}, {y}). Rumbo objetivo: {bearing} grados. {status}",
+            "bearingAdjustmentLabel": "Ajustando rumbo para Estación {name}. Ángulo actual: {angle} grados. Use las teclas de flecha para ajustar.",
+            "confirmBearingLabel": "Confirmar rumbo de {angle} grados para Estación {name}",
+            "cancelBearingLabel": "Cancelar ajuste de rumbo para Estación {name}",
+            "stationCompleteLabel": "Rumbo de Estación {name} completado exitosamente",
+            "stationIncompleteLabel": "Rumbo de Estación {name} aún no establecido",
+            "currentAngleAnnouncement": "Ángulo de rumbo actual: {angle} grados",
+            "bearingConfirmedAnnouncement": "Rumbo confirmado: {angle} grados para Estación {name}",
+            "stationSelectedAnnouncement": "Estación {name} seleccionada para ajuste de rumbo",
+            "allStationsCompleteAnnouncement": "Todos los rumbos de estaciones completados exitosamente"
+          }
+        }
+      },
+      "S6_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>He marcado las ubicaciones de nuestras tres radiobalizas costeras en la carta. Sarah nos ha dado las marcaciones desde el Meridian: <br><span style='color:#E0002B; font-weight: 700;'>Baliza A</span> a <strong>42 grados</strong>, <br><span style='color:#0061FC; font-weight: 700;'>Baliza B</span> a <strong>330 grados</strong>, y <br><span style='color:#008217; font-weight: 700;'>Baliza C</span> a <strong>82 grados</strong>. <br>Vamos a trazar estas líneas y ver qué obtenemos.</div>",
+      "S6_D2_F2_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Primero, necesitamos trazar las líneas de marcación desde cada baliza. El Meridian reportó una marcación de <strong>42 grados</strong> hacia la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>.</div>",
+      "S6_D3_F3_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces trazamos una línea a <strong>42 grados</strong> desde el Norte Verdadero, pasando por la posición de la <span style='color:#E0002B; font-weight: 700;'>Baliza A</span>?</div>",
+      "S6_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exacto. Comencemos trazando esa línea.</div>",
+      "S6_D5_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora agreguemos la línea de marcación para la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span>. Sarah reportó <strong>330 grados</strong> para la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span>, así que trazamos una línea a <strong>330 grados</strong> desde el Norte Verdadero, pasando por la posición de la <span style='color:#0061FC; font-weight: 700;'>Baliza B</span>.</div>",
+      "S6_D6_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ya veo... y una vez que tengamos dos líneas de marcación, deberían intersecarse para mostrar dónde está ubicado el barco, ¿verdad?</div>",
+      "S6_D7_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>En un mundo ideal, sí. Pero recuerda, Sarah estaba lidiando con interferencia de la tormenta mientras tomaba estas mediciones. Habrá pequeños errores que afecten nuestro resultado final.</div>",
+      "S6_D8_F8_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Agreguemos nuestra tercera línea de marcación. Sarah reportó <strong>82 grados</strong> para la <span style='color:#008217; font-weight: 700;'>Baliza C</span>, así que trazamos una línea a <strong>82 grados</strong> desde el Norte Verdadero, pasando por la posición de la <span style='font-family:Besley; color:#008217'>Baliza C</span>.</div>",
+      "S6_D9_F9_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Con tres líneas de marcación, deberíamos poder obtener una mejor ubicación de la posición del Meridian.</div>",
+      "S6_D10_F10_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Tres líneas de marcación nos dan redundancia y confirmación. En la navegación marítima, tener múltiples fuentes de información significa que no dependemos de una sola medición que podría estar equivocada. Es como verificar tu trabajo dos veces, pero en este caso, podría salvar vidas.</div>"
+    },
+    "S7": {
+      "S7_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Hemos construido un triángulo a partir de las tres líneas de rumbo. El Meridian está en algún lugar dentro de él, pero esa área sigue siendo demasiado grande para una búsqueda precisa.</div>",
+      "S7_D2_F2_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cierto. Necesitamos una forma más inteligente de reducir el área de búsqueda.</div>",
+      "S7_D3_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exacto. Vamos a usar geometría —específicamente dos circunferencias— para definir nuestras siguientes zonas de búsqueda. <br>Una pasará por los tres vértices del triángulo. Eso se llama un Círculo Circunscrito. <br>La otra tocará cada lado una vez. Eso se llama un Círculo Inscrito. Cada una ofrece una estrategia diferente.</div>",
+      "S7_D4_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Así que este paso se trata de decidir qué circunferencia nos da la mejor oportunidad de encontrar el buque rápidamente.</div>"
+    },
+    "S8": {
+      "S8_D0_FX_C9": {
+        "title": "Calculadora de Círculos",
+        "about": {
+          "heading": "Propiedades de los Círculos en la Geometría del Triángulo",
+          "body": "<div><p>Las propiedades clave demostradas en esta interacción:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Círculo Circunscrito</strong>: Un círculo que pasa por los tres vértices de un triángulo.</li><li><strong>Propiedad de la Bisectriz Perpendicular</strong>: Cualquier punto en una bisectriz perpendicular de un segmento de línea está a la misma distancia de ambos extremos.</li><li><strong>Circuncentro</strong>: El punto donde se intersecan las tres bisectrices perpendiculares de los lados de un triángulo.</li><li><strong>Círculo Inscrito</strong>: Un círculo que toca los tres lados de un triángulo.</li><li><strong>Propiedad de la Bisectriz de Ángulo</strong>: Cualquier punto en una bisectriz de ángulo está a la misma distancia de los dos lados que forman el ángulo.</li><li><strong>Incentro</strong>: El punto donde se intersecan las tres bisectrices de los ángulos de un triángulo.</li></ol><p>En esta interacción, tú:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Construirás bisectrices perpendiculares para encontrar el circuncentro</li><li>Construirás bisectrices de ángulos para encontrar el incentro</li><li>Calcularás los radios de ambos círculos usando fórmulas geométricas</li><li>Compararás las áreas de ambos círculos para entender la eficiencia de búsqueda</li></ul><p><strong>Propiedades de la Relación Matemática</strong> Al comparar los círculos circunscrito e inscrito:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>El círculo circunscrito siempre contiene al círculo inscrito</li><li>El círculo circunscrito siempre es más grande que el círculo inscrito</li><li>La proporción entre sus áreas depende de la forma del triángulo</li><li>Ambos círculos comparten la misma relación geométrica con el triángulo independientemente de su tamaño</li></ul></div>"
+        },
+        "help": {
+          "heading": "¿Necesitas Ayuda?",
+          "body": "<div><p>Para determinar áreas de búsqueda óptimas:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Para el círculo circunscrito:<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Construir bisectrices perpendiculares para cada lado del triángulo</li><li>Encontrar el circuncentro donde estas bisectrices se intersectan</li><li>Usar el botón <strong>'Medir Radio'</strong> para encontrar el radio</li><li>Este círculo pasa por todos los vértices del triángulo</li></ul></li><li>Para el círculo inscrito:<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Construir bisectrices de los ángulos para cada ángulo del triángulo</li><li>Encontrar el incentro donde estas bisectrices se intersectan</li><li>Usar el botón <strong>'Medir Radio'</strong> para encontrar el radio</li><li>Este círculo toca todos los lados del triángulo</li></ul></li><li>Entendiendo la comparación:<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>El círculo circunscrito proporciona máxima cobertura de búsqueda</li><li>El círculo inscrito ofrece cobertura de búsqueda más enfocada</li><li>El círculo circunscrito cubre aproximadamente 4.8× más área que el círculo inscrito</li><li>Elige basándote en tu estrategia de búsqueda y recursos disponibles</li></ul></li></ol></div>"
+        },
+        "translations": {
+          "ariaLabel": "Este es un mapa de navegación náutica con una cuadrícula de coordenadas que muestra millas náuticas de 3 a 10. El mapa muestra un triángulo formado por tres puntos: P en coordenadas (5.01, 5.45), Q en coordenadas (7.19, 7.87) y R en coordenadas (3.88, 7.4). El triángulo muestra longitudes de lados de 3.26, 3.34 y 2.25 millas náuticas respectivamente con un área de 3.49 millas náuticas cuadradas.",
+          "stage": "Etapa",
+          "circumscribedCircle": "Círculo Circunscrito",
+          "inscribedCircle": "Círculo Inscrito",
+          "searchAreaComparison": "Comparación de Áreas de Búsqueda",
+          "axes": {
+            "xAxisLabel": "Millas Náuticas (Este)",
+            "yAxisLabel": "Millas Náuticas (Norte)"
+          },
+          "stage1": {
+            "title": "Círculo Circunscrito",
+            "description": "Un círculo circunscrito pasa por todos los vértices del triángulo.",
+            "perpendicularBisectors": {
+              "title": "Bisectrices Perpendiculares",
+              "description": "Cada bisectriz perpendicular es una línea que:",
+              "points": {
+                "midpoint": "Pasa por el punto medio de un lado del triángulo",
+                "perpendicular": "Es perpendicular (90°) a ese lado",
+                "equidistant": "Todos los puntos en esta línea están equidistantes de ambos extremos del lado"
+              },
+              "showButton": "Mostrar Bisectrices Perpendiculares",
+              "hideButton": "Ocultar Bisectrices Perpendiculares"
+            },
+            "circumcenter": {
+              "title": "Circuncentro",
+              "description": "El circuncentro es un punto especial que:",
+              "points": {
+                "intersection": "Se forma en la intersección de las tres bisectrices perpendiculares",
+                "equidistant": "Está equidistante de los tres vértices del triángulo",
+                "center": "Se convierte en el centro del círculo circunscrito"
+              },
+              "showButton": "Mostrar Circuncentro",
+              "hideButton": "Ocultar Circuncentro"
+            },
+            "circumscribedCircle": {
+              "title": "Círculo Circunscrito",
+              "description": "El círculo circunscrito pasa por los tres vértices del triángulo.",
+              "radius": "Radio",
+              "showButton": "Mostrar Círculo Circunscrito",
+              "hideButton": "Ocultar Círculo Circunscrito",
+              "steps": {
+                "identifyValues": "Paso 1: Identificar los valores necesarios para el cálculo",
+                "substituteFormula": "Paso 2: Sustituir valores en la fórmula",
+                "calculate": "Paso 3: Calcular el radio",
+                "conclusion": "El círculo circunscrito tiene un radio de {radius} millas náuticas"
+              },
+              "values": {
+                "sideA": "Lado p",
+                "sideB": "Lado q",
+                "sideC": "Lado r",
+                "area": "Área"
+              }
+            }
+          },
+          "stage2": {
+            "title": "Círculo Inscrito",
+            "description": "Un círculo inscrito toca todos los lados del triángulo.",
+            "angleBisectors": {
+              "title": "Bisectrices de Ángulos",
+              "description": "El incentro se encuentra en la intersección de las bisectrices de los ángulos del triángulo.",
+              "points": {
+                "equalParts": "Una bisectriz de ángulo divide un ángulo en dos partes iguales",
+                "threeLines": "Cada triángulo tiene tres bisectrices de ángulos"
+              },
+              "showButton": "Mostrar Bisectrices de Ángulos",
+              "hideButton": "Ocultar Bisectrices de Ángulos"
+            },
+            "incenter": {
+              "title": "Incentro",
+              "description": "El punto donde se encuentran todas las bisectrices de ángulos es el incentro.",
+              "points": {
+                "intersection": "Este punto especial está equidistante de los tres lados del triángulo",
+                "equidistant": "Se convierte en el centro del círculo inscrito"
+              },
+              "showButton": "Mostrar Incentro",
+              "hideButton": "Ocultar Incentro"
+            },
+            "inscribedCircle": {
+              "title": "Calcular el Radio del Círculo Inscrito",
+              "description": "El círculo inscrito toca cada lado del triángulo exactamente una vez.",
+              "radius": "Radio",
+              "showButton": "Mostrar Círculo Inscrito",
+              "hideButton": "Ocultar Círculo Inscrito",
+              "steps": {
+                "identifyValues": "Paso 1: Identificar los valores necesarios para el cálculo",
+                "substituteFormula": "Paso 2: Sustituir valores en la fórmula",
+                "calculate": "Paso 3: Calcular el radio",
+                "conclusion": "El círculo inscrito tiene un radio de {radius} millas náuticas"
+              },
+              "values": {
+                "area": "Área",
+                "semiPerimeter": "Semiperímetro"
+              }
+            }
+          },
+          "stage3": {
+            "title": "Comparación de Áreas de Búsqueda",
+            "description": "Comparar las áreas y propiedades de ambos círculos para optimizar la estrategia de búsqueda.",
+            "comparison": {
+              "title": "Comparación de Propiedades de los Círculos",
+              "circumscribed": "Círculo Circunscrito",
+              "inscribed": "Círculo Inscrito",
+              "properties": {
+                "property": "Propiedad",
+                "circumscribed": "Circunscrito",
+                "inscribed": "Inscrito",
+                "radius": "Radio",
+                "area": "Área",
+                "coverage": "Cobertura"
+              }
+            },
+            "analysis": {
+              "title": "Análisis de Eficiencia de Búsqueda",
+              "areaRatio": "Relación de Área: Circunscrito es {{ratio}}× más grande",
+              "explanation": "El círculo circunscrito cubre {{ratio}}× más área de búsqueda que el círculo inscrito",
+              "ratioLabel": "Visualización de la Relación de Área"
+            }
+          },
+          "common": {
+            "nauticalMiles": "MN",
+            "radius": "Radio",
+            "squareNauticalMiles": "MN²",
+            "next": "Siguiente",
+            "previous": "Anterior",
+            "reset": "Reiniciar Interactivo",
+            "measureRadius": "Medir Radio",
+            "hideRadius": "Ocultar Radio",
+            "step": "Paso",
+            "of": "de",
+            "circumcenter": "Circuncentro",
+            "incenter": "Incentro",
+            "rightAngle": "90°",
+            "circumscribedCircle": "círculo circunscrito",
+            "inscribedCircle": "círculo inscrito"
+          },
+          "accessibility": {
+            "instructions": {
+              "title": "Instrucciones para Usuarios de Lectores de Pantalla",
+              "overview": "Esta interacción demuestra círculos circunscritos e inscritos para triángulos. Use Tab para navegar entre elementos interactivos.",
+              "tabNavigation": "Use Tab y Shift+Tab para navegar entre botones y elementos interactivos",
+              "buttonInteraction": "Presione Espacio o Enter para activar botones y medir radios",
+              "escapeKey": "Presione Escape para ocultar todas las mediciones de radio"
+            },
+            "stepChanged": "Paso {{currentStep}} de {{totalSteps}}. Etapa {{stageNumber}}: {{stageName}}, diapositiva {{slideNumber}}",
+            "perpendicularBisectorsShown": "Las bisectrices perpendiculares ahora son visibles en el gráfico",
+            "circumcenterShown": "El punto del circuncentro ahora es visible en el gráfico",
+            "circumscribedCircleShown": "El círculo circunscrito ahora es visible en el gráfico",
+            "angleBisectorsShown": "Las bisectrices de ángulos ahora son visibles en el gráfico",
+            "incenterShown": "El punto del incentro ahora es visible en el gráfico",
+            "inscribedCircleShown": "El círculo inscrito ahora es visible en el gráfico",
+            "radiusShown": "Medición del radio del {{type}} mostrada: {{radius}} {{unit}}",
+            "radiusHidden": "Medición del radio del {{type}} ocultada",
+            "radiusMeasurementsHidden": "Todas las mediciones de radio han sido ocultadas",
+            "visualizationSection": "Visualización del Gráfico",
+            "instructionalContent": "Contenido Instructivo",
+            "radiusMeasurementSection": "Controles de Medición de Radio",
+            "chartDescription": "Gráfico geométrico interactivo para la Etapa {{stageNumber}}: {{stageName}}",
+            "detailedChartDescription": "Carta de navegación náutica con vértices del triángulo en {{triangleVertices}} y longitudes de lados {{sideLengths}} {{unit}}",
+            "svgTitle": "Visualización Geométrica - Etapa {{stageNumber}}: {{stageName}}",
+            "currentStage": "Actualmente en la Etapa {{stageNumber}}: {{stageName}}, paso {{currentStep}} de {{totalSteps}}",
+            "geometricElements": "Elementos geométricos incluyendo triángulo, círculos y líneas de construcción",
+            "triangleDescription": "Triángulo con longitudes de lados {{sideA}}, {{sideB}} y {{sideC}} {{unit}}",
+            "perpendicularBisector": "Bisectriz perpendicular del lado {{sideNumber}}",
+            "angleBisector": "Bisectriz de ángulo del vértice {{vertexLetter}}",
+            "midpoint": "Punto medio del lado del triángulo",
+            "circumcenterPoint": "Circuncentro en coordenadas ({{x}}, {{y}})",
+            "incenterPoint": "Incentro en coordenadas ({{x}}, {{y}})",
+            "vertex": "Vértice {{letter}} en coordenadas ({{x}}, {{y}})",
+            "circumscribedCircleDescription": "Círculo circunscrito con radio {{radius}} {{unit}} y área {{area}} {{unit}} cuadradas",
+            "inscribedCircleDescription": "Círculo inscrito con radio {{radius}} {{unit}} y área {{area}} {{unit}} cuadradas",
+            "circumscribedCirclePresent": "El círculo circunscrito es visible con radio {{radius}} {{unit}}",
+            "inscribedCirclePresent": "El círculo inscrito es visible con radio {{radius}} {{unit}}",
+            "circleComparison": "Comparación lado a lado de círculos circunscritos e inscritos",
+            "circumscribedCircleComparison": "Círculo circunscrito más grande con radio {{radius}} {{unit}} y área {{area}} {{unit}} cuadradas",
+            "inscribedCircleComparison": "Círculo inscrito más pequeño con radio {{radius}} {{unit}} y área {{area}} {{unit}} cuadradas",
+            "circumscribedCircleCaption": "Círculo circunscrito: radio {{radius}} {{unit}}, área {{area}} {{unit}} cuadradas",
+            "inscribedCircleCaption": "Círculo inscrito: radio {{radius}} {{unit}}, área {{area}} {{unit}} cuadradas",
+            "radiusMeasurement": "Línea de medición de radio",
+            "radiusLabel": "Radio: {{radius}} {{unit}}",
+            "tangentPoint": "Punto donde el círculo inscrito toca el lado del triángulo",
+            "coordinateLabels": "Etiquetas del sistema de coordenadas y marcadores de ejes",
+            "xAxisLabel": "Coordenada X: {{value}}",
+            "yAxisLabel": "Coordenada Y: {{value}}",
+            "sideLength": "Longitud del lado: {{length}} {{unit}}",
+            "showCircumRadiusButton": "Mostrar medición del radio del círculo circunscrito",
+            "hideCircumRadiusButton": "Ocultar medición del radio del círculo circunscrito",
+            "showInscribedRadiusButton": "Mostrar medición del radio del círculo inscrito",
+            "hideInscribedRadiusButton": "Ocultar medición del radio del círculo inscrito",
+            "radiusButtonHelp": "Este botón alterna la visibilidad de las líneas de medición de radio en el gráfico"
+          }
+        }
+      },
+      "S8_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Primero, necesitamos construir mediatrices para cada lado de nuestro triángulo. Una mediatriz pasa por el punto medio de un lado y forma un ángulo de 90 grados con él.</div>",
+      "S8_D2_F2_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y por qué son importantes las mediatrices para hallar la circunferencia circunscrita?</div>",
+      "S8_D3_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cualquier punto de una mediatriz equidista de ambos extremos del lado. Por lo tanto, el punto El punto donde se intersecan las tres mediatrices es equidistante de los tres vértices de nuestro triángulo, lo que lo convierte en el centro perfecto de nuestra circunferencia.</div>",
+      "S8_D4_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ya veo. Dibujemos estas mediatrices y encontremos dónde se intersecan.</div>",
+      "S8_D5_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Ahora puedes ver dónde se intersecan las tres mediatrices?</div>",
+      "S8_D6_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Este punto es el circuncentro, el centro de nuestra circunferencia circunscrita. círculo.</div>",
+      "S8_D7_F7_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y ese círculo pasará por los tres vértices de nuestro triángulo, ¿verdad? Porque el circuncentro es equidistante de los tres puntos.</div>",
+      "S8_D8_F8_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Puedo ver que el círculo circunscrito ya está dibujado en la carta. ¿Cuál es nuestro siguiente paso?</div>",
+      "S8_D9_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Buena observación, Thomas. Necesitamos determinar la medida exacta del radio para nuestro plan de búsqueda.</div>",
+      "S8_D10_F10_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Usa el botón 'Medir Radio' en el interactivo para encontrar el radio de nuestro círculo circunscrito.</div>",
+      "S8_D11_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cuál es el radio del círculo circunscrito para nuestra área de búsqueda triangular?</div>",
+      "S8_D12_F12_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente. Ahora tenemos nuestra primera área potencial de búsqueda—un círculo con radio de <b><span style='color:#e74c3c'>1.75</span></b> MN centrado en el circuncentro.</div>",
+      "S8_D13_F13_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces este círculo cubre completamente nuestro triángulo de incertidumbre y pasa por los tres vértices?</div>",
+      "S8_D14_F14_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente correcto, Thomas. Eso es lo que lo convierte en nuestra área máxima posible de búsqueda.</div>",
+      "S8_D15_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora exploremos nuestra segunda opción: el círculo inscrito. Para encontrar su centro, necesitamos construir las bisectrices de nuestro triángulo.</div>",
+      "S8_D16_F16_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Bisectrices de ángulos? Dividen cada ángulo en dos partes iguales, ¿correcto?</div>",
+      "S8_D17_F17_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Una bisectriz de un ángulo divide un ángulo en dos partes iguales. La propiedad interesante de las bisectrices de un ángulo es que cualquier punto de una bisectriz de un ángulo es equidistante de los dos lados que forman el ángulo.</div>",
+      "S8_D18_F18_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, el punto donde se unen las tres bisectrices de un ángulo sería equidistante. de los tres lados de nuestro triángulo.</div>",
+      "S8_D19_F19_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Ese punto se llama incentro y será el centro de nuestra circunferencia inscrita.</div>",
+      "S8_D20_F20_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí podemos ver las tres bisectrices y su intersección: ese es nuestro incentro.</div>",
+      "S8_D21_F21_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y la circunferencia inscrita tocará cada lado del triángulo exactamente una vez, ¿verdad?</div>",
+      "S8_D22_F22_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. El radio de este círculo será la distancia perpendicular desde el incentro a cualquier lado del triángulo.</div>",
+      "S8_D23_F23_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora puedo ver el círculo inscrito tocando cada lado de nuestro triángulo. Este se ve mucho más pequeño que el círculo circunscrito.</div>",
+      "S8_D24_F24_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Observación astuta, Thomas. Obtengamos la medida exacta usando el botón 'Medir Radio' para el círculo inscrito.</div>",
+      "S8_D25_F25_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cuál es el radio del círculo inscrito para nuestra área de búsqueda triangular?</div>",
+      "S8_D26_F26_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><b><span style='color:#2ecc71'>0.79</span></b> MN - eso es significativamente más pequeño que nuestro círculo circunscrito.</div>",
+      "S8_D27_F27_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente correcto. Esa diferencia de tamaño será crucial para nuestra decisión de estrategia de búsqueda.</div>",
+      "S8_D29_F29_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora necesitamos comparar los tamaños de nuestros Dos áreas de búsqueda para determinar la estrategia de búsqueda más eficiente.</div>",
+      "S8_D30_F30_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sé que el área de un círculo se calcula con la fórmula <span style='font-family:Besley'><b><span style='color:#E0002B'>A</span> = π × <span style='color:#008217; font-style:italic'>r</span>²</span></b>.</div>",
+      "S8_D31_F31_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Calculemos y comparemos las áreas de ambos círculos para ver la diferencia en la cobertura de búsqueda.</div>",
+      "S8_D32_F32_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El área de un círculo se calcula con la fórmula <span style='font-family:Besley'><b><span style='color:#E0002B'>A</span> = π × <span style='color:#008217; font-style:italic'>r</span>²</span></b>. Si el círculo circunscrito tiene un radio de <span style='color:#e74c3c'><b>1.75</b></span> MN y el círculo inscrito tiene un radio de <span style='color:#2ecc71'><b>0.79</b></span> MN, ¿cuánto mayor es el área del círculo circunscrito en comparación con el círculo inscrito?</div>",
+      "S8_D33_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Para el círculo circunscrito, obtenemos <b>π × <span style='color:#e74c3c'>1.75²</span> = <span style='color:#e74c3c'>9.6</span></b> MN². Y para el círculo inscrito, obtenemos <b>π × <span style='color:#2ecc71'>0.79²</span> = <span style='color:#2ecc71'>2.0</span></b> MN².</div>",
+      "S8_D34_F34_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Dividiendo estas áreas, <b><span style='color:#e74c3c'>9.6</span> / <span style='color:#2ecc71'>2.0</span> = 4.8</b>, por lo que el círculo circunscrito es 4.8 veces mayor que el círculo inscrito.</div>",
+      "S8_D35_F35_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bien. Esta diferencia es crucial para nuestra estrategia de búsqueda.</div>",
+      "S8_D36_F36_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿cuál deberíamos usar? El círculo circunscrito más grande garantiza que cubriremos todas las ubicaciones posibles, pero el círculo inscrito más pequeño sería mucho más eficiente para la búsqueda.</div>",
+      "S8_D37_F37_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí es donde entra en juego la probabilidad. Lo más probable es que la embarcación esté cerca del centro de nuestro triángulo de incertidumbre, que cubre el círculo inscrito. Sin embargo, no podemos descartar la posibilidad de que esté más cerca de los vértices.</div>"
+    },
+    "S9": {
+      "S9_D1_F0_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Así que si comenzamos nuestra búsqueda en el Círculo Inscrito, tenemos mayores posibilidades de encontrar el Meridian más rápido.</div>",
+      "S9_D2_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y si no los encontramos en el Círculo Inscrito, podemos <no-glossary>expandir</no-glossary> nuestra búsqueda al Círculo Circunscrito.</div>",
+      "S9_D3_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>[Varias horas después]<br>Bien, Thomas, el Meridian está siendo remolcado de manera segura de regreso al puerto. Deberían llegar al amanecer.</div>",
+      "S9_D4_F2_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Nunca pensé que la geometría sería la clave para salvar vidas en el mar. Esas vidas fueron salvadas por triángulos, bisectrices perpendiculares y bisectrices de ángulos.</div>",
+      "S9_D5_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>En efecto. Las matemáticas no son solo académicas—son una herramienta práctica para el rescate marítimo. Ahora, preparémonos para la llegada del Meridian.</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "Rescate Calculado: Cuando las Matemáticas se Encuentran con Desastres Marítimos",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><div style='font-size: 20px; line-height: 30px; font-weight: 500; color: #333333; margin: 0; padding: 0;'><p>Has completado con éxito la STEAMQuest de Rescate Calculado.</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Usaste triangulación para convertir líneas de rumbo en una zona de búsqueda definida</li><li>Construiste círculos circunscritos e inscritos para optimizar la estrategia de búsqueda</li></ul><p>¡Sigue explorando cómo los principios matemáticos pueden mejorar la seguridad y las operaciones de rescate marítimo!</p></div>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_23862_1677' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><path d='M70 0.5H10C4.75329 0.5 0.5 4.75329 0.5 10V70C0.5 75.2467 4.75329 79.5 10 79.5H70C75.2467 79.5 79.5 75.2467 79.5 70V10C79.5 4.75329 75.2467 0.5 70 0.5Z' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_23862_1677)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778207L42.1813 0.778874L69.9853 10.058L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73L7.5026 30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803L38.8202 0.778877L38.8217 0.778356C39.922 0.407158 41.0834 0.40732 42.1793 0.778207Z' fill='#FFCC00'/><path d='M10.9494 10.0803C8.8742 10.7738 7.5026 12.6514 7.5026 14.7467V30.7246L7.50258 30.73C7.29051 50.5507 20.1568 71.7556 40.5048 75.4923C49.7941 73.9029 57.5464 68.3912 63.6644 60.586C70.0068 52.2994 73.5 41.6958 73.5 30.7254V14.7474C73.5 12.656 72.1286 10.7779 70.0524 10.0808L69.9853 10.058L42.1813 0.778874L42.1793 0.778207C41.0834 0.40732 39.922 0.407158 38.8217 0.778356L38.8202 0.778877L10.9494 10.0803ZM10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803Z' stroke='black'/></g><path fill-rule='evenodd' clip-rule='evenodd' d='M53.6113 27.586H58.7131C59.0445 27.586 59.3188 27.8515 59.3188 28.1812V33.3293H53.0056V28.1812C53.0056 27.8555 53.2818 27.586 53.6113 27.586ZM55.3549 26.2024V21.9331C52.7458 23.0552 50.8611 25.2551 47.9166 25.0864V18.8545C51.0272 18.8385 52.5926 16.1778 55.3549 15.5264V14.6336C55.3549 14.1953 55.7129 13.8433 56.1592 13.8433C56.6052 13.8433 56.9635 14.1951 56.9635 14.6336V26.2029L55.3549 26.2024ZM21.5725 32.5331H25.1516V35.097C25.1516 35.5353 25.5096 35.8874 25.9559 35.8874C26.4019 35.8874 26.7602 35.5356 26.7602 35.097V32.5331H30.3392C30.8242 32.5331 31.2274 32.9232 31.2274 33.4059V40.7318C31.2274 41.2084 30.8304 41.6046 30.3392 41.6046H21.5727C21.0877 41.6046 20.6845 41.2145 20.6845 40.7318V33.4059C20.6907 32.9293 21.0876 32.5331 21.5725 32.5331ZM33.7324 32.5331H37.3115V35.097C37.3115 35.5353 37.6695 35.8874 38.1158 35.8874C38.5621 35.8874 38.9201 35.5356 38.9201 35.097V32.5331H42.4991C42.9841 32.5331 43.3873 32.9232 43.3873 33.4059V40.7318C43.3873 41.2084 42.9903 41.6046 42.4991 41.6046H33.7326C33.2476 41.6046 32.8444 41.2145 32.8444 40.7318V33.4059C32.8444 32.9293 33.2413 32.5331 33.7324 32.5331ZM50.11 34.7171H62.2144C62.5131 34.7171 62.7547 34.9182 62.8099 35.2056L64.0233 41.8H48.3071L49.5206 35.2056C49.5696 34.922 49.8175 34.7171 50.11 34.7171ZM26.8445 21.8848H30.4236V24.4487C30.4236 24.887 30.7816 25.2391 31.2279 25.2391C31.6739 25.2391 32.0322 24.8873 32.0322 24.4487V21.8848H35.6112C36.0962 21.8848 36.4994 22.2749 36.4994 22.7575V30.0835C36.4994 30.5601 36.1024 30.9563 35.6112 30.9563H26.8447C26.3597 30.9563 25.9565 30.5662 25.9565 30.0835V22.7575C25.9627 22.2788 26.3596 21.8848 26.8445 21.8848ZM17.7397 43.1875H65.7444C66.5711 43.1875 67.1176 44.0161 66.782 44.758C64.5269 49.7552 59.7728 52.4804 57.8865 57.5965C57.5673 58.4573 56.7774 59.0001 55.8464 59.0001H24.7266C23.4743 59.0001 22.4265 58.1012 22.2668 56.8766C21.749 52.9372 19.9789 47.4913 17.2531 44.1792C16.9298 43.7771 17.2219 43.1875 17.7397 43.1875ZM50.6458 46.2601C50.5353 46.2601 50.4411 46.3466 50.4411 46.4613V50.5476C50.4411 50.6562 50.5291 50.7488 50.6458 50.7488H54.6774C54.7879 50.7488 54.8821 50.6623 54.8821 50.5476V46.4613C54.8821 46.3527 54.7941 46.2601 54.6774 46.2601H50.6458ZM42.5115 46.2601C42.401 46.2601 42.3068 46.3466 42.3068 46.4613V50.5476C42.3068 50.6562 42.3948 50.7488 42.5115 50.7488H46.543C46.6535 50.7488 46.7477 50.6623 46.7477 50.5476V46.4613C46.7477 46.3527 46.6597 46.2601 46.543 46.2601H42.5115ZM34.3771 46.2601C34.2667 46.2601 34.1724 46.3466 34.1724 46.4613V50.5476C34.1724 50.6562 34.2604 50.7488 34.3771 50.7488H38.4087C38.5192 50.7488 38.6134 50.6623 38.6134 50.5476V46.4613C38.6134 46.3527 38.5254 46.2601 38.4087 46.2601H34.3771ZM26.2386 46.2601C26.1282 46.2601 26.0339 46.3466 26.0339 46.4613V50.5476C26.0339 50.6562 26.1219 50.7488 26.2386 50.7488H30.2702C30.3807 50.7488 30.4749 50.6623 30.4749 50.5476V46.4613C30.4749 46.3527 30.3869 46.2601 30.2702 46.2601H26.2386Z' fill='black' stroke='black'/><path fill-rule='evenodd' clip-rule='evenodd' d='M53.6113 25.7427H58.7131C59.0445 25.7427 59.3188 26.0083 59.3188 26.338V31.486H53.0056V26.338C53.0056 26.0123 53.2818 25.7427 53.6113 25.7427ZM55.3549 24.3592V20.0898C52.7458 21.212 50.8611 23.4119 47.9166 23.2431V17.0113C51.0272 16.9953 52.5926 14.3345 55.3549 13.6831V12.7904C55.3549 12.3521 55.7129 12 56.1592 12C56.6052 12 56.9635 12.3518 56.9635 12.7904V24.3597L55.3549 24.3592ZM21.5725 30.6898H25.1516V33.2538C25.1516 33.6921 25.5096 34.0441 25.9559 34.0441C26.4019 34.0441 26.7602 33.6923 26.7602 33.2538V30.6898H30.3392C30.8242 30.6898 31.2274 31.08 31.2274 31.5626V38.8886C31.2274 39.3652 30.8304 39.7614 30.3392 39.7614H21.5727C21.0877 39.7614 20.6845 39.3712 20.6845 38.8886V31.5626C20.6907 31.086 21.0876 30.6898 21.5725 30.6898ZM33.7324 30.6898H37.3115V33.2538C37.3115 33.6921 37.6695 34.0441 38.1158 34.0441C38.5621 34.0441 38.9201 33.6923 38.9201 33.2538V30.6898H42.4991C42.9841 30.6898 43.3873 31.08 43.3873 31.5626V38.8886C43.3873 39.3652 42.9903 39.7614 42.4991 39.7614H33.7326C33.2476 39.7614 32.8444 39.3712 32.8444 38.8886V31.5626C32.8444 31.086 33.2413 30.6898 33.7324 30.6898ZM50.11 32.8738H62.2144C62.5131 32.8738 62.7547 33.075 62.8099 33.3624L64.0233 39.9567H48.3071L49.5206 33.3624C49.5696 33.0787 49.8175 32.8738 50.11 32.8738ZM26.8445 20.0415H30.4236V22.6054C30.4236 23.0437 30.7816 23.3958 31.2279 23.3958C31.6739 23.3958 32.0322 23.044 32.0322 22.6054V20.0415H35.6112C36.0962 20.0415 36.4994 20.4316 36.4994 20.9143V28.2402C36.4994 28.7168 36.1024 29.113 35.6112 29.113H26.8447C26.3597 29.113 25.9565 28.7229 25.9565 28.2402V20.9143C25.9627 20.4356 26.3596 20.0415 26.8445 20.0415ZM17.7397 41.3442H65.7444C66.5711 41.3442 67.1176 42.1728 66.782 42.9148C64.5269 47.9119 59.7728 50.6372 57.8865 55.7532C57.5673 56.6141 56.7774 57.1569 55.8464 57.1569H24.7266C23.4743 57.1569 22.4265 56.258 22.2668 55.0333C21.749 51.0939 19.9789 45.6481 17.2531 42.3359C16.9298 41.9338 17.2219 41.3442 17.7397 41.3442ZM50.6458 44.4169C50.5353 44.4169 50.4411 44.5034 50.4411 44.618V48.7043C50.4411 48.8129 50.5291 48.9055 50.6458 48.9055H54.6774C54.7879 48.9055 54.8821 48.819 54.8821 48.7043V44.618C54.8821 44.5095 54.7941 44.4169 54.6774 44.4169H50.6458ZM42.5115 44.4169C42.401 44.4169 42.3068 44.5034 42.3068 44.618V48.7043C42.3068 48.8129 42.3948 48.9055 42.5115 48.9055H46.543C46.6535 48.9055 46.7477 48.819 46.7477 48.7043V44.618C46.7477 44.5095 46.6597 44.4169 46.543 44.4169H42.5115ZM34.3771 44.4169C34.2667 44.4169 34.1724 44.5034 34.1724 44.618V48.7043C34.1724 48.8129 34.2604 48.9055 34.3771 48.9055H38.4087C38.5192 48.9055 38.6134 48.819 38.6134 48.7043V44.618C38.6134 44.5095 38.5254 44.4169 38.4087 44.4169H34.3771ZM26.2386 44.4169C26.1282 44.4169 26.0339 44.5034 26.0339 44.618V48.7043C26.0339 48.8129 26.1219 48.9055 26.2386 48.9055H30.2702C30.3807 48.9055 30.4749 48.819 30.4749 48.7043V44.618C30.4749 44.5095 30.3869 44.4169 30.2702 44.4169H26.2386Z' fill='white' stroke='black'/></g></svg>",
+      "leftsvgarialabel": "Icono de escudo de barco",
+      "rightsvg": "<svg width='112' height='141' viewBox='0 0 112 141' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_23862_1674)' transform='translate(0, -30)'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M87.0102 62.5312L98.5978 64.3411C99.3506 64.4587 99.8793 65.1641 99.7622 65.9191L97.9332 77.7075L83.5939 75.4678L85.4229 63.6794C85.5386 62.9336 86.2616 62.4143 87.0102 62.5312ZM91.4619 59.9817L92.9787 50.2054C86.654 51.8494 81.5917 56.2183 74.9637 54.7873L77.1777 40.5171C84.2485 41.584 88.7494 36.0465 95.2548 35.5349L95.572 33.4906C95.7277 32.487 96.6659 31.8078 97.6796 31.9661C98.6926 32.1243 99.3814 33.057 99.2256 34.0613L95.1153 60.5535L91.4619 59.9817ZM12.4827 62.4934L20.6119 63.7632L19.701 69.6342C19.5453 70.6378 20.2333 71.5711 21.247 71.7294C22.2599 71.8876 23.1987 71.2092 23.3545 70.2049L24.2654 64.3338L32.3946 65.6035C33.4961 65.7756 34.2733 66.8119 34.1018 67.9172L31.4991 84.6926C31.3298 85.784 30.2873 86.5504 29.1717 86.3761L9.26018 83.2661C8.15863 83.094 7.38149 82.0577 7.55297 80.9524L10.1557 64.177C10.3391 63.0879 11.3816 62.3215 12.483 62.4935L12.4827 62.4934ZM40.1016 66.8073L48.2307 68.077L47.3199 73.9481C47.1641 74.9517 47.8522 75.8849 48.8658 76.0433C49.8795 76.2016 50.8176 75.523 50.9734 74.5188L51.8843 68.6477L60.0134 69.9174C61.115 70.0894 61.8921 71.1258 61.7207 72.2311L59.118 89.0065C58.9486 90.0978 57.9062 90.8642 56.7906 90.69L36.8791 87.5799C35.7775 87.4079 35.0004 86.3715 35.1718 85.2663L37.7745 68.4909C37.9439 67.3995 38.9863 66.6331 40.1019 66.8074L40.1016 66.8073ZM76.524 77.6184L104.017 81.9126C104.695 82.0185 105.173 82.5649 105.196 83.2426L105.609 98.7733L69.9129 93.1978L75.0118 78.528C75.2239 77.8959 75.8594 77.5146 76.5237 77.6183L76.524 77.6184ZM28.2401 39.9804L36.3692 41.2501L35.4584 47.1212C35.3026 48.1248 35.9907 49.058 37.0043 49.2164C38.0173 49.3746 38.9561 48.6961 39.1119 47.6919L40.0228 41.8208L48.1519 43.0905C49.2535 43.2625 50.0306 44.2989 49.8592 45.4041L47.2565 62.1796C47.0871 63.2709 46.0447 64.0373 44.9291 63.8631L25.0176 60.753C23.916 60.581 23.1389 59.5446 23.3103 58.4394L25.913 41.6639C26.0973 40.5699 27.1389 39.8084 28.2404 39.9805L28.2401 39.9804ZM-0.00805629 85.5308L109.025 102.561C110.903 102.854 111.85 104.946 110.824 106.525C103.927 117.168 92.1605 121.722 86.0586 132.768C85.0276 134.626 83.0406 135.589 80.926 135.259L10.2437 124.218C7.39915 123.774 5.33875 121.344 5.41106 118.483C5.63463 109.279 3.5488 96.1804 -1.46555 87.6291C-2.05708 86.5937 -1.18279 85.3478 -0.00682063 85.5314L-0.00805629 85.5308ZM73.6402 104.241C73.3893 104.201 73.1445 104.366 73.1038 104.629L71.652 113.986C71.6135 114.234 71.7804 114.478 72.0455 114.519L81.2024 115.949C81.4533 115.988 81.6981 115.824 81.7388 115.561L83.1906 106.204C83.2291 105.956 83.0622 105.712 82.7971 105.671L73.6402 104.241ZM55.1647 101.355C54.9137 101.316 54.669 101.48 54.6282 101.743L53.1765 111.1C53.1379 111.349 53.3049 111.592 53.57 111.633L62.7268 113.063C62.9778 113.103 63.2225 112.938 63.2633 112.675L64.715 103.318C64.7536 103.07 64.5866 102.827 64.3215 102.785L55.1647 101.355ZM36.6891 98.4691C36.4381 98.4299 36.1934 98.5945 36.1526 98.8572L34.7009 108.214C34.6623 108.463 34.8293 108.706 35.0944 108.748L44.2513 110.178C44.5022 110.217 44.747 110.052 44.7877 109.79L46.2394 100.433C46.278 100.184 46.111 99.9408 45.8459 99.8994L36.6891 98.4691ZM18.2041 95.5819C17.9531 95.5427 17.7084 95.7073 17.6676 95.97L16.2159 105.327C16.1773 105.576 16.3443 105.819 16.6094 105.86L25.7662 107.291C26.0172 107.33 26.2619 107.165 26.3027 106.902L27.7544 97.5454C27.793 97.2968 27.626 97.0535 27.3609 97.0121L18.2041 95.5819Z' fill='white'/></g><defs><clipPath id='clip0_23862_1674'><rect width='112' height='141' fill='white'/></clipPath></defs></svg>"
+    },
+    "glossary": {
+      "triangulation": {
+        "word": "Triangulación",
+        "definition": "<strong className=\"text-[#0055B2]\">Triangulación</strong> es un método para determinar la ubicación de un punto midiendo ángulos desde puntos conocidos en cada extremo de una línea base fija."
+      },
+      "bearing": {
+        "word": "Rumbo",
+        "definition": "<strong className=\"text-[#0055B2]\">Rumbo</strong> es una línea trazada en una carta náutica que muestra la dirección desde la cual proviene una señal, medida en grados desde el norte verdadero."
+      },
+      "bearings": {
+        "word": "Rumbo",
+        "definition": "<strong className=\"text-[#0055B2]\">Rumbo</strong> es una línea trazada en una carta náutica que muestra la dirección desde la cual proviene una señal, medida en grados desde el norte verdadero."
+      },
+      "cocked_hat_triangle": {
+        "word": "triángulo de 'Sombrero Ladeado'",
+        "definition": "<strong className=\"text-[#0055B2]\">Triángulo de Sombrero Ladeado</strong> es un área de incertidumbre formada cuando tres líneas de rumbo no se cruzan en un solo punto debido a errores de medición."
+      },
+      "herons_ormula": {
+        "word": "fórmula de Heron",
+        "definition": "<strong className=\"text-[#0055B2]\">Fórmula de Heron</strong> es una fórmula que calcula el área de un triángulo usando las longitudes de sus tres lados: <span style=\"font-family: besley; font-style: italic;\">Área = √(s(s − a)(s − b)(s − c))</span>, donde <i style=\"font-family: besley;\">s</i> es el semiperímetro."
+      },
+      "semi_perimeter": {
+        "word": "Semiperímetro",
+        "definition": "<strong className=\"text-[#0055B2]\">Semiperímetro</strong> es la mitad del perímetro de un triángulo, calculado sumando los tres lados y dividiendo entre <strong>2</strong>."
+      },
+      "perpendicular_bisector": {
+        "word": "Bisectriz Perpendicular",
+        "definition": "<strong className=\"text-[#0055B2]\">Bisectriz Perpendicular</strong> es una línea que pasa por el punto medio de un segmento de línea en ángulo recto (<strong>90</strong> grados)."
+      },
+      "circumscribed_circle": {
+        "word": "Círculo Circunscrito",
+        "definition": "<strong className=\"text-[#0055B2]\">Círculo Circunscrito</strong> es el círculo con centro donde las bisectrices perpendiculares de los lados de un triángulo se intersectan. Su centro es equidistante de los tres vértices."
+      },
+      "circumcenter": {
+        "word": "Circuncentro",
+        "definition": "<strong className=\"text-[#0055B2]\">Circuncentro</strong> es el punto donde se intersectan las bisectrices perpendiculares de los lados de un triángulo, equidistante de todos los vértices."
+      },
+      "inscribed_circle": {
+        "word": "Círculo Inscrito",
+        "definition": "<strong className=\"text-[#0055B2]\">Círculo Inscrito</strong> es un círculo que toca exactamente una vez cada lado de un triángulo, con su centro en el incentro."
+      },
+      "incenter": {
+        "word": "Incentro",
+        "definition": "<strong className=\"text-[#0055B2]\">Incentro</strong> es el punto donde se intersectan las bisectrices de los ángulos de un triángulo, equidistante de todos los lados."
+      },
+      "angle_bisector": {
+        "word": "Bisectriz de Ángulo",
+        "definition": "<strong className=\"text-[#0055B2]\">Bisectriz de Ángulo</strong> es una línea que divide un ángulo en dos partes iguales."
+      },
+      "resultant_force": {
+        "word": "Fuerza Resultante",
+        "definition": "<strong className=\"text-[#0055B2]\">Fuerza Resultante</strong> es la única fuerza que tiene el mismo efecto que dos o más fuerzas aplicadas juntas."
+      },
+      "vector_addition": {
+        "word": "Suma de Vectores",
+        "definition": "<strong className=\"text-[#0055B2]\">Suma de Vectores</strong> es el método de combinar dos o más vectores (cantidades con magnitud y dirección) para encontrar su resultante."
+      },
+      "law_of_cosines": {
+        "word": "Ley del Coseno",
+        "definition": "<strong className=\"text-[#0055B2]\">Ley del Coseno</strong> es una fórmula utilizada para encontrar partes desconocidas de un triángulo cuando se conocen dos lados y el ángulo entre ellos (o los tres lados): <span style=\"font-family: besley; font-style: italic;\">c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> − 2ab · cos(C)</span>."
+      },
+      "magnitude": {
+        "word": "Magnitud",
+        "definition": "<strong className=\"text-[#0055B2]\">Magnitud</strong> es el tamaño o valor absoluto de una cantidad, sin importar su dirección."
+      },
+      "rdf": {
+        "word": "RDF",
+        "definition": "<strong className=\"text-[#0055B2]\">RDF (Radio Direction Finding)</strong> es una técnica de navegación que utiliza equipos de radio especializados para determinar la dirección desde la cual proviene una señal de radio, medida como un rumbo en grados desde el norte verdadero."
+      },
+      "radio_direction_finding": {
+        "word": "Radio Direction Finding",
+        "definition": "<strong className=\"text-[#0055B2]\">Radio Direction Finding</strong> es una técnica de navegación que utiliza equipos de radio especializados para determinar la dirección desde la cual proviene una señal de radio, medida como un rumbo en grados desde el norte verdadero."
+      }
+    },
+    "common": {
+      "quinn": "Quinn",
+      "thomas": "Thomas",
+      "sarah": "Sarah",
+      "sarah_over_radio": "Sarah (por Radio)",
+      "thomas_description": "Un joven negro con uniforme naval oscuro con botones dorados, sosteniendo un documento enrollado y mostrando confianza.",
+      "quinn_description": "Un hombre mayor con barba blanca vistiendo uniforme de capitán naval con gorra emblematizada en oro, sosteniendo un libro de registro abierto.",
+      "sarah_description": "Una mujer concentrada con uniforme de oficial desgastado por la tormenta, ajustando una antena direccional mientras transmite rumbos por radio con precisión y calma.",
+      "bg1_description": "Puerto tormentoso por la noche con nieve, barcos atracados y un faro a lo lejos. La tensión de la tormenta es palpable.",
+      "bg2_description": "Interior cálido de una sala de radio de madera con ventanas nevadas, que crea un contraste entre comodidad y urgencia.",
+      "bg3_description": "Oficina de estrategia detallada con mapas, brújulas y herramientas navales, ideal para discusiones tácticas.",
+      "bg4_description": "Otra sala de comunicaciones centrada en navegación y equipos de transmisión, frente a una pared de ventanas nevadas.",
+      "bg5_description": "Amanecer en el puerto mientras la tormenta amaina; personas observan cómo regresa el barco, simbolizando rescate y alivio.",
+      "bg6_description": "Puente de mando del barco tenuemente iluminado, lleno de controles y radar resplandeciente durante la tormenta. Ideal para escenas tensas de comunicación a bordo.",
+      "bg7_description": "Mar embravecido con relámpagos y olas gigantes golpeando la cubierta; perfecto para mostrar el caos que enfrenta el Meridian durante la tormenta.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "click_to_place_point": "Haz clic para colocar el punto",
+      "invalid_pair": "¡Par inválido! Prueba con otra combinación de ángulos",
+      "place_point": "Punto de ubicación",
+      "angle": "Ángulo",
+      "focusModeAnnouncement": "Por favor, cambia al modo de enfoque para seleccionar ángulos y colocarlos en las ubicaciones correctas."
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Volumen de la música de fondo",
+      "character-voice-volume-slider": "Volumen de voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "game-exponential-model": "STEAM Quest - Modal Exponencial"
+  }
+}

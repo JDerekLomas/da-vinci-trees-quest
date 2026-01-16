@@ -1,0 +1,424 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción a los Triángulos Semejantes",
+    "scene_4": "Tales en Egipto",
+    "scene_5": "Simulador del Método de la Sombra de Tales",
+    "scene_6": "Demostrando el Teorema de Pitágoras con Triángulos Semejantes",
+    "scene_7": "Eratóstenes",
+    "scene_8": "Calculadora de la Circunferencia de la Tierra",
+    "scene_9": "Ibn al-Haytham",
+    "scene_10": "Simulador de Cámara Oscura",
+    "scene_11": "Conclusión",
+    "scene_12": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Siguiente",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar de nuevo",
+      "submit": "Enviar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333;'>Camino al Renacimiento</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333;'>El Viaje de Leonardo con Triángulos Similares</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Florencia, década de 1470. Un joven Leonardo da Vinci busca al gran erudito Toscanelli, decidido a desentrañar los secretos matemáticos que se esconden en el arte y la naturaleza. En esta STEAMQuest, te unirás al aprendizaje de Leonardo y explorarás la geometría atemporal que contribuyó a dar forma al Renacimiento y al mundo moderno.</p>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>¡Bienvenido a Florencia!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>Soy Paolo dal Pozzo Toscanelli. Hoy guiaré al joven Leonardo da Vinci, y a ti, a través del poder oculto de los triángulos semejantes. Juntos, exploraremos cómo los antiguos los usaban para medir la altura de las pirámides, demostrar el Teorema de Pitágoras y desvelar los secretos de la luz y la visión a través de la cámara oscura.</p>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Maestro Toscanelli? Soy Leonardo da Vinci. Mi profesor dice que debo aprender geometría… pero, para ser sincero, no sé por qué necesito aprender sobre formas y líneas.</div>",
+      "S3_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La geometría no son solo formas y líneas, es la estructura que hay detrás de todo. Es cómo entendemos cómo crecen los árboles, cómo caen las sombras, cómo se mantienen en pie los edificios, cómo se mueve la luz. Es el diseño oculto tras la naturaleza, el arte y la visión.</div>",
+      "S3_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Todo eso... de la geometría?</div>",
+      "S3_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Los antiguos lo usaban para medir pirámides, para demostrar el Teorema de Pitágoras y para explicar cómo la luz forma imágenes. Es una forma de ver el mundo con mayor claridad y profundidad.</div>",
+      "S3_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No tenía ni idea de que llegara tan lejos. Quiero entenderlo todo.</div>"
+    },
+    "S4": {
+      "S4_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Corría el año 600 a. C. Un filósofo griego llamado Tales de Mileto se encontraba ante la Gran Pirámide de Giza.</div>",
+      "S4_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Los funcionarios del faraón lo retaron a medir la altura de la pirámide sin escalarla.</div>",
+      "S4_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Medir algo tan masivo sin tocarlo? ¿Cómo pudo hacerlo?</div>",
+      "S4_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Usó triángulos semejantes. Veamos cómo lo hizo.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Simulador del Método de la Sombra de Tales",
+        "about": {
+          "heading": "Entendiendo las matemáticas detrás del método de la sombra de Tales",
+          "body": "<div style='font-size:16px;line-height:1.5'><style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p>En este interactivo, explorarás cómo el antiguo matemático Tales usó sombras y triángulos semejantes para medir la altura de la Gran Pirámide sin escalarla.</p><p>Cuando brilla el sol, un palo y la pirámide crean triángulos rectángulos con sus sombras. Como los rayos del sol inciden en ambos objetos en el mismo ángulo, los triángulos son semejantes, lo que significa que sus lados tienen la misma razón. igual.</p><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#006BE0'><span class='var'>h<sub style='font-size:16px'>palo</sub></span></span><span class='den' style='color:#006BE0'><span class='var'>s<sub style='font-size:16px'>palo</sub></span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#EB0000'><span class='var'>h<sub style='font-size:16px'>pirámide</sub></span></span><span class='den' style='color:#EB0000'><span class='var'>s<sub style='font-size:16px'>pirámide</sub></span></span></span></div><span className='sr-only'>La fracción de la altura del palo dividida por la sombra del palo es igual a la fracción de la altura de la pirámide dividida por la sombra de la pirámide</span><p>Donde, <span class='var' style='color:#006BE0'>h<sub style='font-size:16px'>palo</sub></span> = la altura del palo que usó Tales, <span class='var' style='color:#006BE0'>s<sub style='font-size:16px'>palo</sub></span> = la longitud de la sombra del palo, <span class='var' style='color:#EB0000'>s<sub style='font-size:16px'>pirámide</sub></span> = la longitud de la sombra de la pirámide y <span class='var' style='color:#EB0000'>h<sub style='font-size:16px'>pirámide</sub></span> = la altura de la pirámide.</p><p>¿Cómo funciona?</p><p>Como ambos objetos reciben la misma luz solar, los triángulos formados son similares; las proporciones se mantienen, ¡aunque el palo y la pirámide tengan tamaños diferentes!</p></div>"
+        },
+        "help": {
+          "heading": "¿Cómo calcular la altura de la pirámide?",
+          "body": "<div style='font-size:16px;line-height:1.5'><style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p>Sugerencia: Siga estos pasos:</p><ol style='list-style:decimal;padding-left:30px;margin:16px 0'><li style='margin:4px 0'>Establezca el control deslizante de altura de la vara de medir.</li><li style='margin:4px 0'>Establezca el control deslizante de tiempo.</li><li style='margin:4px 0'>Observe las sombras y los triángulos similares formados por la Sol.</li><li style='margin:4px 0'>Usa esta fórmula para calcular la altura de la pirámide:</li></ol><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#006BE0'><span class='var'>altura del palo</span></span><span class='den' style='color:#006BE0'><span class='var'>sombra del palo</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#EB0000'><span class='var'>altura de la pirámide</span></span><span class='den' style='color:#EB0000'><span class='var'>sombra de la pirámide</span></span></span></div><span class='sr-only'>la altura del palo dividida por la sombra del palo es igual a la altura de la pirámide dividida por la sombra de la pirámide</span></div>"
+        },
+        "units": {
+          "feet": "pie"
+        },
+        "thales": {
+          "stick": "palo",
+          "pyramid": "pirámide",
+          "timeOfDay": "Hora del día (Posición del sol)",
+          "measuringStickHeight": "Altura de la vara de medir (pies)",
+          "sunrise": "Amanecer",
+          "noon": "Mediodía",
+          "sunset": "Atardecer",
+          "equals": "=",
+          "noonWarning": "Al mediodía, el sol está directamente sobre la cabeza y los objetos no proyectan sombras, lo que imposibilita el cálculo del método de sombras.",
+          "pyramidHeightCalculation": "Cálculo de la altura de la pirámide:",
+          "time": {
+            "6am": "6:00 AM",
+            "630am": "6:30 AM",
+            "7am": "7:00 AM",
+            "730am": "7:30 AM",
+            "8am": "8:00 AM",
+            "830am": "8:30 AM",
+            "9am": "9:00 AM",
+            "930am": "9:30 AM",
+            "10am": "10:00 AM",
+            "1030am": "10:30 AM",
+            "11am": "11:00 AM",
+            "1130am": "11:30 AM",
+            "12pm": "12:00 PM",
+            "1230pm": "12:30 PM",
+            "1pm": "1:00 PM",
+            "130pm": "1:30 PM",
+            "2pm": "2:00 PM",
+            "230pm": "2:30 PM",
+            "3pm": "3:00 PM",
+            "330pm": "3:30 PM",
+            "4pm": "4:00 PM",
+            "430pm": "4:30 PM",
+            "5pm": "5:00 PM",
+            "530pm": "5:30 PM",
+            "6pm": "6:00 PM"
+          },
+          "image_description": "La imagen contiene un diagrama de un palo y una pirámide con sus sombras",
+          "formula_1": "h palo dividido por s palo es igual a h pirámide dividida por s pirámide.",
+          "divide_by": "dividir por",
+          "equals_text": "igual a",
+          "h_pyramid": "h pirámide"
+        }
+      },
+      "S5_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Imagínate a Tales de pie junto a la pirámide, sin cuerdas ni escaleras. Solo un palo vertical y el sol arriba.</div>",
+      "S5_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces no midió la pirámide directamente?</div>",
+      "S5_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No. Midió algo más fácil: la altura y la longitud de la sombra de un palo, y la longitud de la sombra de la pirámide. Eso era todo lo que necesitaba.</div>",
+      "S5_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Los rayos del sol inciden tanto en el palo como en la pirámide en el mismo ángulo. Esto crea dos triángulos rectángulos similares, de la misma forma pero de diferentes tamaños.</div>",
+      "S5_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y en triángulos similares, los lados están en proporción. Esa es la clave.</div>",
+      "S5_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La altura del palo en relación con su sombra guarda la misma proporción que la altura de la pirámide en relación con su sombra.</div>",
+      "S5_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso significa que: <span className='sr-only'>la altura del palo dividida por la sombra del palo es igual a la altura de la pirámide dividida por la sombra de la pirámide</span><span aria-hidden='true'> <div className='flex items-center justify-center mt-4 text-xl font-bold italic space-x-4'> <div className='flex flex-col items-center' style='color: #0061FC; font-family: \"Besley\"'> <span>h<sub>palo</sub></span> <div className='w-full border-t-2 border-gray-700 my-1'></div> <span>s<sub>palo</sub></span> </div> <span <div className='text-black'>=</span> <div className='flex flex-col items-center' style='color: #E0002B; font-family: \"Besley\"'> <span>h<sub>pirámide</sub></span> <div className='w-full border-t-2 border-gray-700 my-1'></div> <span>s<sub>pirámide</sub></span> </div> </div> </span> </span> </div>",
+      "S5_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfecto. Podemos usar esta <no-glossary>ecuación</no-glossary> para calcular la altura desconocida de la pirámide.</div>",
+      "S5_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Establece la hora a las 10:00 a. m. y la altura del poste a 4.60 pies. Observa las sombras y los triángulos semejantes que forma el sol a las 10:00 a. m.</div>",
+      "S5_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Cuál es la altura estimada de la pirámide (en pies)?</div>",
+      "S5_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Correcto! La altura real de la pirámide es de <b>482 pies</b>, por lo que se acerca mucho a la aproximación de Tales.</div>",
+      "S5_D13_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Increíble. Con solo un palo, una sombra y una proporción, calculó la altura de una de las estructuras más grandes del mundo.</div>",
+      "S5_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es la brillantez del razonamiento proporcional. Cuando comprendes las relaciones, no siempre necesitas medir el objeto en sí.</div>"
+    },
+    "S6": {
+      "S6_D0_FX_C9": {
+        "title": "Demostración de Pitágoras con triángulos semejantes",
+        "about": {
+          "heading": "Comprendiendo las matemáticas que sustentan la demostración de Pitágoras con triángulos semejantes",
+          "body": "<p>Este interactivo muestra cómo el Teorema de Pitágoras <div aria-hidden='true'><span style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>CB</span>² + <span style='color: #0061FC; font-family: besley; font-weight: bold; font-style: italic;'>AC</span>² = <span style='color: #E0002B; font-family: besley; font-weight: bold; font-style: italic;'>AB</span>²</div><span className='sr-only'>CB al cuadrado más AC al cuadrado es igual a A B al cuadrado</span> se puede demostrar usando triángulos similares.</p><p style='font-weight: bold;'>Pasos para demostrar el Teorema de Pitágoras usando triángulos similares Triángulos:</p><ul style='list-style-type: disc; margin-left: 20px;'><li>Observa cómo se traza una altura desde el ángulo recto hasta la hipotenusa, dividiendo el triángulo en dos triángulos rectángulos más pequeños.</li><li>Usa la semejanza de triángulos para establecer proporciones y derivar dos ecuaciones.</li><li>Suma las ecuaciones para llegar al resultado final.</li></ul>"
+        },
+        "help": {
+          "heading": "¿Necesitas ayuda?",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li>Completa ecuaciones para construir demostraciones</li><li>Sigue la guía de Toscanelli para comprender cada paso de la demostración</li></ul>"
+        },
+        "pythagorean-theorem": "El Teorema de Pitágoras",
+        "step-1-altitude": "Paso 1: Altitud",
+        "step-2-first-pair": "Paso 2: Primer Par de Triángulos Semejantes",
+        "step-3-second-pair": "Paso 3: Segundo Par de Triángulos Semejantes",
+        "step-4-adding-equations": "Paso 4: Sumar las Ecuaciones",
+
+        "pythagorean-explanation": "El Teorema de Pitágoras establece que en un triángulo rectángulo, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las longitudes de los otros dos lados.",
+        "altitude-explanation": "Consulta el CD de altitud; este divide nuestro triángulo rectángulo original en dos triángulos rectángulos similares: <span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>CDB y <span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ADC.",
+        "first-pair-explanation": "El triángulo original <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span> y el primer triángulo más pequeño <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>CDB</span> son semejantes. Esto significa que la razón entre un lado y la hipotenusa en ambos triángulos es igual.",
+        "second-pair-explanation": "El triángulo original <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span> y el segundo triángulo más pequeño <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ADC</span> también son semejantes. Esto significa que la razón entre un lado y la hipotenusa en ambos triángulos es igual.",
+        "three-similar-triangles": "Ahora tenemos tres triángulos rectángulos semejantes: <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span>, <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>CDB</span> y <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ADC</span>.",
+        "reset": "Restablecer",
+        "previous": "Anterior",
+        "next": "Siguiente",
+
+        "formula-incorrect": "La fórmula es incorrecta. Reordena los lados o haz clic en Restablecer.",
+        "correct-click-next": "¡Correcto! Haz clic en el botón \"Siguiente\" para ir al siguiente paso.",
+        "correct-first-equation": "¡Correcto! Hemos derivado nuestra primera ecuación clave.",
+        "correct-second-equation": "¡Correcto! Hemos derivado nuestra segunda ecuación clave.",
+        "drag-drop-pythagorean": "Arrastra y suelta los lados para completar la fórmula del teorema de Pitágoras. También puedes pulsar Intro en un lado para colocarlo automáticamente en el primer recuadro vacío.",
+        "drag-drop-proportion": "Arrastra y suelta los lados para completar la proporción de los triángulos semejantes. También puedes presionar Enter en un lado para colocarlo automáticamente.",
+        "drag-drop-instructions": "Press Enter or click to place this item in an equation field",
+
+        "equation-1": "Ecuación 1",
+        "equation-2": "Ecuación 2",
+        "add-equations": "Ahora sumemos estas dos ecuaciones:",
+        "therefore": "Por lo tanto",
+        "proof-completed": "¡Esto completa nuestra demostración del teorema de Pitágoras usando triángulos semejantes!",
+
+        "drag-AB": "Arrastra A B",
+        "drag-BC": "Arrastra BC",
+        "drag-AC": "Arrastra AC",
+        "drag-DC": "Arrastra DC",
+        "drag-AD": "Arrastra AD",
+        "drag-CB": "Arrastrar CB",
+        "drag-DB": "Arrastrar DB",
+        "drag-CD": "Arrastrar CD",
+
+        "triangle-visualization": "Triángulo con visualización del teorema de Pitágoras",
+        "first-blank-equation": "Primer espacio en blanco de la ecuación",
+        "second-blank-equation": "Segundo espacio en blanco de la ecuación",
+        "third-blank-equation": "Tercer espacio en blanco en la ecuación",
+        "first-blank-step2": "Primer espacio en blanco en la ecuación del paso 2",
+        "second-blank-step2": "Segundo espacio en blanco en la ecuación del paso 2",
+        "first-blank-step3": "Primer espacio en blanco en la ecuación del paso 3",
+        "second-blank-step3": "Segundo espacio en blanco en la ecuación del paso 3",
+
+        "aria-label-step-0": "Triángulo rectángulo con lados a, b, c y BC, AC y A B respectivamente, y un ángulo recto en el punto C.",
+        "aria-label-step-1": "Triángulo rectángulo con lados a, b, c y BC, AC y A B respectivamente, y un ángulo recto en el punto C. CD es una recta perpendicular a A B que divide A B en segmentos de longitud (c menos x) y x.",
+        "aria-label-step-2": "Dos triángulos rectángulos: el primero con lados a, b, c y BC, AC y A B respectivamente, y un ángulo recto en el punto C. El segundo es el triángulo CDB con un ángulo recto en D, con lados BD, DC y BC, donde BC es de longitud a y BD es de longitud x.",
+        "aria-label-step-3": "Dos triángulos rectángulos: el primero con lados a, b, c y BC, AC y A B respectivamente, y un ángulo recto en el punto C. El segundo es el triángulo ADC con un ángulo recto en D, y el lado AD es de longitud (c menos x) y el lado AC tiene longitud b.",
+        "aria-label-step-4": "Triángulo rectángulo con lados a, b, c y BC, AC, A B respectivamente, con ángulo recto en el punto C.",
+
+        "squared": "elevado al cuadrado",
+        "plus": "más",
+        "equals": "igual a",
+        "minus": "menos",
+        "multiplied": "multiplicado por",
+        "divided": "dividido por",
+
+        "formula-1-step-2": "CB dividido entre A B es igual a",
+        "formula-2-step-2": "CB dividido entre A B es igual a DB dividido entre CB. a dividido entre c es igual a x dividido entre a. a al cuadrado es igual a c multiplicado por x.",
+        "formula-1-step-3": "a al cuadrado es igual a c multiplicado por x.",
+        "formula-2-step-3": "AC dividido entre A B es igual a",
+        "formula-3-step-3": "AC dividido entre A B es igual a AD dividido entre AC. b dividido entre c es igual a (c menos x) dividido entre b. b al cuadrado es igual a c al cuadrado menos c multiplicado por x.",
+        "formula-1-step-4": "a al cuadrado es igual a c multiplicado por x.",
+        "formula-2-step-4": "b al cuadrado es igual a c al cuadrado menos c multiplicado por x.",
+        "formula-3-step-4": "a al cuadrado más b al cuadrado es igual a c multiplicado por x más c al cuadrado menos c multiplicado por x. a al cuadrado más b al cuadrado es igual a c al cuadrado. Por lo tanto, CB al cuadrado más AC al cuadrado es igual a A B al cuadrado."
+      },
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Medir sombras para hallar alturas fue solo el comienzo. Poco después de Tales, otro pensador exploró el triángulo mismo.</div>",
+      "S6_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>En el sur de Italia, un filósofo llamado Pitágoras descubrió algo extraordinario sobre los triángulos rectángulos.</div>",
+      "S6_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Pitágoras? El que dijo que en los triángulos rectángulos, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las longitudes de los otros dos lados.</div>",
+      "S6_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Rellene los espacios en blanco arrastrando y soltando los lados y complete la fórmula del Teorema de Pitágoras.</div>",
+      "S6_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Correcto! Pero su demostración no usó solo cuadrados, sino triángulos semejantes.</div>",
+      "S6_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Déjame mostrarte cómo reveló una de las verdades más poderosas de la geometría.</div>",
+
+      "S6_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mira, este es un triángulo <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span>, donde el ángulo C es recto. Si trazamos una altura desde el punto C hasta la hipotenusa <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>AB</span>, que se encuentra en el punto D...</div>",
+      "S6_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El triángulo se divide en dos triángulos rectángulos más pequeños.</div>",
+      "S6_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Y como todos comparten Si los tres triángulos tienen los mismos ángulos, son semejantes. Esta semejanza es clave para demostrar el Teorema de Pitágoras. Veamos cómo.</div>",
+
+      "S6_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora observa nuestro triángulo real <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span>, y el primer triángulo más pequeño <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>CDB</span>.</div>",
+      "S6_D11_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Comparten los mismos ángulos, por lo que deben ser semejantes.</div>",
+      "S6_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Eso significa que las razones de un lado y la hipotenusa en ambos triángulos son iguales. Rellena los espacios en blanco con los lados de <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>CDB</span> que corresponden a los lados de <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB.</span>",
+      "S6_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. Reorganizar los términos en las razones dará como resultado nuestra primera ecuación clave: <span aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>a</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span><span style='font-family: Besley; font-weight: bold; font-style: cursiva; color: #9F008F'>x</span>.</div><span className='sr-only'>a al cuadrado es igual a c multiplicado por x</span></span>",
+
+      "S6_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El triángulo real <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span> y el segundo triángulo más pequeño <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ADC</span>...</div>",
+      "S6_D15_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>También deben ser semejantes y, por eso, las razones de un lado y la hipotenusa en ambos triángulos son iguales.</div>",
+      "S6_D16_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí! Rellena los espacios en blanco con los lados de <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ADC</span> que corresponden a los lados de <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triángulo </span>ACB</span>.</div>",
+      "S6_D17_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Correcto! Aquí también, si reorganizamos los términos en las proporciones, obtendremos nuestra segunda ecuación clave: <span aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>b</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span>² - <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #9F008F'>x</span>.</div><span className='sr-only'>b al cuadrado es igual a c al cuadrado menos c multiplicado por x</span></span>",
+
+      "S6_D18_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora tenemos dos ecuaciones de nuestros triángulos semejantes. Necesitamos sumar estas dos ecuaciones.</div>",
+      "S6_D19_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Si los sumamos, entonces los términos <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2' aria-hidden='true'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #9F008F' aria-hidden='true'>x</span><span className='sr-only'>c multiplicado por x</span> se cancelan y obtenemos <span aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>a</span>² + <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>b</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span>².</span><span className='sr-only'>a al cuadrado más b al cuadrado es igual a c al cuadrado</span></div>",
+      "S6_D20_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Si lo escribimos de otra manera, entonces: <div aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: cursiva; color: #0055B2'>CB</span>² + <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>AC</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>AB</span>².</div><span className='sr-only'>CB al cuadrado más AC al cuadrado es igual a A B al cuadrado</span> Y eso es todo, Leonardo, el teorema de Pitágoras se demuestra con triángulos semejantes.</span>"
+    },
+    "S7": {
+      "S7_D1_FX_C1": "Después de Pitágoras, la geometría continuó desvelando cuestiones aún más grandes.",
+      "S7_D2_FX_C2": "¿Cuestiones más grandes? ¿Qué podía resolver la geometría más allá de los triángulos?",
+      "S7_D3_FX_C1": "Mucho más. Alrededor del año 240 a.C., en Alejandría, un bibliotecario llamado Eratóstenes usó la geometría para medir la Tierra misma.",
+      "S7_D4_FX_C2": "¿Midió todo el planeta? ¿Sin salir nunca de Egipto?",
+      "S7_D5_FX_C1": "Sí. Utilizó sombras, ángulos y proporciones cuidadosas para estimar el tamaño de la Tierra. Veamos cómo lo hizo."
+    },
+    "S8": {
+      "S8_D0_FX_C9": {
+        "title": "Calculadora de la Circunferencia de la Tierra",
+        "about": {
+          "heading": "Comprendiendo las matemáticas detrás de la medición de la circunferencia terrestre por Eratóstenes",
+          "body": "<style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p style='margin-bottom: 20px'>En este interactivo, explorarás cómo Eratóstenes estimó la circunferencia de la Tierra hace más de 2000 años usando sombras, ángulos y proporciones.</p><p style='margin-bottom: 20px'>El 21 de junio (solsticio de verano), exactamente a las 12:00 p. m., el sol estaba directamente sobre Siena (la actual Asuán, Egipto). En ese momento, la luz del sol llegó al fondo de un pozo profundo, sin proyectar sombra. Mientras tanto, en Alejandría, un palo vertical Sí proyectaba una sombra. Eratóstenes midió el ángulo entre el palo y los rayos del sol en Alejandría, que era de aproximadamente 7,2 grados.</p><p style='margin-bottom: 20px'>Dado que los rayos del sol son casi paralelos, el ángulo entre el palo y el sol en Alejandría es el mismo que el ángulo central entre Alejandría y Siena, en el centro de la Tierra. El ángulo medido de 7,2° es 1/50 de un círculo completo (ya que <div class='eq' style='text-align:center;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>7,2°</span></span><span class='den' style='color:#1E40AF'><span class='var'>360°</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>1</span></span><span class='den' style='color:#1E40AF'><span class='var'>50</span></span></span></div><span className='sr-only'>7,2 grados dividido entre 360 ​​grados es igual a 1 dividido 50.</span>).</p><p>Estableció la siguiente proporción:</p><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Ángulo en Alejandría</span></span><span class='den' style='color:#1E40AF'><span class='var'>360°</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Distancia entre Alejandría y Siena</span></span><span class='den' style='color:#1E40AF'><span class='var'>Tierra Circunferencia</span></span></span></div><span className='sr-only'>El ángulo en Alejandría dividido entre 360 ​​grados equivale a la distancia entre Alejandría y Siena dividida entre la circunferencia de la Tierra.</span><p>Donde, <span style='font-family: besley; color: #991B1B; font-weight: bold; font-style: italic'>Ángulo en Alejandría</span> = ángulo de sombra medido (aproximadamente 7,2°), 360° = grados totales en un círculo completo y, <span style='font-family: besley; color: #991B1B; font-weight: bold; font-style: italic'>Distancia entre Alejandría y Siena</span> = 800 kilómetros.</p>"
+        },
+        "help": {
+          "heading": "¿Cómo calcular la circunferencia de la Tierra?",
+          "body": "<div style='font-size:16px;line-height:1.5'><style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p>Sigue estos pasos:</p><ol style='list-style:decimal;padding-left:30px;margin:16px 0'><li style='margin:4px 0'>Ajusta el control deslizante de distancia de la pantalla.</li><li style='margin:4px 0'>Usa esta fórmula para calcular la circunferencia de la Tierra:</li></ol><div class='eq' estilo='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>7.2°</span></span><span class='den' style='color:#1E40AF'><span class='var'>360°</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>500 millas</span></span><span class='den' style='color:#1E40AF'><span class='var'>Circunferencia de la Tierra</span></span></span></div><span className='sr-only'>7,2 grados divididos entre 360 ​​grados equivalen a 500 millas divididas entre la circunferencia de la Tierra.</span></div>"
+        },
+        "pm": "PM",
+        "am": "AM",
+        "june_21st": "21 de junio",
+        "sun_rays": "rayos de sol",
+        "alexandria": "Alejandría",
+        "stick_shadow": "sombra de palo",
+        "stick": "palo",
+        "syene": "Siena",
+        "well": "pozo",
+        "time_of_day": "Hora del día",
+        "time_slider": "Control deslizante de tiempo",
+        "sunrise": "Amanecer",
+        "noon": "Mediodía",
+        "sunset": "Atardecer",
+        "image_description": "La imagen muestra Alejandría (donde vivió Eratóstenes) y Siena (la actual Asuán, Egipto), dos ciudades separadas por 800 kilómetros. Exactamente al mediodía del solsticio de verano, la luz del sol incide directamente sobre Siena, sin proyectar sombras en un pozo. Sin embargo, en Alejandría, en ese mismo instante, un palo proyecta una sombra apreciable debido a la curvatura de la Tierra.",
+        "eratosthenes_condition": "Para que el método de Eratóstenes funcione correctamente, la hora debe ser las 12:00 p. m. del 21 de junio (solsticio de verano) cuando el sol esté directamente sobre Siena.",
+        "circumference_calculation": "Cálculo de la circunferencia",
+        "angle_at_alexandria": "Ángulo en Alejandría",
+        "distance_between_cities": "Distancia entre Alejandría y Siena",
+        "earth_circumference": "Circunferencia de la Tierra",
+        "distance_miles": "500 millas",
+        "circumference_value": "25.000 millas",
+        "formula_1": "El ángulo en Alejandría dividido entre 360 ​​grados equivale a la distancia entre Alejandría y Siena dividida entre la circunferencia de la Tierra.",
+        "formula_2": "7,2 grados dividido entre 360 ​​grados equivale a 800 kilómetros dividido entre la circunferencia de la Tierra. La circunferencia de la Tierra equivale a 40 000 kilómetros."
+      },
+      "S8_D1_FX_C1": "Ajusta la hora a las 12:00 PM, el día del solsticio de verano.",
+      "S8_D6_FX_C1": "Al mediodía del 21 de junio, en Siena, el sol estaba justo encima. Brillaba directamente sobre un pozo, así que no había sombra alguna.",
+      "S8_D7_FX_C2": "¡Pero en Alejandría, el palo sí proyecta sombra! ¿Entonces el sol no está justo encima?",
+      "S8_D7_FX_C1": "Sí. Esa pequeña sombra nos indica que el sol incide sobre la Tierra en un ángulo ligeramente diferente, porque la Tierra es curva.",
+      "S8_D8_FX_C1": "Eratóstenes midió el ángulo de la sombra; era de unos 7,2°.",
+      "S8_D8_F1_C1": "Como 360 grados es un círculo completo, ¿cuánto son 7,2 grados?",
+      "S8_D8_F2_C1": "¡Correcto! 7,2 grados es exactamente 1/50 del círculo completo.",
+      "S8_D8_F3_C2": "Entonces la distancia entre las ciudades es como una rebanada de pastel... ¿1 de 50 rebanadas?",
+      "S8_D9_FX_C1": "Exactamente. Si conoces la longitud de arco de una rebanada, puedes encontrar el círculo completo.",
+      "S8_D10_FX_C1": "Eratóstenes sabía que la distancia entre Siena y Alejandría era de aproximadamente 800 kilómetros. Así que escribió esta proporción:<no-glossary><div style=\"font-size: 18px; text-align: center; margin: 20px 0;\" aria-hidden='true'><div style=\"display: inline-flex; align-items: center;\"><div style=\"display: flex; flex-direction: column; align-items: center; margin-right: 20px;\"><div style=\"border-bottom: 1px solid #333; padding-bottom: 5px;\">7,2°</div><div style=\"padding-top: 5px;\">360°</div></div><div style=\"margin: 0 15px;\">=</div><div style=\"display: flex; flex-direction: column; align-items: center;\"><div style=\"border-bottom: 1px solid #333; padding-bottom: 5px;\">500 millas</div><div style=\"padding-top: 5px;\">Circunferencia de la Tierra</div></div></div></div></no-glossary><span className='sr-only'>7,2 grados divididos entre 360 ​​grados equivalen a 500 millas divididos entre la circunferencia de la Tierra.</span>",
+      "S8_D12_FX_C1": "¿Cuál es la circunferencia estimada de la Tierra (en millas)?",
+      "S8_D13_FX_C1": "¡Correcto! Y este resultado fue muy cercano a lo que sabemos hoy.",
+      "S8_D14_FX_C2": "¡Es increíble... usar sombras y pensamiento inteligente para medir el mundo entero!",
+      "options": {
+        "index_1": "1/5 del círculo completo",
+        "index_2": "1/50 del círculo completo",
+        "index_3": "1/500 del círculo completo"
+      }
+    },
+
+    "S9": {
+      "S9_D1_FX_C1": "Siglos después de Eratóstenes, otra gran mente se dedicó a los misterios de la luz y la visión.",
+      "S9_D2_FX_C2": "¿Luz y visión? ¿Quién fue?",
+      "S9_D3_FX_C1": "En Bagdad, alrededor del año 1000, un científico llamado Ibn al-Haytham comenzó a estudiar cómo vemos el mundo.",
+      "S9_D4_FX_C2": "¿Él también exploró la visión usando geometría?",
+      "S9_D5_FX_C1": "Sí. Utilizó la cámara oscura y la idea de triángulos similares para comprender cómo la luz forma imágenes, lo que condujo a descubrimientos que cambiaron la ciencia y el arte para siempre."
+    },
+    "S10": {
+      "S10_D0_FX_C9": {
+        "title": "Simulador de Cámara Oscura",
+        "about": {
+          "heading": "Comprendiendo las matemáticas detrás de la Cámara Oscura",
+          "body": "<style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p style='margin-bottom: 15px;'>Sugerencia: siga estos pasos:</p><ul style='list-style-type: pointer; margin-left: 30px; margin-bottom: 15px;'><li>Ajusta el control deslizante de distancia de la pantalla.</li><li>Observa los triángulos similares.</li><li>Usa esta fórmula para calcular la altura de la imagen:</li></ul><div class='eq' style='text-align:center;font-size:18px;margin-bottom:15px'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Altura de la imagen</span></span><span class='den' style='color:#1E40AF'><span class='var'>Altura del objeto</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Distancia de la pantalla</span></span><span class='den' style='color:#1E40AF'><span class='var'>Distancia del objeto</span></span></span></div>"
+        },
+        "help": {
+          "heading": "¿Cómo calcular la altura de la imagen?",
+          "body": "<style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p style='margin-bottom: 15px;'>Sugerencia: sigue estos pasos:</p><ul style='list-style-type: pointer; margin-left: 30px; margin-bottom: 15px;'><li>Ajusta el control deslizante de distancia de la pantalla.</li><li>Observa los triángulos similares.</li><li>Usa esta fórmula para calcular la altura de la imagen:</li></ul><div class='eq' style='text-align:center;font-size:18px;margin-bottom:15px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Altura de la imagen</span></span><span class='den' style='color:#1E40AF'><span class='var'>Altura del objeto</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Distancia de pantalla</span></span><span class='den' style='color:#1E40AF'><span class='var'>Objeto Distancia</span></span></span></div><span className='sr-only'>La altura de la imagen dividida por la altura del objeto es igual a la distancia de la pantalla dividida por la distancia del objeto.</span>"
+        },
+        "pinhole_camera_canvas": "La imagen muestra rayos de luz de la Catedral de Florencia que pasan a través de un pequeño orificio en una pared, creando una imagen invertida en una pantalla dentro de una habitación oscura.",
+        "ft": "pie",
+        "object_distance_slider": "Ajustar el control deslizante de distancia del objeto",
+        "screen_distance": "Distancia de la pantalla",
+        "screen_distance_slider": "Ajustar el control deslizante de distancia de la pantalla",
+        "image_height_calculation": "Cálculo de la altura de la imagen",
+        "image_height": "Altura de la imagen",
+        "object_height": "Altura del objeto",
+        "object_distance": "Distancia del objeto",
+        "image": "Imagen",
+        "florence_cathedral": "Catedral de Florencia",
+        "formula_1": "Altura de la imagen dividida por la altura del objeto es igual a la distancia de la pantalla dividida por la distancia del objeto",
+        "formula_2": "Altura de la imagen dividida por 119 metros es igual a ",
+        "formula_3": "Altura de la imagen es igual a ",
+        "feet": "metros",
+        "divided_by": "dividido por"
+      },
+      "S10_D2_FX_C1": "Imagina que la luz de la Catedral de Florencia atraviesa un pequeño orificio y forma una imagen en la pared de una habitación oscura. Esta configuración se conoce como cámara oscura.",
+      "S10_D3_FX_C2": "¿La imagen aparece al revés?",
+      "S10_D4_FX_C1": "Sí. La luz viaja en líneas rectas. Cuando pasa a través de una pequeña abertura, se cruza y proyecta la imagen invertida.",
+      "S10_D5_FX_C1": "El objeto, el orificio y la imagen forman dos triángulos semejantes.",
+      "S10_D6_FX_C2": "¿Triángulos semejantes de nuevo? ¿Entonces las proporciones coinciden?",
+      "S10_D8_FX_C1": "Si la altura del objeto es de 394 pies, la distancia del objeto es de 15 pies y la distancia de la pantalla es de 5 pies, ¿cuál es la altura de la imagen?",
+      "S10_D10_FX_C1": "¡Correcto! Ahora, aumenta la distancia de la pantalla. Aleja la pantalla del orificio.",
+      "S10_D11_FX_C2": "¡La imagen se hace más grande!",
+      "S10_D12_FX_C1": "Exactamente. A medida que la pantalla se aleja más, la imagen crece en altura. Los triángulos permanecen semejantes, pero su tamaño aumenta con la distancia.",
+      "S10_D13_FX_C1": "Ahora, si la distancia del objeto es de 10 pies y la distancia de la pantalla también es de 10 pies, ¿cuál será la nueva altura de la imagen?",
+      "S10_D14_FX_C1": "¡Correcto! La altura de la imagen coincide con la altura del objeto cuando las distancias son iguales.",
+      "S10_D15_FX_C2": "¡Así que usando solo luz y geometría, podemos predecir cuán grande será una imagen!",
+      "S10_D16_FX_C1": "Sí. Esta comprensión cambió nuestra forma de estudiar la visión y la luz, e incluso la forma en que los artistas diseñaban sus pinturas."
+    },
+    "S11": {
+      "S11_D1_FX_C1": "Has seguido los pasos de gigantes: Tales, Pitágoras, Eratóstenes, Ibn al-Haytham. Ellos midieron las sombras, calcularon la Tierra y capturaron la luz, todo usando triángulos. La geometría no solo describe el mundo, lo revela. La proporción es el hilo que entrelaza la naturaleza, el arte y la verdad.",
+      "S11_D2_FX_C2": "Pensé que solo eran líneas y formas, pero es lo invisible hecho visible en la luz, la extensión de las sombras e incluso en el funcionamiento de la visión.",
+      "S11_D3_FX_C1": "Bien. Tómala y úsala. Deja que la geometría guíe tu pincel, tus inventos y tus preguntas. Deja que moldee tu forma de ver.",
+      "S11_D4_FX_C2": "Ya ha comenzado. Mi viaje ha comenzado y nunca volveré a ver el mundo de la misma manera."
+    },
+    "S12": {},
+    "quest_completion": {
+      "greetings": "¡Felicidades!",
+      "subheading": "Exploraste Cómo los Triángulos Similares Dieron Forma al Arte, la Ciencia y el Descubrimiento",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin: 0'>¡Has completado la STEAMQuest Camino al Renacimiento: El viaje de Leonardo!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px'><li>Descubriste cómo Tales midió la altura de una pirámide usando sombras y triángulos semejantes</li><li>Aprendiste a demostrar el Teorema de Pitágoras usando triángulos semejantes</li><li>Exploraste cómo Eratóstenes estimó la circunferencia de la Tierra a través de la geometría y la observación</li><li>Aprendiste cómo Ibn al-Haytham explicó la visión y el comportamiento de la luz con triángulos semejantes y la cámara oscura</li></ul><p>Tu comprensión de los triángulos semejantes te ayudará a ver la geometría oculta en ¡El mundo que te rodea, tal como lo hizo Leonardo da Vinci!</p>",
+      "leftsvgarialabel": "Icono de forma de diamante geométrico que representa matemáticas y medición.",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_23851_4307\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"-1\" width=\"80\" height=\"81\">\n<path d=\"M70 0.491211H10C4.75329 0.491211 0.5 4.7445 0.5 9.99121V69.9912C0.5 75.2379 4.75329 79.4912 10 79.4912H70C75.2467 79.4912 79.5 75.2379 79.5 69.9912V9.99121C79.5 4.7445 75.2467 0.491211 70 0.491211Z\" fill=\"#5454D8\" stroke=\"#005F20\"/>\n</mask>\n<g mask=\"url(#mask0_23851_4307)\">\n<path d=\"M70.2104 10.1028L42.3396 0.311833C41.1396 -0.115663 39.8657 -0.115663 38.6619 0.311833L10.7911 10.1028C8.52025 10.9016 7.0026 13.0728 7.0026 15.514V32.3329C6.78844 53.4037 19.7969 76.0457 40.5017 79.9912C49.9836 78.3112 57.8673 72.4051 64.0596 64.0883C70.4735 55.2685 74 43.9919 74 32.3337V15.5148C74 13.0773 72.4824 10.9062 70.2115 10.1036L70.2104 10.1028Z\" fill=\"black\"/>\n<path d=\"M42.1793 0.769418L42.1813 0.770085L69.9853 10.0492L70.0524 10.072C72.1286 10.7691 73.5 12.6472 73.5 14.7386V30.7166C73.5 41.687 70.0068 52.2906 63.6644 60.5772C57.5464 68.3824 49.7941 73.8941 40.5048 75.4835C20.1568 71.7468 7.29051 50.5419 7.50258 30.7212L7.5026 30.7158V14.7379C7.5026 12.6426 8.8742 10.765 10.9494 10.0715C10.9493 10.0715 10.9495 10.0715 10.9494 10.0715L38.8202 0.770088L38.8217 0.769567C39.922 0.398369 41.0834 0.398531 42.1793 0.769418Z\" fill=\"#FFCC00\"/>\n<path d=\"M10.9494 10.0715C8.8742 10.765 7.5026 12.6426 7.5026 14.7379V30.7158L7.50258 30.7212C7.29051 50.5419 20.1568 71.7468 40.5048 75.4835C49.7941 73.8941 57.5464 68.3824 63.6644 60.5772C70.0068 52.2906 73.5 41.687 73.5 30.7166V14.7386C73.5 12.6472 72.1286 10.7691 70.0524 10.072L69.9853 10.0492L42.1813 0.770085L42.1793 0.769418C41.0834 0.398531 39.922 0.398369 38.8217 0.769567L38.8202 0.770088L10.9494 10.0715ZM10.9494 10.0715C10.9493 10.0715 10.9495 10.0715 10.9494 10.0715Z\" stroke=\"black\"/>\n</g>\n<mask id=\"mask1_23851_4307\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"17\" y=\"16\" width=\"47\" height=\"38\">\n<path d=\"M18.3955 16.8008H63.2308V52.9913H18.3955V16.8008Z\" fill=\"white\" stroke=\"white\"/>\n</mask>\n<g mask=\"url(#mask1_23851_4307)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M32.2827 29.9391H37.2443V52.9437H44.381V29.9391H49.3442L41.5259 17.2451C41.3683 16.9895 41.1126 16.8477 40.8114 16.8477C40.5136 16.8477 40.2561 16.9913 40.1004 17.2451L32.2827 29.9391ZM28.2248 36.4302L25.0934 41.5021H35.6699V31.5159H31.2617L28.2248 36.4302ZM18.8728 52.9437H35.6705V43.0762H24.1216L18.4683 52.2235C18.3772 52.3723 18.3737 52.5475 18.4594 52.7016C18.5436 52.8557 18.6958 52.9433 18.8727 52.9433L18.8728 52.9437ZM45.9599 52.9437H62.7576C62.9344 52.9437 63.0869 52.8545 63.1708 52.702C63.2566 52.5479 63.2531 52.3727 63.1604 52.2239L57.5193 43.0766H45.9603L45.9599 52.9437ZM45.9599 41.5016H56.5364L53.405 36.4297L50.3681 31.5154H45.9599V41.5016Z\" fill=\"black\" stroke=\"black\"/>\n</g>\n<mask id=\"mask2_23851_4307\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"17\" y=\"14\" width=\"47\" height=\"38\">\n<path d=\"M18.3955 14.9912H63.2308V51.1817H18.3955V14.9912Z\" fill=\"white\" stroke=\"white\"/>\n</mask>\n<g mask=\"url(#mask2_23851_4307)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M32.2827 28.1295H37.2443V51.1342H44.381V28.1295H49.3442L41.5259 15.4355C41.3683 15.1799 41.1126 15.0381 40.8114 15.0381C40.5136 15.0381 40.2561 15.1818 40.1004 15.4355L32.2827 28.1295ZM28.2248 34.6206L25.0934 39.6925H35.6699V29.7063H31.2617L28.2248 34.6206ZM18.8728 51.1342H35.6705V41.2666H24.1216L18.4683 50.4139C18.3772 50.5627 18.3737 50.7379 18.4594 50.892C18.5436 51.0461 18.6958 51.1337 18.8727 51.1337L18.8728 51.1342ZM45.9599 51.1342H62.7576C62.9344 51.1342 63.0869 51.0449 63.1708 50.8925C63.2566 50.7383 63.2531 50.5631 63.1604 50.4144L57.5193 41.2671H45.9603L45.9599 51.1342ZM45.9599 39.6921H56.5364L53.405 34.6202L50.3681 29.7059H45.9599V39.6921Z\" fill=\"white\" stroke=\"black\"/>\n</g>\n</svg>",
+      "rightsvg": "<svg width=\"125\" height=\"101\" viewBox=\"0 0 125 101\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g opacity=\"0.2\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M39.1438 36.3249H52.9075L52.9075 100.141H72.7048L72.7048 36.3249H86.4729L64.7846 1.11134C64.3474 0.402232 63.6383 0.00878906 62.8025 0.00878906C61.9764 0.00878906 61.2622 0.407383 60.8302 1.11134L39.1438 36.3249ZM27.8869 54.3316L19.2002 68.4012H48.5399L48.5399 40.6991H36.3114L27.8869 54.3316ZM1.94415 100.141H48.5417V72.7678H16.5045L0.821879 98.1428C0.569216 98.5555 0.559569 99.0415 0.797447 99.469C1.03082 99.8966 1.4532 100.14 1.94372 100.14L1.94415 100.141ZM77.0848 100.141H123.682C124.173 100.141 124.596 99.8932 124.829 99.4702C125.066 99.0427 125.057 98.5567 124.8 98.1439L109.151 72.769H77.0859L77.0848 100.141ZM77.0848 68.3999H106.424L97.7377 54.3302L89.3132 40.6978H77.0848V68.3999Z\" fill=\"white\"/></g></svg>"
+    },
+    "glossary": {
+      "camera_obscura": {
+        "word": "Cámara oscura",
+        "definition": "<strong class=\"text-[#0055B2]\">La cámara oscura</strong> es una habitación o caja oscura con un pequeño orificio en un lado. La luz pasa a través del orificio y proyecta una imagen invertida de la escena exterior sobre la pantalla o la pared opuesta. Este antiguo dispositivo óptico ayudó a los científicos a comprender cómo viaja la luz y fue un paso clave en la invención de las cámaras modernas. <div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/image/camera_obscura_es.webp' alt='Camera Obscura' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;'/></div>"
+      },
+      "summer_solstice": {
+        "word": "Solsticio de verano",
+        "definition": "<strong class=\"text-[#0055B2]\">Solsticio de verano</strong> es el día más largo del año, cuando el sol está más alto en el cielo. Ocurre alrededor del 21 de junio en el hemisferio norte."
+      },
+      "similar_triangles": {
+        "word": "Triángulos semejantes",
+        "definition": "Los <strong class=\"text-[#0055B2]\">triángulos semejantes</strong> son triángulos que tienen los mismos ángulos y proporciones de lados iguales."
+      },
+      "proportions": {
+        "word": "Proporciones",
+        "definition": "<strong class=\"text-[#0055B2]\">Proporción</strong> es una relación donde dos razones son iguales."
+      },
+      "right_triangle": {
+        "word": "Triángulo rectángulo",
+        "definition": "<strong class=\"text-[#0055B2]\">Triángulo rectángulo</strong> es un triángulo que tiene un ángulo de 90 grados."
+      },
+      "altitude": {
+        "word": "Altura",
+        "definition": "<strong class=\"text-[#0055B2]\">Altura</strong> de un triángulo es un segmento de línea que se traza desde el vértice de un triángulo hasta el lado opuesto. Es perpendicular a la base o al lado opuesto que toca."
+      },
+      "hypotenuse": {
+        "word": "Hipotenusa",
+        "definition": "<strong class=\"text-[#0055B2]\">Hipotenusa</strong> es el lado más largo de un triángulo rectángulo, siempre opuesto al ángulo recto."
+      },
+      "circumference": {
+        "word": "Circunferencia",
+        "definition": "<strong class=\"text-[#0055B2]\">Circunferencia</strong> es la distancia total alrededor de un círculo."
+      }
+    },
+    "common": {
+      "toscanelli": "Toscanelli",
+      "leonardo": "Leonardo",
+      "toscanelli_description": "Erudito mayor con turbante blanco y túnica oscura sosteniendo papeles manuscritos.",
+      "leonardo_description": "Joven renacentista con cabello rizado, boina negra y cadena dorada sosteniendo un pergamino.",
+      "bg1_description": "Vista panorámica del Florencia renacentista al atardecer, mostrando la icónica catedral del Duomo con su cúpula de terracota, campanario y edificios históricos circundantes bajo un cielo dorado con jirones de nubes.",
+      "bg2_description": "Interior del estudio de un erudito renacentista con ventanas arqueadas que ofrecen una impresionante vista de Florencia y su catedral Duomo en la distancia, con escritorios de madera con mapas e instrumentos bañados por la cálida luz del atardecer.",
+      "bg3_description": "Plaza del Duomo en Florencia durante el Renacimiento temprano, con la magnífica Catedral de Florencia y su cúpula iluminada por la dorada luz del atardecer, rodeada de arquitectura de la época y personas con atuendos históricos.",
+      "bg4_description": "Taller abovedado de un inventor o arquitecto renacentista con altas ventanas arqueadas que permiten que la luz del sol se extienda por mesas de dibujo cubiertas de diseños técnicos, herramientas geométricas e instrumentos científicos, con vista al campo toscano.",
+      "bg5_description": "Gran biblioteca u observatorio con cúpula en la Florencia renacentista con columnas clásicas, lleno de eruditos en túnicas de época estudiando entre instrumentos astronómicos, diagramas geométricos y estanterías de libros bañados en luz dorada.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la Misión",
+      "enter_answer": "Ingresa tu respuesta"
+    },
+    "audioController": {
+      "background_music_label": "Música de Fondo:",
+      "character_voice_label": "Voz del Personaje:",
+      "audio_controls_container": "Controles de Audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "game": {
+    "similar-triangles": "STEAM Quest - Triángulos Similares"
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  }
+}

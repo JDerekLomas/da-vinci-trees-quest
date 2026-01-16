@@ -1,0 +1,31 @@
+const mission1Config = {
+  translations: {
+    modelControlsHeading: 'scenes.S3.S3_D0_FX_C9.translations.modelControlsHeading',
+    stretchLabel: 'scenes.S3.S3_D0_FX_C9.translations.stretchLabel',
+    hShiftLabel: 'scenes.S3.S3_D0_FX_C9.translations.hShiftLabel',
+    vShiftLabel: 'scenes.S3.S3_D0_FX_C9.translations.vShiftLabel',
+    degreeLabel: 'scenes.S3.S3_D0_FX_C9.translations.degreeLabel',
+    checkMatchButton: 'scenes.S3.S3_D0_FX_C9.translations.checkMatchButton',
+    calibrationLineLabel: 'scenes.S3.S3_D0_FX_C9.translations.calibrationLineLabel',
+    seafloorMapLabel: 'scenes.S3.S3_D0_FX_C9.translations.seafloorMapLabel',
+    systemsCalibratedTitle: 'scenes.S3.S3_D0_FX_C9.translations.systemsCalibratedTitle',
+    systemsCalibratedMessage: 'scenes.S3.S3_D0_FX_C9.translations.systemsCalibratedMessage',
+    resetSimulationButton: 'scenes.S3.S3_D0_FX_C9.translations.resetSimulationButton',
+    matchConfirmedMessage: 'scenes.S3.S3_D0_FX_C9.translations.matchConfirmedMessage',
+    calibrationMismatchPrefix: 'scenes.S3.S3_D0_FX_C9.translations.calibrationMismatchPrefix',
+    diagnosticsPrefix: 'scenes.S3.S3_D0_FX_C9.translations.diagnosticsPrefix',
+    degreeIncorrectMessage: 'scenes.S3.S3_D0_FX_C9.translations.degreeIncorrectMessage',
+    stretchOffTargetMessage: 'scenes.S3.S3_D0_FX_C9.translations.stretchOffTargetMessage',
+    hShiftOffTargetMessage: 'scenes.S3.S3_D0_FX_C9.translations.hShiftOffTargetMessage',
+    vShiftOffTargetMessage: 'scenes.S3.S3_D0_FX_C9.translations.vShiftOffTargetMessage',
+    quadraticLabel: 'scenes.S3.S3_D0_FX_C9.translations.quadraticLabel',
+    cubicLabel: 'scenes.S3.S3_D0_FX_C9.translations.cubicLabel',
+    quarticLabel: 'scenes.S3.S3_D0_FX_C9.translations.quarticLabel',
+    quinticLabel: 'scenes.S3.S3_D0_FX_C9.translations.quinticLabel',
+    equationAriaLabel: 'scenes.S3.S3_D0_FX_C9.translations.equationAriaLabel',
+    vertexFormAriaLabel: 'scenes.S3.S3_D0_FX_C9.translations.vertexFormAriaLabel',
+    linearLabel: 'scenes.S3.S3_D0_FX_C9.translations.linearLabel',
+  },
+};
+
+export default mission1Config;

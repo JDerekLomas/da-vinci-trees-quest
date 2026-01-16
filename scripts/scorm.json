@@ -1,0 +1,187 @@
+{
+  "breakeven": {
+    "identifier": "BreakEvenQuest",
+    "title": "Break-Even Analysis Quest",
+    "description": "Learn about break-even analysis through an interactive business simulation."
+  },
+  "virus": {
+    "identifier": "VirusQuest",
+    "title": "Virus Spread Quest",
+    "description": "Explore exponential growth through virus spread simulation."
+  },
+  "playground": {
+    "identifier": "PlaygroundQuest",
+    "title": "Math Playground Quest",
+    "description": "Interactive playground for exploring mathematical concepts."
+  },
+  "pricing-dilemma": {
+    "identifier": "PricingDilemmaQuest",
+    "title": "Pricing Dilemma Quest",
+    "description": "Interactive playground for exploring mathematical concepts."
+  },
+  "critical-point": {
+    "identifier": "CriticalPointQuest",
+    "title": "Critical Point Quest",
+    "description": "Interactive playground for exploring mathematical concepts."
+  },
+  "baseball-game-plan": {
+    "identifier": "BaseBallGamePlanQuest",
+    "title": "Baseball Game Plan Quest",
+    "description": "Interactive playground for exploring mathematical concepts."
+  },
+  "skytrack-internship": {
+    "identifier": "SkytrackInternshipQuest",
+    "title": "Skytrack Internship Quest",
+    "description": "Learn about the linear functions through an interactive business simulation."
+  },
+  "kelp-forest-defenders": {
+    "identifier": "KelpForestDefendersQuest",
+    "title": "Kelp Forest Defenders Quest",
+    "description": "Interactive playground for discovering relationships in nature."
+  },
+  "lunar-probe-precision": {
+    "identifier": "LunarProbePrecisionQuest",
+    "title": "Lunar Probe Precision Quest",
+    "description": "Interactive playground for exploring Moon's Lava Tubes with Quadratics."
+  },
+  "get-in-the-zone": {
+    "identifier": "GetInTheZoneQuest",
+    "title": "Get In The Zone Quest",
+    "description": "Interactive playground for exploring mathematical concepts."
+  },
+  "atacama": {
+    "identifier": "AtacamaQuest",
+    "title": "Atacama Quest",
+    "description": "Interactive playground for exploring Trigonometric Tools."
+  },
+  "game-geometry": {
+    "identifier": "GameGeometryQuest",
+    "title": "Game Geometry Quest",
+    "description": "Interactive playground for exploring Geometry Transformations."
+  },
+  "wind-wise": {
+    "identifier": "WindWiseQuest",
+    "title": "Wind Wise Quest",
+    "description": "Interactive playground for modeling wind power with Polynomials and Factoring"
+  },
+  "engineering-the-perfect-beat": {
+    "identifier": "EngineeringThePerfectBeatQuest",
+    "title": "Engineering The Perfect Beat Quest",
+    "description": "Interactive playground to explore sound engineering through Exponential and Logarithmic Functions"
+  },
+  "ancient-alexandria": {
+    "identifier": "AncientAlexandriaQuest",
+    "title": "Ancient Alexandria Quest",
+    "description": "Interactive playground for exploring basic Geometric Concepts"
+  },
+  "euclid-path": {
+    "identifier": "EuclidPathQuest",
+    "title": "Euclid Path Quest",
+    "description": "Interactive playground for exploring Euclid's Foundations"
+  },
+  "circles-engineering-the-depth": {
+    "identifier": "CirclesEngineeringTheDepthQuest",
+    "title": "Circles Engineering The Depth Quest",
+    "description": "Interactive playground to explore engineering the depth through circles"
+  },
+  "inbox-under-siege": {
+    "identifier": "InboxUnderSiegeQuest",
+    "title": "Inbox Under Siege Quest",
+    "description": "Interactive playground for exploring probability concepts through email filtering scenarios."
+  },
+  "data-analysis": {
+    "identifier": "DataAnalysisQuest",
+    "title": "Data Analysis Quest",
+    "description": "Interactive playground for exploring data analysis concepts through a data analysis scenario."
+  },
+  "journey-through-waves": {
+    "identifier": "JourneyThroughWavesQuest",
+    "title": "Journey Through Waves Quest",
+    "description": "Interactive playground for exploring journey through waves using trigonometric functions."
+  },
+  "optical-illusions": {
+    "identifier": "OpticalIllusionsQuest",
+    "title": "Optical Illusions Quest",
+    "description": "Interactive playground for exploring journey by decoding famous optical illusions using triangle congruency."
+  },
+  "falling-into-orbit": {
+    "identifier": "FallingIntoOrbitQuest",
+    "title": "Falling Into Orbit Quest",
+    "description": "Interactive exploration into the mathematics of space travel, uncovering how conic sections guide satellites into their cosmic trajectories."
+  },
+  "shaping-sound": {
+    "identifier": "ShapingSoundQuest",
+    "title": "Shaping Sound Quest",
+    "description": "Explore the mathematics of sound design by manipulating ADSR envelopes and using function transformations to create expressive musical elements."
+  },
+  "lost-hiker": {
+    "identifier": "LostHikersQuest",
+    "title": "Lost Hiker Quest",
+    "description": "Interactive playground for exploring rational functions and their applications."
+  },
+  "musical-scale": {
+    "identifier": "MusicalScaleQuest",
+    "title": "Musical Scale Quest",
+    "description": "Explore the mathematical magic behind musical scales and synthesizers."
+  },
+  "forest-architect": {
+    "identifier": "ForestArchitectQuest",
+    "title": "Forest Architect Quest",
+    "description": "Use geometry to design forests that optimize both timber value and carbon storage."
+  },
+  "da-vinci-trees": {
+    "identifier": "DaVinciTreesQuest",
+    "title": "Da Vinci Trees",
+    "description": "Learn how foresters use geometric models to measure carbon storage in forests using Da Vinci's 500-year-old branching rule."
+  },
+  "coordinate-geometry": {
+    "identifier": "CoordinateGeometryQuest",
+    "title": "Coordinate Geometry Quest",
+    "description": "Interactive playground for exploring coordinate geometry concepts through LiDAR technology."
+  },
+  "similar-triangles": {
+    "identifier": "SimilarTrianglesQuest",
+    "title": "Similar Triangles Quest",
+    "description": "Interactive playground for exploring similar triangles concepts through a real-life scenario."
+  },
+  "exponential-model": {
+    "identifier": "ExponentialModelQuest",
+    "title": "Exponential Model Quest",
+    "description": "Interactive playground for analyze the growth potential of slime business through a Exponential Model."
+  },
+  "calculated-rescue": {
+    "identifier": "CalculatedRescueQuest",
+    "title": "Calculated Rescue Quest",
+    "description": "Interactive playground for exploring mathematical concepts through a rescue scenario."
+  },
+  "al-khwarizmi": {
+    "identifier": "AlKhwarizmiQuest",
+    "title": "Al-Khwarizmi Quest",
+    "description": "Interactive playground for exploring the mathematics of ancient commerce."
+  },
+  "fractals": {
+    "identifier": "FractalsQuest",
+    "title": "Fractals Quest",
+    "description": "Interactive playground for exploring the beauty of fractals and their mathematical properties."
+  },
+  "polynomial-pirates": {
+    "identifier": "PolynomialPiratesQuest",
+    "title": "Polynomial-Pirates Quest",
+    "description": "Interactive playground for exploring polynomial mathematics through a maritime treasure hunt, where mathematical algorithms become the key to navigating treacherous waters and uncovering hidden secrets of the deep."
+  },
+  "mathematical-architecture": {
+    "identifier": "MathematicalArchitectureQuest",
+    "title": "Solar Geometry Quest",
+    "description": "Interactive playground for exploring geometric principles like polygon angle sums, tessellation, and symmetry to design a zero-carbon cultural center in Dubai."
+  },
+  "pythagoras-quest": {
+    "identifier": "PythagorasQuest",
+    "title": "Pythagoras Quest",
+    "description": "Interactive playground for exploring how Pythagoras and his followers uncovered the hidden mathematical harmony that governs the universe."
+  },
+  "matrix-multiplication": {
+    "identifier": "MatrixMultiplicationQuest",
+    "title": "Matrix Multiplication Quest",
+    "description": "Discover how matrix multiplication powers the graphics transformations in video games and computer graphics."
+  }
+}

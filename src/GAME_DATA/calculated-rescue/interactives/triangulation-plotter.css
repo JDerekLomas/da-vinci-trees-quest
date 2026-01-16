@@ -1,0 +1,14 @@
+@keyframes pulse {
+    0% {
+      r: 10;
+      opacity: 1;
+    }
+    70% {
+      r: 25;
+      opacity: 0.3;
+    }
+    100% {
+      r: 30;
+      opacity: 0;
+    }
+  }

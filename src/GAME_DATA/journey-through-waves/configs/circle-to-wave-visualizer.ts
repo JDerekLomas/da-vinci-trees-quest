@@ -1,0 +1,60 @@
+import { Interaction } from '../interactives/interface';
+
+const interaction: Interaction = {
+  type: 'circle-to-wave-visualizer',
+  title: '',
+  ariaLabel: 'scenes.S4.S4_D0_F12_C9.ariaLabel',
+  angleInput: {
+    id: 'angle-input',
+    type: 'slider',
+    label: 'scenes.S4.S4_D0_F12_C9.translations.angle',
+    min: 0,
+    max: 2 * Math.PI,
+    value: 0,
+    step: 0.01,
+    unit: 'radian',
+  },
+  speedInput: {
+    id: 'speed-input',
+    type: 'slider',
+    label: 'scenes.S4.S4_D0_F12_C9.translations.speed',
+    min: 0.5,
+    max: 3,
+    value: 1,
+    step: 0.5,
+  },
+  interactiveConstants: {
+    SVG_WIDTH: 700,
+    SVG_HEIGHT: 200,
+    RADIUS: 80,
+    CENTER_X: 110,
+    CENTER_Y: 100,
+  },
+  translations: {
+    animationStartMsg: 'scenes.S4.S4_D0_F12_C9.translations.animationStartMsg',
+    animationStopMsg: 'scenes.S4.S4_D0_F12_C9.translations.animationStopMsg',
+    play: 'scenes.S4.S4_D0_F12_C9.translations.play',
+    pause: 'scenes.S4.S4_D0_F12_C9.translations.pause',
+  },
+  specialAngles: {
+    0: { sin: '0', cos: '1' },
+    30: { sin: '1∕2', cos: '√3∕2' },
+    45: { sin: '1∕√2', cos: '1∕√2' },
+    60: { sin: '√3∕2', cos: '1∕2' },
+    90: { sin: '1', cos: '0' },
+    120: { sin: '√3∕2', cos: '−1∕2' },
+    135: { sin: '1∕√2', cos: '−1∕√2' },
+    150: { sin: '1∕2', cos: '−√3∕2' },
+    180: { sin: '0', cos: '−1' },
+    210: { sin: '−1∕2', cos: '−√3∕2' },
+    225: { sin: '−1∕√2', cos: '−1∕√2' },
+    240: { sin: '−√3∕2', cos: '−1∕2' },
+    270: { sin: '−1', cos: '0' },
+    300: { sin: '−√3∕2', cos: '1∕2' },
+    315: { sin: '−1∕√2', cos: '1∕√2' },
+    330: { sin: '−1∕2', cos: '√3∕2' },
+    360: { sin: '0', cos: '1' },
+  },
+};
+
+export default interaction;

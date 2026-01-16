@@ -1,0 +1,560 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Life in Moon Caves",
+    "scene_3E": "Lunar SkyLight",
+    "scene_4": "Lunar Probe Trajectory",
+    "scene_5": "Lunar Probe Launch",
+    "scene_6E": "Standard Form Introduction",
+    "scene_6": "Formula for Standard Form",
+    "scene_7": "Quadratic Formula Explorer",
+    "scene_8E": "Vertex Form Introduction",
+    "scene_8": "Vertex Form",
+    "scene_9": "Lunar Probe Navigation",
+    "scene_10": "Simpler Approach",
+    "scene_11": "Probe Trajectory and Quadratic Roots",
+    "scene_12": "Conclusion",
+    "scene_13": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "equation": {
+    "yEquals": "y equals",
+    "times": "times",
+    "qty": "the quantity",
+    "minus": "minus",
+    "plus": "plus",
+    "squared": "squared",
+    "point": "point",
+    "zero": "zero"
+  },
+  "status": {
+    "launching": "Probe is launching, please wait.",
+    "hit": "Target has been hit successfully."
+  },
+  "start": {
+    "title": "<div style='font-size: 32px; line-height: 48px; font-weight: 700;'>The Moonshot</div> <div style='font-size: 20px; line-height: 30px; font-weight: 700;'>Exploring the Moon's Lava Tubes with Quadratics</div>",
+    "description": "Using advanced simulations and the power of quadratic functions, you’ll help navigate a lunar probe toward the entrance to a massive moon cave that may one day shelter astronauts, store supplies, and unlock vital resources.",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D0_FSQ2_C0": {
+        "img": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>The Moon Formation</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/moonFormationOrigin.webp' alt='Moon Formation Origin' title='Moon Formation Origin' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div></div>",
+        "imgDescription": "A giant collision with a planet called Theia created the Moon from scattered debris.",
+        "img2": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>The Birth of the Moon</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/theMoltenMoon.webp' alt='The Molten Moon' title='The Molten Moon' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div></div>",
+        "imgDescription2": "Hot rock blasted into space from the impact came together to form the Moon.",
+        "img3": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>From Lava Ball to Lunar Surface</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/lavaFlowsOnTheMoon.webp' alt='Lava Flows on the Moon' title='Lava Flows on the Moon' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div></div>",
+        "imgDescription3": "The Moon cooled from a hot lava world into the solid surface we see today.",
+        "img4": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>How Lava Tubes Are Born</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/birthOfLavaTubes.webp' alt='Birth of Lava Tubes' title='Birth of Lava Tubes' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription4": "Cooling lava forms a hard roof while hot lava flows beneath, creating tunnels.",
+        "img5": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>The Four-Step Formation Process</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/lavaTubesFormation1.webp' alt='Lava Tubes Formation 1' title='Lava Tubes Formation 1' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription5": "Lava tubes form when molten lava drains out from beneath a cooled crust.",
+        "img6": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>Inside a Lava Tube System</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/lavaTubesFormation2.webp' alt='Lava Tubes Formation 2' title='Lava Tubes Formation 2' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription6": "Beneath solid rock, lava flows like an underground river creating open spaces.",
+        "img7": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>Lava Tubes Visible from Space</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/birdEyeView.webp' alt='Bird Eye View' title='Bird Eye View' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription7": "Collapsed sections reveal the paths of hidden lava tubes from orbit.",
+        "img8": "<div style='display:flex;flex-direction:column;align-items:center;'><div style='font-size:20px;font-weight:600;margin-bottom:8px;'>A Natural Skylight</div><div style='background:#222;display:flex;align-items:center;justify-content:center;width:760px;height:520px;border-radius:24px;overflow:hidden;'><img src='./assets/backgrounds/theSkylight.webp' alt='The Skylight' title='The Skylight' style='max-width:100%;max-height:100%;border-radius:20px;object-fit:contain;background:#222;'/></div><div style='display:flex;justify-content:center;align-items:center;margin-top:16px;gap:8px;'><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#006BE0;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span><span style='display:inline-block;width:12px;height:12px;border-radius:50%;background:#B3D6F8;'></span></div></div>",
+        "imgDescription8": "Skylights are collapsed roofs that open into massive underground lava tubes."
+      },
+      "S2_D1_FSQ2_C2": "<h1 style=\"color: #000; font-size: 1.5rem; font-weight: 700; line-height: 36px; margin-bottom: 1rem;\">Welcome to the Space Research Center</h1><p style=\"margin-bottom: 1rem;\">Beneath the Moon's surface lie vast lava tubes — silent tunnels untouched for billions of years. Scientists believe these hidden chambers could one day shelter astronauts and vital resources, but no one has ever explored them… until now.</p>",
+      "S2_D2_FSQ2_C2": "Hello Ethan, welcome to your mission briefing. Let’s get started at the very beginning. Are you familiar with how the moon was formed, 4.5 billion years ago?",
+      "S2_D3_FSQ2_C1": "Something about a massive collision? I'm not sure of the details.",
+      "S2_D3_FSQ2_C2": "You are right. Two planets, the Earth and a Mars-sized object called Theia collided. The impact was massive. It ejected a massive amount of molten material into space. Over time, this material clumped together and eventually formed our Moon.",
+      "S2_D4_FSQ2_C1": "Fascinating — does this have anything to do with our mission?",
+      "S2_D4_FSQ2_C2": "Yes! Because these events helped create a network of caves on the moon—caves where humans might someday create colonies.",
+      "S2_D5_FSQ2_C2": "You see, the moon wasn’t always the cold, gray world we see today. It used to be a molten ball of lava, glowing like a second sun in Earth's sky.",
+      "S2_D6_FSQ2_C1": "What, a molten Moon? A giant ball of lava? That's hard to imagine. I'm guessing it cooled down eventually?",
+      "S2_D6_FSQ2_C2": "It did, but unevenly. Even after it cooled on the surface, it was still molten underneath. In fact, the moon had a lot of volcanos, where the lava would come to the surface. You can still see the evidence today: see those dark patches on the Moon? Those are ancient lava flows.",
+      "S2_D7_FSQ2_C1": "So the Moon was basically covered in flowing lava rivers?",
+      "S2_D7_FSQ2_C2": "Yes! And, here’s what’s even more interesting: when those rivers of lava cool down, they often leave behind a network of tunnels. We call them lava tubes.",
+      "S2_D8_FSQ2_C1": "Lava tubes? You are saying there is a network of lava tunnels under the moon? How do we know that?",
+      "S2_D8_FSQ2_C2": "On earth, scientists have found that the outer surface of flowing lava cools down first and hardens into solid rock. However, underneath this solid crust, the molten lava keeps flowing— like an underground river. Then, once all this flowing lava drains away, it leaves behind a vast network of hollow lava tubes.",
+      "S2_D10_FSQ2_C1": "And scientists think this happens on the moon, too?",
+      "S2_D10_FSQ2_C2": "We know it! We can sometimes see them from telescopes.",
+      "S2_D11_FSQ2_C1": "But how can you see tunnels on the moon, if they are underground?",
+      "S2_D11_FSQ2_C2": "Good question! Well, sometimes meteors or moonquakes can collapse the roof of a tunnel. Can you see this here?",
+      "S2_D13_FSQ2_C1": "Wow, the collapsed roof outlines the shape of the tunnel!",
+      "S2_D13_FSQ2_C2": "On Earth, lava tubes also sometimes have a collapsed roof. They can be beautiful. We call these Skylights. And that’s the aim of our mission: to shoot a probe into the skylight of a lava tube.",
+      "S2_D14_FSQ2_C1": "Unbelievable.",
+      "S2_D15_FSQ2_C2": "And, because the moon’s gravity is only one sixth of the gravity on earth, the tunnels can get much, much larger than on earth. Some caves may be massive enough to fit entire cities inside.",
+      "S2_D16_FSQ2_C1": "But why would anyone want to live underground on the moon?",
+      "S2_D16_FSQ2_C2": "Mostly for protection! The earth’s atmosphere burns up most small meteorites. But on the moon, they would be a deadly hazard. The Earth’s atmosphere also protects us from the cancerous heavy radiation from the sun. Finally, the moon’s surface has a massive temperature: from 250°F in daylight to  -208°F at night! The temperature would be cold in the lunar tunnels, but stable.",
+      "S2_D15_FSQ2_C1": "Ok, so instead of building an expensive moon colony on the surface of the moon, we could take advantage of the structures that already exist on the moon.",
+      "S2_D12_FSQ2_C2": "That’s right. There is huge potential. That’s why our mission is to go gather preliminary data about these caves. We’ve designed a moon lander that is fitted with a projectile device that can launch lunar probes into the skylights of nearby lava tubes.",
+      "S2_D2_FSQ2_C1": "We’re going to shoot the probe? Why not a robot or rover?",
+      "S2_D9_FSQ2_C2": "With a single device on the lander, we can shoot multiple probes into nearby caves. We can gather far more data this way."
+    },
+    "S3": {
+      "S3_D1_FSQ1_C1": "Captain, It feels unreal watching the Moon's surface like this from Earth. I used to dream about exploring it.",
+      "S3_D2_FSQ3_C2": "You're not alone in that dream, Ethan. But what's fascinating about our mission isn't just the surface—it's what's below.",
+      "S3_D3_FSQ1_C1": "You're talking about the lava tubes, right? What exactly are those?",
+      "S3_D4_FSQ3_C2": "When the Moon was formed, it was covered in lava. Over time, the lava flowed and cooled down. The outer layer hardened first, creating a huge network of hollow lava tubes.",
+      "S3_D5_FSQ1_C1": "So the Moon has caves!",
+      "S3_D6_FSQ3_C2": "That's right! And because the gravity on the Moon is just ⅙ of earth's gravity, some of the caves are enormous – we might be able to build a whole city in some of them.",
+      "S3_D7_FSQ1_C1": "A city! Wouldn't people want to live on the surface of the Moon?",
+      "S3_D8_FSQ3_C2": "Since the Moon has no atmosphere, living on the surface will expose people to dangerous radiation. To live on the surface, we'd need to build very thick walls to block the radiation.",
+      "S3_D9_FSQ1_C1": "Oh, but if we live in the Moon caves, we'd be protected! How do we really know these caves are real if we haven't explored them yet?",
+      "S3_D10_FSQ3_C2": "Good question! In some places, the roofs of the lunar lava tubes have collapsed, forming “skylights.” These openings can give us access to the vast tunnel system below."
+    },
+    "S5": {
+      "S5_D0_FSQ4_C9": {
+        "title": "Lunar Probe Launch",
+        "initial_velocity": "Initial Velocity",
+        "launch_angle": "Launch Angle",
+        "target_position": "Target Position:",
+        "adjust_slider": "Adjust angle and velocity, then launch",
+        "hit_position": "Hit Position:",
+        "hit": "HIT!",
+        "miss": "MISS!",
+        "reset": "Reset",
+        "launch_probe": "Launch Probe",
+        "launching": "Launching...",
+        "target_hit": "Target Hit!",
+        "probe_in_flight": "Probe in flight...",
+        "target_hit_reset": "Target Hit! Reset to try again",
+        "feet_unit": "ft",
+        "degrees_unit": "°",
+        "velocity_unit": "ft/s",
+        "graph": {
+          "xAxisLabel": "Distance (ft)",
+          "yAxisLabel": "Height (ft)",
+          "tooltipDistance": "Distance",
+          "tooltipHeight": "Height"
+        },
+        "help": {
+          "heading": "How to Reach the Cave",
+          "body": "<div><div style='margin-bottom: 16px;'><span style='font-size: 20px; font-weight: 600;'>Adjust Sliders:</span><span style='font-size: 20px; line-height: 1.6;'> Use the sliders to modify the probe's <strong>Initial Velocity (20-50 ft/s)</strong> and <strong>Launch Angle (0-90°).</strong> Watch how the trajectory updates in real-time.</span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Set Target:</span><span style='font-size: 20px; line-height: 1.6;'> The goal is to hit the red target located at <strong>(50, 0).</strong></span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Launch Probe:</span><span style='font-size: 20px; line-height: 1.6;'> Click the <strong>\"Launch Probe\"</strong> button to see if the probe hits the target.</span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Reset:</span><span style='font-size: 20px; line-height: 1.6;'> Use the <strong>\"Reset\"</strong> button to start over and try new values.</span></div></div>"
+        },
+        "about": {
+          "heading": "How Velocity and Angle Affect Trajectory",
+          "body": "<div><div style='margin-bottom: 16px;'><span style='font-size: 20px; font-weight: 600;'>Velocity:</span><span style='font-size: 20px; line-height: 1.6;'> Higher velocity increases both height and distance of the trajectory.</span></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Angle:</span><div style='font-size: 20px; line-height: 1.6; margin-top: 8px;'>• Optimal range at 45°, it perfectly balances horizontal and vertical velocity components hence maximizing the distance traveled<br>• < 45°: Flatter, longer range<br>• > 45°: Higher, shorter range</div></div><div style='margin-bottom: 24px;'><span style='font-size: 20px; font-weight: 600;'>Combined Effect:</span><span style='font-size: 20px; line-height: 1.6;'> Velocity and angle together define trajectory shape and target reach.</span></div></div>"
+        },
+        "feedback_short_distance": "Not enough power! Try increasing velocity.",
+        "feedback_long_distance": "Too much power! Try decreasing velocity.",
+        "feedback_close": "Getting close! Fine-tune your velocity.",
+        "feedback_angle_high": "Angle too steep! Try changing the angle.",
+        "feedback_adjust_angle": "Good distance! Adjust your angle.",
+        "feedback_adjust_both": "Try adjusting both velocity and angle."
+      },
+      "S5_D1_FSQ4_C2": "Your task is to test out the ballistic trajectory of the probe. For maximum efficiency, our launch system is calibrated to the optimal 45-degree angle.",
+      "S5_D2_FSQ4_C1": "Why 45 degrees specifically?",
+      "S5_D3_FSQ4_C2": "At 45 degrees, projectiles achieve their maximum range for any given velocity - it's basic physics! Your job is to determine the exact launch velocity needed to hit the skylight at 50 feet.",
+      "S5_D4_FSQ4_C1": "So I only need to adjust the velocity? That should make the calculation more precise.",
+      "S5_D4_FSQ5_C2": "Exactly! The launch angle is fixed at 45 degrees. Set the angle to 45, then find the right velocity to hit the target.",
+      "S5_D5_FSQ4_C2": "Remember, we're on the moon where gravity is much weaker than Earth's. Find the velocity to launch the probe.",
+      "S5_D6_FSQ4_C2": "Excellent! You found the precise velocity needed. This creates the perfect parabolic arc to reach the skylight."
+    },
+    "S6": {
+      "S5_D4_FSQ4_C2": "Congratulations on reaching the skylight! Can you see why we might want a mathematical model instead of trial and error?",
+      "S6_D1_FSQ4_C1": "Yes, can we calculate the exact trajectory beforehand?",
+      "S6_D2_FSQ4_C2": "Absolutely. This projectile motion is actually very easy to model with a mathematical equation called a quadratic function.",
+      "S6_D3_FSQ4_C1": "Quadratics! Ok, let’s do it.",
+      "S6_D4_FSQ4_C2": "The standard form of a quadratic function is <em style='color: #E0002B; font-family: besley;'>y</em> = <em style='color: #8E24AA; font-family: besley;'>a</em><em style='color: #0061FC; font-family: besley;'>x<sup>2</sup></em> + <em style='color: #DB0072; font-family: besley;'>b</em><em style='color: #0061FC; font-family: besley;'>x</em> + <em style='color: #008217; font-family: besley;'>c</em>. Each <no-glossary>parameter</no-glossary> controls a different aspect of our trajectory."
+    },
+    "S7": {
+      "S7_D0_FSQ4_C9": {
+        "title": "Formula for Standard Form",
+        "standard_form_title": "Standard Form: ",
+        "standard_form_formula_ariaLabel": "y equals a times x squared plus b times x plus c, where a, b, and c are parameters that control the shape of the parabola",
+        "standard_form_subtitle": "See how each parameter affects the parabola",
+        "param_a_label": "Parameter 'a'",
+        "param_a_description": "Controls shape and direction",
+        "param_a_effect": "Opens down",
+        "param_b_label": "Parameter 'b'",
+        "param_b_description": "Controls horizontal position",
+        "param_b_effect": "Horizontal shift",
+        "param_c_label": "Parameter 'c'",
+        "param_c_description": "Controls y-intercept",
+        "param_c_effect": "Y-intercept",
+        "visualization_title": "Parabola Visualization",
+        "parameters_title": "Parameters",
+        "current_value_label": "Current value:",
+        "current_equation_label": "Current Equation:",
+        "y_intercept_label": "Y-Intercept:",
+        "origin_label": "0",
+        "y_intercept_marker": "c",
+        "opens_up_text": "Opens up",
+        "opens_down_text": "Opens down",
+        "narrow_text": "Narrow",
+        "wide_text": "Wide",
+        "left_shift_text": "Left shift",
+        "right_shift_text": "Right shift",
+        "no_shift_text": "No shift",
+        "above_axis_text": "Above axis",
+        "below_axis_text": "Below axis",
+        "on_axis_text": "On axis",
+        "vertex_label": "Vertex:"
+      },
+      "S7_D3_FSQ4_C2": "Adjusting these will control the path of the probe. For our lunar mission, we need a negative value for the parameter to create a downward arc. Click on the '<em style='color: #8E24AA; font-family: besley;'>a</em>' parameter and try out some different values.",
+      "S7_D4_FSQ4_C1": "Ok, when <em style='color: #8E24AA; font-family: besley;'>a</em> is -0.02, it opens downward, and when it's -0.05, it's steeper but still downward. I can see why we need negative values for our lunar mission! And what about <em style='color: #DB0072; font-family: besley;'>b</em>? How does that affect things?",
+      "S7_D5_FSQ4_C2": "The <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em> value helps adjust our trajectory. Try different options to see which keeps us safely above the obstacles.",
+      "S7_D6_FSQ4_C1": "Interesting! When <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em> is positive, the parabola shifts one way, and when it's negative, it shifts the other way. So this controls the horizontal positioning of the peak. And <em style='color: #677600; font-family: besley; font-style: italic;'>c</em>?",
+      "S7_D7_FSQ4_C2": "That's our starting height, it sets the y intercept – where we launch the probe from. For this mission, we're starting at ground level, so <em style='color: #677600; font-family: besley; font-style: italic;'>c</em> will be zero. Try the '<em style='color: #677600; font-family: besley; font-style: italic;'>c</em>' parameter to see how it affects the launch point.",
+      "S7_D8_FSQ4_C1": "Oh, I can see the parabola moving up and down! When <em style='color: #677600; font-family: besley; font-style: italic;'>c</em> is positive, we start higher up, and when it's negative, we start below ground level.",
+      "S7_D9_FSQ4_C2": "Perfect! <em style='color: #8E24AA; font-family: besley; font-style: italic;'>a</em> shapes the curve, <em style='color: #DB0072; font-family: besley; font-style: italic;'>b</em> positions it, and <em style='color: #677600; font-family: besley; font-style: italic;'>c</em> sets our launch point. Now we just need the right combination to hit the target!"
+    },
+    "S8": {
+      "S8_D0_FSQ4_C9": {
+        "title": "Quadratic Formula Explorer",
+        "controls": {
+          "groupLabel": "Function Controls",
+          "a": {
+            "label": "a",
+            "description": "Controls opening"
+          },
+          "b": {
+            "label": "b",
+            "description": "Controls shift"
+          },
+          "c": {
+            "label": "c",
+            "description": "Initial height"
+          }
+        },
+        "graph": {
+          "xAxisLabel": "Distance (ft)",
+          "yAxisLabel": "Height (ft)",
+          "tooltipDistance": "Distance",
+          "tooltipHeight": "Height"
+        },
+        "buttons": {
+          "reset": "Reset",
+          "start": "Start",
+          "launching": "Launching...",
+          "targetHit": "Target Hit!",
+          "launch": "Launch"
+        },
+        "status": {
+          "target": "Target",
+          "position": "Position",
+          "xIntercepts": "X-intercepts",
+          "adjustCurve": "Adjust curve to hit target",
+          "probeInMotion": "Probe in Motion...",
+          "hit": "HIT!",
+          "miss": "MISS!"
+        },
+        "aria": {
+          "graph": "Quadratic function visualization"
+        },
+        "equation": {
+          "currentEquation": "Current Equation",
+          "plus": "plus",
+          "minus": "minus",
+          "equals": "equals",
+          "square": "square"
+        },
+        "help": {
+          "heading": "Guiding the Probe to Cave",
+          "body": "<div><ul style='display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><span style='font-size: 20px; font-weight: 600;'>Adjust the Sliders:</span><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: circle; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong><em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> (Curve Shape):</strong> Controls how wide the probe&rsquo;s path is and whether the parabolic path opens upward or downward</li><li><strong><em style='color: #DB0072; font-family: \"Besley\", serif;'>b</em> (Shift):</strong> Once <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> is set, <em style='color: #DB0072; font-family: \"Besley\", serif;'>b</em> helps determine the vertex of the probe&rsquo;s path</li><li><strong><em style='color: #008217; font-family: \"Besley\", serif;'>c</em> (Launch Height):</strong> Adjusts the probe&rsquo;s starting height, like the launchpad position</li></ul></li><li><span style='font-size: 20px; font-weight: 600;'>Watch the Trajectory:</span><span style='font-size: 20px; line-height: 1.6;'> See how the curve adjusts in real-time to aim the probe towards the target.</span></li><li><span style='font-size: 20px; font-weight: 600;'>Launch the Probe:</span><span style='font-size: 20px; line-height: 1.6;'> Press <strong>Start</strong> to send the probe on its mission to the cave at <strong>(50, 0)</strong>.</span></li><li><span style='font-size: 20px; font-weight: 600;'>Reset for Another Attempt:</span><span style='font-size: 20px; line-height: 1.6;'> Use <strong>Reset</strong> to adjust and try again.</span></li></ul></div>"
+        },
+        "about": {
+          "heading": "Standard form of Quadratic Function",
+          "body": "<div><p style='font-size: 20px; line-height: 1.6; font-family: \"Besley\", serif;'>The equation <em style='color: #E0002B;'>y</em> = <em style='color: #8E24AA;'>a</em> <em style='color: #0061FC;'>x&sup2;</em> + <em style='color: #DB0072;'>b</em> <em style='color: #0061FC;'>x</em> + <em style='color: #008217;'>c</em></p> represents a parabola, a curve that models projectile motion like the path of the lunar probe, where <em>y</em> is the height of the probe in feet at a horizontal distance <em>x</em> feet.</p></div><div style='margin-bottom: 16px;'><span style='font-size: 20px; font-weight: 600;'><br />Coefficient Breakdown:</span><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong><em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> (Opening and Direction):</strong> Controls the curve's <strong>width</strong> and <strong>direction</strong></li><li><strong><em style='color: #DB0072; font-family: \"Besley\", serif;'>b</em> (Shift):</strong> Together with <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em>, determines the location of the curve&rsquo;s <strong>vertex</strong> (the highest or lowest point)</li><li><strong><em style='color: #008217; font-family: \"Besley\", serif;'>c</em> (Vertical Start - Y-Intercept):</strong> Sets the starting height of the curve on the y-axis</li></ul></div>"
+        }
+      },
+      "S8_D1_FSQ4_C1": "Alright, but how do we figure out the exact mathematical model for this trajectory?",
+      "S8_D2_FSQ4_C2": "Using the standard form: <em style='color: #E0002B; font-family: besley;'>y</em> = <em style='color: #8E24AA; font-family: besley;'>a</em><em style='color: #0061FC; font-family: besley;'>x<sup>2</sup></em> + <em style='color: #DB0072; font-family: besley;'>b</em><em style='color: #0061FC; font-family: besley;'>x</em> + <em style='color: #008217; font-family: besley;'>c</em>. Let's determine each parameter systematically. Since the projectile launches from ground level at <strong>(0, 0)</strong>, what value should <em style='color: #008217; font-family: besley;'>c</em> have?",
+      "S8_D3_FSQ4_C1": "If we're starting at ground level... <em style='color: #008217; font-family: besley;'>c</em> should be 0!",
+      "S8_D4_FSQ4_C2": "Correct! Now, our mission engineers have determined that the <em style='color: #DB0072; font-family: besley;'>b</em> parameter needs to be 1.0.",
+      "S8_D5_FSQ4_C1": "So if <em style='color: #008217; font-family: besley;'>c</em> = 0 and <em style='color: #DB0072; font-family: besley;'>b</em> = 1.0, that leaves only <em style='color: #8E24AA; font-family: besley;'>a</em> to determine? One unknown parameter to solve for - that's much cleaner!",
+      "S8_D6_FSQ4_C2": "That's right! We need to find the value of <em style='color: #8E24AA; font-family: besley;'>a</em> that creates a trajectory from (0,0) to (50,0). Remember, <em style='color: #8E24AA; font-family: besley;'>a</em> must be negative to create a downward-opening parabola that brings our probe back to ground level. What should <em style='color: #8E24AA; font-family: besley;'>a</em> be?",
+      "S8_D7_FSQ4_C2": "Excellent deduction! You determined that a = -0.02 is the precise value needed. This negative coefficient accounts for lunar gravity's effect on our projectile motion.",
+      "S8_D8_FSQ4_C2": "With that equation, you created a mathematical model that assured an accurate trajectory.  But there are different forms of quadratic equations that may be easier to control.",
+      "S8_D9_FSQ4_C1": "Great, because the standard form was kind of a challenge.",
+      "S8_D10_FSQ4_C2": "The next equation is called the <strong>vertex form</strong>. Rather than changing the general shape, you can directly control the <strong>highest point</strong> of the curve—its peak. Let’s dive into it and see how changing the parameters affects the trajectory."
+    },
+    "S9": {
+      "S9_D0_FCH1_C9": {
+        "title": "Vertex Form",
+        "vertex_form_title": "Vertex Form: ",
+        "vertex_form_formula_ariaLabel": "y equals a times the quantity x minus h squared plus k, where a, h, and k are parameters that control the shape and position of the parabola",
+        "vertex_form_subtitle": "Explore how different parameter values affect the parabola",
+        "param_a_label": "Parameter 'a'",
+        "param_a_description": "Controls shape and direction",
+        "param_a_effect": "Opens down",
+        "param_h_label": "Parameter 'h'",
+        "param_h_description": "Vertex horizontal position",
+        "param_h_effect": "Horizontal shift",
+        "param_k_label": "Parameter 'k'",
+        "param_k_description": "Vertex vertical position",
+        "param_k_effect": "Vertical shift",
+        "visualization_title": "Parabola Visualization",
+        "parameters_title": "Parameters",
+        "current_value_label": "Current value:",
+        "current_equation_label": "Current Equation:",
+        "vertex_label": "Vertex:",
+        "origin_label": "0",
+        "vertex_marker": "V",
+        "opens_up_text": "Opens up",
+        "opens_down_text": "Opens down",
+        "narrow_text": "Narrow",
+        "wide_text": "Wide"
+      },
+      "S9_D1_FCH1_C2": "The vertex form gives us direct control over the peak of the trajectory. In the formula, the parameter <em style='color: #8E24AA; font-family: besley;'>a</em> tells us if the curve opens upward or downward, and the value controls how steep the curve is.",
+      "S9_D2_FCH2_C2": "Try clicking on the '<em style='color: #8E24AA; font-family: besley;'>a</em>' parameter and test values to see this effect.",
+      "S9_D3_FCH3_C1": "I can see it! When <em style='color: #8E24AA; font-family: besley;'>a</em> is -0.02, it opens downward with a gentle curve, and when it's -0.05, it's much steeper but still opens downward.",
+      "S9_D5_FCH5_C2": "Indeed. And the larger the absolute value of <em style='color: #8E24AA; font-family: besley;'>a</em>, the steeper and narrower the curve. A smaller absolute value of <em style='color: #8E24AA; font-family: besley;'>a</em> makes the curve wider and gentler. So <em style='color: #8E24AA; font-family: besley;'>a</em> is all about the shape, wider or narrower, opening up or down.",
+      "S9_D6_FCH6_C2": "Now <em style='color: #A8351D; font-family: besley;'>h</em> is the x-coordinate of the vertex, the highest or lowest point of the curve. Click on '<em style='color: #A8351D; font-family: besley;'>h</em>' and try values to see how it moves the vertex horizontally.",
+      "S9_D7_FCH7_C1": "Amazing! When <em style='color: #A8351D; font-family: besley;'>h</em> is 25, the vertex moves to the right, and when it's -25, the vertex moves to the left. So <em style='color: #A8351D; font-family: besley;'>h</em> decides where the vertex aligns horizontally. Got it.",
+      "S9_D8_FCH8_C2": "Next, <em style='color: #008217; font-family: besley;'>k</em>. This sets the vertical position of the vertex. It determines how high the probe will fly before descending. Try the '<em style='color: #008217; font-family: besley;'>k</em>' parameter to see how it affects the vertex height.",
+      "S9_D9_FCH9_C1": "Perfect! When <em style='color: #008217; font-family: besley;'>k</em> is 30, the vertex is high up, and when it's -30, the vertex is below the x-axis. So <em style='color: #008217; font-family: besley;'>k</em> determines how high the vertex is. Makes sense!",
+      "S9_D10_FCH10_C2": "That's the power of vertex form! You have direct control over exactly where the peak occurs and how high it goes. This makes mission planning much more precise."
+    },
+    "S10": {
+      "S10_D0_FSQ4_C9": {
+        "title": "Lunar Probe Navigation",
+        "heading": "Find a Path Between Launch and Landing Points",
+        "controls": {
+          "groupLabel": "Function Controls",
+          "value": "value",
+          "a": {
+            "description": "Curvature",
+            "ariaLabel": "Adjust a value to control curve steepness"
+          },
+          "h": {
+            "description": "Horizontal",
+            "ariaLabel": "Adjust h value to control horizontal position"
+          },
+          "k": {
+            "description": "Vertical",
+            "ariaLabel": "Adjust k value to control vertical position"
+          }
+        },
+        "graph": {
+          "axis": {
+            "x": {
+              "label": "Distance (ft)",
+              "var": "Distance",
+              "ariaLabel": "Horizontal distance in feet"
+            },
+            "y": {
+              "label": "Height (ft)",
+              "var": "Height",
+              "ariaLabel": "Vertical height in feet"
+            }
+          },
+          "tooltip": {
+            "ariaLabel": "Current height"
+          },
+          "ariaDescription": "Graph showing the probe's trajectory path from launch point to target"
+        },
+        "equation": {
+          "ariaLabel": "Current quadratic equation in vertex form"
+        },
+        "mission": "Mission: Create a trajectory from (0,0) to (50,0) feet",
+        "xIntercepts": "X-intercepts",
+        "status": {
+          "perfect": "Perfect! Your trajectory successfully connects the launch and landing points!",
+          "keepAdjusting": "Keep adjusting! The trajectory should connect the launch point (0,0) and landing point (50,0) feet.",
+          "targetBelowLevel": "X-intercepts must be (0,0) and (50,0) feet. Adjust the curve to ensure it connects these points.",
+          "hit": "HIT!",
+          "miss": "MISS!",
+          "reset": "Reset",
+          "launch": "Launch"
+        },
+        "help": {
+          "heading": "Adjusting the Trajectory",
+          "body": "<div><span style=\"font-size: 20px; font-weight: 600;\">1. Adjust the Sliders:</span><ul style=\"font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;\"><li><strong>Horizontal Shift (<em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em>):</strong><ul style=\"font-size: 20px; line-height: 1.6; display: block; list-style-type: circle; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;\"><li>Controls the horizontal position of the vertex of the probe&rsquo;s path</li><li>Increasing <em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> shifts the probe&rsquo;s path to the right, and decreasing <em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> shifts it to the left</li></ul></li><li><strong>Vertical Shift (<em style='color: #008217; font-family: \"Besley\", serif;'>k</em>):</strong><ul style=\"font-size: 20px; line-height: 1.6; display: block; list-style-type: circle; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;\"><li>Controls the vertical position of the vertex of the probe&rsquo;s path</li><li>Increasing <em style='color: #008217; font-family: \"Besley\", serif;'>k</em> moves the probe&rsquo;s path higher, and decreasing <em style='color: #008217; font-family: \"Besley\", serif;'>k</em> lowers it</li></ul></li></ul><span style=\"font-size: 20px; font-weight: 600;\">2. Watch the curve update in real-time</span> <span style=\"font-size: 20px; line-height: 1.6;\"> as you adjust the values, ensuring it starts from <strong>(0,0)</strong> and lands at <strong>(50,0)</strong>.</span></div>"
+        },
+        "about": {
+          "heading": "Vertex Form of Quadratic Function",
+          "body": "<div><div><span style='font-size: 20px; line-height: 1.6;'> The vertex form of a quadratic function is <p style='font-family: \"Besley\", serif;'><em style='color: #E0002B;' aria-hidden='true'>y</em> = <em style='color: #8E24AA;' aria-hidden='true'>a</em> (<em style='color: #0061FC;' aria-hidden='true'>x</em> − <em style='color: #A8351D;' aria-hidden='true'>h</em>)<em style='color: #0061FC;' aria-hidden='true'><sup style='color: #DB0072;'>2</sup></em> + <em style='color: #008217;' aria-hidden='true'>k</em></p>, which represents a parabola, a curve that models projectile motion like the path of the lunar probe, where <em>y</em> is the height of the probe in feet at a horizontal distance <em>x</em> feet. </span></div><div style='margin-bottom: 16px;'><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong><em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> (Horizontal Shift):</strong> Moves the parabola left or right. It determines the x-coordinate of the vertex. For example, if <em style='color: #A8351D; font-family: \"Besley\", serif;'>h</em> = &minus;3, the parabola shifts 3 feet to the left</li><li><strong><em style='color: #008217; font-family: \"Besley\", serif;'>k</em> (Vertical Shift):</strong> Moves the parabola up or down. It sets the y-coordinate of the vertex. For instance, if <em style='color: #008217; font-family: \"Besley\", serif;'>k</em> = 4, the vertex shifts upwards by 4 feet</li><li><strong><em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> (Opening and Shape):</strong> Controls the direction and width of the parabola. If <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> &gt; 0, the parabola opens upward; if <em style='color: #8E24AA; font-family: \"Besley\", serif;'>a</em> &lt; 0, it opens downward</li><li><em style='color: #E0002B; font-family: \"Besley\", serif;'>y</em> = height of the probe in feet</li><li><em style='color: #0061FC; font-family: \"Besley\", serif;'>x</em> = horizontal distance in feet</li></ul></div></div>"
+        }
+      },
+      "S10_D1_FSQ4_C2": "We need the probe to enter and exit the lunar surface at <strong>(0, 0)</strong> and <strong>(50, 0)</strong>.",
+      "S10_D2_FSQ4_C1": "So we need a curve that touches both those points — just like before.",
+      "S10_D3_FSQ4_C2": "Exactly. In vertex form, we first choose the vertex. The curve must be symmetric, so where should we place it horizontally?",
+      "S10_D4_FSQ4_C1": "Halfway between 0 and 50… that's 25. So <em style='color: #A8351D; font-family: besley;'>h</em> = 25.",
+      "S10_D5_FSQ4_C2": "Perfect! Now, our mission engineers have determined that the <em style='color: #8E24AA; font-family: besley;'>a</em> parameter needs to be <strong>-0.1</strong> for our lunar probe mission.",
+      "S10_D6_FSQ4_C1": "So <em style='color: #8E24AA; font-family: besley;'>a</em> is negative because the parabola opens downward, and it's a small number because we want a wide, gentle curve?",
+      "S10_D7_FSQ4_C2": "Precisely! That leaves us to find the peak height <em style='color: #008217; font-family: besley;'>k</em> that makes our trajectory pass through both launch and target points. Can you find the peak height that creates the perfect trajectory?",
+      "S10_D8_FSQ4_C2": "Excellent! You found <em style='color: #008217; font-family: besley;'>k</em> = 62.5 ft - the perfect peak height for our lunar gravity conditions."
+    },
+    "S11": {
+      "S11_D1_FPS1_C2": "So far you've shot the probe using standard and vertex form of quadratic function. Which one did you find more challenging?",
+      "S11_D2_FPS2_C1": "<p>Hmm, the standard form was a bit tricky at first because I had to think about how <em style='color: #8E24AA; font-family: besley;'>a</em>, <em style='color: #DB0072; font-family: besley;'>b</em>, and <em style='color: #008217; font-family: besley;'>c</em> worked together. It wasn't immediately clear how the vertex shifted.</p>",
+      "S11_D3_FPS3_C2": "I agree. The standard form makes it easy to identify the y-intercept of the curve and if it opens up or down but it doesn't directly tell you where the vertex is. What about the vertex form?",
+      "S11_D4_FPS4_C1": "<p>The vertex form was more intuitive for adjusting the trajectory. Knowing the vertex's exact position made it easier to aim, but getting the right balance between <em style='color: #8E24AA; font-family: besley;'>a</em>, <em style='color: #A8351D; font-family: besley;'>h</em>, and <em style='color: #008217; font-family: besley;'>k</em> still required some trial and error.</p>",
+      "S11_D5_FPS5_C2": "Precisely. The vertex form is great for pinpointing the trajectory's peak but let me show a simpler approach.",
+      "S11_D6_FPS6_C1": "Simpler? I'm all ears, Captain. What's the approach?"
+    },
+    "S12": {
+      "S12_D0_FSQ4_C9": {
+        "title": "Probe Trajectory and Quadratic Roots",
+        "description": "Required points: Start (0ft, 0ft) → Target (50ft, 0ft)",
+        "instruction": "Adjust the parabola to pass through both points",
+        "currentPoints": "Current Points",
+        "controls": {
+          "parabolaOpening": "Parabola opening",
+          "firstRoot": "First x-intercept",
+          "secondRoot": "Second x-intercept",
+          "aAriaLabel": "Adjust the values of Parabola opening",
+          "x1AriaLabel": "Adjust the values of First x-intercept",
+          "x2AriaLabel": "Adjust the values of Second x-intercept"
+        },
+
+        "graph": {
+          "xAxisLabel": "Distance (ft)",
+          "yAxisLabel": "Height (ft)",
+          "tooltipDistance": "Distance",
+          "tooltipHeight": "Height"
+        },
+
+        "points": {
+          "launchPoint": "Launch point at (0,0)",
+          "targetPoint": "Target point at (50,0)",
+          "probePosition": "Probe at position"
+        },
+
+        "buttons": {
+          "resetProbe": "Reset",
+          "launchProbe": "Launch"
+        },
+
+        "feedback": {
+          "success": "Perfect! Your trajectory passes through both required points.",
+          "error": {
+            "invalidTrajectory": "Try again. The trajectory must pass through (0,0) and (50,0).",
+            "needTwoRoots": "The trajectory needs two points where y = 0 to launch the probe."
+          },
+          "hit": "HIT!",
+          "miss": "MISS!"
+        },
+
+        "aria": {
+          "simulator": "Lunar Probe Trajectory Simulator",
+          "controls": "Trajectory Controls",
+          "equation": "Current quadratic equation",
+          "graph": "Trajectory graph visualization",
+          "resetButton": "Reset probe position",
+          "launchButton": "Launch probe animation"
+        },
+        "about": {
+          "heading": "Quadratic Function in Factored Form",
+          "body": "<div><div><span style='font-size: 20px; line-height: 1.6;'> The quadratic function in factored form is a powerful representation used to analyze the roots (x-intercepts) and the overall behavior of a parabola. </span> <br /><em style='font-family: besley;'><span style='color: #E0002B;'>f</span>(<span style='color: #0061FC;'>x</span>)</em> = <em style='color: #8E24AA; font-family: besley;'>a</em> (<em style='color: #0061FC; font-family: besley;'>x</em> - <em style='color: #633300; font-family: besley;'>x<sub>1</sub></em>) (<em style='color: #0061FC; font-family: besley;'>x</em> - <em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em>)</div><div style='margin-bottom: 16px;'><ul style='font-size: 20px; line-height: 1.6; display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong>Roots (<em style='color: #633300; font-family: besley;'>x<sub>1</sub></em>, <em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em>):</strong> <em style='color: #633300; font-family: besley;'>x<sub>1</sub></em> and <em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em> represent the points where the quadratic function intersects the x-axis (<em style='font-family: besley;'><span style='color: #E0002B;'>f</span>(<span style='color: #0061FC;'>x</span>)</em> = 0)</li><li><strong>Parameter <em style='color: #8E24AA; font-family: besley;'>a</em>:</strong> Controls the width and direction of the parabola</li></ul></div></div>"
+        },
+        "help": {
+          "heading": "Adjusting the Trajectory",
+          "body": "<div><span style='font-size: 20px; font-weight: 600;'>1. Adjust the Sliders:</span><ol style='font-size: 20px; line-height: 1.6; display: block; list-style-type: decimal; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; unicode-bidi: isolate;'><li><strong>Parabola Opening (<em style='color: #8E24AA; font-family: besley;'>a</em>):</strong> Controls the width and direction of the parabola.</li><li><strong>First Root (<em style='color: #633300; font-family: besley;'>x<sub>1</sub></em>):</strong> Slide to set the starting point of the trajectory at the leftmost end of the path.</li><li><strong>Second Root (<em style='color: #00749D; font-family: besley;'>x<sub>2</sub></em>):</strong> Slide to position the ending point of the trajectory at the target.</li></ol><span style='font-size: 20px; font-weight: 600;'>2. Watch the curve update in real-time</span> <span style='font-size: 20px; line-height: 1.6;'> as you adjust the values, ensuring it starts from <strong>(0,0)</strong> and lands at <strong>(50, 0)</strong>. </span></div>"
+        }
+      },
+      "S12_D1_FSQ4_C2": "Let me introduce you to another way of modeling the trajectory—using the x-intercepts of the quadratic function.",
+      "S12_D2_FSQ4_C1": "The x-intercepts? The points where the parabola intersects the x-axis?",
+      "S12_D3_FSQ4_C2": "And in our model, that’s where the parabola intersects with the ground! By focusing on the x-intercepts, we can directly control where the probe starts and where it lands. The equation in factored form looks like this: <span style='font-family: besley; font-style: italic;'>y</span> = <span style='color: #8E24AA; font-family: besley; font-style: italic;'>a</span>(<span style='color: #0061FC; font-family: besley; font-style: italic;'>x</span>−<span style='color: #633300; font-family: besley; font-style: italic;'>x₁</span>)(<span style='color: #00749D; font-family: besley; font-style: italic;'>x</span>−<span style='color: #00749D; font-family: besley; font-style: italic;'>x₂</span>). Here, <span style='color: #633300; font-family: besley; font-style: italic;'>x₁</span> is the first x-intercept of the parabola and <span style='color: #00749D; font-family: besley; font-style: italic;'>x₂</span> is the second.",
+      "S12_D4_FSQ4_C1": "So I only need to set the starting point and the end point to set the parabola? That’s much easier!",
+      "S12_D5_FSQ4_C2": "Exactly! It’s the same quadratic math, but in a form that is much easier to control. Let’s try it out with this interactive. Adjust <span style='color: #8E24AA; font-family: besley; font-style: italic;'>a</span>, <span style='color: #633300; font-family: besley; font-style: italic;'>x₁</span>, and <span style='color: #00749D; font-family: besley; font-style: italic;'>x₂</span> to align the probe’s trajectory perfectly with the skylight at (50,0). <span style='color: #8E24AA; font-family: besley; font-style: italic;'>a</span> lets you control how steep or gentle the curve is.",
+      "S12_D6_FSQ4_C1": "So much easier!",
+      "S12_D7_FSQ4_C2": "That's the beauty of the factored form— the roots of the parabola, which define the start and end points."
+    },
+    "S13": {
+      "S13_D1_FSQ3_C1": "So, these different forms of the quadratic are like having different tools for different jobs! They describe the same curve, but some are more appropriate for specific situations.",
+      "S13_D2_FSQ3_C2": "That’s right. And these trajectories aren't just academic exercises, Ethan. They're the foundation for humanity's future on the Moon. The data collected by these probes will guide future explorations of these caves. They may even lead us to discover sources of ice, protected from the burning sun!",
+      "S13_D3_FSQ3_C1": "Amazing that quadratic equations are such a perfect model for ballistic trajectories.",
+      "S13_D4_FSQ3_C2": "On Earth, air resistance and wind mean that ballistic trajectories are harder to model. But on the moon, the trajectories are simply parabolic.",
+      "S13_D11_FSQ3_C1": "Absolutely, Captain. For science, for exploration, for our future among the stars!"
+    },
+    "S14": {
+      "S14_D0_FSQE_C9": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'/><div style='text-align:left;'><div style='display:flex;align-items:center;gap:16px;margin-bottom:16px;'><svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_5880_8101' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect width='80' height='80' rx='10' fill='#5454D8'/></mask><g mask='url(#mask0_5880_8101)'><rect x='-10' y='-9' width='99' height='99' fill='white'/><rect x='0.5' y='0.5' width='79' height='79' rx='11.5' stroke='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M55.3513 64.7968H47.1749C47.2825 64.5816 47.2825 64.3665 47.2825 64.1513V63.6134C46.3143 59.4178 42.9793 55.9754 38.4607 55.9754C33.9422 55.9754 30.1769 59.418 29.639 63.9366C29.639 64.1517 29.639 64.4745 29.7466 64.7972H17.1595C16.8368 64.7972 16.6216 64.582 16.514 64.2593C16.7292 64.3669 16.8368 64.3669 17.052 64.3669C17.3747 64.4745 17.5899 64.4744 17.805 64.4744C20.4946 64.3669 22.4309 62.1077 22.3234 59.5258C22.3234 57.4818 20.8173 55.6529 18.8808 55.115H18.4505C18.7733 54.3619 19.096 53.7164 19.5264 52.9634C19.6339 53.071 19.6339 53.071 19.6339 53.1785C21.5704 55.115 24.2599 56.2984 27.0571 56.2984C32.6511 56.2984 37.1696 51.78 37.1696 46.078C37.1696 44.8946 36.9544 43.6037 36.5241 42.4202C36.5241 42.3127 36.5241 42.3127 36.4166 42.2051H38.4606C40.7198 42.2051 42.979 42.5278 45.0231 43.1733C44.9155 43.1733 44.9155 43.2809 44.9155 43.2809C44.0549 44.4643 43.5169 45.7553 43.3018 47.1538C42.226 52.7478 45.8838 58.2344 51.5856 59.4182C52.4463 59.5258 53.4145 59.6333 54.2752 59.5258C56.104 59.4182 57.8253 58.7727 59.3316 57.8045L59.4392 57.6969C59.5468 57.912 59.6544 58.2348 59.6544 58.4499H59.3316C56.8573 58.7727 55.136 60.8167 55.136 63.1833V63.506C55.136 63.9363 55.2436 64.3667 55.3512 64.6894L55.3513 64.7968Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M17.8055 63.1843H17.2675C16.8372 63.0767 16.6221 62.7539 16.6221 62.4312C16.7297 60.4947 17.16 58.6659 17.6979 56.8372C17.8055 56.5145 18.2358 56.2993 18.5586 56.4069C19.9571 56.7296 21.0329 58.0206 21.0329 59.5268C21.1405 61.4632 19.7419 63.077 17.8055 63.1845L17.8055 63.1843Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M59.8693 64.7966H57.1798C56.8571 64.7966 56.6419 64.5814 56.5343 64.2587C56.4268 63.9359 56.4268 63.6132 56.4268 63.1828C56.4268 61.4615 57.7177 59.9554 59.439 59.7402C59.7618 59.7402 60.0845 59.9554 60.1921 60.2782C60.4072 61.5691 60.5148 62.7525 60.5148 64.0435V64.1511C60.5148 64.4738 60.1921 64.7965 59.8694 64.7965L59.8693 64.7966Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M45.3462 64.7965H31.5758C31.3606 64.7965 31.1455 64.6889 31.0379 64.5813C30.9303 64.3662 30.9303 64.2586 30.9303 64.0434C31.3606 60.1705 34.5881 57.2656 38.4609 57.2656C42.3336 57.2656 45.5613 60.1703 45.9914 63.9355V64.1507C45.9914 64.4734 45.7763 64.7962 45.346 64.7962L45.3462 64.7965Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M27.0573 55.008C24.5829 55.008 22.324 54.0397 20.6022 52.2108C20.387 51.9957 20.387 51.6729 20.4946 51.4578C23.9372 46.7245 28.8858 43.4967 34.5877 42.5286C34.9104 42.421 35.2331 42.6362 35.3407 42.8514C35.7711 43.9272 35.8787 45.003 35.8787 46.0788C35.8787 51.0274 31.8981 55.0079 27.0569 55.0079L27.0573 55.008Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M54.1679 58.2346C53.4149 58.3422 52.5542 58.2346 51.8012 58.127C46.8526 57.1588 43.6248 52.3178 44.5933 47.3691C44.8085 46.1858 45.2388 45.0024 45.9919 44.0341C46.0994 43.7114 46.5298 43.6038 46.7449 43.819C52.2315 46.0782 56.6426 50.4889 58.794 55.9755C59.0092 56.1906 58.9016 56.5134 58.5788 56.7285C57.2879 57.5892 55.7817 58.1271 54.168 58.2346L54.1679 58.2346Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M35.5564 41.0226V36.3966H41.3656V41.0226C40.3974 40.915 39.4291 40.915 38.461 40.915C37.4928 40.915 36.5245 40.915 35.5563 41.0226H35.5564ZM35.5564 35.1059V22.4114H41.3656V35.1059H35.5564ZM35.5564 21.1202V17.0322C35.5564 16.7094 35.8791 16.3867 36.2018 16.3867H40.7203C41.043 16.3867 41.3657 16.7095 41.3657 17.0322V21.1202H35.5564Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M56.6425 30.4799H42.6573V17.0322C42.6573 16.817 42.5497 16.6019 42.5497 16.3867H56.5353C56.8581 16.3867 56.9657 16.6019 57.1808 16.7095C57.2884 16.9246 57.2884 17.1398 57.1808 17.3549L54.1685 23.3799L57.0732 29.4049C57.1808 29.5125 57.2884 29.6201 57.2884 29.8353C57.2884 30.158 56.9656 30.4807 56.6429 30.4807L56.6425 30.4799Z' fill='#0055B2'/><path fill-rule='evenodd' clip-rule='evenodd' d='M65.3545 64.7968H11.5628C11.2401 64.7968 10.9174 64.474 10.9174 64.1513C10.9174 63.721 11.2401 63.5059 11.5628 63.5059H65.3545C65.6773 63.5059 66 63.721 66 64.1513C66 64.4741 65.6773 64.7968 65.3545 64.7968Z' fill='#0055B2'/></g></svg><div className='flex flex-col'><div style='font-size:30px;font-weight:700;line-height:45px;color:#000000;'>Exploring the Moon's Lava Tubes with Quadratics</div><h2 style='font-size:24px;font-weight:700;color:#005F20;'>You completed the MoonShot STEAMQuest!</h2></div></div><div style='padding-right:20px;padding-left:10px;font-size:22px;font-weight:400;line-height:33px;color:#333333;'><ul><li style='margin-bottom:7px;'>• You successfully navigated the probe towards the Moon's lava tube skylight with precision</li><li style='margin-bottom:7px;'>• You explored quadratic functions in standard, vertex, and factored forms</li><li style='margin-bottom:7px;'>• You used angles, trajectories, and quadratic functions to achieve accurate probe navigation</li></ul></div></div>"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You explored the Moon's Lava Tubes with quadratic equations",
+      "content": "<p style='padding-bottom: 10px;'>You completed your journey through the STEAMQuest!</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You discovered how quadratic functions model real-world projectile motion for space exploration</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You learned to control trajectory parameters using standard form (<em style='font-family: besley; font-style: italic;'><span style='color: #E0002B;'>y</span> = <span style='color: #8E24AA;'>a</span><span style='color: #0061FC;'>x<sup>2</sup></span> + <span style='color: #DB0072;'>b</span><span style='color: #0061FC;'>x</span> + <span style='color: #008217;'>c</span></em>)</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You applied factored form for precise start-to-target trajectory planning</li></ul>Your mathematical expertise helped chart the course for humanity's future lunar settlements in ancient lava tube sanctuaries!",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_6462_7673' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_6462_7673)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><circle cx='40' cy='40' r='20' fill='black'/><circle cx='40.5' cy='37.5' r='18.5' fill='white'/><circle cx='41.5' cy='32.5' r='3.5' fill='black'/><circle cx='30' cy='37' r='4' fill='black'/><circle cx='38.5' cy='46.5' r='3.5' fill='black'/><circle cx='48' cy='37' r='2' fill='black'/><circle cx='34' cy='24' r='2' fill='black'/><circle cx='42' cy='20' r='1' fill='black'/><circle cx='48' cy='47' r='2' fill='black'/><circle cx='54.5' cy='40.5' r='2.5' fill='black'/><circle cx='50.5' cy='25.5' r='3.5' fill='black'/><path d='M33.0256 44.2341C25.4871 36.0802 28.6068 25.4658 31 21.5C25.2564 23.7974 21.7094 31.4136 20.8205 34.952C19.3025 42.87 24.5299 50.0802 27.3333 52.6956C37.4871 62.1828 48.8205 55.1059 51.8974 53.5674C54.3589 52.3366 55.7094 49.1966 56 48C51.5727 50.2222 40.5641 52.3879 33.0256 44.2341Z' fill='black'/><path d='M40 58C28.9731 58 20 49.0254 20 38C20 26.9731 28.9731 18 40 18C51.0269 18 60 26.9746 60 38C60 49.0269 51.0254 58 40 58ZM40 19.3639C29.7232 19.3639 21.3624 27.7247 21.3624 38.0015C21.3624 48.2784 29.7232 56.6391 40 56.6391C50.2768 56.6391 58.6376 48.2784 58.6376 38.0015C58.6376 27.7247 50.2768 19.3639 40 19.3639Z' fill='black'/></g></svg>",
+      "rightsvg": "<svg width='145' height='120' viewBox='0 0 145 120' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.2'><mask id='mask0_6462_7655' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='145' height='120'><rect width='145' height='120' fill='#D9D9D9'/></mask><g mask='url(#mask0_6462_7655)'><circle cx='74.75' cy='68.25' r='64.75' fill='white'/><circle cx='78.25' cy='50.75' r='12.25' fill='#006BE0'/><circle cx='38' cy='66.5' r='14' fill='#006BE0'/><circle cx='67.75' cy='99.75' r='12.25' fill='#006BE0'/><circle cx='101' cy='66.5' r='7' fill='#006BE0'/><circle cx='52' cy='21' r='7' fill='#006BE0'/><circle cx='80.0001' cy='7' r='3.5' fill='#006BE0'/><circle cx='101' cy='101.5' r='7' fill='#006BE0'/><circle cx='123.75' cy='78.75' r='8.75' fill='#006BE0'/><circle cx='109.75' cy='26.25' r='12.25' fill='#006BE0'/><path d='M48.5898 91.8193C22.2052 63.2808 33.1241 26.1303 41.5002 12.25C21.3976 20.291 8.98296 46.9475 5.87185 59.3321C0.55903 87.0449 18.8548 112.281 28.6667 121.435C64.2052 154.64 103.872 129.871 114.641 124.486C123.256 120.178 127.983 109.188 129 105C113.504 112.778 74.9744 120.358 48.5898 91.8193Z' fill='#006BE0'/><path d='M73 140C34.4058 140 3 108.589 3 70C3 31.4058 34.4058 0 73 0C111.594 0 143 31.4111 143 70C143 108.594 111.589 140 73 140ZM73 4.77378C37.0311 4.77378 7.76848 34.0364 7.76848 70.0053C7.76848 105.974 37.0311 135.237 73 135.237C108.969 135.237 138.232 105.974 138.232 70.0053C138.232 34.0364 108.969 4.77378 73 4.77378Z' fill='white'/></g></g></svg>",
+      "leftsvgarialabel": "Moon icon"
+    },
+    "glossary": {
+      "quadratic_function": {
+        "word": "Quadratic Function",
+        "definition": "<strong className=\"text-[#0055B2]\">Quadratic Functions</strong> are second-order polynomial functions which can be written in the standard form <em style='font-family: besley;'>y</em> = <em style='font-family: besley;'>ax<sup>2</sup></em> + <em style='font-family: besley;'>bx</em> + <em style='font-family: besley;'>c</em>, where <em style='font-family: besley;'>a</em> and <em style='font-family: besley;'>b</em> are coefficients and <em style='font-family: besley;'>c</em> is a constant, and their graphs are parabolas."
+      },
+      "quadratic_functions": {
+        "word": "Quadratic Functions",
+        "definition": "<strong className=\"text-[#0055B2]\">Quadratic Functions</strong> are second-order polynomial functions which can be written in the standard form <em style='font-family: besley;'>y</em> = <em style='font-family: besley;'>ax<sup>2</sup></em> + <em style='font-family: besley;'>bx</em> + <em style='font-family: besley;'>c</em>, where <em style='font-family: besley;'>a</em> and <em style='font-family: besley;'>b</em> are coefficients and <em style='font-family: besley;'>c</em> is a constant, and their graphs are parabolas."
+      },
+      "trajectory": {
+        "word": "Trajectory",
+        "definition": "<strong className=\"text-[#0055B2]\">Trajectory</strong> is the curved path an object follows when it is thrown, launched, or moves through space, often influenced by gravity and other forces."
+      },
+      "trajectories": {
+        "word": "Trajectories",
+        "definition": "<strong className=\"text-[#0055B2]\">Trajectories</strong> are the curved path an object follows when it is thrown, launched, or moves through space, often influenced by gravity and other forces."
+      },
+      "skylight": {
+        "word": "Skylight",
+        "definition": "A <strong className=\"text-[#0055B2]\">Skylight</strong> in lava tubes is a natural opening in the tube's ceiling that allows light to enter, often created by the collapse of the roof.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/theSkylight.webp' alt='Image of skylight' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "skylights": {
+        "word": "Skylights",
+        "definition": "<strong className=\"text-[#0055B2]\">Skylights</strong> in lava tubes, are a natural opening in the tube's ceiling that allows light to enter, often created by the collapse of the roof.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/theSkylight.webp' alt='Image of skylight' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "probe": {
+        "word": "Probe",
+        "definition": "A <strong className=\"text-[#0055B2]\">Probe</strong> is a small research tool launched from a lunar lander to enter and explore underground lava tubes through narrow openings called skylights. It follows a curved (parabolic) trajectory, which can be modeled using quadratic equations.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/lunarLanderSetup.webp' alt='Probe' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "lava_tubes": {
+        "word": "Lava Tubes",
+        "definition": "<strong className=\"text-[#0055B2]\">Lava Tubes</strong> are natural underground tunnels formed by flowing lava during a volcanic eruption. As the outer layer of lava cools and hardens, hot lava continues to flow beneath the surface. When the flow eventually stops and drains away, it leaves behind a hollow tube-shaped tunnel.<div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/backgrounds/largeChamberInterior.webp' alt='Lava tubes' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>"
+      },
+      "ballistic": {
+        "word": "Ballistic",
+        "definition": "<strong className=\"text-[#0055B2]\">Ballistic</strong> refers to the motion of projectiles or objects propelled through the air, typically under the influence of gravity and other forces"
+      }
+    },
+    "common": {
+      "ethan": "Ethan Kim",
+      "emma": "Captain Emma Torres",
+      "ethan_description": "Ethan Kim: Sharp Korean-American Systems Engineer, innovating with modern tech.",
+      "emma_description": "Captain Emma Torres: Veteran Mission Commander, blending expertise with cultural wisdom.",
+      "help": "Help",
+      "info": "Info",
+      "angle": "Angle",
+      "velocity": "Velocity",
+      "root_x1": "Root x<sub>1</sub>",
+      "root_x2": "Root x<sub>2</sub>",
+      "coefficient_a": "Coefficient a",
+      "coefficient_b": "Coefficient b",
+      "coefficient_c": "Coefficient c",
+      "coefficient_h": "Coefficient h",
+      "coefficient_k": "Coefficient k",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "no_solution": "No solution",
+      "infinite_solution": "Infinite solution",
+      "bg1_description": "Futuristic space center lobby with interactive displays and staff in uniforms.",
+      "bg2_description": "Mission control room with large lunar display and monitoring stations.",
+      "bg3_description": "Lunar base control station with Earth view and technology displays.",
+      "bg4_description": "Space operations center with staff monitoring multiple planetary displays.",
+      "bg5_description": "Team meeting in futuristic control room with holographic terrain display."
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "lunar-probe-precision": "STEAM Quest - The Moonshot"
+  }
+}

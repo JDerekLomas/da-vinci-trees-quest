@@ -1,0 +1,57 @@
+import { SoundWaveVisualizerInteraction } from '../interactives/interface';
+
+const interaction: SoundWaveVisualizerInteraction = {
+  type: 'sound-wave-visualizer',
+  graphDescription1: 'scenes.S6.S6_D0_F18_C9.graphDescription1',
+  graphDescription2: 'scenes.S6.S6_D0_F18_C9.graphDescription2',
+  currentSelection: 'scenes.S6.S6_D0_F18_C9.currentSelection',
+  tableHeaders: {
+    source: 'scenes.S6.S6_D0_F18_C9.tableHeaders.source',
+    pressure: 'scenes.S6.S6_D0_F18_C9.tableHeaders.pressure',
+    scaled: 'scenes.S6.S6_D0_F18_C9.tableHeaders.scaled',
+    log: 'scenes.S6.S6_D0_F18_C9.tableHeaders.log',
+  },
+  tabs: {
+    linear: 'scenes.S6.S6_D0_F18_C9.tabs.linear',
+    log: 'scenes.S6.S6_D0_F18_C9.tabs.log',
+  },
+  descriptions: {
+    linear: 'scenes.S6.S6_D0_F18_C9.descriptions.linear',
+    log: 'scenes.S6.S6_D0_F18_C9.descriptions.log',
+  },
+  data: {
+    source1: 'scenes.S6.S6_D0_F18_C9.data.source1',
+    pressure1: 0.00000000290075,
+    scaled1: 29.0,
+    log1: 1.462398,
+    source2: 'scenes.S6.S6_D0_F18_C9.data.source2',
+    pressure2: 0.000000029,
+    scaled2: 290.0,
+    log2: 2.462398,
+    source3: 'scenes.S6.S6_D0_F18_C9.data.source3',
+    pressure3: 0.00000029,
+    scaled3: 2900.0,
+    log3: 3.462398,
+    source4: 'scenes.S6.S6_D0_F18_C9.data.source4',
+    pressure4: 0.0000029,
+    scaled4: 29000.0,
+    log4: 4.462398,
+    source5: 'scenes.S6.S6_D0_F18_C9.data.source5',
+    pressure5: 0.000029,
+    scaled5: 290000.0,
+    log5: 5.462398,
+    source6: 'scenes.S6.S6_D0_F18_C9.data.source6',
+    pressure6: 0.00029,
+    scaled6: 2900000.0,
+    log6: 5.462398,
+  },
+  srRowDescription: 'scenes.S6.S6_D0_F18_C9.srRowDescription',
+  soundSource: 'scenes.S6.S6_D0_F18_C9.soundSource',
+  logarithmicScale: 'scenes.S6.S6_D0_F18_C9.logarithmicScale',
+  scaledPressure: 'scenes.S6.S6_D0_F18_C9.scaledPressure',
+  dataPointFor: 'scenes.S6.S6_D0_F18_C9.dataPointFor',
+  previous: 'scenes.S6.S6_D0_F18_C9.previous',
+  next: 'scenes.S6.S6_D0_F18_C9.next',
+};
+
+export default interaction;

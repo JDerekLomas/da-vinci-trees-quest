@@ -1,0 +1,35 @@
+.slider-input {
+  @apply w-full h-2 bg-slate-700 rounded-full appearance-none cursor-pointer relative;
+}
+
+.slider-input::-webkit-slider-thumb {
+  @apply appearance-none w-4 h-4 bg-white border-2 border-blue-500 rounded-full cursor-pointer shadow-md;
+  transform: translateY(-25%);
+}
+
+.slider-input::-moz-range-thumb {
+  @apply w-4 h-4 bg-white border-2 border-blue-500 rounded-full cursor-pointer shadow-md border-none;
+}
+
+.slider-input::-webkit-slider-runnable-track {
+  @apply w-full h-2 cursor-pointer rounded-full;
+  background: linear-gradient(to right, #ffffff var(--value-percent, 0%), #334155 var(--value-percent, 0%));
+}
+
+.slider-input::-moz-range-track {
+  @apply w-full h-2 cursor-pointer rounded-full;
+  background: linear-gradient(to right, #ffffff var(--value-percent, 0%), #334155 var(--value-percent, 0%));
+}
+
+.slider-input:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.simple-text-overlay {
+  animation: fadeIn 0.3s ease-out;
+}

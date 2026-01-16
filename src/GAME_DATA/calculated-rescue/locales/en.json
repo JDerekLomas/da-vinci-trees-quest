@@ -1,0 +1,647 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Distress Signal",
+    "scene_4": "RDF Bearing Collection",
+    "scene_5": "Plotting Bearings",
+    "scene_6": "Triangulation Plotter",
+    "scene_7": "Refining the Search Area",
+    "scene_8": "Circle Geometry: Circumcenter vs Incenter",
+    "scene_9": "Rescue Outcome and Reflection",
+    "scene_10": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Calculated Rescue:</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>When Math Meets Maritime Disaster</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>February 1954, North Sea coast. A cargo vessel was lost in a raging storm. Three radio bearings and a handful of geometric principles were all we had to save twenty-seven lives. That night, Harbor Master Quinn showed me that mathematics wasn't just classroom theory—it was our most powerful tool in the race against time and tide.</div>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>When Math Meets Maritime Disaster: Hands-On Math Exploration</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Join Thomas Harlow at Blackrock Harbor as he learns to use <b>Radio Direction Finding (RDF)</b> equipment to locate the missing Meridian. Guide the ship's crew through taking precise bearing measurements, then apply triangulation and circle geometry to determine their exact position and plan an efficient rescue operation.</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_F1_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>What's happening, sir? I heard the emergency alarm.</div>",
+      "S3_D2_F2_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Distress call from the cargo vessel Meridian. She's caught in the storm somewhere in the North Sea.</div>",
+      "S3_D3_F3_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Do we have their coordinates?</div>",
+      "S3_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Fortunately, the Meridian still has radio contact with us. And they have Radio Direction Finding (RDF) equipment aboard. That will help them triangulate their position from three nearby radio beacons.</div>",
+      "S3_D5_F5_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Blackrock Control, this is First Officer Mitchell aboard the Meridian. We have our RDF equipment operational.</div>",
+      "S3_D6_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>How exactly will Sarah take those bearings, sir?</div>",
+      "S3_D7_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Good question, Thomas. Sarah will need to take bearings on three coastal radio beacons.<br>First, she'll tune to each beacon's frequency, then slowly rotate her directional antenna.<br>She'll look for the strongest signal, which will give us the bearing to that beacon.</div>"
+    },
+    "S4": {
+      "S4_D0_FX_C9": {
+        "title": "RDF Bearing Station",
+        "about": {
+          "heading": "Radio Direction Finding Equipment",
+          "body": "<div><p>The key principles demonstrated in this interactive:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Frequency Tuning</strong>: Radio Direction Finding requires precise tuning to the correct frequency for each beacon.</li><li><strong>Directional Antenna</strong>: A rotating directional antenna must be aligned with the signal source for maximum reception.</li><li><strong>Signal Strength</strong>: The strength of the received signal indicates how accurately the antenna is pointed toward the beacon.</li><li><strong>Bearing Measurement</strong>: The angle at which the antenna receives the strongest signal represents the bearing to the beacon.</li></ol><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Tune your radio to the correct frequency for each coastal beacon</li><li>Rotate the directional antenna to find the strongest signal</li><li>Record the bearing when signal strength reaches its peak</li><li>Collect bearings from all three beacons for triangulation</li></ul></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p>To take bearings using the RDF equipment:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Select a beacon to work with (start with Beacon A)</li><li>Tune the frequency dial to the beacon's frequency<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Beacon A: 285 kHz</li><li>Beacon B: 315 kHz</li><li>Beacon C: 405 kHz</li></ul></li><li>Wait for the 'TUNED' indicator to appear</li><li>Rotate the antenna direction slider to find the strongest signal</li><li>When signal strength reaches 100%, click 'Lock Bearing'</li><li>Repeat for all three beacons to complete the triangulation data</li></ol><p><strong>Tips for Success</strong>:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Watch the compass display to see your antenna direction</li><li>Monitor the signal strength meter for peak reception</li><li>Check the bearings log to track your progress</li></ul></div>"
+        },
+        "ui": {
+          "rdfBearingStation": "RDF Bearing Station",
+          "selectBeacon": "Select Beacon",
+          "frequencyTuning": "Frequency Tuning",
+          "antennaDirection": "Antenna Direction",
+          "signalStrength": "Signal Strength",
+          "lockBearing": "Record Bearing",
+          "findSignalPeak": "Find Signal Peak",
+          "compassBearing": "Compass Bearing",
+          "bearingsLog": "Bearings Log",
+          "allBearingsComplete": "All Bearings Complete",
+          "reset": "Reset",
+          "progress": "Progress",
+          "complete": "Complete",
+          "locked": "Locked",
+          "tuned": "TUNED",
+          "tuning": "TUNING",
+          "completed": "Completed",
+          "noBearingsRecorded": "No bearings recorded yet",
+          "accuracy": "accuracy",
+          "target": "Target",
+          "rotateAntenna": "Rotate antenna for strongest signal",
+          "strongSignalDetected": "Strong signal detected! Click 'Lock Bearing' to record",
+          "signalFound": "Signal found. Rotate antenna to find the strongest signal peak.",
+          "tuneToFrequency": "Tune to",
+          "selectBeaconToBegin": "Select a beacon to begin taking bearings.",
+          "allBearingsCollected": "All bearings collected! Excellent work, Sarah. Ready for triangulation.",
+          "signalPeak": "PEAK",
+          "signalVeryStrong": "VERY STRONG",
+          "signalStrong": "STRONG",
+          "signalWeak": "WEAK",
+          "signalNoise": "NOISE",
+          "compassNorth": "N",
+          "compassEast": "E",
+          "compassSouth": "S",
+          "compassWest": "W",
+          "beacon": "Beacon",
+          "frequencyUnit": "kHz",
+          "frequencyUnitFull": "kilohertz",
+          "beaconA": "Beacon A",
+          "beaconB": "Beacon B",
+          "beaconC": "Beacon C",
+          "degreeSymbol": "°",
+          "percentageSymbol": "%",
+          "plusMinusSymbol": "±",
+          "checkmarkSymbol": "✓",
+          "bearingLogCount": "({{current}}/{{total}})",
+          "bearingAccuracyLabel": "{{plusMinus}}{{accuracy}}{{degree}} {{accuracyText}}",
+          "frequencyDisplay": "{{frequency}} {{unit}}",
+          "antennaAngleDisplay": "{{angle}}{{degree}}",
+          "signalStrengthDisplay": "{{strength}}{{percentage}}",
+          "bearingDegreeDisplay": "{{bearing}}{{degree}}"
+        },
+        "accessibility": {
+          "instructions": "Radio Direction Finding Instructions for Screen Readers",
+          "instructionStep1": "Step 1: Select a beacon from the three available options: A, B, or C. Each beacon transmits on a different frequency.",
+          "instructionStep2": "Step 2: Use the frequency slider to tune to the beacon's correct frequency. The status will show 'TUNED' when properly adjusted.",
+          "instructionStep3": "Step 3: Use the antenna direction slider to rotate the antenna and find the strongest signal. Watch the signal strength meter.",
+          "instructionStep4": "Step 4: When signal strength reaches 100% (PEAK), click 'Record Bearing' to save the bearing measurement.",
+          "keyboardInstructions": "Use arrow keys to adjust sliders. Hold Shift for fine adjustments, Ctrl for coarse adjustments. Use Home/End for minimum/maximum values.",
+
+          "progressHeading": "Bearing Collection Progress",
+          "progressStatus": "{{completed}} of {{total}} bearings completed",
+
+          "beaconSelected": "{{beacon}} selected. Frequency: {{frequency}} {{unit}}. Please tune to this frequency.",
+          "beaconCompleted": "This beacon bearing has already been recorded.",
+          "beaconActive": "Currently working on this beacon.",
+          "beaconAvailable": "Available to select for bearing measurement.",
+          "beaconLocked": "This beacon is locked until previous bearings are completed.",
+
+          "frequencySliderLabel": "Frequency tuning for {{beacon}}. Current: {{current}} {{unit}}, Target: {{target}} {{unit}}",
+          "frequencyValue": "{{frequency}} {{unit}}",
+          "frequencyHelp": "Use arrow keys to adjust frequency in 5 kHz steps. Use Shift+arrows for 1 kHz fine adjustment. Page Up/Down for 25 kHz jumps.",
+          "frequencyAdjusted": "Frequency adjusted to {{frequency}} {{unit}}",
+          "frequencyTuned": "{{beacon}} successfully tuned to {{frequency}} {{unit}}. You may now adjust the antenna direction.",
+
+          "antennaSliderLabel": "Antenna direction for {{beacon}}. Current bearing: {{current}}{{degree}}",
+          "antennaValue": "{{angle}}{{degree}}",
+          "antennaHelp": "Use arrow keys to rotate antenna in 1 degree steps. Hold Shift for 0.5 degree fine adjustment, Ctrl for 5 degree coarse adjustment.",
+          "antennaAdjusted": "Antenna rotated to {{angle}}{{degree}}",
+
+          "signalStrengthMeter": "Signal strength meter showing reception quality",
+          "signalStrengthDescription": "Current signal strength: {{strength}}{{percentage}}, Level: {{level}}",
+          "signalStrengthChanged": "Signal strength changed to {{strength}}{{percentage}} - {{level}}",
+          "peakSignalFound": "Peak signal found! You can now record this bearing.",
+
+          "bearingRecorded": "Bearing recorded for {{beacon}} at {{bearing}}{{degree}}. {{total}} bearings completed, {{remaining}} remaining.",
+          "allBearingsComplete": "All bearings successfully recorded! Triangulation data complete.",
+          "lockBearingHelp": "Click to record the current bearing measurement at peak signal strength.",
+          "findPeakHelp": "Rotate antenna to find peak signal strength before recording bearing.",
+
+          "compassDescription": "Compass showing antenna pointing at {{angle}}{{degree}}",
+          "recordedBearingsList": "List of recorded beacon bearings",
+          "completedBearingsList": "Complete list of all recorded bearings for triangulation",
+          "completedBeaconIcon": "Completed bearing for beacon {{beacon}}"
+        }
+      },
+      "S4_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sarah, tune your radio to <strong>285 kHz</strong> for <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>. Adjust your frequency dial until you get a clear signal.</div>",
+      "S4_D2_F2_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tuning to <strong>285 kHz</strong>... I'm getting a signal! <span style='color:#E0002B; font-weight: 700;'>Beacon A</span> is coming through clearly now.</div>",
+      "S4_D3_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect. Now you need to rotate your directional antenna to find where that signal is strongest. The antenna will give you the strongest signal when it's aligned with <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>.</div>",
+      "S4_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>At what bearing do you get the strongest signal from <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>?</div>",
+      "S4_D5_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent work, Sarah. That bearing tells us the direction from your position to <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>. Record that bearing.</div>",
+      "S4_D6_F6_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bearing to <span style='color:#E0002B; font-weight: 700;'>Beacon A</span> recorded at <strong>42 degrees</strong>.</div>",
+      "S4_D7_F7_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So now we have one line from the ship pointing toward <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>?</div>",
+      "S4_D8_F8_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. But one line only tells us the ship is somewhere along this line. We need more bearings to pinpoint the location.</div>",
+      "S4_D9_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now for <span style='color:#0061FC; font-weight: 700;'>Beacon B</span>, Sarah. Change frequency to <strong>315 kHz</strong>. Same process—find the signal, then locate the direction of strongest reception.</div>",
+      "S4_D10_F10_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><span style='color:#0061FC; font-weight: 700;'>Beacon B</span> signal acquired. Rotating antenna for <span style='color:#0061FC; font-weight: 700;'>Beacon B</span> bearing... searching for the signal peak.</div>",
+      "S4_D11_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sarah, what bearing reading shows the peak signal strength for <span style='color:#0061FC; font-weight: 700;'>Beacon B</span>?</div>",
+      "S4_D12_F12_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Outstanding. Record that second bearing.</div>",
+      "S4_D13_F13_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Second bearing recorded at <strong>330 degrees</strong>. Two bearings complete.</div>",
+      "S4_D14_F14_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now we have two lines that should intersect to show the ship's approximate position?</div>",
+      "S4_D15_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The <no-glossary>intersection</no-glossary> of the lines would show their exact position, except RDF has quite a bit of error. A third bearing will give us much better accuracy.</div>",
+      "S4_D16_F16_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Final beacon, Sarah. Tune to <span style='color:#008217; font-weight: 700;'>Beacon C</span> at <strong>405 kHz</strong>. This third bearing will complete our triangulation data.</div>",
+      "S4_D17_F17_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tuning to <strong>405 kHz</strong> for <span style='color:#008217; font-weight: 700;'>Beacon C</span>... The signal is strong. Ready for bearing sweep.</div>",
+      "S4_D18_F18_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect. Find that signal peak and we'll have all three bearings needed for accurate position plotting.</div>",
+      "S4_D19_F19_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Rotating antenna for final bearing on <span style='color:#008217; font-weight: 700;'>Beacon C</span>...</div>",
+      "S4_D20_F20_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>What degrees does the antenna show for maximum signal strength for <span style='color:#008217; font-weight: 700;'>Beacon C</span>?</div>",
+      "S4_D21_F21_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent work, Sarah. Record that final bearing and transmit all three to us.</div>",
+      "S4_D22_F22_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Final bearing recorded at <strong>82 degrees</strong>. Transmitting all bearings now.</div>"
+    },
+    "S5": {
+      "S5_D1_F1_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Blackrock Control, this is Meridian. RDF bearings complete:<br><span style='color:#E0002B; font-weight: 700;'>Beacon A</span> at <strong>42 degrees</strong>,<br><span style='color:#0061FC; font-weight: 700;'>Beacon B</span> at <strong>330 degrees</strong>,<br><span style='color:#008217; font-weight: 700;'>Beacon C</span> at <strong>82 degrees</strong>.</div>",
+      "S5_D2_F2_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Copy all bearings, Meridian. We now have the data needed to plot your position.</div>",
+      "S5_D3_F3_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So we'll plot these three bearing lines on our chart and see where they intersect?</div>",
+      "S5_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Each bearing line shows a direction from the ship to a known beacon location on the map. However, they won't exactly align—there is always some error and uncertainty. Instead, the lines will create a triangle — that's the area where the Meridian is most likely located.</div>"
+    },
+    "S6": {
+      "S6_D0_F0_C9": {
+        "title": "Triangulation Plotter",
+        "about": {
+          "heading": "Radio Direction Finding Principles",
+          "body": "<div><p>The key properties demonstrated in this interactive:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Bearing Lines</strong>: A bearing line shows the direction from which a radio signal is received, measured in degrees from true north.</li><li><strong>Triangulation Property</strong>: When three bearing lines are drawn from different stations, they should theoretically intersect at a single point.</li><li><strong>Triangle Formation</strong>: Due to measurement errors, the lines typically form a triangle rather than meeting at one point.</li><li><strong>Uncertainty Zone</strong>: This triangle represents the area where the vessel is most likely located.</li></ol><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Plot bearing lines from three coastal RDF stations</li><li>Observe how they intersect to form a triangle</li></ul></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p>To locate the vessel using triangulation:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Plot the positions of the three RDF stations on the nautical chart</li><li>Draw bearing lines from each station at the specified angles<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Station A: 42°</li><li>Station B: 330°</li><li>Station C: 82°</li></ul></li><li>Observe where these lines intersect to form a triangle</li><li>The vessel's position is most likely within this triangle</li></ol></div>"
+        },
+        "translations": {
+          "nauticalMiles": "nautical miles",
+          "squareNauticalMiles": "square nautical miles",
+          "stepLabel": "Step {step} of {totalSteps}: {description}",
+          "stage": "Stage",
+          "station": "Station",
+          "position": "Position",
+          "targetBearing": "Target Bearing",
+          "yourBearing": "Your Bearing",
+          "status": "Status",
+          "point": "Point",
+          "between": "Between",
+          "side": "Side",
+          "length": "Length",
+          "stage1": {
+            "label": "Set bearing for Station {label} ({bearing}°)",
+            "subLabel": "Click on the pulsing station and set its bearing to exactly {bearing}°",
+            "xAxisLabel": "Nautical Miles (East)",
+            "yAxisLabel": "Nautical Miles (North)",
+            "origin": "Origin",
+            "notSet": "Not Set",
+            "correct": "Correct",
+            "wrong": "Wrong"
+          },
+          "stage2": {
+            "label": "Observe the 'Cocked Hat' triangle formed by the bearing lines",
+            "cockedHat": "Cocked Hat",
+            "uncertaintyArea": "Uncertainty Area",
+            "intersection": "Intersection"
+          },
+          "stage3": {
+            "label": "Calculate the area of the triangle using Heron's formula",
+            "heronFormulaLabel": "Heron's Formula for Triangle Area",
+            "area": "Area",
+            "step1": "Calculate semi-perimeter",
+            "step2": "Apply Heron's formula",
+            "step3": "Calculate the result",
+            "triangleInformation": "Triangle Information",
+            "intersections": "Intersections",
+            "triangleSides": "Triangle Sides"
+          },
+          "accessibility": {
+            "keyboardInstructions": "Keyboard Navigation: Use Tab to navigate between stations. Press Enter or Space to select a station. Use arrow keys to adjust bearing angle. Press Enter to confirm bearing or Escape to cancel.",
+            "stationInstructions": "Use Tab to navigate between RDF stations. Press Enter or Space to select the current station for bearing adjustment.",
+            "bearingInstructions": "Use Up/Down arrow keys to adjust bearing angle. Press Enter to confirm or Escape to cancel. Current angle is announced as you adjust.",
+            "chartDescription": "Nautical chart showing RDF stations and bearing lines. Grid coordinates range from 0 to 10 nautical miles.",
+            "stationDescription": "RDF station with coordinates and bearing information. Click or press Enter to select for bearing adjustment.",
+            "currentStationDescription": "Current active station for bearing adjustment. Use arrow keys to adjust bearing angle.",
+            "bearingLineDescription": "Bearing line showing direction from station. Line extends to chart boundaries.",
+            "angleDisplayDescription": "Current bearing angle display. Shows degrees from true north.",
+            "tableDescription": "Station information table showing coordinates, target bearings, and current status.",
+            "stationButtonLabel": "Station {name} at coordinates ({x}, {y}). Target bearing: {bearing} degrees. {status}",
+            "bearingAdjustmentLabel": "Adjusting bearing for Station {name}. Current angle: {angle} degrees. Use arrow keys to adjust.",
+            "confirmBearingLabel": "Confirm bearing of {angle} degrees for Station {name}",
+            "cancelBearingLabel": "Cancel bearing adjustment for Station {name}",
+            "stationCompleteLabel": "Station {name} bearing completed successfully",
+            "stationIncompleteLabel": "Station {name} bearing not yet set",
+            "currentAngleAnnouncement": "Current bearing angle: {angle} degrees",
+            "bearingConfirmedAnnouncement": "Bearing confirmed: {angle} degrees for Station {name}",
+            "stationSelectedAnnouncement": "Station {name} selected for bearing adjustment",
+            "allStationsCompleteAnnouncement": "All station bearings completed successfully"
+          }
+        }
+      },
+      "S6_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I've marked the locations of our three coastal radio beacons on the chart. Sarah has given us bearings from the Meridian: <br><span style='color:#E0002B; font-weight: 700;'>Beacon A</span> at <strong>42 degrees</strong>, <br><span style='color:#0061FC; font-weight: 700;'>Beacon B</span> at <strong>330 degrees</strong>, and <br><span style='color:#008217; font-weight: 700;'>Beacon C</span> at <strong>82 degrees</strong>. <br>Let's plot these and see what we've got.</div>",
+      "S6_D2_F2_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>First, we need to plot the bearing lines from each beacon. The Meridian reported a bearing of <strong>42 degrees</strong> to <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>.</div>",
+      "S6_D3_F3_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So we draw a line at <strong>42 degrees</strong> from True North, passing through <span style='color:#E0002B; font-weight: 700;'>Beacon A</span>'s position?</div>",
+      "S6_D4_F4_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's right. Let's start by plotting that line.</div>",
+      "S6_D5_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now let's add the bearing line for <span style='color:#0061FC; font-weight: 700;'>Beacon B</span>. Sarah reported <strong>330 degrees</strong> for <span style='color:#0061FC; font-weight: 700;'>Beacon B</span>, so we draw a line at <strong>330 degrees</strong> from True North, passing through <span style='color:#0061FC; font-weight: 700;'>Beacon B</span>'s position.</div>",
+      "S6_D6_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I see... and once we have two bearing lines, they should intersect to show where the ship is located, right?</div>",
+      "S6_D7_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>In an ideal world, yes. But remember, Sarah was dealing with storm interference while taking these measurements. There will be small errors that affect our final result.</div>",
+      "S6_D8_F8_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let's add our third bearing line. Sarah reported <strong>82 degrees</strong> for <span style='color:#008217; font-weight: 700;'>Beacon C</span>, so we draw a line at <strong>82 degrees</strong> from True North, passing through <span style='color:#008217; font-weight: 700;'>Beacon C</span>'s position.</div>",
+      "S6_D9_F9_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>With three bearing lines, we should be able to get a better fix on the Meridian's position.</div>",
+      "S6_D10_F10_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Three bearing lines give us redundancy and confirmation. In marine navigation, having multiple sources of information means we're not relying on just one measurement that could be wrong. It's like double-checking your work, but in this case, it could save lives.</div>"
+    },
+    "S7": {
+      "S7_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>We've constructed a triangle from the three bearing lines. The Meridian is somewhere inside it, but that area is still too large for a precise search.</div>",
+      "S7_D2_F2_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right. We need a smarter way to narrow down the search area.</div>",
+      "S7_D3_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. We'll use geometry — specifically two circles — to define our next search zones. <br>One will pass through all three vertices of the triangle. That's called a Circumscribed Circle. <br>The other will touch each side once. That's called an Inscribed Circle. Each offers a different strategy.</div>",
+      "S7_D4_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So this step is about deciding which circle gives us the best chance of finding the ship quickly.</div>"
+    },
+    "S8": {
+      "S8_D0_FX_C9": {
+        "title": "Circle Calculator",
+        "about": {
+          "heading": "Circle Properties in Triangle Geometry",
+          "body": "<div><p>The key properties demonstrated in this interactive:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Circumscribed Circle</strong>: A circle that passes through all three vertices of a triangle.</li><li><strong>Perpendicular Bisector Property</strong>: Any point on a perpendicular bisector of a line segment is equidistant from both endpoints.</li><li><strong>Circumcenter</strong>: The point where all three perpendicular bisectors of a triangle's sides intersect.</li><li><strong>Inscribed Circle</strong>: A circle that touches all three sides of a triangle.</li><li><strong>Angle Bisector Property</strong>: Any point on an angle bisector is equidistant from the two sides that form the angle.</li><li><strong>Incenter</strong>: The point where all three angle bisectors of a triangle's angles intersect.</li></ol><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Construct perpendicular bisectors to find the circumcenter</li><li>Construct angle bisectors to find the incenter</li><li>Calculate the radii of both circles using geometric formulas</li><li>Compare the areas of both circles to understand search efficiency</li></ul><p><strong>Mathematical Relationship Properties</strong> When comparing circumscribed and inscribed circles:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>The circumscribed circle always contains the inscribed circle</li><li>The circumscribed circle is always larger than the inscribed circle</li><li>The ratio between their areas depends on the triangle's shape</li><li>Both circles share the same geometric relationship to the triangle regardless of the triangle's size</li></ul></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p>To determine optimal search areas:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>For the circumscribed circle:<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Construct perpendicular bisectors for each side of the triangle</li><li>Find the circumcenter where these bisectors intersect</li><li>Use the <strong>'Measure Radius'</strong> button to find the radius</li><li>This circle passes through all vertices of the triangle</li></ul></li><li>For the inscribed circle:<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Construct angle bisectors for each angle of the triangle</li><li>Find the incenter where these bisectors intersect</li><li>Use the <strong>'Measure Radius'</strong> button to find the radius</li><li>This circle touches all sides of the triangle</li></ul></li><li>Understanding the comparison:<ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>The circumscribed circle provides maximum search coverage</li><li>The inscribed circle offers more focused search coverage</li><li>The circumscribed circle covers approximately 4.8× more area than the inscribed circle</li><li>Choose based on your search strategy and available resources</li></ul></li></ol></div>"
+        },
+        "translations": {
+          "ariaLabel": "This is a nautical navigation chart with a coordinate grid showing nautical miles from 3 to 10. The chart displays a triangle formed by three points: P at coordinates (5.01, 5.45), Q at coordinates (7.19, 7.87), and R at coordinates (3.88, 7.4). The triangle shows side lengths of 3.26, 3.34, and 2.25 nautical miles respectively with an area of 3.49 square nautical miles.",
+          "stage": "Stage",
+          "circumscribedCircle": "Circumscribed Circle",
+          "inscribedCircle": "Inscribed Circle",
+          "searchAreaComparison": "Search Area Comparison",
+          "axes": {
+            "xAxisLabel": "Nautical Miles (East)",
+            "yAxisLabel": "Nautical Miles (North)"
+          },
+          "stage1": {
+            "title": "Circumscribed Circle",
+            "description": "A circumscribed circle passes through all vertices of the triangle.",
+            "perpendicularBisectors": {
+              "title": "Perpendicular Bisectors",
+              "description": "Each perpendicular bisector is a line that:",
+              "points": {
+                "midpoint": "Passes through the midpoint of a triangle side",
+                "perpendicular": "Is perpendicular (90°) to that side",
+                "equidistant": "All points on this line are equidistant from both endpoints of the side"
+              },
+              "showButton": "Show Perpendicular Bisectors",
+              "hideButton": "Hide Perpendicular Bisectors"
+            },
+            "circumcenter": {
+              "title": "Circumcenter",
+              "description": "The circumcenter is a special point that:",
+              "points": {
+                "intersection": "Forms at the intersection of all three perpendicular bisectors",
+                "equidistant": "Is equidistant from all three vertices of the triangle",
+                "center": "Becomes the center of the circumscribed circle"
+              },
+              "showButton": "Show Circumcenter",
+              "hideButton": "Hide Circumcenter"
+            },
+            "circumscribedCircle": {
+              "title": "Circumscribed Circle",
+              "description": "The circumscribed circle passes through all three vertices of the triangle.",
+              "radius": "Radius",
+              "showButton": "Show Circumscribed Circle",
+              "hideButton": "Hide Circumscribed Circle",
+              "steps": {
+                "identifyValues": "Step 1: Identify the values needed for the calculation",
+                "substituteFormula": "Step 2: Substitute values into the formula",
+                "calculate": "Step 3: Calculate the radius",
+                "conclusion": "The circumscribed circle has a radius of {radius} nautical miles"
+              },
+              "values": {
+                "sideA": "Side p",
+                "sideB": "Side q",
+                "sideC": "Side r",
+                "area": "Area"
+              }
+            }
+          },
+          "stage2": {
+            "title": "Inscribed Circle",
+            "description": "An inscribed circle touches all sides of the triangle.",
+            "angleBisectors": {
+              "title": "Angle Bisectors",
+              "description": "The incenter is found at the intersection of the angle bisectors of the triangle.",
+              "points": {
+                "equalParts": "An angle bisector divides an angle into two equal parts",
+                "threeLines": "Every triangle has three angle bisectors"
+              },
+              "showButton": "Show Angle Bisectors",
+              "hideButton": "Hide Angle Bisectors"
+            },
+            "incenter": {
+              "title": "Incenter",
+              "description": "The point where all angle bisectors meet is the incenter.",
+              "points": {
+                "intersection": "This special point is equidistant from all three sides of the triangle",
+                "equidistant": "It becomes the center of the inscribed circle"
+              },
+              "showButton": "Show Incenter",
+              "hideButton": "Hide Incenter"
+            },
+            "inscribedCircle": {
+              "title": "Calculate Inscribed Circle Radius",
+              "description": "The inscribed circle touches each side of the triangle exactly once.",
+              "radius": "Radius",
+              "showButton": "Show Inscribed Circle",
+              "hideButton": "Hide Inscribed Circle",
+              "steps": {
+                "identifyValues": "Step 1: Identify the values needed for the calculation",
+                "substituteFormula": "Step 2: Substitute values into the formula",
+                "calculate": "Step 3: Calculate the radius",
+                "conclusion": "The inscribed circle has a radius of {radius} nautical miles"
+              },
+              "values": {
+                "area": "Area",
+                "semiPerimeter": "Semi-perimeter"
+              }
+            }
+          },
+          "stage3": {
+            "title": "Search Area Comparison",
+            "description": "Compare the areas and properties of both circles to optimize the search strategy.",
+            "comparison": {
+              "title": "Circle Properties Comparison",
+              "circumscribed": "Circumscribed Circle",
+              "inscribed": "Inscribed Circle",
+              "properties": {
+                "property": "Property",
+                "circumscribed": "Circumscribed",
+                "inscribed": "Inscribed",
+                "radius": "Radius",
+                "area": "Area",
+                "coverage": "Coverage"
+              }
+            },
+            "analysis": {
+              "title": "Search Efficiency Analysis",
+              "areaRatio": "Area Ratio: Circumscribed is {{ratio}}× larger",
+              "explanation": "The circumscribed circle covers {{ratio}}× more search area than the inscribed circle",
+              "ratioLabel": "Area Ratio Visualization"
+            }
+          },
+          "common": {
+            "nauticalMiles": "NM",
+            "radius": "Radius",
+            "squareNauticalMiles": "NM²",
+            "next": "Next",
+            "previous": "Previous",
+            "reset": "Reset Interactive",
+            "measureRadius": "Measure Radius",
+            "hideRadius": "Hide Radius",
+            "step": "Step",
+            "of": "of",
+            "circumcenter": "Circumcenter",
+            "incenter": "Incenter",
+            "rightAngle": "90°",
+            "circumscribedCircle": "circumscribed circle",
+            "inscribedCircle": "inscribed circle"
+          },
+          "accessibility": {
+            "instructions": {
+              "title": "Instructions for Screen Reader Users",
+              "overview": "This interactive demonstrates circumscribed and inscribed circles for triangles. Use Tab to navigate between interactive elements.",
+              "tabNavigation": "Use Tab and Shift+Tab to navigate between buttons and interactive elements",
+              "buttonInteraction": "Press Space or Enter to activate buttons and measure radii",
+              "escapeKey": "Press Escape to hide all radius measurements"
+            },
+            "stepChanged": "Step {{currentStep}} of {{totalSteps}}. Stage {{stageNumber}}: {{stageName}}, slide {{slideNumber}}",
+            "perpendicularBisectorsShown": "Perpendicular bisectors are now visible on the chart",
+            "circumcenterShown": "Circumcenter point is now visible on the chart",
+            "circumscribedCircleShown": "Circumscribed circle is now visible on the chart",
+            "angleBisectorsShown": "Angle bisectors are now visible on the chart",
+            "incenterShown": "Incenter point is now visible on the chart",
+            "inscribedCircleShown": "Inscribed circle is now visible on the chart",
+            "radiusShown": "{{type}} radius measurement shown: {{radius}} {{unit}}",
+            "radiusHidden": "{{type}} radius measurement hidden",
+            "radiusMeasurementsHidden": "All radius measurements have been hidden",
+            "visualizationSection": "Chart Visualization",
+            "instructionalContent": "Instructional Content",
+            "radiusMeasurementSection": "Radius Measurement Controls",
+            "chartDescription": "Interactive geometric chart for Stage {{stageNumber}}: {{stageName}}",
+            "detailedChartDescription": "Nautical navigation chart with triangle vertices at {{triangleVertices}} and side lengths {{sideLengths}} {{unit}}",
+            "svgTitle": "Geometric Visualization - Stage {{stageNumber}}: {{stageName}}",
+            "currentStage": "Currently on Stage {{stageNumber}}: {{stageName}}, step {{currentStep}} of {{totalSteps}}",
+            "geometricElements": "Geometric elements including triangle, circles, and construction lines",
+            "triangleDescription": "Triangle with side lengths {{sideA}}, {{sideB}}, and {{sideC}} {{unit}}",
+            "perpendicularBisector": "Perpendicular bisector of side {{sideNumber}}",
+            "angleBisector": "Angle bisector from vertex {{vertexLetter}}",
+            "midpoint": "Midpoint of triangle side",
+            "circumcenterPoint": "Circumcenter at coordinates ({{x}}, {{y}})",
+            "incenterPoint": "Incenter at coordinates ({{x}}, {{y}})",
+            "vertex": "Vertex {{letter}} at coordinates ({{x}}, {{y}})",
+            "circumscribedCircleDescription": "Circumscribed circle with radius {{radius}} {{unit}} and area {{area}} square {{unit}}",
+            "inscribedCircleDescription": "Inscribed circle with radius {{radius}} {{unit}} and area {{area}} square {{unit}}",
+            "circumscribedCirclePresent": "Circumscribed circle is visible with radius {{radius}} {{unit}}",
+            "inscribedCirclePresent": "Inscribed circle is visible with radius {{radius}} {{unit}}",
+            "circleComparison": "Side-by-side comparison of circumscribed and inscribed circles",
+            "circumscribedCircleComparison": "Larger circumscribed circle with radius {{radius}} {{unit}} and area {{area}} square {{unit}}",
+            "inscribedCircleComparison": "Smaller inscribed circle with radius {{radius}} {{unit}} and area {{area}} square {{unit}}",
+            "circumscribedCircleCaption": "Circumscribed circle: radius {{radius}} {{unit}}, area {{area}} square {{unit}}",
+            "inscribedCircleCaption": "Inscribed circle: radius {{radius}} {{unit}}, area {{area}} square {{unit}}",
+            "radiusMeasurement": "Radius measurement line",
+            "radiusLabel": "Radius: {{radius}} {{unit}}",
+            "tangentPoint": "Point where inscribed circle touches triangle side",
+            "coordinateLabels": "Coordinate system labels and axis markers",
+            "xAxisLabel": "X coordinate: {{value}}",
+            "yAxisLabel": "Y coordinate: {{value}}",
+            "sideLength": "Side length: {{length}} {{unit}}",
+            "showCircumRadiusButton": "Show circumscribed circle radius measurement",
+            "hideCircumRadiusButton": "Hide circumscribed circle radius measurement",
+            "showInscribedRadiusButton": "Show inscribed circle radius measurement",
+            "hideInscribedRadiusButton": "Hide inscribed circle radius measurement",
+            "radiusButtonHelp": "This button toggles the visibility of radius measurement lines on the chart"
+          }
+        }
+      },
+      "S8_D1_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>First, we need to construct perpendicular bisectors for each side of our <no-glossary>triangle</no-glossary>. A perpendicular bisector passes through the midpoint of a side and forms a 90-degree angle with it.</div>",
+      "S8_D2_F2_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And why are perpendicular bisectors important for finding the circumscribed circle?</div>",
+      "S8_D3_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Any point on a perpendicular bisector is equidistant from both endpoints of the side. So the point where all three perpendicular bisectors meet is equidistant from all three vertices of our triangle—making it the perfect center for our circle.</div>",
+      "S8_D4_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I see. So let's draw these perpendicular bisectors and find where they intersect.</div>",
+      "S8_D5_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now can you see where the three perpendicular bisectors intersect?</div>",
+      "S8_D6_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This point is the circumcenter—the center of our circumscribed circle.</div>",
+      "S8_D7_F7_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And that circle will pass through all three vertices of our triangle, right? Because the circumcenter is equidistant from all three points.</div>",
+      "S8_D8_F8_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I can see the circumscribed circle is drawn on the chart now. What's our next step?</div>",
+      "S8_D9_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Good observation, Thomas. We need to determine the exact radius measurement for our search planning.</div>",
+      "S8_D10_F10_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Use the 'Measure Radius' button on the interactive to find the radius of our circumscribed circle.</div>",
+      "S8_D11_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>What is the radius of the circumscribed circle for our triangular search area?</div>",
+      "S8_D12_F12_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent. Now we have our first potential search area—a circle with radius <b><span style='color:#e74c3c'>1.75</span></b> NM centered at the circumcenter.</div>",
+      "S8_D13_F13_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So this circle completely covers our uncertainty triangle and passes through all three vertices?</div>",
+      "S8_D14_F14_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly right, Thomas. That's what makes it our maximum possible search area.</div>",
+      "S8_D15_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now let's explore our second option—the inscribed circle. To find its center, we need to construct the angle bisectors of our triangle.</div>",
+      "S8_D16_F16_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Angle bisectors? Those divide each angle into two equal parts, correct?</div>",
+      "S8_D17_F17_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. An angle bisector divides an angle into two equal parts. The interesting property of angle bisectors is that any point on an angle bisector is equidistant from the two sides that form the angle.</div>",
+      "S8_D18_F18_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So the point where all three angle bisectors meet would be equidistant from all three sides of our triangle.</div>",
+      "S8_D19_F19_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. That point is called the incenter, and it will be the center of our inscribed circle.</div>",
+      "S8_D20_F20_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Here we can see the three angle bisectors and where they intersect—that's our incenter.</div>",
+      "S8_D21_F21_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And the inscribed circle will touch each side of the triangle exactly once, right?</div>",
+      "S8_D22_F22_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's correct. The radius of this circle will be the perpendicular distance from the incenter to any side of the triangle.</div>",
+      "S8_D23_F23_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now I can see the inscribed circle touching each side of our triangle. This one looks much smaller than the circumscribed circle.</div>",
+      "S8_D24_F24_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sharp observation, Thomas. Let's get the exact measurement using the 'Measure Radius' button for the inscribed circle.</div>",
+      "S8_D25_F25_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>What is the radius of the inscribed circle for our triangular search area?</div>",
+      "S8_D26_F26_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'><b><span style='color:#2ecc71'>0.79</span></b> NM - that's significantly smaller than our circumscribed circle.</div>",
+      "S8_D27_F27_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly right. That size difference will be crucial for our search strategy decision.</div>",
+      "S8_D29_F29_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now we need to compare the sizes of our two search areas to determine the most efficient search strategy.</div>",
+      "S8_D30_F30_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I know the area of a circle is calculated using the formula <span style='font-family:Besley'><b><span style='color:#E0002B'>A</span> = π × <span style='color:#008217; font-style:italic'>r</span>²</span></b>.</div>",
+      "S8_D31_F31_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Let's calculate and compare the areas of both circles to see the difference in search coverage.</div>",
+      "S8_D32_F32_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The area of a circle is calculated using the formula <span style='font-family:Besley'><b><span style='color:#E0002B'>A</span> = π × <span style='color:#008217; font-style:italic'>r</span>²</span></b>. If the circumscribed circle has a radius of <span style='color:#e74c3c'><b>1.75</b></span> NM and the inscribed circle has a radius of <span style='color:#2ecc71'><b>0.79</b></span> NM, how much larger is the area of the circumscribed circle compared to the inscribed circle?</div>",
+      "S8_D33_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>For the circumscribed circle, we get <b>π × <span style='color:#e74c3c'>1.75²</span> = <span style='color:#e74c3c'>9.6</span></b> NM². And for the inscribed circle, we get <b>π × <span style='color:#2ecc71'>0.79²</span> = <span style='color:#2ecc71'>2.0</span></b> NM².</div>",
+      "S8_D34_F34_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Dividing these areas, <b><span style='color:#e74c3c'>9.6</span> / <span style='color:#2ecc71'>2.0</span> = 4.8</b>, so the circumscribed circle is 4.8 times larger than the inscribed circle.</div>",
+      "S8_D35_F35_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Good. This difference is crucial for our search strategy.</div>",
+      "S8_D36_F36_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So which one should we use? The larger circumscribed circle guarantees we'll cover all possible locations, but the smaller inscribed circle would be much more efficient to search.</div>",
+      "S8_D37_F37_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This is where probability comes into play. The vessel is most likely near the center of our uncertainty triangle, which the inscribed circle covers. However, we can't rule out the possibility that it's closer to the vertices.</div>"
+    },
+    "S9": {
+      "S9_D1_F0_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So if we start our search in the Inscribed Circle, we have a higher chance of finding the Meridian faster.</div>",
+      "S9_D2_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And if we don't find them in the Inscribed Circle, we can <no-glossary>expand</no-glossary> our search to the Circumscribed Circle.</div>",
+      "S9_D3_F1_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>[Several hours later]<br>Well, Thomas, the Meridian is safely under tow heading back to harbor. They should arrive by dawn.</div>",
+      "S9_D4_F2_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I never thought geometry would be the key to saving lives at sea. Those lives were saved by triangles, perpendicular bisectors, and angle bisectors.</div>",
+      "S9_D5_F3_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Indeed. Mathematics isn't just academic—it's a practical tool for maritime rescue. Now, let's prepare for the Meridian's arrival.</div>"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "Calculated Rescue: When Math Meets Maritime Disaster",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><div style='font-size: 20px; line-height: 30px; font-weight: 500; color: #333333; margin: 0; padding: 0;'><p>You successfully completed the Calculated Rescue STEAMQuest.</span><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You used triangulation to convert bearing lines into a defined search area</li><li>You constructed circumscribed and inscribed circles to optimize search strategy</li></ul><p>Keep exploring how mathematical principles can enhance maritime safety and rescue operations!</p></div>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_23862_1677' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><path d='M70 0.5H10C4.75329 0.5 0.5 4.75329 0.5 10V70C0.5 75.2467 4.75329 79.5 10 79.5H70C75.2467 79.5 79.5 75.2467 79.5 70V10C79.5 4.75329 75.2467 0.5 70 0.5Z' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_23862_1677)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778207L42.1813 0.778874L69.9853 10.058L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73L7.5026 30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803L38.8202 0.778877L38.8217 0.778356C39.922 0.407158 41.0834 0.40732 42.1793 0.778207Z' fill='#FFCC00'/><path d='M10.9494 10.0803C8.8742 10.7738 7.5026 12.6514 7.5026 14.7467V30.7246L7.50258 30.73C7.29051 50.5507 20.1568 71.7556 40.5048 75.4923C49.7941 73.9029 57.5464 68.3912 63.6644 60.586C70.0068 52.2994 73.5 41.6958 73.5 30.7254V14.7474C73.5 12.656 72.1286 10.7779 70.0524 10.0808L69.9853 10.058L42.1813 0.778874L42.1793 0.778207C41.0834 0.40732 39.922 0.407158 38.8217 0.778356L38.8202 0.778877L10.9494 10.0803ZM10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803Z' stroke='black'/></g><path fill-rule='evenodd' clip-rule='evenodd' d='M53.6113 27.586H58.7131C59.0445 27.586 59.3188 27.8515 59.3188 28.1812V33.3293H53.0056V28.1812C53.0056 27.8555 53.2818 27.586 53.6113 27.586ZM55.3549 26.2024V21.9331C52.7458 23.0552 50.8611 25.2551 47.9166 25.0864V18.8545C51.0272 18.8385 52.5926 16.1778 55.3549 15.5264V14.6336C55.3549 14.1953 55.7129 13.8433 56.1592 13.8433C56.6052 13.8433 56.9635 14.1951 56.9635 14.6336V26.2029L55.3549 26.2024ZM21.5725 32.5331H25.1516V35.097C25.1516 35.5353 25.5096 35.8874 25.9559 35.8874C26.4019 35.8874 26.7602 35.5356 26.7602 35.097V32.5331H30.3392C30.8242 32.5331 31.2274 32.9232 31.2274 33.4059V40.7318C31.2274 41.2084 30.8304 41.6046 30.3392 41.6046H21.5727C21.0877 41.6046 20.6845 41.2145 20.6845 40.7318V33.4059C20.6907 32.9293 21.0876 32.5331 21.5725 32.5331ZM33.7324 32.5331H37.3115V35.097C37.3115 35.5353 37.6695 35.8874 38.1158 35.8874C38.5621 35.8874 38.9201 35.5356 38.9201 35.097V32.5331H42.4991C42.9841 32.5331 43.3873 32.9232 43.3873 33.4059V40.7318C43.3873 41.2084 42.9903 41.6046 42.4991 41.6046H33.7326C33.2476 41.6046 32.8444 41.2145 32.8444 40.7318V33.4059C32.8444 32.9293 33.2413 32.5331 33.7324 32.5331ZM50.11 34.7171H62.2144C62.5131 34.7171 62.7547 34.9182 62.8099 35.2056L64.0233 41.8H48.3071L49.5206 35.2056C49.5696 34.922 49.8175 34.7171 50.11 34.7171ZM26.8445 21.8848H30.4236V24.4487C30.4236 24.887 30.7816 25.2391 31.2279 25.2391C31.6739 25.2391 32.0322 24.8873 32.0322 24.4487V21.8848H35.6112C36.0962 21.8848 36.4994 22.2749 36.4994 22.7575V30.0835C36.4994 30.5601 36.1024 30.9563 35.6112 30.9563H26.8447C26.3597 30.9563 25.9565 30.5662 25.9565 30.0835V22.7575C25.9627 22.2788 26.3596 21.8848 26.8445 21.8848ZM17.7397 43.1875H65.7444C66.5711 43.1875 67.1176 44.0161 66.782 44.758C64.5269 49.7552 59.7728 52.4804 57.8865 57.5965C57.5673 58.4573 56.7774 59.0001 55.8464 59.0001H24.7266C23.4743 59.0001 22.4265 58.1012 22.2668 56.8766C21.749 52.9372 19.9789 47.4913 17.2531 44.1792C16.9298 43.7771 17.2219 43.1875 17.7397 43.1875ZM50.6458 46.2601C50.5353 46.2601 50.4411 46.3466 50.4411 46.4613V50.5476C50.4411 50.6562 50.5291 50.7488 50.6458 50.7488H54.6774C54.7879 50.7488 54.8821 50.6623 54.8821 50.5476V46.4613C54.8821 46.3527 54.7941 46.2601 54.6774 46.2601H50.6458ZM42.5115 46.2601C42.401 46.2601 42.3068 46.3466 42.3068 46.4613V50.5476C42.3068 50.6562 42.3948 50.7488 42.5115 50.7488H46.543C46.6535 50.7488 46.7477 50.6623 46.7477 50.5476V46.4613C46.7477 46.3527 46.6597 46.2601 46.543 46.2601H42.5115ZM34.3771 46.2601C34.2667 46.2601 34.1724 46.3466 34.1724 46.4613V50.5476C34.1724 50.6562 34.2604 50.7488 34.3771 50.7488H38.4087C38.5192 50.7488 38.6134 50.6623 38.6134 50.5476V46.4613C38.6134 46.3527 38.5254 46.2601 38.4087 46.2601H34.3771ZM26.2386 46.2601C26.1282 46.2601 26.0339 46.3466 26.0339 46.4613V50.5476C26.0339 50.6562 26.1219 50.7488 26.2386 50.7488H30.2702C30.3807 50.7488 30.4749 50.6623 30.4749 50.5476V46.4613C30.4749 46.3527 30.3869 46.2601 30.2702 46.2601H26.2386Z' fill='black' stroke='black'/><path fill-rule='evenodd' clip-rule='evenodd' d='M53.6113 25.7427H58.7131C59.0445 25.7427 59.3188 26.0083 59.3188 26.338V31.486H53.0056V26.338C53.0056 26.0123 53.2818 25.7427 53.6113 25.7427ZM55.3549 24.3592V20.0898C52.7458 21.212 50.8611 23.4119 47.9166 23.2431V17.0113C51.0272 16.9953 52.5926 14.3345 55.3549 13.6831V12.7904C55.3549 12.3521 55.7129 12 56.1592 12C56.6052 12 56.9635 12.3518 56.9635 12.7904V24.3597L55.3549 24.3592ZM21.5725 30.6898H25.1516V33.2538C25.1516 33.6921 25.5096 34.0441 25.9559 34.0441C26.4019 34.0441 26.7602 33.6923 26.7602 33.2538V30.6898H30.3392C30.8242 30.6898 31.2274 31.08 31.2274 31.5626V38.8886C31.2274 39.3652 30.8304 39.7614 30.3392 39.7614H21.5727C21.0877 39.7614 20.6845 39.3712 20.6845 38.8886V31.5626C20.6907 31.086 21.0876 30.6898 21.5725 30.6898ZM33.7324 30.6898H37.3115V33.2538C37.3115 33.6921 37.6695 34.0441 38.1158 34.0441C38.5621 34.0441 38.9201 33.6923 38.9201 33.2538V30.6898H42.4991C42.9841 30.6898 43.3873 31.08 43.3873 31.5626V38.8886C43.3873 39.3652 42.9903 39.7614 42.4991 39.7614H33.7326C33.2476 39.7614 32.8444 39.3712 32.8444 38.8886V31.5626C32.8444 31.086 33.2413 30.6898 33.7324 30.6898ZM50.11 32.8738H62.2144C62.5131 32.8738 62.7547 33.075 62.8099 33.3624L64.0233 39.9567H48.3071L49.5206 33.3624C49.5696 33.0787 49.8175 32.8738 50.11 32.8738ZM26.8445 20.0415H30.4236V22.6054C30.4236 23.0437 30.7816 23.3958 31.2279 23.3958C31.6739 23.3958 32.0322 23.044 32.0322 22.6054V20.0415H35.6112C36.0962 20.0415 36.4994 20.4316 36.4994 20.9143V28.2402C36.4994 28.7168 36.1024 29.113 35.6112 29.113H26.8447C26.3597 29.113 25.9565 28.7229 25.9565 28.2402V20.9143C25.9627 20.4356 26.3596 20.0415 26.8445 20.0415ZM17.7397 41.3442H65.7444C66.5711 41.3442 67.1176 42.1728 66.782 42.9148C64.5269 47.9119 59.7728 50.6372 57.8865 55.7532C57.5673 56.6141 56.7774 57.1569 55.8464 57.1569H24.7266C23.4743 57.1569 22.4265 56.258 22.2668 55.0333C21.749 51.0939 19.9789 45.6481 17.2531 42.3359C16.9298 41.9338 17.2219 41.3442 17.7397 41.3442ZM50.6458 44.4169C50.5353 44.4169 50.4411 44.5034 50.4411 44.618V48.7043C50.4411 48.8129 50.5291 48.9055 50.6458 48.9055H54.6774C54.7879 48.9055 54.8821 48.819 54.8821 48.7043V44.618C54.8821 44.5095 54.7941 44.4169 54.6774 44.4169H50.6458ZM42.5115 44.4169C42.401 44.4169 42.3068 44.5034 42.3068 44.618V48.7043C42.3068 48.8129 42.3948 48.9055 42.5115 48.9055H46.543C46.6535 48.9055 46.7477 48.819 46.7477 48.7043V44.618C46.7477 44.5095 46.6597 44.4169 46.543 44.4169H42.5115ZM34.3771 44.4169C34.2667 44.4169 34.1724 44.5034 34.1724 44.618V48.7043C34.1724 48.8129 34.2604 48.9055 34.3771 48.9055H38.4087C38.5192 48.9055 38.6134 48.819 38.6134 48.7043V44.618C38.6134 44.5095 38.5254 44.4169 38.4087 44.4169H34.3771ZM26.2386 44.4169C26.1282 44.4169 26.0339 44.5034 26.0339 44.618V48.7043C26.0339 48.8129 26.1219 48.9055 26.2386 48.9055H30.2702C30.3807 48.9055 30.4749 48.819 30.4749 48.7043V44.618C30.4749 44.5095 30.3869 44.4169 30.2702 44.4169H26.2386Z' fill='white' stroke='black'/><path fill-rule='evenodd' clip-rule='evenodd' d='M53.6113 25.7427H58.7131C59.0445 25.7427 59.3188 26.0083 59.3188 26.338V31.486H53.0056V26.338C53.0056 26.0123 53.2818 25.7427 53.6113 25.7427ZM55.3549 24.3592V20.0898C52.7458 21.212 50.8611 23.4119 47.9166 23.2431V17.0113C51.0272 16.9953 52.5926 14.3345 55.3549 13.6831V12.7904C55.3549 12.3521 55.7129 12 56.1592 12C56.6052 12 56.9635 12.3518 56.9635 12.7904V24.3597L55.3549 24.3592ZM21.5725 30.6898H25.1516V33.2538C25.1516 33.6921 25.5096 34.0441 25.9559 34.0441C26.4019 34.0441 26.7602 33.6923 26.7602 33.2538V30.6898H30.3392C30.8242 30.6898 31.2274 31.08 31.2274 31.5626V38.8886C31.2274 39.3652 30.8304 39.7614 30.3392 39.7614H21.5727C21.0877 39.7614 20.6845 39.3712 20.6845 38.8886V31.5626C20.6907 31.086 21.0876 30.6898 21.5725 30.6898ZM33.7324 30.6898H37.3115V33.2538C37.3115 33.6921 37.6695 34.0441 38.1158 34.0441C38.5621 34.0441 38.9201 33.6923 38.9201 33.2538V30.6898H42.4991C42.9841 30.6898 43.3873 31.08 43.3873 31.5626V38.8886C43.3873 39.3652 42.9903 39.7614 42.4991 39.7614H33.7326C33.2476 39.7614 32.8444 39.3712 32.8444 38.8886V31.5626C32.8444 31.086 33.2413 30.6898 33.7324 30.6898ZM50.11 32.8738H62.2144C62.5131 32.8738 62.7547 33.075 62.8099 33.3624L64.0233 39.9567H48.3071L49.5206 33.3624C49.5696 33.0787 49.8175 32.8738 50.11 32.8738ZM26.8445 20.0415H30.4236V22.6054C30.4236 23.0437 30.7816 23.3958 31.2279 23.3958C31.6739 23.3958 32.0322 23.044 32.0322 22.6054V20.0415H35.6112C36.0962 20.0415 36.4994 20.4316 36.4994 20.9143V28.2402C36.4994 28.7168 36.1024 29.113 35.6112 29.113H26.8447C26.3597 29.113 25.9565 28.7229 25.9565 28.2402V20.9143C25.9627 20.4356 26.3596 20.0415 26.8445 20.0415ZM17.7397 41.3442H65.7444C66.5711 41.3442 67.1176 42.1728 66.782 42.9148C64.5269 47.9119 59.7728 50.6372 57.8865 55.7532C57.5673 56.6141 56.7774 57.1569 55.8464 57.1569H24.7266C23.4743 57.1569 22.4265 56.258 22.2668 55.0333C21.749 51.0939 19.9789 45.6481 17.2531 42.3359C16.9298 41.9338 17.2219 41.3442 17.7397 41.3442ZM50.6458 44.4169C50.5353 44.4169 50.4411 44.5034 50.4411 44.618V48.7043C50.4411 48.8129 50.5291 48.9055 50.6458 48.9055H54.6774C54.7879 48.9055 54.8821 48.819 54.8821 48.7043V44.618C54.8821 44.5095 54.7941 44.4169 54.6774 44.4169H50.6458ZM42.5115 44.4169C42.401 44.4169 42.3068 44.5034 42.3068 44.618V48.7043C42.3068 48.8129 42.3948 48.9055 42.5115 48.9055H46.543C46.6535 48.9055 46.7477 48.819 46.7477 48.7043V44.618C46.7477 44.5095 46.6597 44.4169 46.543 44.4169H42.5115ZM34.3771 44.4169C34.2667 44.4169 34.1724 44.5034 34.1724 44.618V48.7043C34.1724 48.8129 34.2604 48.9055 34.3771 48.9055H38.4087C38.5192 48.9055 38.6134 48.819 38.6134 48.7043V44.618C38.6134 44.5095 38.5254 44.4169 38.4087 44.4169H34.3771ZM26.2386 44.4169C26.1282 44.4169 26.0339 44.5034 26.0339 44.618V48.7043C26.0339 48.8129 26.1219 48.9055 26.2386 48.9055H30.2702C30.3807 48.9055 30.4749 48.819 30.4749 48.7043V44.618C30.4749 44.5095 30.3869 44.4169 30.2702 44.4169H26.2386Z' fill='white' stroke='black'/></g></svg>",
+      "leftsvgarialabel": "Ship Shield Icon",
+      "rightsvg": "<svg width='112' height='141' viewBox='0 0 112 141' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_23862_1674)' transform='translate(0, -30)'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M87.0102 62.5312L98.5978 64.3411C99.3506 64.4587 99.8793 65.1641 99.7622 65.9191L97.9332 77.7075L83.5939 75.4678L85.4229 63.6794C85.5386 62.9336 86.2616 62.4143 87.0102 62.5312ZM91.4619 59.9817L92.9787 50.2054C86.654 51.8494 81.5917 56.2183 74.9637 54.7873L77.1777 40.5171C84.2485 41.584 88.7494 36.0465 95.2548 35.5349L95.572 33.4906C95.7277 32.487 96.6659 31.8078 97.6796 31.9661C98.6926 32.1243 99.3814 33.057 99.2256 34.0613L95.1153 60.5535L91.4619 59.9817ZM12.4827 62.4934L20.6119 63.7632L19.701 69.6342C19.5453 70.6378 20.2333 71.5711 21.247 71.7294C22.2599 71.8876 23.1987 71.2092 23.3545 70.2049L24.2654 64.3338L32.3946 65.6035C33.4961 65.7756 34.2733 66.8119 34.1018 67.9172L31.4991 84.6926C31.3298 85.784 30.2873 86.5504 29.1717 86.3761L9.26018 83.2661C8.15863 83.094 7.38149 82.0577 7.55297 80.9524L10.1557 64.177C10.3391 63.0879 11.3816 62.3215 12.483 62.4935L12.4827 62.4934ZM40.1016 66.8073L48.2307 68.077L47.3199 73.9481C47.1641 74.9517 47.8522 75.8849 48.8658 76.0433C49.8795 76.2016 50.8176 75.523 50.9734 74.5188L51.8843 68.6477L60.0134 69.9174C61.115 70.0894 61.8921 71.1258 61.7207 72.2311L59.118 89.0065C58.9486 90.0978 57.9062 90.8642 56.7906 90.69L36.8791 87.5799C35.7775 87.4079 35.0004 86.3715 35.1718 85.2663L37.7745 68.4909C37.9439 67.3995 38.9863 66.6331 40.1019 66.8074L40.1016 66.8073ZM76.524 77.6184L104.017 81.9126C104.695 82.0185 105.173 82.5649 105.196 83.2426L105.609 98.7733L69.9129 93.1978L75.0118 78.528C75.2239 77.8959 75.8594 77.5146 76.5237 77.6183L76.524 77.6184ZM28.2401 39.9804L36.3692 41.2501L35.4584 47.1212C35.3026 48.1248 35.9907 49.058 37.0043 49.2164C38.0173 49.3746 38.9561 48.6961 39.1119 47.6919L40.0228 41.8208L48.1519 43.0905C49.2535 43.2625 50.0306 44.2989 49.8592 45.4041L47.2565 62.1796C47.0871 63.2709 46.0447 64.0373 44.9291 63.8631L25.0176 60.753C23.916 60.581 23.1389 59.5446 23.3103 58.4394L25.913 41.6639C26.0973 40.5699 27.1389 39.8084 28.2404 39.9805L28.2401 39.9804ZM-0.00805629 85.5308L109.025 102.561C110.903 102.854 111.85 104.946 110.824 106.525C103.927 117.168 92.1605 121.722 86.0586 132.768C85.0276 134.626 83.0406 135.589 80.926 135.259L10.2437 124.218C7.39915 123.774 5.33875 121.344 5.41106 118.483C5.63463 109.279 3.5488 96.1804 -1.46555 87.6291C-2.05708 86.5937 -1.18279 85.3478 -0.00682063 85.5314L-0.00805629 85.5308ZM73.6402 104.241C73.3893 104.201 73.1445 104.366 73.1038 104.629L71.652 113.986C71.6135 114.234 71.7804 114.478 72.0455 114.519L81.2024 115.949C81.4533 115.988 81.6981 115.824 81.7388 115.561L83.1906 106.204C83.2291 105.956 83.0622 105.712 82.7971 105.671L73.6402 104.241ZM55.1647 101.355C54.9137 101.316 54.669 101.48 54.6282 101.743L53.1765 111.1C53.1379 111.349 53.3049 111.592 53.57 111.633L62.7268 113.063C62.9778 113.103 63.2225 112.938 63.2633 112.675L64.715 103.318C64.7536 103.07 64.5866 102.827 64.3215 102.785L55.1647 101.355ZM36.6891 98.4691C36.4381 98.4299 36.1934 98.5945 36.1526 98.8572L34.7009 108.214C34.6623 108.463 34.8293 108.706 35.0944 108.748L44.2513 110.178C44.5022 110.217 44.747 110.052 44.7877 109.79L46.2394 100.433C46.278 100.184 46.111 99.9408 45.8459 99.8994L36.6891 98.4691ZM18.2041 95.5819C17.9531 95.5427 17.7084 95.7073 17.6676 95.97L16.2159 105.327C16.1773 105.576 16.3443 105.819 16.6094 105.86L25.7662 107.291C26.0172 107.33 26.2619 107.165 26.3027 106.902L27.7544 97.5454C27.793 97.2968 27.626 97.0535 27.3609 97.0121L18.2041 95.5819Z' fill='white'/></g><defs><clipPath id='clip0_23862_1674'><rect width='112' height='141' fill='white'/></clipPath></defs></svg>"
+    },
+    "glossary": {
+      "triangulation": {
+        "word": "Triangulation",
+        "definition": "<strong className=\"text-[#0055B2]\">Triangulation</strong> is a method to determine the location of a point by measuring angles to it from known points at either end of a fixed baseline."
+      },
+      "bearing": {
+        "word": "Bearing",
+        "definition": "<strong className=\"text-[#0055B2]\">Bearing</strong> is a line drawn on a chart showing the direction from which a signal is coming, measured in degrees from true north."
+      },
+      "bearings": {
+        "word": "Bearings",
+        "definition": "<strong className=\"text-[#0055B2]\">Bearings</strong> are a line drawn on a chart showing the direction from which a signal is coming, measured in degrees from true north."
+      },
+      "cocked_hat_triangle": {
+        "word": "'Cocked Hat' Triangle",
+        "definition": "<strong className=\"text-[#0055B2]\">Cocked Hat Triangle</strong> is an area of uncertainty formed when three bearing lines don't meet at a single point due to measurement errors."
+      },
+      "herons_formula": {
+        "word": "Heron's Formula",
+        "definition": "<strong className=\"text-[#0055B2]\">Heron's Formula</strong> is a formula that calculates the area of a triangle using the lengths of its three sides: <span style=\"font-family: besley; font-style: italic;\">Area = √(s(s − a)(s − b)(s − c))</span>, where <i style=\"font-family: besley;\">s</i> is the semi-perimeter."
+      },
+      "semi_perimeter": {
+        "word": "Semi-perimeter",
+        "definition": "<strong className=\"text-[#0055B2]\">Semi-perimeter</strong> is half the perimeter of a triangle, calculated by adding all three sides and dividing by <strong>2</strong>."
+      },
+      "perpendicular_bisector": {
+        "word": "Perpendicular Bisector",
+        "definition": "<strong className=\"text-[#0055B2]\">Perpendicular Bisector</strong> is a line that passes through the midpoint of a line segment at a right angle (<strong>90</strong> degrees)."
+      },
+      "circumscribed_circle": {
+        "word": "Circumscribed Circle",
+        "definition": "<strong className=\"text-[#0055B2]\">Circumscribed Circle</strong> is the circle with center where the perpendicular bisectors of a triangle's sides intersect. It's center is equidistant from all three vertices."
+      },
+      "circumcenter": {
+        "word": "Circumcenter",
+        "definition": "<strong className=\"text-[#0055B2]\">Circumcenter</strong> is the point where the perpendicular bisectors of a triangle's sides intersect, equidistant from all three vertices."
+      },
+      "inscribed_circle": {
+        "word": "Inscribed Circle",
+        "definition": "<strong className=\"text-[#0055B2]\">Inscribed Circle</strong> is a circle that touches each side of a triangle exactly once, with its center at the incenter."
+      },
+      "incenter": {
+        "word": "Incenter",
+        "definition": "<strong className=\"text-[#0055B2]\">Incenter</strong> is the point where the angle bisectors of a triangle intersect, equidistant from all three sides."
+      },
+      "angle_bisector": {
+        "word": "Angle Bisector",
+        "definition": "<strong className=\"text-[#0055B2]\">Angle Bisector</strong> is a line that divides an angle into two equal parts."
+      },
+      "resultant_force": {
+        "word": "Resultant Force",
+        "definition": "<strong className=\"text-[#0055B2]\">Resultant Force</strong> is the single force that has the same effect as two or more forces applied together."
+      },
+      "vector_addition": {
+        "word": "Vector Addition",
+        "definition": "<strong className=\"text-[#0055B2]\">Vector Addition</strong> is the method of combining two or more vectors (quantities with both magnitude and direction) to find their resultant."
+      },
+      "law_of_cosines": {
+        "word": "Law of Cosines",
+        "definition": "<strong className=\"text-[#0055B2]\">Law of Cosines</strong> is a formula used to find unknown parts of a triangle when two sides and the included angle (or three sides) are known: <span style=\"font-family: besley; font-style: italic;\">c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> − 2ab · cos(C)</span>."
+      },
+      "magnitude": {
+        "word": "Magnitude",
+        "definition": "<strong className=\"text-[#0055B2]\">Magnitude</strong> is the size or absolute value of a quantity, regardless of its direction."
+      },
+      "rdf": {
+        "word": "RDF",
+        "definition": "<strong className=\"text-[#0055B2]\">RDF (Radio Direction Finding)</strong> is a navigation technique that uses specialized radio equipment to determine the direction from which a radio signal is coming, measured as a bearing in degrees from true north."
+      },
+      "radio_direction_finding": {
+        "word": "Radio Direction Finding",
+        "definition": "<strong className=\"text-[#0055B2]\">Radio Direction Finding</strong> is a navigation technique that uses specialized radio equipment to determine the direction from which a radio signal is coming, measured as a bearing in degrees from true north."
+      }
+    },
+    "common": {
+      "quinn": "Quinn",
+      "thomas": "Thomas",
+      "sarah": "Sarah",
+      "sarah_over_radio": "Sarah (over Radio)",
+      "thomas_description": "A young Black man in a dark naval uniform with gold buttons, holding a rolled document and looking confident.",
+      "quinn_description": "An older man with a white beard wearing a navy captain's uniform with gold-emblemed cap, holding an open logbook.",
+      "sarah_description": "A focused woman in a storm-weathered with officer's uniform, adjusting a directional antenna while relaying bearings over the radio with calm precision.",
+      "bg1_description": "Stormy harbor at night with snow, docked boats, and a lighthouse in the distance. The tension of the storm is palpable.",
+      "bg2_description": "Warm-lit interior of a wooden radio room with snowy windows, creating a contrast of coziness and urgency.",
+      "bg3_description": "Detailed strategy/planning office with world maps, compasses, and naval tools—ideal for tactical discussions.",
+      "bg4_description": "Another communications room focused on navigation and transmission equipment, facing a wall of snowy windows.",
+      "bg5_description": "Early morning at the harbor as the storm calms; people watch the ship return at sunrise—symbolizing rescue and relief.",
+      "bg6_description": "Dimly-lit ship bridge interior full of controls and glowing radar during a storm. Ideal for tense shipboard communication scenes.",
+      "bg7_description": "Raging sea with lightning and massive waves hitting the deck — perfect for showcasing the chaos the Meridian faces during the storm.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "click_to_place_point": "Click to place point",
+      "invalid_pair": "Invalid Pair! Try a different combination of angles",
+      "place_point": "Place Point",
+      "angle": "Angle",
+      "focusModeAnnouncement": "Please toggle to focus mode to select angles and drop them in the correct locations."
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "game-calculated-rescue": "STEAM Quest - Calculated Rescue"
+  }
+}

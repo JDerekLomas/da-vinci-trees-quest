@@ -1,0 +1,40 @@
+import { TheVirtualMonochordConfig } from '../interactives/interface';
+
+const theVirtualMonochordConfig: TheVirtualMonochordConfig = {
+  translations: {
+    baseFrequencyLabel: 'scenes.S5.S5_D0_FX_C9.baseFrequencyLabel',
+    dividedFrequencyLabel: 'scenes.S5.S5_D0_FX_C9.dividedFrequencyLabel',
+    proportionsTitle: 'scenes.S5.S5_D0_FX_C9.proportionsTitle',
+    playFrequenciesButton: 'scenes.S5.S5_D0_FX_C9.playFrequenciesButton',
+    fundamentalStringAriaLabel: 'scenes.S5.S5_D0_FX_C9.fundamentalStringAriaLabel',
+    dividedStringAriaLabel: 'scenes.S5.S5_D0_FX_C9.dividedStringAriaLabel',
+    hertz: 'scenes.S5.S5_D0_FX_C9.hertz',
+    virtualMonochordStrings: 'scenes.S5.S5_D0_FX_C9.virtualMonochordStrings',
+    fundamentalToneString: 'scenes.S5.S5_D0_FX_C9.fundamentalToneString',
+    dividedFrequencyString: 'scenes.S5.S5_D0_FX_C9.dividedFrequencyString',
+    proportionAriaLabel: 'scenes.S5.S5_D0_FX_C9.proportionAriaLabel',
+    twelveToEleven: 'scenes.S5.S5_D0_FX_C9.twelveToEleven',
+    nineToEight: 'scenes.S5.S5_D0_FX_C9.nineToEight',
+    eightToSeven: 'scenes.S5.S5_D0_FX_C9.eightToSeven',
+    sevenToSix: 'scenes.S5.S5_D0_FX_C9.sevenToSix',
+    sixToFive: 'scenes.S5.S5_D0_FX_C9.sixToFive',
+    fiveToFour: 'scenes.S5.S5_D0_FX_C9.fiveToFour',
+    fourToThree: 'scenes.S5.S5_D0_FX_C9.fourToThree',
+    sevenToFive: 'scenes.S5.S5_D0_FX_C9.sevenToFive',
+    rootTwoToOne: 'scenes.S5.S5_D0_FX_C9.rootTwoToOne',
+    threeToTwo: 'scenes.S5.S5_D0_FX_C9.threeToTwo',
+    fiveToThree: 'scenes.S5.S5_D0_FX_C9.fiveToThree',
+    twelveToSeven: 'scenes.S5.S5_D0_FX_C9.twelveToSeven',
+    rootThreeToOne: 'scenes.S5.S5_D0_FX_C9.rootThreeToOne',
+    sixteenToNine: 'scenes.S5.S5_D0_FX_C9.sixteenToNine',
+    fifteenToEight: 'scenes.S5.S5_D0_FX_C9.fifteenToEight',
+    twoToOne: 'scenes.S5.S5_D0_FX_C9.twoToOne',
+    rootFiveToOne: 'scenes.S5.S5_D0_FX_C9.rootFiveToOne',
+    threeToOne: 'scenes.S5.S5_D0_FX_C9.threeToOne',
+    sevenToTwo: 'scenes.S5.S5_D0_FX_C9.sevenToTwo',
+    fourToOne: 'scenes.S5.S5_D0_FX_C9.fourToOne',
+    fiveToOne: 'scenes.S5.S5_D0_FX_C9.fiveToOne',
+  },
+};
+
+export default theVirtualMonochordConfig;

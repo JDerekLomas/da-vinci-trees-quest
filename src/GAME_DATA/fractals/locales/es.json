@@ -1,0 +1,402 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción",
+    "scene_4": "Fractales en la naturaleza",
+    "scene_5": "Explorando fractales",
+    "scene_6": "Acerca de los números complejos",
+    "scene_7": "Gráfica de números complejos en el plano complejo",
+    "scene_8X": "Operaciones aritméticas con números complejos",
+    "scene_8": "Uso de números complejos para crear fractales",
+    "scene_9": "Comprensión del proceso de creación de fractales",
+    "scene_10": "Uso de fractales en el diseño de juegos",
+    "scene_11": "Generación de terreno mediante fractales",
+    "scene_12": "Conclusión",
+    "scene_13": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Fractal Forge</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>En el reino de los números imaginarios</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Únete a Sophia, artista de entornos sénior, y a Henry, programador novel, mientras trabajan juntos para generar un terreno impresionante y realista para un planeta alienígena usando fractales. En esta STEAMQuest, explorarás cómo conceptos matemáticos como los números complejos y las fórmulas fractales iterativas pueden dar forma a los paisajes de los videojuegos, y descubrirás cómo estas ideas abstractas se transforman en poderosas herramientas para crear entornos realistas en el desarrollo de juegos. ¿Listo para diseñar el próximo gran mundo virtual usando la magia de los fractales?</p>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>¡Bienvenidos a Fractal Forge Studios!</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Donde las matemáticas se fusionan con el diseño de juegos! Aquí es donde los conceptos matemáticos abstractos se transforman en mundos dinámicos e inmersivos. Hoy nos adentramos en el fascinante mundo de los fractales, creando un impresionante terreno generado proceduralmente para su juego de planetas alienígenas. ¿Listos para explorar cómo los fractales moldean los paisajes de los juegos del futuro?</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C1": "Henry, escuché que acabas de unirte al equipo de desarrollo del nivel del planeta alienígena. ¡Bienvenido a bordo!",
+      "S3_D2_FX_C2": "¡Gracias, Sophia! He estado mirando la documentación de diseño del nivel del planeta alienígena. Hay una nota sobre el uso de <strong>algoritmos fractales</strong> para la generación del terreno, pero no estoy seguro de entender cómo funciona.",
+      "S3_D3_FX_C1": "¡Oh, los fractales son geniales! De hecho, son una de mis partes favoritas del arte técnico. ¿Quieres que te lo muestre?",
+      "S3_D4_FX_C2": "Definitivamente. Ya había oído el término, pero no entiendo bien cómo los usamos en los juegos."
+    },
+    "S4": {
+      "S4_D0_FX_C9": {
+        "title": "Fractales en la Naturaleza",
+        "alt": "Un collage de tres imágenes que muestran patrones fractales en la naturaleza. Imagen A: Una cordillera con crestas escarpadas y repetidas y espectaculares formaciones verticales. Imagen B: Un primer plano de una hoja de helecho verde, con folíolos más pequeños que reflejan la forma general del helecho. Imagen C: Una escena costera con una serie de accidentes geográficos irregulares y repetitivos que se extienden hacia el océano, evocando visualmente los patrones que se ven en las montañas."
+      },
+      "S4_D1_FX_C1": "Entonces, los fractales son estos asombrosos patrones matemáticos que se repiten a diferentes escalas. Son perfectos para elementos naturales como montañas, costas y plantas, porque así es como funciona la naturaleza.",
+      "S4_D2_FX_C2": "¿Como cuando la <no-glossary>rama</no-glossary> de un árbol se parece a una versión reducida del árbol entero?",
+      "S4_D3_FX_C1": "Sí, eso es autosimilitud, una propiedad clave de los fractales. Les mostraré la herramienta que uso para explicar los fractales a los nuevos artistas."
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Explorador de Fractales",
+        "preset_instruction": "Prueba estos patrones preestablecidos o ajusta los controles deslizantes de parámetros para explorar diferentes patrones. Ajusta el nivel de zoom para ver la autosimilitud.",
+        "presets": {
+          "preset1": "Espiral",
+          "preset2": "Conejo",
+          "preset3": "Dendrita",
+          "preset4": "Dragón"
+        },
+        "parameters": {
+          "realPart": "Parámetro 1",
+          "imaginaryPart": "Parámetro 2"
+        },
+        "canvas_ariaLabel": "Patrón fractal",
+        "preset_ariaLabel": "Preajuste:",
+        "preset_selected": "Preajuste seleccionado: {preset}. Patrón fractal modificado.",
+        "parameter_changed": "Patrón fractal modificado.",
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li><strong>Ajusta los controles deslizantes de parámetros</strong> para observar cómo cambia el patrón.</li><li>También puedes <strong>usar los ajustes preestablecidos</strong> para explorar algunos patrones populares.</li><li><strong>Ajuste el control deslizante del nivel de zoom</strong> y observe cómo el mismo patrón se repite en diferentes escalas.</li></ul>"
+        },
+        "info": {
+          "heading": "Acerca de los fractales",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li><strong>Los fractales</strong> son patrones matemáticos que se repiten a diferentes escalas. Estos patrones se generan mediante la aplicación repetida de una regla matemática simple.</li><li>Esta herramienta interactiva muestra el famoso fractal del <strong>Conjunto de Julia</strong>.</li><li>Puedes crear diferentes patrones ajustando los parámetros o utilizando ajustes predefinidos, como ‘Espiral’, ‘Conejo’, ‘Dendrita’ y ‘Dragón’.</li></ul>"
+        },
+        "zoomLevel": "Nivel de zoom"
+      },
+      "S5_D1_FX_C2": "¡Esto es extraordinario! El patrón parece un paisaje extraterrestre. Los colores y los intrincados detalles son impresionantes.",
+      "S5_D2_FX_C1": "El patrón que estás viendo es el famoso patrón fractal del Conjunto de Julia. ¿Qué te parece? ¿Cómo podemos crear este patrón complejo?",
+      "S5_D3_FX_C1": "¡Correcto! Este es precisamente el poder de los fractales. En lugar de diseñar manualmente cada detalle, definimos una regla matemática simple, la aplicamos repetidamente y dejamos que las matemáticas generen complejidad.",
+      "S5_D4_FX_C1": "Ajusta los controles deslizantes de parámetros lentamente y observa qué sucede con el patrón general.",
+      "S5_D5_FX_C2": "¡Fascinante! ¡Todo el patrón se está transformando ante mis ojos! Con solo modificar algunos valores numéricos, he creado un patrón completamente diferente.",
+      "S5_D6_FX_C1": "Ahora intenta ajustar el nivel de zoom. Al ampliar, verás versiones más pequeñas de las mismas formas que aparecen una y otra vez. Ese detalle que se repite a cualquier escala se llama autosimilitud.",
+      "S5_D7_FX_C2": "¡Guau! Es como si el patrón nunca terminara. No importa cuánto amplíe la imagen, siempre hay más detalles, como un universo dentro de otro universo.",
+      "S5_D8_FX_C2": "Sin embargo, tengo curiosidad. ¿Cómo es que cambios tan pequeños en los <no-glossary>parámetros</no-glossary> crean diferencias tan drásticas en los patrones resultantes?",
+      "question_1": {
+        "option_1": "Pintándolo manualmente con cuidado",
+        "option_2": "Colocando formas y colores aleatoriamente",
+        "option_3": "Aplicando una simple regla matemática repetidamente"
+      }
+    },
+    "S6": {
+      "S6_D1_FX_C1": "Has captado algo esencial. Estos fractales son increíblemente sensibles a los números que se usan para generarlos. Y aquí está la parte interesante. Los números detrás de estos patrones no son simples números comunes.",
+      "S6_D2_FX_C2": "¿Qué quieres decir? ¿No estamos simplemente introduciendo valores como <span style=\"font-family: Besley; font-weight: bold;\">2</span> o <span style=\"font-family: Besley; font-weight: bold;\">-1.5</span>?",
+      "S6_D3_FX_C1": "No exactamente. El fractal que acabas de explorar se construye usando algo llamado números complejos. Son la clave de cómo funciona todo esto.",
+      "S6_D4_FX_C2": "¿Números complejos? Como los que tienen esa extraña <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">i</span>? Recuerdo haber oído hablar de ellos en clase, pero siempre me parecieron inútiles.",
+      "S6_D5_FX_C1": "Esa es una primera impresión común. El nombre es engañoso. Pero los números complejos son muy reales y extremadamente útiles. Nos brindan una forma poderosa de representar puntos bidimensionales. De hecho, son perfectos para describir posiciones en un plano, al igual que los puntos que generan fractales.",
+      "S6_D6_FX_C2": "¿Entonces estás diciendo que estos patrones se forman usando números complejos como coordenadas?",
+      "S6_D7_FX_C1": "Exactamente. Dediquemos un momento a entender cómo funcionan y cómo podemos graficarlos. Una vez que lo veas, todo empezará a conectar."
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "Gráfico de Números Complejos",
+        "realPart": "Parte Real",
+        "imaginaryPart": "Parte Imaginaria",
+        "instruction": "Gráfica el número complejo en el plano complejo para visualizar su posición.",
+        "plotNumber": "Gráfica el Número",
+        "clearAll": "Borrar Todo",
+        "pointPlotted": "Gráfica el número complejo {complexNumber} en el plano complejo.",
+        "pointsCleared": "Borradas todas las gráficas del plano complejo.",
+        "help": {
+          "heading": "¿Cómo graficar números complejos en el plano complejo con esta herramienta?",
+          "body": "<p>Sigue estos pasos para representar gráficamente un número complejo en el plano complejo con esta herramienta:</p><ol style=\"list-style-type: decimal; padding-left: 40px; margin-top: 16px;\"><li><strong>Ajusta los controles deslizantes de la parte real y la parte imaginaria</strong>.</li><li><strong>Haz clic en el botón 'Gráfica de número'</strong> para representar gráficamente el número complejo en el plano complejo.</li><li>Usa el botón 'Borrar todo' para eliminar todos los números representados en el plano complejo.</li></ol>"
+        },
+        "info": {
+          "heading": "Gráfica de un número complejo en el plano complejo",
+          "body": "<div><p style=\"text-align: center;\" aria-label=\"z es igual a a más b en i\"><span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #E0002B;\">z</span> = <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> + <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span><span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #008217;\">i</span></p><p style=\"margin-top: 16px;\">Donde, <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #E0002B;\">z</span> es el número complejo, <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> es la parte real del número complejo y <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span> es la parte imaginaria del número complejo.</p><div style=\"margin-top: 16px;\"><h4 style=\"color: #006BE0; font-weight: 600;\">Plano complejo:</h4><p style=\"margin-top: 16px;\">El <strong>eje horizontal</strong> (eje x) en un plano complejo se conoce como el <strong>eje real</strong>, mientras que el <strong>eje vertical</strong> (eje y) se conoce como el <strong>eje imaginario</strong>.</p></div><div style=\"margin-top: 16px;\"><h4 style=\"color: #006BE0; font-weight: 600;\">¿Cómo graficar un número complejo en el plano complejo?</h4><ol style=\"list-style-type: decimal; padding-left: 40px; margin-top: 12px;\"><li><strong>Identifica la parte real (<span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span>):</strong> Este es el valor de la parte real del número complejo. Desde el origen (0, 0), desplaza <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> unidades a lo largo del eje real.</li><li style=\"margin-top: 8px;\"><strong>Identifica la parte imaginaria (<span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span>):</strong> Este es el valor de la parte imaginaria del número complejo. Desde el punto (<span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span>, 0) que acabas de graficar, mueve <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span> unidades verticalmente a lo largo del eje imaginario.</li><li style=\"margin-top: 8px;\"><strong>Grafique el punto:</strong> El punto ahora se ubica en (<span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span>, <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span>) en el plano complejo, donde <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> corresponde a la parte real y <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span> corresponde a la parte imaginaria.</li></ol></div><p style=\"margin-top: 16px;\">Por lo tanto, el número complejo <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> + <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span><span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #008217;\">i</span> está representada por el punto <strong>(<span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span>, <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span>)</strong> en el plano complejo.</p></div>"
+        }
+      },
+      "S7_D1_FX_C1": "Observa el plano complejo. Puede que te resulte familiar, pero observa cómo están etiquetados los ejes.",
+      "S7_D2_FX_C1": "El plano complejo es similar al plano xy que ya conoces, pero en este caso el <strong>eje horizontal</strong> representa la <strong>parte real</strong> de un <no-glossary>número complejo</no-glossary> y el <strong>eje vertical</strong> representa su <strong>parte imaginaria</strong>.",
+      "S7_D3_FX_C2": "¿Entonces, en lugar de x e y, tenemos real e imaginario?",
+      "S7_D4_FX_C1": "Sí, un <no-glossary>número complejo</no-glossary> como <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">3</span> + <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">2</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span> tiene dos partes. El <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">3</span> es la parte real, por lo que nos movemos <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">3</span> unidades a lo largo del eje horizontal. El <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">2</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span> es la parte imaginaria, por lo que nos movemos <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">2</span> unidades hacia arriba en el eje vertical.",
+      "S7_D5_FX_C2": "Esto significa que el punto que lo representa se colocará en (<span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">3</span>, <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">2</span>) en el plano complejo.",
+      "S7_D6_FX_C1": "Sí. Ahora, ¿dónde estará el punto representar <no-glossary>número complejo</no-glossary> <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">-2</span> + <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">3</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span> ¿se colocará en el plano complejo?",
+      "S7_D7_FX_C1": "¡Correcto! Ahora intentemos trazar un número en el plano complejo real. Puede ajustar las partes real e imaginaria con los controles deslizantes y luego hacer clic en el botón <strong>Trazar número</strong> para trazar el punto en el plano complejo.",
+      "S7_D8_FX_C1": "Trazar <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">-1</span> + <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">3</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span> en el plano complejo.",
+      "S7_D9_FX_C2": "El punto representar <no-glossary>número complejo</no-glossary> <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">-1</span> + <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">3</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span> se colocará en (<span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">-1</span>, <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">3</span>) en el plano complejo.",
+      "S7_D10_FX_C1": "Perfecto. Recuerda que los fractales como los que exploramos anteriormente se crean trazando y transformando repetidamente puntos representados por números complejos en este plano.",
+      "S7_D11_FX_C2": "¿Entonces los patrones se crean no solo trazando puntos, sino también transformándolos?",
+      "S7_D12_FX_C1": "Exactamente. Las transformaciones ocurren mediante operaciones aritméticas con números complejos, como elevar al cuadrado y sumar.",
+      "S7_D13_FX_C2": "Tengo curiosidad. ¿Cómo cambia realmente la posición en el plano al elevar al cuadrado un <no-glossary>número complejo</no-glossary>?",
+      "S7_D14_FX_C1": "Excelente pregunta. Cuando realizamos operaciones como elevar al cuadrado números complejos, representa más que una simple manipulación algebraica; es una transformación geométrica.",
+      "S7_D15_FX_C1": "Veamos estas operaciones en detalle para prepararnos para comprender cómo se generan los fractales."
+    },
+    "S8": {
+      "S8_X": {
+        "S8_D0_FX_C9": {
+          "title": "Operaciones aritméticas con números complejos",
+          "distance_from_origin": "Distancia desde el origen:",
+          "units": "unidades"
+        },
+        "S8_D1_FX_C1": "Cuando realizamos operaciones aritméticas con números complejos, como la suma y el cuadrado, en realidad estamos realizando transformaciones geométricas en el plano.",
+        "S8_D2_FX_C1": "Tomemos este <no-glossary>número complejo</no-glossary>, <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">1.5</span> + <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">1</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span>. Dónde se colocará el punto que lo representa en el plano complejo?",
+        "S8_D3_FX_C1": "Correcto. Ahora, ¿qué sucede al elevar al cuadrado este <no-glossary>número complejo?</no-glossary>",
+        "S8_D4_FX_C2": "¿Cómo podemos elevar al cuadrado un <no-glossary>número complejo</no-glossary>? ¿Es diferente de elevar al cuadrado números regulares?",
+        "S8_D5_FX_C1": "Usamos las mismas reglas algebraicas, pero debemos recordar que <div role='math' aria-label='i al cuadrado' style='display: inline-block;'><span aria-hidden='true' style='font-weight: bold; font-family: Besley; color: #008217; font-style: italic;'>i<sup>2</sup></span></div> es igual a <span style='font-family: Besley; font-weight: bold;'>-1</span>. Te lo explico paso a paso: <div role='math' aria-label='1.5 más 1 i al cuadrado es igual a 1.5 al cuadrado más 2 por 1.5 i más i al cuadrado' style='display: inline-block;'><span aria-hidden='true'>(<span style='font-weight: bold; font-family: Besley; color: #DB0072;'>1.5</span> + <span style='font-weight: bold; font-family: Besley; color: #0061FC;'>1</span> <span style='font-weight: bold; font-family: Besley; color: #008217; font-style: italic;'>i</span>)<sup style='font-family: Besley; font-weight: bold;'>2</sup> = <span style='font-weight: bold; font-family: Besley; color: #DB0072;'>1.5<sup>2</sup></span> + <span style='font-family: Besley; font-weight: bold;'>2</span> ⋅ <span style='font-weight: bold; font-family: Besley; color: #DB0072;'>1.5</span> <span style='font-weight: bold; font-family: Besley; color: #008217; font-style: italic;'>i</span> + <span style='font-weight: bold; font-family: Besley; color: #008217; font-style: italic;'>i<sup>2</sup></span></span></div>, que es <span style='font-weight: bold; font-family: Besley; color: #DB0072;'>1.25</span> + <span style='font-weight: bold; font-family: Besley; color: #0061FC;'>3</span> <span style='font-weight: bold; font-family: Besley; color: #008217; font-style: italic;'>i</span>.",
+        "S8_D6_FX_C1": "Dónde se colocará en el plano complejo el punto que representa el <no-glossary>número complejo</no-glossary> <span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">1.25</span> + <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">3</span><span style=\"font-weight: bold; font-family: Besley; color: #008217; font-style: italic;\">i</span>?",
+        "S8_D7_FX_C2": "¿Entonces el punto se mueve de (<span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">1.5</span>, <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">1</span>) a (<span style=\"font-weight: bold; font-family: Besley; color: #DB0072;\">1.25</span>, <span style=\"font-weight: bold; font-family: Besley; color: #0061FC;\">3</span>)?",
+        "S8_D8_FX_C1": "Sí, mira lo que sucedió geométricamente: el punto se movió a una nueva ubicación. Rotó y se movió. más lejos del origen.",
+        "S8_D9_FX_C2": "¡Ya lo veo! El nuevo punto está mucho más lejos del origen.",
+        "S8_D10_FX_C1": "Al elevar al cuadrado números complejos, realizamos transformaciones geométricas, rotación y escalado, todo en una sola operación."
+      },
+      "S8_D11_FX_C1": "Aquí es donde entran en juego los fractales. No elevamos al cuadrado solo una vez. Tomamos el resultado y lo elevamos al cuadrado de nuevo, luego sumamos una constante y repetimos el proceso una y otra vez.",
+      "S8_D12_FX_C2": "¿Como un bucle que transforma constantemente el punto?",
+      "S8_D13_FX_C1": "¡Exactamente! El proceso de iterar, repetir el cuadrado y la suma, es como se crean los fractales. Les mostraré cómo funciona."
+    },
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "Simulador del proceso de creación de fractales",
+        "realPart": "Parte real",
+        "imaginaryPart": "Parte imaginaria",
+        "instruction": "Explora cómo se crea el fractal del conjunto de Julia probando diferentes puntos de partida con la misma fórmula: <span class=\"sr-only\" aria-label=\"zn es igual a zn menos 1 al cuadrado más c\"></span><span aria-hidden=\"true\"><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> = <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub><sup>2</sup></span> + <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span></span>.",
+        "buttons": {
+          "plotPoint": "Puntos de partida de la trama",
+          "clearAllPoints": "Borrar todos los puntos",
+          "startIterations": "Iniciar iteraciones"
+        },
+        "visualizations": {
+          "left": {
+            "title": "Visualización de iteraciones",
+            "description": "Compara el comportamiento de <strong>DIFERENTES</strong> puntos de inicio con la misma constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>.",
+            "ariaLabel": "Plano complejo interactivo que demuestra el proceso de iteración de creación de fractales."
+          },
+          "right": {
+            "title": "Patrón fractal completo",
+            "description": "Muestra cómo se comportan <strong>MILES</strong> de puntos de partida diferentes con la misma constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>.",
+            "ariaLabel": "Patrón fractal completo creado por miles de puntos de partida diferentes."
+          }
+        },
+        "info": {
+          "heading": "Acerca del proceso de creación de fractales",
+          "body": "<div><p>Un fractal se crea aplicando repetidamente una fórmula matemática a un punto de partida. La fórmula utilizada para generar fractales del <strong>conjunto de Julia</strong> es:</p><span class=\"sr-only\" aria-label=\"zn es igual a zn menos 1 al cuadrado más c\"></span><p style=\"text-align: center; margin-top: 10px;\" aria-hidden=\"true\"><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> = <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub><sup>2</sup></span> + <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span></p><p style=\"margin-top: 10px;\">Donde, <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> es el punto después de la <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">n</span><sup>ésima</sup> iteración, <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub></span> es el punto de la iteración anterior y <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> es el número complejo constante que da forma a los patrones fractales.</p><p style=\"margin-top: 10px;\">Siga estos pasos para crear un patrón fractal:</p><ol style=\"list-style-type: decimal; padding-left: 20px; margin-top: 10px;\"><li><strong>Comienza con un punto inicial (<span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>0</sub></span>):</strong> Cada punto en el plano complejo se selecciona como punto de partida.</li><li style=\"margin-top: 10px;\"><strong>Aplica la fórmula:</strong> Usa la fórmula para calcular el siguiente punto y repite el proceso para varias iteraciones.</li><li style=\"margin-top: 10px;\"><strong>Comprueba si hay escape:</strong> Si el punto se aleja del origen (normalmente más allá de una distancia de 2), se considera que se ha 'escape'.</li><li style=\"margin-top: 10px;\"><strong>Colorea los puntos:</strong> A los puntos que se escapan rápidamente se les asignan diferentes colores, mientras que a los puntos que permanecen Los delimitados suelen ser de color negro.</li><li style=\"margin-top: 10px;\"><strong>Generar el fractal:</strong> Al aplicar este proceso a cada píxel del plano, creamos el patrón fractal completo, donde el color de cada píxel representa su comportamiento durante la iteración.</li></ol><p style=\"margin-top: 10px;\">Los fractales son únicos porque pequeños cambios en la constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> o el punto de partida pueden generar patrones radicalmente diferentes, creando una variedad infinita de formas. Cuantas más iteraciones se apliquen, más detallado e intrincado se volverá el fractal, revelando patrones complejos y orgánicos.</p></div>"
+        },
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<div><p>Siga estos pasos para simular el proceso iterativo de creación de fractales utilizando esta herramienta:</p><ol style=\"list-style-type: decimal; padding-left: 20px; margin-top: 10px;\"><li><strong>Haga clic en el botón 'Trazar puntos de inicio'</strong> para trazar los puntos de inicio en el plano complejo. Haga clic en el botón 'Borrar todos los puntos' para eliminar todos los puntos trazados del plano complejo.</li><li style=\"margin-top: 10px;\"><strong>Haga clic en el botón 'Iniciar iteraciones'</strong> para comenzar la simulación. Para fines de demostración, se utilizan <strong style=\"font-family: Besley;\">50</strong> iteraciones en esta herramienta.</li><li style=\"margin-top: 10px;\"><strong>Ajuste la constante (<span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>):</strong> Puede modificar los controles deslizantes reales e imaginarios para la constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> y observa cómo evoluciona el patrón.</li></ol></div>"
+        },
+        "animation_started": "Animación del proceso de iteración iniciada.",
+        "animation_stopped": "Animación del proceso de iteración detenida.",
+        "point_plotted": "Se han trazado cinco puntos de inicio en el plano complejo. Haga clic en el botón 'Iniciar iteraciones' para iniciar la animación del proceso de iteración.",
+        "points_removed": "Se han eliminado todos los puntos de inicio trazados en el plano complejo."
+      },
+      "S9_D1_FX_C1": "Comenzaremos con un punto, digamos <div role='math' aria-label='z subíndice 0' style='display: inline-block;'><span aria-hidden='true' style='font-family: Besley; font-weight: bold; font-style: italic; color: #633300;'>z<sub>0</sub></span></div> y aplicaremos la fórmula para obtener los siguientes puntos: <div role='math' aria-label='z subíndice n es igual a z subíndice n menos 1 al cuadrado más c' style='display: inline-block;'><span aria-hidden='true' style='font-family: Besley; font-weight: bold; font-style: italic; color: #633300;'>z<sub>n</sub></span> = <span aria-hidden='true' style='font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;'>z<sub>n-1</sub><sup>2</sup></span> + <span aria-hidden='true' style='font-family: Besley; font-weight: bold; font-style: italic; color: #677600;'>c</span></div>. Donde <div role='math' aria-label='z subíndice n' style='display: inline-block;'><span aria-hidden='true' style='font-family: Besley; font-weight: bold; font-style: italic; color: #633300;'>z<sub>n</sub></span></div> es el punto que queremos derivar, <div role='math' aria-label='z subíndice n menos 1' style='display: inline-block;'><span aria-hidden='true' style='font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;'>z<sub>n-1</sub></span></div> es el punto anterior y <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #677600;'>c</span> es el número <no-glossary>complejo constante</no-glossary>.",
+      "S9_D2_FX_C2": "¿Entonces cada iteración transforma el punto según esa fórmula?",
+      "S9_D3_FX_C1": "¡Correcto! Tomamos el punto, lo elevamos al cuadrado, le sumamos la constante y la usamos para obtener el siguiente punto para la siguiente iteración. Veamos esto en acción.",
+      "S9_D4_FX_C1": "Comience trazando algunos puntos de partida en el plano complejo. Haga clic en el botón <strong>Trazar puntos de partida</strong> para trazar los puntos de partida en el plano complejo.",
+      "S9_D5_FX_C1": "Ahora, haz clic en el botón <strong>Iniciar iteraciones</strong> y observa cómo se mueven los puntos con cada iteración.",
+      "S9_D6_FX_C2": "¡Los puntos se mueven! Siguen una trayectoria curva a través de el plano.",
+      "S9_D7_FX_C1": "Cada salto representa una iteración de la regla. Estás viendo cómo las operaciones aritméticas con números complejos conducen a transformaciones geométricas en tiempo real.",
+      "S9_D8_FX_C2": "La distancia desde el origen cambia constantemente. A veces aumenta, a veces disminuye.",
+      "S9_D9_FX_C1": "¡Exactamente! La clave de los fractales es comprender qué le sucede a esta distancia a lo largo de muchas iteraciones. ¿Permanece acotada o crece sin límite?",
+      "S9_D10_FX_C1": "¿Ves ese círculo rojo discontinuo? ¿Cuál es su radio?",
+      "S9_D11_FX_C1": "¡Correcto! Ese es nuestro umbral de escape. Una vez que la distancia excede <span style=\"font-family: Besley; font-weight: bold;\">2</span>, sabemos que el punto escapará al infinito.",
+      "S9_D12_FX_C2": "¿Entonces que el punto 'escape' significa que se alejará infinitamente del origen?",
+      "S9_D13_FX_C1": "¡Correcto! Pero no todos los puntos se comportan así. Algunos quedan atrapados dentro de una región acotada, creando patrones complejos.",
+      "S9_D14_FX_C2": "¿Pero cómo encajan los colores en los fractales? ¿Por qué vemos diferentes colores en el patrón?",
+      "S9_D15_FX_C1": "¡Buena pregunta! Los colores del fractal representan la rapidez con la que cada punto escapa al infinito. A los puntos que escapan rápidamente se les asigna un color, mientras que a los que tardan más se les asigna otro.",
+      "S9_D16_FX_C1": "Los puntos que nunca escapan, aquellos que permanecen acotados, suelen ser de color negro. Este código de colores nos ayuda a visualizar los diferentes comportamientos de los puntos.",
+      "S9_D17_FX_C2": "¡Es realmente interesante! Entonces, cuantas más iteraciones usemos, más detallado se volverá el patrón.",
+      "S9_D18_FX_C1": "Exactamente. Para fines de demostración, hemos usado <span style=\"font-family: Besley; font-weight: bold;\">50</span> iteraciones aquí. Con más iteraciones, se observará un patrón fractal aún más detallado e intrincado. Cuantas más iteraciones, más finos se vuelven los detalles.",
+      "S9_D19_FX_C2": "¿Y cómo se seleccionan los puntos de partida para formar el fractal completo?",
+      "S9_D20_FX_C1": "El fractal completo se forma tomando como punto de partida los puntos centrales de todos los píxeles del plano complejo. Cada punto sigue el proceso iterativo y escapa o permanece acotado, contribuyendo al patrón general. Al examinar el comportamiento de miles de puntos de partida, creamos el fractal que vemos.",
+      "S9_D21_FX_C1": "Ahora, probemos algo interesante. Cambie el <no-glossary>número complejo</no-glossary> constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> cambiando sus partes real e imaginaria con los controles deslizantes. Observa cómo cambia el patrón fractal al modificar <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>.",
+      "S9_D22_FX_C2": "¡El patrón está cambiando! Ahora se ve completamente diferente. Un momento... Me acabo de dar cuenta de que esos parámetros que ajusté antes eran las partes real e imaginaria de la constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>?",
+      "S9_D23_FX_C1": "¡Exactamente! Las partes real e imaginaria de la constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> determina cómo evoluciona el patrón fractal. Al cambiar <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>, toda la estructura del fractal cambia, lo que nos muestra la sensibilidad de estos patrones a pequeños cambios en los parámetros."
+    },
+    "S10": {
+      "S10_D0_FX_C9": {
+        "title": "Paisaje realista",
+        "alt": "Un paisaje altamente detallado, generado por computadora, de un planeta alienígena, con escarpadas cordilleras con picos nevados, exuberantes valles verdes y ríos serpenteantes que conectan múltiples lagos turquesas."
+      },
+      "S10_D1_FX_C1": "Para crear el terreno de nuestro nivel de planeta alienígena, usamos fractales para generar paisajes realistas y de aspecto natural.",
+      "S10_D2_FX_C2": "¡Se ve increíble! ¿Cómo se convierten esos patrones fractales en algo como esto?",
+      "S10_D3_FX_C1": "Cada punto del terreno corresponde a un <no-glossary>número complejo</no-glossary>. Aplicamos la iteración fractal y el resultado determina la altura. Los valles corresponden a los puntos que escapan rápidamente y los picos a los que permanecen acotados.",
+      "S10_D4_FX_C2": "¡Así que los fractales ayudan a crear paisajes de aspecto natural sin tener que diseñarlo todo manualmente!",
+      "S10_D5_FX_C1": "Sí, ahora experimentemos con diferentes patrones fractales y veamos cómo el ajuste de la constante cambia los resultados visuales de nuestro terreno."
+    },
+    "S11": {
+      "S11_D0_FX_C9": {
+        "title": "Generador de Terreno",
+        "instruction": "<p>Crea paisajes de planetas alienígenas usando la matemática fractal. Cada píxel del plano usa <span aria-label=\"zn es igual a zn menos 1 al cuadrado más c\"><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> = <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub><sup>2</sup></span> + <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span></span> ¡La fórmula que acabas de aprender!</p>",
+        "realPart": "Parte real",
+        "imaginaryPart": "Parte imaginaria",
+        "colorTheme": "Tema de color: Estilo visual",
+        "colorThemes": {
+          "earthLike": {
+            "name": "Similar a la Tierra",
+            "description": "Colores realistas"
+          },
+          "desertWorld": {
+            "name": "Mundo desértico",
+            "description": "Paisaje arenoso"
+          },
+          "iceWorld": {
+            "name": "Mundo de hielo",
+            "description": "Paisaje glaciar"
+          }
+        },
+        "landscapes": "Ajustes preestablecidos de paisaje",
+        "presets": {
+          "alpineLakes": "Lagos alpinos",
+          "islands": "Islas volcánicas",
+          "mountains": "Cordilleras",
+          "coastal": "Fiordos costeros",
+          "desert": "Cañones Desérticos"
+        },
+        "themeSelector_ariaLabel": "Tema de color:",
+        "themeSelected": "Tema seleccionado: {theme}.",
+        "presets_ariaLabel": "Preajuste:",
+        "presetSelected": "Preajuste seleccionado: {preset}. El paisaje del planeta extraterrestre cambió.",
+        "landscape_canvas": {
+          "ariaLabel": "Paisaje de Alien Planet"
+        },
+        "landscapeChanged": "El paisaje del planeta extraterrestre cambió.",
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li><strong>Ajusta los controles deslizantes de la parte real y la parte compleja</strong> para observar cómo cambia la forma del terreno.</li><li><strong>Usa ajustes preestablecidos</strong> para generar un terreno más detallado y realista.</li><li><strong>Selecciona diferentes temas de color</strong> según tus preferencias.</li></ul>"
+        },
+        "info": {
+          "heading": "Acerca de esta herramienta",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Esta herramienta interactiva demuestra cómo los fractales del <strong>conjunto Julia</strong> se pueden transformar en terreno 3D realista utilizando la misma fórmula matemática: <div role='math' aria-label='z subíndice n es igual a z subíndice n menos 1 al cuadrado más c' style='display: inline-block;'><span aria-hidden='true'><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> = <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub><sup>2</sup></span> + <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span></span></div></li><li>Ajustando la parte real y la parte imaginaria de la constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> en la ecuación de conjuntos de Julia, los estudiantes pueden generar características paisajísticas completamente diferentes, desde lagos alpinos y cordilleras hasta cañones desérticos y fiordos costeros.</li><li>Una vez generado el terreno fractal, la herramienta lo renderiza en <strong>3D</strong>, con colores realistas para diferentes entornos: mundos similares a la Tierra, desérticos o helados.</li></ul>"
+        }
+      },
+      "S11_D1_FX_C1": "Cambiar las partes real e imaginaria de la constante <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span>. Estos valores juntos dan forma al paisaje: picos, valles y la complejidad general del terreno.",
+      "S11_D2_FX_C2": "¡Esto es una locura! ¡Con solo ajustar los controles deslizantes, puedo ver cómo se forman paisajes completamente diferentes en tiempo real!",
+      "S11_D3_FX_C1": "¿Pero por qué? ¿Qué crees que determina si una parte del paisaje se convierte en un pico o en un valle?",
+      "S11_D4_FX_C1": "Exactamente. La altura del terreno proviene de la rapidez con la que cada punto escapa bajo las iteraciones fractales que exploramos anteriormente.",
+      "S11_D5_FX_C1": "Ahora selecciona un ajuste preestablecido del paisaje para darle una estructura más definida. Intenta seleccionar Cordilleras; creo que encajará con el espectacular terreno que estamos construyendo.",
+      "S11_D6_FX_C2": "¡Vaya, esas crestas se ven impresionantes! ¿Podemos... ¿Cambiar también el tema de color? Sigue pareciendo demasiado terrícola.",
+      "S11_D7_FX_C1": "¡Claro! Elige un tema de color diferente. Prueba a seleccionar Mundo Desértico para darle ese aire árido y alienígena.",
+      "S11_D8_FX_C2": "Ahora se ve perfecto: seco, accidentado y totalmente de otro mundo. Pero sigo pensando que la misma fórmula fractal que usamos para el conjunto Julia también influye en esto, ¿verdad?",
+      "S11_D9_FX_C1": "Exactamente. La fórmula <div role='math' aria-label='z subíndice n es igual a z subíndice n menos 1 al cuadrado más c' style='display: inline-block;'><span aria-hidden='true'><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> = <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub><sup>2</sup></span> + <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span></span></div> sigue funcionando aquí, solo que visualizado de una manera nueva.",
+      "S11_D10_FX_C1": "Ahora piensa en esto: si eliges un <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> valor que hace que la mayoría de los puntos escapen rápidamente, ¿qué tipo de terreno esperarías?",
+      "S11_D11_FX_C1": "Correcto. Y si los puntos permanecen acotados durante muchas iteraciones, veremos estructuras más elevadas, como crestas y acantilados.",
+      "S11_D12_FX_C2": "Eso tiene sentido. Es como si cada parte del terreno fuera un registro de lo que le sucedió a un punto durante la iteración.",
+      "S11_D13_FX_C1": "Exactamente. Esta es la magia de los fractales: la misma fórmula simple da lugar a una complejidad infinita, ya sea en el arte abstracto o en la generación de terreno para un mundo extraterrestre.",
+      "S11_D14_FX_C1": "¡Genial! Usaremos este gráfico de terreno en el juego Alien Planet que estamos desarrollando, y ahora ya conoces la magia fractal que hay detrás",
+      "question_1": {
+        "option_1": "La velocidad con la que el punto escapa durante la iteración",
+        "option_2": "El tema de color seleccionado",
+        "option_3": "La iluminación aplicada al terreno"
+      },
+      "question_2": {
+        "option_1": "Principalmente picos y crestas altas",
+        "option_2": "Principalmente valles planos",
+        "option_3": "Ruido aleatorio"
+      }
+    },
+    "S12": {
+      "S12_D1_FX_C1": "¡Excelente trabajo, Henry! Has explorado algunas ideas matemáticas poderosas que los desarrolladores de juegos usan para crear entornos impresionantes. Reflexionemos un momento sobre lo que hemos aprendido.",
+      "S12_D2_FX_C2": "¡Claro! Empezamos con el plano complejo, representando números complejos con partes reales e imaginarias. Fue una nueva forma de ver los números.",
+      "S12_D3_FX_C1": "Exactamente. Y a partir de ahí, exploramos los fractales: cómo fórmulas iterativas simples, como <div role='math' aria-label='z subíndice n es igual a z subíndice n menos 1 al cuadrado más c' style='display: inline-block;'><span aria-hidden='true'><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">z<sub>n</sub></span> = <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #00749D;\">z<sub>n-1</sub><sup>2</sup></span> + <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span></span></div>, transforma esos puntos en cada iteración.",
+      "S12_D4_FX_C2": "Me encantó ver cómo algunos puntos se mantenían delimitados y otros escapaban, y cómo el color mostraba la rapidez con la que escapaban.",
+      "S12_D5_FX_C1": "Correcto. El comportamiento de escape y la velocidad de iteración confieren a los fractales su increíble profundidad visual. Y usamos el mismo proceso para dar forma a un terreno dinámico, con picos y valles formados por el comportamiento de los puntos durante la iteración.",
+      "S12_D6_FX_C2": "Es asombroso cómo las matemáticas abstractas se convierten en algo tan visual y creativo. Puedo ver cómo los fractales pueden ayudar a crear mundos realistas y vastos en el desarrollo de videojuegos.",
+      "S12_D7_FX_C1": "¡Así es! Al comprender los fractales y cómo incluso pequeños cambios en <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">c</span> puede remodelar el paisaje, hemos desbloqueado una herramienta que nos permite diseñar entornos realistas. Es increíble cómo las matemáticas pueden moldear mundos de juego enteros."
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "¡Has explorado los fractales en el desarrollo de videojuegos!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>¡Has completado con éxito la STEAMQuest Paisajes Fractales!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Usaste fractales y números complejos para generar un terreno impresionante y realista para un planeta alienígena.</li><li>Aprendiste a ajustar la constante Crea paisajes dinámicos con ecuaciones fractales, desde montañas hasta lagos.</li><li>Exploraste cómo pequeños cambios en los parámetros pueden alterar drásticamente el terreno, demostrando el poder de las matemáticas en el diseño de juegos.</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400;'>¡Sigue experimentando con fractales para crear mundos inmersivos y crear hermosos entornos de juego!</p>",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_25849_2024\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"80\">\n<path d=\"M70 0.5H10C4.75329 0.5 0.5 4.75329 0.5 10V70C0.5 75.2467 4.75329 79.5 10 79.5H70C75.2467 79.5 79.5 75.2467 79.5 70V10C79.5 4.75329 75.2467 0.5 70 0.5Z\" fill=\"#5454D8\" stroke=\"#005F20\"/>\n</mask>\n<g mask=\"url(#mask0_25849_2024)\">\n<path d=\"M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z\" fill=\"black\"/>\n<path d=\"M42.1793 0.778207L42.1813 0.778874L69.9853 10.058L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73L7.5026 30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803L38.8202 0.778877L38.8217 0.778356C39.922 0.407158 41.0834 0.40732 42.1793 0.778207Z\" fill=\"#FFCC00\"/>\n<path d=\"M10.9494 10.0803C8.8742 10.7738 7.5026 12.6514 7.5026 14.7467V30.7246L7.50258 30.73C7.29051 50.5507 20.1568 71.7556 40.5048 75.4923C49.7941 73.9029 57.5464 68.3912 63.6644 60.586C70.0068 52.2994 73.5 41.6958 73.5 30.7254V14.7474C73.5 12.656 72.1286 10.7779 70.0524 10.0808L69.9853 10.058L42.1813 0.778874L42.1793 0.778207C41.0834 0.40732 39.922 0.407158 38.8217 0.778356L38.8202 0.778877L10.9494 10.0803ZM10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803Z\" stroke=\"black\"/>\n</g>\n<path d=\"M38.7803 20.3408C39.3576 19.3409 40.8005 19.3409 41.3779 20.3408L59.1846 51.1807C59.7619 52.1805 59.0402 53.4304 57.8857 53.4307H22.2734C21.1187 53.4307 20.3963 52.1807 20.9736 51.1807L38.7803 20.3408Z\" fill=\"black\" stroke=\"black\"/>\n<path d=\"M31.9824 36.9775L48.1748 36.9775L40.0791 51L31.9824 36.9775Z\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M46.6831 45.3857L53.1646 45.3857L49.9243 51.001L46.6831 45.3857Z\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M36.8389 28.4307L43.3203 28.4307L40.0801 34.0459L36.8389 28.4307Z\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M26.9937 45.3857L33.4751 45.3857L30.2349 51.001L26.9937 45.3857Z\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M38.7803 18.5703C39.3576 17.5704 40.8005 17.5704 41.3779 18.5703L59.1846 49.4102C59.7619 50.41 59.0402 51.6599 57.8857 51.6602H22.2734C21.1187 51.6602 20.3963 50.4102 20.9736 49.4102L38.7803 18.5703Z\" fill=\"white\" stroke=\"black\"/>\n<path d=\"M31.9824 35.207L48.1748 35.207L40.0791 49.2295L31.9824 35.207Z\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M46.6831 43.6152L53.1646 43.6152L49.9243 49.2305L46.6831 43.6152Z\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M36.8389 26.6611L43.3203 26.6611L40.0801 32.2764L36.8389 26.6611Z\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/>\n<path d=\"M26.9937 43.6152L33.4751 43.6152L30.2349 49.2305L26.9937 43.6152Z\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/>\n</svg>",
+      "leftsvgarialabel": "símbolo de circuito con insignia triangular",
+      "rightsvg": "<svg width=\"140\" height=\"130\" viewBox=\"0 0 140 130\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-top: -6px;\">\n<g clip-path=\"url(#clip0_25849_2016)\">\n<g opacity=\"0.2\">\n<path d=\"M70.1675 33.8694C70.6515 33.2708 71.602 33.4206 71.8785 34.1391L111.536 137.212C111.812 137.93 111.207 138.679 110.447 138.559L1.35285 121.366C0.592433 121.246 0.246911 120.348 0.730913 119.749L70.1675 33.8694Z\" fill=\"white\"/>\n<path d=\"M36.85 77.9429L90.0267 86.3236L56.1808 128.186L36.85 77.9429Z\" fill=\"white\" stroke=\"#006BE0\" stroke-width=\"2\"/>\n<path d=\"M75.3582 108.826L100.577 112.8L84.526 132.654L75.3582 108.826Z\" fill=\"white\" stroke=\"#006BE0\" stroke-width=\"2\"/>\n<path d=\"M54.7068 55.5395L79.9258 59.5141L63.8747 79.3676L54.7068 55.5395Z\" fill=\"white\" stroke=\"#006BE0\" stroke-width=\"2\"/>\n<path d=\"M18.6644 99.8901L43.8834 103.865L27.8322 123.718L18.6644 99.8901Z\" fill=\"white\" stroke=\"#006BE0\" stroke-width=\"2\"/>\n</g>\n</g>\n<defs>\n<clipPath id=\"clip0_25849_2016\">\n<rect width=\"112\" height=\"141\" fill=\"white\" transform=\"translate(0.00195312)\"/>\n</clipPath>\n</defs>\n</svg>"
+    },
+    "glossary": {
+      "iteration": {
+        "word": "iteración",
+        "definition": "<strong style=\"color: #0055B2;\">Iteración</strong> es el proceso de repetir un conjunto de pasos o cálculos varias veces para generar un nuevo resultado en cada etapa."
+      },
+      "fractals": {
+        "word": "fractales",
+        "definition": "<strong style=\"color: #0055B2;\">Los fractales</strong> son patrones geométricos complejos que se repiten a diferentes escalas, creando formas intrincadas que parecen iguales sin importar cuánto se amplíe la imagen."
+      },
+      "complex_plane": {
+        "word": "plano complejo",
+        "definition": "Un <strong style=\"color: #0055B2;\">plano complejo</strong> es un plano bidimensional utilizado para visualizar números complejos, donde el eje horizontal representa números reales y el eje vertical representa números imaginarios."
+      },
+      "escape_threshold": {
+        "word": "umbral de escape",
+        "definition": "<strong style=\"color: #0055B2;\">El umbral de escape</strong> es el punto donde un valor se vuelve demasiado grande para permanecer dentro de la forma fractal. Cuando un punto excede este límite, se considera que escapa al infinito."
+      },
+      "julia_set": {
+        "word": "Conjunto Julia",
+        "definition": "<strong style=\"color: #0055B2;\">El conjunto de Julia</strong> es un concepto matemático descubierto por el matemático francés Gastón Julia a principios del siglo 20. Describe una familia de fractales que se generan al iterar una función compleja, revelando patrones intrincados y autorrepetitivos."
+      },
+      "origin": {
+        "word": "origen",
+        "definition": "El <strong style=\"color: #0055B2;\">origen</strong> es el punto donde se intersecan los ejes del plano complejo."
+      },
+      "complex_numbers": {
+        "word": "números complejos",
+        "definition": "<strong style=\"color: #0055B2;\">Los números complejos</strong> son números que se pueden escribir en la forma <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> + <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span><span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #008217;\">i</span>, donde <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #DB0072;\">a</span> y <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;\">b</span> son números reales y <span style=\"font-weight: bold; font-family: Besley; font-style: italic; color: #008217;\">i</span> es la raíz cuadrada de <strong style=\"font-family: Besley;\">-1</strong>."
+      },
+      "self_similarity": {
+        "word": "autosimilitud",
+        "definition": "<strong style=\"color: #0055B2;\">La autosimilitud</strong> es la propiedad de los fractales donde el patrón se repite a diferentes escalas, lo que significa que partes más pequeñas del fractal se asemejan a la forma completa."
+      },
+      "geometric_transformations": {
+        "word": "transformaciones geométricas",
+        "definition": "<strong style=\"color: #0055B2;\">Las transformaciones geométricas</strong> son operaciones que cambian la posición, el tamaño o la orientación de puntos o formas, como rotar, escalar o trasladar, que se utilizan a menudo en fractales para crear patrones intrincados."
+      }
+    },
+    "common": {
+      "bg1_description": "Escena urbana moderna con edificio de cristal y árboles otoñales",
+      "bg2_description": "Espacio de trabajo diáfano con estaciones de trabajo y plantas de interior",
+      "bg3_description": "Espacio de trabajo creativo con diagramas técnicos e iluminación natural",
+      "bg4_description": "Sala de reuniones colaborativa iluminada al atardecer con pantalla de paisaje montañoso",
+      "bg5_description": "Espacio de trabajo interactivo con pantallas de visualización de datos montañosos",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "complex_number": "Número complejo",
+      "complex_plane": "Plano complejo",
+      "complex_plane_description": "Plano complejo con ejes reales e imaginarios. Usa las flechas para navegar y enfocar los puntos trazados.",
+      "real_axis": "Real",
+      "imaginary_axis": "Imaginario",
+      "constant": "Constante",
+      "startingPoint": "Punto de partida",
+      "char1": "Sophia",
+      "char2": "Henry",
+      "char1_description": "Una mujer africana con un cárdigan verde oliva sobre una camiseta negra, sostiene una tableta y viste un atuendo informal elegante.",
+      "char2_description": "Un hombre caucásico con una sudadera negra con cremallera sobre una camisa roja, sostiene una tableta y viste un atuendo profesional informal.",
+      "rangeLabel": "a"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergent"
+  },
+  "game": {
+    "fractals": "STEAM Quest - Fractales"
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción con Dr. Owens y Madeline",
+    "scene_4": "Biblioteca de Ilusiones Ópticas",
+    "scene_5": "Análisis de Ilusiones",
+    "scene_6": "Explorador de Percepción de Ángulos",
+    "scene_7": "Introducción a las Propiedades de los Triángulos",
+    "scene_8": "Explorador de congruencia de triángulos",
+    "scene_9": "Introducción al Triángulo de Kanizsa",
+    "scene_10": "Análisis del Triángulo de Kanizsa",
+    "scene_10x": "Entendiendo el Triángulo de Kanizsa",
+    "scene_11": "Ilusión del cuadrado de Helmholtz",
+    "scene_12": "Conclusión",
+    "scene_13": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás",
+      "show_result": "Mostrar resultado"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Ilusiones Ópticas: La Geometría Detrás de lo que Vemos</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Comprendiendo la Interpretación Visual de la Mente</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Únete al Arquitecto Matemático Dr. Owens y al Artista Hayes mientras te guían a través de fascinantes ilusiones ópticas. Descubrirás cómo la congruencia de triángulos ayuda a explicar lo que nuestros ojos ven versus lo que las matemáticas demuestran. A través de estaciones interactivas, aprenderás a usar herramientas geométricas para descubrir la verdad detrás de los engaños visuales.</p>",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>¡Bienvenido al Mundo de las Ilusiones Geométricas!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>Soy el Dr. Elijah Owens, tu guía en un mundo donde las matemáticas y el arte chocan. Junto con la talentosa artista Madeline Hayes, exploraremos ilusiones ópticas que desafían lo que nuestros ojos nos dicen. A través de estaciones interactivas, aprenderás cómo la congruencia de triángulos revela la verdad detrás de estos engaños visuales. ¿Listo para ver el mundo con una nueva perspectiva? ¡Vamos a comenzar!</p>"
+      }
+    },
+    "S3": {
+      "S3_D2_F6_C2": "¡Hola a todos! Como artista, siempre me ha fascinado cómo nuestros ojos pueden ser engañados. Lo que parece 'obvio' no siempre es verdad, ¡y ahí es donde ocurre la magia!",
+      "S3_D3_F7_C1": "En esta exhibición, exploraremos la brecha entre la percepción y la realidad.",
+      "S3_D4_F8_C2": "Descubrirás cómo tu cerebro a veces <strong>'ve'</strong> las cosas de manera diferente a como realmente son.",
+      "S3_D5_F9_C1": "Y lo más importante, aprenderás cómo los principios geométricos pueden ayudarnos a descubrir la verdad detrás de lo que vemos.",
+      "S3_D6_F10_C2": "¿Listo para comenzar nuestro viaje por el mundo de los engaños visuales?",
+      "S3_D7_F11_C1": "¡Comencemos explorando algunas fascinantes ilusiones ópticas!"
+    },
+    "S4": {
+      "S4_D0_F21_C9": {
+        "title": "Explorador de ilusiones ópticas",
+        "about": {
+          "heading": "Explorador de Ilusiones Ópticas",
+          "body": "<div><p>Las ilusiones ópticas demuestran cómo nuestra percepción visual puede ser manipulada, mostrando que lo que vemos no siempre coincide con lo que está físicamente presente.</p><p style='margin: 10px 0px'>Dos ilusiones fascinantes que puedes explorar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><b>Muro de Cafetería</b>: Las líneas rectas paralelas parecen inclinadas u onduladas debido a la disposición de bloques alternados.</li><li><b>Cuadrícula de Hermann</b>: Aparecen puntos oscuros en las intersecciones de una cuadrícula, pero desaparecen al mirarlos directamente.</li></ul><p style='margin: 10px 0px'>Estos Las ilusiones revelan aspectos fundamentales de cómo nuestro sistema visual procesa la información y completa lagunas o hace suposiciones basadas en el contexto.</p></div>"
+        },
+        "help": {
+          "heading": "Uso del Explorador de Ilusiones Ópticas",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controles:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Navega entre ilusiones usando puntos o los botones Anterior/Siguiente</li><li>Café Wall: Usa la superposición de cuadrícula para ver líneas reales; Anima para realzar el efecto</li><li>Hermann Grid: El modo interactivo examina puntos; Mostrar explicación revela la mecánica</li></ul><p style='font-weight: bold; margin: 10px 0px'>Vista:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Café Wall: Muestra cómo el contraste afecta la percepción de líneas paralelas</li><li>Hermann Grid: Demuestra visualmente Artefactos en las intersecciones del procesamiento retiniano</li></ul></div>"
+        },
+        "ariaLabels": {
+          "cafe_wall_illusion": "Un lienzo con una estructura de cuadrícula en blanco y negro para explorar un efecto visual donde las líneas horizontales parecen estar inclinadas debido a la disposición de los mosaicos blancos y negros.",
+          "hermann_grid_illusion": "Un lienzo con cuadros negros y espacio blanco entre ellos, cuyo propósito es mostrar una ilusión óptica donde parecen aparecer manchas oscuras en las intersecciones de líneas blancas sobre una cuadrícula negra."
+        },
+        "cafe_wall_illusion": "La ilusión de la pared del café",
+        "cafe_wall_illusion_subtitle": "¡Estas líneas horizontales son perfectamente paralelas!",
+        "hermann_grid_illusions": "La ilusión de la cuadrícula de Hermann",
+        "hermann_grid_illusions_subtitle": "¿Ves manchas oscuras en las intersecciones?",
+        "show_explanation": "Mostrar manchas oscuras",
+        "hide_explanation": "Ocultar manchas oscuras",
+        "show_grid_lines": "Mostrar líneas de cuadrícula",
+        "hide_grid_lines": "Ocultar líneas de cuadrícula",
+        "reference": "Referencia",
+        "mortar": "Mortero"
+      },
+      "S4_D1_F12_C1": "Antes de sumergirnos en la geometría, vamos a experimentar algunas ilusiones ópticas famosas que desafían nuestra percepción.",
+      "S4_D2_F13_C2": "Aquí hay dos ilusiones clásicas que muestran cómo nuestro cerebro puede ser engañado.",
+      "S4_D3_F14_C1": "Primero, la Ilusión de la Pared de Café. Estas líneas horizontales son perfectamente rectas, pero los cuadrados alternos blancos y negros hacen que parezcan onduladas.",
+      "S4_D4_F15_C2": "¡Usa la opción de mostrar líneas de cuadrícula para verificar que son rectas!",
+      "S4_D5_F16_C1": "Y ahora, la Cuadrícula de Hermann. ¿Notas los puntos oscuros fantasma que aparecen en las intersecciones? ¡Desaparecen cuando los miras directamente!",
+      "S4_D6_F17_C2": "Lo que estás viendo es tu sistema de procesamiento visual cerebral en acción.",
+      "S4_D7_F18_C1": "Todas estas ilusiones plantean una pregunta importante: ¿Podemos confiar en lo que vemos?",
+      "S4_D8_F19_C2": "Aquí es donde entra la matemática - nos da herramientas para descubrir lo que realmente está ahí."
+    },
+    "S5": {
+      "S5_D1_F20_C1": "¿Pero por dónde deberíamos empezar? Analicemos qué hace que estas ilusiones funcionen.",
+      "S5_D2_F21_C2": "Si miras de cerca cada ilusión que acabamos de ver, ambas engañan nuestra percepción de líneas y ángulos. La <strong>'Pared de Café'</strong> distorsiona las líneas horizontales y la <strong>'Cuadrícula de Hermann'</strong> crea artefactos visuales en las intersecciones.",
+      "S5_D3_F22_C1": "¡Esa es una excelente observación! Los ángulos son la base de la geometría, y la mayoría de las ilusiones ópticas manipulan cómo los percibimos.",
+      "S5_D4_F23_C2": "De hecho, muchas ilusiones ópticas explotan específicamente cómo nuestro cerebro procesa los ángulos de manera diferente a cómo existen matemáticamente.",
+      "S5_D5_F24_C1": "Ahora que hemos visto estas ilusiones, veamos más de cerca este aspecto fundamental: cómo nuestra percepción de los ángulos puede ser engañosa y cómo podemos medir esta brecha perceptual."
+    },
+    "S6": {
+      "S6_D1_F25_C1": "¡Veamos cuánto puede diferir nuestra percepción de la realidad—poniéndola a prueba!",
+      "S6_D2_F26_C2": "En este laboratorio interactivo, se te mostrará un <no-glossary>ángulo de referencia</no-glossary> en el lado izquierdo de la pantalla.",
+      "S6_D3_F27_C1": "Tu desafío es hacer coincidir ese ángulo rojo (derecho) con el ángulo azul (izquierdo) arrastrando el control deslizante hasta la posición que creas que se alinea mejor.",
+      "S6_D4_F28_C2": "Pero aquí está el giro—no harás esto solo una vez. Se te mostrarán <strong>cuatro ángulos de referencia diferentes</strong>, uno tras otro.",
+      "S6_D5_F29_C1": "Una vez que hayas terminado, mediremos qué tan cerca están los ángulos recreados del original.",
+      "S6_D6_F30_C2": "¿Listo para poner a prueba tu juicio visual? Sigue las instrucciones y relaciona el ángulo rojo (derecho) con el ángulo azul (izquierdo).",
+      "S6_D7_F29_C1": "Esta actividad muestra que nuestra percepción de los ángulos no siempre es precisa. Incluso las propiedades geométricas básicas pueden ser mal percibidas por nuestro sistema visual.",
+      "S6_D8_F30_C2": "En arte y arquitectura, necesitamos tener en cuenta estos sesgos perceptuales. Por eso la verificación matemática es esencial.",
+      "S6_D9_F31_C1": "La brecha entre lo que vemos y lo que es matemáticamente verdadero crea tanto ilusiones fascinantes como desafíos prácticos. Por ejemplo, los ángulos agudos a menudo parecen más pequeños de lo que realmente son, y los ángulos obtusos parecen más grandes.",
+      "S6_D10_F32_C2": "Entonces, ¿cómo podemos verificar lo que realmente está ahí cuando nuestros ojos pueden ser engañados?",
+      "S6_D0_F24_C9": {
+        "title": "Percepción del ángulo",
+        "about": {
+          "heading": "",
+          "body": "<div><p>La estimación de ángulos visuales es clave para el razonamiento geométrico y las habilidades espaciales.</p><p style='margin: 10px 0px'>Este laboratorio evalúa tu capacidad para igualar ángulos:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><span style='color: #006BE0'>Azul</span> (izquierda) ángulo: Ángulo de referencia a igualar</li><li><span style='color: #EB0000'>Rojo</span> (derecha) ángulo: Tu ángulo ajustable</li><li>Los resultados muestran tu precisión y patrones de error</li></ul><p style='margin: 10px 0px'>Los humanos típicamente muestran patrones de error predecibles en la percepción de ángulos, a menudo sobreestimando ángulos agudos y subestimando ángulos obtusos.</p></div>"
+        },
+        "help": {
+          "heading": "Usando el Laboratorio de Percepción de Ángulos",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controles:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Ajusta el control deslizante para que el ángulo rojo coincida con el ángulo de referencia azul</li><li>Haz clic en 'Siguiente' para enviar y continuar</li><li>Consulta tu gráfico de rendimiento después de completar todas las pruebas</li></ul><p style='font-weight: bold; margin: 10px 0px'>Resultados:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li><span style='color: #EB0000'>Barras rojas</span> <span style='display: inline-block; width: 20px; height: 15px; borde: 1px sólido #757575;'><span style='display: block; height: 3px; background-color: #EB0000; width: 100%; margin: 2px 0;'></span><span style='display: block; height: 3px; background-color: #EB0000; width: 100%; margin: 2px 0;'></span></span>: Sobreestimación (el ángulo era demasiado grande)</li><li><span style='color: #006BE0'>Azul</span> Barras <span style='display: inline-block; borde: 1px sólido #757575; ancho: 20px; alto: 15px;'><span style='display: block; ancho: 6px; alto: 6px; background-color: #006BE0; border-radius: 50%; justify-self: center; margin-top: 3px;'></span></span>: Subestimación (el ángulo era demasiado pequeño)</li><li>Línea cero: Precisión perfecta</li></ul></div>"
+        },
+        "ariaLabels": {
+          "canvas": "Lienzo con dos configuraciones de ángulos diferentes, rojo y azul. El usuario debe ajustar uno de los ángulos para que sea similar al otro",
+          "adjust_angle": "Ajustar ángulo",
+          "trial": "Prueba",
+          "user_angle": "Ángulo del usuario",
+          "red_lined_legend": "Leyenda con líneas rojas",
+          "blue_dotted_legend": "Leyenda con puntos azules"
+        },
+        "angle_perception_errors": "Errores de percepción del ángulo",
+        "bar_chart": "Gráfico de barras que muestra errores de percepción del ángulo",
+        "reference_angle_degrees": "Ángulo de referencia (grados)",
+        "reference_angle": "Ángulo de referencia",
+        "error": "Error (grados)",
+        "over_estimated": "Sobreestimado",
+        "under_estimated": "Subestimado",
+        "your_estimate": "Tu estimación",
+        "ref_angle_label": "Ángulo ref.",
+        "instructions": {
+          "next": "Haga clic en el botón \"Siguiente\" para pasar al siguiente ángulo.",
+          "show_results": "Haga clic en \"Mostrar resultados\" para medir la similitud de los ángulos recreados con el original."
+        }
+      }
+    },
+    "S7": {
+      "S7_D1_F33_C1": "Necesitamos una forma geométrica que sea estable y confiable - algo que no cambie inesperadamente.",
+      "S7_D2_F34_C2": "¡Ahí es donde entran los triángulos! Son el polígono más simple que mantiene su forma.",
+      "S7_D3_F35_C1": "¡Exactamente! A diferencia de los triángulos, que son rígidos una vez que sus lados están fijos, los cuadriláteros, como los cuadrados, pueden distorsionarse: sus ángulos pueden cambiar incluso si las longitudes de los lados permanecen iguales. <div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/gif/rigidity_es.gif' alt='Distorted shape' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;' /></div>",
+      "S7_D4_F36_C2": "Por eso los triángulos son fundamentales en arquitectura e ingeniería - proporcionan estabilidad estructural.",
+      "S7_D5_F37_C1": "En el mundo de las ilusiones ópticas, esta estabilidad nos da una herramienta perfecta para verificar lo que realmente está ahí.",
+      "S7_D6_F38_C2": "Entonces, ¿cómo sabemos cuando dos triángulos son idénticos o congruentes?",
+      "S7_D14_F46_C1": "Hay cuatro criterios clave que garantizan la congruencia entre dos triángulos: <br><span style='margin-left: 20px;'>• <no-glossary><b>LLL</b></no-glossary>: Cuando los tres lados correspondientes de ambos triángulos tienen la misma longitud.</span> <br><span style='margin-left: 20px;'>• <no-glossary><b>LLA</b></no-glossary>: Cuando dos lados correspondientes y el ángulo comprendido de ambos triángulos son iguales.</span> <br><span style='margin-left: 20px;'>• <no-glossary><b>ALA</b></no-glossary>: Cuando dos ángulos correspondientes y el lado comprendido de ambos triángulos son iguales.</span><br><span style='margin-left: 20px;'>• <no-glossary><b>AAL</b></no-glossary>: Cuando dos <no-glossary>ángulos correspondientes</no-glossary> y un lado no incluido de ambos triángulos son iguales</span>",
+      "S7_D15_F47_C2": "Lo sorprendente es que no necesitamos verificar todo - solo la combinación correcta de lados y ángulos.",
+      "S7_D16_F48_C1": "Exploremos cómo se comportan estos triángulos cuando los movemos."
+    },
+    "S8": {
+      "S8_D0_F49_C9": {
+        "title": "Explorador de congruencia de triángulos mediante movimientos rígidos",
+        "about": {
+          "heading": "Fundamentos de la congruencia de triángulos",
+          "body": "<div><p>Los triángulos congruentes tienen el mismo tamaño y forma, pero pueden tener diferentes posiciones u orientaciones.</p><p style='margin: 10px 0px'>Cuatro maneras de demostrar que los triángulos son congruentes:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>LLL: Tres lados coinciden</li><li>LAL: Dos lados y el ángulo incluido coinciden</li><li>ALA: Dos ángulos y el lado incluido coinciden</li><li>AAL: Dos ángulos y un lado no incluido coinciden</li></ul><p style='margin: 10px 0px'>Las transformaciones rígidas (rotación, traslación, reflexión) preservan la congruencia del triángulo porque no cambian la forma ni tamaño.</p></div>"
+        },
+        "help": {
+          "heading": "Uso del Explorador de Congruencia de Triángulos",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controles:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Haga clic en los botones LLL, LAL, ALA o AAL para cambiar los criterios de congruencia</li><li>Use el control deslizante de Rotación para rotar el segundo triángulo</li><li>Use el control deslizante de Movimiento para trasladar el segundo triángulo</li><li>Haga clic en el botón Reflejar para reflejar el segundo triángulo</li><li>Restablecer Aleatorio crea una nueva transformación aleatoria</li></ul><p style='font-weight: bold; margin: 10px 0px'>Vista:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Las medidas muestran lados y ángulos según los criterios seleccionados</li></ul></div>"
+        },
+        "rotate": "Rotar",
+        "move": "Traducir",
+        "reflect": "Reflejar",
+        "random_reset": "Restablecer aleatorio",
+        "degree": "grados",
+        "criteria_explanation": "Explicación de los criterios",
+        "sss": "LLL",
+        "sas": "LAL",
+        "asa": "ALA",
+        "aas": "AAL",
+        "sss_explain": "Si tres lados de un triángulo son congruentes con tres lados de otro triángulo, los triángulos son congruentes. Esto se debe a que los movimientos rígidos preservan las distancias entre los puntos.",
+        "sas_explain": "Si dos lados y el ángulo incluido de un triángulo son congruentes con dos lados y el ángulo incluido de otro triángulo, los triángulos son congruentes. Los movimientos rígidos preservan tanto las distancias como los ángulos.",
+        "asa_explain": "Si dos ángulos y el lado incluido de un triángulo son congruentes con dos ángulos y el lado incluido de otro triángulo, los triángulos son congruentes. El tercer ángulo está determinado por los dos primeros (la suma de los ángulos del triángulo es 180°).",
+        "aas_explain": "Si dos ángulos y un lado no incluido de un triángulo son congruentes con dos ángulos y un lado no incluido de otro triángulo, los triángulos son congruentes.",
+        "canvas": "Un lienzo con un triángulo base y un triángulo transformado.",
+        "triangleA": "Triángulo A",
+        "triangleB": "Triángulo B"
+      },
+      "S8_D1_F49_C2": "Intente trasladar, rotar y reflejar estos triángulos en nuestra herramienta interactiva.",
+      "S8_D2_F50_C1": "¿Notas cómo las medidas permanecen constantes sin importar cómo los muevas?",
+      "S8_D3_F51_C2": "Estos movimientos - traslación, rotación y reflexión - preservan todas las propiedades de un triángulo.",
+      "S8_D4_F52_C1": "Estos se llaman movimientos rígidos - herramientas matemáticas que nos ayudan a verificar cuando las formas son verdaderamente idénticas, incluso si parecen diferentes.",
+      "S8_D4_F53_C2": "Y aquí está la conexión: si dos triángulos cumplen con uno de los criterios de congruencia - LLL, LAL, ALA o AAL - podemos usar movimientos rígidos para demostrar que también son físicamente idénticos.",
+      "S8_D5_F53_C2": "Toma un momento para experimentar con la herramienta interactiva. Intenta trasladar (deslizar) el Triángulo B para alinearlo con el Triángulo A y observa cómo sus medidas permanecen sin cambios.",
+      "S8_D6_F54_C1": "Ahora intenta rotar el Triángulo B alrededor de su centro. ¿Notas cómo todos los ángulos y longitudes de los lados permanecen exactamente iguales?",
+      "S8_D6_F54X_C1": "¡Buen trabajo! Los movimientos rígidos preservan tanto los ángulos como las longitudes de los lados de las formas geométricas.",
+      "S8_D7_F55_C2": "Finalmente, intenta reflejar el Triángulo B. ¡Aunque su orientación ha cambiado, sigue siendo congruente con Triángulo A!",
+      "S8_D8_F56_C1": "¿Cuál de estas transformaciones NO es un movimiento rígido?",
+      "S8_D8_F56_C1_option_A": "Traslación (deslizamiento)",
+      "S8_D8_F56_C1_option_B": "Rotación",
+      "S8_D8_F56_C1_option_C": "Reflexión (volteo)",
+      "S8_D8_F56_C1_option_D": "Estiramiento (cambio de tamaño)",
+      "S8_D9_F57_C2": "¡Correcto! El estiramiento cambia las longitudes de los lados, por lo que no es un movimiento rígido. Solo las transformaciones que preservan todas las medidas son movimientos rígidos.",
+      "S8_D9_F57X_C1": "Estas transformaciones demuestran un principio importante: las formas congruentes pueden mapearse entre sí mediante movimientos rígidos.",
+      "S8_D9_F57Y_C2": "¡Ahora tienes las herramientas para descubrir la verdad detrás de lo que ves! Pero hasta ahora, hemos estado trabajando con triángulos que son claramente visibles.",
+      "S8_D9_F57Z_C1": "¿Qué pasaría si te dijera que tu cerebro a veces crea formas geométricas que ni siquiera están completamente dibujadas?",
+      "S8_D9_F57XY_C2": "¡Así es! Existe un fenómeno fascinante donde tu sistema visual puede ver formas que no están completamente presentes en la realidad."
+    },
+    "S9": {
+      "S9_D1_F58_C2": "Hemos explorado cómo se puede demostrar que los triángulos son congruentes a través de mediciones. Ahora, llevemos este concepto más allá con algo verdaderamente fascinante.",
+      "S9_D2_F59_C1": "Esta siguiente instalación conecta mi trabajo arquitectónico con la visión artística de Madeline - se trata de cómo nuestro sistema visual crea estructura donde no existe ninguna.",
+      "S9_D3_F60_C2": "El triángulo de Kanizsa demuestra un fenómeno llamado 'completado de límites'. A diferencia de las ilusiones anteriores donde percibimos mal los elementos existentes, aquí nuestro cerebro realmente construye elementos que no están físicamente presentes."
+    },
+    "S10": {
+      "S10_D0_F61_C9": {
+        "title": "Kanizsa Triangle Analysis",
+        "about": {
+          "heading": "Fundamentos del Triángulo de Kanizsa",
+          "body": "<div><p>El triángulo de Kanizsa es una famosa ilusión óptica en la que percibimos un triángulo blanco que en realidad no existe.</p><p style='font-weight: bold; margin: 10px 0px'>Conceptos clave:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Nuestro cerebro automáticamente \"completa\" la información faltante</li><li>Las formas negras de Pac-Man crean contornos ilusorios</li><li>La congruencia de triángulos se puede comprobar utilizando cuatro métodos (LLL, LAL, ALA, AAL)</li><li>Dos triángulos son congruentes si cualquiera de los criterios de congruencia se satisface para los triángulos</li></ul><p style='margin: 10px 0px'>Esta ilusión demuestra cómo nuestro sistema visual crea formas coherentes a partir de información incompleta, de forma similar a cómo percibimos objetos del mundo real incluso cuando están parcialmente ocultos.</p></div>"
+        },
+        "help": {
+          "heading": "Usando el Explorador del Triángulo de Kanizsa",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px'><li>Activa \"Mostrar líneas de triángulo\" para revelar los triángulos ocultos</li><li>Usa \"Mostrar medidas\" para mostrar ángulos y longitudes de lados</li><li>Haz clic en \"Probar congruencia\" para analizar automáticamente qué criterios de congruencia (LLL, LAL, ALA, AAL) se satisfacen</li><li>El sistema te mostrará qué criterios aplican y proporcionará explicaciones detalladas</li><li>Restablecer vista borra todas las selecciones y regresa a la vista inicial</li></ul></div>"
+        },
+        "scenarios": {
+          "scenario1": {
+            "name": "Escenario 1: Triángulos idénticos",
+            "description": "En este escenario, las figuras de Pac-Man forman triángulos idénticos.",
+            "explanations": {
+              "SSS": "Los triángulos son congruentes por LLL porque los tres pares de lados correspondientes son iguales: lado a = 141.4, lado b = 141.4 y lado c = 141.4 en ambos triángulos.",
+              "SAS": "Los triángulos son congruentes por LAL porque dos lados y su ángulo incluido son iguales. Por ejemplo, los lados b = 141.4 y c = 141.4 y su ángulo incluido A = 60° coinciden en ambos triángulos.",
+              "ASA": "Los triángulos son congruentes por ALA porque dos ángulos y su lado incluido son iguales. Por ejemplo, los ángulos B = 60° y C = 60° y su lado incluido a = 141.4 coinciden en ambos triángulos.",
+              "AAS": "Los triángulos son congruentes por AAL porque dos ángulos y un lado no incluido son iguales. Por ejemplo, los ángulos A = 60° y B = 60° y el lado no incluido a = 141.4 coinciden en ambos triángulos."
+            }
+          },
+          "scenario2": {
+            "name": "Escenario 2: Dos lados iguales, uno desconocido",
+            "description": "En este escenario, dos lados son iguales, pero el tercero es desconocido.",
+            "explanations": {
+              "SAS": "Los triángulos son congruentes por LAL porque dos lados y su ángulo incluido son iguales. Los lados a = 120 y b = 120 y su ángulo incluido C = 50° coinciden en ambos triángulos.",
+              "ASA": "Los triángulos son congruentes por ALA porque dos ángulos y su lado incluido son iguales. Los ángulos A = 65° y B = 65° y su lado incluido c = 101.45 coinciden en ambos triángulos.",
+              "AAS": "Los triángulos son congruentes por AAL porque dos ángulos y un lado no incluido son iguales. Los ángulos A = 65° y B = 65° y el lado no incluido a = 120 coinciden en ambos triángulos."
+            }
+          },
+          "scenario3": {
+            "name": "Escenario 3: Ángulos iguales, lados diferentes",
+            "description": "En este escenario, los ángulos son iguales, pero los lados tienen longitudes diferentes.",
+            "explanations": {
+              "SSS": "Los triángulos NO son congruentes por LLL porque todos los lados difieren en longitud. El triángulo 1 tiene lados a = 141.4, b = 141.4, c = 141.4, mientras que el triángulo 2 tiene lados a = 180, b = 180, c = 180. Los triángulos son similares (misma forma, diferente tamaño), pero no congruentes.",
+              "SAS": "Los triángulos NO son congruentes por LAL. Aunque sus ángulos coinciden (A = 60°, B = 60°, C = 60°), los lados tienen longitudes diferentes. El triángulo 1 tiene lados b = 141.4, c = 141.4, mientras que el triángulo 2 tiene lados b = 180, c = 180.",
+              "ASA": "Los triángulos NO son congruentes por ALA. Aunque los ángulos coinciden (B = 60°, C = 60°), el lado a incluido difiere en longitud. El triángulo 1 tiene un lado a = 141,4, mientras que el triángulo 2 tiene un lado a = 180. Los triángulos son semejantes, pero no congruentes.",
+              "AAS": "Los triángulos NO son congruentes por AAL. Aunque los ángulos coinciden (A = 60°, B = 60°), el lado a no incluido difiere en longitud. El triángulo 1 tiene un lado a = 141,4, mientras que el triángulo 2 tiene un lado a = 180. Los triángulos son semejantes, pero no congruentes."
+            }
+          }
+        },
+        "buttons": {
+          "showTriangleLines": "Mostrar líneas de triángulos",
+          "hideTriangleLines": "Ocultar líneas de triángulos",
+          "showMeasurements": "Mostrar medidas",
+          "hideMeasurements": "Ocultar medidas",
+          "resetView": "Restablecer vista",
+          "testCongruence": "Probar congruencia"
+        },
+        "congruence": {
+          "triangles_are_congruent": "¡Estos triángulos son congruentes!",
+          "triangles_not_congruent": "Estos triángulos no son congruentes.",
+          "not_congruent_explanation": "Estos triángulos NO son congruentes. Ningún criterio de congruencia (LLL, LAL, ALA, o AAL) se satisface según las medidas disponibles.",
+          "congruent_explanation": "¡Estos triángulos SON congruentes! Satisfacen los siguientes criterios de congruencia:",
+          "criteria_names": {
+            "SSS": "Lado-Lado-Lado",
+            "SAS": "Lado-Ángulo-Lado",
+            "ASA": "Ángulo-Lado-Ángulo",
+            "AAS": "Ángulo-Ángulo-Lado"
+          }
+        },
+        "side_a": "Lado a",
+        "side_b": "Lado b",
+        "side_c": "Lado c",
+        "side_x": "Lado x",
+        "side_y": "Lado y",
+        "side_z": "Lado z",
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "triangle": "Triángulo"
+      },
+      "S10_D1_F61_C1": "¿Qué ves en este patrón de formas negras?",
+      "S10_D2_F62_C2": "La mayoría de las personas perciben un triángulo blanco flotando sobre el patrón, que parece más brillante que el fondo. ¡Sin embargo, no hay ningún triángulo completo realmente dibujado!",
+      "S10_D3_F63_C1": "Esto muestra los poderes constructivos del cerebro. Intenta hacer clic en el botón \"Mostrar Líneas del Triángulo\" para revelar lo que tu cerebro está completando.",
+      "S10_D4_F64_C2": "Observa cómo esas formas negras tipo \"Pac-Man\" posicionan las esquinas del triángulo que tu cerebro percibe. Ahora haz clic en \"Mostrar Medidas\" para ver las propiedades matemáticas de estos triángulos ilusorios.",
+      "S10_D5_FX_C1": "Exploremos tres escenarios diferentes y verifiquemos nuestras observaciones. Usaremos los siguientes criterios para determinar si los triángulos son congruentes: SSS, SAS, ASA y AAS. Si alguno de estos criterios se satisface, podemos concluir que los triángulos son congruentes.",
+      "S10_D6_FX_C1": "Haz clic en el botón \"Probar congruencia\" para verificar si los triángulos son congruentes.",
+      "S10_D7_FX_C2": "Los triángulos son congruentes. Los cuatro criterios (LLL, LAL, ALA y AAL) se cumplen con la información proporcionada.",
+      "S10_D8_FX_C1": "Eso no siempre será el caso. Examinemos el segundo escenario.",
+      "S10_D9_FX_C1": "Haz clic en el botón \"Mostrar medidas\" para ver los valores de lados y ángulos, luego haz clic en el botón \"Probar congruencia\" para determinar si los triángulos son congruentes.",
+      "S10_D10_FX_C2": "Los triángulos son congruentes. Sin embargo, esta vez, solo se cumplen tres criterios con la información dada: LAL, ALA y AAS.",
+      "S10_D11_FX_C1": "Exactamente. Los criterios de congruencia aplicables dependen de las medidas proporcionadas en los triángulos. Ahora, pasemos al tercer escenario.",
+      "S10_D12_FX_C1": "Haz clic en el botón \"Mostrar medidas\" para ver los valores de lados y ángulos, luego haz clic en el botón \"Probar congruencia\" para determinar si los triángulos son congruentes.",
+      "S10_D13_FX_C2": "Los triángulos no son congruentes, ya que ninguno de los criterios se satisface.",
+      "S10_D14_FX_C1": "Ese fue un trabajo impresionante. Has afinado tu comprensión de la congruencia y la percepción.",
+      "S10_D15_FX_C2": "Es fascinante cómo la geometría nos ayuda a revelar patrones ocultos a simple vista.",
+      "S10_D16_FX_C1": "Continuemos nuestro viaje. ¡Hay más por explorar — mantente curioso!"
+    },
+    "S11": {
+      "S11_D0_F93_C9": {
+        "title": "Ilusión del cuadrado de Helmholtz",
+        "about": {
+          "heading": "Explorador de Ilusiones Geométricas",
+          "body": "<div><p>Las ilusiones geométricas revelan cómo nuestro sistema visual malinterpreta formas, ángulos y líneas según el contexto circundante.</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li style='list-style-type: disc;'>Este interactivo explora cómo el cerebro procesa la información visual a través de la Ilusión del Cuadrado de Helmholtz, donde los cuadrados idénticos parecen tener dimensiones diferentes según la orientación interna de las líneas.</li><li style='list-style-type: disc;'>Esta ilusión demuestra cómo el contexto influye drásticamente en nuestra percepción de las propiedades geométricas.</li></ul></div>"
+        },
+        "help": {
+          "heading": "Usando el Explorador de Ilusiones Geométricas",
+          "body": "<div><p style='font-weight: bold; margin: 10px 0px'>Controles:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li style='list-style-type: disc;'>Usa el deslizador para trasladar el Cuadrado B y superponerlo con el Cuadrado A</li><li style='list-style-type: disc;'>Restablecer Posición: Devuelve el Cuadrado B a su posición original</li></ul></div>"
+        },
+        "helmholtz_square_illusion": "Ilusión del cuadrado de Helmholtz",
+        "helmholtz_description": "Un cuadrado dividido por líneas horizontales parece más alto que el mismo cuadrado dividido por líneas verticales",
+        "button": {
+          "show_reference": "Herramienta de medición",
+          "hide_reference": "Ocultar referencia",
+          "show_measurements": "Mostrar medidas",
+          "hide_measurements": "Ocultar medidas",
+          "reset_position": "Restablecer Posición"
+        },
+        "labels": {
+          "square_a": "Cuadrado A",
+          "square_b": "Cuadrado B",
+          "width_100": "Ancho: 100",
+          "both_squares": "Ambos cuadrados miden exactamente 100×100",
+          "straight_lines": "¡Las líneas rojas son perfectamente rectas!",
+          "curved_question": "¿Estas líneas parecen curvas?",
+          "taller_appearance": "El cuadrado A con líneas horizontales parece más alto",
+          "translate_square_b": "Traducir el Cuadrado B para que se superponga con el Cuadrado A",
+          "squares_aligned": "¡Los cuadrados están perfectamente alineados! Son idénticos en tamaño.",
+          "apart": "Separados",
+          "overlapped": "Superpuestos"
+        },
+        "accessibility": {
+          "achievement_unlocked": "Logro desbloqueado",
+          "illusion_description": "Cuadrado A con líneas horizontales a la izquierda, Cuadrado B con líneas verticales a la derecha.",
+          "squares_aligned_state": "Los cuadrados ahora están perfectamente alineados y superpuestos.",
+          "square_b_translated": "El Cuadrado B está {percentage}% trasladado hacia la izquierda.",
+          "reset_button_description": "El Cuadrado B volverá a su posición original"
+        }
+      },
+      "S11_D1_FX_C1": "Observa estos dos cuadrados en la ilusión de Helmholtz. El que tiene líneas horizontales (Cuadrado A) parece más alto, mientras que el que tiene líneas verticales (Cuadrado B) parece más ancho.",
+      "S11_D2_FX_C2": "¿Pero son realmente diferentes? Traslada el Cuadrado B para que se superponga con el Cuadrado A y verifica los resultados.",
+      "S11_D3_FX_C1": "¡Excelente! Has confirmado que ambos cuadrados son idénticos — has aplicado la <no-glossary>traslación</no-glossary> para revelar la verdad detrás de lo que tus ojos percibieron."
+    },
+    "S12": {
+      "S12_D1_F100_C2": "Has completado el círculo - de ser engañado por las ilusiones a usar las matemáticas para descubrir la realidad.",
+      "S12_D2_F101_C2": "Comenzamos con ilusiones ópticas simples y descubrimos cómo nuestra percepción—especialmente de los ángulos—puede ser engañosa.",
+      "S12_D3_F102_C1": "En el camino, exploramos cómo la congruencia de triángulos nos da una herramienta matemática poderosa para confirmar lo que es verdaderamente idéntico, incluso cuando nuestros ojos pueden estar en desacuerdo.",
+      "S12_D3_F103_C2": "Aunque no usamos la congruencia para resolver cada ilusión, nos dio un marco para pensar críticamente sobre lo que vemos versus lo que realmente está ahí.",
+      "S12_D4_F104_C1": "Y eso nos llevó al Triángulo de Kanizsa—un ejemplo perfecto de cómo el cerebro puede ir más allá de juzgar mal la realidad y realmente construir formas a partir de información incompleta.",
+      "S12_D4_F103_C2": "La congruencia de triángulos nos da herramientas poderosas para verificar lo que realmente está ahí, más allá de lo que nuestros ojos nos dicen.",
+      "S12_D5_F104_C1": "Este conocimiento no es solo para resolver acertijos - tiene aplicaciones reales en arte, arquitectura, visión por computadora y muchos otros campos.",
+      "S12_D6_F105_C2": "La próxima vez que encuentres algo que parezca imposible o confuso...",
+      "S12_D7_F106_C1": "Recuerda: ¡deja que la geometría revele la verdad!"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicidades!",
+      "subheading": "Has conquistado Ilusiones Ópticas: La Geometría Detrás de lo que Vemos",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>¡Has completado la STEAMQuest de ilusiones ópticas!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Descubriste cómo las ilusiones ópticas revelan la brecha entre la percepción y la realidad</li><li>Analizaste los errores perceptuales en el reconocimiento de ángulos</li><li>Exploraste los cuatro criterios para la congruencia de triángulos: LLL, LAL ALA y AAL</li><li>Descubriste cómo usar movimientos rígidos para verificar propiedades geométricas</li><li>Exploraste cómo los principios de congruencia pueden ayudarnos a entender la estabilidad visual, incluso cuando las ilusiones engañan nuestra percepción</li></ul>¡Tu capacidad para analizar patrones visuales ayudó a cerrar la brecha entre la percepción y la realidad matemática!",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><mask id=\"mask0_15918_1649\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"80\"><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"9.5\" fill=\"#5454D8\" stroke=\"#005F20\"/></mask><g mask=\"url(#mask0_15918_1649)\"><path d=\"M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z\" fill=\"black\"/><path d=\"M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6513 8.87428 10.7737 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.40732 42.1793 0.778208Z\" fill=\"#FFCC00\" stroke=\"black\"/><path d=\"M24.5 34.0635L49.5 19.5635L54.5 22.5635V52.0635L49.5 54.5635L24.5 40.0635V34.0635Z\" fill=\"white\"/><path d=\"M54.9029 22.1876L49.8014 19.2417C49.7416 19.2072 49.667 19.2072 49.6071 19.2417L24.0971 33.9696C24.0373 34.0041 24 34.0682 24 34.1378V40.0287C24 40.0983 24.0373 40.1624 24.0971 40.1969L49.6071 54.9248C49.6371 54.9422 49.6709 54.9508 49.7043 54.9508C49.7377 54.9508 49.7715 54.9422 49.8014 54.9248L54.9029 51.9789C54.9627 51.9444 55 51.8803 55 51.8107V22.3556C55 22.2864 54.9631 22.2224 54.9029 22.1874V22.1876ZM44.4079 34.4748V39.6922L39.8887 37.084L44.4079 34.4748ZM34.3505 34.054C34.3423 34.0587 34.3415 34.0677 34.3353 34.0739C34.3287 34.0801 34.3194 34.0816 34.3147 34.0894C34.3124 34.0937 34.3147 34.0984 34.3128 34.1026C34.3081 34.1142 34.3085 34.1251 34.3081 34.138C34.3085 34.1508 34.3081 34.1616 34.3128 34.1734C34.3147 34.1777 34.3124 34.1824 34.3147 34.1866C34.3233 34.2014 34.3357 34.2126 34.3496 34.2207C34.35 34.2207 34.35 34.2215 34.3504 34.2219L34.3511 34.2222L39.3059 37.0833C39.3059 37.1529 39.3432 37.217 39.403 37.2516L44.5051 40.1963V45.751L24.486 34.1943L49.7046 19.6342L54.5146 22.4122L34.3505 34.054ZM44.6994 51.6428V40.1968C44.7592 40.1623 44.7965 40.0981 44.7965 40.0286V34.1383L49.6075 31.3615L49.6076 54.4762L44.6994 51.6428Z\" fill=\"black\" stroke=\"black\" stroke-width=\"0.5\"/></g></svg>",
+      "leftsvgarialabel": "Prisma triangular geométrico.",
+      "rightsvg": "<svg width=\"122\" height=\"131\" viewBox=\"0 0 122 131\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g opacity=\"0.2\"><path d=\"M92.3616 8.71776L74.9826 4.58897C74.7788 4.5406 74.562 4.6054 74.4181 4.75768L13.0934 69.6972C12.9496 69.8495 12.8968 70.0682 12.9573 70.2703L18.0725 87.3849C18.1329 87.5871 18.297 87.741 18.5008 87.7894L105.403 108.427C105.505 108.451 105.611 108.447 105.708 108.418C105.805 108.389 105.895 108.335 105.967 108.258L118.23 95.2696C118.374 95.1173 118.427 94.8986 118.367 94.6965L92.7897 9.1216C92.7296 8.92059 92.5668 8.7667 92.3614 8.71719L92.3616 8.71776ZM72.5404 53.5286L77.0708 68.6864L61.6766 65.0333L72.5404 53.5286ZM42.9554 61.0392C42.9356 61.0599 42.9412 61.0867 42.9286 61.11C42.9149 61.1338 42.889 61.1463 42.8822 61.1732C42.8793 61.1876 42.89 61.1992 42.8881 61.213C42.8846 61.2509 42.8952 61.2822 42.9053 61.32C42.9175 61.3568 42.9258 61.3887 42.9496 61.4188C42.9589 61.4297 42.9563 61.4452 42.9666 61.4554C43.0044 61.4909 43.0502 61.5129 43.0976 61.5243C43.0987 61.524 43.0994 61.5262 43.1008 61.527L43.1034 61.5274L59.9826 65.5373C60.043 65.7394 60.2071 65.8933 60.4109 65.9417L77.7907 70.0666L82.6141 86.2047L14.4184 70.0125L75.0421 5.81334L91.4286 9.7075L42.9554 61.0392ZM88.2946 103.153L78.3557 69.8994C78.4996 69.7471 78.5523 69.5284 78.4919 69.3263L73.3772 52.2136L84.9431 39.9685L105.015 107.123L88.2946 103.153Z\" fill=\"white\" stroke=\"white\" stroke-width=\"0.5\"/></g></svg>"
+    },
+    "glossary": {
+      "congruent": {
+        "word": "Congruente",
+        "definition": "<strong className=\"text-[#0055B2]\">Congruente</strong> significa que dos figuras geométricas tienen exactamente el mismo tamaño y forma, independientemente de su posición u orientación."
+      },
+      "translation": {
+        "word": "traslación",
+        "definition": "<strong className=\"text-[#0055B2]\">Traslación</strong> es una transformación que desliza una figura la misma distancia y en la misma dirección sin rotarla ni voltearla."
+      },
+      "rigid-motion": {
+        "word": "Movimiento Rígido",
+        "definition": "<strong className=\"text-[#0055B2]\">Movimiento rígido</strong> es una transformación que mueve una forma sin cambiar su tamaño o forma (incluye rotación, reflexión y traslación)."
+      },
+      "optical-illusion": {
+        "word": "Ilusión Óptica",
+        "definition": "<strong className=\"text-[#0055B2]\">Ilusión óptica</strong> es una imagen visual que difiere de la realidad objetiva, donde nuestro cerebro interpreta algo diferente de sus propiedades físicas reales."
+      },
+      "sas": {
+        "word": "LAL",
+        "definition": "<strong className=\"text-[#0055B2]\">LAL</strong> es el criterio de congruencia donde cuando dos lados y el ángulo incluido son iguales, los triángulos son congruentes."
+      },
+      "sss": {
+        "word": "LLL",
+        "definition": "<strong className=\"text-[#0055B2]\">LLL</strong> es el criterio de congruencia donde si tres lados son iguales, los triángulos son congruentes."
+      },
+      "asa": {
+        "word": "ALA",
+        "definition": "El criterio de congruencia <strong className=\"text-[#0055B2]\">ALA</strong> es cuando dos ángulos y el lado incluido son iguales, los triángulos son congruentes."
+      },
+      "aas": {
+        "word": "AAL",
+        "definition": "El criterio de congruencia <strong className=\"text-[#0055B2]\">AAL</strong> es cuando dos ángulos y un lado no incluido son iguales, los triángulos son congruentes."
+      },
+      "regression": {
+        "word": "Regresión",
+        "definition": "<strong className=\"text-[#0055B2]\">Regresión</strong> es un método estadístico utilizado para modelar y analizar relaciones entre variables, a menudo representado por una línea de tendencia en un diagrama de dispersión."
+      },
+      "trend-lines": {
+        "word": "Líneas de tendencia",
+        "definition": "<strong className=\"text-[#0055B2]\">Línea de tendencia</strong> es una línea en un diagrama de dispersión dibujada cerca de los puntos. Muestra una correlación y puede usarse para hacer predicciones."
+      },
+      "overabundance": {
+        "word": "Sobreabundancia",
+        "definition": "<strong className=\"text-[#0055B2]\">Sobreabundancia</strong> es una cantidad excesiva o un superávit de organismos en un ecosistema, típicamente resultante de una alteración en las relaciones naturales depredador-presa y potencialmente causando un desequilibrio ambiental."
+      },
+      "scatter-plot": {
+        "word": "Diagrama de dispersión",
+        "definition": "<strong className=\"text-[#0055B2]\">Diagrama de dispersión</strong> es un gráfico que relaciona dos conjuntos diferentes de datos al representarlos como pares ordenados. Puedes usar un diagrama de dispersión para determinar una relación entre los conjuntos de datos."
+      },
+      "linear-equations": {
+        "word": "Ecuaciones lineales",
+        "definition": "<strong className=\"text-[#0055B2]\">Ecuaciones lineales</strong> son funciones cuyo gráfico es una línea recta. Puedes representar una función lineal con una ecuación lineal."
+      },
+      "correlation": {
+        "word": "Correlación",
+        "definition": "<strong className=\"text-[#0055B2]\">Correlación</strong> indica la fuerza de una relación entre dos conjuntos de datos."
+      },
+      "causation": {
+        "word": "Causalidad",
+        "definition": "<strong className=\"text-[#0055B2]\">Causalidad</strong> es una relación directa donde un cambio en una variable causa directamente un cambio en otra variable."
+      },
+      "polygon": {
+        "word": "Polígono",
+        "definition": "<strong className=\"text-[#0055B2]\">Polígono</strong> es una figura plana cerrada formada por tres o más segmentos que no se intersectan excepto en sus extremos."
+      },
+      "rotation": {
+        "word": "Rotación",
+        "definition": "<strong className=\"text-[#0055B2]\">Rotación</strong> es un movimiento rígido que gira una figura alrededor de un punto fijo, llamado centro de rotación, por un determinado ángulo."
+      },
+      "reflection": {
+        "word": "Reflexión",
+        "definition": "<strong className=\"text-[#0055B2]\">Reflexión</strong> es una transformación que voltea una figura a través de una línea, creando una imagen especular."
+      },
+      "transformations": {
+        "word": "Transformaciones",
+        "definition": "<strong className=\"text-[#0055B2]\">Transformaciones</strong> son operaciones que mueven, rotan, reflejan o cambian el tamaño de figuras geométricas mientras preservan sus propiedades esenciales."
+      }
+    },
+    "common": {
+      "owens": "Dr. Owens",
+      "hayes": "Madeline",
+      "owens_description": "Un arquitecto afroamericano con gafas de montura geométrica, vistiendo ropa minimalista moderna y llevando una tableta digital.",
+      "hayes_description": "Una artista caucásica con estilo colorido y ecléctico, vistiendo patrones llamativos y un distintivo colgante geométrico.",
+      "bg1_description": "Edificio futurista de cristal en forma de pirámide en un parque urbano con árboles otoñales y un estanque reflectante que conduce a la entrada.",
+      "bg2_description": "Exposición de arte geométrico moderno con visitantes observando muestras de ilusiones ópticas en una galería contemporánea con paredes angulares de cristal.",
+      "bg3_description": "Exposición interactiva de matemáticas con pantalla de datos triangular y visitantes explorando proyecciones geométricas en un elegante salón moderno con suelo reflectante.",
+      "bg4_description": "Sala de exposiciones triangular con paredes de cristal que muestran patrones geométricos y visitantes explorando exhibiciones interactivas bañadas por la luz dorada del atardecer.",
+      "bg5_description": "Observatorio futurista con pantallas interactivas que muestran datos geométricos y visitantes explorando exhibiciones con vistas panorámicas de la ciudad a través de ventanas angulares.",
+      "bg6_description": "Museo de ciencias con holograma triangular iluminado y visitantes observando exhibiciones geométricas en pantallas de visualización en una galería moderna con plataformas de observación escalonadas.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "angle": "Ángulo",
+      "of": "de"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergent"
+  },
+  "game": {
+    "optical-illusions": "STEAM Quest - Ilusiones Ópticas"
+  }
+}

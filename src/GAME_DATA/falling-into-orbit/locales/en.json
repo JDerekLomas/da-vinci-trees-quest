@@ -1,0 +1,398 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introduction",
+    "scene_4": "The First Law of Falling",
+    "scene_5": "Projectile Motion Simulator",
+    "scene_6": "Newton's Revolutionary Idea",
+    "scene_7": "Newton's Canon",
+    "scene_8": "The Ancient Secret",
+    "scene_9": "3D Cone Slicer",
+    "scene_10": "About Geosynchronous Orbit",
+    "scene_11": "Geosynchronous Orbit Simulator",
+    "scene_13": "Satellite Launch Simulator",
+    "scene_14": "Conclusion",
+    "scene_15": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Falling Into Orbit</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>The Mathematics of Spaceflight</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Join Ayaan and Leila, two curious cadets selected for an elite space training program, as they learn the mathematics behind rockets and orbits from Dr. Vega. In this STEAMQuest, you'll explore how ancient mathematics predicts modern spaceflight—from parabolic projectiles to orbital paths—and discover that getting to space isn't about going up, it's about going sideways fast enough to keep falling and missing the Earth.</div>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Welcome to Starlight Space Camp</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Where young explorers train like astronauts. Today, we will discover the science behind rockets, orbits, and space travel, learning how mathematics guides every step of the journey. Ready to discover the hidden mathematics and science behind rockets and orbits?</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cadets, for thousands of years humans gazed at the stars and wondered: could we ever reach them? Tell me — what do you already know about space?</div>",
+      "S3_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>There's no air. You float around. And there's no gravity!</div>",
+      "S3_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Not exactly, Ayaan. There is gravity in space — it's what keeps the planets in orbit around the Sun.</div>",
+      "S3_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct, Leila. What vanishes in space isn't gravity — it's air.</div>",
+      "S3_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now, another question: how far away is space?</div>",
+      "S3_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Super far. Like thousands of miles?</div>",
+      "S3_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Not at all. Space begins just 62 miles up — if you could drive straight up, you'd be there in under an hour.</div>",
+      "S3_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Wait… then why is it so hard to reach? Why can't an airplane just fly there?</div>",
+      "S3_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ah, now we're asking the right question. It's not about going up — it's about going fast enough sideways.</div>"
+    },
+    "S4": {
+      "S4_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Before we launch anything into orbit, we need to understand the basics. Every object you throw follows a curved path — a parabola.</div>",
+      "S4_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>A parabola? Like those U-shaped graphs from math class?</div>",
+      "S4_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Whether you're throwing a ball or launching a rocket, gravity bends the path into a curve described by a simple <no-glossary>equation</no-glossary>: <span className='sr-only'>y equals a x squared plus bx plus c</span><span style='font-family: Besley; font-weight: bold;' aria-hidden='true'><em style='color: #008217'>y</em> = a<em style='color: #0061FC;'>x²</em> + b<em style='color: #0061FC;'>x</em> + c</span>.</div>",
+      "S4_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So the values of <span style='font-family: Besley; font-weight: bold;'>a</span>, <span style='font-family: Besley; font-weight: bold;'>b</span> and <span style='font-family: Besley; font-weight: bold;'>c</span> in the <no-glossary>equation</no-glossary> determine the shape of the curve?</div>",
+      "S4_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely. The angle you launch at and the speed you use change those values — and change the path. Let's test this with our projectile simulator.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Projectile Motion Simulator",
+        "about": {
+          "heading": "Projectile Motion Simulator",
+          "body": "<div><p>Understanding Projectile Motion:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Parabolic Trajectory</strong>: All projectiles follow a curved path called a parabola, described by the equation <span className='sr-only'>y equals a x squared plus bx plus c</span><span style='font-family: Besley; font-weight: bold;' aria-hidden='true'><em style='color: #008217'>y</em> = a<em style='color: #0061FC;'>x²</em> + b<em style='color: #0061FC;'>x</em> + c</span>.</li><li><strong>Launch Angle Effect</strong>: Shallow angles (closer to 0°) create longer horizontal distances, while steep angles (closer to 90°) create higher maximum heights.</li><li><strong>Velocity Effect</strong>: Higher initial velocities result in longer ranges and greater maximum heights, but the projectile always follows a parabolic path back to Earth.</li><li><strong>Gravity's Role</strong>: Gravity constantly pulls the projectile downward, creating the characteristic curved trajectory that always returns to the ground.</li></ol></div>"
+        },
+        "help": {
+          "heading": "How to use this Simulator?",
+          "body": "<div><p>To explore projectile motion physics:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Adjust the <strong>Launch Angle</strong> slider (0° to 89°) to change the trajectory shape</li><li>Modify the <strong>Initial Velocity</strong> slider (3.33 to 328.1 ft/s) to change projectile speed</li><li>Observe how the <strong>Trajectory Formula</strong> updates automatically with your changes</li><li>Click <strong>Fire</strong> to launch the projectile and watch its path</li><li>Use <strong>Reset</strong> to clear the simulation and start over</li></ol></div>"
+        },
+        "angle": "Launch Angle",
+        "velocity": "Initial Velocity",
+        "formula": "Trajectory Formula",
+        "fire": "Fire",
+        "reset": "Reset",
+        "results": "Results",
+        "angle_label": "Angle:",
+        "speed_label": "Speed:",
+        "distance_label": "Distance:"
+      },
+      "S5_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Here's your first mission: launch a projectile and watch how it moves. Adjust the launch angle slider and observe how the trajectory changes.</div>",
+      "S5_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh! At shallow angles, it travels farther horizontally. At steep angles, it goes higher but lands closer.</div>",
+      "S5_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excellent observation. Now adjust the velocity slider. Try launching at different speeds.</div>",
+      "S5_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The faster it goes, the farther it travels! So if I just crank up the speed all the way, I will launch it into orbit?</div>",
+      "S5_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Go ahead, Ayaan. Set the velocity to maximum and fire. What happens?</div>",
+      "S5_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Whoa! It goes really far... but it still comes back down. It always curves back to Earth.</div>",
+      "S5_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No matter how fast we launch it, gravity pulls it back. It never escapes.</div>",
+      "S5_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly right, Leila. Even at maximum speed in this simulator, the projectile follows a parabolic path and returns to Earth.</div>",
+      "S5_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Getting to space isn’t just about going up. It’s about going sideways—fast enough that as you fall, Earth curves away beneath you.</div>",
+      "S5_D10_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So... going straight up is the wrong strategy?</div>",
+      "S5_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. Think about it. When you launch at a steep angle, you go high but fall back quickly. When you launch at a shallow angle, you travel farther sideways. So instead of fighting gravity by going up, we go sideways fast so that we keep missing the ground.</div>",
+      "S5_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let me show you the thought experiment that changed everything — Newton's Cannon on a Mountain.</div>"
+    },
+    "S6": {
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Scientist Isaac Newton imagined something extraordinary. What if you could fire a cannon from the top of a mountain with enough speed?</div>",
+      "S6_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It will still fall back down, right? Like all our projectiles?</div>",
+      "S6_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Not necessarily. Newton discovered that at just the right speed, the cannonball falls... but the Earth curves away beneath it at the same rate.</div>",
+      "S6_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Wait... so it will keep falling but never hits the ground?</div>",
+      "S6_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! That's orbit — falling sideways so fast that you keep missing the Earth. Let's test it in our <no-glossary>simulation</no-glossary> tool.</div>"
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "Newton's Canon",
+        "about": {
+          "heading": "Newton's Canon",
+          "body": "<div><p>Understanding Orbital Mechanics:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Parabolic Trajectory</strong>: At speeds below 4.85 mi/s, the cannonball follows a curved path and crashes back to Earth, just like projectiles on Earth.</li><li><strong>Circular Orbit</strong>: At exactly 4.85 mi/s, the cannonball falls toward Earth but moves sideways fast enough that Earth curves away beneath it, creating a stable circular orbit.</li><li><strong>Elliptical Orbit</strong>: Near to circular velocity for some higher altitude and, between circular and escape velocity, the satellite follows an elliptical path, speeding up when close to Earth and slowing down when far away.</li><li><strong>Hyperbolic Escape</strong>: At speeds above 6.96 mi/s (escape velocity), the cannonball breaks free from Earth's gravity completely and follows an open hyperbolic path into space.</li></ol></div>"
+        },
+        "help": {
+          "heading": "How to use Newton's Canon?",
+          "body": "<div><p>To explore orbital mechanics:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Use the <strong>Speed</strong> slider to set a custom launch velocity, then click <strong>Fire</strong> to launch a cannonball and watch its trajectory</li><li>Click the preset buttons to instantly launch cannonballs at specific speeds:</li><ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li>Below 4.85 mi/s (crashes back to Earth)</li><li>Exactly 4.85 mi/s (circular orbit)</li><li>4.85-6.96 mi/s (elliptical orbit)</li><li>Above 6.96 mi/s (escape trajectory)</li></ul><li>You can launch up to 5 cannonballs simultaneously to compare different trajectories</li><li>Use <strong>Reset</strong> to clear all trajectories and return to the initial view</li></ol></div>"
+        },
+        "speed": "Speed",
+        "fire": "Fire",
+        "reset": "Reset",
+        "presetCrashes": "Below 4.85 mi/s (Crashes)",
+        "presetCircular": "Exactly 4.85 mi/s (Circular)",
+        "presetElliptical": "4.85-6.96 mi/s (Elliptical)",
+        "presetEscape": "Above 6.96 mi/s (Escape)"
+      },
+      "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Here's Newton's famous mountain with our cannon. First, let's see what happens at low speeds. Set the speed lower than 4.85 mi/s and click Fire.</div>",
+      "S7_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It curves back down and crashes into Earth. Just like our projectiles — gravity wins.</div>",
+      "S7_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct. At these speeds, you're still following a parabolic path. Now try something faster — set the speed greater than or equal to 4.85 mi/s and less than 6.96 mi/s.</div>",
+      "S7_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh! It's circling the Earth! It's not falling back — it's staying up there!</div>",
+      "S7_D5_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Wait, it is Falling though... it's just falling towards the Earth instead of falling into it!</div>",
+      "S7_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This is orbital velocity. The cannonball falls toward Earth, but moves sideways fast enough that Earth curves away beneath it.</div>",
+      "S7_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now, what if we go even faster? Try setting the speed greater than or equal to 6.96 mi/s and fire.</div>",
+      "S7_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The path is opening up! It's not coming back — it's escaping!</div>",
+      "S7_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's escape velocity. At 6.96 mi/s, you break free from Earth's gravity completely.</div>",
+      "S7_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So what determines whether you crash, orbit, or escape?</div>",
+      "question_1": {
+        "option_1": "Only the angle you launch at",
+        "option_2": "Only the altitude of the launch",
+        "option_3": "The speed you're traveling",
+        "option_4": "The weight of the object"
+      },
+      "S7_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Speed is the key. But here's something interesting — these different paths aren't random. They all belong to the same mathematical family of curves. Have you noticed the shapes?</div>",
+      "S7_D12_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The crash path curves back... the orbit is circular... and the escape path opens outward.</div>",
+      "S7_D13_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Different curves for different speeds. Is there a pattern?</div>",
+      "S7_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>There is! And it was discovered thousands of years before Newton — by ancient Greek mathematicians studying a simple geometric shape. Let me show you.</div>"
+    },
+    "S8": {
+      "S8_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Over 2,000 years ago, Greek mathematicians discovered something remarkable while studying a simple <no-glossary>cone</no-glossary>.</div>",
+      "S8_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>A <no-glossary>cone</no-glossary>? So rocket science comes from... math class?</div>",
+      "S8_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. They found that by slicing a <no-glossary>cone</no-glossary> at different angles, you can create every single path we just saw.</div>",
+      "S8_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Wait, so the crash path, the orbit, and the escape — they're all hidden in one shape?</div>",
+      "S8_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. These shapes are called conic sections. Let me show you the <no-glossary>cone</no-glossary> that contains all the mathematics of spaceflight.</div>"
+    },
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "3D Cone Slicer",
+        "about": {
+          "heading": "3D Cone Slicer",
+          "body": "<div><p>Understanding Conic Sections:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Circle</strong>: When the slicing plane is perfectly horizontal (0°), it creates a circular cross-section, representing circular orbits.</li><li><strong>Ellipse</strong>: When the plane is tilted slightly, the circle stretches into an oval shape, representing elliptical orbits that most satellites follow.</li><li><strong>Parabola</strong>: When the plane angle matches the cone's side angle, it creates an open curve that never closes, representing escape trajectories at exactly orbital velocity.</li><li><strong>Hyperbola</strong>: When the plane is steeper than the cone's side, it creates an even more open curve, representing escape trajectories above escape velocity.</li></ol></div>"
+        },
+        "help": {
+          "heading": "How to use the 3D Cone Slicer?",
+          "body": "<div><p>To explore conic sections:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Adjust the <strong>Plane Angle</strong> slider (0° to 90°) to change how the plane cuts through the cone</li><li>Move the <strong>Plane Position</strong> slider (-4 to 4) to change where the plane intersects the cone</li><li>Click the example buttons to see perfect examples:</li><ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li><strong>Circle</strong> (horizontal slice)</li><li><strong>Ellipse</strong> (slightly tilted slice)</li><li><strong>Parabola</strong> (plane parallel to cone side)</li><li><strong>Hyperbola</strong> (steep angle slice)</li></ul><li>Watch the 3D visualization to see the intersection highlighted in yellow</li><li>View the mathematical equation and 2D graph of the resulting shape below</li></ol></div>"
+        },
+        "planeAngleLabel": "Plane Angle (0° = Horizontal):",
+        "planePositionLabel": "Plane Position:",
+        "exampleSlicesLabel": "Example Slices",
+        "sliceDetailsLabel": "Slice Details",
+        "sliceShapeLabel": "Slice Shape:",
+        "conicEquationLabel": "Conic Equation (in plane's coordinates):",
+        "noIntersectionMessage": "Plane is not intersecting with cone.",
+        "circle": "Circle",
+        "ellipse": "Ellipse",
+        "parabola": "Parabola",
+        "hyperbola": "Hyperbola",
+        "noInteractionStatus": "No Interaction",
+        "noIntersectionStatus": "No intersection",
+        "singlePointStatus": "Single Point (apex)"
+      },
+      "S9_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Here's your <no-glossary>cone</no-glossary>. That plane slicing through it creates different shapes. First, try clicking the Circle button to see a perfect horizontal slice.</div>",
+      "S9_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>When the plane is perfectly flat, it makes a circle! That's a circular orbit, right?</div>",
+      "S9_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. But perfect circles are rare in space — most orbits are slightly stretched. Click the Ellipse button.</div>",
+      "S9_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh! When we tilt the plane a bit, the circle stretches into an oval shape.</div>",
+      "S9_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's an ellipse — the shape most satellites actually follow. Now let's see the path of trajectory that comes back to Earth. Click Parabola.</div>",
+      "S9_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The shape opens up at one end! It's like... it's not closing back on itself anymore.</div>",
+      "S9_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect observation. That's what happens below orbit-velocity at our cannon's height. When you launch a cannonball at speed lower than 4.85 mi/s, it crashes and follows a parabolic path. <br>Now click Hyperbola to see total escape.</div>",
+      "S9_D8_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Whoa! It opens even wider. This is what happens above 6.96 mi/s, right?</div>",
+      "S9_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Now try adjusting the Plane Angle slider yourself. Watch how the shape transforms as you change the angle.</div>",
+      "S9_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It's amazing! Small angle changes completely transform the shape from closed to open.</div>",
+      "S9_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now you understand the hidden connection. Every orbital path — from falling projectiles to escaping spacecraft — follows one of these conic sections.</div>",
+      "S9_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So which shape represents a satellite in stable orbit around Earth?</div>",
+      "question_1": {
+        "option_1": "Circle or Ellipse",
+        "option_2": "Parabola",
+        "option_3": "Hyperbola",
+        "option_4": "Any of them work"
+      },
+      "S9_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct! Circles and ellipses are closed curves, which means the satellite keeps circling. Parabolas and hyperbolas are open — the object escapes and never returns.</div>",
+      "S9_D16_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let's see these shapes in action with real satellites around Earth.</div>"
+    },
+    "S10": {
+      "S10_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now that you understand orbital shapes, let's explore something fascinating — different orbits have different speeds.</div>",
+      "S10_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Wait, I thought the orbit was just going fast enough sideways. Why would the speed change?</div>",
+      "S10_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Great question. The closer you are to Earth, the stronger gravity pulls, so you need more speed to stay in orbit.</div>",
+      "S10_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So, satellites that are closer to Earth orbit faster?</div>",
+      "S10_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! But there's one special orbit called geosynchronous orbit where a satellite's orbital speed matches Earth's rotation speed.</div>",
+      "S10_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So satellites in geosynchronous orbit appear stationary in the sky when viewed from the ground?</div>",
+      "S10_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes, let me show you the difference between a fast, low orbit and geosynchronous orbit.</div>"
+    },
+    "S11": {
+      "S11_D0_FX_C9": {
+        "title": "Geosynchronous Orbit Simulator",
+        "about": {
+          "heading": "About this Tool",
+          "body": "<p>This interactive simulates two satellites in orbit: one in geosynchronous orbit (GEO) and another in a lower orbit.</p><ol class='mt-4'><li><b>Geosynchronous Orbit (GEO):</b><ul class='mt-2 ml-6' style='list-style-type:disc;'><li>In GEO, the satellite’s orbital period matches Earth’s rotation. This means the satellite stays above the same spot on the Earth’s surface</li><li class='mt-2'>The satellite travels at the same speed as Earth's rotation, resulting in a period of exactly <b>24 hours</b></li></ul></li><li class='mt-4'><b>Lower Orbits:</b><ul class='mt-2 ml-6' style='list-style-type:disc;'><li>The satellite in this orbit has a smaller radius and travels faster than the one in GEO because it's closer to Earth. The shorter orbital period results in the satellite orbiting the Earth more times per day</li></ul></li></ol><p class='mt-4'><b>Adjusting Orbit Radius:</b></p><p class='mt-2'>You can adjust the orbit radius of the lower orbit by dragging the slider. As you decrease the radius, the satellite's orbital speed increases, causing it to complete more orbits in less time. Conversely, increasing the radius will decrease the orbital speed.</p><p class='mt-4'><b>Circular Orbit Equation:</b></p><p class='mt-2'>Both circular orbits can be represented using standard form of circle formula:</p><p class='mt-2' style='font-family: besley; font-style: italic;'>(<span style='color: #0061FC'><i><b>x</b></i></span> - <span style='color: #DB0072'><i><b>h</b></i></span><span style='color: #0061FC'><i><b></b></i></span>)<sup>2</sup> + (<span style='color: #E0002B'><i><b>y</b></i></span> - <span style='color: #00749D'><i><b>k</b></i></span>)<sup>2</sup> = <span style='color: #633300'><i><b>r<sup>2</sup></b></i></span></p><p class='mt-4'>Where <span style='font-family: besley; font-style: italic;'>(<b style='color: #DB0072'>h</b>, <b style='color: #00749D'>k</b>)</span> is the center, and <span style='font-family: besley; font-style: italic;'><b style='color: #633300'>r</b></span> is radius of circular orbit.</p><p class='mt-4'><b>How Speed Affects the Path:</b></p><ul class='mt-2 ml-6' style='list-style-type:disc;'><li><b>Geosynchronous Satellites (GEO):</b> These satellites are crucial for consistent communication, weather monitoring, and navigation since they stay in the same position relative to Earth’s surface and match Earth’s rotation with their orbital period of <b>24 hours</b></li><li class='mt-2'><b>Lower Orbit Satellites:</b> While these satellites orbit faster and provide more detailed images of Earth's surface, they cannot stay over the same location due to their shorter orbital periods. As a result, their coverage area on Earth continuously changes</li></ul>"
+        },
+        "help": {
+          "heading": "How to Find Radius of Geosynchronous Orbit",
+          "body": "<p>Follow these steps to find the radius of the orbit that corresponds to a geosynchronous orbit for objects.</p> <ul class='mt-2 ml-6' style='list-style-type:disc;'><li>In this interactive, a geosynchronous orbit circle is represented using a purple dashed line and lower orbit which radius you can adjust is represented using a red dashed line     </li>     <li class='mt-2'> Try adjusting the radius of the red circle and see where it overlaps with the purple dashed circle (geosynchronous orbit)   </li> </ul>"
+        },
+        "interactive_data": {
+          "instructions_1": "Click and drag to move the coordinate system",
+          "instructions_2": "Watch how the circle equations update",
+          "instructions_3": "Notice that only the center point <span style='font-family: besley; font-style: italic;'>(<b style='color: #DB0072'>h</b>, <b style='color: #00749D'>k</b>)</span> is the center and <span style='font-family: besley; font-style: italic;'><b style='color: #633300'>r</b></span> changes, while the radius remains constant",
+          "geosynchronousOrbitText": "Geosynchronous orbit",
+          "lowerOrbitText": "Lower orbit",
+          "orbitRadiusText": "Orbit Radius:",
+          "unitsText": "miles",
+          "success_message": "Success! You have reached geosynchronous orbit.",
+          "math_minus": "minus",
+          "math_plus": "plus",
+          "math_squared": "squared",
+          "math_equals": "equals",
+          "equation_template": "x {operation1} {h} {squared} {plus} y {operation2} {k} {squared} {equals} {r} squared"
+        }
+      },
+      "S11_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Watch the two satellites. The purple one is in geosynchronous orbit — it orbits at the same speed as Earth's rotation speed.</div>",
+      "S11_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The red satellite is in a lower orbit. Notice how it's orbiting around Earth much faster. Now adjust the Orbit Radius slider to change the red satellite's orbit radius.</div>",
+      "S11_D3_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The closer I bring it to Earth, the faster it's orbiting around Earth.</div>",
+      "S11_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And when I move it farther out, it slows down.</div>",
+      "S11_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now, try matching the red orbit to the purple one. Adjust until they're at the same radius.</div>",
+      "S11_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It's orbiting at the same speed as Earth's rotation speed.</div>",
+      "S11_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's the geosynchronous orbit — it's about 22,236 miles above Earth's surface. At this exact altitude, the orbital period equals Earth's rotation.</div>",
+      "S11_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Many communication satellites use geosynchronous orbits, so a ground dish can point in a fixed direction and never move. GPS satellites use lower, faster orbits to cover more ground quickly.</div>",
+      "S11_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So the mission determines the orbit — communication satellites stay high, while imaging satellites fly low to capture high resolution images of Earth's surface.</div>",
+      "S11_D11_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And it's all circles and ellipses — the conic sections we saw in the <no-glossary>cone</no-glossary>!</div>",
+      "S11_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>You're connecting all the pieces. Now let's put everything together and launch our own satellite into orbit.</div>"
+    },
+    "S12": {
+      "S12_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>You've learned the theory — parabolic trajectories, Newton's Cannon, conic sections, and orbital speeds. Now it's time to apply everything.</div>",
+      "S12_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>We get to launch our own satellite? For real?</div>",
+      "S12_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>As real as it gets in training. You'll choose the altitude and velocity. Your satellite will either crash, orbit, or escape — based entirely on your choices.</div>",
+      "S12_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So we need to remember the circular orbit velocity and escape velocity for whatever altitude we choose?</div>",
+      "S12_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. The simulator will show you both velocities for your chosen altitude. Too slow, and gravity wins. Too fast, and you escape. Just right, and you achieve orbit.</div>",
+      "S12_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This is it. Everything we've learned comes down to this launch!</div>",
+      "S12_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let's see if you can become rocket scientists. Launch your satellite and watch the mathematics of spaceflight come to life.</div>"
+    },
+    "S13": {
+      "S13_D0_FX_C9": {
+        "title": "Satellite Launch Simulator",
+        "about": {
+          "heading": "Satellite Launch Simulator",
+          "body": "<div><p>Understanding Orbital Mechanics:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Parabolic Trajectory</strong>: Below circular velocity, the satellite follows a curved path and crashes back to Earth, demonstrating insufficient orbital speed.</li><li><strong>Circular Orbit</strong>: At exactly the circular velocity, the satellite achieves a stable circular orbit, falling around Earth forever.</li><li><strong>Elliptical Orbit</strong>: Between circular and escape velocity, the satellite follows an elliptical path, speeding up when close to Earth and slowing down when far away.</li><li><strong>Hyperbolic Escape</strong>: At or above escape velocity, the satellite breaks free from Earth's gravity and follows a hyperbolic trajectory into space.</li></ol><p>The simulator uses two fundamental orbital mechanics formulas:</p><div style='margin: 15px 0;'><p><strong>Circular Orbit Velocity:</strong></p><div style='font-family: Besley; font-size: 20px; margin: 10px 0; text-align: center;'><span style='color: #0061FC; font-style: italic; font-weight: bold;'>v</span> = <span style='display: inline-block; vertical-align: middle; text-align: center;'><span style='border-bottom: 1px solid currentColor; padding-bottom: 2px; display: block;'><span style='color: #DB0072; font-weight: bold;'>GM</span></span><span style='padding-top: 2px; display: block;'><span style='color: #008217; font-style: italic; font-weight: bold;'>r</span></span></span></div><p><strong>Escape Velocity:</strong></p><div style='font-family: Besley; font-size: 20px; margin: 10px 0; text-align: center;'><span style='color: #0061FC; font-style: italic; font-weight: bold;'>v</span><sub style='color: #0061FC;'>e</sub> = <span style='display: inline-block; vertical-align: middle; text-align: center;'><span style='border-bottom: 1px solid currentColor; padding-bottom: 2px; display: block;'>2<span style='color: #DB0072; font-weight: bold;'>GM</span></span><span style='padding-top: 2px; display: block;'><span style='color: #008217; font-style: italic; font-weight: bold;'>R</span></span></span></div></div><p><strong>Where:</strong></p><ul style='margin: 10px 0; padding-left: 20px;'><li><span style='color: #0061FC; font-family: Besley; font-style: italic; font-weight: bold;'>v</span> = orbital velocity</li><li><span style='color: #0061FC; font-family: Besley; font-style: italic; font-weight: bold;'>v</span><sub style='color: #0061FC;'>e</sub> = escape velocity</li><li><span style='color: #DB0072; font-family: Besley; font-weight: bold;'>G</span> = universal gravitational constant</li><li><span style='color: #DB0072; font-family: Besley; font-weight: bold;'>M</span> = mass of the celestial body</li><li><span style='color: #008217; font-family: Besley; font-style: italic; font-weight: bold;'>r</span> = orbital radius</li><li><span style='color: #008217; font-family: Besley; font-style: italic; font-weight: bold;'>R</span> = radius from center of body to point of launch</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to Use the Satellite Launch Simulator",
+          "body": "<div><p>To explore orbital mechanics:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Adjust the <strong>Orbital Insertion Altitude</strong> slider (62-1243 miles) to set launch height</li><li>Modify the <strong>Insertion Velocity</strong> slider (0.0-8.08 mi/s) to set launch speed</li><li>Observe how the <strong>Circular Orbit Velocity</strong> and <strong>Escape Velocity</strong> update automatically</li><li>Click <strong>Launch</strong> to start the simulation and watch the satellite's trajectory</li><li>Use <strong>Reset</strong> to stop the simulation and return to initial state</li><li>Try different velocity combinations to see different orbit types:<ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li>Below circular velocity (crashes back to Earth)</li><li>At circular velocity (perfect circular orbit)</li><li>Between circular and escape velocity (elliptical orbit)</li><li>At or above escape velocity (hyperbolic escape)</li></ul></li><li>Adjust <strong>Simulation Speed</strong> (1X, 2X, 5X) to control time scale</li></ol></div>"
+        },
+        "orbitPresets": "Orbit Presets:",
+        "simulationSpeed": "Simulation Speed:",
+        "orbitalInsertionAltitude": "Orbital Insertion Altitude:",
+        "insertionVelocity": "Insertion Velocity:",
+        "circularOrbitVelocity": "Circular Orbit Velocity:",
+        "escapeVelocity": "Escape Velocity:",
+        "timeScale": "Time Scale:",
+        "orbitType": "Orbit Type:",
+        "launch": "Launch",
+        "stop": "Reset",
+        "custom": "Custom",
+        "lowEarthOrbit": "Low Earth Orbit (LEO)",
+        "geosynchronousOrbit": "Geosynchronous Orbit (GSO)",
+        "satelliteCrashed": "<span className='text-red-600'>Satellite Crashed!</span>",
+        "orbitTypeCircular": "Orbit Type: <strong>Circular</strong>",
+        "orbitTypeElliptical": "Orbit Type: <strong>Elliptical</strong>",
+        "satelliteEscaped": "<span className='text-blue-600'>Satellite Escaped!</span>",
+        "orbitTypeUnknown": "Orbit Type: <strong>Unknown</strong>",
+        "miles": "miles",
+        "miPerSecond": "mi/s"
+      },
+      "S13_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Here's your satellite launch simulator. With it, you'll test how speed at selected altitude decides whether your satellite crashes, orbits, or escapes.</div>",
+      "S13_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So this is the real math of orbits — not just guessing, but calculating.</div>",
+      "S13_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Behind the screen is the vis-viva equation. It tells us what velocity a satellite needs at any altitude from Earth. Too little, and gravity wins. Too much, and you're gone forever.</div>",
+      "S13_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>First, let's understand the challenge: every orbit you make is one of the conic sections you just studied — circle, ellipse, parabola, or hyperbola. Now let's explore them.</div>",
+      "S13_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Set your Orbital Insertion Altitude — that's how high above Earth you want to release the satellite.</div>",
+      "S13_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I can see the circular orbit velocity changing as I move the altitude! Higher altitude means slower orbital speed needed.</div>",
+      "S13_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect observation. Also notice the escape velocity.</div>",
+      "S13_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Try launching your satellite with a velocity below the circular orbit velocity.</div>",
+      "S13_D9_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It's falling back! The trajectory curves down and crashes into Earth — just like our early projectiles.</div>",
+      "S13_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's a parabolic path — you didn't have enough sideways speed. Now reset and try launching at exactly the circular orbit velocity shown.</div>",
+      "S13_D11_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>It's orbiting! Look — it's making a perfect circle around Earth! This is what we saw in Newton's Cannon!</div>",
+      "S13_D12_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The path closed on itself. It's falling around the Earth forever, just like Dr. Vega said!</div>",
+      "S13_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Beautiful! That's a circular orbit. Now try launching slightly faster than circular velocity but below escape velocity.</div>",
+      "S13_D14_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Whoa! The orbit isn't a perfect circle anymore — it's stretched into an ellipse!</div>",
+      "S13_D15_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Most real satellites follow elliptical orbits. They speed up when close to Earth and slow down when far away. Now for the ultimate test — launch at or above escape velocity.</div>",
+      "S13_D16_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The path is opening up! It's not coming back — the satellite is escaping Earth's gravity completely!</div>",
+      "S13_D17_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's the hyperbola from the <no-glossary>cone</no-glossary> slicer! The satellite is free!</div>",
+      "S13_D18_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>At any given altitude, what determines whether a satellite achieves a stable orbit?</div>",
+      "question_1": {
+        "option_1": "The altitude alone",
+        "option_2": "The velocity alone",
+        "option_3": "The mass of the satellite",
+        "option_4": "The launch angle"
+      },
+      "S13_D19_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! At any given altitude, velocity is the key factor. You've just demonstrated every conic section we studied — parabola, circle, ellipse, and hyperbola — all from one simulator.</div>"
+    },
+    "S14": {
+      "S14_D1_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I can't believe we just launched satellites using math from thousands of years ago!</div>",
+      "S14_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let's reflect on your journey. You started thinking space was about going up, but learned that whether getting into orbit or escaping, it's really about going sideways fast enough.</div>",
+      "S14_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Then Newton's Cannon proved orbiting is just falling around Earth instead of into it. And conic sections connected everything — circles, ellipses, parabolas, and hyperbolas.</div>",
+      "S14_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Every orbital path follows one of those curves. Mathematics isn't just abstract formulas — it's the language that describes reality, from projectiles to planets.</div>",
+      "S14_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>You've learned what took humanity centuries to discover. Getting to space isn't about power or height — it's about understanding physics and using it perfectly.</div>"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You Have Completed Orbital Mechanics Training!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'><p>You successfully completed the Falling Into Orbit STEAMQuest!</p></p><p style='margin:0;'></p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You explored how parabolic trajectories govern projectile motion and discovered that speed alone cannot achieve orbit</li><li>You tested Newton's revolutionary thought experiment and proved that orbiting is falling sideways fast enough to continuously miss Earth</li><li>You uncovered conic sections hidden within a <no-glossary>cone</no-glossary> and learned that circles, ellipses, parabolas, and hyperbolas describe every possible orbital path</li><li>You compared geosynchronous and low Earth orbits to understand how altitude determines orbital velocity and satellite mission design</li></ul><p style='margin:0;'>Keep exploring how ancient mathematics predicts modern spaceflight and guides humanity's journey to the stars!</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_13904_1187' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_13904_1187)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9495 10.0803 10.9495 10.0803 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.407321 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/></g><path d='M57.9999 49.5L58 52L43.2654 50.5212L42.4823 53.64L38.5001 53.5004L37.8071 50.2558L23.0001 52L23.5001 48.9992C25.0001 46.9992 25.4402 44.6451 25.6487 44.1081L34.4515 28.4171C34.4547 25.4712 37.3726 19.4268 40.284 19.2736C43.1953 19.1205 46.5505 25.4149 46.7722 28.6384C49.8169 33.5285 56.2165 43.5623 56.2166 44.7127C56.2166 46.5 58.3645 48.9285 57.9999 49.5Z' fill='black'/><path d='M40.9402 58.7174L40.9489 56.7385C40.95 56.4673 40.7313 56.2465 40.4599 56.2453C40.1884 56.2441 39.9679 56.463 39.9667 56.7342L39.9581 58.7131C39.9569 58.9843 40.1756 59.2051 40.447 59.2063C40.7185 59.2075 40.939 58.9886 40.9402 58.7174Z' fill='black'/><path d='M44.4804 57.1593L44.4887 55.2766C44.4898 55.0054 44.2711 54.7846 43.9997 54.7834C43.7282 54.7822 43.5077 55.0011 43.5065 55.2723L43.4983 57.155C43.4971 57.4262 43.7158 57.647 43.9872 57.6482C44.2586 57.6494 44.4792 57.4305 44.4804 57.1593Z' fill='black'/><path d='M37.4138 57.129L37.4221 55.2463C37.4233 54.9751 37.2045 54.7543 36.9331 54.7531C36.6616 54.7519 36.4411 54.9708 36.4399 55.242L36.4317 57.1247C36.4305 57.396 36.6492 57.6168 36.9206 57.618C37.192 57.6192 37.4126 57.4003 37.4138 57.129Z' fill='black'/><path d='M40.0526 37.1689C40.0514 37.4401 40.2701 37.6609 40.5415 37.6621C40.813 37.6633 41.0335 37.4444 41.0347 37.1732L41.0557 32.366C41.7509 32.4614 42.4046 32.751 42.9489 33.208L42.9407 35.0826C42.9395 35.3539 43.1582 35.5747 43.4296 35.5759C43.7011 35.577 43.9216 35.3582 43.9228 35.0869L43.932 32.9851L43.9567 27.3849C43.9567 27.3796 43.956 27.3742 43.9559 27.3689C43.9558 27.3669 43.9558 27.365 43.9557 27.363C43.952 25.5148 42.4524 24.0082 40.6013 24.0001C38.7428 23.992 37.2245 25.4971 37.2164 27.3554L37.1826 35.057C37.1815 35.3282 37.4002 35.549 37.6716 35.5502C37.9431 35.5514 38.1636 35.3325 38.1648 35.0613L38.173 33.1866C38.7215 32.7346 39.3777 32.4507 40.0736 32.3614L40.0526 37.1689ZM38.1783 31.985L38.1985 27.3598C38.2043 26.0433 39.2805 24.9768 40.597 24.9825C41.1462 24.9849 41.6458 25.1811 42.0483 25.4958L40.3788 26.2878C40.1337 26.404 40.0292 26.6968 40.1457 26.9419C40.2294 27.1182 40.4045 27.2217 40.5876 27.2225C40.6586 27.2228 40.7312 27.2077 40.7998 27.1749L42.6958 26.2753C42.8251 26.5231 42.9102 26.7936 42.9455 27.0823L39.8649 28.5087C39.6188 28.6228 39.5116 28.9146 39.6256 29.1609C39.7083 29.3394 39.8848 29.4448 40.0694 29.4456C40.1389 29.4459 40.21 29.4314 40.2772 29.4002L42.9709 28.1529L42.9676 28.9011L41.1339 29.8014C40.8902 29.9209 40.7896 30.2153 40.9094 30.4587C40.9945 30.6318 41.1676 30.7325 41.3485 30.7333C41.4219 30.7336 41.4963 30.7177 41.5664 30.6829L42.9626 29.9972L42.9538 32.0057C42.2361 31.5792 41.4161 31.349 40.5691 31.3453C39.7221 31.3416 38.9001 31.5646 38.1782 31.9851L38.1783 31.985Z' fill='black'/><path d='M23.4139 52.3217C23.4336 52.3218 23.4532 52.3208 23.4733 52.3184L37.564 50.6629L37.5545 52.8149C37.5513 53.5523 38.1487 54.155 38.8863 54.1582L42.0518 54.1721C42.7894 54.1753 43.3921 53.5779 43.3953 52.8405L43.4047 50.6884L57.4803 52.4674C57.5004 52.4699 57.5201 52.4711 57.5397 52.4712C57.7023 52.4719 57.8566 52.3917 57.9489 52.255C58.0527 52.1015 58.0612 51.9027 57.9708 51.741L55.6733 47.6195C56.2125 47.049 56.5237 46.2973 56.5273 45.4769C56.5298 44.9172 56.3844 44.3669 56.1065 43.8846L47.0652 28.2205L47.0664 27.9455C47.0822 24.3305 44.2025 18.7781 40.6241 18.7624C37.0457 18.7468 34.1174 24.2735 34.1016 27.8888L34.1004 28.1637L24.9222 43.748C24.6399 44.2277 24.4899 44.7767 24.4875 45.3364C24.4838 46.1634 24.8021 46.9162 25.3209 47.4826L22.9886 51.5879C22.8972 51.749 22.904 51.9477 23.0065 52.102C23.0979 52.2394 23.2511 52.3209 23.4137 52.3216L23.4139 52.3217ZM42.4132 52.8362C42.4123 53.0322 42.2523 53.1906 42.0562 53.1897L38.8908 53.1759C38.6947 53.175 38.5361 53.015 38.537 52.8192L38.5596 47.6566L40.5009 46.9371L42.4358 47.6735L42.4132 52.8362ZM40.6778 45.9534C40.5668 45.9112 40.4439 45.9106 40.3325 45.9519L36.2387 47.4689L36.2473 45.516L40.5127 44.2661L44.7669 45.5533L44.7584 47.5062L40.6778 45.9534ZM47.0567 30.1712L50.6411 36.381L50.6243 40.2161C50.6231 40.4874 50.8418 40.7082 51.1132 40.7094C51.3847 40.7105 51.6052 40.4917 51.6064 40.2204L51.6158 38.07L55.2554 44.3754C55.4468 44.7069 55.5469 45.0864 55.5452 45.4724C55.5417 46.2673 55.1252 46.9734 54.4309 47.3615C53.7366 47.7495 52.918 47.7343 52.2401 47.3214L46.9956 44.123L47.0567 30.1712ZM46.4961 46.0555C46.6007 46.056 46.7039 46.023 46.79 45.9594C46.9146 45.8674 46.9886 45.7217 46.9893 45.5665L46.9906 45.2701L51.7289 48.1602C52.2345 48.4678 52.7935 48.6235 53.3546 48.626C53.879 48.6283 54.4045 48.4952 54.8887 48.229L56.64 51.371L43.409 49.6988L43.4162 48.0466L45.0714 48.6766C45.1275 48.698 45.186 48.7085 45.244 48.7087C45.3428 48.7092 45.4402 48.6798 45.5239 48.6226C45.6567 48.5314 45.7365 48.3808 45.7372 48.2197L45.7476 45.8502L46.3554 46.0342C46.4014 46.0483 46.4488 46.0553 46.4959 46.0555L46.4961 46.0555ZM35.084 27.8928C35.0974 24.814 37.6905 19.7317 40.6198 19.7445C43.5491 19.7574 46.0975 24.862 46.0841 27.941L46.0098 44.903L40.6567 43.2836C40.5657 43.2559 40.4679 43.2554 40.3765 43.2824L35.0095 44.8548L35.084 27.8928ZM25.769 44.2464L29.4637 37.973L29.4543 40.1234C29.4531 40.3946 29.6719 40.6154 29.9432 40.6166C30.2147 40.6178 30.4353 40.3989 30.4365 40.1277L30.4533 36.2925L34.0919 30.1143L34.0307 44.0659L28.7573 47.2187C28.4092 47.4277 28.0336 47.5328 27.6408 47.5311C26.5919 47.5265 25.4637 46.6877 25.4696 45.3405C25.4714 44.9545 25.5746 44.5761 25.7689 44.2465L25.769 44.2464ZM26.0983 48.1037C26.5535 48.3613 27.0777 48.511 27.6368 48.5134C28.2113 48.5159 28.7588 48.3639 29.2622 48.0615L34.0257 45.2133L34.0244 45.5097C34.0237 45.6648 34.0964 45.8112 34.2202 45.9044C34.3445 45.9982 34.506 46.0275 34.6539 45.983L35.2633 45.8043L35.253 48.1738C35.2523 48.3349 35.3307 48.4861 35.4627 48.5786C35.5947 48.6703 35.7629 48.6932 35.9147 48.6364L37.5754 48.021L37.5681 49.6731L24.3218 51.2295L26.0983 48.1037Z' fill='black'/><path d='M51.1082 41.8576C50.8367 41.8564 50.6162 42.0753 50.615 42.3465L50.613 42.8008C50.6118 43.072 50.8305 43.2928 51.1019 43.294C51.3734 43.2952 51.5939 43.0763 51.5951 42.8051L51.5971 42.3508C51.5983 42.0798 51.3796 41.8588 51.1082 41.8576Z' fill='black'/><path d='M29.932 43.2022C30.2036 43.2034 30.4241 42.9845 30.4253 42.7133L30.4273 42.259C30.4284 41.9878 30.2097 41.767 29.9383 41.7658C29.6668 41.7646 29.4463 41.9835 29.4451 42.2547L29.4431 42.709C29.4419 42.9801 29.6607 43.201 29.932 43.2022Z' fill='black'/><path d='M41.0269 38.9411L41.0278 38.7307C41.029 38.4595 40.8103 38.2387 40.5389 38.2375C40.2674 38.2363 40.0469 38.4552 40.0457 38.7264L40.0448 38.9368C40.0436 39.208 40.2623 39.4288 40.5337 39.43C40.8052 39.4312 41.0257 39.2123 41.0269 38.9411Z' fill='black'/><path d='M55.7856 44.901L57.6528 48.906L43.6176 47.5912L42.8345 50.7099L38.7801 50.1337L38.1593 47.3257L24.2769 48.922L26.2572 44.5575C25.5517 43.1427 25.7924 41.715 26.0009 41.178L34.8037 25.4871C34.8069 22.5411 37.7248 16.4967 40.6361 16.3436C43.5475 16.1904 46.9026 22.4849 47.1244 25.7083C50.1691 30.5984 56.3204 40.6594 56.5687 41.7826C56.8171 42.9058 56.1501 44.3295 55.7856 44.901Z' fill='white'/><path d='M41.2926 55.7877L41.3013 53.8089C41.3025 53.5376 41.0837 53.3168 40.8124 53.3156C40.5409 53.3144 40.3203 53.5333 40.3191 53.8045L40.3105 55.7834C40.3093 56.0546 40.528 56.2754 40.7994 56.2766C41.0709 56.2778 41.2914 56.0589 41.2926 55.7877Z' fill='black'/><path d='M44.8328 54.2296L44.8411 52.3469C44.8423 52.0757 44.6235 51.8549 44.3522 51.8537C44.0806 51.8525 43.8601 52.0714 43.8589 52.3426L43.8507 54.2253C43.8495 54.4965 44.0682 54.7174 44.3396 54.7185C44.611 54.7197 44.8316 54.5008 44.8328 54.2296Z' fill='black'/><path d='M37.7662 54.1994L37.7745 52.3167C37.7757 52.0454 37.5569 51.8246 37.2856 51.8234C37.0141 51.8223 36.7935 52.0411 36.7923 52.3124L36.7841 54.1951C36.7829 54.4663 37.0017 54.6871 37.273 54.6883C37.5444 54.6895 37.765 54.4706 37.7662 54.1994Z' fill='black'/><path d='M40.405 34.2392C40.4038 34.5104 40.6225 34.7312 40.8939 34.7324C41.1654 34.7336 41.3859 34.5147 41.3871 34.2435L41.4082 29.4363C42.1033 29.5317 42.757 29.8214 43.3013 30.2783L43.2931 32.1529C43.2919 32.4242 43.5107 32.645 43.782 32.6462C44.0535 32.6474 44.2741 32.4285 44.2752 32.1572L44.2845 30.0554L44.3091 24.4552C44.3092 24.4499 44.3085 24.4445 44.3083 24.4392C44.3082 24.4372 44.3082 24.4353 44.3081 24.4333C44.3044 22.5851 42.8048 21.0785 40.9537 21.0704C39.0952 21.0623 37.5769 22.5674 37.5688 24.4257L37.5351 32.1273C37.5339 32.3985 37.7526 32.6193 38.024 32.6205C38.2955 32.6217 38.516 32.4028 38.5172 32.1316L38.5254 30.2569C39.0739 29.8049 39.7301 29.5211 40.426 29.4317L40.405 34.2392ZM38.5307 29.0554L38.5509 24.4301C38.5567 23.1136 39.6329 22.0471 40.9494 22.0529C41.4986 22.0553 41.9982 22.2514 42.4007 22.5661L40.7312 23.3581C40.4861 23.4743 40.3816 23.7671 40.4981 24.0122C40.5818 24.1885 40.7569 24.292 40.9401 24.2928C41.011 24.2931 41.0836 24.278 41.1522 24.2453L43.0482 23.3457C43.1775 23.5934 43.2627 23.8639 43.2979 24.1527L40.2173 25.579C39.9712 25.6931 39.864 25.985 39.978 26.2312C40.0607 26.4097 40.2372 26.5151 40.4218 26.5159C40.4913 26.5162 40.5625 26.5017 40.6296 26.4705L43.3233 25.2233L43.32 25.9714L41.4863 26.8717C41.2426 26.9913 41.142 27.2856 41.2618 27.529C41.347 27.7021 41.52 27.8028 41.7009 27.8036C41.7743 27.8039 41.8487 27.788 41.9188 27.7532L43.3151 27.0675L43.3063 29.076C42.5886 28.6495 41.7686 28.4193 40.9215 28.4156C40.0745 28.4119 39.2525 28.6349 38.5307 29.0555L38.5307 29.0554Z' fill='black'/><path d='M23.7663 49.3921C23.786 49.3921 23.8056 49.3911 23.8257 49.3887L37.9164 47.7332L37.9069 49.8852C37.9037 50.6227 38.5011 51.2253 39.2387 51.2285L42.4042 51.2424C43.1419 51.2456 43.7445 50.6482 43.7477 49.9108L43.7571 47.7588L57.8327 49.5377C57.8528 49.5402 57.8725 49.5415 57.8921 49.5415C58.0547 49.5423 58.209 49.4621 58.3013 49.3253C58.4051 49.1718 58.4136 48.973 58.3232 48.8113L56.0257 44.6898C56.5649 44.1193 56.8762 43.3676 56.8797 42.5472C56.8822 41.9875 56.7368 41.4372 56.459 40.955L47.4176 25.2908L47.4188 25.0159C47.4347 21.4008 44.5549 15.8484 40.9765 15.8328C37.3981 15.8171 34.4698 21.3438 34.454 24.9591L34.4528 25.234L25.2746 40.8184C24.9923 41.298 24.8423 41.847 24.8399 42.4067C24.8362 43.2337 25.1545 43.9865 25.6734 44.5529L23.341 48.6583C23.2496 48.8193 23.2564 49.018 23.3589 49.1723C23.4504 49.3097 23.6035 49.3912 23.7661 49.3919L23.7663 49.3921ZM42.7656 49.9065C42.7647 50.1025 42.6048 50.2609 42.4086 50.26L39.2432 50.2462C39.0471 50.2453 38.8885 50.0853 38.8894 49.8895L38.912 44.7269L40.8533 44.0075L42.7882 44.7439L42.7656 49.9065ZM41.0303 43.0237C40.9192 42.9815 40.7963 42.981 40.6849 43.0222L36.5911 44.5392L36.5997 42.5863L40.8651 41.3364L45.1194 42.6236L45.1108 44.5766L41.0303 43.0237ZM47.4092 27.2415L50.9935 33.4513L50.9767 37.2864C50.9755 37.5577 51.1942 37.7785 51.4656 37.7797C51.7371 37.7809 51.9576 37.562 51.9588 37.2907L51.9683 35.1403L55.6079 41.4457C55.7992 41.7772 55.8993 42.1567 55.8976 42.5427C55.8941 43.3376 55.4776 44.0437 54.7833 44.4318C54.089 44.8198 53.2704 44.8046 52.5925 44.3917L47.348 41.1933L47.4092 27.2415ZM46.8485 43.1258C46.9531 43.1263 47.0563 43.0933 47.1425 43.0297C47.267 42.9377 47.3411 42.792 47.3417 42.6368L47.343 42.3404L52.0813 45.2305C52.5869 45.5382 53.1459 45.6938 53.707 45.6963C54.2315 45.6986 54.7569 45.5655 55.2412 45.2993L56.9924 48.4413L43.7614 46.7691L43.7686 45.117L45.4239 45.7469C45.4799 45.7683 45.5384 45.7788 45.5964 45.7791C45.6952 45.7795 45.7926 45.7501 45.8763 45.6929C46.0091 45.6017 46.0889 45.4511 46.0896 45.29L46.1 42.9205L46.7078 43.1045C46.7538 43.1187 46.8012 43.1256 46.8483 43.1258L46.8485 43.1258ZM35.4364 24.9631C35.4499 21.8843 38.0429 16.802 40.9722 16.8148C43.9015 16.8277 46.45 21.9323 46.4365 25.0113L46.3622 41.9733L41.0091 40.3539C40.9181 40.3262 40.8203 40.3257 40.7289 40.3527L35.3619 41.9252L35.4364 24.9631ZM26.1215 41.3167L29.8162 35.0433L29.8067 37.1937C29.8055 37.4649 30.0243 37.6857 30.2957 37.6869C30.5672 37.6881 30.7877 37.4692 30.7889 37.198L30.8057 33.3628L34.4443 27.1846L34.3832 41.1362L29.1097 44.289C28.7616 44.498 28.3861 44.6031 27.9933 44.6014C26.9443 44.5968 25.8161 43.758 25.822 42.4108C25.8238 42.0248 25.9271 41.6464 26.1213 41.3168L26.1215 41.3167ZM26.4507 45.174C26.9059 45.4317 27.4301 45.5813 27.9892 45.5837C28.5638 45.5862 29.1112 45.4343 29.6147 45.1319L34.3781 42.2836L34.3768 42.58C34.3761 42.7351 34.4488 42.8815 34.5726 42.9747C34.6969 43.0685 34.8584 43.0978 35.0064 43.0533L35.6158 42.8746L35.6054 45.2441C35.6047 45.4052 35.6831 45.5564 35.8151 45.6489C35.9471 45.7406 36.1153 45.7635 36.2671 45.7067L37.9278 45.0913L37.9205 46.7435L24.6742 48.2998L26.4507 45.174Z' fill='black'/><path d='M51.4606 38.9279C51.1891 38.9267 50.9686 39.1456 50.9674 39.4169L50.9654 39.8711C50.9642 40.1423 51.183 40.3631 51.4543 40.3643C51.7258 40.3655 51.9464 40.1466 51.9475 39.8754L51.9495 39.4212C51.9507 39.1501 51.732 38.9291 51.4606 38.9279Z' fill='black'/><path d='M30.2845 40.2725C30.556 40.2737 30.7765 40.0548 30.7777 39.7836L30.7797 39.3294C30.7809 39.0581 30.5621 38.8373 30.2908 38.8361C30.0192 38.8349 29.7987 39.0538 29.7975 39.3251L29.7955 39.7793C29.7944 40.0504 30.0131 40.2713 30.2845 40.2725Z' fill='black'/><path d='M41.3793 36.0114L41.3803 35.801C41.3814 35.5298 41.1627 35.309 40.8913 35.3078C40.6198 35.3066 40.3993 35.5255 40.3981 35.7967L40.3972 36.0071C40.396 36.2783 40.6148 36.4991 40.8861 36.5003C41.1576 36.5015 41.3781 36.2826 41.3793 36.0114Z' fill='black'/></svg>",
+      "rightsvg": "<svg width='92' height='106' viewBox='0 0 92 106' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M2.43038 99.371C2.48123 99.3576 2.53092 99.3414 2.58123 99.3214L37.7444 85.3275L39.2059 90.879C39.7067 92.7813 41.6619 93.9216 43.5648 93.4206L51.7305 91.2709C53.6335 90.7699 54.7738 88.8147 54.273 86.9124L52.8115 81.3609L90.307 76.2267C90.3606 76.2193 90.4123 76.2089 90.4628 76.1956C90.8822 76.0852 91.2244 75.772 91.3677 75.3561C91.5293 74.8889 91.4139 74.3707 91.0694 74.0165L82.3042 64.983C83.2996 63.1409 83.5825 60.9892 83.0253 58.8727C82.6452 57.4289 81.8908 56.1114 80.8419 55.0607L46.7312 20.9424L46.5445 20.2331C44.0894 10.9075 32.8361 -1.41066 23.6051 1.01951C14.374 3.44967 10.6447 19.7116 13.0999 29.0377L13.2866 29.747L0.397333 76.2385C0.00123415 77.6692 -0.0062851 79.1874 0.37381 80.6312C0.935462 82.7646 2.2753 84.4845 4.00317 85.5858L0.827843 97.7739C0.703646 98.2519 0.858256 98.7593 1.22884 99.086C1.5594 99.3768 2.01036 99.4812 2.42977 99.3708L2.43038 99.371ZM51.7394 87.5794C51.8725 88.0849 51.5697 88.6036 51.0638 88.7368L42.8981 90.8865C42.3922 91.0197 41.8732 90.7169 41.7402 90.2118L38.2342 76.894L42.7394 73.7L48.2333 74.2616L51.7394 87.5794ZM42.5162 71.0431C42.201 71.011 41.884 71.0945 41.6254 71.2776L32.1246 78.0129L30.7983 72.975L40.9257 66.8095L52.7761 67.1891L54.1024 72.227L42.5162 71.0431ZM48.0562 25.9743L61.5789 39.5L64.1834 49.3933C64.3676 50.093 65.0837 50.5109 65.7837 50.3266C66.4841 50.1422 66.9012 49.426 66.717 48.7264L65.2565 43.1789L78.9877 56.9129C79.7096 57.6349 80.2294 58.5435 80.4916 59.5393C81.0314 61.59 80.4458 63.6969 78.9247 65.176C77.4038 66.6551 75.284 67.1811 73.2522 66.5852L57.531 61.965L48.0562 25.9743ZM57.5782 67.2893C57.848 67.2182 58.0911 67.0622 58.2692 66.8387C58.5267 66.5157 58.6168 66.0891 58.5114 65.6887L58.3101 64.924L72.5141 69.0994C74.0292 69.5432 75.5771 69.5583 77.0246 69.1773C78.3775 68.8211 79.6395 68.1154 80.7034 67.0951L87.3851 73.982L52.1392 78.8081L51.0172 74.5461L55.717 75.0265C55.8761 75.0429 56.0341 75.0295 56.1837 74.9901C56.4387 74.923 56.6694 74.7801 56.8456 74.575C57.1247 74.2483 57.2264 73.8052 57.1169 73.3895L55.5078 67.2771L57.2009 67.3315C57.3291 67.3362 57.4562 67.3214 57.5776 67.2895L57.5782 67.2893ZM15.6339 28.3699C13.543 20.4277 16.7155 5.54229 24.2721 3.55296C31.8286 1.56363 41.9192 12.9569 44.0102 20.8995L55.5294 64.6555L40.6185 64.1787C40.365 64.17 40.1126 64.2365 39.8958 64.3689L27.1526 72.126L15.6339 28.3699ZM2.92343 76.9379L8.11214 58.223L9.57246 63.7701C9.75665 64.4698 10.4727 64.8877 11.1727 64.7034C11.8731 64.519 12.2902 63.8028 12.106 63.1031L9.50152 53.2098L14.6113 34.7789L24.0861 70.769L12.6751 82.5333C11.9225 83.3121 11.0274 83.8422 10.0141 84.1089C7.30828 84.8213 3.8221 83.439 2.90722 79.9638C2.64544 78.968 2.65018 77.9216 2.92311 76.9382L2.92343 76.9379ZM6.43497 86.6493C7.7856 86.999 9.23966 87.0226 10.6819 86.6429C12.164 86.2527 13.4696 85.4831 14.5581 84.3564L24.8652 73.7289L25.0664 74.4935C25.1718 74.8936 25.4603 75.2205 25.8435 75.3752C26.2286 75.531 26.6649 75.4951 27.0154 75.2782L28.4622 74.3972L30.0714 80.5096C30.1808 80.9253 30.4874 81.2605 30.8913 81.4078C31.2946 81.5529 31.7439 81.4957 32.0957 81.2447L35.9498 78.5124L37.0718 82.7744L4.01568 95.9299L6.43497 86.6493ZM36.4409 49.7745C35.7409 49.9587 35.0248 49.5408 34.8406 48.8412L31.5757 36.4396C29.8442 37.1502 28.3495 38.3347 27.2483 39.878L28.5215 44.714C28.7056 45.4136 28.2886 46.1299 27.5882 46.3142C26.8881 46.4985 26.1721 46.0806 25.9879 45.381L20.7576 25.5135C19.4956 20.72 22.3684 15.7935 27.1628 14.5314C31.9378 13.2743 36.8418 16.1208 38.1274 20.8804C38.1291 20.8855 38.1304 20.8903 38.1322 20.8954C38.1339 20.9015 38.136 20.9075 38.1381 20.9135C38.1406 20.9209 38.1432 20.9284 38.1452 20.936L41.9481 35.3828L43.3755 40.8047C43.5596 41.5043 43.1426 42.2206 42.4422 42.405C41.7421 42.5893 41.0261 42.1713 40.8419 41.4717L39.5688 36.6357C37.8508 35.8342 35.9665 35.5393 34.1095 35.7733L37.3742 48.1742C37.5584 48.8738 37.1413 49.5901 36.4409 49.7745ZM23.2913 24.8469L26.4324 36.7784L26.4324 36.7787C28.0019 35.1966 29.9659 34.0545 32.1509 33.4793C34.336 32.904 36.6078 32.9311 38.7514 33.5344L37.3875 28.3534L34.2633 31.084C34.1067 31.2221 33.9259 31.3146 33.7366 31.3644C33.27 31.4872 32.7545 31.3471 32.4157 30.96C31.9389 30.4156 31.9948 29.5876 32.5402 29.1115L36.6435 25.5257L36.1354 23.5957L30.0559 28.669C29.9044 28.7958 29.7311 28.8823 29.5518 28.9295C29.0756 29.0549 28.548 28.9052 28.2118 28.5024C27.748 27.9466 27.8226 27.1205 28.378 26.6568L35.3309 20.8547C35.0406 20.1349 34.6345 19.4969 34.1304 18.9477L29.8661 22.5747C29.7119 22.7065 29.5353 22.7955 29.3523 22.8437C28.8799 22.9681 28.3573 22.8223 28.0199 22.4257C27.5505 21.8746 27.6175 21.0481 28.1689 20.5794L31.9238 17.3862C30.6694 16.8532 29.2467 16.6927 27.83 17.0657C24.4338 17.9597 22.3972 21.4507 23.2913 24.8469ZM41.8217 102.092L40.5432 97.2356C40.359 96.536 39.643 96.1181 38.943 96.3024C38.2427 96.4868 37.8256 97.203 38.0098 97.9026L39.2883 102.759C39.4725 103.459 40.1885 103.877 40.8885 103.692C41.5885 103.508 42.0059 102.792 41.8217 102.092ZM58.7721 92.4349L60.0506 97.2913C60.2348 97.9909 59.8173 98.7073 59.1173 98.8915C58.4174 99.0758 57.7013 98.6579 57.5171 97.9583L56.2386 93.1018C56.0544 92.4022 56.4715 91.686 57.1719 91.5016C57.8719 91.3174 58.5879 91.7353 58.7721 92.4349ZM50.6603 98.6448L52.0041 103.749C52.1883 104.449 51.7712 105.165 51.0708 105.349C50.3708 105.534 49.6548 105.116 49.4706 104.416L48.1268 99.3118C47.9427 98.6122 48.3597 97.896 49.0601 97.7116C49.7601 97.5273 50.4761 97.9452 50.6603 98.6448ZM65.6305 54.8896C65.4463 54.19 65.8634 53.4738 66.5637 53.2894C67.2637 53.1051 67.9799 53.5234 68.1639 54.2227L68.4724 55.3944C68.6566 56.094 68.2395 56.8102 67.5392 56.9946C66.8392 57.1788 66.1231 56.7609 65.939 56.0613L65.6305 54.8896ZM12.9285 71.3726C13.6288 71.1882 14.0459 70.472 13.8617 69.7724L13.5533 68.6007C13.3691 67.9011 12.6531 67.4832 11.9531 67.6674C11.2527 67.8518 10.8356 68.568 11.0198 69.2676L11.3283 70.4394C11.5124 71.1386 12.2285 71.5569 12.9285 71.3726ZM38.4313 52.1913L38.5742 52.7339C38.7584 53.4336 38.3413 54.1498 37.6409 54.3341C36.941 54.5184 36.2249 54.1005 36.0407 53.4009L35.8979 52.8583C35.7137 52.1587 36.1308 51.4425 36.8311 51.2581C37.5311 51.0738 38.2472 51.4917 38.4313 52.1913Z' fill='white'/></svg>",
+      "leftsvgarialabel": "Space rocket launch icon",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#clip0_1853_3355)\"><path d=\"M68.884 30.9415L62.4383 19.7779C61.5173 18.1818 60.0503 16.9742 58.3069 16.3761L47.2371 12.5767C46.9116 12.4515 46.5496 12.5631 46.4373 12.6763C43.3436 14.7879 36.8562 14.7834 33.5483 12.6696C33.306 12.5034 33.0102 12.4796 32.7576 12.5767L21.6883 16.3761C19.9449 16.9742 18.4779 18.1818 17.5569 19.7779L11.1112 30.9415C10.8767 31.3482 11.016 31.8681 11.4227 32.1026L20.6403 37.4231C21.047 37.6576 21.5658 37.5183 21.8003 37.1127L25.0481 31.4887V64.7396C25.0481 66.2519 26.2772 67.481 27.7895 67.481H52.7914C54.3037 67.481 55.5339 66.2519 55.5339 64.7396L55.5337 32.5037L58.1947 37.1129C58.4292 37.5184 58.948 37.6578 59.3547 37.4233L68.5724 32.1027C68.979 31.8683 69.1184 31.3483 68.8839 30.9416L68.884 30.9415ZM28.6383 39.5178C28.6383 33.7057 33.3676 28.9782 39.1778 28.9782C44.9996 28.9782 49.7184 33.7126 49.7184 39.5178C49.7184 40.4042 49.6089 41.2969 49.3831 42.1617C51.3857 43.253 52.1673 45.9567 50.2735 47.8482L45.6971 52.4245C45.3601 52.7638 44.8159 52.7487 44.4917 52.4245L41.7968 49.7296C40.9759 49.9399 40.1006 50.0581 39.1777 50.0581C33.3656 50.0583 28.6381 45.3277 28.6381 39.5176L28.6383 39.5178ZM45.7579 14.9475L45.3728 16.9299C44.8745 19.498 42.6134 21.3613 39.9976 21.3613C37.3818 21.3613 35.1208 19.4979 34.6225 16.9298L34.2305 14.9111C37.5436 16.2402 42.3297 16.3544 45.7575 14.9475L45.7579 14.9475ZM52.7914 65.7797H27.7895C27.2152 65.7797 26.7474 65.313 26.7474 64.7375V60.0602H53.8348V64.7375C53.8348 65.313 53.3672 65.7797 52.7917 65.7797H52.7914ZM49.0724 46.6435V46.6447L45.094 50.6231L42.6505 48.1796C42.6505 48.1785 42.6482 48.1762 42.6471 48.1751L41.1155 46.6435C39.4108 45.007 41.9055 42.1511 43.7572 44.0029L44.4935 44.7404C44.8256 45.0725 45.3633 45.0723 45.6954 44.7404L46.4317 44.0029C48.1672 42.2674 50.8318 44.8872 49.0723 46.6435L49.0724 46.6435ZM34.3883 46.9437C34.6892 46.2869 34.578 45.7233 34.1877 45.3079C32.8824 43.9199 32.9832 40.6262 35.0249 39.2262C35.8567 38.6569 36.5376 36.7132 35.6876 36.026C34.284 34.8931 32.928 34.5895 31.9561 34.4208C33.5775 32.136 36.1658 30.7361 38.9939 30.6779C39.6243 30.6662 40.2387 30.7147 40.871 30.8388C40.564 31.4628 40.389 31.1588 40.7067 31.9818C41.204 33.2788 41.255 34.7232 40.8483 36.052C40.6493 36.7018 41.6549 37.0197 41.8418 36.342C42.0888 35.455 42.961 34.8965 43.8684 35.0438C44.7838 35.1922 45.733 35.0619 46.5736 34.6768C47.4767 36.0513 48.0191 37.7182 48.0191 39.5159C48.0191 40.286 47.9239 41.011 47.7427 41.7203C47.3624 41.7203 47.0295 41.7639 46.5566 41.931C46.5555 41.931 46.5555 41.9322 46.5555 41.9322C45.944 42.1597 45.531 42.4986 45.0953 42.9381C44.9631 42.8059 44.6491 42.4751 44.2332 42.2255C41.0015 40.2486 36.6526 44.5831 39.9138 47.8453L40.3488 48.2803C39.9682 48.3307 39.5787 48.3573 39.1775 48.3573C37.4339 48.3575 35.7717 47.8441 34.3881 46.9437L34.3883 46.9437Z\" fill=\"#005F20\"/></g><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"11.5\" stroke=\"#005F20\"/><defs><clipPath id=\"clip0_1853_3355\"><rect width=\"58\" height=\"58\" fill=\"white\" transform=\"translate(11 11)\"/></clipPath></defs></svg></div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Breaking Even with Linear Functions</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>You've Applied Systems Of Linear Equations In Business!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Mei find the break-even point to determine when her business is profitable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You showed that you understand the relationships between costs, revenue, and profit</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed fixed costs, variable costs, price, and quantities</li></ul></div>"
+    },
+    "glossary": {
+      "conic-sections": {
+        "word": "Conic Sections",
+        "definition": "<strong className=\"text-[#0055B2]\">Conic Sections</strong> are shapes created by intersecting a plane with a cone. The four types are circles, ellipses, parabolas, and hyperbolas."
+      },
+      "ellipse": {
+        "word": "ellipse",
+        "definition": "<strong className=\"text-[#0055B2]\">Ellipse</strong> is an oval-shaped curve, formed when a plane cuts through a cone at an angle. It has two foci and a longer axis (major axis) and a shorter axis (minor axis)."
+      },
+      "hyperbola": {
+        "word": "hyperbola",
+        "definition": "<strong className=\"text-[#0055B2]\">Hyperbola</strong> is a curve formed when a plane intersects both halves of a cone. It has two branches that move away from each other and can represent paths of objects escaping gravity."
+      },
+      "parabola": {
+        "word": "parabola",
+        "definition": "<strong className=\"text-[#0055B2]\">Parabola</strong> is a U-shaped curve formed by slicing a cone parallel to its side. In orbital mechanics, it represents the path of an object at escape velocity."
+      },
+      "circle": {
+        "word": "circle",
+        "definition": "A <strong className=\"text-[#0055B2]\">Circle</strong> is the set of all points in a plane that are a given distance, the radius, from a given point, the center, representing the path of an object in a stable orbit."
+      },
+      "orbit": {
+        "word": "orbit",
+        "definition": "<strong className=\"text-[#0055B2]\">Orbit</strong> is a curved path an object takes around a star, planet, or moon due to gravity. It can be circular, elliptical, or hyperbolic depending on the object's speed and trajectory."
+      },
+      "escape-velocity": {
+        "word": "escape velocity",
+        "definition": "<strong className=\"text-[#0055B2]\">Escape Velocity</strong> is the minimum speed needed for an object to break free from the gravitational pull of a planet or moon without further propulsion."
+      },
+      "parabolic_trajectory": {
+        "word": "parabolic trajectory",
+        "definition": "<strong className=\"text-[#0055B2]\">Parabolic Trajectory</strong> is the curved path an object follows through the air under the force of gravity after it is thrown or launched."
+      },
+      "altitude": {
+        "word": "altitude",
+        "definition": "<strong className=\"text-[#0055B2]\">Altitude</strong> is the height at which an object is above the surface of a planet. It is measured from the ground to its position in the sky."
+      }
+    },
+    "common": {
+      "char1": "Dr. Vega",
+      "char2": "Leila",
+      "char3": "Ayaan",
+      "char1_description": "A seasoned African American NASA mission director, wearing a professional blazer, with an analytical demeanor and authoritative presence.",
+      "char2_description": "A young Navajo flight dynamics engineer, enthusiastic and attentive, dressed in a NASA trainee uniform, eager to apply her academic skills practically.",
+      "char3_description": "A diplomatic Chilean-American UN advisor in a formal suit, thoughtful and poised, emphasizing international cooperation in space exploration.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Futuristic glass building with space-themed logo, set against mountain backdrop with blue sky.",
+      "bg2_description": "Futuristic command center with large digital displays showing Earth and global data, team gathered around central console.",
+      "bg3_description": "High-tech control room with curved wall of digital screens displaying Earth and data visualizations, lone figure monitoring operations.",
+      "bg4_description": "Aerospace mission control room with holographic rocket display, global tracking screens, and personnel monitoring launch operations.",
+      "bg5_description": "Futuristic data visualization center with circular central platform, multiple people observing large digital displays showing Earth and analytical information."
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "falling-into-orbit": "STEAM Quest - Starlight SpaceCamp"
+  }
+}

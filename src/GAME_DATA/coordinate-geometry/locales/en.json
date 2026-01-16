@@ -1,0 +1,470 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introductory Dialogues",
+    "scene_4": "LiDAR Jungle Survey",
+    "scene_5": "LiDAR Survey Result",
+    "scene_6": "Precision Partitioning",
+    "scene_7": "Structure Analysis",
+    "scene_8I": "Distance Formula",
+    "scene_8": "Geometry Revealed",
+    "scene_9": "City Settlement Analysis",
+    "scene_10": "Archaeologist's Toolkit",
+    "scene_11": "Conclusion",
+    "scene_12": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333;'>LiDAR & Lines</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333;'>Uncovering Maya Mathematics</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Deep in the Yucatán jungle, ancient cities have remained hidden for centuries beneath the dense canopy. Using advanced LiDAR technology and coordinate geometry, you'll join archaeologists to reveal the mathematical genius of Maya civilization. See how principles of distance, ratio, and alignment can uncover structures invisible to the naked eye and decode the mathematical secrets of a vanished world.</p>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>Welcome to the Yucatan Peninsula!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>I'm Dr. Nathaniel Cruz, and I'm leading an expedition to uncover Maya cities hidden beneath this jungle canopy. With cutting-edge LiDAR technology, we can now see what traditional archaeology couldn't reveal. Join me and Riley Morgan, our LiDAR engineer, as we use coordinate geometry to discover how the Maya applied sophisticated mathematics to their architecture. Let's begin our journey to unveil the mathematical genius of this ancient civilization!</p>"
+      }
+    },
+    "S3": {
+      "S3_D1_F5_C1": "For decades, archaeologists have been trying to understand the full extent of Maya civilization in this region. Traditional methods only let us see what's been excavated—just the tip of the iceberg.",
+      "S3_D2_F6_C2": "That's why we've brought the LiDAR system. Light Detection and Ranging can penetrate the canopy and give us a complete picture of what lies beneath.",
+      "S3_D3_F7_C1": "Let me show you how it works. Our drone emits millions of laser pulses that bounce off different surfaces. Some reflect from the canopy, some from branches, and crucially, some make it all the way to the ground.",
+      "S3_D4_F8_C2": "Since we know the drone's exact position and measure the time for each pulse to return, we can create precise 3D coordinates for each point the laser hits.",
+      "S3_D5_F9_C1": "Our <no-glossary>survey</no-glossary> area is this dense jungle, which likely contains undiscovered Maya structures that have been hidden for centuries.",
+      "S3_D6_F10_C2": "Would you like to see LiDAR in action? Let me set up the drone for a scan of this sector."
+    },
+    "S4": {
+      "S4_D0_F11_C9": {
+        "title": "LiDAR Jungle Survey",
+        "about": {
+          "heading": "About LiDAR in Archaeology",
+          "body": "<ul style='margin-left: 15px;'><li><strong>LiDAR Technology:</strong></li><ul style='margin-left: 15px;'><li>• Light Detection and Ranging (LiDAR) uses laser pulses to map terrain</li><li>• Laser beams penetrate vegetation to reveal hidden structures</li><li>• Different colors represent where the laser beam is reflected</li><li>• This technology revolutionized Maya archaeology by revealing cities beneath dense jungle</li></ul><li><strong>Archaeological Context:</strong></li><ul style='margin-left: 15px;'><li>• Ancient Maya cities often remain hidden under centuries of jungle growth</li><li>• LiDAR helps archaeologists discover features like temples, roads and terraces</li><li>• The simulation shows how archaeologists use filtered LiDAR data to identify human-made structures</li><li>• Patterns in the data reveal rectangular buildings, pathways and city layouts</li></ul></ul>"
+        },
+        "help": {
+          "heading": "How to use this tool",
+          "body": "<ul style='margin-left: 15px;'><li><strong>Navigation Controls:</strong></li><ul style='margin-left: 15px;'><li>• <strong>Mouse drag</strong>: Rotate camera around the scene</li><li>• <strong>Mouse wheel</strong>: Zoom in and out</li><li>• <strong>Left panel</strong>: View scan statistics and control scanning</li></ul><li><strong>Scanning Process:</strong></li><ul style='margin-left: 15px;'><li>• Click Start LiDAR Scan to begin surveying the area</li><li>• Green dots represent canopy (tree) hits</li><li>• Blue dots show ground surface hits</li><li>• Orange dots indicate potential structure hits</li><li>• Click Show Data Analysis to view the 2D map of discovered features</li></ul><li><strong>Tips:</strong></li><ul style='margin-left: 15px;'><li>• Look for patterns in the orange dots as structures are revealed</li><li>• Complete the full scan to reveal all hidden archaeological features</li><li>• The compass helps you maintain orientation during exploration</li></ul></ul>"
+        },
+        "labels": {
+          "canopyHits": "Green dots: Canopy hits",
+          "groundHits": "Blue dots: Ground hits",
+          "structureHits": "Orange dots: Structure hits",
+          "startScan": "Start LiDAR Scan",
+          "stopScan": "Stop Scan",
+          "scanProgress": "Scan Progress",
+          "discoveries": "Discoveries",
+          "pathwayDiscovered": "Ancient Maya pathway",
+          "cityDiscovered": "Maya ceremonial city complex",
+          "scanComplete": "LiDAR analysis complete",
+          "instructions": "Use mouse to rotate view, wheel to zoom",
+          "zoom": "Zoom: +/- keys",
+          "rotate": "Rotate: Arrow keys",
+          "pan": "Pan: Ctrl + Arrow keys",
+          "north": "N",
+          "east": "E",
+          "south": "S",
+          "west": "W",
+          "showDataAnalysis": "Show Data Analysis"
+        },
+        "messages": {
+          "ready": "Ready to begin LiDAR scan of jungle terrain.",
+          "initiating": "Initiating LiDAR scan sequence...",
+          "pathwayFound": "Ancient pathway discovered!",
+          "cityFound": "Ancient Maya city discovered!",
+          "complete": "Scan complete! Ancient Maya city fully mapped and analyzed.",
+          "paused": "Scan Stopped. Press Start Scan to scan again."
+        },
+        "graphDescription": "A 3D interactive component simulating a jungle environment with a drone scanning for hidden pathways and ancient city structures. It includes features like a compass, scan progress, and filtered data visualization for canopy, ground, and structure hits."
+      },
+      "S4_D1_F11_C2": "This interface shows us our real-time data collection. As we proceed, the green dots represent canopy hits, blue dots represent ground returns, and orange dots indicate potential structure points.",
+      "S4_D2_F12_C1": "Go ahead and start the scan when you're ready. Watch carefully as the data comes in.",
+      "S4_D3_F13_C1": "Great! The scan is now active. You can see how the laser pulses are already mapping the jungle canopy with those green points.",
+      "S4_D4_F14_C2": "For a more detailed view of what we're collecting, click the 'Show Data Analysis' button in the top right. This will help us see patterns as they emerge.",
+      "S4_D5_F15_C2": "Look at the analysis window! See those blue points forming a linear pattern? That's not natural—that looks like an ancient pathway running east to west.",
+      "S4_D6_F16_C1": "Exactly! The LiDAR is revealing what the jungle has been hiding. As we continue scanning, watch for more geometric patterns in both displays.",
+      "S4_D7_F17_C2": "The scan is now revealing something remarkable to the east—notice those orange points clustering in regular geometric shapes?",
+      "S4_D8_F18_C1": "Those are structure foundations! Based on the arrangement, we're looking at a ceremonial complex. See how they form precise right angles and aligned orientations?",
+      "S4_D9_F19_C1": "Scan complete! We've just mapped an entire Maya city that's been hidden for centuries.",
+      "S4_D10_F20_C2": "The data shows something like a ceremonial center surrounded by smaller structures and connected by a formal pathway.",
+      "S4_D11_F21_C1": "The Maya were sophisticated mathematicians and astronomers. They built their cities with precise geometric principles—perfect right angles, exact proportions, and alignments to celestial events.",
+      "S4_D12_F22_C2": "Now that we have this point cloud data, we can use coordinate geometry to analyze these structures and understand their significance.",
+      "S4_D13_F23_C1": "This is a major discovery. Are you ready to help us uncover the mathematical secrets of this lost Maya city?"
+    },
+    "S5": {
+      "S5_D0_F24_C9": {
+        "title": "LiDAR Survey Result",
+        "about": {
+          "heading": "About LiDar Data",
+          "body": "What you're seeing:<ul style='margin-left: 20px;'><li>• Filtered LiDAR data with vegetation removed</li><li>• Bare earth model showing hidden structures</li><li>• Archaeological features revealed under jungle canopy</li><li>• Maya city layout with central pyramid, structures, and pathways</li></ul>"
+        },
+        "help": {
+          "heading": "How to read this map",
+          "body": "<ul><li><strong>• Green dots:</strong> Vegetation canopy</li><li><strong>• Blue dots:</strong> Ground surface</li><li><strong>• Bright blue dots:</strong> Ancient pathway</li><li><strong>• Orange dots:</strong> Archaeological structures</li></ul>"
+        },
+        "canvasTitle": "LiDAR Filtered Data",
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W",
+        "scanComplete": "Scan: 100%",
+        "graphDescription": "Analysis results showing a jungle environment with hidden pathways and ancient city structures. It includes filtered data visualization for canopy, ground, and structure hits."
+      },
+      "S5_D1_F24_C1": "The initial LiDAR scan results are coming in. We've identified what appears to be a perfectly straight pathway.",
+      "S5_D2_F25_C2": "It's too precise to be natural. This has to be a wall or ceremonial path built by the Maya.",
+      "S5_D3_F26_C1": "The endpoints are clearly major architectural features. It's precisely the kind of pattern we've been searching for.",
+      "S5_D4_F27_C2": "I'm logging the endpoints as points <span style='color: #0061fc; font-family: Besley;'>A</span> - (<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x<sub>1</sub></span>, <span style='color: #633300; font-family: Besley; font-style: italic'>y<sub>1</sub></span>) and <span style='color: #008217; font-family: Besley;'>B</span> - (<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x<sub>2</sub></span>, <span style='color: #633300; font-family: Besley; font-style: italic'>y<sub>2</sub></span>) in our coordinate system for further analysis.",
+      "S5_D5_F28_C1": "This matches patterns we've seen at other sites. Maya architects often positioned shrines or temples at specific ratio points along major pathways.",
+      "S5_D6_F29_C2": "Yes, they frequently used proportional ratios like 3:2 or 7:3 to determine where to place ritual structures.",
+      "S5_D7_F30_C1": "It's remarkable how they applied these mathematical principles without modern tools.",
+      "S5_D8_F31_C2": "That's where coordinate geometry becomes valuable for us. We can use the partition formula to calculate where a shrine might be located.",
+      "S5_D9_F32_C1": "The partition formula is perfect for this situation. If we have two points <span style='color: #0061fc; font-family: Besley;'>A</span> and <span style='color: #008217; font-family: Besley;'>B</span>, and want to find a point <span style='color: #DB0072; font-family: Besley;'>P</span> that divides it in ratio <span style='color: #00749D; font-family: Besley; font-style: italic'>a</span>:<span style='color: #677600; font-family: Besley; font-style: italic'>b</span>.",
+      "S5_D10_F33_C2": "If a point divides segment <span style='color: #0061fc; font-family: Besley;'>A</span><span style='color: #008217; font-family: Besley;'>B</span> in the ratio <span style='color: #00749D; font-family: Besley; font-style: italic'>a</span>:<span style='color: #677600; font-family: Besley; font-style: italic'>b</span>, then the coordinates of the point are:<br><span class='sr-only'>B X 1 plus A X 2 divided by A + B and B Y 1 plus A Y 2 divided by A + B</span><span aria-hidden='true'><span style='font-size: 2em;'>(</span><span style='display: inline-block; text-align: center;'><span style='color: #677600; font-family: Besley; font-style: italic'>b</span><span style='color: #8e24aa; font-family: Besley; font-style: italic'>x<sub>1</sub></span> + <span style='color: #00749D; font-family: Besley; font-style: italic'>a</span><span style='color: #8e24aa; font-family: Besley; font-style: italic'>x<sub>2</sub></span><br><span style='border-top: 1px solid currentColor; padding-top: 2px;'><span style='color: #00749D; font-family: Besley; font-style: italic'>a</span> + <span style='color: #677600; font-family: Besley; font-style: italic'>b</span></span></span>, <span style='display: inline-block; text-align: center;'><span style='color: #677600; font-family: Besley; font-style: italic'>b</span><span style='color: #633300; font-family: Besley; font-style: italic'>y<sub>1</sub></span> + <span style='color: #00749D; font-family: Besley; font-style: italic'>a</span><span style='color: #633300; font-family: Besley; font-style: italic'>y<sub>2</sub></span><br><span style='border-top: 1px solid currentColor; padding-top: 2px;'><span style='color: #00749D; font-family: Besley; font-style: italic'>a</span> + <span style='color: #677600; font-family: Besley; font-style: italic'>b</span></span></span><span style='font-size: 2em;'>)</span></span>",
+      "S5_D11_F34_C2": "Let's use this formula to analyze where we should focus our excavation efforts along this wall <no-glossary>segment</no-glossary>."
+    },
+    "S6": {
+      "S6_D0_F35_C9": {
+        "title": "Precision Partitioning",
+        "about": {
+          "heading": "About Maya Architectural Proportion",
+          "body": "<div><p style='font-weight: bold'>Archaeological Context:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Ancient Maya architects used precise mathematical ratios in their structures</li><li>Key architectural features were often positioned using specific proportions</li><li>This tool simulates archaeological fieldwork using LiDAR and ground surveys</li><li>Imperial measurements (feet) are used following archaeological convention</li></ul><p style='font-weight: bold'>Mathematical Concept:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Point <span style='color: #db0072; font-family: Besley'>P</span> divides segment <span style='color: #0061fc; font-family: Besley'>A</span><span style='color: #008217; font-family: Besley'>B</span> in ratio <span style='color: #8e24aa; font-family: Besley; font-style: italic;'>m</span></li><li>If ratio is <span style='color: #00749d; font-family: Besley; font-style: italic;'>a</span>:<span style='color: #677600; font-family: Besley; font-style: italic;'>b</span>, then <span style='color: #db0072; font-family: Besley'>P</span> is positioned at <span style='display:inline-block; vertical-align:middle; text-align:center; min-width:2em;'><span style='display:block; border-bottom:1px solid;'>a</span><span style='display:block;'>a+b</span></span> of the total length from <span style='color: #0061fc; font-family: Besley'>A</span></li><li>Example: 3:2 ratio places <span style='color: #db0072; font-family: Besley'>P</span> at <span style='display:inline-block; vertical-align:middle; text-align:center; min-width:2em;'><span style='display:block; border-bottom:1px solid;'>3</span><span style='display:block;'>5</span></span> (60%) of the distance from <span style='color: #0061fc; font-family: Besley'>A</span> to <span style='color: #008217; font-family: Besley'>B</span></li><li>This positioning was critical for astronomical alignments and ritual spaces</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to use this tool",
+          "body": "<div><p style='font-weight: bold'>Basics:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Drag points</strong> <span style='color: #0061fc; font-family: Besley'>A</span> and <span style='color: #008217; font-family: Besley'>B</span> change the foundation line length and angle</li><li>You can also enter coordinates for points <span style='color: #0061fc; font-family: Besley'>A</span> and <span style='color: #008217; font-family: Besley'>B</span> in the text box</li><li><strong>Adjust the ratio</strong> using the input fields to position structure <span style='color: #db0072; font-family: Besley'>P</span></li><li><strong>Toggle the structure</strong> to show/hide the Maya building</li><li><strong>Reset</strong> returns to default settings</li></ul><p style='font-weight: bold'>Tips:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Structure <span style='color: #db0072; font-family: Besley'>P</span> divides segment <span style='color: #0061fc; font-family: Besley'>A</span><span style='color: #008217; font-family: Besley'>B</span> according to the specified ratio</li><li>The coordinate grid shows measurements in feet</li><li>Distances are automatically calculated as you adjust points</li><li>Verify measurements in the bottom panel</li></ul></div>"
+        },
+        "translations": {
+          "point": "Point",
+          "placementRatio": "Placement Ratio",
+          "placementRatioDescription": "Ratio {ratio1}:{ratio2} means structure <span style='color: #DB0072; font-family: Besley;'>P</span> is positioned to divide foundation <span style='color: #0061fc; font-family: Besley;'>A</span><span style='color: #008217; font-family: Besley;'>B</span> in ratio {ratio1} to {ratio2}",
+          "pointCoordinates": "Point Coordinates",
+          "formulaLabel": "Ratio Division Formula",
+          "formulaDescription": "For points <span style='color: #0061fc; font-family: Besley;'>A</span>(<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x₁</span>, <span style='color: #633300; font-family: Besley; font-style: italic'>y₁</span>), <span style='color: #008217; font-family: Besley;'>B</span>(<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x₂</span>, <span style='color: #633300; font-family: Besley; font-style: italic'>y₂</span>), and ratio {ratio1}:{ratio2}",
+          "result": "Result",
+          "resultDescription": "Position of P : ({partitionX},{partitionY}), or {partitionRatioPercent}% of total length",
+          "structure": "Structure",
+          "show": "Show",
+          "hide": "Hide",
+          "reset": "Reset",
+          "canvasDescription": "Analytical system showing LiDAR data and coordinate geometry calculations. It includes features like point marking, distance calculations, and filtered data visualization for ground returns."
+        }
+      },
+      "S6_D1_F35_C2": "I've uploaded the LiDAR data to our analytical system. We can now calculate where a Maya shrine might be positioned along this straight segment.",
+      "S6_D2_F36_C1": "Our endpoint coordinates are clearly defined. Point <span style='color: #0061fc; font-family: Besley;'>A</span> is at (150, 200) and point <span style='color: #008217; font-family: Besley;'>B</span> is at (450, 200).",
+      "S6_D3_F37_C2": "Maya architects commonly positioned important structures at points that divide pathways in a 3:2 ratio. Can you calculate where we should focus our excavation?",
+      "S6_D4_F38_C2": "That's right! The coordinates are (330, 200). Let me mark this spot on our map.",
+      "S6_D5_F39_C1": "Fascinating! The LiDAR data shows an anomaly almost exactly at that position. Your calculation matches what we're seeing in the point cloud.",
+      "S6_D6_F40_C2": "Different regions sometimes used different proportional systems. Let's test another common Maya ratio: 7:3.",
+      "S6_D7_F41_C1": "If we adjust to a 7:3 ratio, how far along the segment would the shrine be positioned, as a percentage from point <span style='color: #0061fc; font-family: Besley;'>A</span>?",
+      "S6_D8_F42_C1": "Precisely! At a 7:3 ratio, the shrine would be positioned 70% of the way from point <span style='color: #0061fc; font-family: Besley;'>A</span> to point <span style='color: #008217; font-family: Besley;'>B</span>.",
+      "S6_D9_F43_C2": "This is consistent with what we've seen at other Late Classic <no-glossary>period</no-glossary> sites. The Maya were remarkably consistent with these proportions.",
+      "S6_D10_F44_C1": "This is exactly why mathematics is so powerful in archaeology. We're using the same geometric principles the Maya used, but to rediscover what they built.",
+      "S6_D11_F45_C2": "Now that we've identified these key points, let's examine what kind of structure might be at the first location we calculated."
+    },
+    "S7": {
+      "S7_D1_F46_C1": "Now that we've identified this key point using the partition formula, I'm getting more detailed LiDAR readings of the area.",
+      "S7_D2_F47_C2": "The point cloud data is showing something very interesting around those coordinates.",
+      "S7_D3_F48_C1": "It appears to be a raised platform with clear geometric boundaries. This could be a ceremonial plaza.",
+      "S7_D4_F49_C2": "Maya ceremonial architecture typically followed precise geometric principles. They weren't just building at random.",
+      "S7_D5_F50_C1": "Absolutely. Their most important ritual spaces often adhered to specific proportions that reflected their cosmological beliefs.",
+      "S7_D6_F51_C2": "To determine if this is indeed a major ceremonial space, we need to measure its dimensions accurately.",
+      "S7_D7_F52_C1": "The distance formula will be essential here. For any two points (<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x<sub>1</sub></span>, <span style='color: #633300; font-family: Besley; font-style: italic'>y<sub>1</sub></span>) and (<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x<sub>2</sub></span>, <span style='color: #633300; font-family: Besley; font-style: italic'>y<sub>2</sub></span>), the distance between them is…",
+      "S7_D8_F53_C2": "√[(<span style='color: #8e24aa; font-family: Besley; font-style: italic'>x₂</span> − <span style='color: #8e24aa; font-family: Besley; font-style: italic'>x₁</span>)² + (<span style='color: #633300; font-family: Besley; font-style: italic'>y₂</span> − <span style='color: #633300; font-family: Besley; font-style: italic'>y₁</span>)²]. We'll need to apply this formula to each side of the structure.",
+      "S7_D9_F54_C1": "And once we have the dimensions, we can calculate both the perimeter and the area.",
+      "S7_D10_F55_C2": "Most importantly, we need to determine the ratio of length to width. The sacred 2:1 ratio is particularly significant in Maya architecture.",
+      "S7_D11_F56_C1": "That specific proportion appears frequently at major sites like Tikal and Chichen Itza. It's associated with primary ceremonial spaces.",
+      "S7_D12_F57_C2": "Yes but first, let's understand how to use the distance formula to verify the measurements."
+    },
+    "S8I": {
+      "S8I_D0_F58_C10": {
+        "title": "Distance Formula",
+        "about": {
+          "heading": "About Distance Formula",
+          "body": "<div><p style='font-weight: bold'>Mathematical Foundation:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>The distance formula is derived from the Pythagorean theorem</li><li>It calculates the straight-line distance between two points in a coordinate plane</li><li>Essential for navigation, engineering, and geometric calculations</li><li>Used in computer graphics, GPS systems, and architectural design</li></ul><p style='font-weight: bold'>Key Concepts:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Two points <span style='color: #E0002B; font-family: Besley'>A</span>(x₁,y₁) and <span style='color: #238B21; font-family: Besley'>B</span>(x₂,y₂) create a right triangle</li><li>Horizontal distance: Δx = x₂ - x₁</li><li>Vertical distance: Δy = y₂ - y₁</li><li>Pythagorean theorem: d² = Δx² + Δy²</li><li>Final formula: d = √[(x₂ - x₁)² + (y₂ - y₁)²]</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to use Distance Formula",
+          "body": "<div><p style='font-weight: bold'>Interactive Steps:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Click on the grid</strong> to place two points <span style='color: #E0002B; font-family: Besley'>A</span> and <span style='color: #238B21; font-family: Besley'>B</span></li><li><strong>Toggle the triangle</strong> to show/hide the right triangle formed by the points</li><li><strong>Watch the calculations</strong> as Δx and Δy are computed automatically</li><li><strong>See the distance formula</strong> applied step by step using Pythagorean theorem</li><li><strong>Reset</strong> to clear points and start over</li></ul><p style='font-weight: bold'>What You'll Learn:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>How coordinate differences create the sides of a right triangle</li><li>The connection between Pythagorean theorem and distance calculation</li><li>Why the distance formula works for any two points</li><li>Real-world applications of coordinate geometry</li></ul></div>"
+        },
+        "translations": {
+          "instructions": "Instructions",
+          "pythagoreanTheorem": "Pythagorean Theorem",
+          "pointA": "Point A",
+          "pointB": "Point B",
+          "showRightTriangle": "Show Right Triangle",
+          "hideRightTriangle": "Hide Right Triangle",
+          "reset": "Reset",
+          "canvasDescription": "Canvas Description",
+          "distanceCalculation": "Distance Calculation",
+          "selectedPoints": "Selected Points",
+          "differences": "Differences",
+          "differencesEquation": "<div class='text-gray-300'> <div class='margin-bottom-2; text-white'><strong>Differences: </strong></div> <span style='font-family: Besley'>Δx = x<sub>2</sub> - x<sub>1</sub></span> <div><span style='font-family: Besley'>Δy = y<sub>2</sub> - y<sub>1</sub></span></div></div>",
+          "pythagoreanTheoremEquation": "<div class='text-gray-300'> <div class='margin-bottom-2; text-white'><strong>Pythagorean Theorem: </strong></div> <span style='font-family: Besley'>d<sup>2</sup> = Δx<sup>2</sup> + Δy<sup>2</sup></span> <div><span style='font-family: Besley'>d<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup></span></div></div>",
+          "distanceFormula": "<div class='text-gray-300'> <div class='margin-bottom-2; text-white'><strong>Distance Formula: </strong></div> <span style='font-family: Besley'>d = √[(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>]</span></div>",
+          "distance": "Distance",
+          "pointsTranslation": "Points"
+        }
+      },
+      "S8I_D1_F59_C1": "Riley, let's place two points on the coordinate grid: point <span style='color: #E0002B; font-family: Besley'>A</span> and point <span style='color: #238B21; font-family: Besley'>B</span>.",
+      "S8I_D2_F60_C2": "Alright, I see both points. What's the first step to find the distance between them?",
+      "S8I_D3_F61_C1": "We draw a right triangle between the points. The horizontal side represents the change in x, and the vertical side represents the change in y.",
+      "S8I_D4_F62_C2": "So the horizontal distance is <span style='font-family: Besley'>Δx = x<sub>2</sub> - x<sub>1</sub></span>, and the vertical distance is <span style='font-family: Besley'>Δy = y<sub>2</sub> - y<sub>1</sub></span>.",
+      "S8I_D5_F63_C1": "Correct. Now we apply the Pythagorean theorem. The distance squared is <span style='font-family: Besley'>d<sup>2</sup> = Δx<sup>2</sup> + Δy<sup>2</sup></span>.",
+      "S8I_D6_F64_C2": "And taking the square root, the distance is <span style='font-family: Besley'>d = √( (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup> )</span>.",
+      "S8I_D7_F65_C1": "Perfect! That's the distance formula. It works for any two points on the coordinate plane.",
+      "S8I_D8_F66_C2": "Now let's analyze this platform carefully using the distance formula."
+    },
+    "S8": {
+      "S8_D0_F58_C9": {
+        "title": "Geometry Revealed",
+        "about": {
+          "heading": "About Maya Architecture",
+          "body": "<div><p style='font-weight: bold'>Archaeological Context:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Maya ceremonial platforms typically have precise 2:1 ratios</li><li>LiDAR data reveals geometric patterns beneath jungle growth</li><li>Archaeologists map structures before excavation</li><li>Analysis of dimensions helps identify structure function</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to use this tool",
+          "body": "<div><p style='font-weight: bold'>Basic Controls:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Click on the map to mark structure corners or use input boxes to add new points.</li><li>You can enter the coordinates through the text box</li><li>Click red X to remove points</li><li>Use Show Guide to see target outline</li><li>Click Reset to start over</li></ul><p style='font-weight: bold'>Analysis Tips:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Look for rectangular patterns in the point cloud</li><li>Maya structures often have a 2:1 length-to-width ratio</li><li>Right angles are key architectural features</li><li>The tool will calculate measurements automatically</li></ul></div>"
+        },
+        "translations": {
+          "hideGuide": "Hide Guide",
+          "showGuide": "Show Guide",
+          "dataLegend": "LiDAR Ground Return Data - 9.8 ft above surface",
+          "scaleLegend": "Scale: 1 pixel = 1 foot",
+          "addPoint": "Add Point",
+          "reset": "Reset",
+          "selectedPoints": "Selected Points",
+          "deletePoint": "Delete Point",
+          "status": "Status",
+          "statusDescription1": "Need {numPoints} more point(or points) to calculate measurements",
+          "statusDescription2": "{numPoints} points marked - Analyzing structure",
+          "measurementLabel": "Structure Measurements",
+          "perimeter": "Perimeter",
+          "area": "Area",
+          "ratio": "Ratio",
+          "rightAngles": "Right Angles",
+          "yes": "Yes",
+          "no": "No",
+          "insights": "Insights",
+          "insightsDescription1": "2:1 ratio matches classic Maya ceremonial platforms",
+          "insightsDescription2": "Right angles demonstrate Maya engineering precision",
+          "objetiveLabel": "Expedition Objective",
+          "objetiveDescription": "Mark 4 points around the Maya structure visible in the LiDAR data. Look for rectangular patterns with right angles and a 2:1 ratio - common features in Maya ceremonial architecture.",
+          "successLabel": "Discovery Success!",
+          "successDescription": "You've successfully identified a Maya ceremonial platform with the classic 2:1 ratio and perfect right angles! This structure likely served an important ritual purpose in ancient Maya society.",
+          "nextStep": "Next Step",
+          "nextStepDescription": "Continue your exploration to find ancient pathways connecting this structure to other Maya sites.",
+          "canvasDescription": "2D component simulating a LiDAR analysis of a Maya structure. It includes features like point marking, distance calculations, and filtered data visualization for ground returns."
+        }
+      },
+      "S8_D1_F58_C2": "I've loaded the LiDAR data into our analysis system. We can now mark each corner of the structure to calculate its measurements in imperial units.",
+      "S8_D2_F59_C1": "The filtered data clearly shows a rectangular platform. Notice the brighter cyan points at what appear to be the corners of the structure.",
+      "S8_D3_F60_C2": "Using the coordinates of the four corners of the platform [(-67,50), (-67,-50), (133,50), (133,-50)], we need to calculate its perimeter in feet.",
+      "S8_D4_F61_C2": "Let's calculate the perimeter of the Maya platform with the given coordinates.",
+      "S8_D5_F62_C1": "Excellent! A perimeter of 600 feet. It reveals Maya mathematical precision. Their perfectly rectangular structures weren't accidental–it was mathematical knowledge put into practice.",
+      "S8_D6_F63_C2": "Using the same coordinates, can you now tell what is the area of this platform?",
+      "S8_D7_F64_C1": "Perfect! 20,000 square feet. That's approximately the size of four modern football fields combined!",
+      "S8_D8_F65_C2": "Now for the critical analysis - what is the length-to-width ratio of this platform, and what might this tell us about its ceremonial purpose?",
+      "S8_D9_F66_C2": "What is the length-to-width ratio and what does it indicate about the platform's purpose?",
+      "S8_D9_F66_C2_optionA": "1:2 or 2:1",
+      "S8_D9_F66_C2_optionB": "1:3 or 3:1",
+      "S8_D10_F67_C1": "That's right! The 2:1 ratio is a hallmark of Maya ceremonial architecture. At approximately 200 ft by 100 ft, this structure follows the sacred proportions found at major ceremonial centers like Tikal and Palenque across the Maya world.",
+      "S8_D11_F68_C2": "This mathematical signature confirms our archaeological <no-glossary>hypothesis</no-glossary>. The structure's specific proportions indicate this was a primary ritual space rather than a secondary or residential structure.",
+      "S8_D12_F69_C1": "Magnificent! You've identified a Maya ceremonial platform with the sacred 2:1 ratio. This platform would have been the site of important public ceremonies and ritual performances that were central to Maya society.",
+      "S8_D13_F70_C2": "By carefully measuring and analyzing the coordinates, you've revealed not just the physical dimensions but the cultural significance of this structure. This mathematical approach allows us to understand Maya architecture without disturbing the site."
+    },
+    "S9": {
+      "S9_D1_F71_C1": "Our discoveries so far have been remarkable. The ceremonial plaza and shrine positions suggest this was a major Maya center.",
+      "S9_D2_F72_C2": "I've just finished processing the complete LiDAR dataset for the entire 2 square kilometer area surrounding our initial findings.",
+      "S9_D3_F73_C1": "Excellent! Now we can <no-glossary>expand</no-glossary> our analysis to understand the full extent of this settlement.",
+      "S9_D4_F74_C2": "The complete dataset contains millions of data points from different elevation levels. We'll need to filter through them systematically.",
+      "S9_D5_F75_C1": "The challenge is separating the vegetation returns from the actual architectural features.",
+      "S9_D6_F76_C2": "That's where our filtering tools come in. We can <no-glossary>isolate</no-glossary> the layer and see what's hidden.",
+      "S9_D7_F77_C1": "And with our coordinate geometry techniques, we can analyze how all these structures relate to each other.",
+      "S9_D8_F78_C2": "Maya cities weren't randomly organized. Their layout often reflected cosmological principles and political hierarchies.",
+      "S9_D9_F79_C1": "Precisely. By examining alignments, proportions, and spatial relationships, we can understand how the entire settlement functioned.",
+      "S9_D10_F80_C2": "Our toolkit includes everything we've used so far—the partition formula, distance calculations, and area measurements—plus additional analytical tools.",
+      "S9_D11_F81_C1": "It's time to put all these mathematical techniques together to unlock the full story of this lost Maya city."
+    },
+    "S10": {
+      "S10_D0_F82_C9": {
+        "title": "Archaeologist's Toolkit",
+        "about": {
+          "heading": "About Ancient Maya Cities",
+          "body": "<div><p style='font-weight: bold'>City Layout Features:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Triangle Garden: Ceremonial triangular space</li><li>Rectangle Plaza: Central gathering area</li><li>Circle Reservoir: Water collection basin</li><li>Sacbe: Raised limestone pathways connecting important areas</li><li>Defensive walls with gates protected the city center</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to use this tool",
+          "body": "<div><p style='font-weight: bold'>Filtering Mode:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Toggle vegetation layer to reveal hidden structures</li><li>Use left-click + drag to rotate the camera view</li><li>Use mouse wheel to zoom in and out</li><li>Use right-click + drag to pan the view</li></ul><p style='font-weight: bold'>Measurement Mode:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Select a structure to analyze from the feature list</li><li>Measurements update automatically when we select the structure</li></ul></div>"
+        },
+        "translations": {
+          "scalene": "Scalene",
+          "isosceles": "Isosceles",
+          "equilateral": "Equilateral",
+          "right": "Right",
+          "square": "Square",
+          "rectangle": "Rectangle",
+          "trapezoid": "Trapezoid",
+          "rhombus": "Rhombus",
+          "canvasDescription": "3D component simulating a LiDAR analysis of a Maya city. It includes features like point marking, distance calculations, and filtered data visualization for ground returns.",
+          "step1": {
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "mode": "Filtering Mode",
+            "description": "Turn off vegetation layer to proceed",
+            "toggleLays": "Toggle Layer",
+            "vegetation": "Vegetation",
+            "ground": "Ground"
+          },
+          "step2": {
+            "mode": "Measurement Mode",
+            "description": "Select a feature below to measure",
+            "selectFeature": "Select Feature",
+            "selectedPoints": "Selected Points",
+            "selectedPointsDescription": "Select a feature first",
+            "measurements": "Measurements",
+            "measurementDescription": "Select a feature to begin measuring",
+            "triangleGarden": "Triangle Garden",
+            "triangleGardenDescription": "Triangular ceremonial garden",
+            "triangleMeasureMethod": "<span style='color: #e0002b; font-family: Besley'>AB</span> ≈ 27 ft, <span style='color: #e0002b; font-family: Besley'>BC</span> ≈ 30 ft, <span style='color: #e0002b; font-family: Besley'>AC</span> ≈ 27 ft, Triangle area calculated using Heron's formula: √(<span style='color: #db0072; font-family: Besley'>s</span>(<span style='color: #db0072; font-family: Besley'>s</span>-<span style='color: #8e24aa; font-family: Besley; font-style: italic'>a</span>)(<span style='color: #db0072; font-family: Besley'>s</span>-<span style='color: #677600; font-family: Besley; font-style: italic'>b</span>)(<span style='color: #db0072; font-family: Besley'>s</span>-<span style='color: #633300; font-family: Besley; font-style: italic'>c</span>)) where <span style='color: #db0072; font-family: Besley'>s</span> is half the perimeter",
+            "rectanglePlaza": "Rectangle Plaza",
+            "rectanglePlazaDescription": "Rectangular central plaza",
+            "rectangleMeasureMethod": "<span style='color: #e0002b; font-family: Besley'>AB</span> = 50 ft, <span style='color: #e0002b; font-family: Besley'>BC</span> = 50 ft, <span style='color: #e0002b; font-family: Besley'>AC</span> = 50 ft, <span style='color: #e0002b; font-family: Besley'>AD</span> = 50 ft, Rectangle area calculated as width × height",
+            "circleReservoir": "Circle Reservoir",
+            "circleMeasureMethod": "Radius is 10 ft, Circle area calculated using <span style='color: #db0072'>π</span> × <span style='color: #633300'>r²</span>",
+            "polygonCourt": "Polygon Court",
+            "polygonCourtDescription": "Multi-sided ceremonial court",
+            "polygonMeasureMethod": "Polygon area calculated using the Shoelace formula",
+            "defaultMeasureMethod": "Area calculated using the Shoelace formula for irregular polygons",
+            "point": "Point",
+            "distance": "Distance",
+            "area": "Area",
+            "perimeter": "Perimeter",
+            "reset": "Reset"
+          }
+        }
+      },
+      "S10_D1_F82_C2": "Welcome to the Ancient City Explorer. I've loaded all the filtering and analysis tools for our use.",
+      "S10_D2_F83_C1": "Let's start by toggling off the vegetation layer to see what lies beneath the jungle cover.",
+      "S10_D3_F84_C2": "Look at that! As we filter out the vegetation layer, numerous structures are becoming visible across the landscape.",
+      "S10_D4_F85_C1": "I'm noticing several linear features radiating outward from the main plaza. They appear elevated above the surrounding terrain.",
+      "S10_D5_F86_C2": "Based on their elevated profile and straight alignment, what Maya architectural features do these likely represent?",
+      "S10_D6_F87_C1": "These raised, straight structures connected different areas of Maya cities. These are sacbeob—raised limestone causeways that connected important parts of Maya cities.",
+      "S10_D7_F88_C2": "These engineered roads weren't just practical—providing dry passage during rainy seasons—they had important ceremonial functions and likely reflected political relationships between different architectural groups.",
+      "S10_D8_F89_C1": "Let's proceed to the measurement step to analyze these features more precisely.",
+      "S10_D9_F90_C2": "In this step, we can select specific structures and measure their dimensions. Let's start with the Rectangle Plaza at the center.",
+      "S10_D10_F91_C1": "The plaza spans exactly 50 feet by 50 feet with an area of 2500 square feet.",
+      "S10_D11_F92_C2": "Each side measures 50 feet—that’s interesting. But we shouldn’t jump to conclusions about its classification just from those numbers.",
+      "S10_D11_F92X_C1": "Exactly. On a <no-glossary>coordinate plane</no-glossary>, you could verify this by using the <no-glossary>distance formula</no-glossary> to check all four side lengths. If they’re all equal, that shows it’s at least a <no-glossary>rhombus</no-glossary>.",
+      "S10_D11_F92Y_C2": "And then you’d use the slopes of consecutive sides to check if they’re perpendicular. If they are, then it’s also a <no-glossary>rectangle</no-glossary>.",
+      "S10_D11_F92Z_C1": "Correct. A shape that’s both a <no-glossary>rectangle</no-glossary> and a <no-glossary>rhombus</no-glossary>. What would we call it?",
+      "S10_D11_F92Z_C1_optionA": "Square",
+      "S10_D11_F92Z_C1_optionB": "Trapezoid",
+      "S10_D11_F92XW_C2": "That’s correct—it’s a square. Nice work reasoning it through step by step!",      
+      "S10_D12_F93_C2": "This precision suggests standardized measurement units in Maya architecture. Now let’s try measuring the <no-glossary>Triangle</no-glossary> Garden.",
+      "S10_D12_FX_C1": "It measures about 27 feet on two sides and 30 feet on the base.",
+      "S10_D13_F94_C2": "If we were working on a <no-glossary>coordinate plane</no-glossary>, we could determine those side lengths using the distance <no-glossary>formula</no-glossary>. That would let us classify the triangle by its sides—scalene, isosceles, or equilateral—and also by its angles as acute, right, or obtuse.",
+      "S10_D14_F95_C1": " In this case, with two equal sides and no right angle. So, here’s your question:",
+      "S10_D14_F95X_C2": "The Triangle Garden has two equal sides. What type of triangle is this?",
+      "S10_D14_F95X_C2_optionA": "Scalene",
+      "S10_D14_F95X_C2_optionB": "Isosceles",
+      "S10_D14_F95X_C2_optionC": "Equilateral",
+      "S10_D14_F95X_C2_optionD": "Right",
+      "S10_D14_F95Y_C1": "The Triangle Garden forms an isosceles triangle and connects directly to one of the main sacbeob. It's remarkable how precisely these structures were positioned.",
+      "S10_D14_F95_C2": "Now let's examine the Circle Reservoir.",
+      "S10_D15_F96_C1": "The reservoir has a diameter of exactly 20 feet. When we analyze all these structures together, I'm seeing a pattern emerging in their arrangement.",
+      "S10_D16_F97_C2": "Indeed! The different geometric forms—<no-glossary>triangle</no-glossary>, <no-glossary>rectangle</no-glossary>, circle—together with their connecting sacbeob, appear to represent different cosmic domains in Maya cosmology.",
+      "S10_D17_F98_C1": "This comprehensive analysis has transformed our understanding of this site. What began as hidden structures has revealed a city organized according to sophisticated mathematical and cosmological principles.",
+      "S10_D18_F99_C2": "And we've accomplished this using digital tools without excavation—demonstrating the power of combining 3D visualization with archaeological analysis."
+    },
+    "S11": {
+      "S11_D1_F102_C1": "Back at our base camp, I'm still amazed by what we've discovered through mathematical analysis alone.",
+      "S11_D2_F103_C2": "It's remarkable how coordinate geometry has revealed an entire Maya city that's been hidden for centuries.",
+      "S11_D3_F104_C1": "We started with just a few anomalies in the LiDAR data, but by applying the partition formula, we located ritual structures positioned at precise proportional points.",
+      "S11_D4_F105_C2": "The comprehensive analysis using our full toolkit revealed even more: the network of sacbeob connecting different parts of the site, standardized measurement units in residential areas, and the three-part cosmological division embedded in building designs.",
+      "S11_D5_F106_C1": "This expedition has demonstrated how powerful coordinate geometry can be for archaeological discovery. The partition formula, distance calculations, and proportional analysis have unlocked secrets that have been hidden for over a thousand years.",
+      "S11_D6_F107_C2": "And this is just the beginning. With these mathematical tools, we can continue to explore and understand not just where the Maya built, but how and why they designed their cities the way they did.",
+      "S11_D7_F108_C1": "I can't think of a more powerful demonstration of how mathematics connects to our understanding of human history and culture."
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You've uncovered the mathematical genius of Maya civilization!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin: 0'>You successfully completed the LiDAR & Lines: Uncovering Maya Mathematics STEAMQuest.</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px'><li>You applied the partition formula to locate hidden ceremonial structures</li><li>You used distance and area calculations to verify Maya design principles</li><li>You discovered the sacred 2:1 ratio and cosmological patterns in Maya architecture</li><li>You revealed how coordinate geometry can uncover secrets hidden for centuries</li></ul><p>The mathematical principles you practiced continue to unlock archaeological discoveries today!</p>",
+      "leftsvg": "<svg width=\"80\" height=\"81\" viewBox=\"0 0 80 81\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_21884_1145\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"80\" height=\"81\">\n<path d=\"M70 1H10C4.75329 1 0.5 5.25329 0.5 10.5V70.5C0.5 75.7467 4.75329 80 10 80H70C75.2467 80 79.5 75.7467 79.5 70.5V10.5C79.5 5.25329 75.2467 1 70 1Z\" fill=\"#5454D8\" stroke=\"#005F20\"/>\n</mask>\n<g mask=\"url(#mask0_21884_1145)\">\n<path d=\"M70.2104 10.6116L42.3396 0.820622C41.1396 0.393126 39.8657 0.393126 38.6619 0.820622L10.7911 10.6116C8.52025 11.4104 7.0026 13.5816 7.0026 16.0228V32.8417C6.78844 53.9125 19.7969 76.5545 40.5017 80.5C49.9836 78.82 57.8673 72.9139 64.0596 64.5971C70.4735 55.7773 74 44.5007 74 32.8425V16.0236C74 13.5861 72.4824 11.415 70.2115 10.6124L70.2104 10.6116Z\" fill=\"black\"/>\n<path d=\"M42.1793 1.27821L42.1813 1.27887L69.9853 10.558L70.0524 10.5808C72.1286 11.2779 73.5 13.156 73.5 15.2474V31.2254C73.5 42.1958 70.0068 52.7994 63.6644 61.086C57.5464 68.8912 49.7941 74.4029 40.5048 75.9923C20.1568 72.2556 7.29051 51.0507 7.50258 31.23L7.5026 31.2246V15.2467C7.5026 13.1514 8.8742 11.2738 10.9494 10.5803C10.9493 10.5803 10.9495 10.5803 10.9494 10.5803L38.8202 1.27888L38.8217 1.27836C39.922 0.907158 41.0834 0.90732 42.1793 1.27821Z\" fill=\"#FFCC00\"/>\n<path d=\"M10.9494 10.5803C8.8742 11.2738 7.5026 13.1514 7.5026 15.2467V31.2246L7.50258 31.23C7.29051 51.0507 20.1568 72.2556 40.5048 75.9923C49.7941 74.4029 57.5464 68.8912 63.6644 61.086C70.0068 52.7994 73.5 42.1958 73.5 31.2254V15.2474C73.5 13.156 72.1286 11.2779 70.0524 10.5808L69.9853 10.558L42.1813 1.27887L42.1793 1.27821C41.0834 0.90732 39.922 0.907158 38.8217 1.27836L38.8202 1.27888L10.9494 10.5803ZM10.9494 10.5803C10.9493 10.5803 10.9495 10.5803 10.9494 10.5803Z\" stroke=\"black\"/>\n</g>\n<rect x=\"46.606\" y=\"43.2441\" width=\"3.71739\" height=\"17.7609\" rx=\"1.85869\" fill=\"black\"/>\n<path d=\"M41.8561 19.2874L46.6061 42.0048L50.7365 41.5917L55.28 18.8743L54.6604 18.0483C50.943 17.9794 43.3018 17.883 42.4757 18.0483C41.6496 18.2135 41.7184 18.9432 41.8561 19.2874Z\" fill=\"black\"/>\n<rect x=\"45.7798\" y=\"42.0049\" width=\"5.36956\" height=\"1.65217\" fill=\"black\"/>\n<path d=\"M55.2623 18.1172C55.0088 17.8102 54.6385 17.6348 54.2389 17.6348H42.868C42.4684 17.6348 42.0979 17.8102 41.8445 18.1172C41.5912 18.4242 41.4936 18.8239 41.5717 19.2139L46.0459 41.6241C45.4757 41.8191 45.0615 42.3503 45.0615 42.9839C45.0615 43.7345 45.6366 44.3438 46.3726 44.412V59.3164C46.3726 60.5203 47.3523 61.5 48.5562 61.5C49.7601 61.5 50.7398 60.5203 50.7398 59.3164V44.4022C51.4221 44.2853 51.9437 43.6956 51.9437 42.9839C51.9437 42.3843 51.5781 41.8726 51.0615 41.6532L55.5406 19.2137C55.6133 18.8239 55.5157 18.4242 55.2624 18.1171L55.2623 18.1172ZM50.0034 59.3221C50.0034 60.1214 49.3504 60.7746 48.5509 60.7746C47.7516 60.7746 47.0984 60.1216 47.0984 59.3221L47.0985 44.4274H49.9984V59.3221H50.0034ZM50.4957 43.6963H46.5039C46.1092 43.6963 45.7923 43.3795 45.7923 42.9847C45.7923 42.59 46.1092 42.2732 46.5039 42.2732H50.4957C50.8904 42.2732 51.2073 42.5949 51.2073 42.9847C51.2073 43.3746 50.8904 43.6963 50.4957 43.6963ZM54.8188 19.0733L50.33 41.5469H46.7719L42.2879 19.0733C42.2538 18.8979 42.2976 18.7175 42.4098 18.581C42.522 18.4446 42.6876 18.3665 42.868 18.3665H45.0417L46.0701 28.1387C46.0897 28.3288 46.2505 28.4652 46.4357 28.4652H46.4747C46.6746 28.4457 46.8207 28.2653 46.8012 28.0656L45.7777 18.3665H48.1903V28.0997C48.1903 28.2996 48.3559 28.4652 48.5558 28.4652C48.7557 28.4652 48.9213 28.2996 48.9213 28.0997V18.3665H51.3338L50.3153 28.0607C50.2958 28.2606 50.442 28.4409 50.6418 28.4604H50.6808C50.866 28.4604 51.0219 28.319 51.0464 28.1339L52.0649 18.3665H54.2387C54.4142 18.3665 54.5847 18.4446 54.6969 18.581C54.8091 18.7175 54.8528 18.8977 54.8187 19.0732L54.8188 19.0733Z\" fill=\"black\"/>\n<path d=\"M39.9974 31.4718L33.5953 18.0479H32.7692C31.0482 21.7652 27.4822 29.5305 26.9866 30.8522C26.4909 32.1739 26.78 32.9174 26.9866 33.1239L32.7692 39.1131H33.8018L39.9974 32.7109V31.4718Z\" fill=\"black\"/>\n<rect x=\"31.7363\" y=\"44.8955\" width=\"3.30435\" height=\"16.1087\" rx=\"1.65217\" fill=\"black\"/>\n<rect x=\"30.4971\" y=\"43.6562\" width=\"5.36956\" height=\"1.65217\" fill=\"black\"/>\n<path d=\"M34.0401 18.1271C33.8987 17.8199 33.6014 17.6348 33.265 17.6348C32.9287 17.6348 32.6314 17.8248 32.4902 18.1271L26.622 30.7846C26.1346 31.8325 26.3588 33.0901 27.1776 33.9089L32.9045 39.6357V43.1011H31.4374C30.6917 43.1011 30.0825 43.7103 30.0825 44.456C30.0825 45.1529 30.6089 45.7182 31.2864 45.7963V59.4628C31.2864 60.5838 32.1978 61.4951 33.3187 61.4951C34.4398 61.4951 35.3511 60.5837 35.3511 59.4628V45.791C35.9799 45.6741 36.4574 45.1233 36.4574 44.4604C36.4574 43.7147 35.8482 43.1055 35.1025 43.1055H33.6354V39.6401L39.3574 33.9133C40.1762 33.0944 40.4004 31.8369 39.913 30.789L34.0401 18.1271ZM34.62 59.466C34.62 60.1874 34.0352 60.7673 33.3187 60.7673C32.6022 60.7673 32.0174 60.1825 32.0174 59.466V45.8141H34.6249V59.466H34.62ZM35.7264 44.4592C35.7264 44.8052 35.4486 45.083 35.1026 45.083H31.4375C31.0915 45.083 30.8137 44.8052 30.8137 44.4592C30.8137 44.1132 31.0915 43.8354 31.4375 43.8354H35.1026C35.4437 43.8354 35.7264 44.1132 35.7264 44.4592ZM38.8408 33.3905L33.6306 38.6007V33.1371C33.6306 32.9372 33.465 32.7715 33.2651 32.7715C33.0652 32.7715 32.8995 32.9372 32.8995 33.1371V38.6007L27.6942 33.3905C27.0899 32.7862 26.929 31.865 27.2849 31.09L33.1579 18.4325C33.1871 18.3692 33.2408 18.3642 33.2701 18.3642C33.2993 18.3642 33.3529 18.3739 33.3823 18.4325L39.2553 31.0949C39.6061 31.8648 39.4453 32.7909 38.8409 33.3905L38.8408 33.3905Z\" fill=\"black\"/>\n<path d=\"M36.9888 28.8697C36.8914 28.6942 36.6671 28.6309 36.4918 28.7284C36.3163 28.8258 36.253 29.0501 36.3504 29.2254L37.798 31.8037C37.8808 31.9548 37.8613 32.1448 37.7444 32.2716L36.3944 33.7533C36.2579 33.9043 36.2676 34.1334 36.4188 34.2699C36.487 34.3332 36.5748 34.3625 36.6625 34.3625C36.7599 34.3625 36.8624 34.3235 36.9354 34.2407L38.2854 32.759C38.6119 32.3984 38.6754 31.867 38.4364 31.4431L36.9888 28.8697Z\" fill=\"black\"/>\n<rect x=\"46.606\" y=\"41.2441\" width=\"3.71739\" height=\"17.7609\" rx=\"1.85869\" fill=\"white\"/>\n<path d=\"M41.8561 17.2874L46.6061 40.0048L50.7365 39.5917L55.28 16.8743L54.6604 16.0483C50.943 15.9794 43.3018 15.883 42.4757 16.0483C41.6496 16.2135 41.7184 16.9432 41.8561 17.2874Z\" fill=\"white\"/>\n<rect x=\"45.7798\" y=\"40.0049\" width=\"5.36956\" height=\"1.65217\" fill=\"white\"/>\n<path d=\"M55.2623 16.1172C55.0088 15.8102 54.6385 15.6348 54.2389 15.6348H42.868C42.4684 15.6348 42.0979 15.8102 41.8445 16.1172C41.5912 16.4242 41.4936 16.8239 41.5717 17.2139L46.0459 39.6241C45.4757 39.8191 45.0615 40.3503 45.0615 40.9839C45.0615 41.7345 45.6366 42.3438 46.3726 42.412V57.3164C46.3726 58.5203 47.3523 59.5 48.5562 59.5C49.7601 59.5 50.7398 58.5203 50.7398 57.3164V42.4022C51.4221 42.2853 51.9437 41.6956 51.9437 40.9839C51.9437 40.3843 51.5781 39.8726 51.0615 39.6532L55.5406 17.2137C55.6133 16.8239 55.5157 16.4242 55.2624 16.1171L55.2623 16.1172ZM50.0034 57.3221C50.0034 58.1214 49.3504 58.7746 48.5509 58.7746C47.7516 58.7746 47.0984 58.1216 47.0984 57.3221L47.0985 42.4274H49.9984V57.3221H50.0034ZM50.4957 41.6963H46.5039C46.1092 41.6963 45.7923 41.3795 45.7923 40.9847C45.7923 40.59 46.1092 40.2732 46.5039 40.2732H50.4957C50.8904 40.2732 51.2073 40.5949 51.2073 40.9847C51.2073 41.3746 50.8904 41.6963 50.4957 41.6963ZM54.8188 17.0733L50.33 39.5469H46.7719L42.2879 17.0733C42.2538 16.8979 42.2976 16.7175 42.4098 16.581C42.522 16.4446 42.6876 16.3665 42.868 16.3665H45.0417L46.0701 26.1387C46.0897 26.3288 46.2505 26.4652 46.4357 26.4652H46.4747C46.6746 26.4457 46.8207 26.2653 46.8012 26.0656L45.7777 16.3665H48.1903V26.0997C48.1903 26.2996 48.3559 26.4652 48.5558 26.4652C48.7557 26.4652 48.9213 26.2996 48.9213 26.0997V16.3665H51.3338L50.3153 26.0607C50.2958 26.2606 50.442 26.4409 50.6418 26.4604H50.6808C50.866 26.4604 51.0219 26.319 51.0464 26.1339L52.0649 16.3665H54.2387C54.4142 16.3665 54.5847 16.4446 54.6969 16.581C54.8091 16.7175 54.8528 16.8977 54.8187 17.0732L54.8188 17.0733Z\" fill=\"black\"/>\n<path d=\"M39.9974 29.4718L33.5953 16.0479H32.7692C31.0482 19.7652 27.4822 27.5305 26.9866 28.8522C26.4909 30.1739 26.78 30.9174 26.9866 31.1239L32.7692 37.1131H33.8018L39.9974 30.7109V29.4718Z\" fill=\"white\"/>\n<rect x=\"31.7363\" y=\"42.8955\" width=\"3.30435\" height=\"16.1087\" rx=\"1.65217\" fill=\"white\"/>\n<rect x=\"30.4971\" y=\"41.6562\" width=\"5.36956\" height=\"1.65217\" fill=\"white\"/>\n<path d=\"M34.0401 16.1271C33.8987 15.8199 33.6014 15.6348 33.265 15.6348C32.9287 15.6348 32.6314 15.8248 32.4902 16.1271L26.622 28.7846C26.1346 29.8325 26.3588 31.0901 27.1776 31.9089L32.9045 37.6357V41.1011H31.4374C30.6917 41.1011 30.0825 41.7103 30.0825 42.456C30.0825 43.1529 30.6089 43.7182 31.2864 43.7963V57.4628C31.2864 58.5838 32.1978 59.4951 33.3187 59.4951C34.4398 59.4951 35.3511 58.5837 35.3511 57.4628V43.791C35.9799 43.6741 36.4574 43.1233 36.4574 42.4604C36.4574 41.7147 35.8482 41.1055 35.1025 41.1055H33.6354V37.6401L39.3574 31.9133C40.1762 31.0944 40.4004 29.8369 39.913 28.789L34.0401 16.1271ZM34.62 57.466C34.62 58.1874 34.0352 58.7673 33.3187 58.7673C32.6022 58.7673 32.0174 58.1825 32.0174 57.466V43.8141H34.6249V57.466H34.62ZM35.7264 42.4592C35.7264 42.8052 35.4486 43.083 35.1026 43.083H31.4375C31.0915 43.083 30.8137 42.8052 30.8137 42.4592C30.8137 42.1132 31.0915 41.8354 31.4375 41.8354H35.1026C35.4437 41.8354 35.7264 42.1132 35.7264 42.4592ZM38.8408 31.3905L33.6306 36.6007V31.1371C33.6306 30.9372 33.465 30.7715 33.2651 30.7715C33.0652 30.7715 32.8995 30.9372 32.8995 31.1371V36.6007L27.6942 31.3905C27.0899 30.7862 26.929 29.865 27.2849 29.09L33.1579 16.4325C33.1871 16.3692 33.2408 16.3642 33.2701 16.3642C33.2993 16.3642 33.3529 16.3739 33.3823 16.4325L39.2553 29.0949C39.6061 29.8648 39.4453 30.7909 38.8409 31.3905L38.8408 31.3905Z\" fill=\"black\"/>\n<path d=\"M36.9888 26.8697C36.8914 26.6942 36.6671 26.6309 36.4918 26.7284C36.3163 26.8258 36.253 27.0501 36.3504 27.2254L37.798 29.8037C37.8808 29.9548 37.8613 30.1448 37.7444 30.2716L36.3944 31.7533C36.2579 31.9043 36.2676 32.1334 36.4188 32.2699C36.487 32.3332 36.5748 32.3625 36.6625 32.3625C36.7599 32.3625 36.8624 32.3235 36.9354 32.2407L38.2854 30.759C38.6119 30.3984 38.6754 29.867 38.4364 29.4431L36.9888 26.8697Z\" fill=\"black\"/>\n</svg>\n",
+      "leftsvgarialabel": "Paint brush and palette knife art tools.",
+      "rightsvg": "<svg width=\"97\" height=\"122\" viewBox=\"0 0 97 122\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g opacity=\"0.2\">\n<path d=\"M66.3512 82.5053C66.9486 80.2756 65.4836 77.9457 63.079 77.3014C60.6744 76.6571 58.2408 77.9423 57.6433 80.172L49.4698 110.676C48.8724 112.906 50.3373 115.236 52.7419 115.88C55.1466 116.524 57.5802 115.239 58.1777 113.009L66.3512 82.5053Z\" fill=\"white\"/>\n<path d=\"M70.9569 73.0578L58.3789 69.6875L57.1609 74.2332L69.7389 77.6035L70.9569 73.0578Z\" fill=\"white\"/>\n<path d=\"M65.187 12.703C65.5353 12.4539 65.9725 12.3749 66.395 12.4881L71.4868 13.8524L67.7622 37.3895C67.6888 37.8469 67.98 38.2674 68.4136 38.3836L68.5044 38.408C68.9849 38.4878 69.4403 38.1567 69.52 37.6766L73.2104 14.3143L78.8618 15.8289L72.7524 38.6287C72.6272 39.0969 72.9113 39.5891 73.3794 39.7147C73.8476 39.8401 74.3398 39.5558 74.4653 39.0877L80.5747 16.2879L86.2261 17.8016L77.7554 39.8709C77.5842 40.3269 77.8134 40.8415 78.269 41.0125L78.3608 41.037C78.7945 41.1529 79.2479 40.919 79.4214 40.5008L87.938 18.2606L93.0308 19.6248C93.4414 19.7351 93.7917 20.0251 93.9692 20.4149C94.1459 20.8049 94.1361 21.2558 93.9458 21.6454L69.3247 71.4715L60.9897 69.2381L64.5923 13.7801C64.6226 13.3476 64.8386 12.9521 65.187 12.703Z\" fill=\"white\"/>\n<path d=\"M30.3822 72.3693L21.8499 104.217C21.4935 105.547 20.1889 106.371 18.8577 106.155L18.5911 106.099L16.5257 105.545C15.107 105.164 14.265 103.706 14.6449 102.287L23.1771 70.4396L30.3822 72.3693ZM21.4486 65.9914C21.713 65.0061 22.7258 64.4219 23.7113 64.6857L31.89 66.8771C32.8755 67.1414 33.4605 68.1542 33.1966 69.1398C32.9703 69.9842 32.1944 70.5324 31.3568 70.507L22.7435 68.1994L22.3548 68.0949C21.6188 67.6973 21.2226 66.8346 21.4486 65.9914ZM42.2347 5.41325C42.7551 4.79389 43.5719 4.53515 44.3597 4.74625C45.1472 4.95745 45.7271 5.57806 45.8656 6.3859L51.6751 39.7326C52.1589 42.493 50.8451 45.2981 48.4134 46.7023L31.4154 56.5265L29.3763 64.132L27.6644 63.673L29.7054 56.0568L19.8851 39.047C18.4811 36.615 18.7449 33.5288 20.5443 31.38L42.2347 5.41325ZM46.0296 33.4006C45.9115 32.9284 45.4261 32.6389 44.9544 32.757C44.4825 32.8751 44.193 33.3607 44.3109 33.8322L46.0843 40.7804C46.1835 41.1862 46.0178 41.6194 45.6644 41.8429L41.5726 44.467C41.1582 44.7351 41.0365 45.278 41.305 45.6925C41.425 45.8834 41.6125 46.0066 41.8177 46.0617C42.0458 46.1228 42.3106 46.0964 42.5335 45.9484L46.6263 43.3244C47.6172 42.6845 48.0994 41.4798 47.806 40.3371L46.0296 33.4006Z\" fill=\"white\"/>\n</g>\n</svg>"
+    },
+    "glossary": {
+      "lidar": {
+        "word": "LiDAR",
+        "definition": "<strong class=\"text-[#0055B2]\">LiDAR</strong> is Light Detection and Ranging; a technology that uses laser pulses to create detailed 3D maps of landscapes and structures hidden beneath vegetation."
+      },
+      "canopy": {
+        "word": "Canopy",
+        "definition": "<strong class=\"text-[#0055B2]\">Canopy</strong> is the uppermost layer of a forest formed by tree crowns, which LiDAR technology can penetrate to reveal what lies beneath."
+      },
+      "sacbeob": {
+        "word": "Sacbeob",
+        "definition": "<strong class=\"text-[#0055B2]\">Sacbeob</strong> are raised limestone causeways built by the Maya to connect important parts of their cities, providing dry passage and serving ceremonial functions."
+      },
+      "sacbe": {
+        "word": "Sacbe",
+        "definition": "<strong class=\"text-[#0055B2]\">Sacbe</strong> is a raised limestone causeway built by the Maya to connect important parts of their cities, providing dry passage and serving ceremonial functions."
+      },
+      "cosmological_principles": {
+        "word": "Cosmological principles",
+        "definition": "<strong class=\"text-[#0055B2]\">Cosmological principles</strong> are ideas about the structure of the universe that the Maya incorporated into their architecture, such as the three-part division representing different worlds."
+      },
+      "point_cloud": {
+        "word": "Point cloud",
+        "definition": "<strong class=\"text-[#0055B2]\">Point cloud</strong> is a set of data points collected by LiDAR that represents the external surfaces of terrain and structures in three-dimensional space."
+      },
+      "anomaly": {
+        "word": "Anomaly",
+        "definition": "<strong class=\"text-[#0055B2]\">Anomaly</strong> is an unusual feature in LiDAR data that differs from natural patterns, potentially indicating human-made structures."
+      }
+    },
+    "common": {
+      "cruz": "Dr. Cruz",
+      "riley": "Riley",
+      "cruz_description": "Middle-aged male with glasses and salt-and-pepper beard, wearing beige button-up shirt and smart watch, holding a tablet.",
+      "riley_description": "Young female with wavy brown hair, wearing navy vest over beige shirt, patterned scarf, and wristwatch, holding a folder.",
+      "bg1_description": "Ancient Mayan pyramid emerging through jungle mist, stone steps rising toward the sky, surrounded by lush tropical forest with tall trees filtering golden sunlight, as a lone explorer gazes at the mystical scene.",
+      "bg2_description": "Rainforest research expedition with canvas tents and monitoring equipment, researchers operating a drone amid tropical foliage, golden sunlight filtering through the dense canopy, creating a green-tinted atmospheric scene.",
+      "bg3_description": "Open-air jungle research station with wooden roof structure, scientists analyzing environmental data on large digital displays, panoramic views of lush tropical vegetation and blue sky, warm sunset light illuminating the workspace.",
+      "bg4_description": "Jungle research tent with wooden platform and transparent walls, scientist studying maps and data at drafting table, panoramic view of misty rainforest mountains, warm wood interior contrasting with cool blue-tinted exterior landscape.",
+      "bg5_description": "Archaeological expedition at a jungle clearing with researchers surveying ancient stone ruins, one team member analyzing data on laptop, golden sunset light illuminating the site against a backdrop of lush rainforest and distant mountains.",
+      "bg6_description": "Nighttime research camp in tropical forest with illuminated A-frame tents, scientists gathered around campfire under starry sky, distant mountain ranges silhouetted against twilight horizon, warm golden lights contrasting with cool blue nightfall.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "game": {
+    "coordinate-geometry": "STEAM Quest - Coordinate Geometry"
+  },
+  "popover": {
+    "close": "Close popover"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Story Introduction",
+    "scene_4": "Circle Construction",
+    "scene_5": "Midpoint Challenge",
+    "scene_6": "Geometric Construction",
+    "scene_7": "Finding Center of Circle",
+    "scene_8": "Discussing Mathematical Truths",
+    "scene_9": "Introducing the Equilateral Triangle",
+    "scene_10": "Equilateral Triangle Construction",
+    "scene_11": "Conclusion",
+    "scene_12": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "place_compass": "Place Compass",
+      "trace_the_circle": "Trace the Circle"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Geometric Truths</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>The Foundations of Geometry in Ancient Alexandria</h2>",
+    "description": "At the Great Library of Alexandria, Hypatia helps a young architect discover how practical constructions  lead to understanding the beautiful, timeless nature of geometry itself.",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "Welcome to Library of Alexandria",
+        "body": "<div><p style='margin-bottom: 16px;'>Almost <strong>3,500</strong> years after the <no-glossary>construction</no-glossary> of the Great Pyramid of Giza, another great edifice was constructed in Egypt: <strong>The Great Library of Alexandria</strong>.</p><p style='margin-bottom: 16px;'>For nearly <strong>600</strong> years, scholars labored away to discover new forms of wisdom and beauty. They worked to discover—and rediscover—the secrets of geometry. And with these secrets, they accomplished wonders: from calculating the size of the Earth to developing mechanical computers that could track the motion of planets.</p><p>Our story begins <strong>1,650</strong> years ago, in the year <strong>380</strong>, when a young architect seeks out practical wisdom from Hypatia, one of the most famous mathematical philosophers of all time.</p></div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C3": "It has been nearly 600 years since Euclid worked in the great library, preparing his Elements of Geometry.",
+      "S3_D2_FX_C2": "Yet, geometry is more ancient still. For Pythagoras, we know, learned from the Egyptians.",
+      "S3_D3_FX_C3": "Geometry is beautiful knowledge, for even if its books are destroyed, it can be discovered again—the wisdom of mathematics is timeless and eternal.",
+      "S3_D4_FX_C1": "But can you really discover mathematics?",
+      "S3_D5_FX_C2": "Akila, you always ask such wonderful questions. What brings you here today?",
+      "S3_D6_FX_C1": "I have some architectural problems and I was hoping you might reveal some of your geometrical secrets.",
+      "S3_D7_FX_C2": "I am always happy to share.",
+      "S3_D8_FX_C1": "I am trying to find the middle of the circle — the exact center. I am sure there is some way to measure it, but I can't seem to get it right.",
+      "S3_D9_FX_C1": "I also need to place a temple column exactly in between two other columns. However, I can't seem to get the measurements exactly right. No matter how carefully I measure, there's always some small difference. Could the wisdom of geometry help me?",
+      "S3_D10_FX_C2": "I would be happy to help you, Akila. And we won't need to measure at all. Instead, we can use geometric construction to find the middle.",
+      "S3_D11_FX_C1": "Without measuring?"
+    },
+    "S4": {
+      "S4_D0_F11_C9": {
+        "title": "Circle Construction",
+        "ariaLabels": {
+          "point_a": "Point A",
+          "trace_complete": "Trace Completed",
+          "move_compass_to_target": "Move compass to target position",
+          "compass_placed": "Compass placed on the canvas"
+        },
+        "about": {
+          "heading": "Circle Construction with a Compass",
+          "body": "<div><p>The key properties demonstrated in this interactive:</p><ol style='list-style-type: decimal; margin: 10px 0 10px 10px; padding-left: 15px; font-weight: bold;'><li><span style='font-weight: bold'>Definition:</span><span style='font-weight: normal'> A circle is the set of all points in a plane that are equidistant from a given point (center <span style='color: #0061fc; font-family: Besley; font-style: italic;'>A</span>).</span></li><li><span style='font-weight: bold'>Compass Function:</span><span style='font-weight: normal'> The compass maintains a fixed radius as it rotates around the center point.</span></li></ol><p style='font-weight: bold'>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Use a compass tool to trace a perfect circle around the established center point</li><li>See how the constant radius creates a perfect circle where all points are equidistant from the center</li></ul></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p style='font-weight: bold'>How to Use the Interactive:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px; font-weight: bold;'><li>Observe the Center: <span style='font-weight: normal'>The interactive starts with point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> established as the center.</span></li><li>Place the Compass: <span style='font-weight: normal'>Drag the compass tool onto the canvas to set up construction.</span></li><li>Trace the Circle: <span style='font-weight: normal'>Click the 'Trace' button to watch the compass draw a perfect circle.</span></li></ol><p style='font-weight: bold'>Things to Observe:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Notice how the compass maintains a fixed distance from the center as it traces the circle</li><li>See how every point on the completed circle is exactly the same distance from center <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span></li></ul></div>"
+        }
+      },
+      "S4_D1_FX_C2": "Let's start by constructing a circle, where we know the middle: here, point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span>.",
+      "S4_D2_FX_C2": "Now, a compass will ensure that a line is drawn at an equal distance from this center point.<br><br>You can <strong>drag the compass</strong> to the canvas on the left, or click the <strong>\"Place Compass\"</strong> button to place it automatically.",
+      "S4_D3_FX_C2": "Now, use this compass to trace a circle around the center point.",
+      "S4_D4_FX_C2": "Do you see that every point on the circle is exactly the same distance from the center? That's what defines the idea of a circle!",
+      "S4_D5_FX_C1": "Yes, the compass keeps the distance fixed.",
+      "S4_D6_FX_C2": "Akila — can you tell me, in your own words: what is it that defines a circle?",
+      "S4_D6_FX_C9_optionA": "A figure with 4 equal sides",
+      "S4_D6_FX_C9_optionB": "A set of points all the same distance from a center point",
+      "S4_D6_FX_C9_optionC": "Any round shape",
+      "S4_D6_FX_C9_optionD": "A line that goes through the center of a square",
+      "S4_D7_FX_C1": "Of course! It's all the points that are the same distance from the center.",
+      "S4_D8_FX_C2": "Exactly. That's the heart of the circle's definition.",
+      "S4_D9_FX_C3": "But remember — the circle we drew here is only an approximation. The mathematical idea of a circle has no thickness — and is perfectly round.",
+      "S4_D10_FX_C1": "Wait... are you saying this isn't a perfect circle? Even though we used a compass?",
+      "S4_D11_FX_C3": "Good question. Let me ask you this: <br> Do you think it's possible to draw a perfect circle with our tools?",
+      "S4_D11_FX_C9_optionA": "Yes, a compass draws a perfect circle",
+      "S4_D11_FX_C9_optionB": "No, tools can never make a mathematically perfect circle",
+      "S4_D11_FX_C9_optionC": "Yes, if you use an extremely precise compass",
+      "S4_D11_FX_C9_optionD": "No, perfect circles only exist in imagination",
+      "S4_D12_FX_C1": "Ah — I see. The compass helps us approximate a perfect circle, but the true one only exists in mathematics.",
+      "S4_D13_FX_C3": "Exactly. It's the idea of the circle that is perfect — not the drawing itself."
+    },
+    "S5": {
+      "S5_D1_F20_C1": "Ok, but this circle we already know the center — we needed that to draw it. <br />What if I've lost track of the center? Can I ever really find it again?",
+      "S5_D2_F21_C2": "Yes, there are ways. Let's start by using two circles to find the exact middle of a line.",
+      "S5_D3_F22_C1": "That's easy, I can just measure the whole line and divide it in half."
+    },
+    "S6": {
+      "S6_D0_F27_C9": {
+        "title": "Geometric Construction",
+        "ariaLabels": {
+          "construction_canvas": "Geometric construction canvas",
+          "first_circle_label": "First circle, labeled A",
+          "second_circle_label": "Second circle, labeled B",
+          "first_circle_center_a": "Center point A of first circle",
+          "second_circle_center_b": "Center point B of second circle",
+          "first_circle_automatic_placement": "Place First circle automatically",
+          "second_circle_automatic_placement": "Place Second circle automatically",
+          "circle_navigation_instruction": "Use arrow keys to move the selected circle. Hold Shift for larger movements.",
+          "point_c": "Point C formed by intersection of Circles with Center A and Center B",
+          "point_d": "Point D formed by intersection of Circles with Center A and Center B",
+          "line_ab": "Line Segment AB",
+          "line_ad": "Line Segment AD",
+          "line_db": "Line Segment DB",
+          "line_bc": "Line Segment BC",
+          "line_ca": "Line Segment AC",
+          "line_cd": "Line Segment CD",
+          "midpoint_m": "Midpoint M formed by intersection of Line Segments AB and CD"
+        },
+        "about": {
+          "heading": "Intersection Properties",
+          "body": "<div><p>When two circles of equal radius intersect:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Their intersection points are equidistant from both centers</li><li>This construction guarantees perfect midpoint location without measurement</li></ul><p style='font-weight: bold'>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Create two circles with equal radii</li><li>Observe their intersection points</li><li>Discover how these points help find the midpoint</li><li>Understand why this construction must work</li></ul></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p style='font-weight: bold'>How to Use the Interactive:</p><ol style='list-style-type: decimal; margin: 10px 0 10px 10px; padding-left: 15px; font-weight: bold;'><li><span style='font-weight: bold'>Set First Center:</span><span style='font-weight: normal'> Click to place the center of your first circle (Point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span>).</span></li><li><span style='font-weight: bold'>Set Second Center:</span><span style='font-weight: normal'> Click to place the center of your second circle (Point <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>).</span></li><li><span style='font-weight: bold'>Adjust Position:</span><span style='font-weight: normal'> Move the circles by clicking and dragging the center in a way that both circles intersect.</span></li></ol><p style='font-weight: bold'>Things to Observe:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Notice how the intersection points (<span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> and <span style='color: #633300; font-family: Besley; font-style: italic;'>D</span>) are always equidistant from both centers</li><li>Watch how moving the circles maintains this equidistant property</li><li>See how the perpendicular bisector always crosses <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span><span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> at its midpoint <span style='color: #DB0072; font-family: Besley; font-style: italic;'>M</span></li></ul></div>"
+        }
+      },
+      "S6_D0_F23_C2": "True! But let me show you another way. <br />Let's draw a circle at point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span>.",
+      "S6_D1_F27_C1": "But what do circles have to do with finding the middle point?",
+      "S6_D2_F28_C2": "Remember what defines a circle, we just learned that every point on a circle is equidistant from its center. <br><br>Now, draw another circle at <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>, with the same radius, and try to drag them around. Tell me, what happens when the two circles meet?",
+      "S6_D3_F29_C1": "They have created new points.",
+      "S6_D4_F30_C2": "Yes! Let's call these intersection points <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> and <span style='color: #633300; font-family: Besley; font-style: italic;'>D</span>. Try moving your circles — see how these intersection points change, yet they always remain equidistant from both centers?",
+      "S6_D5_F31_C1": "It looks like <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> is equally distant from point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> and point <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>. <br>That's what I'm looking for: <br>a point that is in the middle of <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> & <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>.",
+      "S6_D6_F32_C2": "It does look like <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> is equidistant from both centers, <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> and <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>. But how do you know?",
+      "S6_D7_F33_C1": "Well, the point <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> lies on each of their circles. And every point on a circle is the same distance from its center. And, these circles are the same size. <br>So actually, point <span style='color: #633300; font-family: Besley; font-style: italic;'>D</span> must also be equidistant from both <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> and <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> for the same reason!",
+      "S6_D8_F34_C1": "But they aren't on the line—aren't we trying to find the midpoint of the line?",
+      "S6_D9_F35_C2": "Yes, so now, draw a line between points <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> and <span style='color: #633300; font-family: Besley; font-style: italic;'>D</span>. <br>Do you see how this line <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span><span style='color: #633300; font-family: Besley; font-style: italic;'>D</span> intersects line <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span><span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>? <br>At that intersection, let's make a point <span style='color: #DB0072; font-family: Besley; font-style: italic;'>M</span>.",
+      "S6_D10_F36_C1": "It looks like it is exactly in the middle of the points <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> and <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>.",
+      "S6_D11_F37_C2": "<span style='color: #DB0072; font-family: Besley; font-style: italic;'>M</span> does look like the midpoint. But, can you know for sure?",
+      "S6_D12_F38_C1": "<span style='color: #DB0072; font-family: Besley; font-style: italic;'>M</span> is no longer on either circle. But maybe if I move the circles further apart, I could put <span style='color: #DB0072; font-family: Besley; font-style: italic;'>M</span> at the edge of each circle? <br>Then, if it is on both circles, then I know it is exactly the same distance from the centers.",
+      "S6_D13_F39_C2": "That is a creative proof! Yes, in that way, you can show that <span style='color: #DB0072; font-family: Besley; font-style: italic;'>M</span> can be equidistant from <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> and <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>.<br><br>Wonderful, now you have used geometry to find the exact middle point of a line—and you never had to measure anything!"
+    },
+    "S7": {
+      "S7_D0_F76_C9": {
+        "title": "Circle Center Construction",
+        "about": {
+          "heading": "Finding Circle Centers",
+          "body": "<div><p>To find the center of any circle using geometric construction:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Draw any line (chord) across the circle</li><li>Find the perpendicular bisector of that chord</li><li>Draw a second chord and find its perpendicular bisector</li><li>Where the two perpendicular bisectors intersect is the exact center</li></ul><p style='font-weight: bold'>In this Interactive, You Will:</p><ol style='list-style-type: decimal; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observe a circle whose center is unknown</li><li>See how a <span style='color: #0061fc; font-weight: bold;'>blue line</span> is drawn across the circle</li><li>Watch the <span style='color: #991b1b; font-weight: bold;'>red perpendicular bisector</span> of the blue line appear</li><li>Observe a <span style='color: #008217; font-weight: bold;'>green line</span> drawn across the circle</li><li>See the <span style='color: #991b1b; font-weight: bold;'>red perpendicular bisector</span> of the green line</li><li>Discover the center where the two red bisectors intersect</li></ol></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p style='font-weight: bold'>How to Use the Interactive:</p><ol style='list-style-type: decimal; margin: 10px 0px 10px 10px; padding-left: 20px; font-weight: bold;'><li><p>Follow the Steps:</p><span style='font-weight: normal'>The construction happens automatically as you progress through the dialog.</span></li><li><p>Observe the Process:</p><span style='font-weight: normal'>Watch how each step builds on the previous to find the center.</span></li><li><p>Focus on Elements:</p><span style='font-weight: normal'>Click or tab through different parts of the construction to highlight them.</span></li></ol><p style='font-weight: bold'>Why This Works:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Every perpendicular bisector of a chord passes through the circle's center</li><li>Two different bisectors can only intersect at one point: the center</li><li>This method works for any circle, regardless of size</li></ul></div>"
+        },
+        "ariaLabels": {
+          "constructionCanvas": "Circle center construction canvas showing a circle with chords and perpendicular bisectors",
+          "circle": "Circle whose center we want to find",
+          "firstChord": "First blue chord drawn across the circle",
+          "firstChordPoint1": "First endpoint of the blue chord",
+          "firstChordPoint2": "Second endpoint of the blue chord",
+          "firstPerpendicularBisector": "Red perpendicular bisector of the blue chord",
+          "firstMidpoint": "Midpoint of the blue chord",
+          "secondChord": "Second green chord drawn across the circle",
+          "secondChordPoint1": "First endpoint of the green chord",
+          "secondChordPoint2": "Second endpoint of the green chord",
+          "secondPerpendicularBisector": "Red perpendicular bisector of the green chord",
+          "secondMidpoint": "Midpoint of the green chord",
+          "centerPoint": "Center of the circle found at intersection of perpendicular bisectors",
+          "navigationInstruction": "Use Tab to focus on different elements of the construction to explore the process",
+          "autoCreateFirstChord": "Automatically place first chord",
+          "autoCreateSecondChord": "Automatically place second chord",
+          "togglePBConstruction": "Toggle perpendicular bisector construction visibility",
+          "hidePBConstruction": "Hide",
+          "showPBConstruction": "Show",
+          "constructionCircles": "Construction circles used to find perpendicular bisector",
+          "intersectionPoints": "Intersection points of construction circles",
+          "rightAngleIndicator": "Right angle indicator showing perpendicular relationship",
+          "accuracyIndicator": "Accuracy indicator showing the actual center location"
+        }
+      },
+      "S7_D1_F35_C1": "Now can you tell me how to find the center of a circle?",
+      "S7_D2_F36_C2": "Yes! We can use the midpoint finding method we just learned, but we need to build upon it cleverly.",
+      "S7_D3_F37_C1": "How so?",
+      "S7_D4_F38_C2": "We start by having any line across the circle. Here's our first blue line - this is called a 'chord.'",
+      "S7_D5_F39_C1": "I see the blue chord goes right across the circle! But this doesn't seem to pass anywhere near the center.",
+      "S7_D6_F40_C2": "That's perfectly fine! The chord can be anywhere in the circle - it doesn't need to pass through the center.",
+      "S7_D7_F41_C2": "Now find the perpendicular bisector of this blue chord, using the same method we learned before. You can toggle the construction circles to see how perpendicular bisector was built.",
+      "S7_D8_F42_C1": "I can see the red perpendicular bisector! But how does this help us find the center?",
+      "S7_D9_F43_C2": "This red line must pass through the center, because the center is equidistant from all points on the circle, including our chord endpoints.",
+      "S7_D10_F44_C1": "That makes sense, but we still don't know exactly where on the red line the center is.",
+      "S7_D11_F45_C2": "Exactly! So we need another clue. Here is our second green line across the circle.",
+      "S7_D12_F46_C1": "Now we have both blue and green chords on the circle.",
+      "S7_D13_F47_C2": "Now find the perpendicular bisector of this green chord too.",
+      "S7_D14_F48_C1": "I see the perpendicular bisector! And I can toggle the construction on and off for this one too.",
+      "S7_D15_F49_C2": "Great! Now can you think how having these 2 perpendicular bisectors helps us?",
+      "S7_D16_F50_C1": "Well, they both intersect each other. Can that be our center?",
+      "S7_D17_F51_C2": "Correct! The reason behind it is that both perpendicular bisectors must pass through the center, because the center is equidistant from all points on the circle. So their intersection point is the center.",
+      "S7_D18_F52_C1": "Great! And we never had to measure anything!"
+    },
+    "S8": {
+      "S8_D1_F48_C1": "This is beautiful. Thank you!",
+      "S8_D2_F49_C3": "But remember, any circle you draw is only an approximation of a real circle. Your lines will never be perfectly round—and they will always have thickness. Yet the idea of a true circle is perfect, timeless —and very real.",
+      "S8_D3_F50_C3": "It is true that math is an eternal and timeless structure of our world. Even the pyramids will eventually wear down into dust. Yet geometry is built of eternal mathematical truths.",
+      "S8_D4_F51_C1": "Isn't the idea of a circle just an image in our minds?",
+      "S8_D5_F52_C3": "Perhaps.",
+      "S8_D6_F53_C2": "Or perhaps our minds discover something that already exists. Perhaps circles are deeply real—but the idea of them can be discovered, like an explorer finding a new land.",
+      "S8_D7_F54_C1": "How beautiful that people might explore. What a beautiful idea, that mathematics is made of timeless truths—and that people can explore it to discover new truths. Can you share another construction?",
+      "S8_D8_F55_C2": "Yes. The first construction in Euclid's Elements of Geometry is about the creation of a triangle with 3 equal sides: an equilateral triangle."
+    },
+    "S9": {
+      "S9_D1_F52_C3": "I tell you, these are the mysteries that fascinated the Pythagoreans.",
+      "S9_D2_F53_C1": "I know the Pythagorean Theorem. Is that what you mean?",
+      "S9_D3_F54_C3": "Yes, Pythagoras was a great mathematician—Euclid owes much to his discoveries. Pythagoras taught that the whole cosmos is made of mathematics—even that mathematics is a more basic element of nature than water or air!",
+      "S9_D4_F55_C2": "And not only did he think the world was made of math, but that there are harmonies in mathematics.",
+      "S9_D5_F56_C1": "Please, I'd love to hear these harmonies.",
+      "S9_D6_F57_C3": "These geometric harmonies must be experienced through the mind, not through the ears.",
+      "S9_D7_F58_C2": "Truly, just with a <no-glossary>series</no-glossary> of circles and lines—we can produce a kind of harmony: A perfectly balanced equilateral triangle.",
+      "S9_D8_F59_C2": "For this, we start with two circles with the same radius. Then, simply draw the center of one circle anywhere on the line of the other circle."
+    },
+    "S10": {
+      "S10_D0_F76_C9": {
+        "title": "Equilateral Triangle Construction",
+        "about": {
+          "heading": "Triangle Properties",
+          "body": "<div><p>When two circles pass through each other's centers:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Connecting the two center points to either of the two intersection points will create an equilateral triangle</li><li>All sides of the triangle are radii of the circles, ensuring equality</li><li>This construction relies purely on geometric principles without measurement</li></ul><p style='font-weight: bold'>In this Interactive, You Will:</p><ol style='list-style-type: decimal; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observe two circles: one centered at Point <span style='color: #0061fc; font-family: Besley; font-style: italic;'>A</span> passing through Point <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>, and another green circle centered at Point <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> passing through Point <span style='color: #0061fc; font-family: Besley; font-style: italic;'>A</span>.</li><li>Identify the intersection point <span style='color: #8e24aa; font-family: Besley; font-style: italic'>C</span> of the two circles.</li><li>Connect this intersection point to Points <span style='color: #0061fc; font-family: Besley; font-style: italic;'>A</span> and <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> to form the equilateral triangle.</li><li>Observe why this construction guarantees equal sides for the triangle.</li></ol></div>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<div><p style='font-weight: bold'>How to Use the Interactive:</p><ol style='list-style-type: decimal; margin: 10px 0px 10px 10px; padding-left: 20px; font-weight: bold;'><li><p>Identify Intersection:</p><span style='font-weight: normal'>Observe the intersection point of the two circles.</span></li><li><p>Complete the Triangle:</p><span style='font-weight: normal'>Click to connect Points <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span>, <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>, and the intersection point <span style='color: #8e24aa; font-family: Besley; font-style: italic'>C</span> to form the triangle.</span></li></ol></div>"
+        },
+        "ariaLabels": {
+          "constructionCanvas": "Equilateral triangle construction canvas containing 2 circles with Center A and Center B and intersecting at point C",
+          "firstCircleCenter": "Center point A of first circle",
+          "secondCircleCenter": "Center point B of second circle",
+          "intersectionPoint": "Intersection point C of the two circles"
+        },
+        "controllsNote": "Drag the center points or select the center points then use arrow keys to explore the construction."
+      },
+      "S10_D1_F55_C1": "I see: the circle centered at point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> goes through point <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>, and the circle centered at point <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> goes through point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span>.",
+      "S10_D2_F56_C2": "Exactly. Now, you can drag points <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> or <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> to explore different configurations. Do you see how the lines connect between the center of the circles and their intersections?",
+      "S10_D3_F57_C1": "It's a perfect triangle! From point <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> to <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> to <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span>!",
+      "S10_D4_F58_C2": "Yes, both circles have the same sized radius. What else do you notice about the lines?",
+      "S10_D5_F59_C1": "Well, the distance from <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span> to <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> is also the radius of <span style='color: #0061FC; font-family: Besley; font-style: italic;'>A</span>. And the distance from <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span> to <span style='color: #8E24AA; font-family: Besley; font-style: italic;'>C</span> is the radius of <span style='color: #008217; font-family: Besley; font-style: italic;'>B</span>...",
+      "S10_D6_F60_C2": "And what's special about these three line segments?",
+      "S10_D7_F61_C1": "Well, they must all be the same size, because the radius of each circle is the same. So we've made an equilateral triangle!",
+      "S10_D8_F62_C2": "And this will always work, regardless of how large we make our circles, as long as…",
+      "S10_D9_F63_C1": "As long as we keep those two conditions: <br/> Same radius for both circles, and each circle passing through the other's center!"
+    },
+    "S11": {
+      "S11_D1_F66_C2": "You see, from a few simple and precise definitions, you've created geometric constructions that define circles, midpoints and equilateral triangles.  And all without measurement.",
+      "S11_D2_F67_C1": "It is beautiful that these purely mathematical beings—circles and lines—can come together and produce a kind of harmony—this perfectly balanced triangle!",
+      "S11_D3_F68_C3": "The philosopher Plato taught that, when we study geometry, we're training our minds to reason and recognize truths. <br/> He encouraged us to discover the timeless forms behind the material world.",
+      "S11_D4_F69_C1": "I know that anything I build will have some imperfection—and it won't last forever. But, with geometry, the ideas are so timeless!",
+      "S11_D5_F70_C2": "Geometry is useful for <no-glossary>construction</no-glossary> and design. Yes. But it can also lead to profound ideas. Like that mathematics creates harmony. Or that the physical world is brimming with geometry. <br/> For instance, did you know that there is a geometry to the planets above? With these secrets of geometry, I've even designed a machine that can track the stars and calculate the time!",
+      "S11_D6_F71_C1": "Hypatia, thank you! Your wisdom is both practical and profound."
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You've explored the wisdom within the foundations of geometry!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><div style='font-size: 20px; line-height: 30px; font-weight: 500; color: #333333; margin: 0; padding: 0;'><p style='padding-left: 5px; margin: 0'>You successfully completed the Geometric Truths STEAMQuest.</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px'><li>You developed the art of geometric construction using circles and a compass</li><li>You connected mathematical principles to practical architectural challenges</li><li>You learned to find the midpoint of a line, the center of a circle</li><li>You learned to construct a perfect equilateral triangle, without measurement</li></ul><p style='padding-left: 5px; margin: 0'>Keep exploring the beautiful and timeless nature of geometric principles!</p></div>",
+      "leftsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'><mask id='mask0_9846_8629' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_9846_8629)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9495 10.0803 10.9495 10.0803 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.407321 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><rect x='46.7777' y='26.0469' width='31.4268' height='2.44316' rx='1.22158' transform='rotate(68.2487 46.7777 26.0469)' fill='black'/><rect width='31.4268' height='2.44316' rx='1.22158' transform='matrix(-0.370579 0.928801 0.928801 0.370579 44.6461 26.0469)' fill='black'/><path d='M57.2302 41.0473V41.0565C57.2255 41.1239 57.1679 41.1782 57.0996 41.1781H57.0984H54.7391H53.9948L54.2762 41.8671L56.4968 47.3045C56.4968 47.3045 56.4968 47.3046 56.4968 47.3046C57.163 48.9371 56.9446 50.8002 55.9334 52.2252L55.7753 52.448L55.8774 52.7015L56.5327 54.3274C56.5327 54.3274 56.5327 54.3275 56.5328 54.3275C56.5419 54.3506 56.544 54.386 56.527 54.4256C56.5128 54.4584 56.4916 54.4799 56.4714 54.4917C56.4505 54.4965 56.4248 54.4997 56.4041 54.4997C56.3704 54.4997 56.347 54.4908 56.3319 54.4808C56.3181 54.4717 56.3013 54.4556 56.288 54.4224L56.2879 54.4223L55.5188 52.5046L55.5 52.4577L55.4907 52.4436L55.4887 52.4373L55.486 52.4287L55.4789 52.4067L55.4739 52.3918L55.4681 52.3773L51.0652 41.4904L50.9388 41.1778H50.6016H47.7634H47.2634V41.6778V42.447C47.2634 43.1671 46.6798 43.7507 45.9596 43.7507H45.7325C45.0123 43.7507 44.4288 43.1671 44.4288 42.447V41.6778V41.1778H43.9288H41.0905H40.7534L40.627 41.4904L36.2241 52.3773L36.211 52.4096L36.2025 52.4435C36.2026 52.4433 36.202 52.4456 36.2004 52.4503C36.1989 52.455 36.1969 52.4607 36.1944 52.4672C36.1891 52.4809 36.1834 52.4935 36.1789 52.5024L36.169 52.5218L36.1609 52.5421L35.4037 54.4215L35.3993 54.4322L35.3955 54.4431C35.3899 54.4592 35.3814 54.4697 35.3672 54.4789C35.3504 54.4897 35.3228 54.4997 35.2872 54.4997C35.2721 54.4997 35.2517 54.4983 35.2184 54.4905C35.1988 54.4782 35.1799 54.4576 35.1679 54.429C35.153 54.3938 35.1557 54.3639 35.1647 54.3432L35.1649 54.3433L35.1702 54.3303L35.8262 52.7155L35.9295 52.4611L35.7703 52.2374C34.7471 50.8 34.5287 48.9369 35.1954 47.3043L37.416 41.8668L37.6973 41.1778H36.9531H34.5938C34.5677 41.1778 34.5342 41.1663 34.5045 41.1366C34.4748 41.1069 34.4634 41.0735 34.4634 41.0473C34.4634 40.977 34.523 40.9169 34.5938 40.9169H37.4576H37.7938L37.9206 40.6056L42.2597 29.9586L42.354 29.7271L42.2254 29.5127C41.8551 28.8955 41.6407 28.1641 41.6407 27.386C41.6407 25.695 42.6439 24.2288 44.0879 23.5631L44.3785 23.4291V23.109V19.9679C44.3785 19.1593 45.0378 18.5 45.8464 18.5C46.6592 18.5 47.3271 19.1635 47.3271 19.9679V23.1209V23.441L47.3277 23.4413H45.8462C43.6658 23.4413 41.903 25.2043 41.903 27.3853C41.903 28.2006 42.1445 28.9459 42.5553 29.5751C42.5654 29.5924 42.5748 29.6066 42.5818 29.617C42.5883 29.6264 42.5946 29.6352 42.5996 29.6419L42.6039 29.6506L42.627 29.6828C43.1039 30.348 43.7815 30.8515 44.5579 31.1249L44.5579 31.1249L44.5626 31.1265L44.6208 31.1462L44.6757 31.1648L44.7542 31.1915H44.7744C45.1175 31.2934 45.4724 31.343 45.8461 31.343C46.2201 31.343 46.5743 31.2933 46.9176 31.1915H46.938L47.0165 31.1648L47.0714 31.1462L47.1296 31.1265L47.1296 31.1265L47.1343 31.1249C47.8456 30.8745 48.459 30.4325 48.9209 29.866H48.9437L49.0931 29.654C49.5441 29.0138 49.8029 28.2197 49.8029 27.3854C49.8029 25.695 48.7373 24.2582 47.2452 23.6954L47.5229 23.5313L47.6177 23.575C49.0631 24.2414 50.0649 25.6965 50.0649 27.3852C50.0649 28.1623 49.851 28.893 49.4688 29.5223L49.3381 29.7376L49.4333 29.9708L53.773 40.6058L53.9 40.9169H54.236H57.0998C57.1422 40.9169 57.1731 40.9325 57.1938 40.9532C57.2146 40.974 57.2302 41.0048 57.2302 41.0473ZM55.2792 41.6781H57.0984L54.9433 42.1781H54.7391V41.6781L55.202 41.489L55.2792 41.6781ZM47.2638 40.4171V40.9171H47.7638H50.0983H50.8395L50.5619 40.2299L47.1681 31.8281L47.0087 31.4336L46.5938 31.5277C46.3605 31.5807 46.1087 31.6038 45.8469 31.6038C45.5851 31.6038 45.3332 31.5807 45.1 31.5277L44.685 31.4335L44.5257 31.8281L41.1319 40.2299L40.8542 40.9171H41.5955H43.9292H44.4292V40.4171V39.6225C44.4292 38.9174 45.0104 38.3315 45.7329 38.3315H45.9601C46.6825 38.3315 47.2638 38.9174 47.2638 39.6225V40.4171Z' fill='#0F0F0F' stroke='black'/><path d='M48.5 28C48.5 29.3808 47.3797 30.5 45.992 30.5C44.622 30.5 43.5 29.3825 43.5 28C43.5 26.6175 44.622 25.5 45.992 25.5C47.3797 25.5 48.5 26.6192 48.5 28Z' fill='#0F0F0F' stroke='black'/><path d='M30.9236 22.1331H30.9416C31.2571 22.1421 31.4953 22.3889 31.4949 22.6913V22.6921V53.9411C31.4949 54.2496 31.2473 54.5004 30.9229 54.5004H23.0257C22.7094 54.5004 22.4664 54.2577 22.4664 53.9411V22.6932C22.4664 22.3758 22.7093 22.1331 23.0257 22.1331H30.9236ZM23.2282 27.2138H22.7282V27.7138V28.9747V29.4747H23.2282H23.9097C24.5389 29.4747 25.0401 28.9734 25.0401 28.3442C25.0401 27.715 24.5389 27.2138 23.9097 27.2138H23.2282ZM23.2282 33.8619H22.7282V34.3619V35.6228V36.1228H23.2282H23.9097C24.5389 36.1228 25.0401 35.6215 25.0401 34.9923C25.0401 34.3631 24.5389 33.8619 23.9097 33.8619H23.2282ZM23.2282 40.51H22.7282V41.01V42.2709V42.7709H23.2282H23.9097C24.5389 42.7709 25.0401 42.2697 25.0401 41.6404C25.0401 41.0112 24.5389 40.51 23.9097 40.51H23.2282ZM23.2282 47.1581H22.7282V47.6581V48.919V49.419H23.2282H23.9097C24.5389 49.419 25.0401 48.9178 25.0401 48.2885C25.0401 47.6593 24.5389 47.1581 23.9097 47.1581H23.2282ZM22.7282 52.2371V52.7371H23.2282H24.6031C25.2134 52.7371 25.7336 52.242 25.7336 51.6058C25.7336 50.9893 25.2196 50.4753 24.6031 50.4753H23.2282H22.7282V50.9753V52.2371ZM22.7282 45.589V46.089H23.2282H24.6031C25.2134 46.089 25.7336 45.5938 25.7336 44.9577C25.7336 44.3412 25.2196 43.8272 24.6031 43.8272H23.2282H22.7282V44.3272V45.589ZM22.7282 38.9409V39.4409H23.2282H24.6031C25.2134 39.4409 25.7336 38.9457 25.7336 38.3096C25.7336 37.6931 25.2196 37.1791 24.6031 37.1791H23.2282H22.7282V37.6791V38.9409ZM22.7282 32.3055V32.8055H23.2282H24.6031C25.22 32.8055 25.7336 32.291 25.7336 31.6742C25.7336 31.0384 25.213 30.5437 24.6031 30.5437H23.2282H22.7282V31.0437V32.3055ZM22.7282 25.6574V26.1574H23.2282H24.6031C25.22 26.1574 25.7336 25.6429 25.7336 25.0261C25.7336 24.3903 25.213 23.8956 24.6031 23.8956H23.2282H22.7282V24.3956V25.6574Z' fill='#0F0F0F' stroke='black'/><circle cx='46' cy='25' r='4' fill='white'/><rect x='33' y='38' width='26' height='4' rx='2' fill='black'/><path d='M57.2302 39.0473V39.0565C57.2255 39.1239 57.1679 39.1782 57.0996 39.1781H57.0984H54.7391H53.9948L54.2762 39.8671L56.4968 45.3045C56.4968 45.3045 56.4968 45.3046 56.4968 45.3046C57.163 46.9371 56.9446 48.8002 55.9334 50.2252L55.7753 50.448L55.8774 50.7015L56.5327 52.3274C56.5327 52.3274 56.5327 52.3275 56.5328 52.3275C56.5419 52.3506 56.544 52.386 56.527 52.4256C56.5128 52.4584 56.4916 52.4799 56.4714 52.4917C56.4505 52.4965 56.4248 52.4997 56.4041 52.4997C56.3704 52.4997 56.347 52.4908 56.3319 52.4808C56.3181 52.4717 56.3013 52.4556 56.288 52.4224L56.2879 52.4223L55.5188 50.5046L55.5 50.4577L55.4907 50.4436L55.4887 50.4373L55.486 50.4287L55.4789 50.4067L55.4739 50.3918L55.4681 50.3773L51.0652 39.4904L50.9388 39.1778H50.6016H47.7634H47.2634V39.6778V40.447C47.2634 41.1671 46.6798 41.7507 45.9596 41.7507H45.7325C45.0123 41.7507 44.4288 41.1671 44.4288 40.447V39.6778V39.1778H43.9288H41.0905H40.7534L40.627 39.4904L36.2241 50.3773L36.211 50.4096L36.2025 50.4435C36.2026 50.4433 36.202 50.4456 36.2004 50.4503C36.1989 50.455 36.1969 50.4607 36.1944 50.4672C36.1891 50.4809 36.1834 50.4935 36.1789 50.5024L36.169 50.5218L36.1609 50.5421L35.4037 52.4215L35.3993 52.4322L35.3955 52.4431C35.3899 52.4592 35.3814 52.4697 35.3672 52.4789C35.3504 52.4897 35.3228 52.4997 35.2872 52.4997C35.2721 52.4997 35.2517 52.4983 35.2184 52.4905C35.1988 52.4782 35.1799 52.4576 35.1679 52.429C35.153 52.3938 35.1557 52.3639 35.1647 52.3432L35.1649 52.3433L35.1702 52.3303L35.8262 50.7155L35.9295 50.4611L35.7703 50.2374C34.7471 48.8 34.5287 46.9369 35.1954 45.3043L37.416 39.8668L37.6973 39.1778H36.9531H34.5938C34.5677 39.1778 34.5342 39.1663 34.5045 39.1366C34.4748 39.1069 34.4634 39.0735 34.4634 39.0473C34.4634 38.977 34.523 38.9169 34.5938 38.9169H37.4576H37.7938L37.9206 38.6056L42.2597 27.9586L42.354 27.7271L42.2254 27.5127C41.8551 26.8955 41.6407 26.1641 41.6407 25.386C41.6407 23.695 42.6439 22.2288 44.0879 21.5631L44.3785 21.4291V21.109V17.9679C44.3785 17.1593 45.0378 16.5 45.8464 16.5C46.6592 16.5 47.3271 17.1635 47.3271 17.9679V21.1209V21.441L47.3277 21.4413H45.8462C43.6658 21.4413 41.903 23.2043 41.903 25.3853C41.903 26.2006 42.1445 26.9459 42.5553 27.5751C42.5654 27.5924 42.5748 27.6066 42.5818 27.617C42.5883 27.6264 42.5946 27.6352 42.5996 27.6419L42.6039 27.6506L42.627 27.6828C43.1039 28.348 43.7815 28.8515 44.5579 29.1249L44.5579 29.1249L44.5626 29.1265L44.6208 29.1462L44.6757 29.1648L44.7542 29.1915H44.7744C45.1175 29.2934 45.4724 29.343 45.8461 29.343C46.2201 29.343 46.5743 29.2933 46.9176 29.1915H46.938L47.0165 29.1648L47.0714 29.1462L47.1296 29.1265L47.1296 29.1265L47.1343 29.1249C47.8456 28.8745 48.459 28.4325 48.9209 27.866H48.9437L49.0931 27.654C49.5441 27.0138 49.8029 26.2197 49.8029 25.3854C49.8029 23.695 48.7373 22.2582 47.2452 21.6954L47.5229 21.5313L47.6177 21.575C49.0631 22.2414 50.0649 23.6965 50.0649 25.3852C50.0649 26.1623 49.851 26.893 49.4688 27.5223L49.3381 27.7376L49.4333 27.9708L53.773 38.6058L53.9 38.9169H54.236H57.0998C57.1422 38.9169 57.1731 38.9325 57.1938 38.9532C57.2146 38.974 57.2302 39.0048 57.2302 39.0473ZM55.2792 39.6781H57.0984L54.9433 40.1781H54.7391V39.6781L55.202 39.489L55.2792 39.6781ZM47.2638 38.4171V38.9171H47.7638H50.0983H50.8395L50.5619 38.2299L47.1681 29.8281L47.0087 29.4336L46.5938 29.5277C46.3605 29.5807 46.1087 29.6038 45.8469 29.6038C45.5851 29.6038 45.3332 29.5807 45.1 29.5277L44.685 29.4335L44.5257 29.8281L41.1319 38.2299L40.8542 38.9171H41.5955H43.9292H44.4292V38.4171V37.6225C44.4292 36.9174 45.0104 36.3315 45.7329 36.3315H45.9601C46.6825 36.3315 47.2638 36.9174 47.2638 37.6225V38.4171Z' fill='white' stroke='black'/><path d='M47.7431 25.385C47.7431 26.4335 46.895 27.2816 45.8465 27.2816C44.8124 27.2816 43.9625 26.4352 43.9625 25.385C43.9625 24.3347 44.8124 23.4883 45.8465 23.4883C46.895 23.4883 47.7431 24.3364 47.7431 25.385Z' fill='white' stroke='black'/><rect x='23' y='20' width='5' height='31' fill='white'/><path d='M30.9236 20.1331H30.9416C31.2571 20.1421 31.4953 20.3889 31.4949 20.6913V20.6921V51.9411C31.4949 52.2496 31.2473 52.5004 30.9229 52.5004H23.0257C22.7094 52.5004 22.4664 52.2577 22.4664 51.9411V20.6932C22.4664 20.3758 22.7093 20.1331 23.0257 20.1331H30.9236ZM23.2282 25.2138H22.7282V25.7138V26.9747V27.4747H23.2282H23.9097C24.5389 27.4747 25.0401 26.9734 25.0401 26.3442C25.0401 25.715 24.5389 25.2138 23.9097 25.2138H23.2282ZM23.2282 31.8619H22.7282V32.3619V33.6228V34.1228H23.2282H23.9097C24.5389 34.1228 25.0401 33.6215 25.0401 32.9923C25.0401 32.3631 24.5389 31.8619 23.9097 31.8619H23.2282ZM23.2282 38.51H22.7282V39.01V40.2709V40.7709H23.2282H23.9097C24.5389 40.7709 25.0401 40.2697 25.0401 39.6404C25.0401 39.0112 24.5389 38.51 23.9097 38.51H23.2282ZM23.2282 45.1581H22.7282V45.6581V46.919V47.419H23.2282H23.9097C24.5389 47.419 25.0401 46.9178 25.0401 46.2885C25.0401 45.6593 24.5389 45.1581 23.9097 45.1581H23.2282ZM22.7282 50.2371V50.7371H23.2282H24.6031C25.2134 50.7371 25.7336 50.242 25.7336 49.6058C25.7336 48.9893 25.2196 48.4753 24.6031 48.4753H23.2282H22.7282V48.9753V50.2371ZM22.7282 43.589V44.089H23.2282H24.6031C25.2134 44.089 25.7336 43.5938 25.7336 42.9577C25.7336 42.3412 25.2196 41.8272 24.6031 41.8272H23.2282H22.7282V42.3272V43.589ZM22.7282 36.9409V37.4409H23.2282H24.6031C25.2134 37.4409 25.7336 36.9457 25.7336 36.3096C25.7336 35.6931 25.2196 35.1791 24.6031 35.1791H23.2282H22.7282V35.6791V36.9409ZM22.7282 30.3055V30.8055H23.2282H24.6031C25.22 30.8055 25.7336 30.291 25.7336 29.6742C25.7336 29.0384 25.213 28.5437 24.6031 28.5437H23.2282H22.7282V29.0437V30.3055ZM22.7282 23.6574V24.1574H23.2282H24.6031C25.22 24.1574 25.7336 23.6429 25.7336 23.0261C25.7336 22.3903 25.213 21.8956 24.6031 21.8956H23.2282H22.7282V22.3956V23.6574Z' fill='white' stroke='black'/></g></svg>",
+      "leftsvgarialabel": "Drafting Tools Icon",
+      "rightsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='130' height='131' viewBox='0 0 130 131' fill='none'><mask id='mask0_9846_8650' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='2' y='10' width='112' height='119'><g opacity='0.2'><path d='M113.113 89.6536C113.356 88.6489 112.756 87.6681 111.749 87.4241L103.578 85.4454L98.5254 52.1856C100.235 50.4725 101.485 48.3045 102.085 45.828C103.389 40.4439 101.306 35.0367 97.2121 31.8026L99.3849 22.8308C100.132 19.7441 98.1849 16.6122 95.0901 15.8627C91.9954 15.1132 88.8671 17.0159 88.1196 20.1026L85.9551 29.0405C80.835 30.0431 76.5011 33.9322 75.1966 39.3187C74.5968 41.7953 74.7162 44.2948 75.4253 46.5553L55.7092 73.8528L47.5387 71.8742C46.5678 71.639 45.5489 72.2278 45.3056 73.2324C45.0711 74.2008 45.6989 75.2268 46.6698 75.4619L53.4008 77.092L43.3185 91.0298C39.9963 95.6226 39.2724 101.604 41.3877 106.865L38.4035 111.007C37.7903 111.809 37.9985 112.997 38.8092 113.576C39.0441 113.709 39.2519 113.796 39.468 113.848C40.1865 114.022 40.9665 113.793 41.393 113.135L44.8484 108.311C44.9558 108.186 45.0696 108.023 45.1412 107.887L65.205 79.9508L73.3026 81.9119L72.7726 84.1005C72.0861 86.9353 73.8332 89.7907 76.6757 90.4791L77.3238 90.636C80.1662 91.3244 83.0262 89.5848 83.7128 86.7499L84.2428 84.5613L92.3404 86.5224L97.3999 120.543C97.4099 120.661 97.4117 120.812 97.4563 120.936L98.3292 126.924C98.4439 127.713 98.9965 128.264 99.7149 128.438C99.931 128.491 100.192 128.515 100.425 128.498C101.413 128.357 102.139 127.393 101.998 126.408L101.248 121.323C105.494 117.638 107.584 111.989 106.733 106.388L104.145 89.3818L110.876 91.0119C111.887 91.2594 112.878 90.6255 113.114 89.6548L113.113 89.6536ZM90.9949 32.7682C96.4298 34.0844 99.7967 39.536 98.484 44.9565C97.9798 47.0384 96.8539 48.8546 95.3545 50.1649C95.3181 50.1561 95.2641 50.2199 95.2189 50.2474C93.6408 51.5747 91.6811 52.4303 89.5715 52.642C89.4559 52.6525 89.3378 52.6624 89.2222 52.6728L89.1858 52.664C88.2155 52.734 87.2464 52.6505 86.2391 52.4066C85.2318 52.1626 84.3294 51.7929 83.5011 51.2873L83.4646 51.2785C83.3666 51.2163 83.2662 51.1535 83.1682 51.0913C81.3893 49.9378 80.0017 48.2717 79.2146 46.3331C79.1957 46.2516 79.1424 46.1644 79.1235 46.0829C78.462 44.2518 78.3024 42.2371 78.7984 40.189C80.1111 34.7685 85.5627 31.4526 90.9952 32.7682L90.9949 32.7682ZM85.1127 80.9743L85.6603 78.7132C86.3381 75.9146 84.5909 73.0593 81.7484 72.3709L81.1003 72.214C78.2579 71.5256 75.3979 73.2651 74.7202 76.0637L74.1726 78.3249L67.5144 76.7124L82.9867 55.1504C83.7346 55.5212 84.5448 55.7943 85.3725 55.9948C86.2002 56.1952 87.0455 56.323 87.8802 56.3355L91.7732 82.5873L85.1127 80.9743Z' fill='white'/><path d='M50.1912 16.3248L27.7059 10.8795C26.0176 10.4706 24.3696 11.473 23.9626 13.1538L2.5139 101.721C2.10686 103.401 3.1166 105.045 4.8025 105.453L27.2857 110.898C28.9739 111.307 30.6582 110.313 31.0647 108.635L52.5141 20.065C52.9236 18.3848 51.8775 16.7325 50.1916 16.3242L50.1912 16.3248ZM24.1088 28.2539L26.0489 28.7237C27.0541 28.9672 27.6534 29.9445 27.411 30.9452C27.1687 31.946 26.1886 32.5409 25.1834 32.2974L23.2433 31.8276L24.1088 28.2539ZM19.5455 47.0967L21.4856 47.5666C22.4908 47.81 23.0901 48.7874 22.8477 49.7881C22.6054 50.7888 21.6254 51.3837 20.6202 51.1403L18.68 50.6704L19.5455 47.0967ZM14.9822 65.9396L16.9224 66.4095C17.9276 66.6529 18.5268 67.6303 18.2844 68.631C18.0421 69.6317 17.0621 70.2266 16.0569 69.9832L14.1168 69.5133L14.9822 65.9396ZM10.4189 84.7825L12.3591 85.2523C13.3643 85.4958 13.9635 86.4731 13.7212 87.4739C13.4788 88.4746 12.4988 89.0695 11.4936 88.826L9.55347 88.3562L10.4189 84.7825ZM11.1902 98.7087L7.27592 97.7608L8.14198 94.1846L12.0563 95.1325C13.0251 95.3672 13.6519 96.3895 13.4183 97.354C13.1754 98.3572 12.159 98.9433 11.1902 98.7087ZM15.7535 79.8658L11.8392 78.9179L12.7053 75.3417L16.6195 76.2896C17.5884 76.5243 18.2152 77.5466 17.9816 78.5112C17.7387 79.5143 16.7223 80.1005 15.7535 79.8658ZM20.3167 61.0229L16.4025 60.075L17.2685 56.4988L21.1828 57.4468C22.1517 57.6814 22.7785 58.7037 22.5449 59.6683C22.302 60.6714 21.2856 61.2576 20.3167 61.0229ZM24.8713 42.2161L20.957 41.2681L21.8231 37.692L25.7374 38.6399C26.7062 38.8746 27.3418 39.8607 27.0995 40.8614C26.8653 41.8284 25.8402 42.4507 24.8713 42.2161ZM29.4346 23.3732L25.5203 22.4253L26.3864 18.8491L30.3006 19.797C31.2695 20.0317 31.9051 21.0178 31.6627 22.0186C31.4286 22.9855 30.4034 23.6079 29.4346 23.3732Z' fill='white'/><circle cx='88.5' cy='42.5' r='5.5' fill='white'/></g></mask><g mask='url(#mask0_9846_8650)'><rect x='-32.0012' y='-21' width='191' height='142' fill='#D9D9D9'/></g></svg>"
+    },
+    "glossary": {
+      "geometric_necessity": {
+        "word": "Geometric Necessity",
+        "definition": "<strong className=\"text-[#0055B2]\">Geometric Necessity</strong> is when something must be true because of what it is, not because we measured it."
+      },
+      "perpendicular_bisector": {
+        "word": "Perpendicular Bisector",
+        "definition": "<strong className=\"text-[#0055B2]\">Perpendicular Bisector</strong> is a line that cuts another line segment into two equal parts at right angles."
+      },
+      "perpendicular_bisectors": {
+        "word": "Perpendicular Bisectors",
+        "definition": "<strong className=\"text-[#0055B2]\">Perpendicular Bisector</strong> is a line that cuts another line segment into two equal parts at right angles."
+      },
+      "equidistant": {
+        "word": "Equidistant",
+        "definition": "<strong className=\"text-[#0055B2]\">Equidistant</strong> means being exactly the same distance from two or more points."
+      },
+      "radius": {
+        "word": "Radius",
+        "definition": "<strong className=\"text-[#0055B2]\">Radius</strong> is the fixed distance from the center of a circle to any point on its circumference."
+      },
+      "congruent_triangles": {
+        "word": "Congruent Triangles",
+        "definition": "<strong className=\"text-[#0055B2]\">Congruent Triangles</strong> are two triangles that match exactly in all their parts (sides and angles)."
+      },
+      "construction": {
+        "word": "Construction",
+        "definition": "<strong className=\"text-[#0055B2]\">Construction</strong> is using a compass and straightedge to create geometric figures with utmost precision."
+      },
+      "constructions": {
+        "word": "Constructions",
+        "definition": "<strong className=\"text-[#0055B2]\">Construction</strong> is using a compass and straightedge to create geometric figures with utmost precision."
+      },
+      "intersection_point": {
+        "word": "Intersection Point",
+        "definition": "<strong className=\"text-[#0055B2]\">Intersection Points</strong> are points where two geometric figures (like circles) meet."
+      },
+      "intersection_points": {
+        "word": "Intersection Points",
+        "definition": "<strong className=\"text-[#0055B2]\">Intersection Points</strong> are points where two geometric figures (like circles) meet."
+      },
+      "geometric_proof": {
+        "word": "Geometric Proof",
+        "definition": "<strong className=\"text-[#0055B2]\">Geometric Proof</strong> is a logical argument showing why a geometric statement must be true."
+      },
+      "physical_tool": {
+        "word": "Physical Tool",
+        "definition": "<strong className=\"text-[#0055B2]\">Physical Tool</strong> is an actual instrument like a compass, which may be imperfect."
+      },
+      "physical_tools": {
+        "word": "Physical Tools",
+        "definition": "<strong className=\"text-[#0055B2]\">Physical Tools</strong> are actual instruments like compasses, which can wear or be imperfect."
+      },
+      "mathematical_truth": {
+        "word": "Mathematical Truth",
+        "definition": "<strong className=\"text-[#0055B2]\">Mathematical Truth</strong> is a perfect concept that exists in the realm of pure geometry, independent of physical representations."
+      }
+    },
+    "common": {
+      "akila": "Akila",
+      "hypatia": "Hypatia",
+      "theon": "Theon",
+      "akila_description": "Akila, an Egyptian architecture student with wavy dark hair wearing a white draped tunic and holding scrolls.",
+      "hypatia_description": "Hypatia, historical mathematician and teacher from Alexandria, with elegant hairstyle in blue and white robes with gold embellishments.",
+      "theon_description": "Theon, senior mathematician and Hypatia's father, elderly bearded man in classical robes holding a scroll of Euclid's Elements.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Panoramic view of ancient Alexandria from a columned portico, showing the Great Library complex with its obelisk, harbor with ships, and distant mountains under a blue sky at sunset.",
+      "bg2_description": "Interior of an Egyptian temple or educational hall with massive hieroglyph-covered columns, showing scholars and students in white robes studying at tables, with bright desert landscape and mountains visible through the colonnade.",
+      "bg3_description": "Sunlit circular study chamber in Alexandria's Library with drafting tables, scrolls, and architectural tools, featuring stone columns framing views of the Mediterranean Sea, harbor, and distant mountains.",
+      "bg4_description": "Mathematical study room in ancient Alexandria with a large drafting table displaying astronomical and geometric diagrams, surrounded by columns with panoramic views of the Mediterranean coastline at sunset.",
+      "bg5_description": "Interior of the Great Library of Alexandria with towering columns, rows of scrolls in shelves, silhouettes of scholars studying at tables, and wide openings revealing the coastline and Egyptian landscape bathed in golden sunset light.",
+      "or": "OR"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "ancient-alexandria": "STEAM Quest - Ancient Alexandria"
+  }
+}

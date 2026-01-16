@@ -1,0 +1,131 @@
+diff --git a/node_modules/scorm-again/src/BaseAPI.ts b/node_modules/scorm-again/src/BaseAPI.ts
+index dc4bbba..25c123d 100644
+--- a/node_modules/scorm-again/src/BaseAPI.ts
++++ b/node_modules/scorm-again/src/BaseAPI.ts
+@@ -45,6 +45,7 @@ export default abstract class BaseAPI implements IBaseAPI {
+       this.settings = settings;
+     }
+     this.apiLogLevel = this.settings.logLevel;
++    // @ts-ignore
+     this.selfReportSessionTime = this.settings.selfReportSessionTime;
+ 
+     if (this.apiLogLevel === undefined) {
+@@ -194,8 +195,9 @@ export default abstract class BaseAPI implements IBaseAPI {
+   ) {
+     logMessage = formatMessage(functionName, logMessage, CMIElement);
+ 
++    // @ts-ignore
+     if (messageLevel >= this.apiLogLevel) {
+-      this.settings.onLogMessage(messageLevel, logMessage);
++      (this.settings.onLogMessage as Function)(messageLevel, logMessage);
+     }
+   }
+ 
+@@ -359,7 +361,7 @@ export default abstract class BaseAPI implements IBaseAPI {
+     if (String(this.lastErrorCode) === "0") {
+       if (this.settings.autocommit) {
+         this.scheduleCommit(
+-          this.settings.autocommitSeconds * 1000,
++          (this.settings.autocommitSeconds as number) * 1000,
+           commitCallback,
+         );
+       }
+@@ -836,7 +838,7 @@ export default abstract class BaseAPI implements IBaseAPI {
+       }
+ 
+       const removeIndex = this.listenerArray.findIndex(
+-        (obj) =>
++        (obj: any) =>
+           obj.functionName === functionName &&
+           obj.CMIElement === CMIElement &&
+           obj.callback === callback,
+@@ -1088,7 +1090,7 @@ export default abstract class BaseAPI implements IBaseAPI {
+     if (this.settings.sendFullCommit) {
+       return JSON.stringify({ cmi });
+     }
+-    return JSON.stringify({ cmi }, (k, v) => (v === undefined ? null : v), 2);
++    return JSON.stringify({ cmi }, (_, v) => (v === undefined ? null : v), 2);
+   }
+ 
+   /**
+@@ -1135,12 +1137,12 @@ export default abstract class BaseAPI implements IBaseAPI {
+       settings: Settings,
+     ): Promise<ResultObject> => {
+       try {
+-        params = settings.requestHandler(params);
++        params = settings?.requestHandler?.(params);
+         const response = await this.performFetch(url, params);
+ 
+         return this.transformResponse(response);
+       } catch (e) {
+-        this.apiLog("processHttpRequest", e, LogLevelEnum.ERROR);
++        this.apiLog("processHttpRequest", e as any, LogLevelEnum.ERROR);
+         api.processListeners("CommitError");
+         return genericError;
+       }
+@@ -1228,10 +1230,10 @@ export default abstract class BaseAPI implements IBaseAPI {
+     const shouldTerminateCommit =
+       terminateCommit || this.settings.alwaysSendTotalTime;
+     const commitObject = this.settings.renderCommonCommitFields
+-      ? this.renderCommitObject(shouldTerminateCommit)
+-      : this.renderCommitCMI(shouldTerminateCommit);
++      ? this.renderCommitObject(shouldTerminateCommit as boolean)
++      : this.renderCommitCMI(shouldTerminateCommit as boolean);
+ 
+-    if ([LogLevelEnum.DEBUG, "1", 1, "DEBUG"].includes(this.apiLogLevel)) {
++    if ([LogLevelEnum.DEBUG, "1", 1, "DEBUG"].includes(this.apiLogLevel as number | string)) {
+       console.debug(
+         "Commit (terminated: " + (terminateCommit ? "yes" : "no") + "): ",
+       );
+@@ -1257,7 +1259,7 @@ export default abstract class BaseAPI implements IBaseAPI {
+       body: params instanceof Array ? params.join("&") : JSON.stringify(params),
+       headers: {
+         ...this.settings.xhrHeaders,
+-        "Content-Type": this.settings.commitRequestDataType,
++        "Content-Type": this.settings.commitRequestDataType as string,
+       },
+       credentials: this.settings.xhrWithCredentials ? "include" : undefined,
+       keepalive: true,
+diff --git a/node_modules/scorm-again/src/Scorm12API.ts b/node_modules/scorm-again/src/Scorm12API.ts
+index 4473994..b14d653 100644
+--- a/node_modules/scorm-again/src/Scorm12API.ts
++++ b/node_modules/scorm-again/src/Scorm12API.ts
+@@ -360,7 +360,7 @@ class Scorm12Impl extends BaseAPI {
+     }
+ 
+     const score = this.cmi.core.score;
+-    let scoreObject: ScoreObject = null;
++    let scoreObject: ScoreObject | null = null;
+     if (score) {
+       scoreObject = {};
+ 
+diff --git a/node_modules/scorm-again/src/Scorm2004API.ts b/node_modules/scorm-again/src/Scorm2004API.ts
+index 57c4a59..281a177 100644
+--- a/node_modules/scorm-again/src/Scorm2004API.ts
++++ b/node_modules/scorm-again/src/Scorm2004API.ts
+@@ -158,13 +158,13 @@ class Scorm2004Impl extends BaseAPI {
+       "^adl\\.nav\\.request_valid\\.(choice|jump)\\.{target=\\S{0,}([a-zA-Z0-9-_]+)}$";
+     if (stringMatches(CMIElement, adlNavRequestRegex)) {
+       const matches = CMIElement.match(adlNavRequestRegex);
+-      const request = matches[1];
+-      const target = matches[2].replace("{target=", "").replace("}", "");
++      const request = matches?.[1] || "";
++      const target = matches?.[2].replace("{target=", "").replace("}", "") || "";
+       if (request === "choice" || request === "jump") {
+         if (this.settings.scoItemIdValidator) {
+           return String(this.settings.scoItemIdValidator(target));
+         }
+-        return String(this.settings.scoItemIds.includes(target));
++        return String(this.settings.scoItemIds?.includes(target));
+       }
+     }
+     return this.getValue("GetValue", true, CMIElement);
+@@ -660,7 +660,7 @@ class Scorm2004Impl extends BaseAPI {
+     }
+ 
+     const score = this.cmi.score;
+-    let scoreObject: ScoreObject = null;
++    let scoreObject: ScoreObject | null = null;
+     if (score) {
+       scoreObject = {};
+ 

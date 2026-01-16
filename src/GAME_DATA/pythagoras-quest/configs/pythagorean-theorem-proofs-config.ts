@@ -1,0 +1,42 @@
+import { PythagoreanTheoremProofsConfig } from '../interactives/interface';
+
+const pythagoreanTheoremProofsConfig: PythagoreanTheoremProofsConfig = {
+  translations: {
+    proof1Title: 'scenes.S9.S9_D0_FX_C9.proof1Title',
+    proof2Title: 'scenes.S9.S9_D0_FX_C9.proof2Title',
+    proof3Title: 'scenes.S9.S9_D0_FX_C9.proof3Title',
+    selectPerfectTriple: 'scenes.S9.S9_D0_FX_C9.selectPerfectTriple',
+    animateProof: 'scenes.S9.S9_D0_FX_C9.animateProof',
+    reset: 'scenes.S9.S9_D0_FX_C9.reset',
+    pourA: 'scenes.S9.S9_D0_FX_C9.pourA',
+    pourB: 'scenes.S9.S9_D0_FX_C9.pourB',
+    resetWater: 'scenes.S9.S9_D0_FX_C9.resetWater',
+    area: 'scenes.S9.S9_D0_FX_C9.area',
+    proof1CanvasInitialAriaLabel: 'scenes.S9.S9_D0_FX_C9.proof1CanvasInitialAriaLabel',
+    proof1CanvasAnimatingAriaLabel: 'scenes.S9.S9_D0_FX_C9.proof1CanvasAnimatingAriaLabel',
+    proof2CanvasInitialAriaLabel: 'scenes.S9.S9_D0_FX_C9.proof2CanvasInitialAriaLabel',
+    proof2CanvasPouringBAriaLabel: 'scenes.S9.S9_D0_FX_C9.proof2CanvasPouringBAriaLabel',
+    proof2CanvasPouringAAriaLabel: 'scenes.S9.S9_D0_FX_C9.proof2CanvasPouringAAriaLabel',
+    proof2CanvasCompletedAriaLabel: 'scenes.S9.S9_D0_FX_C9.proof2CanvasCompletedAriaLabel',
+    screenReaderValues: 'scenes.S9.S9_D0_FX_C9.screenReaderValues',
+    screenReaderSquaredValues: 'scenes.S9.S9_D0_FX_C9.screenReaderSquaredValues',
+    tripleThreeFourFive: 'scenes.S9.S9_D0_FX_C9.tripleThreeFourFive',
+    tripleSixEightTen: 'scenes.S9.S9_D0_FX_C9.tripleSixEightTen',
+    tripleFiveTwelveThirteen: 'scenes.S9.S9_D0_FX_C9.tripleFiveTwelveThirteen',
+    tripleThreeFourFiveAriaLabel: 'scenes.S9.S9_D0_FX_C9.tripleThreeFourFiveAriaLabel',
+    tripleSixEightTenAriaLabel: 'scenes.S9.S9_D0_FX_C9.tripleSixEightTenAriaLabel',
+    tripleFiveTwelveThirteenAriaLabel: 'scenes.S9.S9_D0_FX_C9.tripleFiveTwelveThirteenAriaLabel',
+    selected: 'scenes.S9.S9_D0_FX_C9.selected',
+    rearrange: 'scenes.S9.S9_D0_FX_C9.rearrange',
+    firstPosition: 'scenes.S9.S9_D0_FX_C9.firstPosition',
+    secondPosition: 'scenes.S9.S9_D0_FX_C9.secondPosition',
+    proof1InfoHeading: 'scenes.S9.S9_D0_FX_C9.proof1Info.heading',
+    proof2InfoHeading: 'scenes.S9.S9_D0_FX_C9.proof2Info.heading',
+    proof3InfoHeading: 'scenes.S9.S9_D0_FX_C9.proof3Info.heading',
+    proof1InfoBody: 'scenes.S9.S9_D0_FX_C9.proof1Info.body',
+    proof2InfoBody: 'scenes.S9.S9_D0_FX_C9.proof2Info.body',
+    proof3InfoBody: 'scenes.S9.S9_D0_FX_C9.proof3Info.body',
+  },
+};
+
+export default pythagoreanTheoremProofsConfig;

@@ -1,0 +1,380 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3X": "Introducción",
+    "scene_3": "Mapeo del fondo marino",
+    "scene_4": "Discusión sobre datos escaneados",
+    "scene_5": "Ajuste de datos del fondo marino a polinomios",
+    "scene_6": "Discusión sobre datos de drones",
+    "scene_7": "",
+    "scene_8X": "",
+    "scene_8": "",
+    "scene_9": "Fusión de datos de sensores",
+    "scene_10": "",
+    "scene_11": "",
+    "scene_12": "Conclusión",
+    "scene_13": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>Arqueología subacuática</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>Misión: La anomalía del Mar Negro</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>En las profundidades del Mar Negro se encuentra una de las cápsulas del tiempo más extraordinarias de la Tierra. Bajo 200 metros, aguas carentes de oxígeno han preservado naufragios de madera durante miles de años. Ayuda al Dr. Albert Lin a usar ecuaciones polinómicas para identificar estos naufragios perdidos, algunos de los mayores tesoros submarinos de la historia.</p>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>¡Bienvenidos a Fractal Forge Studios!</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Donde las matemáticas se fusionan con el diseño de juegos! Aquí es donde los conceptos matemáticos abstractos se transforman en mundos dinámicos e inmersivos. Hoy nos adentramos en el fascinante mundo de los fractales, creando un impresionante terreno generado proceduralmente para su juego de planetas alienígenas. ¿Listos para explorar cómo los fractales moldean los paisajes de los juegos del futuro?</div>"
+      }
+    },
+    "S3": {
+      "S3_D0_FX_C0": {
+        "mainTitle": "Red Comercial de la Antigua Grecia",
+        "imgDescription": "Barcos griegos antiguos partiendo de un puerto ocupado con comerciantes cargando mercancías, mostrando la extensa red comercial mediterránea.",
+        "mainTitle2": "Mapa Comercial del Mediterráneo",
+        "imgDescription2": "Vista satelital mostrando colonias comerciales griegas (marcadas en rojo) que se extienden desde España hasta Rusia alrededor del Mediterráneo y el Mar Negro.",
+        "mainTitle3": "Mapa Histórico del Mar Negro",
+        "imgDescription3": "Mapa histórico que muestra los asentamientos griegos alrededor del Mar Negro.",
+        "mainTitle4": "Operaciones del Buque de Investigación",
+        "imgDescription4": "Buque de investigación moderno con antenas satelitales, matrices de sonar y grúas ROV posicionado sobre las aguas del Mar Negro.",
+        "mainTitle5": "Tecnología del Centro de Comando",
+        "imgDescription5": "Centro de comando del barco con monitores brillantes que muestran mapas de calor coloridos del fondo marino y datos batimétricos."
+      },
+      "S3_D0_FX_C9": {
+        "title": "Mapeo del fondo marino",
+        "translations": {
+          "modelControlsHeading": "Controles del Modelo",
+          "stretchLabel": "Estiramiento (<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">a</em>)",
+          "hShiftLabel": "Desplazamiento H (<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">h</em>)",
+          "vShiftLabel": "Desplazamiento V (<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">k</em>)",
+          "degreeLabel": "Grado",
+          "checkMatchButton": "Verificar Coincidencia",
+          "calibrationLineLabel": "Línea de Calibración",
+          "seafloorMapLabel": "Mapa del Fondo Marino",
+          "systemsCalibratedTitle": "Sistemas Calibrados",
+          "systemsCalibratedMessage": "Excelente trabajo. El modelo de calibración coincide perfectamente con los datos del fondo marino. Su sistema ahora está operativo.",
+          "resetSimulationButton": "Reiniciar",
+          "matchConfirmedMessage": "Coincidencia confirmada. Sistemas calibrados.",
+          "calibrationMismatchPrefix": "Discrepancia de calibración.",
+          "diagnosticsPrefix": "Diagnósticos:",
+          "degreeIncorrectMessage": "El grado '<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">n</em>' es incorrecto",
+          "stretchOffTargetMessage": "El estiramiento '<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">a</em>' está fuera del objetivo",
+          "hShiftOffTargetMessage": "El desplazamiento H '<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">h</em>' está fuera del objetivo",
+          "vShiftOffTargetMessage": "El desplazamiento V '<em style=\"font-family: serif; font-weight: bold; font-style: italic;\">k</em>' está fuera del objetivo",
+          "linearLabel": "Lineal",
+          "quadraticLabel": "Cuadrática",
+          "cubicLabel": "Cúbica",
+          "quarticLabel": "Cuártica",
+          "quinticLabel": "Quíntica",
+          "equationAriaLabel": "Ecuación actual: función {degreeType} f de x igual a {aValue} por x {hSign} {hValue} elevado a la potencia de {degree} {kSign} {kValue}",
+          "vertexFormAriaLabel": "función f de x es igual a por x menos h elevado a {n} más k"
+        },
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<p>Ajuste la <strong>línea de calibración</strong> amarilla para que coincida lo más posible con el <strong>mapa verde del fondo marino</strong>.</p><h4 style=\"margin-top: 12px; color: #A22DDC;\"><strong>¿Cómo calibrar?</strong></h4><ol style=\"list-style-type: decimal; padding-left: 20px; margin-top: 10px;\"><li><strong>Seleccione el grado del polinomio (<span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #677600;\">n</span>):</strong> Elija la complejidad de la curva usando los botones de grado (<span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #677600;\">n</span> = <span style=\"color: #0061FC;\">2</span></span>, <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #677600;\">n</span> = <span style=\"color: #0061FC;\">3</span></span> etc.).<ol style=\"padding-left: 40px; margin-top: 10px; list-style-type: lower-alpha;\"><li>Los grados más bajos crean formas más simples</li><li>Los grados más altos permiten curvas más complejas</li></ol></li><li style=\"margin-top: 10px;\"><strong>Ajustar parámetros de ecuación:</strong> Use los diales para ajustar con precisión.<ol style=\"padding-left: 40px; margin-top: 10px; list-style-type: lower-alpha;\"><li>Estirar (<span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">a</span>): Controla la inclinación o planitud de la curva.</li><li>Desplazamiento horizontal (<span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">h</span>): Mueve la curva hacia la izquierda o la derecha.</li><li>Desplazamiento vertical (<span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">k</span>): Mueve la curva hacia arriba o hacia abajo.</li></ol></li><li style=\"margin-top: 10px;\"><strong>Comprobar coincidencia:</strong> Una vez que la línea amarilla Se superpone estrechamente a la curva verde. Haga clic en 'Comprobar coincidencia' para comprobar la calibración.</li></ol>"
+        },
+        "info": {
+          "heading": "Ecuaciones y transformaciones polinómicas",
+          "body": "<p>Un <strong>polinomio</strong> es una expresión matemática compuesta por términos que involucran variables elevadas a potencias de números enteros. La <strong>forma de vértice</strong> del polinomio se escribe como:</p><p style=\"margin-top: 8px; text-align: center; font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #E0002B;\">f</span>(<span style=\"font-style: italic; color: #0061FC;\">x</span>) = <span style=\"font-style: italic;\"><span style=\"color: #DB0072\">a</span>(<span style=\"color: #0061FC;\">x</span> - <span style=\"color: #008217;\">h</span>)<sup>2</sup></span> + <span style=\"font-style: italic; color: #633300;\">k</span></p><p style=\"margin-top: 8px;\">En esta ecuación:<ul style=\"margin-left: 20px; list-style-type: disc;\"><li><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">a</span> controla el <strong>estiramiento</strong> de la curva: qué tan empinada o ancha es.</li><li><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">h</span> ajusta la <strong>posición horizontal</strong>, desplazando la curva hacia la izquierda o la derecha.</li><li><span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">k</span> controla la <strong>posición vertical</strong>, moviendo la curva hacia arriba o hacia abajo.</li></ul></p><p style=\"margin-top: 8px;\">El <strong>grado</strong> de un polinomio es el mayor exponente de la variable. Determina la complejidad general de la curva:</p><ul style=\"list-style-type: disc; margin-left: 20px;\"><li>Un polinomio de <strong>grado 1</strong> es una línea recta.</li><li>Un polinomio de <strong>grado 2</strong> (como se muestra arriba) crea una curva en forma de U.</li><li>Los polinomios de grado superior (<span style=\"font-family: Besley; font-weight: bold;\">3</span>, <span style=\"font-family: Besley; font-weight: bold;\">4</span>, <span style=\"font-family: Besley; font-weight: bold;\">5</span>, etc.) pueden doblarse y girar más, lo que les permite modelar formas más complejas.</li></ul><p style=\"margin-top: 8px;\">Al ajustar parámetros como <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;\">a</span>, <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #008217;\">h</span> y <span style=\"font-family: Besley; font-weight: bold; font-style: italic; color: #633300;\">k</span>, puedes transformar el gráfico del polinomio para que se ajuste mejor a un patrón o conjunto de datos. Estas transformaciones nos ayudan a comprender y representar relaciones del mundo real mediante las matemáticas.</p>"
+        }
+      },
+      "S3_D1_FX_C0": "La antigua civilización griega se basaba en el comercio. Sus barcos transportaban mercancías como vino, aceite de oliva y pieles, así como carga preciosa como oro, plata y hermosa cerámica.",
+      "S3_D2_FX_C0": "Para el año 600 a.C., las colonias griegas se habían extendido por el Mediterráneo y el Mar Negro, desde la España moderna hasta Rusia, todas conectadas por el comercio.",
+      "S3_D3_FX_C0": "Se han encontrado naufragios griegos antiguos en las aguas más profundas del Mar Negro. En esta única 'zona anóxica', la falta de oxígeno previene la putrefacción y la descomposición. Esto significa que los naufragios pueden quedar congelados en el tiempo durante miles de años.",
+      "S3_D4_FX_C0": "Hoy, el Dr. Albert Lin y su equipo están usando sensores de vanguardia para localizar naufragios griegos antiguos en la zona anóxica del Mar Negro. La misión de hoy: mapear el fondo marino, buscar naufragios y descubrir qué carga preciosa aún yace en su bodega.",
+      "S3_D4_FX_C3": "¿Cómo vamos a encontrar un naufragio en toda esta agua?",
+      "S3_D5_FX_C1": "El Mar Negro es enorme. Pero aquí está el plan: Vamos a usar datos de sensores para crear un modelo simplificado del fondo marino. Luego buscaremos anomalías: protuberancias en los datos que no encajan con el patrón.",
+      "S3_D6_FX_C2": "Bien, aquí está nuestro primer desafío: tenemos datos batimétricos satelitales, que nos dan un mapa bastante sólido del fondo marino. Pero ahora necesitamos calibrar nuestros sistemas para poder navegar bajo el agua.",
+      "S3_D7_FX_C3": "¿No podemos simplemente usar GPS?",
+      "S3_D8_FX_C2": "Las señales GPS no penetran el agua de mar. Ayúdame a calibrar estos mapas, para que el sumergible pueda navegar de forma segura bajo el agua.",
+      "S3_D1_FX_C1": "Mira esto: los extremos apuntan en direcciones opuestas—uno hacia arriba, otro hacia abajo. Eso indica que el grado del polinomio es impar.",
+      "S3_D2_FX_C3": "¿Qué tiene de raro eso?",
+      "S3_D3_FX_C1": "Me refiero a impar o par. Los polinomios de grado par tienen ambos extremos en la misma dirección. ¿Ves la diferencia con los grados impares? Compara <span style='font-family: Besley; color: #0061FC; font-weight: bold; font-style: italic;'>x²</span> o <span style='font-family: Besley; color: #0061FC; font-weight: bold; font-style: italic;'>x<span style='font-size: 1.25rem'>⁴</span></span>—un grado par—con los grados impares, como <span style='font-family: Besley; color: #0061FC; font-weight: bold; font-style: italic;'>x³</span> o <span style='font-family: Besley; color: #0061FC; font-weight: bold; font-style: italic;'>x<span style='font-size: 1.25em'>⁵</span></span>.",
+      "S3_D4_FX_C1": "¿Qué grado crees que modelará mejor esta fosa: cúbico o cuártico?",
+      "S3_D4_FX_C9_optionA": "Cúbico (grado 3)",
+      "S3_D4_FX_C9_optionB": "Cuártico (grado 4)",
+      "S3_D5_FX_C3": "Entonces, ¿qué hacen realmente los grados?",
+      "S3_D6_FX_C1": "Controlan la complejidad de la curva. El grado 1 es una línea. El grado 2 curva una vez. Los grados más altos pueden tener más curvas y modelar formas más complejas.",
+      "S3_D7_FX_C2": "En realidad, este polinomio se ve diferente de lo que esperaba. ¿No suelen tener todos los términos como <span style='font-family: Besley; font-weight: bold;'><span style='font-style: italic; color: #0061FC;'>x³</span> + <span style='font-style: italic; color: #0061FC;'>x²</span> + <span style='font-style: italic; color: #0061FC;'>x</span> + <span style='color: #633300'>constante</span></span>?",
+      "S3_D8_FX_C1": "Esta es la forma vértice del polinomio—facilita el control de la posición. Ese factor de estiramiento (<span style='font-family: Besley; font-weight: bold; font-style: italic; color: #DB0072;'>a</span>) es tu coeficiente principal. Observa cómo la curva se inclina o se aplana al ajustarlo.",
+      "S3_D9_FX_C1": "Observa los parámetros <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #008217;'>h</span> y <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #633300;'>k</span>: estos controlan cómo se mueve la línea de calibración en el mapa. Ajustar <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #008217;'>h</span> desplazará la curva horizontalmente, mientras que <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #633300;'>k</span> la moverá verticalmente. Prueba a ajustar los diales para encontrar una coincidencia. Para calibrar el sistema, haz clic en 'Verificar Coincidencia'.",
+      "S3_D10_FX_C1": "¡Excelente trabajo! El modelo de calibración coincide perfectamente con los datos del fondo marino. Tu sistema ahora está operativo.",
+      "S3_D9_FX_C2": "Esto sigue siendo una ecuación polinómica, ¿verdad?",
+      "S3_D9_FX_C9_optionA": "Verdadero",
+      "S3_D9_FX_C9_optionB": "Falso"
+    },
+    "S4": {
+      "S4_D1_FX_C2": "Los satélites pueden mapear el fondo marino con una resolución gruesa. Pero necesitaremos más detalle para encontrar un naufragio.",
+      "S4_D2_FX_C1": "Parece que nuestros escaneos láser del fondo marino están casi completos.",
+      "S4_D3_FX_C2": "Los escaneos láser generarán muchos datos. ¿Cómo planeas procesarlos todos?",
+      "S4_D4_FX_C1": "Simplificaremos los datos modelándolos con ecuaciones polinómicas.",
+      "S4_D5_FX_C3": "¿Cómo lo haremos?",
+      "S4_D6_FX_C1": "No es difícil. La computadora usa algoritmos de regresión para ajustar curvas polinómicas a los puntos de datos recolectados por los láseres."
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Modelo polinomial de escaneos láser del fondo marino",
+        "translations": {
+          "calibrationLabel": "Modelo: Aún no calibrado",
+          "zoomInLabel": "acercar",
+          "zoomOutLabel": "alejar",
+          "resetLabel": "Restablecer vista",
+          "controlesHeading": "Control del Modelo",
+          "degreeSliderLabel": "Grado del Modelo",
+          "fitButtonLabel": "Ajustar Modelo",
+          "missionBriefingHeading": "Informe de Misión",
+          "missionBriefingText": "Analiza los datos de telemetría proporcionados. El escaneo indica una pared de zanja empinada adyacente a una cornisa relativamente plana. Se ha detectado una anomalía significativa (posible naufragio) en esta cornisa. Usa los controles para ajustar un modelo polinómico a los puntos de datos y cuantificar la anomalía.",
+          "tEquals": "igual a",
+          "tMinus": "menos",
+          "tPlus": "más",
+          "tTimes": "por",
+          "tNegative": "negativo",
+          "tToThePowerOf": "elevado a",
+          "seabedScanTitle": "Escaneo 3D del Lecho Marino",
+          "sliceDataButton": "Cortar Datos",
+          "dataSlicedButton": "Datos Cortados"
+        },
+        "help": {
+          "heading": "Cómo encontrar un polinomio que represente con precisión la anomalía?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Haga clic en el botón 'Seccionar datos' para extraer una curva transversal del escaneo del fondo marino que resalte la anomalía.</li><li>Haga clic en el botón 'Datos del modelo' para ajustar un modelo de regresión polinómica a los datos seccionados.</li><li>Utilice el control deslizante de grado del modelo para ajustar el grado del polinomio y observe el valor de <span style=\"font-family: Besley; font-weight: bold; font-style: italic;\">R<sup>2</sup></span> correspondiente, que indica la bondad del ajuste.</li><li>Identifique y seleccione el polinomio de menor grado que logre un <span style=\"font-family: Besley; font-style: italic; font-weight: bold;\">R<sup>2</sup></span> (normalmente cercano o superior a <span style=\"font-family: Besley; font-weight: bold;\">0,9</span>), lo que garantiza que el modelo se ajuste con precisión a la anomalía sin sobreajuste.</li></ul>"
+        },
+        "info": {
+          "heading": "Ajuste del modelo y R² en Regresión Polinómica",
+          "body": "<p>La regresión polinómica es una forma de modelar datos mediante el ajuste de una curva suave a un conjunto de puntos. La curva se define mediante una ecuación polinómica, y el grado del polinomio controla su simplicidad o complejidad. Un polinomio de bajo grado proporciona una forma simple y suave, mientras que un polinomio de alto grado puede seguir patrones más detallados en los datos.</p><p style=\"margin-top: 8px;\"><strong>Ajuste del modelo</strong> significa encontrar la curva polinómica que mejor se ajuste a los datos. Para medir el ajuste de la curva, utilizamos <span style=\"font-family: Besley; font-weight: bold; font-style: italic;\">R<sup>2</sup></span> (R cuadrado). <span style=\"font-family: Besley; font-weight: bold; font-style: italic;\">R<sup>2</sup></span> es un número entre <span style=\"font-family: Besley; font-weight: bold;\">0</span> y <span style=\"font-family: Besley; font-weight: bold;\">1</span> que muestra la precisión con la que el modelo se ajusta a los datos. Un <span style=\"font-family: Besley; font-weight: bold; font-style: italic;\">R<sup>2</sup></span> cercano a <span style=\"font-family: Besley; font-weight: bold;\">1</span> significa que el modelo se ajusta muy bien a los datos.</p>"
+        }
+      },
+      "S5_D1_FX_C2": "Aquí vamos: un mapa 3D del fondo marino—¡y mira esa anomalía! Tomemos un corte para poder modelarla.",
+      "S5_D2_FX_C1": "El fondo marino es relativamente suave. Eso significa que un polinomio de grado bajo puede modelarlo fácilmente—pero se perderá los detalles finos.",
+      "S5_D3_FX_C2": "Ok. Pero un pequeño naufragio en el fondo marino suave requerirá un polinomio de grado mucho más alto para detectarlo.",
+      "S5_D4_FX_C3": "Espera, ¿entonces se necesitan polinomios de mayor grado para modelar formas más complejas?",
+      "S5_D4_FX_C9_optionA": "Verdadero",
+      "S5_D4_FX_C9_optionB": "Falso",
+      "S5_D5_FX_C1": "Así es. Los polinomios de grado bajo pueden mostrar la forma general del fondo marino, pero perderán los detalles finos.",
+      "S5_D6_FX_C2": "Experimentemos con los grados del modelo y ajustemos diferentes modelos. Pruebe a ajustar el control deslizante de grados del modelo y haga clic en el botón \"Ajustar modelo\".",
+      "S5_D7_FX_C1": "Observa el <span style='font-family: Besley; font-weight: bold; color: #008217;'>R²</span> — eso muestra la “bondad del ajuste” de la regresión polinómica. Indica qué tan bien la línea polinómica coincide con los datos del escaneo.",
+      "S5_D8_FX_C2": "¿Cuál es el grado mínimo del polinomio que necesitamos para que nuestro modelo tenga un <span style='font-family: Besley; font-weight: bold; color: #008217;'>R²</span> mayor a 0.9?",
+      "S5_D9_FX_C2": "¡Buen trabajo, equipo! Esto sugiere que la anomalía definitivamente vale la pena investigarla.",
+      "S5_D10_FX_C3": "Entonces, ¿qué crees que sea ese bulto? ¿¡Tesoro!?",
+      "S5_D11_FX_C1": "Podría ser un naufragio — o simplemente ruido del sensor. Necesitaremos verificarlo con múltiples escaneos de sensores.",
+      "S5_D12_FX_C2": "¡Despliega los barcos drones! Vamos a necesitar múltiples fuentes de datos para confirmar esta anomalía."
+    },
+    "S6": {
+      "S6_D0_FX_C9": {
+        "title": "Barcos dron",
+        "description": ""
+      },
+      "S6_D1_FX_C1": "Cada uno de nuestros barcos drones lleva un paquete de sensores diferente para generar distintos modelos polinómicos del fondo marino.",
+      "S6_D2_FX_C3": "¿Cómo vas a combinar todos esos datos?",
+      "S6_D3_FX_C1": "Primero, sumaremos los polinomios de los dos primeros escaneos. Luego, restaremos el polinomio que representa la variación de fondo del fondo marino."
+    },
+    "S7": {},
+    "S8": {},
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "Fusión de datos de sensores",
+        "availableDataChips": "Chips de datos disponibles",
+        "operationsConsole": "Consola de operaciones",
+        "reset": "Restablecer",
+        "emptyChips": "No hay chips de datos disponibles",
+        "result1": "Resultado 1",
+        "result2": "Resultado 2",
+        "possibleAnomaly": "Posible anomalía",
+        "step1": {
+          "instruction": "<strong>Paso 1:</strong> Sumar el escaneo A y el escaneo B.",
+          "incorrectCalculation": "Cálculo incorrecto, vuelva a sumar el escaneo A y el escaneo B.",
+          "incorrectPlacement": "El paso 1 solo requiere combinar el escaneo A y el escaneo B.",
+          "success": "¡Paso 1 completado! Haga clic en el botón 'Siguiente' para continuar con el paso 2.",
+          "calculate": "Calcular resultado 1:",
+          "inputs": {
+            "input1": "Coeficiente del término x al cuadrado en el Resultado 1",
+            "input2": "Coeficiente del término x en el Resultado 1",
+            "input3": "Término constante en el Resultado 1"
+          },
+          "ariaLabel": "Paso 1: Sumar el Escaneo A y el Escaneo B para calcular el Resultado 1."
+        },
+        "step2": {
+          "instruction": "<strong>Paso 2:</strong> Restar el escaneo C de Resultado 1.",
+          "incorrectCalculation": "Cálculo incorrecto, reste el Escaneo C del Resultado 1 de nuevo.",
+          "success": "Los escaneos se fusionaron correctamente! Haga clic en 'Siguiente' para continuar.",
+          "calculate": "Calcular Resultado 2:",
+          "inputs": {
+            "input1": "Coeficiente del término x al cuadrado en el Resultado 2",
+            "input2": "Coeficiente del término x en el Resultado 2",
+            "input3": "Término constante en el Resultado 2"
+          },
+          "ariaLabel": "Paso 2: Restar el Escaneo C del Resultado 1 para calcular el Resultado 2."
+        },
+        "common": {
+          "scanA": "Escaneo A",
+          "scanB": "Escaneo B",
+          "scanC": "Escaneo C",
+          "result1": "Resultado 1"
+        },
+        "chips": {
+          "scanA": "Arrastre el Escaneo A: x cuadrado más 2x. Presione Intro o haga clic para colocar este elemento en la consola de operaciones.",
+          "scanB": "Arrastre el Escaneo B: -3 x cuadrado más x menos 3. Presione Intro o haga clic para colocar este elemento en la consola de operaciones.",
+          "scanC": "Arrastre el Escaneo C: 4 x más 1. Presione Intro o haga clic para colocar este elemento en la consola de operaciones."
+        },
+        "graph": "Gráfico que muestra la curva de ruido y los resultados de los escaneos de sonar combinados.",
+        "help": {
+          "heading": "¿Cómo usar esta herramienta?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Arrastre y suelte los escaneos según las instrucciones.</li><li>Calcule el resultado e introduzca los coeficientes en los campos de entrada.</li></ul>"
+        },
+        "info": {
+          "heading": "Cómo sumar y restar polinomios?",
+          "body": "<p>Los polinomios son expresiones formadas por términos como <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span></span>, <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span></span> o constantes como <span style=\"font-family: Besley; font-weight: bold; color: #633300;\">5</span>. Para sumar o restar polinomios, se combinan términos semejantes, términos que tienen el mismo grado.</p><p style=\"margin-top: 8px;\">Trabajemos con estos dos polinomios: <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">5</span></span> y <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">4</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">2</span></span></p><h4 style=\"margin-top: 12px;\"><strong>Ejemplo de suma:</strong></h4><p style=\"font-family: Besley; font-weight: bold;\">(<span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">5</span>) + (<span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">4</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">2</span>)</p><p>Agrupar términos semejantes: <span style=\"font-family: Besley; font-weight: bold;\">(<span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span>) + (<span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #DB0072;\">4</span><span style=\"font-style: italic; color: #0061FC;\">x</span>) + (<span style=\"color: #633300\">5</span> + <span style=\"color: #633300\">2</span>)</span></p><p>Suma: <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #008217;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">7</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">7</span></span></p><h4 style=\"margin-top: 12px;\"><strong>Ejemplo de resta:</strong></h4><p style=\"font-family: Besley; font-weight: bold;\">(<span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">5</span>) - (<span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">4</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">2</span>)</p><p>Distribuye el signo negativo: <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> + <span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">5</span> - <span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> - <span style=\"color: #DB0072;\">4</span><span style=\"font-style: italic; color: #0061FC;\">x</span> - <span style=\"color: #633300\">2</span></span></p><p>Agrupar términos semejantes: <span style=\"font-family: Besley; font-weight: bold;\">(<span style=\"color: #008217;\">2</span><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> - <span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span>) + (<span style=\"color: #DB0072;\">3</span><span style=\"font-style: italic; color: #0061FC;\">x</span> - <span style=\"color: #DB0072;\">4</span><span style=\"font-style: italic; color: #0061FC;\">x</span>) + (<span style=\"color: #633300\">5</span> - <span style=\"color: #633300\">2</span>)</span></p><p>Restar: <span style=\"font-family: Besley; font-weight: bold;\"><span style=\"font-style: italic; color: #0061FC;\">x<sup>2</sup></span> - <span style=\"font-style: italic; color: #0061FC;\">x</span> + <span style=\"color: #633300\">3</span></span></p><p style=\"margin-top: 8px;\">La clave es combinar términos con el mismo grado sumando o restando sus coeficientes.</p>"
+        }
+      },
+      "S9_D1_FX_C1": "El <strong>escaneo A</strong> más el <strong>escaneo B</strong> nos da los datos combinados del sensor. Arrastre y suelte los chips de datos <strong>escaneo A</strong> y <strong>escaneo B</strong> en los cuadros vacíos dentro de la Consola de operaciones para comenzar el cálculo.",
+      "S9_D2_FX_C1": "Ahora agreguemos <strong>escaneo A</strong> y <strong>escaneo B</strong>. Al sumar polinomios, ¿qué sumamos?",
+      "S9_D2_FX_C9_optionA": "Términos semejantes (mismo grado)",
+      "S9_D2_FX_C9_optionB": "Todos los términos sin importar el grado",
+      "S9_D3_FX_C3": "Como, <span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x<sup>2</sup></span> + <span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x<sup>2</sup></span> = <strong>2</strong><span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x<sup>2</sup></span>?",
+      "S9_D4_FX_C2": "Exacto. Los <no-glossary>términos semejantes</no-glossary> se combinan, los términos no semejantes— como <span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x</span> y <span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x<sup>2</sup></span> permanecen separados.",
+      "S9_D5_FX_C2": "<span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x<sup>2</sup></span> y <span style=\"font-family: 'Besley', serif; font-style: italic; color: #006BE0;\">x<sup>3</sup></span> son <no-glossary>términos semejantes</no-glossary> que se pueden combinar.",
+      "S9_D5_FX_C9_optionA": "Verdadero",
+      "S9_D5_FX_C9_optionB": "Falso",
+      "S9_D6_FX_C1": "Bien. Ahora, introduzca los coeficientes correctos para cada término del <strong>resultado 1</strong> para completar la suma de los <strong>escaneo A</strong> y <strong>escaneo B</strong>.",
+      "S9_D7_FX_C1": "Ahora, restemos el escaneo de fondo marino para <no-glossary>aislar</no-glossary> la anomalía. Arrastre y suelte el chip de datos <strong>escaneo C</strong> en el cuadro vacío dentro de la Consola de operaciones para comenzar el cálculo.",
+      "S9_D8_FX_C1": "Reste el <strong>escaneo C</strong> del <strong>resultado 1</strong> e ingrese los coeficientes correctos para cada término en el <strong>resultado 2</strong>.",
+      "S9_D9_FX_C3": "¡Genial! Esto lo confirma. ¡Definitivamente estamos detectando algo grande allá abajo, es justo del tamaño de un naufragio!",
+      "S9_D10_FX_C2": "Ahora es el momento de la <no-glossary>prueba</no-glossary> visual. ¡Despliega los sumergibles!"
+    },
+    "S10": {
+      "S10_D0_FX_C0": {
+        "mainTitle": "Misión de Despliegue ROV",
+        "imgDescription": "Nuestros sumergibles operados remotamente están descendiendo a las coordenadas objetivo, equipados con cámaras avanzadas y luces LED para explorar las profundidades misteriosas donde aguarda el descubrimiento de tesoros antiguos.",
+        "mainTitle2": "Increíble Preservación Antigua",
+        "imgDescription2": "¡Un barco mercante griego antiguo de al menos 2000 años que parece como si se hubiera hundido la semana pasada! El mástil aún está en pie con aparejos visibles, y las ánforas en perfectas condiciones son claramente visibles en la bodega de carga.",
+        "mainTitle3": "Monedas Preservadas y Pergaminos Antiguos",
+        "imgDescription3": "Un contenedor de madera que contiene lo que parecen ser monedas griegas antiguas brillando en el sedimento. En esta zona anóxica, incluso pergaminos antiguos podrían estar preservados adentro, representando un gran avance en la comprensión de nuestro pasado antiguo."
+      },
+      "S10_D1_FX_C1": "Nuestros sumergibles operados remotamente están descendiendo a las coordenadas objetivo.",
+      "S10_D2_FX_C3": "¡Esto es! ¡Estamos a punto de ver un verdadero tesoro antiguo!",
+      "S10_D3_FX_C2": "Leo, somos arqueólogos. Esto trata sobre preservar la historia cultural.",
+      "S10_D4_FX_C3": "Claro, claro. ¡Pero tengo un buen presentimiento sobre esto!",
+      "S10_D5_FX_C1": "Las cámaras están en línea... Ok, Albert, tienes que ver esto.",
+      "S10_D6_FX_C2": "¡Ese barco tiene al menos <strong>2000</strong> años, pero parece que se hundió la semana pasada!",
+      "S10_D7_FX_C3": "No puede ser. El mástil del barco todavía está en pie. ¡Incluso puedo ver las jarcias!",
+      "S10_D8_FX_C1": "Mira esas ánforas. ¡En perfectas condiciones! Y... ¡creo que veo algo brillando en el sedimento!",
+      "S10_D9_FX_C3": "¡ORO! ¡Te dije que encontraríamos tesoros piratas!",
+      "S10_D10_FX_C2": "No piratas, Leo. Mercaderes griegos. Pero puede que no estés equivocado acerca del tesoro.",
+      "S10_D11_FX_C1": "Veo algo brillando allí abajo...",
+      "S10_D12_FX_C2": "¿Y ves ese contenedor de madera? Imagina lo que hay dentro. ¡En esta zona anóxica, incluso los antiguos pergaminos podrían haberse conservado!",
+      "S10_D13_FX_C3": "Sí... ¡o más tesoros!",
+      "S10_D14_FX_C1": "Esto es solo el comienzo. Los modelos matemáticos sugieren que hay muchos más barcos aquí abajo.",
+      "S10_D15_FX_C2": "Podemos estar al umbral de una nueva era importante en la comprensión de nuestro pasado antiguo."
+    },
+    "quest_completion": {
+      "greetings": "¡Felicitaciones!",
+      "subheading": "¡Has explorado los polinomios en el descubrimiento arqueológico!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>Has completado con éxito la STEAMQuest del naufragio del Mar Negro.</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Aprendiste cómo los grados polinómicos controlan la complejidad de las curvas</li><li>Usaste regresión polinómica para modelar el terreno del fondo marino</li><li>Fusionaste múltiples fuentes de datos usando adición y sustracción polinómica</li></ul><p style='padding-top: 10px; font-size: 20px; font-weight: 400;'>¡Tus habilidades matemáticas han descubierto una pieza invaluable de la historia humana!</p>",
+      "leftsvg": "<svg width='79' height='81' viewBox='0 0 79 81' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_27886_2194' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='-1' y='0' width='81' height='81'><path d='M69.5 1H9.5C4.25329 1 0 5.25329 0 10.5V70.5C0 75.7467 4.25329 80 9.5 80H69.5C74.7467 80 79 75.7467 79 70.5V10.5C79 5.25329 74.7467 1 69.5 1Z' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_27886_2194)'><path d='M69.7104 10.6116L41.8396 0.820622C40.6396 0.393126 39.3657 0.393126 38.1619 0.820622L10.2911 10.6116C8.02025 11.4104 6.5026 13.5816 6.5026 16.0228V32.8417C6.28844 53.9125 19.2969 76.5545 40.0017 80.5C49.4836 78.82 57.3673 72.9139 63.5596 64.5971C69.9735 55.7773 73.5 44.5007 73.5 32.8425V16.0236C73.5 13.5861 71.9824 11.415 69.7115 10.6124L69.7104 10.6116Z' fill='black'/><path d='M41.6793 1.27821L41.6813 1.27887L69.4853 10.558L69.5524 10.5808C71.6286 11.2779 73 13.156 73 15.2474V31.2254C73 42.1958 69.5068 52.7994 63.1644 61.086C57.0464 68.8912 49.2941 74.4029 40.0048 75.9923C19.6568 72.2556 6.79051 51.0507 7.00258 31.23L7.0026 31.2246V15.2467C7.0026 13.1514 8.3742 11.2738 10.4494 10.5803C10.4493 10.5803 10.4495 10.5803 10.4494 10.5803L38.3202 1.27888L38.3217 1.27836C39.422 0.907158 40.5834 0.90732 41.6793 1.27821Z' fill='#FFCC00'/><path d='M10.4494 10.5803C8.3742 11.2738 7.0026 13.1514 7.0026 15.2467V31.2246L7.00258 31.23C6.79051 51.0507 19.6568 72.2556 40.0048 75.9923C49.2941 74.4029 57.0464 68.8912 63.1644 61.086C69.5068 52.7994 73 42.1958 73 31.2254V15.2474C73 13.156 71.6286 11.2779 69.5524 10.5808L69.4853 10.558L41.6813 1.27887L41.6793 1.27821C40.5834 0.90732 39.422 0.907158 38.3217 1.27836L38.3202 1.27888L10.4494 10.5803ZM10.4494 10.5803C10.4493 10.5803 10.4495 10.5803 10.4494 10.5803Z' stroke='black'/></g><path fill-rule='evenodd' clip-rule='evenodd' d='M53.1113 28.0855H58.2131C58.5445 28.0855 58.8188 28.351 58.8188 28.6807V33.8288H52.5056V28.6807C52.5056 28.355 52.7818 28.0855 53.1113 28.0855ZM54.8549 26.702V22.4326C52.2458 23.5548 50.3611 25.7546 47.4166 25.5859V19.354C50.5272 19.3381 52.0926 16.6773 54.8549 16.0259V15.1331C54.8549 14.6949 55.2129 14.3428 55.6592 14.3428C56.1052 14.3428 56.4635 14.6946 56.4635 15.1331V26.7024L54.8549 26.702ZM21.0725 33.0326H24.6516V35.5966C24.6516 36.0348 25.0096 36.3869 25.4559 36.3869C25.9019 36.3869 26.2602 36.0351 26.2602 35.5966V33.0326H29.8392C30.3242 33.0326 30.7274 33.4227 30.7274 33.9054V41.2313C30.7274 41.7079 30.3304 42.1041 29.8392 42.1041H21.0727C20.5877 42.1041 20.1845 41.714 20.1845 41.2313V33.9054C20.1907 33.4288 20.5876 33.0326 21.0725 33.0326ZM33.2324 33.0326H36.8115V35.5966C36.8115 36.0348 37.1695 36.3869 37.6158 36.3869C38.0621 36.3869 38.4201 36.0351 38.4201 35.5966V33.0326H41.9991C42.4841 33.0326 42.8873 33.4227 42.8873 33.9054V41.2313C42.8873 41.7079 42.4903 42.1041 41.9991 42.1041H33.2326C32.7476 42.1041 32.3444 41.714 32.3444 41.2313V33.9054C32.3444 33.4288 32.7413 33.0326 33.2324 33.0326ZM49.61 35.2166H61.7144C62.0131 35.2166 62.2547 35.4177 62.3099 35.7051L63.5233 42.2995H47.8071L49.0206 35.7051C49.0696 35.4215 49.3175 35.2166 49.61 35.2166ZM26.3445 22.3843H29.9236V24.9482C29.9236 25.3865 30.2816 25.7386 30.7279 25.7386C31.1739 25.7386 31.5322 25.3868 31.5322 24.9482V22.3843H35.1112C35.5962 22.3843 35.9994 22.7744 35.9994 23.2571V30.583C35.9994 31.0596 35.6024 31.4558 35.1112 31.4558H26.3447C25.8597 31.4558 25.4565 31.0657 25.4565 30.583V23.2571C25.4627 22.7783 25.8596 22.3843 26.3445 22.3843ZM17.2397 43.687H65.2444C66.0711 43.687 66.6176 44.5156 66.282 45.2575C64.0269 50.2547 59.2728 52.9799 57.3865 58.096C57.0673 58.9568 56.2774 59.4996 55.3464 59.4996H24.2266C22.9743 59.4996 21.9265 58.6008 21.7668 57.3761C21.249 53.4367 19.4789 47.9908 16.7531 44.6787C16.4298 44.2766 16.7219 43.687 17.2397 43.687ZM50.1458 46.7596C50.0353 46.7596 49.9411 46.8461 49.9411 46.9608V51.0471C49.9411 51.1557 50.0291 51.2483 50.1458 51.2483H54.1774C54.2879 51.2483 54.3821 51.1618 54.3821 51.0471V46.9608C54.3821 46.8522 54.2941 46.7596 54.1774 46.7596H50.1458ZM42.0115 46.7596C41.901 46.7596 41.8068 46.8461 41.8068 46.9608V51.0471C41.8068 51.1557 41.8948 51.2483 42.0115 51.2483H46.043C46.1535 51.2483 46.2477 51.1618 46.2477 51.0471V46.9608C46.2477 46.8522 46.1597 46.7596 46.043 46.7596H42.0115ZM33.8771 46.7596C33.7667 46.7596 33.6724 46.8461 33.6724 46.9608V51.0471C33.6724 51.1557 33.7604 51.2483 33.8771 51.2483H37.9087C38.0192 51.2483 38.1134 51.1618 38.1134 51.0471V46.9608C38.1134 46.8522 38.0254 46.7596 37.9087 46.7596H33.8771ZM25.7386 46.7596C25.6282 46.7596 25.5339 46.8461 25.5339 46.9608V51.0471C25.5339 51.1557 25.6219 51.2483 25.7386 51.2483H29.7702C29.8807 51.2483 29.9749 51.1618 29.9749 51.0471V46.9608C29.9749 46.8522 29.8869 46.7596 29.7702 46.7596H25.7386Z' fill='black' stroke='black'/><path fill-rule='evenodd' clip-rule='evenodd' d='M53.1113 26.2427H58.2131C58.5445 26.2427 58.8188 26.5083 58.8188 26.838V31.986H52.5056V26.838C52.5056 26.5123 52.7818 26.2427 53.1113 26.2427ZM54.8549 24.8592V20.5898C52.2458 21.712 50.3611 23.9119 47.4166 23.7431V17.5113C50.5272 17.4953 52.0926 14.8345 54.8549 14.1831V13.2904C54.8549 12.8521 55.2129 12.5 55.6592 12.5C56.1052 12.5 56.4635 12.8518 56.4635 13.2904V24.8597L54.8549 24.8592ZM21.0725 31.1898H24.6516V33.7538C24.6516 34.1921 25.0096 34.5441 25.4559 34.5441C25.9019 34.5441 26.2602 34.1923 26.2602 33.7538V31.1898H29.8392C30.3242 31.1898 30.7274 31.58 30.7274 32.0626V39.3886C30.7274 39.8652 30.3304 40.2614 29.8392 40.2614H21.0727C20.5877 40.2614 20.1845 39.8712 20.1845 39.3886V32.0626C20.1907 31.586 20.5876 31.1898 21.0725 31.1898ZM33.2324 31.1898H36.8115V33.7538C36.8115 34.1921 37.1695 34.5441 37.6158 34.5441C38.0621 34.5441 38.4201 34.1923 38.4201 33.7538V31.1898H41.9991C42.4841 31.1898 42.8873 31.58 42.8873 32.0626V39.3886C42.8873 39.8652 42.4903 40.2614 41.9991 40.2614H33.2326C32.7476 40.2614 32.3444 39.8712 32.3444 39.3886V32.0626C32.3444 31.586 32.7413 31.1898 33.2324 31.1898ZM49.61 33.3738H61.7144C62.0131 33.3738 62.2547 33.575 62.3099 33.8624L63.5233 40.4567H47.8071L49.0206 33.8624C49.0696 33.5787 49.3175 33.3738 49.61 33.3738ZM26.3445 20.5415H29.9236V23.1054C29.9236 23.5437 30.2816 23.8958 30.7279 23.8958C31.1739 23.8958 31.5322 23.544 31.5322 23.1054V20.5415H35.1112C35.5962 20.5415 35.9994 20.9316 35.9994 21.4143V28.7402C35.9994 29.2168 35.6024 29.613 35.1112 29.613H26.3447C25.8597 29.613 25.4565 29.2229 25.4565 28.7402V21.4143C25.4627 20.9356 25.8596 20.5415 26.3445 20.5415ZM17.2397 41.8442H65.2444C66.0711 41.8442 66.6176 42.6728 66.282 43.4148C64.0269 48.4119 59.2728 51.1372 57.3865 56.2532C57.0673 57.1141 56.2774 57.6569 55.3464 57.6569H24.2266C22.9743 57.6569 21.9265 56.758 21.7668 55.5333C21.249 51.5939 19.4789 46.1481 16.7531 42.8359C16.4298 42.4338 16.7219 41.8442 17.2397 41.8442ZM50.1458 44.9169C50.0353 44.9169 49.9411 45.0034 49.9411 45.118V49.2043C49.9411 49.3129 50.0291 49.4055 50.1458 49.4055H54.1774C54.2879 49.4055 54.3821 49.319 54.3821 49.2043V45.118C54.3821 45.0095 54.2941 44.9169 54.1774 44.9169H50.1458ZM42.0115 44.9169C41.901 44.9169 41.8068 45.0034 41.8068 45.118V49.2043C41.8068 49.3129 41.8948 49.4055 42.0115 49.4055H46.043C46.1535 49.4055 46.2477 49.319 46.2477 49.2043V45.118C46.2477 45.0095 46.1597 44.9169 46.043 44.9169H42.0115ZM33.8771 44.9169C33.7667 44.9169 33.6724 45.0034 33.6724 45.118V49.2043C33.6724 49.3129 33.7604 49.4055 33.8771 49.4055H37.9087C38.0192 49.4055 38.1134 49.319 38.1134 49.2043V45.118C38.1134 45.0095 38.0254 44.9169 37.9087 44.9169H33.8771ZM25.7386 44.9169C25.6282 44.9169 25.5339 45.0034 25.5339 45.118V49.2043C25.5339 49.3129 25.6219 49.4055 25.7386 49.4055H29.7702C29.8807 49.4055 29.9749 49.319 29.9749 49.2043V45.118C29.9749 45.0095 29.8869 44.9169 29.7702 44.9169H25.7386Z' fill='white' stroke='black'/><path fill-rule='evenodd' clip-rule='evenodd' d='M53.1113 26.2427H58.2131C58.5445 26.2427 58.8188 26.5083 58.8188 26.838V31.986H52.5056V26.838C52.5056 26.5123 52.7818 26.2427 53.1113 26.2427ZM54.8549 24.8592V20.5898C52.2458 21.712 50.3611 23.9119 47.4166 23.7431V17.5113C50.5272 17.4953 52.0926 14.8345 54.8549 14.1831V13.2904C54.8549 12.8521 55.2129 12.5 55.6592 12.5C56.1052 12.5 56.4635 12.8518 56.4635 13.2904V24.8597L54.8549 24.8592ZM21.0725 31.1898H24.6516V33.7538C24.6516 34.1921 25.0096 34.5441 25.4559 34.5441C25.9019 34.5441 26.2602 34.1923 26.2602 33.7538V31.1898H29.8392C30.3242 31.1898 30.7274 31.58 30.7274 32.0626V39.3886C30.7274 39.8652 30.3304 40.2614 29.8392 40.2614H21.0727C20.5877 40.2614 20.1845 39.8712 20.1845 39.3886V32.0626C20.1907 31.586 20.5876 31.1898 21.0725 31.1898ZM33.2324 31.1898H36.8115V33.7538C36.8115 34.1921 37.1695 34.5441 37.6158 34.5441C38.0621 34.5441 38.4201 34.1923 38.4201 33.7538V31.1898H41.9991C42.4841 31.1898 42.8873 31.58 42.8873 32.0626V39.3886C42.8873 39.8652 42.4903 40.2614 41.9991 40.2614H33.2326C32.7476 40.2614 32.3444 39.8712 32.3444 39.3886V32.0626C32.3444 31.586 32.7413 31.1898 33.2324 31.1898ZM49.61 33.3738H61.7144C62.0131 33.3738 62.2547 33.575 62.3099 33.8624L63.5233 40.4567H47.8071L49.0206 33.8624C49.0696 33.5787 49.3175 33.3738 49.61 33.3738ZM26.3445 20.5415H29.9236V23.1054C29.9236 23.5437 30.2816 23.8958 30.7279 23.8958C31.1739 23.8958 31.5322 23.544 31.5322 23.1054V20.5415H35.1112C35.5962 20.5415 35.9994 20.9316 35.9994 21.4143V28.7402C35.9994 29.2168 35.6024 29.613 35.1112 29.613H26.3447C25.8597 29.613 25.4565 29.2229 25.4565 28.7402V21.4143C25.4627 20.9356 25.8596 20.5415 26.3445 20.5415ZM17.2397 41.8442H65.2444C66.0711 41.8442 66.6176 42.6728 66.282 43.4148C64.0269 48.4119 59.2728 51.1372 57.3865 56.2532C57.0673 57.1141 56.2774 57.6569 55.3464 57.6569H24.2266C22.9743 57.6569 21.9265 56.758 21.7668 55.5333C21.249 51.5939 19.4789 46.1481 16.7531 42.8359C16.4298 42.4338 16.7219 41.8442 17.2397 41.8442ZM50.1458 44.9169C50.0353 44.9169 49.9411 45.0034 49.9411 45.118V49.2043C49.9411 49.3129 50.0291 49.4055 50.1458 49.4055H54.1774C54.2879 49.4055 54.3821 49.319 54.3821 49.2043V45.118C54.3821 45.0095 54.2941 44.9169 54.1774 44.9169H50.1458ZM42.0115 44.9169C41.901 44.9169 41.8068 45.0034 41.8068 45.118V49.2043C41.8068 49.3129 41.8948 49.4055 42.0115 49.4055H46.043C46.1535 49.4055 46.2477 49.319 46.2477 49.2043V45.118C46.2477 45.0095 46.1597 44.9169 46.043 44.9169H42.0115ZM33.8771 44.9169C33.7667 44.9169 33.6724 45.0034 33.6724 45.118V49.2043C33.6724 49.3129 33.7604 49.4055 33.8771 49.4055H37.9087C38.0192 49.4055 38.1134 49.319 38.1134 49.2043V45.118C38.1134 45.0095 38.0254 44.9169 37.9087 44.9169H33.8771ZM25.7386 44.9169C25.6282 44.9169 25.5339 45.0034 25.5339 45.118V49.2043C25.5339 49.3129 25.6219 49.4055 25.7386 49.4055H29.7702C29.8807 49.4055 29.9749 49.319 29.9749 49.2043V45.118C29.9749 45.0095 29.8869 44.9169 29.7702 44.9169H25.7386Z' fill='white' stroke='black'/></svg>",
+      "leftsvgarialabel": "icono de barco con corona en escudo amarillo",
+      "rightsvg": "<svg width='112' height='141' viewBox='0 0 112 141' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_27886_2207)'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M87.0102 62.5307L98.5978 64.3406C99.3506 64.4582 99.8793 65.1637 99.7622 65.9186L97.9332 77.707L83.5939 75.4673L85.4229 63.679C85.5386 62.9331 86.2616 62.4138 87.0102 62.5307ZM91.4619 59.9812L92.9787 50.2049C86.654 51.8489 81.5917 56.2178 74.9637 54.7868L77.1777 40.5166C84.2485 41.5835 88.7494 36.0461 95.2548 35.5344L95.572 33.4901C95.7277 32.4865 96.6659 31.8073 97.6796 31.9656C98.6926 32.1239 99.3814 33.0565 99.2256 34.0608L95.1153 60.553L91.4619 59.9812ZM12.4827 62.493L20.6119 63.7627L19.701 69.6338C19.5453 70.6374 20.2333 71.5706 21.247 71.7289C22.2599 71.8871 23.1987 71.2087 23.3545 70.2044L24.2654 64.3333L32.3946 65.603C33.4961 65.7751 34.2733 66.8114 34.1018 67.9167L31.4991 84.6921C31.3298 85.7835 30.2873 86.5499 29.1717 86.3756L9.26018 83.2656C8.15863 83.0935 7.38149 82.0572 7.55297 80.9519L10.1557 64.1765C10.3391 63.0874 11.3816 62.321 12.483 62.493L12.4827 62.493ZM40.1016 66.8068L48.2307 68.0765L47.3199 73.9476C47.1641 74.9512 47.8522 75.8845 48.8658 76.0428C49.8795 76.2011 50.8176 75.5225 50.9734 74.5183L51.8843 68.6472L60.0134 69.9169C61.115 70.089 61.8921 71.1253 61.7207 72.2306L59.118 89.006C58.9486 90.0973 57.9062 90.8637 56.7906 90.6895L36.8791 87.5795C35.7775 87.4074 35.0004 86.3711 35.1718 85.2658L37.7745 68.4904C37.9439 67.399 38.9863 66.6326 40.1019 66.8069L40.1016 66.8068ZM76.524 77.6179L104.017 81.9121C104.695 82.018 105.173 82.5644 105.196 83.2421L105.609 98.7728L69.9129 93.1973L75.0118 78.5276C75.2239 77.8954 75.8594 77.5141 76.5237 77.6178L76.524 77.6179ZM28.2401 39.9799L36.3692 41.2496L35.4584 47.1207C35.3026 48.1243 35.9907 49.0575 37.0043 49.2159C38.0173 49.3741 38.9561 48.6956 39.1119 47.6914L40.0228 41.8203L48.1519 43.09C49.2535 43.2621 50.0306 44.2984 49.8592 45.4037L47.2565 62.1791C47.0871 63.2704 46.0447 64.0368 44.9291 63.8626L25.0176 60.7525C23.916 60.5805 23.1389 59.5442 23.3103 58.4389L25.913 41.6634C26.0973 40.5695 27.1389 39.8079 28.2404 39.98L28.2401 39.9799ZM-0.00805629 85.5303L109.025 102.56C110.903 102.854 111.85 104.945 110.824 106.525C103.927 117.168 92.1605 121.722 86.0586 132.768C85.0276 134.626 83.0406 135.588 80.926 135.258L10.2437 124.218C7.39915 123.774 5.33875 121.344 5.41106 118.483C5.63463 109.278 3.5488 96.18 -1.46555 87.6286C-2.05708 86.5932 -1.18279 85.3473 -0.00682063 85.5309L-0.00805629 85.5303ZM73.6402 104.24C73.3893 104.201 73.1445 104.366 73.1038 104.628L71.652 113.985C71.6135 114.234 71.7804 114.477 72.0455 114.519L81.2024 115.949C81.4533 115.988 81.6981 115.823 81.7388 115.561L83.1906 106.204C83.2291 105.955 83.0622 105.712 82.7971 105.67L73.6402 104.24ZM55.1647 101.354C54.9137 101.315 54.669 101.48 54.6282 101.742L53.1765 111.099C53.1379 111.348 53.3049 111.591 53.57 111.633L62.7268 113.063C62.9778 113.102 63.2225 112.938 63.2633 112.675L64.715 103.318C64.7536 103.069 64.5866 102.826 64.3215 102.785L55.1647 101.354ZM36.6891 98.4686C36.4381 98.4294 36.1934 98.5941 36.1526 98.8567L34.7009 108.214C34.6623 108.462 34.8293 108.706 35.0944 108.747L44.2513 110.177C44.5022 110.216 44.747 110.052 44.7877 109.789L46.2394 100.432C46.278 100.184 46.111 99.9403 45.8459 99.8989L36.6891 98.4686ZM18.2041 95.5814C17.9531 95.5422 17.7084 95.7068 17.6676 95.9695L16.2159 105.327C16.1773 105.575 16.3443 105.818 16.6094 105.86L25.7662 107.29C26.0172 107.329 26.2619 107.165 26.3027 106.902L27.7544 97.5449C27.793 97.2963 27.626 97.0531 27.3609 97.0117L18.2041 95.5814Z' fill='white'/></g><defs><clipPath id='clip0_27886_2207'><rect width='112' height='141' fill='white'/></clipPath></defs></svg>"
+    },
+    "glossary": {
+      "regresion": {
+        "word": "regresión",
+        "definition": "La <strong className=\"text-[#0055B2]\">regresión</strong> es un método utilizado para encontrar una curva o línea que mejor se ajuste a un conjunto de puntos de datos."
+      },
+      "bathymetry": {
+        "word": "batimetría",
+        "definition": "El estudio y mapeo de la profundidad y forma del fondo marino se conoce como <strong className=\"text-[#0055B2]\">batimetría</strong>."
+      },
+      "anoxic_zone": {
+        "word": "zona anóxica",
+        "definition": "Una <strong className=\"text-[#0055B2]\">zona anóxica</strong> es una parte del océano con poco o nada de oxígeno, donde la descomposición ocurre muy lentamente."
+      },
+      "submersible": {
+        "word": "sumergible",
+        "definition": "Un <strong className=\"text-[#0055B2]\">sumergible</strong> es un pequeño vehículo submarino que puede sumergirse profundamente para explorar el océano."
+      },
+      "anomaly": {
+        "word": "anomalía",
+        "definition": "Una <strong className=\"text-[#0055B2]\">anomalía</strong> es un punto en el fondo marino que se ve diferente del área circundante y puede indicar algo inusual, como un naufragio o estructura submarina."
+      },
+      "anomalies": {
+        "word": "anomalías",
+        "definition": "Las <strong className=\"text-[#0055B2]\">anomalías</strong> son puntos en el fondo marino que se ven diferentes del área circundante y pueden indicar algo inusual, como un naufragio o estructura submarina."
+      },
+      "rov": {
+        "word": "ROV",
+        "definition": "<strong className=\"text-[#0055B2]\">ROV</strong> significa Vehículo Operado Remotamente. Se usa para investigar naufragios sin enviar humanos bajo el agua."
+      },
+      "research_vessel": {
+        "word": "buque de investigación",
+        "definition": "Un <strong className=\"text-[#0055B2]\">buque de investigación</strong> es un barco especial equipado con herramientas científicas usado para explorar y estudiar el océano."
+      },
+      "degree": {
+        "word": "grado",
+        "definition": "El exponente más alto (potencia) de la variable en un polinomio se llama <strong className=\"text-[#0055B2]\">grado</strong>."
+      },
+      "drone_boats": {
+        "word": "botes dron",
+        "definition": "Los <strong className=\"text-[#0055B2]\">botes dron</strong> son embarcaciones de superficie no tripuladas equipadas con sensores y cámaras, usadas para explorar y recopilar datos del océano."
+      },
+      "mast": {
+        "word": "mástil",
+        "definition": "Un <strong className=\"text-[#0055B2]\">mástil</strong> es un poste alto y vertical en un barco que sostiene las velas y el aparejo."
+      },
+      "rigging": {
+        "word": "aparejo",
+        "definition": "El <strong className=\"text-[#0055B2]\">aparejo</strong> es el sistema de cuerdas, cables y cadenas que se utiliza para sostener y controlar las velas y el mástil de un barco."
+      }
+    },
+    "common": {
+      "luke": "Luke",
+      "albert": "Albert",
+      "leo": "Leo",
+      "luke_description": "Un hombre caucásico que viste un abrigo de invierno azul marino con un gorro de punto rojo, una bufanda azul y sostiene una tableta mientras viste ropa profesional de invierno.",
+      "albert_description": "Un hombre asiático con una sonrisa cálida vestido con una chaqueta azul marino con cremallera sobre una bufanda marrón, sosteniendo una tableta y vestido con ropa profesional casual.",
+      "leo_description": "Un hombre latino con cabello oscuro vestido con una chaqueta estilo utilitario azul marino sobre una camisa azul, sosteniendo una tableta y presentando un comportamiento amigable.",
+      "narrator": "Narrator",
+      "bg1_description": "El buque de investigación 'Infinity' navega en aguas oceánicas tranquilas bajo un cielo de atardecer vívido, naranja y azul.",
+      "bg2_description": "Atardecer vibrante sobre aguas oceánicas tranquilas con nubes oscuras que brillan en tonos naranjas y azules sobre el horizonte.",
+      "bg3_description": "Cuatro drones oceánicos autónomos amarillos flotan sobre agua azul tranquila bajo un cielo brillante de tarde.",
+      "bg4_description": "Dos tripulantes monitorean datos de sonar y mapeo en una sala de control del barco con iluminación tenue.",
+      "bg5_description": "Un solo tripulante analiza datos de escaneo sonar en múltiples pantallas digitales brillantes dentro de una sala de control oscura del barco.",
+      "bg6_description": "Sumergible de aguas profundas con faros encendidos desciende por el océano azul oscuro, dejando burbujas hacia la superficie.",
+      "bg7_description": "Sitio arqueológico submarino con un naufragio antiguo y ánforas, iluminado por las luces de un sumergible en aguas profundas.",
+      "bg8_description": "Cofre del tesoro submarino junto a un naufragio antiguo, iluminado por luz azul que se filtra a través del agua del océano.",
+      "bg9_description": "Sala de control del barco con la tripulación emocionada celebrando la confirmación de coincidencia de un naufragio en la pantalla de sonar bajo la luz de la luna.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta",
+      "constant": "Constante",
+      "startingPoint": "Punto de partida"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergent"
+  },
+  "game": {
+    "polynomial-pirates": "STEAM Quest - Piratas Polinomiales"
+  }
+}

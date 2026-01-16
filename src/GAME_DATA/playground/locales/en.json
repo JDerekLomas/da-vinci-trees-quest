@@ -1,0 +1,196 @@
+{
+  "dialog": {
+    "button": {
+      "start_again": "Start again",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<div style='font-size: 36px; line-height: 54px; font-weight: 700;'>Ecothreads</div> <div style='font-size: 24px; line-height: 36px; font-weight: 700;'>How businesses use systems of Linear Functions</div>",
+    "description": "Can you help Mei make her Ecothreads T-shirt business a success? In this STEAMQuest, you will explore how businesses use linear functions to analyze costs, revenue, and break-even points.",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "introduction": {
+      "mei_thinking": "My T-shirt designs are getting so much love online. But can I turn this into a real business? I need to ask Aunt Lily..."
+    },
+    "aunt-lilys-office": {
+      "aunt_lily_greeting": "Mei! It's great to see you. What's this business idea you mentioned?",
+      "mei_explanation": "Well, you know I've been selling my eco-friendly T-shirt designs online. I'm thinking of turning it into a full-fledged business, but I'm not sure if it's worth the investment.",
+      "aunt_lily_offer": "That's exciting! I'd love to help. Let's break it down using some business math. We can make some linear functions to model your costs and revenue.",
+      "mei_question": "Linear functions? How does that apply to T-shirts?",
+      "aunt_lily_explanation": "<div style='font-size: 22px; font-weight: 500; line-height: 33px; margin-bottom: 16px;'>You'd be surprised!</div><div style='font-size: 22px; font-weight: 500; line-height: 33px;'>Let's start with the basics. In any business, you have costs and revenue.</div><button className='mb-4 mt-4' data-variant='primary' data-destination='3_1,4_4' autofocus>Cost Models</button><br /><button data-variant='primary' data-destination='6_1,7_2'>Revenue Models</button><br />"
+    },
+    "understanding-cost-functions": {
+      "aunt_lily_formula": "Let's take a look at a formula for cost",
+      "aunt_lily_explanation": "You'll have two types of costs: fixed costs, which don't change no matter how many shirts you sell, and variable costs, which increase with each shirt made.",
+      "aunt_lily_formula_explanation": "Now, let's say your fixed costs for equipment and setup are $1000, and each shirt costs $10 to make.",
+      "mei_understanding": "Oh, I get it! So the $1000 stays the same, but the total cost goes up by $10 for each T-shirt?",
+      "aunt_lily_confirm": "Exactly! This is a linear function, where x is the input (number of shirts) and C(x) is the output (total cost). Let's play around with the numbers.",
+      "aunt_lily_example": "Let's say your fixed costs are $1000, and it costs $10 to make a T-shirt. What is the cost of making 25 T-shirts?",
+      "mei_answer": "Ok, I still need to pay $1250.",
+      "aunt_lily_question": "And what if you sell 100 shirts?",
+      "mei_calculation": "If the fixed cost is $1000 and the per-unit cost is $10, then for 100 T-shirts... the total cost would be $2000!",
+      "aunt_lily_praise": "Perfect! You're getting the hang of it. Now, let's talk about the fun part: making money!",
+      "cost_function_calculator_interaction": {
+        "title": "Cost Function Calculator",
+        "aria_label": "Graph showing the cost function, displaying the relationship between cost and the number of T-shirts produced.",
+        "inputs": {
+          "fixed_costs": "Fixed Costs",
+          "per_unit_costs": "Per-Unit Cost",
+          "number_of_t_shirts": "Number of T-shirts"
+        },
+        "graph_config": {
+          "number_of_t_shirts": "Number of T-shirts",
+          "cost": "Cost ($)"
+        },
+        "labels": {
+          "total_cost": "Total Cost",
+          "data_visualization": "Cost Function Calculator Data Visualization",
+          "calculation_result": "Calculation Result:",
+          "x_units_y_dollars_label": "where x is the number of units and C(x) is the total amount in dollars"
+        },
+        "display_formulas": {
+          "cost_function": "Cost Function"
+        },
+        "heading": "Cost Function Calculator",
+        "instructions_heading": "How to Use This Calculator",
+        "about_heading": "About Cost Functions",
+        "instructions": "<div><h3  margin-bottom: 12px; color: #333333\">Hint: Follow these steps:</h3><ol style=\"color: #333333;  list-style-type: decimal; padding-left: 24px; margin: 0;\"><li>Set the Fixed Costs slider to $1000</li><li>Set the Per-Unit Cost slider to $10</li><li>The total cost will be: Fixed Costs + (Per-Unit Cost × Number of T-shirts)</li><li>Remember: You're making 25 T-shirts, so don't forget to include BOTH the one-time fixed cost AND the cost for each shirt!</li></ol></div>",
+        "about": "<div><p style=\"margin-bottom: 20px; font-size: 20px;\">This calculator helps you understand business costs! Your total cost has two parts:</p><ul style=\"list-style: none; padding: 0; margin-bottom: 20px;\"><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-weight: bold; margin-right: 12px;\">1.</span><div><span style=\"color: #1E62F3; font-weight: bold;\">Fixed costs (<span style=\"font-style: italic;\">F</span>):</span> What you pay even if you make zero items</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-weight: bold; margin-right: 12px;\">2.</span><div><span style=\"color: #1E62F3; font-weight: bold;\">Per-unit costs (<span style=\"font-style: italic;\">p</span>):</span> Cost to make each additional item</div></li></ul><p style=\"margin-bottom: 12px;\">The cost function is written as: <span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">C(x) = F + px</span>, where:</p><ul style=\"list-style: none; padding: 0;\"><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">C(x)</span> is your total cost in dollars</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">F</span> is fixed costs</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">p</span> is per-unit cost</div></li><li style=\"margin-bottom: 8px; display: flex; align-items: start;\"><span style=\"color: #1E62F3; font-weight: bold; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; font-style: italic;\">x</span> is number of items</div></li></ul><p style=\"margin-top: 20px;\">The graph shows how total cost changes as you make more items. Adjust the sliders to see how different fixed and per-unit costs affect your total costs!</p></div>"
+      },
+      "cost_function_calculator_equation": {
+        "title": "Cost Formula",
+        "formula_equation": "<p aria-live='polite' style='font-size: 22px; font-family: besley; font-weight: 500; line-height: 33px; font-style: italic;'>total costs = variable costs + fixed costs</p>",
+        "cost_types_explanation": "<p aria-live='polite' style='font-size: 22px; font-family: besley; font-weight: 500; line-height: 33px; font-style: italic;'>total costs = variable costs + fixed costs</p><div aria-live='polite'><p style='font-weight: bold; font-size: 1.4rem; margin-top: 1rem; margin-bottom: 1rem;'>You'll have two types of cost:</p><p style='font-weight: bold; margin-bottom: 1rem;'>Fixed Costs</p><p style='margin-bottom: 1rem;'>Don't change no matter how many shirts you each shirt you make</p><p style='font-weight: bold; margin-bottom: 1rem;'>Variable Costs</p><p>Increase with each shirt made</p></div>",
+        "detailed_cost_function": "<p aria-live='polite' style='font-size: 22px; font-family: besley; font-weight: 500; line-height: 33px; font-style: italic;'>total costs = variable costs + fixed costs</p><div aria-live='polite' aria-label='C(x) = 10x + 1000' style='font-size: 2rem; line-height: 2.5rem; display: flex;'>\\[{\\color{#CC3700}{C(x)}} = {\\color{#4168E1}10x} + {\\color{#1C6F1A}1000}\\]</div><div aria-live='polite' style='font-size: 22px; font-weight: 500; line-height: 33px;'><div style='margin-bottom: 10px;'><span style='color: #4168E1; font-weight: bold'>x</span> is the number of T-shirts sold</div><div style='margin-bottom: 10px;'><span style='color: #4168E1; font-weight: bold'>10x</span> is the variable cost ($10 per T-Shirt)</div><div style='margin-bottom: 10px;'><span style='color: #1C6F1A; font-weight: bold'>1000</span> is the fixed cost ($1000)</div><div><span style='color: #CC3700; font-weight: bold'>C(x)</span> is the cost of x T-shirts</div></div>",
+        "function_notation_info": "<div style=\" \">The expression <strong style=\"color: #006BE0; font-style: italic;\">C(x) </strong> is function notation - it's not <strong style=\"color: #006BE0; font-style: italic;\">C </strong> multiplied by <strong style=\"color: #006BE0; font-style: italic;\">x </strong>. Think of it as one symbol meaning \"<strong style=\"color: #006BE0;\">the cost function</strong>.\"<br><br>In <strong style=\"color: #006BE0; font-style: italic;\">C(x) = 10x + 1000</strong>:<br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span><strong style=\"color: #006BE0; font-style: italic;\">x</strong> represents the number of shirts (the quantity), not dollars</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>The fixed cost (<strong style=\"color: #006BE0; font-style: italic;\">1000</strong>) stays the same no matter how many shirts you make</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>We could have named this function anything (like <strong style=\"color: #006BE0; font-style: italic;\">T(x)</strong> or <strong style=\"color: #006BE0; font-style: italic;\">F(x)</strong>) - using <strong style=\"color: #006BE0; font-style: italic;\">C</strong> just helps us remember it's cost</li></ul><br><strong style=\"color: #006BE0; \">Remember:</strong> To find the total cost for any number of shirts, replace <strong style=\"color: #006BE0; font-style: italic;\">x</strong> with that number and calculate <strong style=\"color: #006BE0; font-style: italic;\">10x + 1000</strong>.</div>"
+      }
+    },
+    "understanding-revenue-functions": {
+      "aunt_lily_explanation": "Now, let’s look at your revenue function. If you sell each T-shirt for $25, it looks like this:",
+      "mei_revenue_understanding": "Right, it starts at zero and goes up by $25 for each T-shirt sold.",
+      "aunt_lily_revenue_description": "Exactly! Let's explore how selling price affects total revenue when selling a specific number of T-shirts.",
+      "aunt_lily_revenue_example": "Set the selling price to $25. How much revenue would you generate from selling 100 T-shirts?",
+      "mei_revenue_calculation": "Okay, so if I set the price to $25 and sell 100 T-shirts, my revenue would be... $2500! That'd be great!",
+      "aunt_lily_praise": "Perfect! You're getting the hang of it. Now, let's talk about the fun part: making money!",
+      "revenue_function_generator_interaction": {
+        "aria_label": "Graph representing the revenue function, showing how revenue changes based on the number of T shirts sold.",
+        "inputs": {
+          "selling_price": "Selling Price",
+          "number_of_t_shirts": "Number of T-shirts sold"
+        },
+        "graph_config": {
+          "number_of_t_shirts": "Number of T-shirts",
+          "revenue": "Revenue ($)"
+        },
+        "labels": {
+          "total_revenue": "Total Revenue",
+          "data_visualization": "Revenue function generator Data Visualization",
+          "calculation_result": "Calculation Result:",
+          "x_units_y_dollars_label": "where x is the number of units and c is the total amount in dollars"
+        },
+        "display_formulas": {
+          "revenue_function": "Revenue Function"
+        },
+        "heading": "Revenue function generator",
+        "instructions_heading": "How to Use This Calculator",
+        "about_heading": "About Revenue Functions",
+        "about": "<div><h3 style=\"margin-bottom: 12px; color: #333333\">Getting Started</h3><ul style=\"color: #333333; list-style-type: disc; padding-left: 24px; margin: 0;\"><li>Set your selling price for each item using the slider</li><li>Enter the number of T-shirts you want to produce</li><li>View your total revenue and revenue function below</li><li>The graph will update to show how your revenue changes</li></ul></div>",
+        "instructions": "<div><p style=\"margin-bottom: 12px;\">This calculator helps you understand how much money your business makes! Your total revenue has one main part:</p><p style=\"margin: 12px 0;\"><strong>Price per unit (p):</strong> The selling price for each item you sell</p><p style=\"margin: 12px 0; \">The revenue function is written as: R(x) = px, where:</p><ul style=\"padding-left: 20px; margin: 0;  list-style-type: disc; color: #AF52DE\"><li style=\"margin-bottom: 8px; color: #333333\"><strong style=\"color: #AF52DE\">R(x)</strong> is your total revenue in dollars</li><li style=\"margin-bottom: 8px; color: #333333\"><strong style=\"color: #AF52DE\">p</strong> is selling price per unit</li><li style=\"margin-bottom: 8px; color: #333333\"><strong style=\"color: #AF52DE\">x</strong> is number of items</li></ul><p style=\"margin-top: 12px; \">The graph shows how your total revenue changes as you sell more items. The line goes up because each item you sell adds to your revenue. Try different selling prices to see how they affect your total revenue!</p></div>"
+      },
+      "revenue_function_calculator_equation": {
+        "title": "Revenue Formula",
+        "data": "<div style='font-size: 22px; font-weight: 500; line-height: 33px;'>In a revenue model, we use the formula:</div><div style='font-size: 2.25rem; line-height: 2.5rem; display: flex;'>\\[{\\color{#CC3700}R(x)} = {\\color{#4168E1}25x}\\]</div><div style='font-size: 22px; font-weight: 500; line-height: 33px;'><div style='margin-bottom: 12px;'><strong style='color: #4168E1'>x</strong> is the number of T-shirts sold.</div><div style='margin-bottom: 12px;'><strong style='color: #4168E1'>25</strong> is the price of each T-shirt.</div><div><strong style='color: #CC3700'>R(x)</strong> is the total revenue from selling x T-shirts.</div></div>",
+        "function_notation_info": "<div style=\" \"><strong style=\"color: #006BE0; \">Function Notation Made Simple!</strong><br><br>When we write <strong style=\"color: #006BE0; font-style: italic;\">R(x) = 25x</strong>, remember:<br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span><strong style=\"color: #006BE0; font-style: italic;\">R(x)</strong> is not multiplication! It means \"revenue you get when you sell <span style=\"font-style: italic;\">x</span> shirts\"</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>The <strong style=\"color: #006BE0; font-style: italic;\">x</strong> can be any number (that's what makes it a function!)</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>When we write <strong style=\"color: #006BE0; font-style: italic;\">25x</strong>, we mean <strong style=\"color: #006BE0;\">multiply 25 by <span style=\"font-style: italic;\">x</span></strong></li></ul><br><strong style=\"color: #006BE0;\">Try it yourself:</strong><br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>If <strong style=\"color: #006BE0; font-style: italic;\">x = 2</strong> shirts: <strong style=\"color: #006BE0; font-style: italic;\">R(2) = 25 × 2 = $50</strong></li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>If <strong style=\"color: #006BE0; font-style: italic;\">x = 10</strong> shirts: <strong style=\"color: #006BE0; font-style: italic;\">R(10) = 25 × 10 = $250</strong></li></ul><br><strong style=\"color: #006BE0;\">Pro Tip:</strong> Think of <strong style=\"color: #006BE0; font-style: italic;\">R(x)</strong> as a machine - put in number of shirts, get back total money!<br><br><strong style=\"color: #006BE0; \">Remember:</strong> In <strong style=\"color: #006BE0; font-style: italic;\">R(x) = 25x</strong><br><ul style=\"list-style: none; padding-left: 8px;\"><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Input: number of shirts (<strong style=\"color: #006BE0; font-style: italic;\">x</strong>)</li><li style=\"margin: 8px 0;\"><span style=\"color: #006BE0; font-weight: bold; margin-right: 8px;\">•</span>Output: money you make (<strong style=\"color: #006BE0; font-style: italic;\">R(x)</strong>)</li></ul></div>"
+      }
+    },
+    "break-even-analyzer": {
+      "aunt_lily_break_even": "Right, but we need to think about costs. So let's find your break-even point.",
+      "mei_how_to_find": "How do I find that?",
+      "aunt_lily_equation": "That's where solving equations comes in. Actually, we can set the two functions equal to each other!",
+      "mei_equation_question": "That's it? I can just set them equal and solve for x?",
+      "aunt_lily_equation_explanation": "Yes, because here you want to know when the two functions are equal. Kind of cool! Let's play with this.",
+      "aunt_lily_past_context": "We've looked at costs and revenue separately. Now let's see how they interact to determine profitability",
+      "aunt_lily_description": "Our T-shirt business has fixed costs of $1000 and variable costs of $10 per shirt. We're selling each shirt for $25.",
+      "aunt_lily_interactive_question": "<p>Now you can see how changing your costs or prices affects when you'll start making a profit.</p><p style=\"margin-top: 1rem\"><strong>How many T-shirts do you need to sell to break even?</strong></p>",
+      "mei_gratitude": "Thank you so much, Aunt Lily. I want to create a sustainable business that's good for both the planet and make some money! Time to make this dream a reality.",
+      "break_even_analysis_interaction": {
+        "title": "Break even analysis",
+        "aria_label": "Break-even analysis graph showing the relationship between cost and revenue with the break-even point indicated where total cost equals total revenue.",
+        "inputs": {
+          "equipment_cost": "Equipment Cost",
+          "material_cost": "Material Cost",
+          "selling_price": "Selling Price"
+        },
+        "graph_config": {
+          "number_of_t_shirts": "Number of T-shirts",
+          "amount": "Amount ($)"
+        },
+        "labels": {
+          "total_cost": "Total Cost",
+          "total_revenue": "Total Revenue"
+        },
+        "display_formulas": {
+          "cost_equation": "Cost Equation",
+          "revenue_equation": "Revenue Equation"
+        },
+        "heading": "Break even analysis",
+        "about_heading": "About Break-Even Analysis",
+        "instructions_heading": "How to Use This Analysis Tool",
+        "about": "<div><p style=\"margin-bottom: 24px; color: #333333; font-size: 20px;\">Start by understanding what each slider does:</p><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"color: #1E62F3; font-size: 24px; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; margin-right: 4px;\">Equipment Cost:</span>This is your fixed cost (where the cost line starts on the y-axis)</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"color: #1E62F3; font-size: 24px; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; margin-right: 4px;\">Material Cost:</span>This is part of your variable cost (affects the steepness of the cost line)</div></li><li style=\"margin-bottom: 16px; display: flex; align-items: flex-start;\"><span style=\"color: #1E62F3; font-size: 24px; margin-right: 8px;\">•</span><div><span style=\"color: #1E62F3; font-weight: bold; margin-right: 4px;\">Selling Price:</span>This determines how quickly your revenue grows (steepness of revenue line)</div></li></ul><p style=\"color: #333333; font-size: 20px;\">Try changing just one slider at a time to understand how each affects the graph!</p></div>",
+        "instructions": "<div><ul style=\"list-style: none; padding-left: 0; margin-bottom: 24px;\"><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>First set your Equipment Cost - notice how this moves the starting point of the cost line</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Then set Material Cost - watch how this changes the angle of the cost line</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Finally, set Selling Price - see how this changes the angle of the revenue line</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>The break-even point is where the red cost line meets the green revenue line</div></li><li style=\"margin-bottom: 12px; display: flex; align-items: start;\"><span style=\"color: #333333; font-size: 24px; margin-right: 8px;\">•</span><div>Remember: You're looking for the point where Total Cost = Total Revenue. At this point, you're neither making nor losing money.</div></li></ul></div>"
+      }
+    },
+    "quest_completion": {
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: center; gap: 16px; margin-bottom: 16px;'><svg width=\"70\" height=\"70\" viewBox=\"0 0 59 65\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M19.1357 48.472L16.2404 50.8641C15.8628 51.2416 15.2332 50.8641 15.485 50.3604L15.6108 49.9829C15.8626 49.4793 15.2332 49.1017 14.8554 49.4793L9.56803 53.8855C9.19046 54.263 8.5608 53.8855 8.81262 53.3819L9.06443 52.6265C9.31623 52.1228 8.81262 51.7452 8.30903 52.1229L2.51804 56.1515C2.01444 56.5291 1.51082 56.0257 1.88867 55.5221L6.16878 49.8572C6.54635 49.4796 6.16878 48.976 5.66517 49.1018L4.90977 49.3536C4.40616 49.4794 4.02856 48.976 4.40616 48.5982L8.93809 43.4366C9.31566 43.059 8.93809 42.4294 8.43449 42.6812L8.05692 42.807C7.55331 43.0588 7.17571 42.4294 7.55331 42.0516L10.0711 39.1562C10.3229 39.5338 10.5747 39.9117 10.9523 40.2892L19.135 48.3459C18.884 48.2202 19.0098 48.3462 19.1355 48.472L19.1357 48.472Z\" fill=\"#006BE0\"/><path d=\"M14.0999 31.8555L12.2116 34.3732C11.3304 35.5062 11.4562 37.1428 12.4634 38.15L20.6461 46.3328C21.6533 47.34 23.2899 47.4657 24.4229 46.5846L26.9407 44.6962L14.0999 31.8555Z\" fill=\"#006BE0\"/><path d=\"M21.2759 18.3852L13.4705 28.7081C8.93861 27.8269 4.15437 28.3305 0 30.3447C1.00723 28.2045 2.39202 26.1903 4.15437 24.428C8.68658 19.8958 15.1067 17.7556 21.2752 18.3853L21.2759 18.3852Z\" fill=\"#006BE0\"/><path d=\"M26.1857 62.8242L23.0385 64.335L23.7936 62.8242H26.1857Z\" fill=\"#006BE0\"/><path d=\"M34.2424 54.7661C32.4801 56.5284 30.4656 57.9132 28.3257 58.9204C30.3399 54.6403 30.9695 49.9823 29.9623 45.4499L40.2852 37.6445C41.0406 43.6873 39.0262 50.1076 34.2425 54.7654L34.2424 54.7661Z\" fill=\"#006BE0\"/><path d=\"M44.4393 1.51562C39.6556 2.52285 34.8718 4.41094 32.4796 7.68417L15.7361 29.8408L28.9546 43.0593L51.1112 26.1898C54.3844 23.7978 56.2728 19.0138 57.2798 14.2301L44.4393 1.51562ZM48.0901 18.1331C46.0759 20.1473 42.6767 20.1473 40.6628 18.1331C38.6486 16.1189 38.6486 12.7197 40.6628 10.7058C42.677 8.69161 46.0762 8.69161 48.0901 10.7058C50.104 12.72 50.1043 16.1192 48.0901 18.1331Z\" fill=\"#006BE0\"/><path d=\"M58.6631 0.760243C58.6631 2.39686 58.5374 6.67697 57.7819 11.3352L47.333 0.886259C53.2497 -0.120968 58.5373 0.00504785 58.5373 0.00504785C58.5376 0.00504785 58.6634 0.382888 58.6634 0.760451L58.6631 0.760243Z\" fill=\"#006BE0\"/></svg><div style='font-size: 30px; font-weight: 700; line-height: 45px; color: #000000;'>Breaking Even with Linear Functions</div></div><h2 style='font-size: 24px; font-weight: 700; color: #333333; margin: 0 0 24px 65px;'>You've applied Systems of Linear Equations in Business!</h2><ul style='list-style: none; padding-right: 20px; padding-left: 80px;'><li style='display: flex; align-items: start; margin-bottom: 16px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Mei find the breakeven point to determine whether her business is profitable</li><li style='display: flex; align-items: start; margin-bottom: 16px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You showed that you understand the relationships between costs, revenue, and profit</li><li style='display: flex; align-items: start; margin-bottom: 16px; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed fixed costs, variable costs, price, and quantities</li></ul></div>"
+    },
+    "glossary": {
+      "revenue": {
+        "word": "revenue",
+        "definition": "Revenue is the total amount of money earned from selling goods or services."
+      },
+      "linear_functions": {
+        "word": "linear functions",
+        "definition": "Linear Functions are mathematical relationships as a straight line on a graph."
+      },
+      "Linear_functions": {
+        "word": "Linear functions",
+        "definition": "Linear Functions are mathematical relationships as a straight line on a graph."
+      },
+      "break_even_point": {
+        "word": "break-even point",
+        "definition": "Break-even point is the magic number where you've made exactly enough money to cover all your costs - not losing money anymore, but not making extra money yet either."
+      },
+      "profit": {
+        "word": "profit",
+        "definition": "Profit is the extra money a business makes after paying all its costs."
+      }
+    },
+    "common": {
+      "data_visualization": "Data Visualization",
+      "calculation_result": "Calculation Result:",
+      "x_units_y_dollars_label": "Where x is the number of units and c is the total amount in dollars",
+      "invalid_input_submitted": "One or more inputs are invalid!",
+      "enter_answer": "Enter your answer",
+      "aunt_lily": "Aunt Lily",
+      "mei": "Mei",
+      "cost_models": "Cost Models",
+      "revenue_models": "Revenue Models",
+      "help": "Help",
+      "info": "Info"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introduction to Similar Triangles",
+    "scene_4": "Thales in Egypt",
+    "scene_5": "Thale's Shadow Method Simulator",
+    "scene_6": "Proving Pythagoras with Similar Triangles",
+    "scene_7": "Eratosthenes",
+    "scene_8": "Earth Circumference Calculator",
+    "scene_9": "Ibn al-Haytham",
+    "scene_10": "Camera Obscura Simulator",
+    "scene_11": "Conclusion",
+    "scene_12": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333;'>Road to Renaissance</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333;'>Leonardo’s Journey with Similar Triangles</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>Florence, 1470s. A young Leonardo da Vinci seeks out the great scholar Toscanelli, determined to unlock the mathematical secrets hidden within art and nature. In this STEAMQuest, you’ll join Leonardo’s apprenticeship and explore the timeless geometry that helped shape the Renaissance and the modern world.</p>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>Welcome to Florence!</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>I’m Paolo dal Pozzo Toscanelli. Today, I’ll be guiding young Leonardo da Vinci, and you, through the hidden power of similar triangles. Together, we’ll explore how the ancients used them to measure the height of pyramids, prove the Pythagorean Theorem, and unlock the secrets of light and vision through the camera obscura.</p>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Master Toscanelli? I’m Leonardo da Vinci. My teacher says I must learn geometry… but to be honest, I don’t know why I need to learn about shapes and lines.</div>",
+      "S3_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Geometry isn’t just shapes and lines, it’s the structure behind everything. It’s how we understand how trees grow, how shadows fall, how buildings stand, how light moves. It’s the hidden design beneath nature, art, and vision.</div>",
+      "S3_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>All that... from geometry?</div>",
+      "S3_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. The ancients used it to measure pyramids, to prove the Pythagorean Theorem, and to explain how light forms images. It's a way of seeing the world more clearly and more deeply.</div>",
+      "S3_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I had no idea it reached so far. I want to understand all of it.</div>"
+    },
+    "S4": {
+      "S4_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The year was 600 BCE. A Greek philosopher named Thales of Miletus stood before the Great Pyramid of Giza.</div>",
+      "S4_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The Pharaoh’s officials challenged him to measure the height of the pyramid without climbing it.</div>",
+      "S4_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Measure something so massive without touching it? How could he possibly do that?</div>",
+      "S4_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>He used similar triangles. Let’s see how he did this.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Thale’s Shadow Method Simulator",
+        "about": {
+          "heading": "Understanding the Math Behind Thales' Shadow Method",
+          "body": "<div style='font-size:16px;line-height:1.5'><style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p>In this interactive, you will explore how the ancient mathematician Thales used shadows and similar triangles to measure the height of the Great Pyramid without climbing it.</p><p>When the sun shines, a stick and the pyramid both create right triangles with their shadows. Because the sun’s rays hit both objects at the same angle, the triangles are similar, meaning their side ratios are equal.</p><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#006BE0'><span class='var'>h<sub style='font-size:16px'>stick</sub></span></span><span class='den' style='color:#006BE0'><span class='var'>s<sub style='font-size:16px'>stick</sub></span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#EB0000'><span class='var'>h<sub style='font-size:16px'>pyramid</sub></span></span><span class='den' style='color:#EB0000'><span class='var'>s<sub style='font-size:16px'>pyramid</sub></span></span></span></div><span className='sr-only'>The fraction of height of stick divided by shadow of stick equals the fraction of height of pyramid divided by shadow of pyramid</span><p>Where, <span class='var' style='color:#006BE0'>h<sub style='font-size:16px'>stick</sub></span> = height of the stick that Thales used, <span class='var' style='color:#006BE0'>s<sub style='font-size:16px'>stick</sub></span> = the length of the stick’s shadow, <span class='var' style='color:#EB0000'>s<sub style='font-size:16px'>pyramid</sub></span> = the length of the pyramid’s shadow and <span class='var' style='color:#EB0000'>h<sub style='font-size:16px'>pyramid</sub></span> = height of pyramid.</p><p>How does it work?</p><p>As both the objects are in the same sunlight, the triangles formed are similar, the ratios stay the same, even though the stick and pyramid are different sizes!</p></div>"
+        },
+        "help": {
+          "heading": "How to calculate the height of the Pyramid?",
+          "body": "<div style='font-size:16px;line-height:1.5'><style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p>Hint: Follow these steps:</p><ol style='list-style:decimal;padding-left:30px;margin:16px 0'><li style='margin:4px 0'>Set the measuring stick height slider.</li><li style='margin:4px 0'>Set the time slider.</li><li style='margin:4px 0'>Observe the shadows and similar triangles formed by the Sun.</li><li style='margin:4px 0'>Use this formula to calculate the height of Pyramid:</li></ol><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#006BE0'><span class='var'>stick height</span></span><span class='den' style='color:#006BE0'><span class='var'>stick shadow</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#EB0000'><span class='var'>pyramid height</span></span><span class='den' style='color:#EB0000'><span class='var'>pyramid shadow</span></span></span></div><span class='sr-only'>stick height divided by stick shadow equals pyramid height divided by pyramid shadow</span></div>"
+        },
+        "units": {
+          "feet": "ft"
+        },
+        "thales": {
+          "stick": "stick",
+          "pyramid": "pyramid",
+          "timeOfDay": "Time of Day (Sun Position)",
+          "measuringStickHeight": "Measuring Stick Height (feet)",
+          "sunrise": "Sunrise",
+          "noon": "Noon",
+          "sunset": "Sunset",
+          "equals": "=",
+          "noonWarning": "At noon, the sun is directly overhead and objects cast no shadows, making the shadow method calculation impossible.",
+          "pyramidHeightCalculation": "Pyramid Height Calculation:",
+          "time": {
+            "6am": "6:00 AM",
+            "630am": "6:30 AM",
+            "7am": "7:00 AM",
+            "730am": "7:30 AM",
+            "8am": "8:00 AM",
+            "830am": "8:30 AM",
+            "9am": "9:00 AM",
+            "930am": "9:30 AM",
+            "10am": "10:00 AM",
+            "1030am": "10:30 AM",
+            "11am": "11:00 AM",
+            "1130am": "11:30 AM",
+            "12pm": "12:00 PM",
+            "1230pm": "12:30 PM",
+            "1pm": "1:00 PM",
+            "130pm": "1:30 PM",
+            "2pm": "2:00 PM",
+            "230pm": "2:30 PM",
+            "3pm": "3:00 PM",
+            "330pm": "3:30 PM",
+            "4pm": "4:00 PM",
+            "430pm": "4:30 PM",
+            "5pm": "5:00 PM",
+            "530pm": "5:30 PM",
+            "6pm": "6:00 PM"
+          },
+          "image_description": "The image contains a diagram of a stick and a pyramid with their shadows",
+          "formula_1": "h stick divided by s stick equals h pyramid divided by s pyramid.",
+          "divide_by": "divide by",
+          "equals_text": "equals",
+          "h_pyramid": " h pyramid"
+        }
+      },
+      "S5_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Picture Thales standing beside the pyramid, with no ropes and no ladders. Just a vertical stick and the sun above.</div>",
+      "S5_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So he didn’t measure the pyramid directly?</div>",
+      "S5_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No. He measured something easier, the height and shadow length of a stick, and the shadow length of the pyramid. That’s all he needed.</div>",
+      "S5_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The sun’s rays hit both the stick and the pyramid at the same angle. That created two similar right triangles, same shape but different sizes.</div>",
+      "S5_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And with similar triangles, the sides are in proportion. That’s the key.</div>",
+      "S5_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The stick’s height compared to its shadow is the same ratio as the pyramid’s height to its shadow.</div>",
+      "S5_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So that means: <span className='sr-only'>stick height divided by stick shadow is equals to pyramid height divided by pyramid shadow</span><span aria-hidden='true'> <div className='flex items-center justify-center mt-4 text-xl font-bold italic space-x-4'> <div className='flex flex-col items-center' style='color: #0061FC; font-family: \"Besley\"'> <span>h<sub>stick</sub></span> <div className='w-full border-t-2 border-gray-700 my-1'></div> <span>s<sub>stick</sub></span> </div> <span className='text-black'>=</span> <div className='flex flex-col items-center' style='color: #E0002B; font-family: \"Besley\"'> <span>h<sub>pyramid</sub></span> <div className='w-full border-t-2 border-gray-700 my-1'></div> <span>s<sub>pyramid</sub></span> </div> </div> </span> </span> </div>",
+      "S5_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Perfect. We can use this <no-glossary>equation</no-glossary> to solve for the pyramid’s unknown height.</div>",
+      "S5_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Set the time to 10:00 AM and stick height to 4.60 feet. Observe the shadows and the similar triangles formed by the sun at 10:00 AM.</div>",
+      "S5_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>What is the estimated height of the pyramid (in feet)?</div>",
+      "S5_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct! The actual height of the pyramid is <b>482 feet</b>, so it is very close to Thales’s approximation.</div>",
+      "S5_D13_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Incredible. With just one stick, a shadow, and a ratio, he calculated the height of one of the greatest structures in the world.</div>",
+      "S5_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That’s the brilliance of proportional reasoning. When you understand relationships, you don’t always need to measure the thing itself.</div>"
+    },
+    "S6": {
+      "S6_D0_FX_C9": {
+        "title": "Proving Pythagoras with Similar Triangles",
+        "about": {
+          "heading": "Understanding the Math Behind Proving Pythagoras with Similar Triangles",
+          "body": "<p>This interactive shows how the Pythagorean Theorem <div aria-hidden='true'><span style='color: #633300; font-family: besley; font-weight: bold; font-style: italic;'>CB</span>² + <span style='color: #0061FC; font-family: besley; font-weight: bold; font-style: italic;'>AC</span>² = <span style='color: #E0002B; font-family: besley; font-weight: bold; font-style: italic;'>AB</span>²</div><span className='sr-only'>CB squared plus AC squared equals A B squared</span> can be proved using similar triangles.</p><p style='font-weight: bold;'>Steps to prove Pythagoras Theorem using similar triangles:</p><ul style='list-style-type: disc; margin-left: 20px;'><li>Observe how an altitude is drawn from the right angle to the hypotenuse, dividing the triangle into two smaller right triangles</li><li>Use the similarity of triangles to set up proportions and derive two equations</li><li>Add the equations to arrive at the final result</li></ul>"
+        },
+        "help": {
+          "heading": "Need Help?",
+          "body": "<ul style='list-style-type: disc; margin-left: 20px;'><li>Fill in equations to build proofs</li><li>Follow Toscanelli's guidance to understand each step of the proof</li></ul>"
+        },
+        "pythagorean-theorem": "The Pythagorean Theorem",
+        "step-1-altitude": "Step 1: Altitude",
+        "step-2-first-pair": "Step 2: First Pair of Similar Triangles",
+        "step-3-second-pair": "Step 3: Second Pair of Similar Triangles",
+        "step-4-adding-equations": "Step 4: Adding the Equations",
+
+        "pythagorean-explanation": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse equals the sum of the squares of the lengths of the other two sides.",
+        "altitude-explanation": "See the altitude CD, this divides our original right triangle into two similar right triangles, <span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>CDB and <span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ADC.",
+        "first-pair-explanation": "Original triangle <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span> and the first smaller triangle <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>CDB</span> are similar. That means the ratio of one side and the hypotenuse in both triangles is equal.",
+        "second-pair-explanation": "Original triangle <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span> and the second smaller triangle <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ADC</span> are also similar. Again, that means the ratio of one side and the hypotenuse in both triangles is equal.",
+        "three-similar-triangles": "Now we have three similar right triangles: <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span>, <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>CDB</span> and <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ADC</span>.",
+
+        "reset": "Reset",
+        "previous": "Previous",
+        "next": "Next",
+
+        "formula-incorrect": "Formula is incorrect. Please rearrange the sides again or click Reset.",
+        "correct-click-next": "Correct! Please click on the 'Next' button to go to the next step.",
+        "correct-first-equation": "Correct! We've derived our first key equation.",
+        "correct-second-equation": "Correct! We've derived our second key equation.",
+        "drag-drop-pythagorean": "Drag and drop the sides to complete the Pythagorean theorem formula. You can also press Enter on a side to automatically place it in the first empty box.",
+        "drag-drop-proportion": "Drag and drop the sides to complete the proportion for the similar triangles. You can also press Enter on a side to automatically place it.",
+        "drag-drop-instructions": "Press Enter or click to place this item in an equation field",
+
+        "equation-1": "Equation 1",
+        "equation-2": "Equation 2",
+        "add-equations": "Now let's add these two equations:",
+        "therefore": "Therefore,",
+        "proof-completed": "This completes our proof of the Pythagorean theorem using similar triangles!",
+
+        "drag-AB": "Drag A B",
+        "drag-BC": "Drag BC",
+        "drag-AC": "Drag AC",
+        "drag-DC": "Drag DC",
+        "drag-AD": "Drag AD",
+        "drag-CB": "Drag CB",
+        "drag-DB": "Drag DB",
+        "drag-CD": "Drag CD",
+
+        "triangle-visualization": "Triangle with Pythagorean theorem visualization",
+        "first-blank-equation": "First blank in the equation",
+        "second-blank-equation": "Second blank in the equation",
+        "third-blank-equation": "Third blank in the equation",
+        "first-blank-step2": "First blank in step 2 equation",
+        "second-blank-step2": "Second blank in step 2 equation",
+        "first-blank-step3": "First blank in step 3 equation",
+        "second-blank-step3": "Second blank in step 3 equation",
+
+        "aria-label-step-0": "Right-angled triangle with sides a, b, c, and BC, AC, A B respectively with right angle at point C.",
+        "aria-label-step-1": "Right-angled triangle with sides a, b, c, and BC, AC, A B respectively with right angle at point C, and CD is line perpendicular to A B that divides A B into segments of length (c minus x) and x.",
+        "aria-label-step-2": "Two right triangles: first with sides a, b, c, and BC, AC, A B respectively with right angle at point C. Second is the triangle CDB with right angle at D, with sides BD, DC, and BC where BC is length a and BD is length x.",
+        "aria-label-step-3": "Two right triangles: first with sides a, b, c, and BC, AC, A B respectively with right angle at point C. Second is triangle ADC with right angle at D, side AD is length (c minus x) and side AC is length b.",
+        "aria-label-step-4": "Right-angled triangle with sides a, b, c, and BC, AC, A B respectively with right angle at point C.",
+
+        "squared": "squared",
+        "plus": "plus",
+        "equals": "equals",
+        "minus": "minus",
+        "multiplied": "multiplied by",
+        "divided": "divided by",
+
+        "formula-1-step-2": "CB divided by A B equals",
+        "formula-2-step-2": "CB divided by A B equals DB divided by CB. a divided by c equals x divided by a. a squared equals c multiplied by x.",
+        "formula-1-step-3": "a squared equals c multiplied by x.",
+        "formula-2-step-3": "AC divided by A B equals",
+        "formula-3-step-3": "AC divided by A B equals AD divided by AC. b divided by c equals (c minus x) divided by b. b squared equals c squared minus c multiplied by x.",
+        "formula-1-step-4": "a squared equals c multiplied by x.",
+        "formula-2-step-4": "b squared equals c squared minus c multiplied by x.",
+        "formula-3-step-4": "a squared plus b squared equals c multiplied by x plus c squared minus c multiplied by x. a squared plus b squared equals c squared. Therefore, CB squared plus AC squared equals A B squared."
+      },
+
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Measuring shadows to find heights was just the beginning. Soon after Thales, another thinker explored the triangle itself.</div>",
+      "S6_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>In southern Italy, a philosopher named Pythagoras discovered something remarkable about right triangles.</div>",
+      "S6_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pythagoras? The one who said that in right triangles, the square of the length of the hypotenuse equals the sum of the squares of the lengths of the other two sides.</div>",
+      "S6_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. Fill the blank spaces by dragging and dropping sides into the blanks and complete the formula of Pythagorean Theorem.</div>",
+      "S6_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct! But his proof didn’t use squares alone, it used similar triangles.</div>",
+      "S6_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let me show you how he revealed one of the most powerful truths in geometry.</div>",
+
+      "S6_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>See this is triangle <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span>, where angle C is a right angle. If we draw an altitude from point C to the hypotenuse <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>AB</span>, meeting it at point D...</div>",
+      "S6_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The triangle is split into two smaller right triangles.</div>",
+      "S6_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. And since they all share the same angles, the three triangles are similar. That similarity is the key to proving Pythagorean Theorem. Let’s see how.</div>",
+
+      "S6_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now look at our actual triangle <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span>, and the first smaller triangle <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>CDB</span>.</div>",
+      "S6_D11_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>They share the same angles, so they must be similar.</div>",
+      "S6_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. That means the ratios of one side and hypotenuse in both triangles are equal. Fill in the blank spaces with the sides of <span style='color: #8200C3'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>CDB</span> that correspond to the sides of <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB.</span>",
+      "S6_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct. Rearranging the terms in the ratios will give our first key equation: <span aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>a</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #9F008F'>x</span>.</div><span className='sr-only'>a squared equals c multiplied by x</span></span>",
+
+      "S6_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The actual triangle <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span> and second smaller triangle <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ADC</span>...</div>",
+      "S6_D15_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>They also must be similar and because of that, the ratios of one side and hypotenuse in both triangles are equal.</div>",
+      "S6_D16_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes! Fill in the blank spaces with the sides of <span style='color: #A13C34'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ADC</span> that correspond to the sides of <span style='color: #0055B2'><span style='font-size: 1.2rem;' aria-hidden='true'>△</span><span className='sr-only'>Triangle </span>ACB</span>.</div>",
+      "S6_D17_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correct! Here also if we rearrange the terms in the ratios it will give our second key equation: <span aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>b</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span>² - <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #9F008F'>x</span>.</div><span className='sr-only'>b squared equals c squared minus c multiplied by x</span></span>",
+
+      "S6_D18_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now we have two equations from our similar triangles. We need to add these two equations.</div>",
+      "S6_D19_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>If we add them, then the <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2' aria-hidden='true'>c</span><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #9F008F' aria-hidden='true'>x</span><span className='sr-only'>c multiplied by x</span> terms cancel out and we get <span aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>a</span>² + <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>b</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>c</span>².</span><span className='sr-only'>a squared plus b squared equals c squared</span></div>",
+      "S6_D20_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! If we write it in another way then: <div aria-hidden='true'><span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>CB</span>² + <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>AC</span>² = <span style='font-family: Besley; font-weight: bold; font-style: italic; color: #0055B2'>AB</span>².</div><span className='sr-only'>CB squared plus AC squared equals A B squared</span> And that’s it Leonardo, the Pythagorean Theorem is proved with similar triangles.</span>"
+    },
+    "S7": {
+      "S7_D1_FX_C1": "After Pythagoras, geometry continued to unlock even bigger questions.",
+      "S7_D2_FX_C2": "Bigger questions? What could geometry solve beyond triangles?",
+      "S7_D3_FX_C1": "Much more. Around 240 BCE, in Alexandria, a librarian named Eratosthenes used geometry to measure the Earth itself.",
+      "S7_D4_FX_C2": "He measured the whole planet? Without ever leaving Egypt?",
+      "S7_D5_FX_C1": "Yes. He used careful shadows, angles, and proportions to estimate the size of the Earth. Let’s take a look at how he did this."
+    },
+    "S8": {
+      "S8_D0_FX_C9": {
+        "title": "Earth Circumference Calculator",
+        "about": {
+          "heading": "Understanding the Math Behind Eratosthenes' Measurement of Earth's Circumference",
+          "body": "<style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p style='margin-bottom: 20px'>In this interactive, you will explore how Eratosthenes estimated the circumference of the Earth over 2,000 years ago using shadows, angles, and proportions.</p><p style='margin-bottom: 20px'>On June 21st (the summer solstice), at exactly 12:00 PM, the sun was directly overhead in Syene (modern-day Aswan, Egypt). At that moment, sunlight reached the bottom of a deep well, casting no shadow. Meanwhile, in Alexandria, a vertical stick did cast a shadow. Eratosthenes measured the angle between the stick and the sun’s rays in Alexandria was about 7.2 degrees.</p><p style='margin-bottom: 20px'>Because the sun’s rays are nearly parallel, the angle between the stick and the sun in Alexandria is the same as the central angle between Alexandria and Syene at the center of the Earth. The measured 7.2° angle is 1/50th of a full circle (since <div class='eq' style='text-align:center;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>7.2°</span></span><span class='den' style='color:#1E40AF'><span class='var'>360°</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>1</span></span><span class='den' style='color:#1E40AF'><span class='var'>50</span></span></span></div><span className='sr-only'>7.2 degrees divided by 360 degrees equals 1 divided 50.</span>).</p><p>He set up the following proportion:</p><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Angle at Alexandria</span></span><span class='den' style='color:#1E40AF'><span class='var'>360°</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Distance between Alexandria and Syene</span></span><span class='den' style='color:#1E40AF'><span class='var'>Earth's Circumference</span></span></span></div><span className='sr-only'>Angle at Alexandria divided by 360 degrees equals Distance between Alexandria and Syene divided by Earth's Circumference.</span><p>Where, <span style='font-family: besley; color: #991B1B; font-weight: bold; font-style: italic'>Angle at Alexandria</span> = measured shadow angle (about 7.2°), 360° = total degrees in a full circle and, <span style='font-family: besley; color: #991B1B; font-weight: bold; font-style: italic'>Distance between Alexandria and Syene</span> = 500 miles.</p>"
+        },
+        "help": {
+          "heading": "How to calculate the Earth’s circumference?",
+          "body": "<div style='font-size:16px;line-height:1.5'><style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p>Follow these steps:</p><ol style='list-style:decimal;padding-left:30px;margin:16px 0'><li style='margin:4px 0'>Set the screen distance slider.</li><li style='margin:4px 0'>Use this formula to calculate the Earth’s circumference:</li></ol><div class='eq' style='text-align:center;margin:20px 0;font-size:18px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>7.2°</span></span><span class='den' style='color:#1E40AF'><span class='var'>360°</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>500 miles</span></span><span class='den' style='color:#1E40AF'><span class='var'>Earth's Circumference</span></span></span></div><span className='sr-only'>7.2 degrees divided by 360 degrees equals 500 miles divided by Earth's Circumference.</span></div>"
+        },
+        "pm": "PM",
+        "am": "AM",
+        "june_21st": "June 21st",
+        "sun_rays": "sun rays",
+        "alexandria": "Alexandria",
+        "stick_shadow": "stick shadow",
+        "stick": "stick",
+        "syene": "Syene",
+        "well": "well",
+        "time_of_day": "Time of Day",
+        "time_slider": "Time slider control",
+        "sunrise": "Sunrise",
+        "noon": "Noon",
+        "sunset": "Sunset",
+        "image_description": "The image shows Alexandria (where Eratosthenes lived) and Syene (modern-day Aswan, Egypt), two cities positioned 500 miles apart. At exactly noon on the summer solstice, sunlight strikes Syene directly overhead, casting no shadows down a well. However, in Alexandria at the same moment, a stick casts a measurable shadow due to Earth's curvature.",
+        "eratosthenes_condition": "For Eratosthenes' method to work correctly, the time must be 12:00 PM on June 21st (summer solstice) when the sun is directly overhead at Syene.",
+        "circumference_calculation": "Circumference Calculation",
+        "angle_at_alexandria": "Angle at Alexandria",
+        "distance_between_cities": "Distance between Alexandria and Syene",
+        "earth_circumference": "Earth's Circumference",
+        "distance_miles": "500 miles",
+        "circumference_value": "25,000 miles",
+        "formula_1": "Angle at alexandria divided by 360 degrees equals Distance between Alexandria and Syene divided by Earth's Circumference.",
+        "formula_2": "7.2 degrees divided by 360 degrees equals 500 miles divided by Earth's Circumference. Earth's Circumference equals 25 thousand miles."
+      },
+      "S8_D1_FX_C1": "Adjust the time to 12:00 PM, the day of the summer solstice.",
+      "S8_D6_FX_C1": "At noon on June 21st, in Syene, the sun is directly overhead. It shines straight into a well, so there is no shadow at all.",
+      "S8_D7_FX_C2": "But in Alexandria, the stick does cast a shadow! So the sun isn’t directly above here?",
+      "S8_D7_FX_C1": "Yes. That small shadow tells us the sun is hitting Earth at a slightly different angle, because Earth is curved.",
+      "S8_D8_FX_C1": "Eratosthenes measured the angle of the shadow, it was about 7.2°.",
+      "S8_D8_F1_C1": "Since 360 degrees is a full circle, how much is 7.2 degrees?",
+      "S8_D8_F2_C1": "Correct! 7.2 degrees is exactly 1/50th of the full circle.",
+      "S8_D8_F3_C2": "So the distance between the cities is like a slice of a pie... 1 out of 50 slices?",
+      "S8_D9_FX_C1": "Exactly. If you know the arc length of 1 slice, you can find the full circle.",
+      "S8_D10_FX_C1": "Eratosthenes knew that the distance between Syene and Alexandria was about 500 miles. So, he wrote this proportion:<no-glossary><div style=\"font-size: 18px; text-align: center; margin: 20px 0;\" aria-hidden='true'><div style=\"display: inline-flex; align-items: center;\"><div style=\"display: flex; flex-direction: column; align-items: center; margin-right: 20px;\"><div style=\"border-bottom: 1px solid #333; padding-bottom: 5px;\">7.2°</div><div style=\"padding-top: 5px;\">360°</div></div><div style=\"margin: 0 15px;\">=</div><div style=\"display: flex; flex-direction: column; align-items: center;\"><div style=\"border-bottom: 1px solid #333; padding-bottom: 5px;\">500 miles</div><div style=\"padding-top: 5px;\">Earth's Circumference</div></div></div></div></no-glossary><span className='sr-only'>7.2 degrees divided by 360 degrees equals 500 miles divided by Earth's Circumference.</span>",
+      "S8_D12_FX_C1": "What is the estimated circumference of Earth (in miles)?",
+      "S8_D13_FX_C1": "Correct! And this result was very close to what we know today.",
+      "S8_D14_FX_C2": "It's incredible... using shadows and clever thinking to measure the whole world!",
+      "options": {
+        "index_1": "1/5th of full circle",
+        "index_2": "1/50th of full circle",
+        "index_3": "1/500th of full circle"
+      }
+    },
+    "S9": {
+      "S9_D1_FX_C1": "Centuries after Eratosthenes, another great mind turned to the mysteries of light and vision.",
+      "S9_D2_FX_C2": "Light and vision? Who was it?",
+      "S9_D3_FX_C1": "In Baghdad, around the year 1000, a scientist named Ibn al-Haytham began studying how we see the world.",
+      "S9_D4_FX_C2": "He explored vision using geometry too?",
+      "S9_D5_FX_C1": "Yes. He used the setup known as camera obscura and the idea of similar triangles to understand how light forms images, leading to discoveries that changed both science and art forever."
+    },
+    "S10": {
+      "S10_D0_FX_C9": {
+        "title": "Camera Obscura Simulator",
+        "about": {
+          "heading": "Understanding the Math Behind the Camera Obscura",
+          "body": "<style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p style='margin-bottom: 15px;'>In this interactive, you will explore how a camera obscura works, an ancient device that shows how light creates an inverted image through a small opening.</p><p style='margin-bottom: 15px;'>When light rays from an object (like the Florence Cathedral) pass through a tiny pinhole into a dark room, they form an upside-down image on a screen. The light travels in straight lines and forms similar triangles between the object, the pinhole, and the projected image.</p><p style='margin-bottom: 15px;'>The relationship between the object, the pinhole, and the image can be described with this proportion:</p><div class='eq' style='text-align:center;font-size:18px;margin-bottom:15px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Image Height</span></span><span class='den' style='color:#1E40AF'><span class='var'>Object Height</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Screen Distance</span></span><span class='den' style='color:#1E40AF'><span class='var'>Object Distance</span></span></span></div><span className='sr-only'>Image Height divided by Object Height equals Screen Distance divided by Object Distance.</span><p style='margin-bottom: 15px;'>Where, <span style='font-family: besley; color: #991B1B; font-weight: bold; font-style: italic'>Image Height</span> = height of the inverted image on the screen, <span style='font-family: besley; color: #1E40AF; font-weight: bold; font-style: italic'>Object Height</span> = height of the original object (like the cathedral), <span style='font-family: besley; color: #991B1B; font-weight: bold; font-style: italic'>Screen Distance</span> = distance from the pinhole to the screen and <span style='font-family: besley; color: #1E40AF; font-weight: bold; font-style: italic'>Object Distance</span> = distance from the pinhole to the object.</p><p style='margin-bottom: 15px; font-weight: bold;'>How does it work?</p><ul style='list-style-type: disc; margin-left: 30px; margin-bottom: 15px;'><li>Light forms similar triangles between the object and the screen</li><li>As the screen distance increases, the image height increases, keeping the same proportions</li><li>The inverted image is a natural result of the way light rays cross after passing through the pinhole</li></ul><p style='margin-bottom: 15px;'>By understanding these proportions, you can predict how large or small the projected image will be based on where you place the screen!</p>"
+        },
+        "help": {
+          "heading": "How to calculate image height?",
+          "body": "<style>.eq,.var{font-family:Besley;font-weight:bold}.var{font-style:italic}.frac{display:inline-block;vertical-align:middle;text-align:center;margin:0 2px}.frac .num{border-bottom:1px solid;display:block}.frac .den{display:block}</style><p style='margin-bottom: 15px;'>Hint follow these steps:</p><ul style='list-style-type: pointer; margin-left: 30px; margin-bottom: 15px;'><li>Adjust the screen distance slider.</li><li>Observe the similar triangles.</li><li>Use this formula to calculate image height:</li></ul><div class='eq' style='text-align:center;font-size:18px;margin-bottom:15px' aria-hidden='true'><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Image Height</span></span><span class='den' style='color:#1E40AF'><span class='var'>Object Height</span></span></span><span style='color:black;padding:0 8px'>=</span><span class='frac'><span class='num' style='color:#000000'><span class='var' style='color:#991B1B'>Screen Distance</span></span><span class='den' style='color:#1E40AF'><span class='var'>Object Distance</span></span></span></div><span className='sr-only'>Image height divided by Object height equals Screen Distance divided by Object Distance.</span>"
+        },
+        "pinhole_camera_canvas": "The image shows light rays from the Florence Cathedral passing through a small pinhole in a wall, creating an inverted image on a screen inside a darkened room.",
+        "ft": "ft",
+        "object_distance_slider": "Adjust object distance slider",
+        "screen_distance": "Screen Distance",
+        "screen_distance_slider": "Adjust screen distance slider",
+        "image_height_calculation": "Image Height Calculation",
+        "image_height": "Image Height",
+        "object_height": "Object Height",
+        "object_distance": "Object Distance",
+        "image": "Image",
+        "florence_cathedral": "Florence Cathedral",
+        "formula_1": "Image Height divided by Object Height equals Screen Distance divide by Object Distance",
+        "formula_2": "Image Height divided by 394 feet equals ",
+        "formula_3": "Image height equals ",
+        "feet": "feet",
+        "divided_by": "divided by"
+      },
+      "S10_D2_FX_C1": "Imagine light from the Florence Cathedral passing through a tiny hole and forming an image on the wall inside a dark room. This setup is known as camera obscura.",
+      "S10_D3_FX_C2": "The image appears upside down?",
+      "S10_D4_FX_C1": "Yes. Light travels in straight lines. When it passes through a small opening, it crosses over and projects the image upside down.",
+      "S10_D5_FX_C1": "The object, the pinhole, and the image form two similar triangles.",
+      "S10_D6_FX_C2": "Similar triangles again? So the proportions match?",
+      "S10_D7_FX_C1": "Exactly. The ratio of the image height to the object height is the same as the ratio of the screen distance to the object distance.<div style=\"font-size: 18px; text-align: center; margin: 20px 0;\" aria-hidden='true'><div style=\"display: inline-flex; align-items: center;\"><div style=\"display: flex; flex-direction: column; align-items: center; margin-right: 20px;\"><div style=\"border-bottom: 1px solid #333; padding-bottom: 5px;\">Image Height</div><div style=\"padding-top: 5px;\">Object Height</div></div><div style=\"margin: 0 15px;\">=</div><div style=\"display: flex; flex-direction: column; align-items: center;\"><div style=\"border-bottom: 1px solid #333; padding-bottom: 5px;\">Screen Distance</div><div style=\"padding-top: 5px;\">Object Distance</div></div></div></div><span className='sr-only'>Image height divided by Object height equals Screen Distance divided by Object Distance.</span>",
+      "S10_D8_FX_C1": "If the object height is 394 ft, the object distance is 15 ft, and the screen distance is 5 ft, what is the image height?",
+      "S10_D10_FX_C1": "Correct! Now, increase the screen distance. Move the screen farther away from the pinhole.",
+      "S10_D11_FX_C2": "The image becomes larger!",
+      "S10_D12_FX_C1": "Exactly. As the screen moves farther away, the image grows taller. The triangles stay similar, but their size increases with distance.",
+      "S10_D13_FX_C1": "Now, if the object distance is 10 ft, and the screen distance is also 10 ft, what will the new image height be?",
+      "S10_D14_FX_C1": "Correct! The image height matches the object height when the distances are equal.",
+      "S10_D15_FX_C2": "So by using just light and geometry, we can predict how large an image will be!",
+      "S10_D16_FX_C1": "Yes. This understanding changed how we studied vision and light and even how artists designed their paintings."
+    },
+    "S11": {
+      "S11_D1_FX_C1": "You have walked in the footsteps of giants: Thales, Pythagoras, Eratosthenes, Ibn al-Haytham. They measured shadows, calculated the Earth, and captured light, all using triangles. Geometry does not just describe the world, it reveals it. Proportion is the thread that weaves nature, art, and truth together.",
+      "S11_D2_FX_C2": "I thought it was just lines and shapes, but it is the invisible made visible in the fall of light, the sweep of shadows, and even in how vision works",
+      "S11_D3_FX_C1": "Good. Take it and use it. Let geometry guide your brush, your inventions, and your questions. Let it shape the way you see.",
+      "S11_D4_FX_C2": "It already has. My journey has begun, and I will never look at the world the same way again."
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You Explored How Similar Triangles Shaped Art, Science, and Discovery",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin: 0'>You've completed the Road to Renaissance: Leonardo's Journey STEAMQuest!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px'><li>You discovered how Thales measured the height of a pyramid using shadows and similar triangles</li><li>You learned how to prove the Pythagorean Theorem using similar triangles</li><li>You explored how Eratosthenes estimated Earth's circumference through geometry and observation</li><li>You learned how Ibn al-Haytham explained vision and light behavior with similar triangles and the camera obscura</li></ul><p>Your understanding of similar triangles will help you see the hidden geometry in the world around you, just like Leonardo da Vinci did!</p>",
+      "leftsvgarialabel": "Geometric diamond shape icon representing mathematics and measurement.",
+      "leftsvg": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_23851_4307\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"-1\" width=\"80\" height=\"81\">\n<path d=\"M70 0.491211H10C4.75329 0.491211 0.5 4.7445 0.5 9.99121V69.9912C0.5 75.2379 4.75329 79.4912 10 79.4912H70C75.2467 79.4912 79.5 75.2379 79.5 69.9912V9.99121C79.5 4.7445 75.2467 0.491211 70 0.491211Z\" fill=\"#5454D8\" stroke=\"#005F20\"/>\n</mask>\n<g mask=\"url(#mask0_23851_4307)\">\n<path d=\"M70.2104 10.1028L42.3396 0.311833C41.1396 -0.115663 39.8657 -0.115663 38.6619 0.311833L10.7911 10.1028C8.52025 10.9016 7.0026 13.0728 7.0026 15.514V32.3329C6.78844 53.4037 19.7969 76.0457 40.5017 79.9912C49.9836 78.3112 57.8673 72.4051 64.0596 64.0883C70.4735 55.2685 74 43.9919 74 32.3337V15.5148C74 13.0773 72.4824 10.9062 70.2115 10.1036L70.2104 10.1028Z\" fill=\"black\"/>\n<path d=\"M42.1793 0.769418L42.1813 0.770085L69.9853 10.0492L70.0524 10.072C72.1286 10.7691 73.5 12.6472 73.5 14.7386V30.7166C73.5 41.687 70.0068 52.2906 63.6644 60.5772C57.5464 68.3824 49.7941 73.8941 40.5048 75.4835C20.1568 71.7468 7.29051 50.5419 7.50258 30.7212L7.5026 30.7158V14.7379C7.5026 12.6426 8.8742 10.765 10.9494 10.0715C10.9493 10.0715 10.9495 10.0715 10.9494 10.0715L38.8202 0.770088L38.8217 0.769567C39.922 0.398369 41.0834 0.398531 42.1793 0.769418Z\" fill=\"#FFCC00\"/>\n<path d=\"M10.9494 10.0715C8.8742 10.765 7.5026 12.6426 7.5026 14.7379V30.7158L7.50258 30.7212C7.29051 50.5419 20.1568 71.7468 40.5048 75.4835C49.7941 73.8941 57.5464 68.3824 63.6644 60.5772C70.0068 52.2906 73.5 41.687 73.5 30.7166V14.7386C73.5 12.6472 72.1286 10.7691 70.0524 10.072L69.9853 10.0492L42.1813 0.770085L42.1793 0.769418C41.0834 0.398531 39.922 0.398369 38.8217 0.769567L38.8202 0.770088L10.9494 10.0715ZM10.9494 10.0715C10.9493 10.0715 10.9495 10.0715 10.9494 10.0715Z\" stroke=\"black\"/>\n</g>\n<mask id=\"mask1_23851_4307\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"17\" y=\"16\" width=\"47\" height=\"38\">\n<path d=\"M18.3955 16.8008H63.2308V52.9913H18.3955V16.8008Z\" fill=\"white\" stroke=\"white\"/>\n</mask>\n<g mask=\"url(#mask1_23851_4307)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M32.2827 29.9391H37.2443V52.9437H44.381V29.9391H49.3442L41.5259 17.2451C41.3683 16.9895 41.1126 16.8477 40.8114 16.8477C40.5136 16.8477 40.2561 16.9913 40.1004 17.2451L32.2827 29.9391ZM28.2248 36.4302L25.0934 41.5021H35.6699V31.5159H31.2617L28.2248 36.4302ZM18.8728 52.9437H35.6705V43.0762H24.1216L18.4683 52.2235C18.3772 52.3723 18.3737 52.5475 18.4594 52.7016C18.5436 52.8557 18.6958 52.9433 18.8727 52.9433L18.8728 52.9437ZM45.9599 52.9437H62.7576C62.9344 52.9437 63.0869 52.8545 63.1708 52.702C63.2566 52.5479 63.2531 52.3727 63.1604 52.2239L57.5193 43.0766H45.9603L45.9599 52.9437ZM45.9599 41.5016H56.5364L53.405 36.4297L50.3681 31.5154H45.9599V41.5016Z\" fill=\"black\" stroke=\"black\"/>\n</g>\n<mask id=\"mask2_23851_4307\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"17\" y=\"14\" width=\"47\" height=\"38\">\n<path d=\"M18.3955 14.9912H63.2308V51.1817H18.3955V14.9912Z\" fill=\"white\" stroke=\"white\"/>\n</mask>\n<g mask=\"url(#mask2_23851_4307)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M32.2827 28.1295H37.2443V51.1342H44.381V28.1295H49.3442L41.5259 15.4355C41.3683 15.1799 41.1126 15.0381 40.8114 15.0381C40.5136 15.0381 40.2561 15.1818 40.1004 15.4355L32.2827 28.1295ZM28.2248 34.6206L25.0934 39.6925H35.6699V29.7063H31.2617L28.2248 34.6206ZM18.8728 51.1342H35.6705V41.2666H24.1216L18.4683 50.4139C18.3772 50.5627 18.3737 50.7379 18.4594 50.892C18.5436 51.0461 18.6958 51.1337 18.8727 51.1337L18.8728 51.1342ZM45.9599 51.1342H62.7576C62.9344 51.1342 63.0869 51.0449 63.1708 50.8925C63.2566 50.7383 63.2531 50.5631 63.1604 50.4144L57.5193 41.2671H45.9603L45.9599 51.1342ZM45.9599 39.6921H56.5364L53.405 34.6202L50.3681 29.7059H45.9599V39.6921Z\" fill=\"white\" stroke=\"black\"/>\n</g>\n</svg>",
+      "rightsvg": "<svg width=\"125\" height=\"101\" viewBox=\"0 0 125 101\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g opacity=\"0.2\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M39.1438 36.3249H52.9075L52.9075 100.141H72.7048L72.7048 36.3249H86.4729L64.7846 1.11134C64.3474 0.402232 63.6383 0.00878906 62.8025 0.00878906C61.9764 0.00878906 61.2622 0.407383 60.8302 1.11134L39.1438 36.3249ZM27.8869 54.3316L19.2002 68.4012H48.5399L48.5399 40.6991H36.3114L27.8869 54.3316ZM1.94415 100.141H48.5417V72.7678H16.5045L0.821879 98.1428C0.569216 98.5555 0.559569 99.0415 0.797447 99.469C1.03082 99.8966 1.4532 100.14 1.94372 100.14L1.94415 100.141ZM77.0848 100.141H123.682C124.173 100.141 124.596 99.8932 124.829 99.4702C125.066 99.0427 125.057 98.5567 124.8 98.1439L109.151 72.769H77.0859L77.0848 100.141ZM77.0848 68.3999H106.424L97.7377 54.3302L89.3132 40.6978H77.0848V68.3999Z\" fill=\"white\"/></g></svg>"
+    },
+    "glossary": {
+      "camera_obscura": {
+        "word": "Camera obscura",
+        "definition": "<strong class=\"text-[#0055B2]\">Camera obscura</strong> is a dark room or box with a small hole on one side. Light passes through the hole and projects an inverted image of the outside scene onto the screen or opposite wall. This ancient optical device helped scientists understand how light travels and was a key step in the invention of modern cameras. <div style='display: flex; justify-content: center; margin: 20px 0;'><img src='./assets/image/camera_obscura_en.webp' alt='Camera Obscura' style='width: 100%; max-width: 480px; height: auto; max-height: 240px; object-fit: contain; border-radius: 8px;'/></div>"
+      },
+      "summer_solstice": {
+        "word": "Summer solstice",
+        "definition": "<strong class=\"text-[#0055B2]\">Summer solstice</strong> is the longest day of the year, when the sun is highest in the sky. It happens around June 21st in the Northern Hemisphere."
+      },
+      "similar_triangles": {
+        "word": "Similar triangles",
+        "definition": "<strong class=\"text-[#0055B2]\">Similar triangles</strong> are triangles that have the same angles and equal side ratios."
+      },
+      "proportions": {
+        "word": "Proportions",
+        "definition": "<strong class=\"text-[#0055B2]\">Proportion</strong> is a relationship where two ratios are equal."
+      },
+      "right_triangle": {
+        "word": "Right triangle",
+        "definition": "<strong class=\"text-[#0055B2]\">Right triangle</strong> is a triangle that has one 90-degree angle."
+      },
+      "right_triangles": {
+        "word": "Right triangles",
+        "definition": "<strong class=\"text-[#0055B2]\">Right triangles</strong> are triangles that have one 90-degree angle."
+      },
+      "altitude": {
+        "word": "Altitude",
+        "definition": "<strong class=\"text-[#0055B2]\">Altitude</strong> of a triangle is a line segment that is drawn from the vertex of a triangle to the side opposite to it. It is perpendicular to the base or the opposite side which it touches."
+      },
+      "hypotenuse": {
+        "word": "Hypotenuse",
+        "definition": "<strong class=\"text-[#0055B2]\">Hypotenuse</strong> is the longest side of a right triangle, always opposite the right angle."
+      },
+      "circumference": {
+        "word": "Circumference",
+        "definition": "<strong class=\"text-[#0055B2]\">Circumference</strong> is the total distance around a circle."
+      },
+      "pythagorean_theorem": {
+        "word": "Pythagorean Theorem",
+        "definition": "<strong className=\"text-[#0055B2]\">Pythagorean Theorem</strong> is a rule in math says that in a right triangle, the square of the longest side (called the hypotenuse) is equal to the sum of the squares of the other two sides."
+      }
+    },
+    "common": {
+      "toscanelli": "Toscanelli",
+      "leonardo": "Leonardo",
+      "toscanelli_description": "Older scholar with white turban and dark robes holding manuscript papers.",
+      "leonardo_description": "Young Renaissance man with curly hair, black beret, and gold chain holding a scroll.",
+      "bg1_description": "Panoramic view of Renaissance Florence at sunset, showcasing the iconic Duomo cathedral with its terracotta dome, bell tower, and surrounding historic buildings under a golden sky with wisps of clouds.",
+      "bg2_description": "Interior of a Renaissance scholar's study with arched windows offering a breathtaking view of Florence and its Duomo cathedral in the distance, featuring wooden desks with maps and instruments bathed in warm sunset light.",
+      "bg3_description": "Piazza del Duomo in Florence during the early Renaissance, with the magnificent Florence Cathedral and its dome illuminated by golden sunset light, surrounded by period architecture and people in historical attire.",
+      "bg4_description": "Vaulted workshop of a Renaissance inventor or architect with tall arched windows allowing sunlight to stream across drafting tables covered in technical drawings, geometric tools, and scientific instruments, with a view of the Tuscan countryside.",
+      "bg5_description": "Grand domed library or observatory in Renaissance Florence with classical columns, filled with scholars in period robes studying among astronomical instruments, geometric diagrams, and shelves of books bathed in golden light.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer"
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume slider",
+      "character-voice-volume-slider": "Character voice volume slider",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "game": {
+    "similar-triangles": "STEAM Quest - Similar Triangles"
+  },
+  "popover": {
+    "close": "Close popover"
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "skytrack-internship": {
+    "C1": {
+      "en": {
+        "id": "060330e1-39c2-4894-9efa-9db7676d3a39",
+        "name": "Dean Voice ('Jason Parker' from voice.ai)"
+      },
+      "es": {
+        "id": "fernando",
+        "name": "Dean Voice ('Fernando' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "49fcfc8b-6b10-467f-88f3-a22d85c8d644",
+        "name": "Leo Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Leo Voice ('Armando' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "c7208fed-55b9-4e5d-b785-f93b2cd7433f",
+        "name": "Narrator Voice ('Kayla Scott' from voice.ai)"
+      },
+      "es": {
+        "id": "ximena",
+        "name": "Narrator Voice ('Ximena' from Narakeet)"
+      }
+    }
+  },
+  "critical-point": {
+    "C1": {
+      "en": {
+        "id": "01e6a4d5-646e-488d-99ef-d09c84a1fef8",
+        "name": "Kaipo Voice ('Kaipo' from voice.ai)"
+      },
+      "es": {
+        "id": "blanca",
+        "name": "Kaipo Voice ('Blanca' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "37a63cd3-f1d2-47ed-a66d-5111f693c921",
+        "name": "Dr. Martinez Voice ('Dr. Martinez' from voice.ai)"
+      },
+      "es": {
+        "id": "enrique",
+        "name": "Dr. Martinez Voice ('Enrique' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "01e6a4d5-646e-488d-99ef-d09c84a1fef8",
+        "name": "Narrator Voice ('Kaipo' from voice.ai)"
+      },
+      "es": {
+        "id": "blanca",
+        "name": "Narrator Voice ('Blanca' from Narakeet)"
+      }
+    }
+  },
+  "baseball-game-plan": {
+    "C1": {
+      "en": {
+        "id": "f16a5596-c155-4826-bf07-2df6040d9c16",
+        "name": "Coach Martinez Voice ('Brian Crawford' from voice.ai)"
+      },
+      "es": {
+        "id": "luis",
+        "name": "Coach Martinez Voice ('Luis' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "224abb27-d4c1-4da2-bbd9-4a8bcd1b12e3",
+        "name": "Jamie Voice ('Leo_NEW' from voice.ai)"
+      },
+      "es": {
+        "id": "jorge",
+        "name": "Jamie Voice ('Jorge' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "f16a5596-c155-4826-bf07-2df6040d9c16",
+        "name": "Narrator Voice ('Brian Crawford' from voice.ai)"
+      },
+      "es": {
+        "id": "luis",
+        "name": "Narrator Voice ('Luis' from Narakeet)"
+      }
+    }
+  },
+  "kelp-forest-defenders": {
+    "C1": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Antonio Voice ('Marcus New' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Antonio Voice ('Diego' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "03b0c807-1be7-4057-b3f1-f2e965510f99",
+        "name": "Dr. Lauren Voice ('Connie Williams' from voice.ai)"
+      },
+      "es": {
+        "id": "juana",
+        "name": "Dr. Lauren Voice ('Juana' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Narrator Voice ('Marcus New' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Narrator Voice ('Diego' from Narakeet)"
+      }
+    }
+  },
+  "lunar-probe-precision": {
+    "C1": {
+      "en": {
+        "id": "224abb27-d4c1-4da2-bbd9-4a8bcd1b12e3",
+        "name": "Ethan Kim Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Ethan Kim Voice ('Armando' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Captain Emma Torres Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "juana",
+        "name": "Captain Emma Torres Voice ('Juana' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "224abb27-d4c1-4da2-bbd9-4a8bcd1b12e3",
+        "name": "Narrator Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Narrator Voice ('Armando' from Narakeet)"
+      }
+    }
+  },
+  "get-in-the-zone": {
+    "C1": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Dr. Rivera Voice ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Dr. Rivera Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "8ca774eb-5f0b-4a34-972f-4c8ad6ea4b72",
+        "name": "Nina Voice ('Nina' from voice.ai)"
+      },
+      "es": {
+        "id": "lupita",
+        "name": "Nina Voice ('Lupita' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "7f93ac9e-be16-40d7-b792-eb1fb0c44ed8",
+        "name": "Narrator Voice ('Carly Blake' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Narrator Voice ('Lola' from Narakeet)"
+      }
+    }
+  },
+  "atacama": {
+    "C1": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Dr. Vega Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "juana",
+        "name": "Dr. Vega Voice ('Juana' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "41dd6b2d-e2a5-496b-9985-9d189ea7fd3c",
+        "name": "Alex Voice ('Alfie Evans' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Alex Voice ('Armando' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "f16a5596-c155-4826-bf07-2df6040d9c16",
+        "name": "Arturo Voice ('Brian Crawford' from voice.ai)"
+      },
+      "es": {
+        "id": "luis",
+        "name": "Arturo Voice ('Luis' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Narrator Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "juana",
+        "name": "Narrator Voice ('Juana' from Narakeet)"
+      }
+    }
+  },
+  "wind-wise": {
+    "C1": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Carmen Yazzie Voice ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Carmen Yazzie Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Marcus Walker Voice ('Marcus New' from voice.ai)"
+      },
+      "es": {
+        "id": "alfonso",
+        "name": "Marcus Walker Voice ('Alfonso' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Narrator Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Narrator Voice ('Cecilia' from Narakeet)"
+      }
+    }
+  },
+  "game-geometry": {
+    "C1": {
+      "en": {
+        "id": "03b0c807-1be7-4057-b3f1-f2e965510f99",
+        "name": "Jordan Reyes Voice ('Connie Williams' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Jordan Reyes Voice ('Ariana' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "c2dabba6-438c-4f17-bd87-109d1d1c34a5",
+        "name": "Maya Johnson Voice ('Maya' from voice.ai)"
+      },
+      "es": {
+        "id": "lupita",
+        "name": "Maya Johnson Voice ('Lupita' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "03b0c807-1be7-4057-b3f1-f2e965510f99",
+        "name": "Narrator Voice ('Connie Williams' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Narrator Voice ('Ariana' from Narakeet)"
+      }
+    }
+  },
+  "engineering-the-perfect-beat": {
+    "C1": {
+      "en": {
+        "id": "03b0c807-1be7-4057-b3f1-f2e965510f99",
+        "name": "Jazz Brooks Voice ('Connie Williams' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Jazz Brooks Voice ('Ariana' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "49fcfc8b-6b10-467f-88f3-a22d85c8d644",
+        "name": "Max Zhao voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Max Zhao  Voice ('Diego' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Narrator Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Narrator Voice ('Cecilia' from Narakeet)"
+      }
+    }
+  },
+  "ancient-alexandria": {
+    "C1": {
+      "en": {
+        "id": "c7208fed-55b9-4e5d-b785-f93b2cd7433f",
+        "name": "Akila Voice ('Kayla Scott' from voice.ai)"
+      },
+      "es": {
+        "id": "ximena",
+        "name": "Akila Voice ('Ximena' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Hypatia Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Hypatia Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "e4685cf8-8556-4997-8e76-4d83ffc94022",
+        "name": "Theon Voice ('Randolph Watson' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Theon Voice ('Hector' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "c7208fed-55b9-4e5d-b785-f93b2cd7433f",
+        "name": "Narrator Voice ('Kayla Scott' from voice.ai)"
+      },
+      "es": {
+        "id": "ximena",
+        "name": "Narrator Voice ('Ximena' from Narakeet)"
+      }
+    }
+  },
+  "euclid-path": {
+    "C1": {
+      "en": {
+        "id": "c7208fed-55b9-4e5d-b785-f93b2cd7433f",
+        "name": "Akila Voice ('Kayla Scott' from voice.ai)"
+      },
+      "es": {
+        "id": "ximena",
+        "name": "Akila Voice ('Ximena' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Hypatia Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Hypatia Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "e4685cf8-8556-4997-8e76-4d83ffc94022",
+        "name": "Theon Voice ('Randolph Watson' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Theon Voice ('Hector' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "c7208fed-55b9-4e5d-b785-f93b2cd7433f",
+        "name": "Narrator Voice ('Kayla Scott' from voice.ai)"
+      },
+      "es": {
+        "id": "ximena",
+        "name": "Narrator Voice ('Ximena' from Narakeet)"
+      }
+    }
+  },
+  "circles-engineering-the-depth": {
+    "C1": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Astrid Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Astrid Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "9170367e-e354-4e2e-9d23-f221b99e452b",
+        "name": "Larsen Voice ('Zachary Clemens' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Larsen Voice ('Diego' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "e4685cf8-8556-4997-8e76-4d83ffc94022",
+        "name": "Hansen Voice ('Randolph Watson' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Hansen Voice ('Hector' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "e4685cf8-8556-4997-8e76-4d83ffc94022",
+        "name": "Narrator Voice ('Randolph Watson' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Narrator Voice ('Hector' from Narakeet)"
+      }
+    }
+  },
+  "inbox-under-siege": {
+    "C1": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Alicia Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Alicia Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Ethan Voice ('Marcus New' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Ethan Voice ('Armando' from Narakeet)"
+      }
+    }
+  },
+  "data-analysis": {
+    "C1": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Dr. Eleanor Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Dr. Eleanor Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "33c14413-2ebf-4e06-a71d-18a03edd2b00",
+        "name": "Mateo Voice ('SkyTrack's Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "fernando",
+        "name": "Mateo Voice ('Fernando' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Narrator Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Narrator Voice ('Lola' from Narakeet)"
+      }
+    }
+  },
+  "journey-through-waves": {
+    "C1": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "James Voice ('Marcus NEW' from voice.ai)"
+      },
+      "es": {
+        "id": "alfonso",
+        "name": "James Voice ('Alfonso' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "3109e08d-eeba-4e48-b82f-da13a927cc6b",
+        "name": "Sophie Voice ('Kiara Walker' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Sophie Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Narrator Voice ('Marcus NEW' from voice.ai)"
+      },
+      "es": {
+        "id": "alfonso",
+        "name": "Narrator Voice ('Alfonso' from Narakeet)"
+      }
+    }
+  },
+  "optical-illusions": {
+    "C1": {
+      "en": {
+        "id": "37a63cd3-f1d2-47ed-a66d-5111f693c921",
+        "name": "Dr. Elijah Owens: ('Dr. Martinez' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Dr. Elijah Owens: ('Hector' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "5d417c95-7960-47cf-9087-675911626689",
+        "name": "Madeline Hayes: ('Charlotte Dobbins' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Madeline Hayes: ('Cecilia' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "37a63cd3-f1d2-47ed-a66d-5111f693c921",
+        "name": "Narrator Voice ('Martinez' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Narrator Voice ('Hector' from Narakeet)"
+      }
+    }
+  },
+  "falling-into-orbit": {
+    "C1": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Dr. Vega ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Dr. Vega Holt Voice ('Ariana' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "01e6a4d5-646e-488d-99ef-d09c84a1fef8",
+        "name": "Leila Khan Voice ('Kaipo' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Leila Khan Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "224abb27-d4c1-4da2-bbd9-4a8bcd1b12e3",
+        "name": "Ayaan Khan Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Ayaan Khan Voice ('Armando' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Narrator Voice ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Narrator Voice ('Ariana' from Narakeet)"
+      }
+    }
+  },
+  "shaping-sound": {
+    "C1": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Dr. Ava Whitaker Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Dr. Ava Whitaker Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "7f93ac9e-be16-40d7-b792-eb1fb0c44ed8",
+        "name": "Micah Daniels Voice ('Carly Blake' from voice.ai)"
+      },
+      "es": {
+        "id": "lupita",
+        "name": "Micah Daniels Voice ('Lupita' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Narrator Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Narrator Voice ('Lola' from Narakeet)"
+      }
+    }
+  },
+  "lost-hiker": {
+    "C1": {
+      "en": {
+        "id": "03b0c807-1be7-4057-b3f1-f2e965510f99",
+        "name": "Claire Voice ('Connie Williams' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Claire Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "49fcfc8b-6b10-467f-88f3-a22d85c8d644",
+        "name": "Leo Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Leo Voice ('Armando' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "03b0c807-1be7-4057-b3f1-f2e965510f99",
+        "name": "Narrator Voice ('Connie Williams' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Narrator Voice ('Lola' from Narakeet)"
+      }
+    }
+  },
+  "musical-scale": {
+    "C1": {
+      "en": {
+        "id": "7f93ac9e-be16-40d7-b792-eb1fb0c44ed8",
+        "name": "Emery Voice ('Carly Blake' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Emery Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Noelle Voice ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Noelle Voice ('Ariana' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Narrator Voice ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "ariana",
+        "name": "Narrator Voice ('Ariana' from Narakeet)"
+      }
+    }
+  },
+  "forest-architect": {
+    "C1": {
+      "en": {
+        "id": "7f93ac9e-be16-40d7-b792-eb1fb0c44ed8",
+        "name": "Dr. Ashford Voice ('Carly Blake' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Dr. Ashford Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "b3b753d0-a7af-430d-9d7a-be793c95ee56",
+        "name": "Julian Voice ('Mason Davis' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Julian Voice ('Hector' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Daniela Voice ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Daniela Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "7f93ac9e-be16-40d7-b792-eb1fb0c44ed8",
+        "name": "Narrator Voice ('Carly Blake' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Narrator Voice ('Cecilia' from Narakeet)"
+      }
+    }
+  },
+  "coordinate-geometry": {
+    "C1": {
+      "en": {
+        "id": "08e57934-988d-4e21-b6d2-3e1daf049c72",
+        "name": "Dr. Cruz ('Walter Everly' from voice.ai)"
+      },
+      "es": {
+        "id": "gael",
+        "name": "Dr. Cruz Voice ('Gael' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "d0bfacc2-35df-456f-8e97-a81e05f065e8",
+        "name": "Riley Voice ('Vanessa Cooper' from voice.ai)"
+      },
+      "es": {
+        "id": "carmen",
+        "name": "Riley Voice  ('carmen' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "08e57934-988d-4e21-b6d2-3e1daf049c72",
+        "name": "Dr. Cruz ('Walter Everly' from voice.ai)"
+      },
+      "es": {
+        "id": "gael",
+        "name": "Dr. Cruz Voice ('Gael' from Narakeet)"
+      }
+    }
+  },
+  "similar-triangles": {
+    "C1": {
+      "en": {
+        "id": "f0dd9379-8db8-48c9-b310-72cd01439325",
+        "name": "Toscanelli ('Toscanelli' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Toscanelli Voice ('Hector' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "125dc0b1-51d2-43fb-9f36-202c6b831acf",
+        "name": "Leonardo Voice ('Leonardo Da Vinci' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Leonardo Voice  ('diego' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "f0dd9379-8db8-48c9-b310-72cd01439325",
+        "name": "Narrator ('Toscanelli' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Narrator Voice ('Hector' from Narakeet)"
+      }
+    }
+  },
+  "exponential-model": {
+    "C1": {
+      "en": {
+        "id": "c2dabba6-438c-4f17-bd87-109d1d1c34a5",
+        "name": "Samantha Ward ('Maya' from voice.ai)"
+      },
+      "es": {
+        "id": "lupita",
+        "name": "Samantha Ward ('lupita' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "e200da92-e2d9-437f-97df-c33ad6971cef",
+        "name": "Ben Ward ('Kid_boy' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Ben Ward ('armando' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "08e57934-988d-4e21-b6d2-3e1daf049c72",
+        "name": "Mr. Darius Donovan ('Walter Everly' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Mr. Darius Donovan ('hector' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "c2dabba6-438c-4f17-bd87-109d1d1c34a5",
+        "name": "Samantha Ward ('Maya' from voice.ai)"
+      },
+      "es": {
+        "id": "lupita",
+        "name": "Samantha Ward ('lupita' from Narakeet)"
+      }
+    }
+  },
+  "calculated-rescue": {
+    "C1": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Thomas ('Marcus NEW' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Thomas Voice ('Diego' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "e4685cf8-8556-4997-8e76-4d83ffc94022",
+        "name": "Quinn Voice ('Randolph Watson' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Quinn Voice  ('Hector' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "7f93ac9e-be16-40d7-b792-eb1fb0c44ed8",
+        "name": "Sarah Voice ('Carly' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Sarah Voice ('Cecilia' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "f16a5596-c155-4826-bf07-2df6040d9c16",
+        "name": "Narrator ('Brian Crawford' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Narrator Voice ('Hector' from Narakeet)"
+      }
+    }
+  },
+  "pythagoras-quest": {
+    "C1": {
+      "en": {
+        "id": "01e6a4d5-646e-488d-99ef-d09c84a1fef8",
+        "name": "Myia Voice ('Kaipo' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Myia Voice  ('Cecilia' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "08e57934-988d-4e21-b6d2-3e1daf049c72",
+        "name": "Narrator ('Walter Everly' from voice.ai)"
+      },
+      "es": {
+        "id": "gael",
+        "name": "Narrator Voice ('Gael' from Narakeet)"
+      }
+    }
+  },
+  "al-khwarizmi": {
+    "C1": {
+      "en": {
+        "id": "e4685cf8-8556-4997-8e76-4d83ffc94022",
+        "name": "Al-Khwarizmi ('Randolph Watson' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Al-Khwarizmi Voice ('Hector' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "060330e1-39c2-4894-9efa-9db7676d3a39",
+        "name": "Tariq Voice ('Jason Parker' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Tariq Voice  ('Diego' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "08e57934-988d-4e21-b6d2-3e1daf049c72",
+        "name": "Narrator ('Walter Everly' from voice.ai)"
+      },
+      "es": {
+        "id": "gael",
+        "name": "Narrator Voice ('Gael' from Narakeet)"
+      }
+    }
+  },
+  "fractals": {
+    "C0": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Narrator ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Narrator ('Lola' from Narakeet)"
+      }
+    },
+    "C1": {
+      "en": {
+        "id": "f9e1f8ce-02b9-4869-89c1-96a441288375",
+        "name": "Sophia James ('Alexandra Pierce' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Sophia James ('Lola' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "33c14413-2ebf-4e06-a71d-18a03edd2b00",
+        "name": "Henry Carter ('Leo_SkyTrack’s Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "alfonso",
+        "name": "Henry Carter ('Alfonso' from Narakeet)"
+      }
+    }
+  },
+  "polynomial-pirates": {
+    "C0": {
+      "en": {
+        "id": "08e57934-988d-4e21-b6d2-3e1daf049c72",
+        "name": "Narrator ('Walter Everly' from voice.ai)"
+      },
+      "es": {
+        "id": "gael",
+        "name": "Narrator ('Gael' from Narakeet)"
+      }
+    },
+    "C1": {
+      "en": {
+        "id": "37a63cd3-f1d2-47ed-a66d-5111f693c921",
+        "name": "Luke Barrington ('Dr. Martinez' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Luke Barrington ('Hector' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "9b479eef-73e9-41d3-b5fa-fe01f96b8b0f",
+        "name": "Albert Lin ('Bruce Carter' from voice.ai)"
+      },
+      "es": {
+        "id": "diego",
+        "name": "Albert Lin ('Diego' from Narakeet)"
+      }
+    },
+    "C3": {
+      "en": {
+        "id": "fb63bfe2-740a-4b23-ac9b-f0e9c16884a2",
+        "name": "Leo Trottier ('Marcus NEW' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Leo Trottier ('Armando' from Narakeet)"
+      }
+    }
+  },
+  "mathematical-architecture": {
+    "C0": {
+      "en": {
+        "id": "01e6a4d5-646e-488d-99ef-d09c84a1fef8",
+        "name": "Narrator ('Kaipo' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Narrator ('Cecilia' from Narakeet)"
+      }
+    },
+    "C1": {
+      "en": {
+        "id": "37a63cd3-f1d2-47ed-a66d-5111f693c921",
+        "name": "Amir ('Dr. Martinez' from voice.ai)"
+      },
+      "es": {
+        "id": "hector",
+        "name": "Amir ('Hector' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "01e6a4d5-646e-488d-99ef-d09c84a1fef8",
+        "name": "Sofia ('Kaipo' from voice.ai)"
+      },
+      "es": {
+        "id": "cecilia",
+        "name": "Sofia ('Cecilia' from Narakeet)"
+      }
+    }
+  },
+  "matrix-multiplication": {
+    "C1": {
+      "en": {
+        "id": "224abb27-d4c1-4da2-bbd9-4a8bcd1b12e3",
+        "name": "Alex Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Alex Voice ('Armando' from Narakeet)"
+      }
+    },
+    "C2": {
+      "en": {
+        "id": "ebf1babd-22f3-4fab-b49b-5193cc42776a",
+        "name": "Dr. Chen Voice ('Dr. Rivera' from voice.ai)"
+      },
+      "es": {
+        "id": "lola",
+        "name": "Dr. Chen Voice ('Lola' from Narakeet)"
+      }
+    },
+    "C0": {
+      "en": {
+        "id": "224abb27-d4c1-4da2-bbd9-4a8bcd1b12e3",
+        "name": "Narrator Voice ('Leo' from voice.ai)"
+      },
+      "es": {
+        "id": "armando",
+        "name": "Narrator Voice ('Armando' from Narakeet)"
+      }
+    }
+  }
+}

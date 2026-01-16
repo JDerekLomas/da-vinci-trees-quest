@@ -1,0 +1,66 @@
+const config = {
+  title: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.title',
+  soundData: [
+    {
+      name: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.sounds.threshold',
+      pressure: 2.9e-9,
+      db: 0,
+      scaled: 29.0,
+      log10: 1.462398,
+      color: '#008217',
+    },
+    {
+      name: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.sounds.whisper',
+      pressure: 2.9e-8,
+      db: 20,
+      scaled: 290.0,
+      log10: 2.462398,
+      color: '#00749D',
+    },
+    {
+      name: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.sounds.quietRoom',
+      pressure: 2.9e-7,
+      db: 40,
+      scaled: 2900.0,
+      log10: 3.462398,
+      color: '#677600',
+    },
+    {
+      name: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.sounds.normalConversation',
+      pressure: 2.9e-6,
+      db: 60,
+      scaled: 29000.0,
+      log10: 4.462398,
+      color: '#E0002B',
+    },
+    {
+      name: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.sounds.concertSiren',
+      pressure: 2.9e-5,
+      db: 80,
+      scaled: 290000.0,
+      log10: 5.462398,
+      color: '#DB0072',
+    },
+    {
+      name: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.sounds.jetEngine',
+      pressure: 2.9e-4,
+      db: 100,
+      scaled: 2900000.0,
+      log10: 6.462398,
+      color: '#8E24AA',
+    },
+  ],
+  labels: {
+    header: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.header',
+    subtitle: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.subtitle',
+    selectSoundSource: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.selectSoundSource',
+    decibelsLoudness: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.decibelsLoudness',
+    pressurePsi: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.pressurePsi',
+    scaledPressure: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.scaledPressure',
+    log10ScaledPressure: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.log10ScaledPressure',
+    amplitudeExplanation: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.amplitudeExplanation',
+    selectSourceToBegin: 'scenes.S5.S5_D0_F14_C9.soundWaveVisualizer.labels.selectSourceToBegin',
+  },
+};
+
+export default config;

@@ -1,0 +1,470 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Team Introduction",
+    "scene_4": "Da Vinci's Tree Principles",
+    "scene_5": "Tree Volume Explorer",
+    "scene_6": "Wood Quality Basics",
+    "scene_7": "Timber Quality Optimization",
+    "scene_8": "Forest-Scale Planning",
+    "scene_9": "Forest Design Explorer",
+    "scene_10": "Forest Growth",
+    "scene_11": "Forest Growth Simulator",
+    "scene_12": "Conclusion",
+    "scene_13": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "back_button": "Back Button"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 36px; line-height: 54px; font-weight: 700;'>Architecting the Forest</h1> <h2 style='font-size: 24px; line-height: 36px; font-weight: 700;'>Engineering Nature's Patterns</h2>",
+    "description": "In this quest, you'll explore how geometric principles can transform forest management. Join Ecologist Dr. Eleanor Ashford, Policy Advisor Julian Knox, and Community Representative Daniela Nunez as they use mathematics to design a forest that maximizes both timber value and carbon storage. Through interactive simulations, you'll discover how tree shapes, spacing, and arrangement affect environmental and economic outcomes.",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F4_C0": {
+        "heading": "<p style='font-size: 24px; line-height: 150%; color: #333333;'>Welcome to the Forest Research Center</p>",
+        "body": "<p style='font-size: 20px; line-height: 150%; color: #333333;'>I'm Dr. Eleanor Ashford, an ecologist specializing in forest mathematics. With Julian Knox, our policy advisor, and Daniela Nunez from the local timber community, we'll explore how geometry shapes sustainable forestry. Join us as we discover how tree shapes, spacing, and arrangement can optimize both timber value and carbon storage!</p>"
+      }
+    },
+    "S3": {
+      "S3_D1_F5_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>My family has worked these forests for three generations. The old ways of clear‑cutting just aren't sustainable, but we still need timber jobs in our community.</div>",
+      "S3_D2_F6_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The state has allocated funding for improved forest management, but we need to demonstrate both economic returns and environmental benefits.</div>",
+      "S3_D3_F7_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This is where geometry can help us! Tree shape, size, and arrangement significantly affect both timber quality and carbon storage capacity. Leonardo da Vinci's mathematical principles can guide our forest design for optimal benefits.</div>",
+      "S3_D4_F8_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Math? I thought forestry was about knowing trees and when to cut them.</div>",
+      "S3_D5_F9_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>If we harvest trees using traditional methods, we miss opportunities for both better lumber and increased carbon storage. Instead, we'll use geometric principles to design a forest that produces premium timber while storing carbon for generations.</div>",
+      "S3_D6_F10_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Let's get started then. What's our first step?</div>",
+      "S3_D7_F11_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>First, we need to understand the mathematical architecture of trees. Like any well‑designed structure, trees follow elegant geometric principles that we can model and use in our planning.</div>"
+    },
+    "S4": {
+      "S4_D1_F12_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Leonardo da Vinci discovered something remarkable about trees that's still relevant today. While sketching trees, he noticed that if you measure a tree trunk's cross‑sectional area, then measure all its branches at the same height and add those areas together, they often sum up to approximately the same value.</div>",
+      "S4_D2_F13_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Da Vinci studied trees? I thought he was an artist.</div>",
+      "S4_D3_F14_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>His genius crossed all boundaries. This area conservation principle is like a water pipe system—the total capacity remains the same whether in one large pipe or several smaller ones.</div>",
+      "S4_D4_F15_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>How does this help our forest planning?</div>",
+      "S4_D5_F16_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>For that, first let me show you with our Tree Volume Explorer.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Tree Volume Explorer",
+        "labels": {
+          "treeVolumeExplorer": "Tree Volume Explorer",
+          "treeHeight": "Tree Height (feet)",
+          "trunkDiameter": "Trunk Diameter (feet)",
+          "cylindrical": "Oak/Maple (Cylindrical)",
+          "conical": "Pine (Conical)",
+          "volumeFormula": "Volume Formula",
+          "cylindricalVolume": "Cylindrical Volume",
+          "conicalVolume": "Conical Volume",
+          "leonardoRule": "Leonardo's Tree Rule",
+          "trunkArea": "Cross-sectional area",
+          "branchAreas": "Branch Areas",
+          "crossSectionHeight": "Cross-section at % of tree height",
+          "branchAreasSum": "Sum of cross-sectional areas:",
+          "trunkAreaLabel": "Cross-sectional area:",
+          "sum": "Sum",
+          "squareFeet": "Square Foot",
+          "cubeFeet": "Cubic Foot",
+          "square": " square ",
+          "treeType": "Tree Type",
+          "branchingExplorer": "Branching Explorer",
+          "oakBranching": "Oak Branching",
+          "pineBranching": "Pine Branching",
+          "branchAngle": "Branch Angle",
+          "branchDepth": "Complexity (Depth)",
+          "lengthRatio": "Length Ratio",
+          "leonardoExponent": "Leonardo Exponent (α)",
+          "whorlInterval": "Whorl Interval",
+          "branchesPerWhorl": "Branches per Whorl",
+          "maxBranchLength": "Max Branch Length",
+          "initialAngle": "Initial Angle",
+          "droopFactor": "Droop Factor",
+          "daVinciRuleCheck": "Da Vinci's Rule Check",
+          "trunkAreaBranching": "Trunk Area at Split:",
+          "branchesAreaSumBranching": "Sum of Branch Areas:",
+          "areaDifference": "Difference:",
+          "degrees": "degrees",
+          "meters": "m"
+        },
+        "ariaLabels": {
+          "treeHeightSlider": "Adjust tree height",
+          "trunkDiameterSlider": "Adjust trunk diameter",
+          "cylindricalModelToggle": "Select Oak/Maple cylindrical tree model",
+          "conicalModelToggle": "Select Pine conical tree model",
+          "treeVisualization": "Interactive visualization of tree with volume model",
+          "oakBranchingTab": "Select Oak recursive branching visualization",
+          "pineBranchingTab": "Select Pine whorl-based branching visualization",
+          "branchAngleSlider": "Adjust branch angle",
+          "branchDepthSlider": "Adjust branching complexity depth",
+          "lengthRatioSlider": "Adjust length ratio for branch segments",
+          "leonardoExponentSlider": "Adjust Leonardo exponent for radius scaling",
+          "whorlIntervalSlider": "Adjust vertical spacing between branch whorls",
+          "branchesPerWhorlSlider": "Adjust number of branches per whorl",
+          "maxBranchLengthSlider": "Adjust maximum branch length",
+          "initialAngleSlider": "Adjust initial branch angle from trunk",
+          "droopFactorSlider": "Adjust branch droop angle",
+          "oakBranchingVisualization": "3D visualization of Oak binary branching structure",
+          "pineBranchingVisualization": "3D visualization of Pine whorl-based branching structure"
+        },
+        "colors": {
+          "cylindrical": "#2196F3",
+          "conical": "#4CAF50",
+          "trunk": "#5D4037",
+          "highlight": "#FF9800"
+        },
+        "about": {
+          "heading": "Tree Volume Explorer",
+          "body": "<div><p>Understanding Tree Geometry:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong><no-glossary>Cylindrical</no-glossary> Trees</strong>: Oak and maple trees have trunks that maintain a relatively uniform diameter, approximating a <no-glossary>cylinder</no-glossary>. The volume formula <span style='font-family: Besley; font-weight: bold;'><span style='color: #E0002B; font-style: italic;'>V</span> = π<span style='color: #0061FC; font-style: italic;'>r</span><sup style='color: #0061FC;'>2</sup><span style='color: #008217; font-style: italic;'>h</span></span> applies, where <span style='font-family: Besley; font-weight: bold; color: #0061FC; font-style: italic;'>r</span> is the radius and <span style='font-family: Besley; font-weight: bold; color: #008217; font-style: italic;'>h</span> is the height.</li><li><strong><no-glossary>Conical</no-glossary> Trees</strong>: Pine trees taper from base to top, approximating a <no-glossary>cone</no-glossary>. The volume formula <span style='font-family: Besley; font-weight: bold;'><span style='color: #E0002B; font-style: italic;'>V</span> = ⅓π<span style='color: #0061FC; font-style: italic;'>r</span><sup style='color: #0061FC;'>2</sup><span style='color: #008217; font-style: italic;'>h</span></span> applies, resulting in approximately one-third the volume of a <no-glossary>cylinder</no-glossary> with the same base radius and height.</li><li><strong>Volume Comparison</strong>: For the same height and base diameter, <no-glossary>cylindrical</no-glossary> trunks store about three times more volume than <no-glossary>conical</no-glossary> trunks, directly impacting carbon storage capacity.</li><li><strong>Da Vinci's Rule</strong>: At each branching point, the cross-sectional area of the trunk equals the sum of the cross-sectional areas of the branches, demonstrating area conservation throughout the tree structure.</li></ol><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px; padding-left: 25px;'><li>Compare <no-glossary>cylindrical</no-glossary> and <no-glossary>conical</no-glossary> tree trunk geometries and their volume calculations</li><li>Explore how trunk dimensions affect total volume and carbon storage potential</li><li>Investigate branching patterns in oak (binary recursive) and pine (whorl-based) trees</li><li>Observe Da Vinci's Rule in action through real-time area calculations</li><li>Understand how tree species selection impacts forest carbon storage goals</li></ul></div>"
+        },
+        "help": {
+          "heading": "How to Use the Tree Volume Explorer",
+          "body": "<div><p>To explore tree geometry and branching:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Trunk Geometry</strong>: Switch between <strong><no-glossary>Cylindrical</no-glossary></strong> (Oak/Maple) and <strong><no-glossary>Conical</no-glossary></strong> (Pine) tree types using the tabs.<ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li>Adjust the <strong>Tree Height</strong> slider (10-40 ft) to change trunk height</li><li>Modify the <strong>Trunk Diameter</strong> slider (1-5 ft) to change base diameter</li><li>Observe how the volume formula updates: <span style='font-family: Besley; font-weight: bold;'><span style='color: #E0002B; font-style: italic;'>V</span> = π<span style='color: #0061FC; font-style: italic;'>r</span><sup style='color: #0061FC;'>2</sup><span style='color: #008217; font-style: italic;'>h</span></span> for <no-glossary>cylindrical</no-glossary> or <span style='font-family: Besley; font-weight: bold;'><span style='color: #E0002B; font-style: italic;'>V</span> = ⅓π<span style='color: #0061FC; font-style: italic;'>r</span><sup style='color: #0061FC;'>2</sup><span style='color: #008217; font-style: italic;'>h</span></span> for <no-glossary>conical</no-glossary></li><li>Watch the volume calculation (in ft³) update in real-time as you adjust parameters</li></ul></li><li><strong>Branching Structure</strong>: Switch to the branching explorer to explore tree architecture.<ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li><strong>Oak Branching</strong>:<ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li><strong>Branch Angle</strong> (10-90°): Controls the angle at which branches split, affecting tree shape from vertical to horizontal.</li><li><strong>Complexity</strong> (1-10): Determines the depth of recursive branching, creating more or fewer branch generations.</li><li><strong>Length Ratio</strong> (0.5-0.9): Sets the ratio of child branch length to parent branch length, affecting overall tree height.</li><li><strong>Leonardo Exponent</strong> (1.5-3.0): Controls how branch radius scales at each split according to Da Vinci's Rule.</li></ul></li><li><strong>Pine Branching</strong>:<ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li><strong>Whorl Interval</strong> (5-25 m): Sets the vertical spacing between branch whorls, affecting branch density.</li><li><strong>Branches per Whorl</strong> (3-8): Controls the number of branches in each whorl ring, affecting tree fullness.</li><li><strong>Max Branch Length</strong> (10-80 m): Determines the maximum length branches can reach, affecting tree spread.</li><li><strong>Initial Angle</strong> (20-70°): Sets the initial angle at which branches extend from the trunk, affecting branch direction.</li></ul></li><li>Observe Da Vinci's Rule calculations showing trunk area equals the sum of branch areas at each split</li></ul></li><li>Use zoom controls (+/-) to examine the 3D tree visualization in detail</li></ol></div>"
+        }
+      },
+      "S5_D1_F17_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Here, we're focusing on shape of the tree trunks, not the branches or leaves. Think of the trunk like the main pipe in a water system analogy.</div>",
+      "S5_D2_F18_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So we're mainly looking at the trunk's shape to figure out its volume here?</div>",
+      "S5_D3_F19_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Different trees have different trunk shapes. Oaks and maples are usually closer to <no-glossary>cylinders</no-glossary>, while pines gradually grow narrow and look more like <no-glossary>cones</no-glossary>.</div>",
+      "S5_D4_F20_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Got it. So we can use <no-glossary>cylinder</no-glossary> and <no-glossary>cone</no-glossary> formulas to estimate the volume.</div>",
+      "S5_D5_F21_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Right. For a trunk shaped like a <no-glossary>cylinder</no-glossary>, we use <span style='font-family: besley; font-weight: bold;' aria-label=\"V equals pi r squared h\" role=\"text\"><span style='font-style: italic; color: #E0002B;' aria-hidden=\"true\">V</span><span aria-hidden=\"true\"> = </span><span aria-hidden=\"true\">π</span><span style='font-style: italic; color: #0061FC;' aria-hidden=\"true\">r</span><sup style='color: #0061FC;' aria-hidden=\"true\">2</sup><span style='font-style: italic; color: #008217;' aria-hidden=\"true\">h</span></span>. For a <no-glossary>cone</no-glossary>-shaped trunk, we use <span style='font-family: besley; font-weight: bold;' aria-label=\"V equals one third pi r squared h\" role=\"text\"><span style='font-style: italic; color: #E0002B;' aria-hidden=\"true\">V</span><span aria-hidden=\"true\"> = ⅓</span><span aria-hidden=\"true\">π</span><span style='font-style: italic; color: #0061FC;' aria-hidden=\"true\">r</span><sup style='color: #0061FC;' aria-hidden=\"true\">2</sup><span style='font-style: italic; color: #008217;' aria-hidden=\"true\">h</span></span>.</div>",
+      "S5_D6_F22_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Switch between the Oak and Pine tabs to compare their shapes. Oak trunks stay fairly uniform while pine trunks narrow toward the top.</div>",
+      "S5_D7_F23_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now you change the height and diameter, notice how the volume changes. Trunk size directly affects total volume.</div>",
+      "S5_D8_F24_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I can see the volume updating as I adjust the sliders.</div>",
+      "S5_D9_F25_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. For the same height and base diameter, a <no-glossary>cylindrical</no-glossary> trunk has about three times the volume of a <no-glossary>cone</no-glossary>-shaped one. That's the 3:1 ratio—oak trees typically store much more carbon than pine trees of the same size.</div>",
+      "S5_D10_F26_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now let's explore the full branching structure to see Da Vinci's principle in action. Here you can see how branches follow mathematical rules.</div>",
+      "S5_D11_F27_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>In the Oak Branching view, you'll see recursive binary branching. Each branch splits into two smaller branches, following precise geometric patterns.</div>",
+      "S5_D12_F28_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now you change the branch angle, the tree structure changes. Different angles create different tree architectures.</div>",
+      "S5_D13_F29_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>See how the trunk area equals the sum of branch areas at each split? This is Da Vinci's Rule—the cross-sectional area is conserved throughout the tree.</div>",
+      "S5_D14_F30_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>In the Pine Branching view, you'll see a different architecture. Pine trees use whorl-based branching patterns.</div>",
+      "S5_D15_F31_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pine trees grow branches in rings called whorls. Try adjusting the Whorl Interval to see how the vertical spacing between branch rings affects the tree structure.</div>",
+      "S5_D16_F32_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Different structure, but the same principle applies—the area is still conserved.</div>",
+      "S5_D17_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. With shapes and branching understood, let's discuss timber quality in forests.</div>"
+    },
+    "S6": {
+      "S6_D1_F33_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now that we understand how tree geometry affects carbon storage, let's talk about timber quality in mixed forests. The arrangement of branches, the height-to-diameter ratio, and proper spacing all dramatically affect wood value across different tree species.</div>",
+      "S6_D2_F34_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And better quality timber means higher economic returns per acre?</div>",
+      "S6_D3_F35_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Indeed. Let me show you with our Timber Quality Optimizer.</div>"
+    },
+    "S7": {
+      "S7_D0_F36_C9": {
+        "title": "Timber Quality Optimizer",
+        "about": {
+          "heading": "Optimizing Timber Value",
+          "body": "<div><p>Tree quality improves through optimal height-to-diameter ratios, proper thinning, and strategic spacing. Each step enhances timber value while maintaining carbon storage capacity.</p></div>"
+        },
+        "help": {
+          "heading": "Quality Improvement Steps",
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Use the Timber Quality Optimizer to observe tree growth improvements</li><li>Step 0: Poor Quality Timber (LOW grade, <span aria-hidden=\"true\">$2/ft²</span><span class=\"sr-only\">$2 per square foot</span>)</li><li>Step 1: Better Height-to-Diameter Ratio (MEDIUM grade, <span aria-hidden=\"true\">$5/ft²</span><span class=\"sr-only\">$5 per square foot</span>)</li><li>Step 2: Strategic Thinning Applied (HIGH grade, <span aria-hidden=\"true\">$8/ft²</span><span class=\"sr-only\">$8 per square foot</span>)</li><li>Step 3: Optimal Spacing Achieved (PREMIUM grade, <span aria-hidden=\"true\">$12/ft²</span><span class=\"sr-only\">$12 per square foot</span>)</li><li>Watch how each change affects timber quality and value</li><li>Monitor carbon storage trade-offs (300 to 255 <span aria-hidden=\"true\">tons/acre</span><span class=\"sr-only\">tons per acre</span>)</li><li>Learn key principles: height ratio, branch thinning, and <span aria-hidden=\"true\">15-20ft</span><span class=\"sr-only\">15 to 20 foot</span> spacing</li></ul></div>"
+        },
+        "labels": {
+          "timberQualityOptimizer": "Timber Quality Optimizer",
+          "maximizeValue": "Maximize timber value while maintaining carbon storage",
+          "poorQualityTimber": "Poor Quality Timber",
+          "betterHeightRatio": "Better Height-to-Diameter Ratio",
+          "strategicThinning": "Strategic Thinning Applied",
+          "optimalSpacing": "Optimal Spacing Achieved",
+          "timberQuality": "Timber Quality",
+          "timberValue": "Timber Value",
+          "carbonStorage": "Carbon Storage",
+          "heightRatio": "Height Ratio",
+          "thinning": "Thinning",
+          "spacing": "Spacing",
+
+          "lowGradeDescription": "Low-grade for pulp wood",
+          "mediumGradeDescription": "Medium-grade for construction",
+          "highGradeDescription": "High-grade for furniture",
+          "premiumGradeDescription": "Premium-grade for fine woodworking",
+
+          "carbonPremiumDescription": "85% of maximum carbon with premium value",
+          "maximumPotential": "% of maximum potential",
+
+          "branchThinningShort": "Branch thinning",
+          "optimalHeightRatioFull": "Optimal height-to-diameter ratio",
+          "branchThinningFull": "Strategic branch thinning",
+          "spacingShort": "15-20ft spacing",
+          "spacingFull": "15-20ft optimal spacing",
+
+          "currentStage": "Current Timber Management Stage",
+          "heightToDiameterRatio": "Height-to-Diameter Ratio",
+          "branchThinningLabel": "Branch Thinning",
+          "treeSpacingLabel": "Tree Spacing",
+          "perCubicFoot": "per cubic foot",
+          "tonsPerAcre": "tons/acre",
+
+          "optimized": "Optimized",
+          "poor": "Poor",
+          "applied": "Applied",
+          "notApplied": "Not Applied",
+          "optimal": "Optimal",
+          "suboptimal": "Suboptimal",
+
+          "of": "of",
+          "hdRatio": "H:D Ratio",
+          "timberValueProgress": "Timber value progress",
+          "carbonStorageLabel": "Carbon storage",
+
+          "hdRatioLabel": "50:1 H:D Ratio",
+          "spacingLabel": "15-20ft Spacing",
+          "interactive3DView": "Interactive 3D View"
+        },
+        "ariaLabels": {
+          "timberVisualization": "Interactive 3D visualization of forest management techniques for timber quality",
+          "progressIndicator": "Progress through forest management stages",
+          "qualityMetrics": "Timber quality and carbon storage metrics",
+          "navigationControls": "Navigation controls for the timber quality optimizer",
+          "zoomIn": "Zoom in on 3D tree visualization",
+          "zoomOut": "Zoom out on 3D tree visualization"
+        }
+      },
+      "S7_D1_F36_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This interactive shows four steps of timber quality improvement. Here at step <strong>0</strong>, we have poor quality timber with a low height-to-diameter ratio and many branches.</div>",
+      "S7_D2_F37_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I see it's only worth <strong>$2</strong> per cubic foot and labeled as 'LOW' quality.</div>",
+      "S7_D3_F38_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's right. This would only be suitable for pulpwood. But watch what happens when we improve it.</div>",
+      "S7_D4_F39_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>First, we have improved the height-to-diameter ratio, which changes our quality from 'Low' to 'Medium' and as a result the timber value increases from <strong>$2 /ft³</strong> to <strong>$5 /ft³</strong><span aria-hidden='true'>.</span></div>",
+      "S7_D5_F40_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The tree looks taller and slimmer now, with a <strong>50:1</strong> height-to-diameter ratio.</div>",
+      "S7_D6_F41_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Then you reduce the branches through thinning?</div>",
+      "S7_D7_F42_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes, strategic thinning brings us to 'HIGH' quality at <strong>$8 /ft³</strong>. Fewer branches mean fewer knots in the wood — resulting in straighter grain, which improves timber quality.</div>",
+      "S7_D8_F43_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The trunk looks straighter and has better color too.</div>",
+      "S7_D9_F44_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And finally, with optimal tree spacing at <strong>15</strong>-<strong>20</strong> feet apart, we achieve 'PREMIUM' quality at <strong>$12 /ft³</strong>.</div>",
+      "S7_D10_F45_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I see the carbon storage decreases slightly with each improvement, from <strong>300</strong> to <strong>255</strong> tons per acre.</div>",
+      "S7_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's the trade-off. We sacrifice about <strong>15%</strong> of carbon storage but increase timber value by <strong>600%</strong><span aria-hidden='true'>.</span></div>",
+      "S7_D12_F46_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So the right spacing between trees is as important as the tree shape itself?</div>",
+      "S7_D13_F47_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely, which brings me to an important question. According to the Timber Quality Optimizer, how does improving the height-to-diameter ratio affect the timber?</div>",
+      "S7_D13_F47_C9_optionA": "It upgrades the quality from Low to Medium",
+      "S7_D13_F47_C9_optionB": "It reduces the carbon storage",
+      "S7_D13_F47_C9_optionC": "It increases the branch density",
+      "S7_D15_F49_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly! Now let's look at how to arrange different types of trees across the landscape.</div>"
+    },
+    "S8": {
+      "S8_D1_F50_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now we need to look at the larger picture—how our geometric understanding of individual trees scales to entire forest landscapes.</div>",
+      "S8_D2_F51_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I understand how tree shape and spacing affect timber quality and carbon storage, but how do we apply this across hundreds of acres?</div>",
+      "S8_D3_F52_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And we still need to balance economic returns with environmental benefits across the whole forest.</div>",
+      "S8_D4_F53_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's where our Forest Design Explorer comes in. It allows us to apply the geometric principles we've learned to different forest arrangements.</div>"
+    },
+    "S9": {
+      "S9_D0_F54_C9": {
+        "title": "Forest Design Explorer",
+        "ariaLabel": "Interactive forest design tool showing different tree spacing patterns and their impact on timber quality and carbon storage",
+        "about": {
+          "heading": "Spacing and Density Relationships",
+          "body": "Strategic forest design creates optimal tree density based on management goals. Tree spacing affects both timber production and carbon storage, following geometric principles of area and density."
+        },
+        "help": {
+          "heading": "Forest Layout Planning",
+          "body": "<div>Use the Forest Design Explorer to test different tree spacing patterns:</div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observe how spacing affects trees per acre using the formula: <strong>Trees/acre = 43,560ft²/(spacing²)</strong></li><li>Compare different management objectives using the prediction charts</li><li>Analyze trade-offs between timber production and carbon storage</li></ul>"
+        },
+        "translations": {
+          "title": "Forest Design Explorer",
+          "treeSpacing": "Tree Spacing",
+          "harvestCycle": "Harvest Cycle",
+          "timberQuality": "Timber Quality",
+          "carbonStorage": "Carbon Storage",
+          "sustainability": "Sustainability",
+          "timberPriority": "Timber Priority",
+          "carbonPriority": "Carbon Priority",
+          "balancedApproach": "Balanced Approach",
+          "trees": "Trees",
+          "noTrees": "No Trees",
+          "step": "Step",
+          "previous": "Previous",
+          "next": "Next",
+          "densePlanting": "Dense planting with 12ft spacing",
+          "wideSpacing": "Wide spacing (20ft) for maximum growth",
+          "balancedSpacing": "Balanced 16ft spacing approach",
+          "years": "years",
+          "of": "of",
+          "perTree": "per tree",
+          "area": "Area",
+          "treesPerAcre": "Trees per acre",
+          "foot": " foot",
+          "squareFoot": " square foot",
+          "illustrationAriaLabel": "Illustration of forest design with different tree spacing patterns"
+        },
+        "scenarios": {
+          "timber": {
+            "name": "Timber Priority",
+            "description": "Maximize timber quality with closer spacing",
+            "step": 1
+          },
+          "carbon": {
+            "name": "Carbon Priority",
+            "description": "Maximize carbon with wider spacing and longer cycles",
+            "step": 2
+          },
+          "balanced": {
+            "name": "Balanced Approach",
+            "description": "Optimal ratio between timber and carbon",
+            "step": 3
+          }
+        }
+      },
+      "S9_D1_F54_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now let's examine how geometric principles scale to entire forest landscapes.</div>",
+      "S9_D2_F55_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>With <strong>12-foot</strong> spacing, each tree occupies <strong>144 ft<sup>2</sup></strong>, giving us <strong>302 trees</strong> per acre.</div>",
+      "S9_D3_F56_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>With this timber priority approach, which statement is true?</div>",
+      "S9_D3_F56_C9_optionA": "High timber quality (95%) but moderate carbon storage (68%)",
+      "S9_D3_F56_C9_optionB": "Balanced values for both timber and carbon (75% each)",
+      "S9_D4_F57_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisely – high timber quality but moderate carbon storage.</div>",
+      "S9_D5_F58_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now with <strong>20-foot</strong> spacing, we're down to <strong>108 trees</strong> per acre.</div>",
+      "S9_D6_F59_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>What effect does this wider spacing have on our goals?</div>",
+      "S9_D6_F59_C9_optionA": "Maximizes carbon storage at the expense of timber quality",
+      "S9_D6_F59_C9_optionB": "Provides equal benefits to both timber and carbon",
+      "S9_D7_F60_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes, better carbon storage but lower timber quality.</div>",
+      "S9_D8_F61_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The balanced approach with <strong>16-foot</strong> spacing shows strong results for both timber quality and carbon storage.</div>",
+      "S9_D9_F62_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So we can optimize for different goals by changing the geometric arrangement?</div>",
+      "S9_D10_F63_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. These geometric patterns determine both timber value and carbon storage.</div>"
+    },
+    "S10": {
+      "S10_D1_F64_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>We've seen how spacing affects our forest design. Now let's explore how these patterns develop over time.</div>",
+      "S10_D2_F65_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So we can see how our management decisions play out across decades?</div>",
+      "S10_D3_F66_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes! The geometric patterns we establish at planting transform as trees grow, following predictable mathematical relationships.</div>",
+      "S10_D4_F67_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>My grandfather always said you plant trees for the next generation. How long does it take to see the outcomes of our decisions?</div>",
+      "S10_D5_F68_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's precisely what our Forest Growth Simulator will show us. Let's examine how forests develop under different rotation cycles.</div>"
+    },
+    "S11": {
+      "S11_D0_F69_C9": {
+        "title": "Forest Growth Simulator",
+        "ariaLabel": "Interactive forest growth simulation showing different rotation strategies and their impact on timber yield and carbon storage",
+        "about": {
+          "heading": "Long-term Forest Development",
+          "body": "Observe how different rotation cycles affect forest development over time. Short rotations provide frequent harvests but store less carbon, while long rotations maximize carbon storage but delay timber yields."
+        },
+        "help": {
+          "heading": "Simulating Growth Over Time",
+          "body": "<div>1. Use the Forest Growth Simulator to compare different rotation strategies:</div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Pine: <ul style='list-style-type: circle; margin: 5px 0px 5px 15px; padding-left: 15px;'><li>Short rotation (15 years)</li><li>Balanced approach (30 years)</li><li>Long rotation (50 years)</li></ul></li><li>Oak: <ul style='list-style-type: circle; margin: 5px 0px 5px 15px; padding-left: 15px;'><li>Short rotation (25 years)</li><li>Balanced approach (45 years)</li><li>Long rotation (70 years)</li></ul></li></ul><div>2. Use the year slider to advance time and watch how each approach develops.</div><div>3. Compare timber yield (ft³) and carbon storage (tons/acre) at key harvest points.</div>"
+        },
+        "translations": {
+          "title": "Forest Growth Simulator",
+          "simulationYear": "Simulation Year",
+          "forestType": "Forest Type",
+          "pineForest": "Pine Forest (Conical)",
+          "oakForest": "Oak Forest (Cylindrical)",
+          "timberYield": "Timber Yield",
+          "carbonStorage": "Carbon Storage",
+          "volumePerAcre": "Volume per acre (ft³)",
+          "basedOnVolume": "Based on volume × density factors",
+          "forestManagementGuide": "Forest Management Guide",
+          "optimalRotationStrategy": "Optimal Rotation Strategy",
+          "shortRotation": "Short Rotation",
+          "longRotation": "Long Rotation",
+          "balancedApproach": "Balanced Approach",
+          "year": "Year",
+          "years": "years",
+          "previous": "Previous",
+          "next": "Next",
+          "conical": "Conical",
+          "cylindrical": "Cylindrical",
+          "rotation": "Rotation",
+          "focusFastTimber": "Focus on fast timber production with short rotations",
+          "focusCarbonSequestration": "Focus on carbon sequestration with long rotations",
+          "balanceTimberCarbon": "Balance timber and carbon with medium rotations",
+          "readyToHarvest": "Ready to harvest! Your forest has reached maturity and is ready for timber collection.",
+          "tonsPerAcre": "tons/acre",
+          "complete": "complete",
+          "pineShortRotation": "Pine forests are ideal for short rotations (15 years) due to fast early growth.",
+          "pineLongRotation": "Long rotations (50 years) with pines maximize total carbon storage but with longer waits between harvests.",
+          "pineBalancedRotation": "Balanced rotations (30 years) with pines offer good timber production with moderate carbon benefits.",
+          "oakShortRotation": "Short rotations with oaks (25 years) provide periodic timber harvests but lower wood quality.",
+          "oakLongRotation": "Long rotations (70 years) with oaks produce the highest quality timber and carbon storage.",
+          "oakBalancedRotation": "Balanced rotations (45 years) with oaks provide good quality timber with reasonable carbon benefits.",
+          "harvestTime": "HARVEST TIME!",
+          "selected": "selected"
+        }
+      },
+      "S11_D1_F69_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Today we'll explore how different tree species grow and how to manage forests sustainably. Our simulator shows two key species — pine and oak.</div>",
+      "S11_D2_F70_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pine trees grow quickly with a conical shape, reaching harvest in <strong>15 years</strong><span aria-hidden='true'>.</span> Oak trees are cylindrical and need at least <strong>25 years</strong><span aria-hidden='true'>.</span></div>",
+      "S11_D3_F71_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So pine yields timber sooner but oak stores more carbon?</div>",
+      "S11_D4_F72_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Let me explain how we calculate carbon storage. We're working with a one-acre forest here. We start with tree volume, which depends on geometry — pine follows a conical model and oak a cylindrical one.</div>",
+      "S11_D5_F73_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And then you convert volume to weight?</div>",
+      "S11_D6_F74_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Yes. First we calculate fresh weight, then dry weight which is about <strong>50%</strong> of fresh weight. Carbon content is roughly <strong>50%</strong> of dry weight.</div>",
+      "S11_D7_F75_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>From this data, we can determine the amount of carbon stored per acre. For a pine tree, how much carbon is stored per acre after <strong>15 years</strong>?</div>",
+      "S11_D8_F76_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I see short rotations prioritize frequent timber harvests over maximum carbon storage.</div>",
+      "S11_D9_F77_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Now let's examine long rotations — <strong>50 years</strong> for pine and <strong>70 years</strong> for oak. Pine stores <strong>45 tons</strong> of carbon at year <strong>50</strong><span aria-hidden='true'>.</span></div>",
+      "S11_D10_F78_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's much more carbon than short rotation! And oak at <strong>70 years</strong>?</div>",
+      "S11_D11_F79_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oak reaches <strong>55 tons</strong> — its higher density allows greater carbon storage, but requires longer waiting periods.</div>",
+      "S11_D12_F80_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Finally, the balanced approach — <strong>30 years</strong> for pine, <strong>45 years</strong> for oak — optimizes both timber and carbon benefits.</div>",
+      "S11_D13_F81_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>So pine stores about <strong>31 tons</strong> at year <strong>30</strong>, and oak stores <strong>38 tons</strong> at year <strong>45</strong>?</div>",
+      "S11_D14_F82_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactly. Oak stores more per rotation, but pine's faster growth cycle allows more harvests over the same <no-glossary>period</no-glossary>. Over longer timeframes, this frequency advantage can add up significantly.</div>",
+      "S11_D15_F83_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>If we use the balanced approach for pine, calculate our total timber yield after <strong>90 years</strong>, that is three rotations. Think, if we get <strong>1250 ft<sup>3</sup></strong> in one rotation, what would be the value after three rotations?</div>",
+      "S11_D16_F84_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This shows how tree species and rotation length create dramatically different outcomes for both timber and carbon.</div>"
+    },
+    "S12": {
+      "S12_D1_F85_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>By applying these geometric principles to forest design, we've created a management plan that optimizes both timber production and carbon storage.</div>",
+      "S12_D2_F86_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>The results are impressive. Your approach yields higher quality timber while maintaining substantial carbon storage.</div>",
+      "S12_D3_F87_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I never thought mathematics could transform forestry like this. My family has worked these forests for generations, and now we can ensure they'll thrive for many more.</div>",
+      "S12_D4_F88_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And it's not just theory anymore. With models like this, we can justify funding, shape policy, and give local communities real tools to rebuild and prosper.</div>",
+      "S12_D5_F89_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>That's the beauty of geometric optimization. By understanding the mathematical architecture of trees, we've engineered a forest that balances economic needs with environmental sustainability.</div>",
+      "S12_D6_F90_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>This model could revolutionize how we manage forests across the entire region.</div>",
+      "S12_D7_F91_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>From Da Vinci's observations to modern forest management — it all comes down to geometry in the end.</div>",
+      "S12_D8_F92_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>And when science meets community, that’s when real change takes <no-glossary>root</no-glossary>.</div>",
+      "S12_D9_F93_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Indeed. The patterns of nature, when understood mathematically, can guide us toward solutions that benefit both people and the planet.</div>"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "Architecting the Forest: Engineering Nature's Patterns",
+      "content": "<p style='padding-bottom: 10px;'>You completed your journey through the Forest Architect STEAMQuest!</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You discovered how tree geometry affects volume, timber yield, and carbon storage</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed Leonardo da Vinci's principles of area conservation in tree structures</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You learned how strategic spacing and thinning optimize timber quality and value</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You designed forest management zones that balance economic and environmental goals</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You evaluated trade-offs between timber production and carbon storage using mathematical models</li></ul><p>Your ability to apply geometric principles to forest design has created sustainable landscapes that benefit both people and the planet!</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'> <mask id='mask0_11877_1366' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'> <rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/> </mask> <g mask='url(#mask0_11877_1366)'> <path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/> <path d='M38.8213 0.77832C39.8527 0.430375 40.9382 0.408778 41.9727 0.712891L42.1797 0.77832L42.1816 0.779297L69.9854 10.0576L69.9863 10.0586L70.0527 10.0811C72.1286 10.7782 73.4998 12.6559 73.5 14.7471V30.7256C73.5 41.354 70.2211 51.6383 64.249 59.8047L63.6621 60.5879C57.5446 68.3917 49.7931 73.9009 40.5049 75.4902C20.4753 71.8118 7.69465 51.2098 7.50195 31.6611L7.50293 30.7295V14.7471C7.50293 12.7173 8.7897 10.891 10.7568 10.1484L10.9492 10.0801L38.8203 0.779297L38.8213 0.77832Z' fill='#FFCC00' stroke='black'/> </g> <path d='M41.498 19.5C42.6011 19.5 43.498 20.397 43.498 21.5V22.8369C45.9533 23.3089 48.2929 24.2798 50.3652 25.6836L51.3125 24.7373L51.4639 24.6006C52.2479 23.9596 53.4094 24.0061 54.1406 24.7373L56.2607 26.8574H56.2598C57.0395 27.6105 57.0358 28.9316 56.2607 29.6836L56.2617 29.6846L55.3154 30.6318C56.718 32.7044 57.6894 35.0442 58.1602 37.5H59.5C60.603 37.5 61.5 38.397 61.5 39.5V42.5C61.5 43.603 60.603 44.5 59.5 44.5H58.1621C57.6916 46.9557 56.7215 49.2957 55.3174 51.3682L56.2627 52.3145L56.3994 52.4658C56.9975 53.1975 56.9973 54.2576 56.4004 54.9902L56.2627 55.1426L54.1426 57.2627C53.3637 58.0437 52.0943 58.0425 51.3145 57.2627L50.3672 56.3154C48.2944 57.7194 45.9553 58.6901 43.5 59.1621V60.5C43.5 61.603 42.603 62.5 41.5 62.5H38.5C37.397 62.5 36.5 61.603 36.5 60.5V59.1621C34.0444 58.69 31.7044 57.7196 29.6318 56.3154L28.6855 57.2627C27.9555 57.9948 26.7946 58.0398 26.0098 57.4004L25.8574 57.2627L23.7373 55.1426C22.9563 54.3637 22.9575 53.0943 23.7373 52.3145L24.6816 51.3672C23.2795 49.2949 22.3086 46.9554 21.8379 44.5H20.5C19.397 44.5 18.5 43.603 18.5 42.5V39.5C18.5 38.397 19.397 37.5 20.5 37.5H21.8379C22.3088 35.0424 23.2786 32.6996 24.6846 30.626C24.6209 30.5647 24.553 30.4993 24.4795 30.4307C24.2944 30.2579 24.0815 30.0618 23.8887 29.8555C23.5464 29.4891 23.1555 28.9803 23.1475 28.3623L23.1514 28.2363C23.1605 27.7164 23.3666 27.2262 23.7354 26.8574L25.8555 24.7373L26.0068 24.6006C26.7914 23.9594 27.9522 24.0084 28.6826 24.7363L29.6299 25.6836C31.7027 24.2795 34.0426 23.309 36.498 22.8369V21.5C36.498 20.397 37.3951 19.5 38.498 19.5H41.498ZM49.4297 32.0508C41.4343 23.5691 26.9793 29.3433 26.999 40.999V41.0098C26.9531 43.4507 27.6768 45.7903 28.9365 47.7949L32.6504 44.0801L32.6523 44.0781L32.7061 44.0078C32.7483 43.9311 32.757 43.838 32.7275 43.752C30.6698 38.2516 35.6165 32.3805 41.3486 33.3555L42.3018 33.5176L41.6182 34.2021L37.1328 38.6885C37.0715 38.7498 37.0384 38.8314 37.0381 38.9141L37.0488 38.9961V38.9971L38.1064 42.9639L38.1387 43.042C38.1808 43.115 38.2498 43.1694 38.332 43.1914H38.3311L42.2881 44.248H42.2871C42.3972 44.2767 42.5161 44.2443 42.5957 44.165L47.085 39.668L47.7627 38.9893L47.9316 39.9336C48.9511 45.651 43.0159 50.6406 37.5342 48.5664L37.5215 48.5615C37.4418 48.5401 37.3572 48.5484 37.2852 48.5879L37.2129 48.6426L33.5713 52.2842C35.4923 53.4056 37.6965 54.0421 39.9893 54H40L40.5264 53.9912C51.5105 53.5965 57.1293 40.1199 49.4316 32.0527L49.4297 32.0508Z' fill='black' stroke='black'/> <path d='M32.7268 41.749C30.6722 36.2497 35.617 30.381 41.3479 31.3555L42.302 31.5176L41.6184 32.2021L37.1331 36.6895C37.0719 36.7507 37.0387 36.8315 37.0383 36.9141L37.0491 36.9971V36.998L38.1057 40.9639L38.1389 41.043C38.181 41.1157 38.2503 41.1694 38.3323 41.1914H38.3313L42.2883 42.248H42.2874C42.3975 42.2766 42.5164 42.2445 42.5959 42.165L47.0852 37.668L47.7629 36.9893L47.9309 37.9336C48.9505 43.6512 43.0153 48.6419 37.5334 46.5674L37.5149 46.5596C37.4371 46.5405 37.3554 46.5504 37.2854 46.5889L37.2122 46.6436L33.2249 50.6318L32.9397 50.918L32.5999 50.6982C31.0025 49.6662 29.6288 48.2939 28.5969 46.6934L28.3782 46.3545L28.6633 46.0693L32.6506 42.0801L32.6526 42.0791L32.7063 42.0078C32.7487 41.9305 32.7572 41.8366 32.7268 41.75V41.749Z' fill='white' stroke='black'/> <path d='M41.498 17.5C42.6011 17.5 43.498 18.397 43.498 19.5V20.8369C45.9533 21.3089 48.2929 22.2798 50.3652 23.6836L51.3125 22.7373L51.4639 22.6006C52.2479 21.9596 53.4094 22.0061 54.1406 22.7373L56.2607 24.8574H56.2598C57.0395 25.6105 57.0358 26.9316 56.2607 27.6836L56.2617 27.6846L55.3154 28.6318C56.718 30.7044 57.6894 33.0442 58.1602 35.5H59.5C60.603 35.5 61.5 36.397 61.5 37.5V40.5C61.5 41.603 60.603 42.5 59.5 42.5H58.1621C57.6916 44.9557 56.7215 47.2957 55.3174 49.3682L56.2627 50.3145L56.3994 50.4658C56.9975 51.1975 56.9973 52.2576 56.4004 52.9902L56.2627 53.1426L54.1426 55.2627C53.3637 56.0437 52.0943 56.0425 51.3145 55.2627L50.3672 54.3154C48.2944 55.7194 45.9553 56.6901 43.5 57.1621V58.5C43.5 59.603 42.603 60.5 41.5 60.5H38.5C37.397 60.5 36.5 59.603 36.5 58.5V57.1621C34.0444 56.69 31.7044 55.7196 29.6318 54.3154L28.6855 55.2627C27.9555 55.9948 26.7946 56.0398 26.0098 55.4004L25.8574 55.2627L23.7373 53.1426C22.9563 52.3637 22.9575 51.0943 23.7373 50.3145L24.6816 49.3672C23.2795 47.2949 22.3086 44.9554 21.8379 42.5H20.5C19.397 42.5 18.5 41.603 18.5 40.5V37.5C18.5 36.397 19.397 35.5 20.5 35.5H21.8379C22.3088 33.0424 23.2786 30.6996 24.6846 28.626C24.6209 28.5647 24.553 28.4993 24.4795 28.4307C24.2944 28.2579 24.0815 28.0618 23.8887 27.8555C23.5464 27.4891 23.1555 26.9803 23.1475 26.3623L23.1514 26.2363C23.1605 25.7164 23.3666 25.2262 23.7354 24.8574L25.8555 22.7373L26.0068 22.6006C26.7914 21.9594 27.9522 22.0084 28.6826 22.7363L29.6299 23.6836C31.7027 22.2795 34.0426 21.309 36.498 20.8369V19.5C36.498 18.397 37.3951 17.5 38.498 17.5H41.498ZM49.4297 30.0508C41.4343 21.5691 26.9793 27.3433 26.999 38.999V39.0098C26.8678 45.9817 33.0181 52.1279 39.9893 52H40L40.5264 51.9912C51.5105 51.5965 57.1293 38.1199 49.4316 30.0527L49.4297 30.0508Z' fill='white' stroke='black'/> <mask id='mask1_11877_1366' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'> <rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/> </mask> <g mask='url(#mask1_11877_1366)'> <path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/> <path d='M38.8213 0.77832C39.8527 0.430375 40.9382 0.408778 41.9727 0.712891L42.1797 0.77832L42.1816 0.779297L69.9854 10.0576L69.9863 10.0586L70.0527 10.0811C72.1286 10.7782 73.4998 12.6559 73.5 14.7471V30.7256C73.5 41.354 70.2211 51.6383 64.249 59.8047L63.6621 60.5879C57.5446 68.3917 49.7931 73.9009 40.5049 75.4902C20.4753 71.8118 7.69465 51.2098 7.50195 31.6611L7.50293 30.7295V14.7471C7.50293 12.7173 8.7897 10.891 10.7568 10.1484L10.9492 10.0801L38.8203 0.779297L38.8213 0.77832Z' fill='#FFCC00' stroke='black'/> </g> <path d='M40.1348 15.7617C40.3996 15.8061 40.6222 15.9785 40.7334 16.2207L40.7793 16.3467V16.3477L40.9023 16.7832C42.1154 20.9595 44.1414 24.0908 46.6133 26.667L47.1309 27.1924L47.2119 27.2852C47.3814 27.5115 47.4206 27.8082 47.3145 28.0742L47.3135 28.0762C47.189 28.3844 46.8959 28.582 46.5635 28.582H43.7637C45.5291 31.9267 47.7321 34.7197 50.2129 37.1709L50.3076 37.2793C50.507 37.5447 50.5533 37.8923 50.4258 38.208L50.4268 38.209C50.2811 38.5702 49.94 38.8037 49.5479 38.8037H45.7617C48.1238 42.9722 50.9803 46.5154 54.1611 49.6572L54.4766 49.9688L54.417 50.0449C54.5245 50.3119 54.5284 50.6137 54.415 50.8945V50.8955C54.2406 51.3244 53.8376 51.6014 53.3701 51.6016H41.8809V57H38.1182V51.6016H26.6299C26.2215 51.6015 25.8605 51.3898 25.6602 51.0479L25.584 50.8936C25.4112 50.4647 25.5082 49.9832 25.8408 49.6562C29.0206 46.5149 31.8762 42.9716 34.2383 38.8037H30.4531C30.0608 38.8037 29.719 38.5705 29.5732 38.209V38.208C29.4282 37.8478 29.5115 37.4445 29.7881 37.1709L30.2822 36.6738C32.5615 34.343 34.5898 31.7027 36.2373 28.582H33.4365C33.1438 28.582 32.8856 28.4294 32.7422 28.1865L32.6875 28.0771C32.5624 27.7696 32.6336 27.4246 32.8682 27.1924H32.8691L33.3867 26.667C35.9446 24.0016 38.0241 20.7426 39.2197 16.3477L39.2207 16.3467L39.2666 16.2207C39.3957 15.9394 39.6753 15.7502 39.999 15.75L40.1348 15.7617Z' fill='black' stroke='black'/> <path d='M40.1348 14.5117C40.3996 14.5561 40.6222 14.7285 40.7334 14.9707L40.7793 15.0967V15.0977L40.9023 15.5332C42.1154 19.7095 44.1414 22.8408 46.6133 25.417L47.1309 25.9424L47.2119 26.0352C47.3814 26.2615 47.4206 26.5582 47.3145 26.8242L47.3135 26.8262C47.189 27.1344 46.8959 27.332 46.5635 27.332H43.7637C45.5291 30.6767 47.7321 33.4697 50.2129 35.9209L50.3076 36.0293C50.507 36.2947 50.5533 36.6423 50.4258 36.958L50.4268 36.959C50.2811 37.3202 49.94 37.5537 49.5479 37.5537H45.7617C48.1238 41.7222 50.9803 45.2654 54.1611 48.4072L54.4766 48.7188L54.417 48.7949C54.5245 49.0619 54.5284 49.3637 54.415 49.6445V49.6455C54.2406 50.0744 53.8376 50.3514 53.3701 50.3516H41.8809V55.75H38.1182V50.3516H26.6299C26.2215 50.3515 25.8605 50.1398 25.6602 49.7979L25.584 49.6436C25.4112 49.2147 25.5082 48.7332 25.8408 48.4062C29.0206 45.2649 31.8762 41.7216 34.2383 37.5537H30.4531C30.0608 37.5537 29.719 37.3205 29.5732 36.959V36.958C29.4282 36.5978 29.5115 36.1945 29.7881 35.9209L30.2822 35.4238C32.5615 33.093 34.5898 30.4527 36.2373 27.332H33.4365C33.1438 27.332 32.8856 27.1794 32.7422 26.9365L32.6875 26.8271C32.5624 26.5196 32.6336 26.1746 32.8682 25.9424H32.8691L33.3867 25.417C35.9446 22.7516 38.0241 19.4926 39.2197 15.0977L39.2207 15.0967L39.2666 14.9707C39.3957 14.6894 39.6753 14.5002 39.999 14.5L40.1348 14.5117Z' fill='white' stroke='black'/> </svg>",
+      "rightsvg": "<svg width='67' height='96' viewBox='0 0 67 96' fill='none' xmlns='http://www.w3.org/2000/svg'> <path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M66.1436 84.9305C59.365 75.7579 53.6122 65.6379 49.4761 54.0213L60.4319 55.7531C60.8712 55.8225 61.2868 55.6279 61.5178 55.2433C61.7498 54.8589 61.7282 54.3993 61.4624 54.0393C56.0936 46.7719 51.6221 38.6725 48.6329 29.2062L57.1853 30.5581C57.4878 30.6059 57.7743 30.473 57.9331 30.2088C58.0908 29.9445 58.0767 29.6273 57.894 29.38C52.2111 21.6858 47.9915 12.6379 46.6953 0.880974C46.6577 0.543935 46.4095 0.282841 46.0767 0.23024C45.745 0.177812 45.4294 0.350164 45.2898 0.658805C40.4325 11.4421 33.6286 18.7471 25.8469 24.3143C25.5968 24.4936 25.4845 24.7903 25.5551 25.0908C25.6258 25.3913 25.8552 25.6057 26.1588 25.6537L34.7122 27.0057C28.9482 35.088 22.1971 41.4134 14.8488 46.6711C14.4848 46.9318 14.3224 47.3631 14.4237 47.7991C14.5248 48.2362 14.8601 48.5495 15.3005 48.6191L26.2554 50.3507C18.7373 60.1252 10.1428 67.9775 0.866952 74.6121C0.357078 74.9749 0.129962 75.5812 0.271238 76.1922C0.41245 76.8037 0.882062 77.2421 1.49946 77.3397L29.8348 81.8187L27.8244 94.537L34.3524 95.5689L36.3637 82.8517L64.699 87.3307C65.3156 87.4282 65.8962 87.1554 66.2213 86.618C66.5454 86.079 66.5155 85.4331 66.1431 84.931L66.1436 84.9305Z' fill='white'/> </svg>",
+      "leftsvgarialabel": "Tree icon",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'><svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#clip0_1853_3355)\"><path d=\"M68.884 30.9415L62.4383 19.7779C61.5173 18.1818 60.0503 16.9742 58.3069 16.3761L47.2371 12.5767C46.9116 12.4515 46.5496 12.5631 46.4373 12.6763C43.3436 14.7879 36.8562 14.7834 33.5483 12.6696C33.306 12.5034 33.0102 12.4796 32.7576 12.5767L21.6883 16.3761C19.9449 16.9742 18.4779 18.1818 17.5569 19.7779L11.1112 30.9415C10.8767 31.3482 11.016 31.8681 11.4227 32.1026L20.6403 37.4231C21.047 37.6576 21.5658 37.5183 21.8003 37.1127L25.0481 31.4887V64.7396C25.0481 66.2519 26.2772 67.481 27.7895 67.481H52.7914C54.3037 67.481 55.5339 66.2519 55.5339 64.7396L55.5337 32.5037L58.1947 37.1129C58.4292 37.5184 58.948 37.6578 59.3547 37.4233L68.5724 32.1027C68.979 31.8683 69.1184 31.3483 68.8839 30.9416L68.884 30.9415ZM28.6383 39.5178C28.6383 33.7057 33.3676 28.9782 39.1778 28.9782C44.9996 28.9782 49.7184 33.7126 49.7184 39.5178C49.7184 40.4042 49.6089 41.2969 49.3831 42.1617C51.3857 43.253 52.1673 45.9567 50.2735 47.8482L45.6971 52.4245C45.3601 52.7638 44.8159 52.7487 44.4917 52.4245L41.7968 49.7296C40.9759 49.9399 40.1006 50.0581 39.1777 50.0581C33.3656 50.0583 28.6381 45.3277 28.6381 39.5176L28.6383 39.5178ZM45.7579 14.9475L45.3728 16.9299C44.8745 19.498 42.6134 21.3613 39.9976 21.3613C37.3818 21.3613 35.1208 19.4979 34.6225 16.9298L34.2305 14.9111C37.5436 16.2402 42.3297 16.3544 45.7575 14.9475L45.7579 14.9475ZM52.7914 65.7797H27.7895C27.2152 65.7797 26.7474 65.313 26.7474 64.7375V60.0602H53.8348V64.7375C53.8348 65.313 53.3672 65.7797 52.7917 65.7797H52.7914ZM49.0724 46.6435V46.6447L45.094 50.6231L42.6505 48.1796C42.6505 48.1785 42.6482 48.1762 42.6471 48.1751L41.1155 46.6435C39.4108 45.007 41.9055 42.1511 43.7572 44.0029L44.4935 44.7404C44.8256 45.0725 45.3633 45.0723 45.6954 44.7404L46.4317 44.0029C48.1672 42.2674 50.8318 44.8872 49.0723 46.6435L49.0724 46.6435ZM34.3883 46.9437C34.6892 46.2869 34.578 45.7233 34.1877 45.3079C32.8824 43.9199 32.9832 40.6262 35.0249 39.2262C35.8567 38.6569 36.5376 36.7132 35.6876 36.026C34.284 34.8931 32.928 34.5895 31.9561 34.4208C33.5775 32.136 36.1658 30.7361 38.9939 30.6779C39.6243 30.6662 40.2387 30.7147 40.871 30.8388C40.564 31.4628 40.389 31.1588 40.7067 31.9818C41.204 33.2788 41.255 34.7232 40.8483 36.052C40.6493 36.7018 41.6549 37.0197 41.8418 36.342C42.0888 35.455 42.961 34.8965 43.8684 35.0438C44.7838 35.1922 45.733 35.0619 46.5736 34.6768C47.4767 36.0513 48.0191 37.7182 48.0191 39.5159C48.0191 40.286 47.9239 41.011 47.7427 41.7203C47.3624 41.7203 47.0295 41.7639 46.5566 41.931C46.5555 41.931 46.5555 41.9322 46.5555 41.9322C45.944 42.1597 45.531 42.4986 45.0953 42.9381C44.9631 42.8059 44.6491 42.4751 44.2332 42.2255C41.0015 40.2486 36.6526 44.5831 39.9138 47.8453L40.3488 48.2803C39.9682 48.3307 39.5787 48.3573 39.1775 48.3573C37.4339 48.3575 35.7717 47.8441 34.3881 46.9437L34.3883 46.9437Z\" fill=\"#005F20\"/></g><rect x=\"0.5\" y=\"0.5\" width=\"79\" height=\"79\" rx=\"11.5\" stroke=\"#005F20\"/><defs><clipPath id=\"clip0_1853_3355\"><rect width=\"58\" height=\"58\" fill=\"white\" transform=\"translate(11 11)\"/></clipPath></defs></svg></div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Breaking Even with Linear Functions</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>You've Applied Systems Of Linear Equations In Business!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You helped Mei find the break-even point to determine when her business is profitable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You showed that you understand the relationships between costs, revenue, and profit</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>You analyzed fixed costs, variable costs, price, and quantities</li></ul></div>"
+    },
+    "glossary": {
+      "optimal-spacing": {
+        "word": "Optimal Spacing",
+        "definition": "<strong className=\"text-[#0055B2]\">Optimal spacing</strong> is the ideal distance between trees (generally 15–20 ft) that maximizes timber quality while maintaining suitable forest density for sustainable growth and carbon storage."
+      },
+      "rotation-cycle": {
+        "word": "rotation cycles",
+        "definition": "<strong className=\"text-[#0055B2]\">Rotation cycles</strong> are the planned intervals between planting and harvesting, with species-specific optimal periods that determine both economic returns and carbon storage potential."
+      },
+      "forest-density": {
+        "word": "Forest Density",
+        "definition": "<strong className=\"text-[#0055B2]\">Forest density</strong> refers to the number of trees per acre, calculated using the formula Trees/acre, which directly impacts both timber quality and carbon storage capacity."
+      },
+      "lumber": {
+        "word": "Lumber",
+        "definition": "<strong className=\"text-[#0055B2]\">Lumber</strong> refers to wood that's been processed for use as a building material — wood that has been milled and cut into boards or planks."
+      }
+    },
+    "common": {
+      "ashford": "Dr. Ashford",
+      "julian": "Julian",
+      "daniela": "Daniela",
+      "ashford_description": "Caucasian female with glasses and field vest on a checked shirt, holding a tablet.",
+      "julian_description": "African American policy advisor in business-casual attire and curly dark hair.",
+      "daniela_description": "Hispanic female with gray hair in a light brown coat, wearing a wooden pendant and purple spectacles.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Modern forest laboratory with glass architecture nestled among tall pine trees, connected by a wooden boardwalk through misty woods.",
+      "bg2_description": "Circular forest data center with wraparound displays showing tree analysis and ecological metrics, surrounding a miniature forest model.",
+      "bg3_description": "Forest research station with glass walls and observation deck, field monitoring equipment set up among sun-dappled pine trees.",
+      "bg4_description": "Wood-paneled forest laboratory exhibit with illuminated ecological displays, specimen cases, and panoramic windows overlooking the pine forest.",
+      "bg5_description": "Forest monitoring center with interactive displays, digital forest visualizations, and central growth model, immersed in a blue-tinted pine forest view."
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "forest-architect": "STEAM Quest - Forest Architect"
+  }
+}

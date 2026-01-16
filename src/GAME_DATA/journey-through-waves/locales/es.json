@@ -1,0 +1,472 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de inicio",
+    "scene_2": "Pantalla de bienvenida",
+    "scene_3": "Introducción del problema",
+    "scene_3x": "Visualización SOHCAHTOA",
+    "scene_4": "Visualizador de círculo a onda",
+    "scene_5": "Combinando diferentes notas",
+    "scene_5x": "Explorador de Proporciones de Frecuencia",
+    "scene_6": "Generador de series armónicas",
+    "scene_7": "Introducción a la frecuencia de pulso",
+    "scene_8": "Demostración de frecuencia de pulso",
+    "scene_9": "Diferentes ondas sonoras",
+    "scene_10": "Visualización de Fourier",
+    "scene_11": "Conclusión",
+    "scene_12": "Pantalla final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Del Triángulo al Sonido</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>La Geometría de la Música</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Explorarás trigonometría, armónicos y patrones de onda para ver cómo las formas simples crean sonidos complejos. Al modelar estas vibraciones, descubrirás por qué ciertas notas se sienten armoniosas y cómo las matemáticas pueden dar forma a las melodías y ritmos que escuchamos todos los días.</div>",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_F3_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Bienvenidos a la Matemática de la Música</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>En este icónico estudio, donde creamos la banda sonora de nuestras vidas, surge una pregunta: ¿cómo se combinan las ondas simples para crear sonidos ricos y complejos? </br>Acompáñanos, a Sophie y a mí, mientras descubrimos la naturaleza matemática de la música—donde la trigonometría, los armónicos y los patrones de onda revelan las estructuras ocultas detrás de cada sonido que escuchamos.</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_F4_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sabes, Sophie... llevo meses grabando pistas aquí, pero nunca he entendido bien esas formas de onda en la pantalla. <br>Algunas fluyen como el agua, otras tienen picos y tartamudean. <br>¿Hay alguna historia detrás de estas formas?</div>",
+      "S3_D2_F5_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa fue una buena toma, James. ¿Esos patrones que ves? Son básicamente la presión sonora de tu guitarra graficada a lo largo del tiempo. Literalmente estás viendo los picos y valles del aire vibrante.</div>",
+      "S3_D3_F6_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Las vibraciones de mi canción? ¡Genial! Cuéntame más.</div>",
+      "S3_D4_F7_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ya sabes que soy un friki de la ingeniería de sonido. ¿Quieres que me meta en detalles?</div>",
+      "S3_D5_F8_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí, friki! Me encantaría entender mejor esto.</div>"
+    },
+    "S3X": {
+      "S3X_D0_F9_C9": {
+        "title": "Visualizador SOHCAHTOA",
+        "about": {
+          "heading": "Entendiendo SOHCAHTOA",
+          "body": "<div><p>SOHCAHTOA proporciona las bases para comprender cómo los triángulos crean las matemáticas detrás de cada onda de sonido:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>SOH:</strong> <strong>Seno = Opuesto / Hipotenusa</li><li><strong>CAH:</strong> <strong>Coseno = Adyacente / Hipotenusa</li><li><strong>TOA:</strong> <strong>Tangente = Opuesto / Adyacente</li></ul><p>Estas simples proporciones son los componentes básicos de toda ingeniería de sonido:</p><ul style='list-style-type: disc; <li>Toda nota musical comienza con estas relaciones triangulares</li><li>La síntesis de audio digital utiliza las funciones seno y coseno derivadas de estas proporciones</li><li>Las suaves curvas de las ondas sonoras provienen de triángulos giratorios</li><li>Comprender estos conceptos básicos te permitirá comprender las matemáticas de la producción musical</li></ul><p>En este interactivo, podrás:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Ver exactamente qué lados de un triángulo compara cada función</li><li>Comprender cómo las proporciones traducen los ángulos en números</li><li>Descubrir la base geométrica de las matemáticas de las ondas sonoras</li><li>Prepararte para comprender cómo los triángulos se convierten en ondas</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad",
+          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Selección de Función:</strong> Usa el menú desplegable para elegir entre Seno (SOH), Coseno (CAH), y Tangente (TOA)</li><li><strong>Triángulo Codificado por Colores:</strong> Observa cómo los lados del triángulo cambian de color para mostrarte exactamente qué partes compara cada función:<ul style='list-style-type: circle; padding-left: 30px;'><li><strong>Seno:</strong> Resalta opuesto e hipotenusa</li><li><strong>Coseno:</strong> Resalta adyacente e hipotenusa</li><li><strong>Tangente:</strong> Resalta opuesto y adyacente</li></ul></li><li><strong>Visualización de Fórmula en Vivo:</strong> Ve cómo se actualiza la relación matemática con notación de fracción</li><li><strong>Etiquetas de Lados:</strong> Las etiquetas claras te muestran cuál lado es cuál en el triángulo</li></ul><p><strong>Cosas a Observar:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Nota cómo cada función se enfoca en diferentes lados del triángulo</li><li>Ve cómo el mismo triángulo nos da tres razones diferentes</li><li>Observa que cada función responde la pregunta: \"¿Qué lados comparo?\"</li><li>Entiende que estas razones se convertirán en los patrones de onda que ves en software de música</li><li>Conecta las fórmulas abstractas (SOH, CAH, TOA) con las relaciones visuales del triángulo</li><li>Reconoce que seno y coseno son los más importantes para las ondas sonoras</li></ul></div>"
+        },
+        "ariaLabel": "Visualización de triángulo SOHCAHTOA y ondas",
+        "translations": {
+          "angle": "Ángulo",
+          "opposite": "Opuesto",
+          "adjacent": "Adyacente",
+          "hypotenuse": "Hipotenusa",
+          "sine": "Seno",
+          "cosine": "Coseno",
+          "tangent": "Tangente",
+          "wave": "Onda",
+          "sineFormula": "sen(θ) = Opuesto / Hipotenusa",
+          "cosineFormula": "cos(θ) = Adyacente / Hipotenusa",
+          "tangentFormula": "tan(θ) = Opuesto / Adyacente",
+          "selectFunction": "Seleccionar Función Trigonométrica:"
+        }
+      },
+      "S3X_D1_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bien, empecemos con algo fundamental: una onda sinusoidal básica. ¿Recuerdan el seno y el coseno del instituto? <no-glossary>¿SOHCAHTOA?<no-glossary></div>",
+      "S3X_D2_F10_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Vagamente. Algo sobre triángulos, ¿verdad? Opuesto sobre hipotenusa...</div>",
+      "S3X_D3_F11_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto, aquí es donde entran en juego el seno y el coseno. <ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>El seno</strong> compara el lado opuesto con la hipotenusa</strong></li><li><strong>El coseno</strong> compara el lado adyacente con la hipotenusa</strong></li></ul><p>Usamos estas razones para convertir los ángulos en números, y esos números forman las curvas que se ven en pantalla: las formas de onda.</p></div>",
+      "S3X_D4_F12_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Espera... ¿así que esas ondas suaves y circulares en mi pantalla están hechas de triángulos?</div>",
+      "S3X_D5_F13_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. La música que haces está llena de triángulos invisibles que giran en círculos y dan forma a cada sonido. Espera, déjame mostrarte algo que te dejará boquiabierto.</div>"
+    },
+    "S4": {
+      "S4_D0_F12_C9": {
+        "title": "Visualizador de Círculo a Onda",
+        "about": {
+          "heading": "Círculo Unitario y Generación de Ondas",
+          "body": "<div><p>El círculo unitario y las funciones trigonométricas crean la base matemática para comprender las ondas sonoras:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Un punto que se mueve alrededor de un círculo genera ondas cuando rastreamos su posición vertical u horizontal</li><li>El círculo unitario tiene un radio de exactamente una unidad, lo que hace que los cálculos sean elegantes y precisos</li><li>Las ondas seno representan la posición vertical (coordenada y) de un punto en el círculo</li><li>Las ondas coseno representan la posición horizontal (coordenada x) de un punto</li><li>Una rotación completa equivale a un ciclo completo de onda (<span style='font-family: Besley;'>2π</span> radianes o 360°)</li><li>La relación entre grados y radianes es fundamental: <span style='font-family: Besley;'>2π</span> radianes = 360°</li></ul><p>Las posiciones clave en el círculo unitario incluyen:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>0° (0): Posición inicial (seno = 0, coseno = 1)</li><li>45° (<span style='font-family: Besley;'>π</span>&nbsp;∕&nbsp;4): Posición de valores iguales (seno = coseno = 1&nbsp;∕&nbsp;√2)</li><li>90° (<span style='font-family: Besley;'>π</span>&nbsp;∕&nbsp;2): Valor máximo del seno (seno = 1, coseno = 0)</li><li>180° (<span style='font-family: Besley;'>π</span>): Valor negativo del coseno (seno = 0, coseno = -1)</li><li>270° (<span style='font-family: Besley;'>3π</span>&nbsp;∕&nbsp;2): Valor mínimo del seno (seno = -1, coseno = 0)</li><li>360° (<span style='font-family: Besley;'>2π</span>): Retorno a la posición inicial (seno = 0, coseno = 1)</li></ul><p>En esta experiencia interactiva, usted:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observará cómo el movimiento circular genera patrones de onda</li><li>Conectará la geometría con las funciones periódicas a través de representaciones visuales</li><li>Comprenderá la relación entre grados y radianes</li><li>Visualizará la base matemática fundamental de las ondas sonoras</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad",
+          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Iniciar/Pausar Animación:</strong> Use el botón de reproducir/pausar para controlar el movimiento del punto alrededor del círculo</li><li><strong>Control de Ángulo:</strong> El control deslizante de ángulo siempre está visible pero solo se vuelve accesible cuando la animación está en pausa</li><li><strong>Control Manual:</strong> Cuando esté en pausa, use el control deslizante de ángulo para establecer el punto en ángulos específicos y explorar valores exactos</li><li><strong>Seguimiento Visual:</strong> Siga los indicadores de colores que muestran cómo los puntos del círculo se relacionan con las alturas de onda:<ul style='list-style-type: circle; padding-left: 30px;'><li><span style='color: #EB0000;'>Rojo</span>: líneas/puntos que muestran los valores del seno (posición vertical)</li><li><span style='color: #006BE0;'>Azul</span>: líneas/puntos que muestran los valores del coseno (posición horizontal)</li></ul></li><li><strong>Visualización de Valores:</strong> Los valores exactos del seno y coseno se muestran en la parte inferior</li></ul><p><strong>Cosas para Observar:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Observe cómo la altura de la onda corresponde a la posición en el círculo</li><li>Compare una rotación completa (360° o <span style='font-family: Besley;'>2π</span> radianes) con un ciclo de onda completo</li><li>Encuentre los puntos donde el seno y el coseno alcanzan su máximo (1), mínimo (-1) y cero</li><li>Observe cómo las ondas seno y coseno son idénticas pero desplazadas 90° (<span style='font-family: Besley;'>π</span>&nbsp;∕&nbsp;2 radianes)</li><li>Examine ángulos especiales (0°, 30°, 45°, 60°, 90°, etc.) y sus valores exactos</li><li>Comprenda la interpretación geométrica del círculo unitario en las funciones trigonométricas</li><li>Vea cómo el radio del círculo determina la amplitud (altura) de la onda</li><li>Pause la animación para explorar ángulos específicos y sus valores correspondientes de seno/coseno</li></ul></div>"
+        },
+        "ariaLabel": "Visualización del círculo unitario de las funciones seno y coseno",
+        "translations": {
+          "animationStartMsg": "La animación está en reproducción",
+          "animationStopMsg": "La animación está en pausa",
+          "play": "Reproducir",
+          "pause": "Pausar",
+          "angle": "Ángulo",
+          "speed": "Velocidad"
+        }
+      },
+      "S4_D1_F12_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Ves este punto moviéndose alrededor del círculo? Observa lo que sucede cuando rastreamos su altura...</div>",
+      "S4_D2_F13_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Está dibujando una onda, igual que las de mi grabación!</div>",
+      "S4_D3_F14_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es una onda sinusoidal, el componente fundamental del sonido. La altura de ese punto, al moverse alrededor del círculo, crea el patrón de onda. Probemos algo...</div>",
+      "S4_D4_F15_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Una pregunta rápida... <br />¿Cuál es el valor del seno a 120 grados?</div>",
+      "S4_D5_F16_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, a 120 grados, estamos en el segundo cuadrante... y al medir la altura... ¡es raíz de tres sobre 2!</div>",
+      "S4_D6_F17_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Fíjate en algo especial de este círculo: tiene un radio de exactamente una unidad. A esto lo llamamos círculo unitario y nos brinda una forma muy elegante de medir ángulos.</div>",
+      "S4_D7_F18_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué quieres decir? ¿No estamos usando solo grados?</div>",
+      "S4_D8_F19_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, en lugar de grados, los matemáticos y músicos a menudo usan radianes. Mira el arco verde que estoy trazando en el círculo unitario de la izquierda - si medimos su longitud a lo largo del círculo, eso nos da el ángulo en radianes.</div>",
+      "S4_D9_F20_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Como el radio es una unidad... ¿entonces la longitud del arco es en realidad el ángulo?</div>",
+      "S4_D10_F21_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Entonces, cuando recorremos la mitad del círculo (180 grados), la longitud del arco es <span style='font-family: Besley;'>π</span>, ya que la circunferencia del círculo completo es <span style='font-family: Besley;'>2π</span> veces el radio. Por eso decimos que 180 grados equivalen a <span style='font-family: Besley;'>π</span> radianes.</div>",
+      "S4_D11_F22_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es genial. Entonces, un círculo completo sería... <br /> ¿Cuántos radianes completan un ciclo de onda completo?</div>",
+      "S4_D12_F23_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Deben ser <span style='font-family: Besley;'>2π</span> radianes! Una vuelta completa alrededor del círculo unitario: ¡ahí es cuando nuestro patrón de onda también se repite!</div>",
+      "S4_D13_F24_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Estás viendo por qué los radianes son tan naturales para describir ondas. Cada ciclo completo de vibración de la cuerda de tu guitarra se corresponde perfectamente con una vuelta alrededor de este círculo.</div>",
+      "S4_D14_F25_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Una última cosa: observa qué sucede con la altura de la onda a medida que nuestro punto se mueve... <br /> ¿Con qué ángulo (en grados) la onda sinusoidal alcanza su valor máximo de 1?</div>",
+      "S4_D15_F26_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ah, ya entiendo: ¡son 90 grados! Ahí es cuando el punto llega a la parte superior del círculo.</div>",
+      "S4_D16_F27_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente! Ya le estás pillando el truco. Ahora puedes ver cómo estas proporciones triangulares básicas (seno y coseno) crean estos hermosos patrones de ondas mediante el movimiento circular.</div>",
+      "S4_D17_F28_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Es increíble... Nunca imaginé que las matemáticas que aprendí en geometría describieran las ondas sonoras. ¿Pero sabes qué me pregunto? ¿Por qué algunas combinaciones de notas suenan bien juntas y otras no?</div>",
+      "S4_D18_F29_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Es una pregunta fascinante! Y, aunque no lo creas, la respuesta se remonta a miles de años atrás, a un antiguo matemático griego llamado Pitágoras.</div>",
+      "S4_D19_F30_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Otra vez el hombre del triángulo? ¿Qué tenía que ver con la música?</div>",
+      "S4_D20_F31_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Déjame mostrarte algo genial sobre la longitud de las cuerdas y las armonías que descubrió. Conectará todo lo que acabamos de aprender sobre las ondas con por qué ciertas notas suenan bien juntas...</div>"
+    },
+    "S5": {
+      "S5_D1_F35_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pitágoras creía que el cosmos estaba hecho de matemáticas—y que las armonías en las matemáticas producían armonías en la música.</div>",
+      "S5_D2_F36_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Suena bastante profundo. ¿Qué significa eso exactamente?</div>",
+      "S5_D3_F37_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Pitágoras es conocido por descubrir que los intervalos musicales agradables o consonantes se crean por razones simples de números enteros. Por ejemplo, si una cuerda vibra dos veces más rápido que otra, obtienes una razón <strong>2:1</strong>. Para nuestros oídos, eso es una octava perfecta—la misma nota, solo más alta.</div>",
+      "S5_D4_F38_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Quieres decir que cuando toco una octava, las frecuencias musicales son el doble una de la otra?</div>",
+      "S5_D5_F39_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exacto! Todos los tonos de una escala pueden construirse por razones matemáticas simples. Aquí, déjame mostrarte.</div>"
+    },
+    "S5X": {
+      "S5X_D0_F39_C9": {
+        "title": "Explorador de Proporciones de Frecuencia",
+        "about": {
+          "heading": "Entendiendo los Intervalos Musicales",
+          "body": "<div><p>Los intervalos musicales se crean por proporciones específicas de frecuencia entre dos notas:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Octava (2:1):</strong> El intervalo más fundamental, donde una frecuencia es exactamente el doble de la otra</li><li><strong>Quinta Perfecta (3:2):</strong> Un intervalo fuerte y consonante que forma la base de muchas escalas musicales</li><li><strong>Tritono (√2:1):</strong> Un intervalo disonante con una proporción matemática compleja</li></ul><p>Estas proporciones crean la base de la armonía musical y ayudan a explicar por qué ciertas combinaciones de notas suenan agradables mientras que otras crean tensión.</p></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar el Interactivo",
+          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Botones Preestablecidos:</strong> Haz clic en los botones de intervalo (Octava, Quinta Perfecta, Tritono) para escuchar diferentes proporciones de frecuencia</li><li><strong>Deslizadores de Frecuencia:</strong> Usa los deslizadores para ajustar manualmente las frecuencias y explorar proporciones personalizadas</li><li><strong>Botón de Reproducción:</strong> Haz clic para escuchar las frecuencias combinadas</li><li><strong>Pantalla de Proporción:</strong> Ve la proporción matemática entre las dos frecuencias</li></ul><p>Cosas a Observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Nota cómo las proporciones simples (como 2:1) suenan más consonantes</li><li>Observa cómo las proporciones complejas crean más tensión y disonancia</li><li>Experimenta con diferentes combinaciones de frecuencia para encontrar tus propios 'puntos dulces'</li><li>Escucha la relación matemática entre las proporciones de frecuencia y la armonía musical</li></ul></div>"
+        },
+        "translations": {
+          "play": "Reproducir",
+          "stop": "Detener",
+          "firstFrequency": "Primera Frecuencia",
+          "secondFrequency": "Segunda Frecuencia",
+          "ratio": "Proporción",
+          "playSounds": "Reproducir Sonidos",
+          "stopSounds": "Detener Sonidos",
+          "ratios": {
+            "unison": {
+              "name": "1:1 Unísono",
+              "description": "Consonancia perfecta"
+            },
+            "minorSecond": {
+              "name": "16:15 Segunda Menor",
+              "description": "Disonancia aguda"
+            },
+            "majorSecond": {
+              "name": "9:8 Segunda Mayor",
+              "description": "Tono completo"
+            },
+            "minorThird": {
+              "name": "6:5 Tercera Menor",
+              "description": "Tristeza dulce"
+            },
+            "majorThird": {
+              "name": "5:4 Tercera Mayor",
+              "description": "Felicidad brillante"
+            },
+            "perfectFourth": {
+              "name": "4:3 Cuarta Perfecta",
+              "description": "Intervalo estable"
+            },
+            "tritone": {
+              "name": "√2:1 Tritono",
+              "description": "Cuarta aumentada"
+            },
+            "perfectFifth": {
+              "name": "3:2 Quinta Perfecta",
+              "description": "Armonía pura"
+            },
+            "minorSeventh": {
+              "name": "16:9 Séptima Menor",
+              "description": "Resolución tensa"
+            },
+            "majorSeventh": {
+              "name": "15:8 Séptima Mayor",
+              "description": "Nota de conducción"
+            },
+            "octave": {
+              "name": "2:1 Octava",
+              "description": "Misma nota más alta"
+            }
+          }
+        }
+      },
+      "S5X_D1_F40_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí podemos tocar dos frecuencias diferentes y ver su proporción. Ahora mismo, la primera frecuencia está configurada en <strong>220 Hz</strong>. Empecemos con esa armonía fundamental. Adelante, presiona el botón para la <strong>Octava 2:1</strong>. Eso establecerá el segundo sonido en <strong>440 Hz</strong>—exactamente el doble de la frecuencia de la primera cuerda.</div>",
+      "S5X_D2_F41_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Vaya! Si presiono la cuerda de mi guitarra justo en el medio para que sea la mitad de larga, el sonido sube el doble - ¡esa es la octava!</div>",
+      "S5X_D3_F42_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Prueba otra simple. Haz clic en la <b>Quinta Perfecta 3:2</b> y luego presiona el botón Play para escucharla. Es una de las armonías más poderosas en la música.</div>",
+      "S5X_D4_F43_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! Eso suena tan fuerte y puro. Se siente... resuelto.</div>",
+      "S5X_D5_F44_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Ahora bien, ¿qué ocurre cuando la proporción no es tan precisa? Busca el <strong>tritono</strong>. Su proporción es la <strong><no-glossary>raíz cuadrada</no-glossary> de 2</strong>; no es una fracción simple. Este intervalo también se conoce como una <strong>cuarta aumentada</strong>.</div>",
+      "S5X_D6_F45_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! Eso es realmente discordante y tenso. Se siente como que necesita ir a algún lugar.</div>",
+      "S5X_D7_F46_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es <strong>disonancia</strong>. Se crea por proporciones matemáticas más complejas. Ahora viene la parte divertida. Usa los deslizadores para ajustar las frecuencias tú mismo. Trata de encontrar las <strong>combinaciones que suenan mejor</strong> y escucha lo que pasa cuando te alejas de ellas.</div>",
+      "S5X_D8_F47_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Entonces toda la armonía musical está construida sobre estas proporciones?</div>",
+      "S5X_D9_F48_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>De alguna manera, sí. Aunque hay diferentes sistemas de afinación, en todo el mundo, la gente comparte la idea de las <strong>octavas</strong> y generalmente percibe la <strong>consonancia</strong> de manera similar. Pero se complica más, porque los sonidos musicales en realidad están hechos de <strong>múltiples frecuencias vibrando juntas</strong>.</div>",
+      "S5X_D10_F49_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué quieres decir?</div>",
+      "S5X_D11_F50_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Déjame mostrarte algo alucinante. Vamos a ver y escuchar cómo las <strong>ondas puras se combinan</strong> para crear los ricos sonidos de instrumentos complejos.</div>"
+    },
+    "S6": {
+      "S6_D0_F44_C9": {
+        "title": "Constructor de Serie Armónica",
+        "about": {
+          "heading": "Estructura Armónica del Sonido",
+          "body": "<div><p>Los tonos musicales se crean combinando múltiples frecuencias:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>La frecuencia fundamental (440 Hz en esta interacción) determina el tono básico que escuchamos</li><li>Los armónicos (sobretonos) son múltiplos enteros de la frecuencia fundamental</li><li>Estos siguen un patrón matemático preciso:<ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li><span style='display: inline-flex; align-items: center;'><span style='color: #e0002b'>Primer armónico&nbsp;</span> (<svg width='16' height='16' viewBox='0 0 16 16' style='vertical-align: middle'><polygon points='2,12 8,2 14,12' fill='#e0002b'/></svg>)</span> = frecuencia fundamental (440 Hz)</li><li><span style='display: inline-flex; align-items: center;'><span style='color: #008217'>Segundo armónico&nbsp;</span> (<svg width='16' height='16' viewBox='0 0 16 16' style='vertical-align: middle'><rect x='3' y='3' width='10' height='10' fill='#008217'/></svg>)</span> = 2× fundamental (880 Hz, una octava más alta)</li><li><span style='display: inline-flex; align-items: center;'><span style='color: #8e24aa'>Tercer armónico&nbsp;</span> (<svg width='16' height='16' viewBox='0 0 16 16' style='vertical-align: middle'><polygon points='8,1 12,8 8,15 4,8' fill='#8e24aa'/></svg>)</span> = 3× fundamental (1320 Hz)</li></ul></li></ul><p>Diferentes instrumentos producen combinaciones únicas de armónicos:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Las ondas cuadradas contienen solo armónicos impares (1st, 3rd, 5th, etc.)</li><li>Las ondas de sierra contienen todos los armónicos con amplitudes que disminuyen a medida que aumenta la frecuencia</li><li>El timbre distintivo de cada instrumento proviene de su mezcla armónica específica</li></ul><p>La forma de la onda refleja directamente el contenido armónico:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Las ondas sinusoidales puras tienen solo la frecuencia fundamental</li><li>Agregar armónicos crea formas de onda más complejas</li><li>El patrón y la intensidad específicos de los armónicos crean sonidos instrumentales reconocibles</li></ul><p>En esta interacción, tú:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Explorarás cómo los armónicos individuales se combinan para crear sonidos complejos</li><li>Ajustarás la amplitud de diferentes componentes de frecuencia</li><li>Observarás cómo las combinaciones armónicas afectan la forma de la onda</li><li>Conectarás proporciones matemáticas con cualidades tonales musicales</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad",
+          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Selección de tipo de onda:</strong> Elige entre los ajustes preestablecidos de onda Personalizada, Cuadrada y de Sierra mediante el menú desplegable</li><li><strong>Botón de reproducción:</strong> Haz clic para escuchar los armónicos combinados; vuelve a hacer clic para detener el sonido</li><li><strong>Visualización de la forma de onda:</strong> Observa cómo cambia la onda combinada <span style='display: inline-flex; align-items: center'>(<span style='color: #0061fc'>azul</span>&nbsp;<svg width='16' height='16' viewBox='0 0 16 16' style='vertical-align: middle'><circle cx='8' cy='8' r='5' fill='#0061fc' /></svg>)</span> a medida que ajustas los armónicos individuales</li><li><strong>Deslizadores de armónicos:</strong> Ajusta la intensidad de cada componente armónico usando estos deslizadores:<ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li>Primer armónico (fundamental a 440 Hz)</li><li>Segundo armónico (880 Hz)</li><li>Tercer armónico (1320 Hz)</li></ul></li></ul><p>Cosas que observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Comienza solo con la fundamental y agrega gradualmente armónicos para escuchar cómo el sonido se enriquece</li><li>Observa cómo cambia la forma de la onda al ajustar diferentes armónicos</li><li>Compara los tipos de ondas preestablecidos (Personalizada, Cuadrada, Sierra) y sus sonidos característicos</li><li>Observa cómo las ondas cuadradas enfatizan los armónicos impares, creando un sonido hueco</li><li>Ve cómo las ondas de sierra usan todos los armónicos, creando un sonido más brillante</li><li>Intenta crear tu propio sonido instrumental personalizado encontrando combinaciones armónicas agradables</li><li>Nota cómo la onda combinada <span style='display: inline-flex; align-items: center'>(<span style='color: #0061fc'>azul</span>&nbsp;<svg width='16' height='16' viewBox='0 0 16 16' style='vertical-align: middle'><circle cx='8' cy='8' r='6' fill='#0061fc' /></svg>)</span> es la suma de todas las ondas armónicas individuales</li></ul></div>"
+        },
+        "translations": {
+          "ariaLabel": "Gráfico del constructor de serie armónica",
+          "xAxisLabel": "Tiempo (s)",
+          "yAxisLabel": "Amplitud",
+          "combinedWaveLabel": "Onda combinada",
+          "showCombinedWaveLabel": "Mostrar onda combinada",
+          "play": "Reproducir",
+          "pause": "Pausar",
+          "waveTypeLabel": "Tipo de Onda",
+          "harmonic1": "Armónico 1",
+          "harmonic2": "Armónico 2",
+          "harmonic3": "Armónico 3",
+          "customWave": "Onda Personalizada",
+          "squareWave": "Onda Cuadrada",
+          "sawtoothWave": "Onda de Sierra"
+        }
+      },
+      "S6_D1_F44_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Ves estas ondas? La primera, la llamamos fundamental, es tu tono básico. Escúchala sola...</div>",
+      "S6_D2_F45_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso suena... ¿casi demasiado puro? No parece un instrumento real en absoluto.</div>",
+      "S6_D3_F46_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Bien! Antes de analizar más armónicos, déjame preguntarte algo... <br /> ¿Cuál es la relación de frecuencia entre la fundamental y su segundo armónico?</div>",
+      "S6_D4_F47_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Veo que la fundamental es de 440 Hz y el segundo armónico es de... 880 Hz. Igual que la cuerda de la guitarra: ¡es doble! Así que es 1:2.</div>",
+      "S6_D5_F48_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Perfecto! Al igual que en nuestro experimento con la cuerda de la guitarra: al reducir la longitud a la mitad, duplicamos la frecuencia. Ahora veamos el tercer armónico... <br /> Si la frecuencia fundamental es de 440 Hz, ¿cuál es la frecuencia del tercer armónico?</div>",
+      "S6_D6_F49_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bien, si cada armónico multiplica la fundamental... el tercer armónico sería... 440 por 3... ¡eso es 1320 Hz!</div>",
+      "S6_D7_F50_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Genial! Ahora reproduce y escucha las ondas combinadas...</div>",
+      "S6_D8_F51_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! ¡Ahora empieza a sonar como un instrumento de verdad! Las ondas se combinan para crear algo más rico.</div>",
+      "S6_D9_F52_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto es lo que hace único a cada instrumento: su mezcla específica de armónicos. Escucha cómo cambia el sonido al ajustar estos controles deslizantes...</div>",
+      "S6_D10_F53_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cada una de estas combinaciones crea un timbre diferente; por eso un piano y una guitarra pueden tocar la misma nota pero sonar completamente diferentes.</div>",
+      "S6_D11_F54_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, cuando toco la guitarra, ¿no creo solo una onda, sino toda esta familia de ondas trabajando juntas?</div>",
+      "S6_D12_F55_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Y tal como descubrió Pitágoras con sus cuerdas, estos armónicos siguen proporciones matemáticas perfectas. Todos son múltiplos enteros de tu frecuencia fundamental.</div>"
+    },
+    "S7": {
+      "S7_D1_F58_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Algo no cuadra con esta cuerda... está casi afinada, pero no del todo.</div>",
+      "S7_D2_F59_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡De hecho, es una sincronización perfecta! ¿Recuerdan cómo veíamos la combinación de ondas? Cuando dos notas tienen casi la misma altura, pero no exactamente, ocurre algo realmente interesante.</div>",
+      "S7_D3_F60_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Sí? ¿A qué te refieres?</div>",
+      "S7_D4_F61_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Escuchen atentamente cuando toco estos dos tonos juntos...</div>"
+    },
+    "S8": {
+      "S8_D0_F62_C9": {
+        "title": "Demostración de Frecuencia de Batido",
+        "about": {
+          "heading": "Interferencia de Ondas y Batidos",
+          "body": "<div><p>Cuando dos frecuencias similares interactúan, crean patrones de pulso fascinantes:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>La frecuencia de pulso es igual a la diferencia entre las dos frecuencias de origen</li><li>Ejemplo: 440 Hz y 444 Hz producen pulsos a 4 Hz (4 pulsos por segundo)</li><li>Estos pulsos surgen de patrones de interferencia constructivos y destructivos</li><li>Las ondas se refuerzan y cancelan alternativamente al entrar y salir de fase</li></ul><p>El patrón de interferencia crea un fenómeno de audio reconocible:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Cuando las ondas se alinean (en fase), sus amplitudes se suman (constructivo interferencia)</li><li>Cuando las ondas se oponen (desfasadas), sus amplitudes se restan (interferencia destructiva)</li><li>La modulación de amplitud resultante crea el característico efecto pulsante o 'wah-wah'</li><li>A medida que disminuye la diferencia de frecuencia, los pulsos se vuelven más lentos y más notorios</li><li>Cuando las frecuencias coinciden exactamente, los pulsos desaparecen por completo</li></ul><p>Este principio tiene aplicaciones prácticas en:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Afinación de instrumentos musicales (cuando están perfectamente afinados, los pulsos desaparecen)</li><li>Ingeniería de audio (alineación de fase)</li><li>Síntesis y diseño de sonido</li><li>Medición científica de frecuencias</li></ul><p>En este interactivo, usted:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Visualiza cómo interactúan dos frecuencias para crear patrones de ritmo</li><li>Calcula y verifica frecuencias de ritmo mediante retroalimentación visual y auditiva</li><li>Observa las matemáticas ondulatorias de la interferencia constructiva y destructiva</li><li>Experimenta cómo pequeñas diferencias de frecuencia crean patrones rítmicos audibles</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactividad",
+          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Botón de Reproducción:</strong> Haga clic para escuchar las frecuencias combinadas y comenzar la visualización</li><li><strong>Controles de Frecuencia:</strong> Ajuste cada frecuencia de forma independiente usando los deslizadores:<ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li>Deslizador de Frecuencia 1: Controla la Frecuencia 1 (inicialmente configurada en 440 Hz)</li><li>Deslizador de Frecuencia 2: Controla la Frecuencia 2 (inicialmente configurada en 444 Hz)</li></ul></li><li><strong>Visualización de Onda:</strong> Observe las ondas individuales y combinadas:<ul style='list-style-type: disc; margin: 5px 0px 10px 10px; padding-left: 20px;'><li>Superior (<span style='color: #eb0000'>rojo</span>): Onda de la Frecuencia 1</li><li>Medio (<span style='color: #006be0'>azul</span>): Onda de la Frecuencia 2</li><li>Inferior (<span style='color: #8e24aa'>morado</span>): Onda combinada que muestra los patrones de interferencia</li></ul></li><li><strong>Contador de Batidos:</strong> Vea la frecuencia de batido calculada (diferencia entre las dos frecuencias)</li></ul><p>Cosas para Observar:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Pruebe frecuencias cercanas (por ejemplo, 440 Hz y 442 Hz) y escuche los batidos lentos</li><li>Aumente la diferencia de frecuencia y observe cómo los batidos se vuelven más rápidos</li><li>Busque patrones de interferencia constructiva (donde la onda combinada tiene amplitud máxima)</li><li>Busque patrones de interferencia destructiva (donde la onda combinada tiene amplitud mínima)</li><li>Note cómo la onda combinada muestra un patrón envolvente regular que coincide con la frecuencia de batido</li><li>Intente encontrar el momento en que ambas frecuencias coincidan exactamente y los batidos desaparezcan</li><li>Experimente con diferentes rangos de frecuencia para escuchar cómo suenan los batidos en distintos registros</li><li>Use las frecuencias de batido para igualar con precisión las frecuencias (los batidos se ralentizan a medida que las frecuencias se alinean)</li></ul></div>"
+        },
+        "translations": {
+          "play": "Reproducir",
+          "pause": "Pausar",
+          "ariaLabel": "Visualizador de Frecuencia de Batido",
+          "freqLabel1": "Frecuencia 1",
+          "freqLabel2": "Frecuencia 2",
+          "beatfreqLabel": "Frecuencia de Batido",
+          "description": "La frecuencia de batido es la diferencia entre las dos frecuencias. ¡Pruebe ajustando los controles deslizantes para ver y escuchar cómo cambia el patrón de ondas!"
+        }
+      },
+      "S8_D1_F62_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Ves estas dos frecuencias? Están muy cerca: una a 440 Hz y la otra a 444 Hz. Escucha lo que sucede al tocarlas juntas.</div>",
+      "S8_D2_F63_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! ¿Está haciendo este... sonido de bamboleo?</div>",
+      "S8_D3_F64_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ese bamboleo es lo que llamamos frecuencia de pulso. Es muy útil en el estudio, sobre todo para afinar. Déjame mostrarte cómo funciona.</div>",
+      "S8_D4_F65_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mira esas dos ondas otra vez - tienen casi la misma frecuencia, pero no exactamente. Intenta ajustar los deslizadores para acercarlas aún más, luego presiona Reproducir. <br/>También observa cómo las ondas entran y salen de sincronización entre sí.</div>",
+      "S8_D5_F66_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Oh wow! ¡Puedo verlas deslizándose dentro y fuera de alineación, y cuando lo reproduzco, también puedo escuchar ese ritmo tambaleante! <br/>Cuando acerco más las frecuencias, el batido se vuelve más lento.</div>",
+      "S8_D6_F67_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Ahora bien, si una frecuencia es de 440 Hz y la otra de 444 Hz, ¿cuál es la frecuencia de batido?</div>",
+      "S8_D7_F68_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, si las pulsaciones se producen cuando entran y salen de sincronía... ¡debe ser la diferencia entre ellas! 444 menos 440... ¡son 4 pulsaciones por segundo!</div>",
+      "S8_D8_F69_C2": "¡Perfecto! Observa lo que sucede cuando ambas frecuencias son exactamente iguales: 440 Hz cada una. ¡Observa cómo se apilan las ondas cuando coinciden perfectamente! <br /> Cuando dos ondas idénticas con la misma amplitud se suman, la amplitud de la onda combinada se convierte en:</div>",
+      "S8_D8_F69_C2_option1": "Cero (las ondas se cancelan)",
+      "S8_D8_F69_C2_option2": "Igual que antes",
+      "S8_D8_F69_C2_option3": "El doble de grande",
+      "S8_D9_F70_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Los picos se hacen más grandes... ¡se suman! Se duplica, ¡Así que el tercero!</div>",
+      "S8_D10_F71_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Esto se llama interferencia constructiva. Ahora, déjame ajustar un poco la diferencia de frecuencia... <br /> ¿Qué sucede con la frecuencia de batido cuando la diferencia entre las dos frecuencias aumenta?</div>",
+      "S8_D11_F72_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡El bamboleo es definitivamente cada vez más rápido - segunda opción.</div>",
+      "S8_D12_F73_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Excelente observación! Por eso las frecuencias de pulso son tan útiles para afinar. Cuanto más te acercas a la afinación, más lentos se vuelven los pulsos, hasta que desaparecen por completo cuando estás perfectamente afinado.</div>",
+      "S8_D13_F74_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Por eso a veces oigo ese bamboleo al afinar mi guitarra! Pero espera, ¿significa esto que todo el sonido son solo ondas que se suman y se restan entre sí?</div>",
+      "S8_D14_F75_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ahora sí que estás haciendo preguntas interesantes! Hay algo más que quiero mostrarte sobre cómo podemos descomponer cualquier sonido en sus componentes ondulatorios básicos...</div>",
+      "S8_D10_F71_C2_option1": "Los tiempos se vuelven más lentos",
+      "S8_D10_F71_C2_option2": "Los tiempos se vuelven más rápidos",
+      "S8_D10_F71_C2_option3": "Los tiempos se mantienen"
+    },
+    "S9": {
+      "S9_D1_F79_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Sabes? Es increíble cómo diferentes instrumentos crean formas de onda tan distintas. Mi guitarra distorsionada no se parece en nada a una onda sinusoidal pura.</div>",
+      "S9_D2_F80_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>De hecho, ¡eso nos lleva a uno de los descubrimientos más alucinantes de la historia del sonido! ¿Has oído hablar de Joseph Fourier?</div>",
+      "S9_D3_F81_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No puedo decir que sí.</div>",
+      "S9_D4_F82_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Demostró algo increíble: que cualquier sonido, por complejo que sea, puede descomponerse en un conjunto de simples ondas sinusoidales unidas. ¡Veámoslo!</div>"
+    },
+    "S10": {
+      "S10_D0_F83_C9": {
+        "title": "Visualización de Fourier",
+        "about": {
+          "heading": "Análisis y Síntesis de Fourier",
+          "body": "<div><p>Cualquier sonido complejo se puede descomponer en ondas sinusoidales simples, pero los armónicos que uses marcan la diferencia:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Los armónicos impares (1.º, 3.º, 5.º, etc.)</strong> crean patrones de onda de tipo cuadrado</li><li><strong>Los armónicos pares (2.º, 4.º, 6.º, etc.)</strong> crean patrones de onda de tipo diente de sierra</li><li><strong>Todos los armónicos juntos</strong> pueden crear cualquier forma de onda compleja que desees</li></ul><p><strong>Relaciones matemáticas clave:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Cada armónico es un múltiplo entero de la frecuencia fundamental</li><li>Si la frecuencia fundamental es 100 Hz, el segundo armónico es 200 Hz, el tercero es 300 Hz, el cuarto es 400 Hz, etc.</li><li>Diferentes combinaciones de armónicos crean el 'timbre' o carácter único de los diferentes instrumentos</li><li>Por eso un piano y un violín que tocan la misma nota suenan diferente: tienen diferente contenido armónico</li></ul><p><strong>En este interactivo, podrás:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Explora cómo los armónicos pares e impares crean diferentes formas de onda</li><li>Calcula las frecuencias armónicas como múltiplos de la fundamental</li><li>Escucha la drástica diferencia entre las combinaciones armónicas</li><li>Descubre cómo unos pocos armónicos pueden crear patrones de onda reconocibles</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo Usar la Interactiva",
+          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Botones de Modo Armónico:</strong><ul style='list-style-type: disc; margin: 5px 0px 5px 20px'><li><strong>\"Usar Armónicos Impares\"</strong> - Habilita armónicos 1º, 3º, 5º (crea ondas similares a cuadradas)</li><li><strong>\"Usar Armónicos Pares\"</strong> - Habilita armónicos 2º, 4º, 6º (crea ondas similares a diente de sierra)</li><li>Haz clic en el mismo botón otra vez para deseleccionar y habilitar todos los armónicos</li></ul></li><li><strong>Botón Play/Pausa:</strong> Escucha tu sonido creado basado en la configuración armónica actual</li><li><strong>Visualización de Forma de Onda:</strong><ul style='list-style-type: disc; margin: 5px 0px 5px 20px'><li>La <span style='display: inline-flex; align-items: center'>(<span style='color: #0061fc'>línea azul</span>&nbsp;<svg width='16' height='16' viewBox='0 0 16 16' style='vertical-align: middle'><circle cx='8' cy='8' r='5' fill='#0061fc' /></svg>)</span> muestra la onda compuesta (combinación de todos los armónicos habilitados)</li><li><strong>Líneas de colores</strong> muestran armónicos individuales</li><li><strong>Diferentes formas</strong> (círculos, cuadrados, triángulos) ayudan a distinguir entre armónicos</li></ul></li><li><strong>Controles Armónicos:</strong> Cada tarjeta representa un componente armónico:<ul style='list-style-type: disc; margin: 5px 0px 5px 20px'><li><strong>Casilla Habilitar/Deshabilitar:</strong> Incluir o excluir un armónico específico</li><li><strong>Deslizador de Amplitud:</strong> Ajustar qué tan fuerte cada armónico contribuye al sonido general</li></ul></li></ul><p><strong>Cosas a Observar:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Comienza con <strong>armónicos impares</strong> (1º, 3º, 5º) y nota el patrón de onda similar a cuadrada</li><li>Cambia a <strong>armónicos pares</strong> (2º, 4º, 6º) y ve cómo se vuelve más similar a diente de sierra</li><li>Intenta deshabilitar todos los armónicos excepto la <strong>fundamental (1º)</strong> para escuchar una onda seno pura</li><li>Nota cómo los <strong>armónicos más altos</strong> (5º, 6º) tienen amplitudes menores pero aún afectan la forma de la onda</li><li><strong>Calcula frecuencias armónicas:</strong> Si fundamental = 100 Hz, entonces 4º armónico = 400 Hz</li><li>Experimenta con <strong>deslizadores de amplitud individuales</strong> para crear formas de onda personalizadas</li><li>Escucha cómo cada armónico adicional cambia el carácter del sonido</li></ul></div>"
+        },
+        "translations": {
+          "play": "Reproducir",
+          "pause": "Pausar",
+          "amplitude": "Amplitud",
+          "phase": "Fase",
+          "ariaLabel": "Visualizador de Fourier",
+          "harmonicLabel1": "Armónico 1",
+          "harmonicLabel2": "Armónico 2",
+          "harmonicLabel3": "Armónico 3",
+          "harmonicLabel4": "Armónico 4",
+          "harmonicLabel5": "Armónico 5",
+          "harmonicLabel6": "Armónico 6",
+          "compositeWaveLabel": "Onda compuesta",
+          "waveTypeLabel": "Tipo de onda",
+          "sawtoothWave": "Onda dentada",
+          "squareWave": "Onda cuadrada",
+          "triangleWave": "Onda triangular",
+          "useOddHarmonics": "Usar Armónicos Impares",
+          "useEvenHarmonics": "Usar Armónicos Pares"
+        }
+      },
+      "S10_D1_F84_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mira esto: puedo empezar con una onda cuadrada simple. Fíjate cómo he usado solo 3 ondas para crear esta forma.</div>",
+      "S10_D2_F85_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Ya veo! Estás usando las armónicas primera, tercera y quinta para construir ese patrón cuadrado.</div>",
+      "S10_D3_F86_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Buena observación! Ahora intentemos usar solo armónicos pares. Cuando cambiamos de armónicos impares (1st, 3rd, 5th) a armónicos pares (2nd, 4th, 6th), ¿qué notas sobre la apariencia de la onda?</div>",
+      "S10_D3_F86_C2_option1": "Los picos se vuelven más planos",
+      "S10_D3_F86_C2_option2": "Los picos se vuelven más afilados y puntiagudos",
+      "S10_D3_F86_C2_option3": "Los picos se vuelven una curva continua",
+      "S10_D4_F87_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Se está volviendo más como una onda de sierra en lugar de una cuadrada! Así que las armónicas impares son realmente importantes para la forma cuadrada.</div>",
+      "S10_D5_F88_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Ahora, probemos algo. Si la frecuencia fundamental es de 100 Hz, ¿cuál es la frecuencia del cuarto armónico?</div>",
+      "S10_D6_F89_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, cada armónico es un múltiplo, así que... 100 por 4... ¡sería 400 Hz!</div>",
+      "S10_D7_F90_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Listo! Así funciona el audio digital: podemos tomar cualquier sonido, descomponerlo en ondas sinusoidales, manipularlas y volver a unirlas.</div>"
+    },
+    "S11": {
+      "S11_D1_F94_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto es increíble. Empezamos con triángulos simples y ahora estamos descomponiendo sonidos complejos en sus partes básicas.</div>",
+      "S11_D2_F95_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Resumamos lo que hemos descubierto en este viaje...</div>",
+      "S11_D3_F96_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bueno, todo empezó con esa conexión entre círculo y onda: cómo las ondas sinusoidales surgen al seguir el movimiento alrededor de un círculo. Luego vimos cómo los armónicos se combinan para crear... Tonos...</div>",
+      "S11_D4_F97_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y cómo se forman los ritmos cuando las frecuencias interactúan, lo que nos ayuda a afinar los instrumentos...</div>",
+      "S11_D5_F98_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y ahora esto: que cada sonido se puede descomponer en ondas simples. Es como si hubiéramos completado el círculo, de la geometría a la música real.</div>",
+      "S11_D6_F99_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿listos para grabar otra pista? Esta vez sabrás exactamente qué sucede con cada nota que toques.</div>",
+      "S11_D7_F100_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Por supuesto! ¿Quién iba a decir que había tanta matemática en la música? O quizás sea al revés: ¡tanta música en las matemáticas!</div>",
+      "S11_D8_F101_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es lo que lo hace hermoso. Los pitagóricos tenían razón: la música y las matemáticas son solo dos formas de ver los mismos patrones.</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicidades!",
+      "subheading": "¡Has explorado los fundamentos trigonométricos de las ondas sonoras!",
+      "content": "<p style='padding-bottom: 10px;'>Has completado exitosamente la STEAMQuest 'Del triángulo al sonido'.</p><ul style='list-style: none; padding-right: 20px; padding-left: 20px; padding-bottom: 4px;'><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Conectaste los principios trigonométricos con la generación y el comportamiento de las ondas sonoras.</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Entendiste cómo se combinan los armónicos para crear tonos musicales complejos</li><li style='display: flex; align-items: start; font-size: 20px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Aprendiste las relaciones entre la frecuencia, la amplitud y las interacciones de las ondas</li></ul><p style='font-size: 20px; font-weight: 400; line-height: 33px; color: #333333; margin-left: 0; padding-left: 0;'>¡Sigue explorando cómo los patrones matemáticos dan forma a la música que te rodea!</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_11961_12856' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><path d='M70 0.5H10C4.75329 0.5 0.5 4.75329 0.5 10V70C0.5 75.2467 4.75329 79.5 10 79.5H70C75.2467 79.5 79.5 75.2467 79.5 70V10C79.5 4.75329 75.2467 0.5 70 0.5Z' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_11961_12856)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778207L42.1813 0.778874L69.9853 10.058L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73L7.5026 30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803L38.8202 0.778877L38.8217 0.778356C39.922 0.407158 41.0834 0.40732 42.1793 0.778207Z' fill='#FFCC00'/><path d='M10.9494 10.0803C8.8742 10.7738 7.5026 12.6514 7.5026 14.7467V30.7246L7.50258 30.73C7.29051 50.5507 20.1568 71.7556 40.5048 75.4923C49.7941 73.9029 57.5464 68.3912 63.6644 60.586C70.0068 52.2994 73.5 41.6958 73.5 30.7254V14.7474C73.5 12.656 72.1286 10.7779 70.0524 10.0808L69.9853 10.058L42.1813 0.778874L42.1793 0.778207C41.0834 0.40732 39.922 0.407158 38.8217 0.778356L38.8202 0.778877L10.9494 10.0803ZM10.9494 10.0803C10.9493 10.0803 10.9495 10.0803 10.9494 10.0803Z' stroke='black'/></g><path d='M52 25.2394V42.6978C52 44.0894 51.455 45.4233 50.4827 46.407C49.5117 47.392 48.195 47.9441 46.8215 47.9441C45.4477 47.9441 44.1312 47.392 43.1603 46.407C42.188 45.4233 41.6429 44.0894 41.6429 42.6978C41.6429 41.3061 42.1879 39.9724 43.1603 38.9887C44.1312 38.0037 45.4479 37.4515 46.8215 37.4515C47.9452 37.4555 49.0379 37.8332 49.9286 38.5283V30.2953L33.3571 33.0942V45.8455C33.3571 47.2371 32.8121 48.571 31.8397 49.5547C30.8688 50.5397 29.5521 51.0918 28.1785 51.0918C26.8048 51.0918 25.4883 50.5397 24.5173 49.5547C23.5451 48.571 23 47.2371 23 45.8455C23 44.4538 23.545 43.1201 24.5173 42.1364C25.4883 41.1514 26.805 40.5992 28.1785 40.5992C29.3023 40.6032 30.395 40.9809 31.2857 41.6761V27.6866C31.2818 26.1468 32.3823 24.8312 33.8828 24.5822L48.3828 22.1347C49.2826 21.9826 50.2044 22.2396 50.9009 22.8377C51.5988 23.4358 52 24.3134 52 25.2394Z' fill='black'/><path d='M52 23.1475V40.606C52 41.9976 51.455 43.3315 50.4827 44.3151C49.5117 45.3001 48.195 45.8523 46.8215 45.8523C45.4477 45.8523 44.1312 45.3001 43.1603 44.3151C42.188 43.3314 41.6429 41.9975 41.6429 40.606C41.6429 39.2143 42.1879 37.8805 43.1603 36.8969C44.1312 35.9119 45.4479 35.3597 46.8215 35.3597C47.9452 35.3636 49.0379 35.7414 49.9286 36.4365V28.2035L33.3571 31.0024V43.7537C33.3571 45.1453 32.8121 46.4792 31.8397 47.4628C30.8688 48.4478 29.5521 49 28.1785 49C26.8048 49 25.4883 48.4478 24.5173 47.4628C23.5451 46.4791 23 45.1452 23 43.7537C23 42.362 23.545 41.0282 24.5173 40.0446C25.4883 39.0596 26.805 38.5074 28.1785 38.5074C29.3023 38.5113 30.395 38.8891 31.2857 39.5842V25.5948C31.2818 24.055 32.3823 22.7393 33.8828 22.4903L48.3828 20.0429C49.2826 19.8907 50.2044 20.1478 50.9009 20.7459C51.5988 21.344 52 22.2215 52 23.1475Z' fill='white'/><path d='M52.5 25.2396V40.606V42.698C52.5 44.2201 51.9039 45.6806 50.8382 46.7587C49.7739 47.8381 48.3294 48.4443 46.8215 48.4443C45.3133 48.4443 43.8689 47.8381 42.8046 46.7586C41.7391 45.6806 41.1429 44.22 41.1429 42.698C41.1429 42.3447 41.175 41.9947 41.2377 41.652C41.175 41.3093 41.1429 40.9593 41.1429 40.606C41.1429 39.0838 41.739 37.6234 42.8047 36.5454C43.869 35.466 45.3135 34.8597 46.8215 34.8597H46.8232C47.7358 34.8629 48.6296 35.0905 49.4286 35.5171V30.8871L33.8571 33.5171V43.7537V45.8457C33.8571 47.3678 33.261 48.8283 32.1953 49.9064C31.131 50.9858 29.6865 51.592 28.1785 51.592C26.6703 51.592 25.2258 50.9857 24.1615 49.9061C23.0961 48.828 22.5 47.3676 22.5 45.8457C22.5 45.4924 22.5321 45.1424 22.5948 44.7997C22.5321 44.457 22.5 44.107 22.5 43.7537C22.5 42.2315 23.0961 40.7711 24.1617 39.6931C25.2261 38.6137 26.6706 38.0074 28.1785 38.0074H28.1803C29.0929 38.0106 29.9867 38.2382 30.7857 38.6648V27.6875C30.7857 27.6816 30.7857 27.6757 30.7857 27.6699V25.5954C30.7857 23.6727 32 22.5 33.8009 21.9971M52.5 25.2396L33.8009 21.9971M52.5 25.2396V23.1475C52.5 22.0772 52.0362 21.0606 51.2267 20.3665C50.4181 19.6723 49.3467 19.3728 48.2996 19.5498L33.8009 21.9971' stroke='black'/><path d='M52 24V26.5L35 25L33 23L34 22.5L40 21.5L52 24Z' fill='white'/></svg>",
+      "rightsvg": "<svg width='113' height='119' viewBox='0 0 113 119' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' d='M108.106 12.1923L112.391 79.8185C112.733 85.2089 110.949 90.5096 107.424 94.5584C103.905 98.6122 98.9403 101.074 93.6198 101.412C88.2986 101.749 83.0633 99.9331 79.0606 96.3559C75.0529 92.7842 72.6141 87.7511 72.2726 82.361C71.9309 76.9702 73.7147 71.6699 77.2395 67.6211C80.7589 63.5673 85.7235 61.1051 91.044 60.768C95.398 60.5073 99.7232 61.7024 103.344 64.1763L101.323 32.2853L37.8196 47.195L40.9497 96.5878C41.2913 101.978 39.5076 107.279 35.9827 111.328C32.4634 115.381 27.4988 117.844 22.1783 118.181C16.8571 118.518 11.6218 116.702 7.61907 113.125C3.61142 109.553 1.17264 104.52 0.83105 99.1302C0.489416 93.7394 2.27323 88.4392 5.79804 84.3904C9.31739 80.3366 14.282 77.8744 19.6025 77.5372C23.9565 77.2766 28.2817 78.4716 31.9026 80.9455L28.4685 26.7567C28.0754 20.7932 32.0151 15.4269 37.7662 14.094L93.3322 1.05424C96.7802 0.244024 100.414 1.01352 103.259 3.15925C106.109 5.30466 107.878 8.60541 108.106 12.1923Z' fill='white'/> </svg>",
+      "leftsvgarialabel": "Icono abstracto semitransparente con curvas fluidas",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'>[SVG content unchanged]</div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Punto de equilibrio con funciones lineales</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>¡Has aplicado sistemas de ecuaciones lineales en los negocios!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Ayudaste a Mei a encontrar el punto de equilibrio para determinar cuándo su negocio es rentable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Demostraste comprender las relaciones entre costos, ingresos y beneficios</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Analizaste costos fijos, costos variables, precios y cantidades</li></ul></div>"
+    },
+    "glossary": {
+      "sohcahtoa": {
+        "word": "SOHCAHTOA",
+        "definition": "<strong className=\"text-[#0055B2]\">SOHCAHTOA</strong> es cuando algo debe ser cierto debido a lo que es, no porque lo hayamos medido."
+      },
+      "unit-circle": {
+        "word": "Círculo unitario",
+        "definition": "<strong className=\"text-[#0055B2]\">Círculo unitario</strong> es un círculo con radio igual a 1, utilizado para definir funciones trigonométricas."
+      },
+      "sine-wave": {
+        "word": "Onda sinusoidal",
+        "definition": "<strong className=\"text-[#0055B2]\">Onda sinusoidal</strong> es una curva que describe una oscilación suave y repetitiva."
+      },
+      "radians": {
+        "word": "Radianes",
+        "definition": "<strong className=\"text-[#0055B2]\">Radian</strong> es una unidad de medida angular donde un círculo completo equivale a <span style='font-family: Besley;'>2π</span> radianes, describiendo naturalmente los ciclos de onda."
+      },
+      "harmonic": {
+        "word": "Armónico",
+        "definition": "<strong className=\"text-[#0055B2]\">Armónico</strong> es una frecuencia que es un múltiplo entero de la frecuencia fundamental, contribuyendo al sonido único de un instrumento."
+      },
+      "fundamental-frequency": {
+        "word": "Frecuencia fundamental",
+        "definition": "<strong className=\"text-[#0055B2]\">Frecuencia fundamental</strong> es la frecuencia más baja de un tono complejo, determinando su tono percibido."
+      },
+      "timbre": {
+        "word": "Timbre",
+        "definition": "<strong className=\"text-[#0055B2]\">Timbre</strong> es la cualidad distintiva o color tonal de un sonido, creado por su mezcla específica de armónicos."
+      },
+      "beat-frequency": {
+        "word": "Frecuencia de batido",
+        "definition": "<strong className=\"text-[#0055B2]\">Frecuencia de batido</strong> es la velocidad a la que dos frecuencias similares pero diferentes crean un efecto de pulsación audible, igual a la diferencia entre sus frecuencias."
+      },
+      "constructive-interference": {
+        "word": "Interferencia constructiva",
+        "definition": "<strong className=\"text-[#0055B2]\">Interferencia constructiva</strong> ocurre cuando las ondas se alinean en fase, haciendo que sus amplitudes se sumen, creando una onda combinada más fuerte."
+      },
+      "fourier-analysis": {
+        "word": "Análisis de Fourier",
+        "definition": "<strong className=\"text-[#0055B2]\">Análisis de Fourier</strong> es el proceso de descomponer formas de onda complejas en sus ondas sinusoidales componentes de diferentes frecuencias y amplitudes."
+      },
+      "consonance": {
+        "word": "Consonancia",
+        "definition": "<strong className=\"text-[#0055B2]\">Consonancia</strong> es una combinación armoniosa de notas musicales que suena estable y resuelta, típicamente creada por proporciones de frecuencia simples."
+      },
+      "dissonance": {
+        "word": "Disonancia",
+        "definition": "<strong className=\"text-[#0055B2]\">Disonancia</strong> es una combinación áspera o inestable de notas musicales que crea tensión y se siente sin resolver, a menudo creada por proporciones de frecuencia complejas."
+      },
+      "amplitude": {
+        "word": "Amplitud",
+        "definition": "La <strong className=\"text-[#0055B2]\">Amplitud</strong> mide la altura de una ola; mide la altura de sus picos. Una mayor amplitud significa un sonido más fuerte o una ola más potente."
+      },
+      "octave": {
+        "word": "Octava",
+        "definition": "<strong className=\"text-[#0055B2]\">Octava</strong> es el intervalo entre una nota musical y otra con el doble de su frecuencia. En la música occidental, una octava abarca ocho notas de una escala."
+      },
+      "octaves": {
+        "word": "Octavas",
+        "definition": "<strong className=\"text-[#0055B2]\">Octavas</strong> son intervalos entre notas musicales donde cada nota tiene el doble de la frecuencia de la anterior. En la música occidental, una octava abarca ocho notas de una escala."
+      },
+      "scale": {
+        "word": "Escala",
+        "definition": "<strong className=\"text-[#0055B2]\">Escala</strong> es una secuencia de notas musicales ordenadas por altura, a menudo siguiendo un patrón específico de intervalos."
+      },
+      "scales": {
+        "word": "Escalas",
+        "definition": "<strong className=\"text-[#0055B2]\">Escalas</strong> son secuencias de notas musicales ordenadas por altura, a menudo siguiendo patrones específicos de intervalos."
+      }
+    },
+    "common": {
+      "sophie": "Sophie",
+      "james": "James",
+      "sophie_description": "Una mujer con cabello gris, chaqueta beige y pantalones oscuros, sostiene una tablet con audífonos y un reloj.",
+      "james_description": "Un joven con gorro rojo, chaqueta azul y pantalones oscuros, sostiene una tablet con audífonos en el cuello y gafas.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_description": "Un elegante y moderno edificio de cristal, enclavado junto a un tranquilo estanque cubierto de nenúfares, refleja la dorada luz del atardecer entre juncos y ondulantes colinas lejanas.",
+      "bg2_description": "Un moderno estudio de grabación con paredes de cristal que abarcan desde el suelo hasta el techo y que ofrecen vistas panorámicas de ondulantes colinas y montañas bajo un cielo azul brillante.",
+      "bg3_description": "Un acogedor estudio de música en casa con múltiples monitores, teclado MIDI, piano y exuberantes plantas de interior, bañado por la cálida luz del sol que se filtra a través de grandes ventanales.",
+      "bg4_description": "Una espaciosa y moderna oficina con vistas panorámicas a la montaña, con sofás azules, plantas tropicales y una estación de trabajo bañada por la dorada luz del sol sobre relucientes suelos de madera.",
+      "bg5_description": "Un moderno espacio de trabajo colaborativo con paredes de ladrillo visto donde tres personas analizan visualizaciones de datos proyectadas en una gran pantalla, rodeadas de exuberantes plantas y estanterías.",
+      "pi_radians": "π radianes",
+      "2pi_radians": "2π radianes",
+      "3pi_radians": "3π radianes"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control deslizante del volumen de la música de fondo",
+      "character-voice-volume-slider": "Control deslizante del volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "journey-through-waves": "STEAM Quest - Viaje a Través de las Ondas"
+  }
+}

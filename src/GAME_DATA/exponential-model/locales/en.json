@@ -1,0 +1,657 @@
+{
+  "scenesList": {
+    "scene_1": "Start Screen",
+    "scene_2": "Welcome Screen",
+    "scene_3": "Introduction Scene",
+    "scene_4": "Powerpoint Presentation",
+    "scene_5": "Investment Growth",
+    "scene_5X": "Loan rejection",
+    "scene_6": "Credit Analysis",
+    "scene_7": "Credit Card Debt Simulator",
+    "scene_8": "Social Media Growth",
+    "scene_9": "Social Media Growth Strategy",
+    "scene_10": "Portfolio Diversification",
+    "scene_11": "Compound Interest Calculator",
+    "scene_12": "Long-term Planning",
+    "scene_13": "Path to $1,000,000",
+    "scene_14": "Conclusion",
+    "scene_15": "End Screen"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Restart Game",
+      "next": "Next",
+      "back": "Back",
+      "correct": "Correct",
+      "try-again": "Try again",
+      "submit": "Submit",
+      "previous": "Previous"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Slime Time:</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>Exponential Growth in Action</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Discover the power of compound growth through the story of teenage entrepreneur Samantha, 16, and her 12-year-old brother Ben Ward. Watch as they analyze their slime business using mathematical principles, calculate growth rates, explore investment scenarios, and create a path to potential millions—all starting with just $20 and the magic of exponential functions.</div>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Welcome to Slime business!</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>I'm Samantha, and this is my brother Ben. We run Slime Time, a successful slime business we started with just $20 last year. Today, we're analyzing our business using mathematics. Join us as we use exponential functions to model business growth, understand debt risks, and create a path to becoming millionaires by our twenties - all through the power of compound growth!</div>"
+      }
+    },
+    "S4": {
+      "S4_D0_FX_C9": {
+        "title": "Business Plan Presentation",
+        "go_to_slide": "Go to Slide",
+        "slideOverviewIntro": "This presentation covers slime varieties, growth strategies, and business opportunities.",
+        "keyAreasInclude": "Key areas include:",
+        "featuresKeyProperties": "Features",
+        "keyProperties": "key properties:",
+        "availableIn": "Available in", 
+        "varietiesIncluding": "varieties including",
+        "firstYearResults": "First year results:",
+        "growthComparison": "Growth comparison:",
+        "had": "had",
+        "units": "units",
+        "and": "and",
+        "revenue": "revenue",
+        "achieved": "achieved",
+        "unitsPlus": "units",
+        "twoStrategiesCompared": "Two strategies compared:",
+        "with": "with",
+        "videoPerformanceShows": "Video performance shows",
+        "thousandPlus": "12,000+",
+        "percent": "85%",
+        "fiveHundredPlus": "500+",
+        "slideOf": "Slide",
+        "of": "of",
+        "slides": {
+          "title_slide": {
+            "heading": "SLIME TIME",
+            "presentedBy": "Presented by Samantha & Ben Ward",
+            "description": "For Community Bank Small Business Loan",
+            "label1": "Premium Slime",
+            "label2": "Exponential Growth",
+            "label3": "Proven Success"
+          },
+          "product_slide": {
+            "heading": "PREMIUM SPECIALIZED SLIME",
+            "subheading": "With Unique Textural Properties",
+            "property_heading1": "Kids Love It!",
+            "property_description1": "Satisfying Texture",
+            "property_heading2": "With Glitter!",
+            "property_description2": "Shimmering Fun",
+            "varietyTitle": "8 Different Varieties",
+            "variety_name1": "Glitter Slime",
+            "variety_name2": "Rainbow Swirl",
+            "variety_name3": "Clear Crystal",
+            "variety_name4": "Confetti Fun",
+            "variety_name5": "Holographic",
+            "variety_name6": "Ice Crystal",
+            "variety_name7": "Mint Fresh",
+            "variety_name8": "Floral Scent"
+          },
+          "year1_slide": {
+            "heading": "YEAR 1: HUMBLE BEGINNING",
+            "unitsSold": "Units Sold",
+            "jarsTotal": "jars total",
+            "revenue": "Revenue",
+            "totalSales": "total sales",
+            "costs": "Costs",
+            "materials": "materials",
+            "profit": "Profit",
+            "netIncome": "net income",
+            "jarHeading": "$5 per jar",
+            "jarDescription": "Premium quality slime for everyone"
+          },
+          "year2_slide": {
+            "heading": "YEAR 2: EXPONENTIAL GROWTH",
+            "year1": "Year 1",
+            "year2": "Year 2",
+            "unitsSold": "Units Sold",
+            "revenue": "Revenue",
+            "profit": "Profit",
+            "graphTitle": "Revenue Growth Timeline",
+            "xAxisLabel": "Year",
+            "yAxisLabel": "Revenue ($)",
+            "graphDescription": "100x Growth Over 12 Months!"
+          },
+          "online_slide": {
+            "heading": "ONLINE EXPANSION STRATEGY",
+            "strategyTitle1": "Farmers Market",
+            "strategyHeading1": "Primary Revenue Source",
+            "strategySubheading1": "Face-to-face sales",
+            "strategyDescription1": "Direct customer interaction",
+            "strategyCost1": "Renting a space for $500/month at farmers market",
+            "strategyTitle2": "Viral Video Success",
+            "strategyHeading2": "Satisfying Slime Smoosh",
+            "strategySubheading2": "12,000+ Views",
+            "strategyDescription2": "Exponential online reach",
+            "strategyCost2": "Pro video shoot equipment + studio setup $1,500",
+            "videoPerformanceHeading": "Online Video Performance",
+            "videoPerformanceMatric1": "Video Views",
+            "videoPerformanceMatric2": "Engagement Rate",
+            "videoPerformanceMatric3": "New Followers",
+            "opportunityHeading": "💡 The Opportunity",
+            "opportunityDescription": "Expand production to meet exponential customer demands",
+            "opportunityAction": "That's why we need this loan! 🚀"
+          }
+        }
+      },
+      "S4_D1_FX_C3": "So let me make sure I understand. You want a business loan for... slime?",
+      "S4_D2_FX_C2": "This isn't just any slime. Slime Time is premium, specialized slime — with unique textural properties.",
+      "S4_D3_FX_C1": "We actually produce 8 different varieties of slime. And our customers really love it.",
+      "S4_D4_FX_C2": "After discovering an unmet need in the market, we started selling jars of slime to our classmates for $5 a jar.",
+      "S4_D5_FX_C1": "In our first year, we only made $20.",
+      "S4_D6_FX_C3": "I'm sorry, but $20 isn't much of a business.",
+      "S4_D8_FX_C1": "But as you can see, over this past year, we've sold more than $2000 worth of slime!",
+      "S4_D7_FX_C2": "That's over 400 units — each carefully crafted by trained artisans.",
+      "S4_D9_FX_C2": "Currently, the majority of our revenue comes from our stand at the farmers market. To continue our exponential growth, we've started promoting our products online.",
+      "S4_D11_FX_C1": "Our 'Satisfying Slime Smoosh' video now has over 12,000 views.",
+      "S4_D12_FX_C2": "And you see, Mr Donovan, that's why we are here for a loan. We need to scale our manufacturing process to keep up with our exponential customer demand.",
+      "S4_D10_FX_C3": " I'm not sure I'm following.",
+      "S4_D15_FX_C2": "Don't worry, I've prepared a slide deck that shows our exponential growth model."
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Investment Growth",
+        "about": {
+          "heading": "Exponential Business Growth",
+          "body": "<div><p>This interactive demonstrates how a business can grow at different rates over time. The business has two potential growth paths: Realistic (10%), and Historical (9900%).</p><p style='padding-top: 10px;'>Notice how even small changes in the growth rate lead to dramatically different outcomes! This is the power of exponential growth, where each increase builds on the previous value.</p></div>"
+        },
+        "help": {
+          "heading": "Projecting Growth",
+          "body": "<div><p>Adjust initial profit, growth rates, and projection years to see long-term business potential. The exponential function <span role='math' aria-label='R of t equals R₀ times 1 plus g raised to the power of t'><span style='font-weight: bold; font-family: Besley;' aria-hidden='true'><span style='font-style: italic; color: #0061FC;'>R</span>(<span style='font-style: italic; color: #8E24AA;'>t</span>) = <span style='font-style: italic; color: #008217;'>R₀</span> × (1 + <span style='font-style: italic; color: #E0002B;'>g</span>)<sup style='font-style: italic; color: #8E24AA;'>t</sup></span></span> shows how consistent percentage growth creates dramatic results over time.</p><h4 style='font-weight: bold; padding-top: 10px;'>Questions to Consider:</h4><p style='padding-top: 5px;'>1) What would their weekly profit be in 5 years if they maintained their historical growth rate (9900%)?</p><p style='padding-top: 10px;'>2) Which growth scenario seems most realistic for a small business long-term?</p></div>"
+        },
+        "about_step3": {
+          "heading": "Units Reality Check",
+          "body": "<div><p>This interactive reveals the practical challenges of exponential growth by converting revenue projections into actual units that must be produced and sold.</p><p style='padding-top: 10px;'>While exponential mathematics can show impressive growth potential, real businesses face physical constraints like production capacity, storage space, market demand, and resource limitations. This step helps students understand why exponential growth typically levels off in real-world scenarios.</p></div>"
+        },
+        "help_step3": {
+          "heading": "Realistic Growth Analysis",
+          "body": "<div><p>Use the sliders to adjust unit price and time frame to see how many jars would be needed to achieve projected revenue. This calculator helps assess whether exponential growth projections are practically achievable.</p><h4 style='font-weight: bold; padding-top: 10px;'>Key Calculations:</h4><p style='padding-top: 5px;'>• Total jars needed = Projected Revenue ÷ Unit Price</p><p style='padding-top: 5px;'>• Consider production capacity, market demand, and storage limitations</p><p style='padding-top: 5px;'>• Compare current growth rate (9900%) vs. realistic growth rate (10%)</p><h4 style='font-weight: bold; padding-top: 10px;'>Questions to Consider:</h4><p style='padding-top: 5px;'>1) How many jars would they need to produce daily to meet the 9900% growth projection?</p><p style='padding-top: 5px;'>2) Is it physically possible to produce and sell 40,000 jars given their current resources?</p><p style='padding-top: 5px;'>3) What factors limit a business's ability to maintain exponential growth?</p></div>"
+        },
+
+        "about_step4": {
+          "heading": "Business Parameters & Loan Analysis",
+          "body": "<div><p>This interactive demonstrates how business decisions about pricing, capacity, and investment affect financial outcomes and loan repayment ability.</p><p style='padding-top: 10px;'>Students can explore the relationship between unit economics, scale, and profitability. The model shows how businesses must balance pricing strategy with production capacity while considering fixed costs like storage space and variable costs like materials. This step illustrates why sustainable business growth requires careful financial planning beyond just revenue projections.</p></div>"
+        },
+        "help_step4": {
+          "heading": "Business Investment Analysis",
+          "body": "<div><p>Adjust unit price and production capacity to explore how business parameters affect profitability and loan repayment ability. This model includes fixed costs, variable costs, and investment requirements.</p><h4 style='font-weight: bold; padding-top: 10px;'>Key Concepts:</h4><p style='padding-top: 5px;'>• Profit margin = Revenue - (Variable costs + Fixed costs)</p><p style='padding-top: 5px;'>• Payback period = Initial investment ÷ Annual profit</p><p style='padding-top: 5px;'>• Production capacity limits maximum revenue potential</p><h4 style='font-weight: bold; padding-top: 10px;'>Questions to Consider:</h4><p style='padding-top: 5px;'>1) What unit price maximizes both profit margin and sales volume?</p><p style='padding-top: 5px;'>2) How does increasing production capacity affect the loan payback period?</p><p style='padding-top: 5px;'>3) What happens to profitability if variable costs increase due to scaling up production?</p></div>"
+        },
+        "translations": {
+          "slide1": {
+            "heading": "One-Year Growth Story",
+            "sliderLabel1": "Year 0 Revenue",
+            "sliderLabel2": "Year 1 Revenue",
+            "growthLabel1": "Growth!",
+            "growthLabel2": "From $20 to $2000 in 1 year",
+            "growthLabel3": "Annual growth rate",
+            "graphHeading": "Revenue Over 1 Year",
+            "xAxisLabel": "Time (Years)",
+            "yAxisLabel": "Revenue ($)"
+          },
+          "slide2": {
+            "heading": "Exponential Growth Formula",
+            "sliderLabel1": "Initial Revenue (R₀)",
+            "sliderLabel2": "Growth Rate (g)",
+            "sliderLabel3": "Time in Years (t)",
+            "formulaLabel1": "R of t equals R₀ times 1 plus g to the power of t",
+            "formulaLabel2": "Revenue at time t",
+            "formulaLabel3": "Initial Revenue",
+            "formulaLabel4": "Growth rate",
+            "formulaLabel5": "Time in years",
+            "resultLabel": "Result:",
+            "calculationLabel": "$ {initialRevenue} times 1 plus {customGrowthRate} percent to the power of {projectionYears}",
+            "graphHeading": "Exponential Growth Visualization",
+            "xAxisLabel": "Time (Years)",
+            "yAxisLabel": "Revenue ($)",
+            "questionOption1": "20 million",
+            "questionOption2": "2 million",
+            "questionOption3": "2 billion"
+          },
+          "slide3": {
+            "heading": "Units Reality Check",
+            "sliderLabel1": "Unit Price",
+            "sliderLabel2": "Projection years",
+            "growthComparisonLabel": "Growth Comparison:",
+            "jarNeededLabel": "Jars needed for projected revenue:",
+            "jarCalculationLabel": "per jar",
+            "currentGrowthLabel": "Current Growth",
+            "realisticGrowthLabel": "Realistic Growth",
+            "afterLabel": "After {projectionYears} years",
+            "toggleLabel1": "Current ({customGrowthRate}%)",
+            "toggleLabel2": "Realistic (10%)",
+            "graphHeading": "Growth Projection Analysis",
+            "tShowing": "Showing",
+            "xAxisLabel": "Time (Years)",
+            "yAxisLabel": "Revenue ($)"
+          },
+          "slide4": {
+            "heading": "Business Parameters",
+            "sliderLabel1": "Unit Price",
+            "sliderLabel2": "Production Capacity",
+            "tInvestment": "Investment (Materials)",
+            "tProfit": "Profit",
+            "tPayback": "Payback",
+            "tYears": "years",
+            "graphHeading": "Loan Repayment Analysis",
+            "xAxisLabel": "Time (Years)",
+            "yAxisLabel": "Revenue ($)",
+            "hint1": "✅ Profitable from Year 1",
+            "hint2": "⚠️ Multi-year payback required"
+          }
+        },
+        "profit": "Profit: ",
+        "payback": "Payback: "
+      },
+      "S5_D1_FX_C2": "As you can see, we experienced massive growth this past year, from $20 to $2000. That's 100x growth!",
+      "S5_D2_FX_C2": "I can simply project our actual growth rate forward to show you the dizzying potential of our product.",
+      "S5_D3_FX_C2": "Based on this projection, by next year, we will be making $200,000 — which is surely a 'real business' in your eyes?",
+      "S5_D4_FX_C3": "Well, that's a bit optimistic.",
+      "S5_D6_FX_C2": "This is only the start. Projecting our growth over a longer timeframe would show the true scale of our potential. Let me set it to 5 years.",
+      "S5_D5_FX_C3": "200 billion dollars, from slime? Come on. These numbers are… hard to believe.",
+      "S5_D11_FX_C2": "What, you don't believe in mathematics? Here, you can try to model it yourself. It simply follows the function <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;'>R</span>(<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>t</span>) = <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #008217;'>R₀</span>(<span style='font-weight: bold; font-family: Besley; font-style: italic; color: #0061FC;'>1</span> + <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #E0002B;'>g</span>)<sup><span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>t</span></sup>, where <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #008217;'>R₀</span> is initial revenue, <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #E0002B;'>g</span> is growth rate, and <span style='font-weight: bold; font-family: Besley; font-style: italic; color: #8E24AA;'>t</span> is time in years.",
+      "S5_D10_FX_C3": "Fine, let me see this formula in action. If you started with $20 and achieved a 9,900% growth rate, what would your revenue be after exactly 3 years?",
+      "S5_D7_FX_C1": "$20 million. The exponential function shows how our small start grew dramatically!",
+      "S5_D12_FX_C1": "We know that continuing the exponential growth will be difficult. But we really think there is a lot more demand!",
+      "S5_D13_FX_C3": "Well, if your earnings were really that high, that’s quite a bit of slime you must have moving at that pace.",
+      "S5_D14_FX_C2": "Yes and we could simply calculate it - just divide the total revenue by the unit cost.",
+      "S5_D14_FX_C3": "That does sound like simple mathematics. I think you might have the calculator setup for that too.",
+      "S5_D15_FX_C1": "Yes Mr. Donovan, we have that too. What values would you like us to project?",
+      "S5_D15_FX_C3": "Well, you said that your unit price is $5 and your growth rate is 9900%. With those figures, can you imagine how much your sales volume could grow in just 2 years?",
+      "S5_D16_FX_C1": "Yes, we can model that. Ben can you set the projection years to 2 years and see how many jars we have?",
+      "S5_D16_FX_C3": "40,000 Jars! And you really think that every person on earth would be willing to buy different jars of your slime?",
+      "S5_D17_FX_C2": "That's true, we do have 8 varieties…",
+      "S5_D18_FX_C3": "That's not what I'm saying. This model is not realistic. Business growth might be fast in the beginning, but larger companies rarely have growth rates more than 10% —not 9,900%! I see you have realistic growth projections also, toggle to that view. And now see the growth projecting for 5 years.",
+      "S5_D19_FX_C1": "Hmm, now it takes forever! We won't even have doubled our money.",
+      "S5_D20_FX_C3": "That's right. Good rule of thumb is that a 10% growth rate will approximately double your money every 7 years.",
+      "S5_D21_FX_C2": "But by the time that happens, I'll be way too old! All that time for just for the loan of $4,000?",
+      "S5_D22_FX_C3": "Well, to be honest, I do think your business has the potential to grow faster — especially in the beginning. What do you need the loan for, anyway?",
+      "S5_D23_FX_C1": "Well, mostly we need to make a webshop so online customers can buy our product. It's about a $1000 investment.",
+      "S5_D24_FX_C2": "We also need to <no-glossary>expand</no-glossary> our manufacturing center.",
+      "S5_D25_FX_C1": "Yeah. Our basement's a disaster — Mom won't let us keep anything there. So we found a storage unit for our supplies. But it costs around $2,000 for the year.",
+      "S5_D26_FX_C2": "If we get the storage unit, we'd finally have room to <no-glossary>expand</no-glossary>. And that's why Mr. Donovan, we need this loan.",
+      "S5_D31_FX_C3": "You know what, I think it's actually a good investment. You kids are very motivated — and you've already demonstrated that people are willing to pay for your product.",
+      "S5_D32_FX_C1": "Does that mean we get the loan?",
+      "S5_D33_FX_C3": "I'm sorry, I should have told you upfront: We're a bank — I simply can't approve a loan for applicants under 18.",
+      "S5_D34_FX_C2": "Can I talk with the manager?",
+      "S5_D35_FX_C3": "I AM the manager. But look, I think you will do great. Here's my card — get back in touch in a few years!"
+    },
+    "S6": {
+      "S6_D1_FX_C1": "Well, that was a waste of time.",
+      "S6_D2_FX_C2": "Not entirely. Mr. Donovan confirmed that our business model is sound! We simply lack the legal standing to obtain traditional financing.",
+      "S6_D3_FX_C1": "So now what?",
+      "S6_D4_FX_C2": "Why don’t we talk to Mom and see if we could use her credit card?",
+      "S6_D5_FX_C1": "Are you serious? First of all, Mom would never support that. But have you even considered the potential risk?",
+      "S6_D6_FX_C2": "What risk? I'd be very careful only to spend money on the business. And possibly carefully researched collectables.",
+      "S6_D7_FX_C1": "I'm talking about the interest rates. With a bank, we could have gotten an interest rate between 5-10% for our business.. But credit cards have an interest rate of nearly 30%!",
+      "S6_D8_FX_C2": "Not if you pay it off every month—then it's free! Better than free—you can get points that can be spent. It's like they are giving money away!",
+      "S6_D9_FX_C1": "You haven't thought this through. Let's model this."
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "Credit Card Debt Simulator",
+        "about": {
+          "heading": "Understanding Credit Card Debt",
+          "body": "<p>While compound interest can work in your favor with investments, it works against you with debt. This simulator shows how a <strong>$3,000</strong> business investment can grow exponentially when financed with high-interest credit cards.</p><p style='padding-top: 10px;'>Use the interactive controls to adjust the initial debt ($1,000–$10,000), interest rate (5.99%–35.99%), target debt amount ($5,000–$25,000), and minimum payment rate (1%–5%).</p><p style='padding-top: 10px;'>Each slider lets you explore different financial choices: change the <strong>Initial Debt</strong> to see how borrowing more affects the outcome, adjust the <strong>Interest Rate</strong> to simulate different lending terms, tweak the <strong>Minimum Payment</strong> to understand how small payments impact debt over time, and use the <strong>Target Payment</strong> to explore how faster payoff reduces interest.</p><p style='padding-top: 10px;'>Toggle between viewing current debt growth and total interest accumulation to see how compound interest works against borrowers.</p>"
+        },
+        "help": {
+          "heading": "The Debt Trap",
+          "body": "Credit cards apply compound interest against you! Small purchases can become much more expensive when paid off slowly or with minimum payments.<h4 style='font-weight: bold; padding-top: 10px;'>Questions to Consider:</h4><p style='padding-top: 5px;'>1) If the siblings put <strong>$3,000</strong> on a credit card at 29.99% APR with 1% minimum payments, how many months will it take for the debt to reach <strong>$10,000</strong>?</p><p style='padding-top: 10px;'>2) How much will they still owe after <strong>10 years</strong> of making only minimum payments?</p><p style='padding-top: 10px;'>3) How does changing the interest rate from 29.99% to a lower bank rate like <strong>8%</strong> affect the total debt after 10 years?</p>"
+        },
+        "creditCostsText": "Credit costs",
+        "moreThanSaving": "more than saving!",
+        "theDebtTrap": "The Debt Trap",
+        "creditOption": "Credit Option",
+        "timeToPayOff": "Time to pay off:",
+        "months": "months",
+        "interestPaid": "Interest paid:",
+        "totalCost": "Total cost:",
+        "saveAndWait": "Save & Wait",
+        "timeToSave": "Time to save:",
+        "weeks": "weeks",
+        "adjustParameters": "Adjust Parameters",
+        "purchaseAmount": "Initial Debt",
+        "interestRateAPR": "Interest Rate (APR)",
+        "minimumPayment": "Minimum Payment",
+        "latePayments": "Target Debt Payment",
+        "worthTheWait": "Worth the wait!",
+        "save": "Save",
+        "byWaitingJust": "by waiting just",
+        "weeksLabel": "weeks.",
+        "warningLatePaymentImpact": "Warning: Late Payment Impact",
+        "latePaymentsAdd": "Late payments add",
+        "inFeesAndCanDamage": "in fees and can damage your credit score for up to",
+        "sevenYears": "7 years",
+        "originalPurchase": "Original Purchase",
+        "balance": "Balance",
+        "interestPaidChart": "Interest Paid",
+        "month": "Month",
+        "debtHits": "Debt hits",
+        "inJust": "in just",
+        "currentDebt": "Current Debt",
+        "totalInterest": "Total Interest",
+        "monthsUntilDebtReaches": "Months until debt reaches",
+        "makingMinimumPaymentsOnly": "Making minimum payments only",
+        "debtAfter10Years": "Debt after 10 years",
+        "originalDebt": "Original Debt:",
+        "monthlyPayment": "Monthly Payment",
+        "never": "Never",
+        "warning": "Warning",
+        "warningMsgPt1": "After 10 years of minimum payments,",
+        "warningMsgPt2": "the debt will be",
+        "realityCheck": "Reality Check",
+        "realityCheckMsgPt1": "Your debt changes to",
+        "realityCheckMsgPt2": "High interest rates make debt grow exponentially."
+      },
+      "S7_D1_FX_C1": "Let's say we put $3,000 on a credit card for our business expansion. Set the debt to $3,000 and the interest rate to 24.99% - that's typical for credit cards.",
+      "S7_D2_FX_C2": "That doesn't seem too bad for a short-term solution...",
+      "S7_D3_FX_C1": "Now look what happens if we can only make minimum payments of 1% each month. The scary part is how the debt grows if we miss some payments or can't pay it down quickly.",
+      "S7_D4_FX_C2": "Let's try this: we set the initial debt to $3,000, the interest rate (APR) to 24.99%, minimum payment to 1% and target debt payment to $6,000. How many months will it take until our debt reaches $6,000?",
+      "S7_D5_FX_C1": "65 months? That's over 5 years! And look at the total interest paid - $5,849! We'd pay almost double of what we borrowed in interest alone!",
+      "S7_D6_FX_C2": "Exactly! Now let's make it more realistic — some cards charge even higher interest rates.",
+      "S7_D7_FX_C1": "Correct. Try this: Keep our original initial debt at $3,000 and minimum payment at 1%, but set the interest rate (APR) to 29.99%. Then check how much interest we'll end up paying by the time the debt hits $10,000.",
+      "S7_D8_FX_C2": "Almost $12,000 in interest for borrowing $3,000! That's almost four times what we borrowed!",
+      "S7_D9_FX_C1": "Compare that to Mr. Donovan's bank rates of 5-10%. At 7.99%, we'd pay maybe $1400 in interest instead of $12,000 in 81 months.",
+      "S7_D10_FX_C2": "Almost nine times more expensive! Credit cards are financial quicksand. No wonder successful businesses avoid high-interest debt.",
+      "S7_D11_FX_C1": "This is exactly why we need to find other ways to grow our business without any debt at all."
+    },
+    "S8": {
+      "S8_D1_FX_C1": "Well, that credit card lesson was eye-opening! But I've been thinking - we don't need loans OR credit cards. We can grow using what we already have.",
+      "S8_D2_FX_C2": "Our social media metrics?",
+      "S8_D3_FX_C1": "Exactly! We get 12,000 views per video with a 0.5% conversion rate. That's only 60 sales per video.",
+      "S8_D4_FX_C2": "And we post twice weekly, so 120 sales per video from social media.",
+      "S8_D5_FX_C1": "But what if we improved our conversion rate to 1% AND posted daily instead of twice weekly? Let's model it"
+    },
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "Social Media Growth Strategy",
+        "about": {
+          "heading": "Social Media Growth Strategy",
+          "body": "<p>Transform your social media views into revenue through smart optimization of conversion rates and posting frequency. This interactive demonstrates how small improvements in viewer engagement can lead to exponential business growth.</p><p style='padding-top: 10px;'>Use the controls to adjust current conversion rates (0.1%-2.0%), target conversion rates (0.5%-3.0%), current videos per week (1-7), and target videos per week (1-14). Toggle between viewing weekly revenue growth and weekly sales growth to see how optimization strategies compound over time with 20% monthly growth.</p>"
+        },
+        "help": {
+          "heading": "Exponential Social Media Growth",
+          "body": "Small changes in conversion rates and posting frequency can lead to dramatically different revenue outcomes over time.<h4 style='font-weight: bold; padding-top: 10px;'>Questions to Consider:</h4><p style='padding-top: 5px;'>1) Starting with <strong>12,000 views per video</strong> at 0.5% conversion rate posting 2 videos weekly, what happens when you improve to <strong>1.0% conversion</strong> and <strong>7 videos per week</strong>?</p><p style='padding-top: 10px;'>2) How does the <strong>exponential growth formula R(t) = R₀ × (1 + g)ᵗ</strong> with 20% monthly growth affect your revenue projections over 6 months?</p><p style='padding-top: 10px;'>3) Compare the current strategy vs target strategy cards - what's the revenue multiplier effect of combined improvements?</p>"
+        },
+        "revenueGrowth": "Revenue Growth!",
+        "controls": "Controls",
+        "conversion": "Conversion",
+        "currentConversion": "Current Conversion",
+        "targetConversion": "Target Conversion",
+        "posting": "Posting",
+        "currentVideosWeek": "Current Videos/Week",
+        "targetVideosWeek": "Target Videos/Week",
+        "monthGrowthProjection": "6-Month Growth Projection",
+        "monthlyGrowth": "Monthly Growth",
+        "revenue": "Revenue",
+        "sales": "Sales",
+        "month": "Month",
+        "monthlyRevenue": "Monthly Revenue",
+        "weeklySales": "Weekly Sales",
+        "monthlyRevenueGrowth": "Monthly Revenue ({growthMultiplier}x growth)",
+        "weeklySalesGrowth": "Weekly Sales ({growthMultiplier}x growth)",
+        "exponentialGrowthFormula": "Exponential Growth Formula",
+        "revenueAfter": "Revenue after",
+        "months": "months",
+        "initialWeeklyRevenue": "Initial weekly revenue",
+        "initialMonthlyRevenue": "Initial monthly revenue",
+        "monthlyGrowthRate": "Monthly growth rate",
+        "timeInMonths": "Time in months",
+        "minCurrentConversion": "0.1%",
+        "maxCurrentConversion": "2.0%",
+        "minTargetConversion": "0.5%",
+        "maxTargetConversion": "3.0%",
+        "minCurrentVideos": "1",
+        "maxCurrentVideos": "7",
+        "minTargetVideos": "1",
+        "maxTargetVideos": "14",
+        "currentStrategy": "Current Strategy",
+        "targetStrategy": "Target Strategy",
+        "conversionRateLabel": "Conversion Rate:",
+        "videosWeekLabel": "Videos/Week:",
+        "salesVideoLabel": "Sales/Video:",
+        "weeklyRevenueLabel": "Weekly Revenue:",
+        "chartAriaLabel": "Interactive line chart showing 6-month revenue and sales growth projection. Use the toggle buttons above to switch between revenue and sales data views.",
+        "formulaAriaLabel": "Exponential growth formula: R of t equals R naught times quantity 1 plus g quantity raised to the power of t. Where R of t is revenue after t months, R naught is initial weekly revenue, g is monthly growth rate, and t is time in years.",
+        "monthlyRevenueBreakdown": "Monthly Revenue Breakdown",
+        "sellingPrice": "Selling price",
+        "oneMonth": "1 month",
+        "weeks": "weeks",
+        "videosPerWeek": "Videos/week",
+        "salesPerVideo": "Sales/Video",
+        "closePopover": "Close",
+        "showCalculationBreakdown": "Show calculation breakdown",
+        "monthlyRevenueLabel": "Monthly Revenue (×4)",
+        "baseline": "Baseline",
+        "baselineCurrent": "Baseline (Current)",
+        "baselineTarget": "Baseline (Target)"
+      },
+      "S9_D1_FX_C1": "Let's try modeling a realistic growth scenario for our social media strategy. We’ll use a 10% monthly growth rate — something steady and achievable for a longer run.",
+      "S9_D1_FX_C2": "I'll set up the calculator with our current metrics. Current conversion rate: 0.5%, target conversion rate: 1.0%. Current videos per week: 2, target videos per week: 7. Let’s find out our targeted monthly revenue.",
+      "S9_D2_FX_C2": "The calculator shows our current monthly revenue is $2,400, but with the improved strategy it jumps to $16,800.",
+      "S9_D3_FX_C1": "That's exactly 7 times more revenue! And look at the comparison cards - current strategy gives us 60 sales per video, improved strategy gives us 120 sales per video.",
+      "S9_D4_FX_C2": "We used to post only 2 times a week, but now we're posting 7 times — that’s 3.5 times more videos. And since our conversion rate is twice as good, that means we're growing about 7 times faster than before.",
+      "S9_D5_FX_C1": "And that's before we even factor in the monthly exponential growth! Look at month 6 - we'd be making around $30,000 monthly.",
+      "S9_D6_FX_C2": "The exponential growth formula shows exactly how this works. Our $16,800 monthly revenue becomes $29,820 after 6 months with 10% monthly growth.",
+      "S9_D7_FX_C1": "That’s the power of exponential growth—and we didn’t even spend extra money. Just better content and posting more consistently!"
+    },
+    "S10": {
+      "S10_D1_FX_C1": "Now that we've figured out how to grow our business organically, I've been thinking about our long-term strategy. What if we allocated a portion of our profits to investments rather than putting everything back into the business?",
+      "S10_D2_FX_C2": "You're suggesting portfolio diversification? Dad mentioned that in our economics project.",
+      "S10_D3_FX_C1": "Exactly! While our business is growing rapidly now, slime could be a passing trend. Plus, we're already working every day after school - there's a limit to how much we can <no-glossary>expand</no-glossary> right now.",
+      "S10_D4_FX_C2": "That's called concentration risk - having all our money in one business. What if slime suddenly becomes less popular, or a big company starts making similar products?",
+      "S10_D5_FX_C1": "Right! So maybe we reinvest 80% back into the business and put 20% into long-term savings. Let's model some scenarios."
+    },
+    "S11": {
+      "S11_D0_FX_C9": {
+        "title": "Compound Interest Calculator",
+        "info": {
+          "heading": "The Power of Compound Interest",
+          "description": "<p style='margin-bottom: 10px;'>This interactive demonstrates Einstein's \"eighth wonder of the world\" - compound interest. The siblings are considering investing $50 weekly. The calculator shows how regular contributions grow exponentially over time.</p><p style='font-size: 20px; line-height: 30px; font-weight: 500;'>Note how even small differences in interest rates (8% vs. 10%) result in dramatically different outcomes over long periods. The Rule of 72 helps estimate doubling time: 72 ÷ interest rate = years to double your money.</p>"
+        },
+        "help": {
+          "heading": "The Power of Compound Interest",
+          "description": "<p>Regular investments grow exponentially over time. See how small weekly contributions can grow to significant amounts over years or decades.</p><p style='font-size: 18px; font-weight: bold; margin-top: 10px;'>Questions to Consider: </p><ul style='list-style-type: pointer; margin-left: 20px;'><li>If the siblings invest $50 weekly with an 8% annual return, how much will they have after 10 years?</li><li>How does changing the interest rate from 8% to 10% affect the final amount?</li><li>At what interest rate would their money double in approximately 9 years?</li></ul>"
+        },
+        "investment_parameters": "Investment Parameters",
+        "initial_investment": "Initial Investment",
+        "current_initial_investment": "Current initial investment",
+        "initial_weekly_investment_slider": "Initial investment amount slider",
+        "weekly_contribution": "Weekly Contribution",
+        "current_weekly_contribution": "Current weekly contribution",
+        "weekly_contribution_slider": "Weekly contribution amount slider",
+        "annual_return_rate": "Annual Return Rate",
+        "current_annual_return_rate": "Current annual return rate",
+        "annual_return_rate_slider": "Annual return rate slider",
+        "investment_years": "Investment Years",
+        "current_investment_period": "Current investment period",
+        "investment_years_slider": "Investment years slider",
+        "years": "years",
+        "year_investment_growth_projection": "Year Investment Growth Projection",
+        "investment_growth_projection_chart": "Investment growth projection chart",
+        "years_axis": "Years",
+        "value_in_usd": "Value in USD",
+        "year": "Year",
+        "total_value": "Total Value",
+        "total_contributed": "Total Contributed",
+        "investment_growth": "Investment Growth",
+        "starting_point": "Starting Point",
+        "total_investment_value_area": "Total investment value area",
+        "total_contributed_area": "Total contributed area",
+        "investment_growth_area": "Investment growth area",
+        "investment_summary_comparison": "Investment summary comparison",
+        "final_value": "Final Value",
+        "total_value_summary": "Total value summary",
+        "after_years": "After {years} years:",
+        "final_value_after_years": "Final value after {years} years",
+        "weekly_savings": "Weekly savings:",
+        "weekly_savings_amount": "Weekly savings amount: ${weeklyContribution}",
+        "annual_savings": "Annual savings:",
+        "annual_savings_amount": "Annual savings: {amount}",
+        "total_contributed_summary": "Total contributed summary",
+        "your_money_in": "Your money in:",
+        "total_contributed_over_years": "Total contributed over {years} years",
+        "initial_amount": "Initial amount:",
+        "initial_investment_amount": "Initial investment: ${initialInvestment}",
+        "weekly_contributions": "Weekly contributions:",
+        "total_weekly_contributions": "Total weekly contributions: {amount}",
+        "investment_growth_summary": "Investment growth summary",
+        "compound_interest": "Compound interest:",
+        "investment_growth_over_years": "Investment growth over {years} years",
+        "return_rate": "Return rate:",
+        "annual_return_rate_display": "Annual return rate: {rate}%",
+        "doubling_time": "Doubling time:",
+        "money_doubles_every_years": "Money doubles every {time} years",
+        "millionaire_achievement": "Millionaire achievement",
+        "millionaire_status_achieved": "🎉 Millionaire Status Achieved!",
+        "millionaire_description": "By investing ${weeklyContribution} weekly at {annualReturn}% annual return, you'll reach {totalValue} in {years} years!",
+        "calculator_controls": "Calculator Controls",
+        "compound_interest_formula": "Compound Interest Formula",
+        "formula_explanation": "Formula explanation",
+        "compound_interest_formula_description": "A equals P times open parenthesis one plus r close parenthesis raised to the power t plus PMT times open bracket open parenthesis one plus r close parenthesis raised to the power t minus one close parenthesis divided by r close bracket",
+        "formula_variables": "Formula variables",
+        "where": "Where",
+        "final_amount": "Final amount",
+        "principal": "Principal (${initialInvestment})",
+        "annual_interest_rate": "Annual interest rate ({annualReturn}%)",
+        "time_in_years": "Time in years ({years})",
+        "weekly_payment": "Weekly payment (${weeklyContribution})",
+        "rule_of_72": "Rule of 72: Money doubles every ~{doublingTime} years"
+      },
+      "S11_D1_FX_C2": "Let me calculate this using the compound interest calculator. If we invest $50 weekly at 8% annual return, what will be the final return after 10 years?",
+      "S11_D2_FX_C1": "That's $39,638 after 10 years! And that's just from investing $50 weekly.",
+      "S11_D3_FX_C2": "The math behind this is the compound interest formula for regular payments: <span className='font-besley'><span className='text-[#8200C3] font-bold italic'>A</span> = <span className='text-[#9F008F] font-bold italic'>P</span> (1 + <span className='text-[#0055B2] font-bold italic'>r</span>)<sup className='text-[#A13C34] font-bold italic'>t</sup> + <span className='text-[#006400] font-bold italic'>PMT</span> <span className='text-black text-xl font-bold'>&times;</span> <span style='font-family: Courier New, monospace; font-size: 1.5em; transform: scaleY(1.8); display: inline-block; vertical-align: middle;'>[</span><span style='display: inline-block; vertical-align: middle; text-align: center;'><div style='display: flex; flex-direction: column; font-size: 0.95em;'><div style='border-bottom: 2px solid black;'>(1 + <span class='text-[#0055B2] font-bold italic'>r</span>)<sup class='text-[#A13C34] font-bold italic'>t</sup> - 1</div><div><span class='text-[#0055B2] font-bold italic'>r</span></div></div></span><span style='font-family: Courier New, monospace; font-size: 1.5em; transform: scaleY(1.8); display: inline-block; vertical-align: middle;'>]</span></span>, here <span className='text-[#006400] font-besley font-bold italic'>PMT</span> is our weekly payment, <span className='text-[#0055B2] font-besley font-bold italic'>r</span> is the weekly interest rate, and <span className='text-[#A13C34] font-besley  font-bold italic'>t</span> is the number of weeks.",
+      "S11_D4_FX_C1": "What about different return rates? Dad says the stock market averages 10% historically. How much would our $50 weekly investment be worth after 10 years at 10% instead of 8%?",
+      "S11_D5_FX_C2": "At 10%, that becomes $44,383 - that is $4,745 more! The compound growth really adds up.",
+      "S11_D6_FX_C1": "But how reliable is 10%?",
+      "S11_D7_FX_C2": "It's the historical average, but it fluctuates significantly year-to-year. Let's use 8% for conservative planning. Also, while our business might grow faster than 8% now, we don't know if that will continue forever.",
+      "S11_D8_FX_C1": "I'm curious - what if we could invest twice as much? What happens if we invest $100 weekly instead of $50, still at 8% for 10 years?",
+      "S11_D9_FX_C2": "That would be $79,277 - that's almost exactly double of our initial investment! So doubling our investment doubles our result.",
+      "S11_D10_FX_C1": "This makes so much sense! We could have both a successful business AND a solid investment portfolio working for us simultaneously.",
+      "S11_D11_FX_C2": "Exactly. We're using the same exponential growth principles that make our business successful but applying them to wealth building."
+    },
+    "S14": {
+      "S14_D1_FX_C2": "The math clearly indicates we're better off without external financing. The exponential function is on our side if we maintain patience and consistency.",
+      "S14_D2_FX_C1": "I'm actually glad Mr. Donovan rejected us.",
+      "S14_D3_FX_C2": "Why would you be pleased with a negative outcome?",
+      "S14_D4_FX_C1": "Because now we know we don't need a bank. The math is on our side.",
+      "S14_D5_FX_C2": "Time and compound growth - far superior to any loan product on the market.",
+      "S14_D6_FX_C1": "I can't wait to show Mr. Donovan our millionaire calculator in a few years.",
+      "S14_D7_FX_C2": "He'll find it difficult to believe that a $20 million business empire originated from a $20 investment in a viscoelastic non-Newtonian fluid.",
+      "S14_D8_FX_C1": "Just say slime, Ben!"
+    },
+    "quest_completion": {
+      "greetings": "Congratulations!",
+      "subheading": "You have conquered The Exponential Twins: Mastering Growth Patterns",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><div style='font-size: 20px; line-height: 30px; font-weight: 500; color: #333333; margin: 0; padding: 0;'> <p style='padding-bottom:10px;'>You completed your journey through the Slime Time STEAMQuest!</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>You calculated compound growth rates for business projections</li><li>You analyzed how exponential functions model business and investment growth</li><li>You evaluated the risks of high-interest debt using exponential models</li><li>You designed a mathematical path to financial independence</li></ul><p style='padding-top:10px;'>Your ability to apply exponential functions to real-world financial situations has shown how mathematics can create paths to business success and personal wealth!</p></div>",
+      "leftsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'><mask id='mask0_7878_8043' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='81'><rect x='0.5' y='0.500977' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_7878_8043)'><path d='M70.2104 10.1126L42.3396 0.321599C41.1396 -0.105897 39.8657 -0.105897 38.6619 0.321599L10.7911 10.1126C8.52025 10.9114 7.0026 13.0826 7.0026 15.5238V32.3427C6.78844 53.4135 19.7969 76.0555 40.5017 80.001C49.9836 78.321 57.8673 72.4149 64.0596 64.0981C70.4735 55.2783 74 44.0017 74 32.3435V15.5246C74 13.0871 72.4824 10.916 70.2115 10.1134L70.2104 10.1126Z' fill='black'/><path d='M38.8213 0.779297C39.8527 0.431352 40.9382 0.409755 41.9727 0.713867L42.1797 0.779297L42.1816 0.780273L69.9854 10.0586L69.9863 10.0596L70.0527 10.082C72.1286 10.7792 73.4998 12.6569 73.5 14.748V30.7266C73.5 41.355 70.2211 51.6393 64.249 59.8057L63.6621 60.5889C57.5446 68.3927 49.7931 73.9019 40.5049 75.4912C20.4753 71.8128 7.69465 51.2107 7.50195 31.6621L7.50293 30.7305V14.748C7.50293 12.7182 8.7897 10.892 10.7568 10.1494L10.9492 10.0811L38.8203 0.780273L38.8213 0.779297Z' fill='#FFCC00' stroke='black'/></g><path d='M27.9224 17.4512C30.0596 17.4512 31.8247 19.2146 31.8248 21.3535C31.8248 23.4908 30.0614 25.2559 27.9224 25.2559C25.7659 25.2558 24.0201 23.494 24.0201 21.3535C24.0201 19.2164 25.7836 17.4512 27.9224 17.4512Z' fill='black' stroke='black'/><path d='M40.6035 20.8799C42.1801 19.6792 44.2308 19.2814 46.2139 19.8105V19.8115C48.1633 20.3385 49.7903 21.8775 50.4658 23.7676L50.5879 24.1504C51.1181 26.0989 50.7668 28.0858 49.624 29.6553L49.3848 29.9639L49.3799 29.9697C49.2084 30.1841 49.0556 30.495 49.0088 30.8291C48.9611 31.1694 49.0211 31.5887 49.3564 31.9131V31.9141L49.3662 31.9238V31.9229C49.3691 31.9256 49.3722 31.9281 49.375 31.9307L49.3994 31.957C49.5244 32.0951 49.6701 32.2142 49.8496 32.2949C50.0295 32.3758 50.2143 32.4043 50.3994 32.4043C50.8826 32.4043 51.4428 32.1635 51.7812 31.7959L51.7803 31.7949C53.1846 30.2772 55.2027 29.4015 57.2949 29.4014C59.9147 29.4014 62.3009 30.9083 63.5195 33.3828L63.8994 34.1543C64.7393 36.5389 64.2966 39.1618 62.6211 41.335C61.4034 42.9055 60.1432 43.8617 58.7695 44.2881L58.2627 44.4453L58.4502 44.9424C58.7124 45.6375 58.8437 46.3477 58.8438 47.0986C58.8438 48.8773 58.1034 50.5181 56.7764 51.6729L56.5029 51.8975C55.0031 53.0601 53.0736 53.4559 51.1895 52.9844H51.1885C49.1744 52.4595 47.5067 50.8313 46.9248 48.8135C46.9055 48.7268 46.8867 48.6444 46.8682 48.5664L46.8096 48.3115C46.5849 47.2118 45.6055 46.4852 44.5254 46.5264L44.3076 46.5449H44.3047C43.1256 46.7088 42.3081 47.6025 42.2529 48.7041L42.252 48.9053V49.4131C42.252 55.0818 37.6256 59.7061 31.959 59.7061C29.3403 59.7059 26.7605 58.6221 24.8184 56.6963L24.4395 56.2998H24.4385C22.5832 54.264 21.6037 51.6359 21.6953 49.0117L21.7285 48.4863C22.0963 44.3096 24.9557 40.808 28.9814 39.5889L29.0088 39.5801L29.0342 39.5693C29.5041 39.3673 29.8946 38.8253 29.9238 38.1992L29.9229 38.1982C29.9731 37.418 29.4874 36.7315 28.7822 36.2881C27.0421 35.041 26.3936 32.8982 27.041 30.8623L27.04 30.8613C27.7026 28.8226 29.4757 27.5381 31.6973 27.5381H31.7578C33.9545 27.5381 35.1696 28.6629 36.0469 29.6738L36.4033 30.0967L36.5781 30.3086V30.3096C36.7793 30.5636 37.0664 30.7035 37.3428 30.748C37.6121 30.7914 37.9204 30.7504 38.1768 30.5781L38.1777 30.5791C38.1789 30.5784 38.1795 30.5769 38.1807 30.5762C38.183 30.5746 38.1861 30.5739 38.1885 30.5723L38.1875 30.5713C38.8128 30.1571 39.0927 29.4359 38.7578 28.7637H38.7588C38.3252 27.8774 38.0996 26.9367 38.0996 25.9404C38.0997 23.9498 39.0207 22.1059 40.6045 20.8809L40.6035 20.8799ZM29.79 50.1074C28.948 50.1074 28.2765 50.7757 28.2764 51.6211C28.2764 52.4632 28.9445 53.1348 29.79 53.1348C30.6321 53.1347 31.3037 52.4666 31.3037 51.6211C31.3036 50.7791 30.6354 50.1075 29.79 50.1074ZM35.875 43.8799C35.033 43.8801 34.3613 44.5482 34.3613 45.3936C34.3615 46.2355 35.0298 46.907 35.875 46.9072C36.7171 46.9072 37.3885 46.2389 37.3887 45.3936C37.3887 44.5514 36.7205 43.8799 35.875 43.8799ZM50.3779 40.8369C49.5359 40.8369 48.8645 41.5053 48.8643 42.3506C48.8643 43.1927 49.5324 43.8643 50.3779 43.8643C51.2201 43.8642 51.8916 43.1961 51.8916 42.3506C51.8914 41.5086 51.2233 40.837 50.3779 40.8369ZM41.6758 38.9502C40.8337 38.9502 40.1622 39.6185 40.1621 40.4639C40.1621 41.306 40.8303 41.9775 41.6758 41.9775C42.5178 41.9773 43.1895 41.3092 43.1895 40.4639C43.1893 39.6219 42.521 38.9504 41.6758 38.9502ZM54.1318 35.9082C53.2897 35.9082 52.6182 36.5764 52.6182 37.4219C52.6182 38.264 53.2864 38.9355 54.1318 38.9355C54.974 38.9355 55.6455 38.2673 55.6455 37.4219C55.6455 36.5797 54.9773 35.9082 54.1318 35.9082ZM41.9609 33.8789C41.1188 33.8789 40.4473 34.5471 40.4473 35.3926C40.4474 36.2346 41.1155 36.9062 41.9609 36.9062C42.8029 36.9062 43.4745 36.2379 43.4746 35.3926C43.4746 34.5505 42.8064 33.879 41.9609 33.8789Z' fill='black' stroke='black'/><path d='M27.9224 15.4502C30.0596 15.4502 31.8247 17.2136 31.8248 19.3525C31.8248 21.4898 30.0614 23.2549 27.9224 23.2549C25.7659 23.2548 24.0201 21.493 24.0201 19.3525C24.0201 17.2154 25.7836 15.4503 27.9224 15.4502Z' fill='white' stroke='black'/><path d='M40.6035 18.8789C42.1801 17.6782 44.2308 17.2805 46.2139 17.8096V17.8105C48.1633 18.3375 49.7903 19.8765 50.4658 21.7666L50.5879 22.1494C51.1181 24.0979 50.7668 26.0848 49.624 27.6543L49.3848 27.9629L49.3799 27.9688C49.2084 28.1831 49.0556 28.494 49.0088 28.8281C48.9611 29.1684 49.0211 29.5877 49.3564 29.9121V29.9131L49.3662 29.9229V29.9219C49.3691 29.9246 49.3722 29.9271 49.375 29.9297L49.3994 29.9561C49.5244 30.0941 49.6701 30.2132 49.8496 30.2939C50.0295 30.3748 50.2143 30.4033 50.3994 30.4033C50.8826 30.4033 51.4428 30.1625 51.7812 29.7949L51.7803 29.7939C53.1846 28.2762 55.2027 27.4005 57.2949 27.4004C59.9147 27.4004 62.3009 28.9074 63.5195 31.3818L63.8994 32.1533C64.7393 34.538 64.2966 37.1609 62.6211 39.334C61.4034 40.9046 60.1432 41.8607 58.7695 42.2871L58.2627 42.4443L58.4502 42.9414C58.7124 43.6365 58.8437 44.3468 58.8438 45.0977C58.8438 46.8763 58.1034 48.5171 56.7764 49.6719L56.5029 49.8965C55.0031 51.0591 53.0736 51.4549 51.1895 50.9834H51.1885C49.1744 50.4586 47.5067 48.8303 46.9248 46.8125C46.9055 46.7258 46.8867 46.6434 46.8682 46.5654L46.8096 46.3105C46.5849 45.2108 45.6055 44.4843 44.5254 44.5254L44.3076 44.5439H44.3047C43.1256 44.7078 42.3081 45.6015 42.2529 46.7031L42.252 46.9043V47.4121C42.252 53.0808 37.6256 57.7051 31.959 57.7051C29.3403 57.705 26.7605 56.6212 24.8184 54.6953L24.4395 54.2988H24.4385C22.5832 52.263 21.6037 49.635 21.6953 47.0107L21.7285 46.4854C22.0963 42.3086 24.9557 38.8071 28.9814 37.5879L29.0088 37.5791L29.0342 37.5684C29.5041 37.3663 29.8946 36.8243 29.9238 36.1982L29.9229 36.1973C29.9731 35.417 29.4874 34.7305 28.7822 34.2871C27.0421 33.0401 26.3936 30.8973 27.041 28.8613L27.04 28.8604C27.7026 26.8216 29.4757 25.5371 31.6973 25.5371H31.7578C33.9545 25.5371 35.1696 26.662 36.0469 27.6729L36.4033 28.0957L36.5781 28.3076V28.3086C36.7793 28.5626 37.0664 28.7025 37.3428 28.7471C37.6121 28.7905 37.9204 28.7494 38.1768 28.5771L38.1777 28.5781C38.1789 28.5774 38.1795 28.5759 38.1807 28.5752C38.183 28.5736 38.1861 28.5729 38.1885 28.5713L38.1875 28.5703C38.8128 28.1561 39.0927 27.4349 38.7578 26.7627H38.7588C38.3252 25.8765 38.0996 24.9357 38.0996 23.9395C38.0997 21.9489 39.0207 20.1049 40.6045 18.8799L40.6035 18.8789ZM29.79 48.1064C28.948 48.1064 28.2765 48.7747 28.2764 49.6201C28.2764 50.4623 28.9445 51.1338 29.79 51.1338C30.6321 51.1337 31.3037 50.4656 31.3037 49.6201C31.3036 48.7781 30.6354 48.1065 29.79 48.1064ZM35.875 41.8789C35.033 41.8791 34.3613 42.5472 34.3613 43.3926C34.3615 44.2345 35.0298 44.9061 35.875 44.9062C36.7171 44.9062 37.3885 44.2379 37.3887 43.3926C37.3887 42.5504 36.7205 41.8789 35.875 41.8789ZM50.3779 38.8359C49.5359 38.8359 48.8645 39.5043 48.8643 40.3496C48.8643 41.1918 49.5324 41.8633 50.3779 41.8633C51.2201 41.8632 51.8916 41.1951 51.8916 40.3496C51.8914 39.5076 51.2233 38.836 50.3779 38.8359ZM41.6758 36.9492C40.8337 36.9492 40.1622 37.6175 40.1621 38.4629C40.1621 39.305 40.8303 39.9766 41.6758 39.9766C42.5178 39.9764 43.1895 39.3083 43.1895 38.4629C43.1893 37.621 42.521 36.9494 41.6758 36.9492ZM54.1318 33.9072C53.2897 33.9072 52.6182 34.5754 52.6182 35.4209C52.6182 36.263 53.2864 36.9346 54.1318 36.9346C54.974 36.9346 55.6455 36.2664 55.6455 35.4209C55.6455 34.5788 54.9773 33.9072 54.1318 33.9072ZM41.9609 31.8779C41.1188 31.8779 40.4473 32.5461 40.4473 33.3916C40.4474 34.2336 41.1155 34.9053 41.9609 34.9053C42.8029 34.9052 43.4745 34.2369 43.4746 33.3916C43.4746 32.5495 42.8064 31.878 41.9609 31.8779Z' fill='white' stroke='black'/></svg>",
+      "leftsvgarialabel": "Slime Icon",
+      "rightsvg": "<svg xmlns='http://www.w3.org/2000/svg' width='92' height='106' viewBox='0 0 92 106' fill='none'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M2.43038 99.371C2.48123 99.3576 2.53092 99.3414 2.58123 99.3214L37.7444 85.3275L39.2059 90.879C39.7067 92.7813 41.6619 93.9216 43.5648 93.4206L51.7305 91.2709C53.6335 90.7699 54.7738 88.8147 54.273 86.9124L52.8115 81.3609L90.307 76.2267C90.3606 76.2193 90.4123 76.2089 90.4628 76.1956C90.8822 76.0852 91.2244 75.772 91.3677 75.3561C91.5293 74.8889 91.4139 74.3707 91.0694 74.0165L82.3042 64.983C83.2996 63.1409 83.5825 60.9892 83.0253 58.8727C82.6452 57.4289 81.8908 56.1114 80.8419 55.0607L46.7312 20.9424L46.5445 20.2331C44.0894 10.9075 32.8361 -1.41066 23.6051 1.01951C14.374 3.44967 10.6447 19.7116 13.0999 29.0377L13.2866 29.747L0.397333 76.2385C0.00123415 77.6692 -0.0062851 79.1874 0.37381 80.6312C0.935462 82.7646 2.2753 84.4845 4.00317 85.5858L0.827843 97.7739C0.703646 98.2519 0.858256 98.7593 1.22884 99.086C1.5594 99.3768 2.01036 99.4812 2.42977 99.3708L2.43038 99.371ZM51.7394 87.5794C51.8725 88.0849 51.5697 88.6036 51.0638 88.7368L42.8981 90.8865C42.3922 91.0197 41.8732 90.7169 41.7402 90.2118L38.2342 76.894L42.7394 73.7L48.2333 74.2616L51.7394 87.5794ZM42.5162 71.0431C42.201 71.011 41.884 71.0945 41.6254 71.2776L32.1246 78.0129L30.7983 72.975L40.9257 66.8095L52.7761 67.1891L54.1024 72.227L42.5162 71.0431ZM48.0562 25.9743L61.5789 39.5L64.1834 49.3933C64.3676 50.093 65.0837 50.5109 65.7837 50.3266C66.4841 50.1422 66.9012 49.426 66.717 48.7264L65.2565 43.1789L78.9877 56.9129C79.7096 57.6349 80.2294 58.5435 80.4916 59.5393C81.0314 61.59 80.4458 63.6969 78.9247 65.176C77.4038 66.6551 75.284 67.1811 73.2522 66.5852L57.531 61.965L48.0562 25.9743ZM57.5782 67.2893C57.848 67.2182 58.0911 67.0622 58.2692 66.8387C58.5267 66.5157 58.6168 66.0891 58.5114 65.6887L58.3101 64.924L72.5141 69.0994C74.0292 69.5432 75.5771 69.5583 77.0246 69.1773C78.3775 68.8211 79.6395 68.1154 80.7034 67.0951L87.3851 73.982L52.1392 78.8081L51.0172 74.5461L55.717 75.0265C55.8761 75.0429 56.0341 75.0295 56.1837 74.9901C56.4387 74.923 56.6694 74.7801 56.8456 74.575C57.1247 74.2483 57.2264 73.8052 57.1169 73.3895L55.5078 67.2771L57.2009 67.3315C57.3291 67.3362 57.4562 67.3214 57.5776 67.2895L57.5782 67.2893ZM15.6339 28.3699C13.543 20.4277 16.7155 5.54229 24.2721 3.55296C31.8286 1.56363 41.9192 12.9569 44.0102 20.8995L55.5294 64.6555L40.6185 64.1787C40.365 64.17 40.1126 64.2365 39.8958 64.3689L27.1526 72.126L15.6339 28.3699ZM2.92343 76.9379L8.11214 58.223L9.57246 63.7701C9.75665 64.4698 10.4727 64.8877 11.1727 64.7034C11.8731 64.519 12.2902 63.8028 12.106 63.1031L9.50152 53.2098L14.6113 34.7789L24.0861 70.769L12.6751 82.5333C11.9225 83.3121 11.0274 83.8422 10.0141 84.1089C7.30828 84.8213 3.8221 83.439 2.90722 79.9638C2.64544 78.968 2.65018 77.9216 2.92311 76.9382L2.92343 76.9379ZM6.43497 86.6493C7.7856 86.999 9.23966 87.0226 10.6819 86.6429C12.164 86.2527 13.4696 85.4831 14.5581 84.3564L24.8652 73.7289L25.0664 74.4935C25.1718 74.8936 25.4603 75.2205 25.8435 75.3752C26.2286 75.531 26.6649 75.4951 27.0154 75.2782L28.4622 74.3972L30.0714 80.5096C30.1808 80.9253 30.4874 81.2605 30.8913 81.4078C31.2946 81.5529 31.7439 81.4957 32.0957 81.2447L35.9498 78.5124L37.0718 82.7744L4.01568 95.9299L6.43497 86.6493ZM36.4409 49.7745C35.7409 49.9587 35.0248 49.5408 34.8406 48.8412L31.5757 36.4396C29.8442 37.1502 28.3495 38.3347 27.2483 39.878L28.5215 44.714C28.7056 45.4136 28.2886 46.1299 27.5882 46.3142C26.8881 46.4985 26.1721 46.0806 25.9879 45.381L20.7576 25.5135C19.4956 20.72 22.3684 15.7935 27.1628 14.5314C31.9378 13.2743 36.8418 16.1208 38.1274 20.8804C38.1291 20.8855 38.1304 20.8903 38.1322 20.8954C38.1339 20.9015 38.136 20.9075 38.1381 20.9135C38.1406 20.9209 38.1432 20.9284 38.1452 20.936L41.9481 35.3828L43.3755 40.8047C43.5596 41.5043 43.1426 42.2206 42.4422 42.405C41.7421 42.5893 41.0261 42.1713 40.8419 41.4717L39.5688 36.6357C37.8508 35.8342 35.9665 35.5393 34.1095 35.7733L37.3742 48.1742C37.5584 48.8738 37.1413 49.5901 36.4409 49.7745ZM23.2913 24.8469L26.4324 36.7784L26.4324 36.7787C28.0019 35.1966 29.9659 34.0545 32.1509 33.4793C34.336 32.904 36.6078 32.9311 38.7514 33.5344L37.3875 28.3534L34.2633 31.084C34.1067 31.2221 33.9259 31.3146 33.7366 31.3644C33.27 31.4872 32.7545 31.3471 32.4157 30.96C31.9389 30.4156 31.9948 29.5876 32.5402 29.1115L36.6435 25.5257L36.1354 23.5957L30.0559 28.669C29.9044 28.7958 29.7311 28.8823 29.5518 28.9295C29.0756 29.0549 28.548 28.9052 28.2118 28.5024C27.748 27.9466 27.8226 27.1205 28.378 26.6568L35.3309 20.8547C35.0406 20.1349 34.6345 19.4969 34.1304 18.9477L29.8661 22.5747C29.7119 22.7065 29.5353 22.7955 29.3523 22.8437C28.8799 22.9681 28.3573 22.8223 28.0199 22.4257C27.5505 21.8746 27.6175 21.0481 28.1689 20.5794L31.9238 17.3862C30.6694 16.8532 29.2467 16.6927 27.83 17.0657C24.4338 17.9597 22.3972 21.4507 23.2913 24.8469ZM41.8217 102.092L40.5432 97.2356C40.359 96.536 39.643 96.1181 38.943 96.3024C38.2427 96.4868 37.8256 97.203 38.0098 97.9026L39.2883 102.759C39.4725 103.459 40.1885 103.877 40.8885 103.692C41.5885 103.508 42.0059 102.792 41.8217 102.092ZM58.7721 92.4349L60.0506 97.2913C60.2348 97.9909 59.8173 98.7073 59.1173 98.8915C58.4174 99.0758 57.7013 98.6579 57.5171 97.9583L56.2386 93.1018C56.0544 92.4022 56.4715 91.686 57.1719 91.5016C57.8719 91.3174 58.5879 91.7353 58.7721 92.4349ZM50.6603 98.6448L52.0041 103.749C52.1883 104.449 51.7712 105.165 51.0708 105.349C50.3708 105.534 49.6548 105.116 49.4706 104.416L48.1268 99.3118C47.9427 98.6122 48.3597 97.896 49.0601 97.7116C49.7601 97.5273 50.4761 97.9452 50.6603 98.6448ZM65.6305 54.8896C65.4463 54.19 65.8634 53.4738 66.5637 53.2894C67.2637 53.1051 67.9799 53.5234 68.1639 54.2227L68.4724 55.3944C68.6566 56.094 68.2395 56.8102 67.5392 56.9946C66.8392 57.1788 66.1231 56.7609 65.939 56.0613L65.6305 54.8896ZM12.9285 71.3726C13.6288 71.1882 14.0459 70.472 13.8617 69.7724L13.5533 68.6007C13.3691 67.9011 12.6531 67.4832 11.9531 67.6674C11.2527 67.8518 10.8356 68.568 11.0198 69.2676L11.3283 70.4394C11.5124 71.1386 12.2285 71.5569 12.9285 71.3726ZM38.4313 52.1913L38.5742 52.7339C38.7584 53.4336 38.3413 54.1498 37.6409 54.3341C36.941 54.5184 36.2249 54.1005 36.0407 53.4009L35.8979 52.8583C35.7137 52.1587 36.1308 51.4425 36.8311 51.2581C37.5311 51.0738 38.2472 51.4917 38.4313 52.1913Z' fill='white'/></svg>"
+    },
+    "glossary": {
+      "compound_interest": {
+        "word": "Compound Interest",
+        "definition": "<strong className=\"text-[#0055B2]\">Compound Interest</strong> is interest calculated on both the initial principal and the accumulated interest, causing exponential rather than linear growth. The formula is:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'>A = P (1 + r)<sup>t</sup> + PMT × <span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>[</span><span style='display: inline-block; vertical-align: middle; text-align: center;'><div style='display: flex; flex-direction: column; font-size: 0.9em; line-height: 1.2;'><div style='border-bottom: 2px solid black;'>(1 + r)<sup>t</sup> − 1</div><div>r</div></div></span><span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>]</span></div><div style='margin-top: 5px;'><em>Where:</em></div><div>A = Final amount</div><div>P = Principal</div><div>r = Annual interest rate</div><div>t = Time in years</div>"
+      },
+      "compound_interest_formula": {
+        "word": "Compound Interest Formula",
+        "definition": "<strong className=\"text-[#0055B2]\">Compound Interest Formula</strong> is a formula used to calculate the growth of an investment over time, based on the principle of compound interest. The formula is:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'>A = P (1 + r)<sup>t</sup> + PMT × <span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>[</span><span style='display: inline-block; vertical-align: middle; text-align: center;'><div style='display: flex; flex-direction: column; font-size: 0.9em; line-height: 1.2;'><div style='border-bottom: 2px solid black;'>(1 + r)<sup>t</sup> − 1</div><div>r</div></div></span><span style='font-family: Courier New, monospace; font-size: 1.2em; transform: scaleY(1.4); display: inline-block; vertical-align: middle;'>]</span></div><div style='margin-top: 5px;'><em>Where:</em></div><div>A = Final amount</div><div>P = Principal</div><div>r = Annual interest rate</div><div>t = Time in years</div>"
+      },
+      "exponential_growth": {
+        "word": "Exponential Growth",
+        "definition": "<strong className=\"text-[#0055B2]\">Exponential Growth</strong> is a pattern of growth where the rate of increase becomes increasingly rapid over time, following a constant multiplier."
+      },
+      "annual_percentage_rate": {
+        "word": "Annual Percentage Rate",
+        "definition": "<strong className=\"text-[#0055B2]\">Annual Percentage Rate (APR)</strong> is the yearly interest rate charged on borrowed money, including fees and costs related to the loan."
+      },
+      "apr": {
+        "word": "APR",
+        "definition": "<strong className=\"text-[#0055B2]\">Annual Percentage Rate (APR)</strong> is the yearly interest rate charged on borrowed money, including fees and costs related to the loan."
+      },
+      "concentration_risk": {
+        "word": "Concentration Risk",
+        "definition": "<strong className=\"text-[#0055B2]\">Concentration Risk</strong> is the potential for increased losses when investments are not diversified and are concentrated in a single business or sector."
+      },
+      "growth_rate": {
+        "word": "Growth Rate",
+        "definition": "<strong className=\"text-[#0055B2]\">Growth Rate</strong> is the percentage increase in a value over a specific time period, often calculated using the formula:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'><span style='font-style: italic'>r</span> = (R₁ ⁄ R₀)<sup>(1 ⁄ <span style='font-style: italic'>t</span>)</sup> − 1</div><div style='margin-top: 5px;'><em>Where:</em></div><div>r = Growth rate (expressed as a decimal)</div><div>R₁ = Final value</div><div>R₀ = Initial value</div><div>t = Number of time periods</div>"
+      },
+      "growth_rates": {
+        "word": "Growth Rates",
+        "definition": "<strong className=\"text-[#0055B2]\">Growth Rate</strong> is the percentage increase in a value over a specific time period, often calculated using the formula:<div style='font-family: Besley; font-weight: bold; margin: 8px 0;'><span style='font-style: italic'>r</span> = (R₁ ⁄ R₀)<sup>(1 ⁄ <span style='font-style: italic'>t</span>)</sup> − 1</div><div style='margin-top: 5px;'><em>Where:</em></div><div>r = Growth rate (expressed as a decimal)</div><div>R₁ = Final value</div><div>R₀ = Initial value</div><div>t = Number of time periods</div>"
+      },
+      "portfolio_diversification": {
+        "word": "Portfolio Diversification",
+        "definition": "<strong className=\"text-[#0055B2]\">Portfolio Diversification</strong> is the strategy of spreading investments across different assets to reduce risk and potentially increase returns."
+      },
+      "conversion_rate": {
+        "word": "Conversion Rate",
+        "definition": "<strong className=\"text-[#0055B2]\">Conversion Rate</strong> is the percentage of viewers or visitors who take a desired action (like making a purchase)."
+      },
+      "conversion_rates": {
+        "word": "Conversion Rates",
+        "definition": "<strong className=\"text-[#0055B2]\">Conversion Rate</strong> is the percentage of viewers or visitors who take a desired action (like making a purchase)."
+      },
+      "minimum_payment": {
+        "word": "Minimum Payment",
+        "definition": "<strong className=\"text-[#0055B2]\">Minimum Payment</strong> is the smallest amount a credit card company will accept toward the balance owed each month."
+      },
+      "borax_solution": {
+        "word": "Borax solution",
+        "definition": "<strong className=\"text-[#0055B2]\">Borax solution</strong> is a mixture of borax (sodium borate) powder dissolved in water, commonly used as a key ingredient in homemade slime recipes. Borax acts as a cross-linking agent that transforms liquid glue into the stretchy, elastic polymer structure characteristic of slime."
+      },
+      "pmt": {
+        "word": "PMT",
+        "definition": "<strong className=\"text-[#0055B2]\">PMT</strong>is a financial term representing the regular, fixed payment amount made at consistent intervals in financial calculations, particularly in compound interest, loan, and annuity formulas."
+      },
+      "return": {
+        "word": "return",
+        "definition": "<strong className=\"text-[#0055B2]\">Return</strong> refers to the gain or profit earned on an investment over time."
+      }
+    },
+    "common": {
+      "samantha": "Samantha",
+      "ben": "Ben",
+      "donovan": "Mr. Donovan",
+      "samantha_description": "Young woman with glasses wearing \"Slime Time\" shirt holding tablet.",
+      "ben_description": "Young boy with curly hair wearing \"Slime Time\" shirt holding tablet.",
+      "donovan_description": "Professional man in dark suit with glasses holding tablet.",
+      "bg1_description": "Suburban neighborhood with houses, white picket fences, and large tree.",
+      "bg2_description": "Modern office with wooden desk, bookshelves, plants, and large windows.",
+      "bg3_description": "Workshop basement with shelves, workbench, tools, and exposed ceiling beams.",
+      "bg4_description": "Storage room with cardboard boxes, shelving, whiteboard, and blue couch.",
+      "bg5_description": "Backyard party with children, slime table, decorations, and string lights.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "click_to_place_point": "Click to place point",
+      "invalid_pair": "Invalid Pair! Try a different combination of angles",
+      "place_point": "Place Point",
+      "angle": "Angle",
+      "focusModeAnnouncement": "Please toggle to focus mode to select angles and drop them in the correct locations."
+    },
+    "audioController": {
+      "background_music_label": "Background Music:",
+      "character_voice_label": "Character Voice:",
+      "audio_controls_container": "Audio Controls",
+      "background-music-volume-slider": "Background music volume",
+      "character-voice-volume-slider": "Character voice volume",
+      "volume-control-opened": "Volume control popover opened",
+      "volume-control-closed": "Volume control popover closed"
+    }
+  },
+  "popover": {
+    "close": "Close popover"
+  },
+  "game": {
+    "game-exponential-model": "STEAM Quest - Exponential Model"
+  }
+}

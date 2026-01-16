@@ -1,0 +1,45 @@
+.control-panel {
+  background: linear-gradient(145deg, #4a5568, #2d3748);
+  border: 2px solid #718096;
+  box-shadow:
+    0 0 20px rgba(0, 0, 0, 0.5),
+    inset 0 0 5px rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+}
+
+.sonar-screen {
+  background: #060918;
+  border: 4px solid #4a5568;
+  box-shadow: inset 0 0 25px #000;
+  position: relative;
+  cursor: grab;
+}
+
+.sonar-screen:active {
+  cursor: grabbing;
+}
+
+.btn-control {
+  background: #4a5568;
+  border: 1px solid #718096;
+  color: #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.btn-control:hover:not(:disabled) {
+  background-color: #718096;
+  box-shadow: 0 0 8px rgba(113, 128, 150, 0.5);
+}
+
+.btn-control.active,
+.btn-control:active:not(:disabled) {
+  background-color: #f6ad55;
+  color: #2d3748;
+  box-shadow: 0 0 10px #f6ad55;
+  border-color: #f6ad55;
+}
+
+.btn-control:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

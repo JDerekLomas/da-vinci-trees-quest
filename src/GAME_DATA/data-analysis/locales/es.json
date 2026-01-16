@@ -1,0 +1,304 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de Inicio",
+    "scene_2": "Pantalla de Bienvenida",
+    "scene_3": "Introducción",
+    "scene_4": "Blake Explica el Estudio Original",
+    "scene_5": "Análisis de Selección de Voluntarios",
+    "scene_6": "Cómo Probar Esto Correctamente",
+    "scene_7": "Diseño de Estudio Apropiado",
+    "scene_8": "Simulador de Aleatorización",
+    "scene_9": "Los Resultados Han Llegado",
+    "scene_10": "Comparación de Grupos",
+    "scene_11": "Significancia Estadística",
+    "scene_12": "Decisión Final",
+    "scene_13": "Pantalla Final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700; color: #333333'>NeuroBoost</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700; color: #333333'>La verdad estadística detrás del marketing</h2>",
+    "description": "<p style='padding-right: 18px; font-size: 20px; line-height: 30px; color: #333333;'>¿Puede el análisis estadístico salvar a Blake de un error de $300,000? Únase al gestor de inversiones Blake Thompson y a la neurocientífica Dra. Elena Rivera mientras investigan si las afirmaciones de NeuroBoost sobre la mejora de la concentración y la memoria se sostienen bajo escrutinio científico. Aprenderá a distinguir estudios defectuosos de experimentos rigurosos y a aplicar métodos estadísticos para separar los efectos reales de las exageraciones publicitarias.</p>",
+    "start_game": "Comenzar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Bienvenido a la toma de decisiones basada en evidencia</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Blake Thompson necesita tu ayuda para evaluar una importante inversión en NeuroBoost, un suplemento que promete mejorar la concentración y la memoria en un 40%. Hoy aprenderás a usar un diseño experimental, aleatorización y análisis estadístico adecuados para descubrir la verdad. Descubrirás cómo el análisis de datos distingue la ciencia de las afirmaciones de marketing y te ayuda a tomar decisiones empresariales inteligentes que valen cientos de miles de dólares.</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Elena! ¡No te he visto desde la secundaria! ¡Definitivamente eres la neurocientífica más famosa que conozco!</div>",
+      "S3_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Gracias, Blake. Ahora, ¿dijiste que necesitabas mi consejo?</div>",
+      "S3_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Sí! Me gustaría mucho tu opinión honesta sobre una nueva oportunidad de inversión. Estoy mirando una empresa llamada NeuroBoost—fabrican suplementos que afirman mejorar mensurablemente la <no-glossary>función</no-glossary> cerebral.</div>",
+      "S3_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Interesante. ¿Qué es exactamente lo que afirman?</div>",
+      "S3_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Acaban de publicar un estudio en su sitio web donde los participantes reportaron una mejora del 40% en la <no-glossary>función</no-glossary> cognitiva en solo cuatro semanas!</div>",
+      "S3_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿40% de mejora en la cognición? Quiero decir, esa sería una píldora de mil millones de dólares—si funcionara.</div>",
+      "S3_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Lo sé, verdad? Por eso estoy pensando en invertir en grande. Trescientos mil de nuestro fondo.</div>",
+      "S3_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tengo que admitir que soy escéptica. Pero tengo curiosidad por saber más. ¿Puedes contarme sobre el estudio?</div>"
+    },
+    "S4": {
+      "S4_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Claro! Entonces, primero crearon una prueba de evaluación de memoria en línea. Cualquiera podía tomarla, y alrededor de 500 personas la completaron.</div>",
+      "S4_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y cómo se veían los datos?</div>",
+      "S4_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Me mostraron esta gráfica de todas las puntuaciones de memoria—se veía como una curva de campana, ¿sabes? La mayoría de las personas obtuvieron puntuaciones en algún lugar del medio, con menos personas en los extremos realmente altos o realmente bajos.</div>",
+      "S4_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es lo que llamamos una distribución normal. Muy común para rasgos como el rendimiento de la memoria. ¿Qué pasó después?</div>",
+      "S4_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Luego preguntaron si alguien quería ser voluntario para participar en el estudio. Alrededor de 100 personas de ese grupo de 500 se inscribieron. <br />Después de cuatro semanas de tomar NeuroBoost, sus puntuaciones de memoria mejoraron en un promedio del 40%. Bastante impresionante, ¿verdad?</div>",
+      "S4_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Hmm. Blake, antes de emocionarnos con ese número del 40%, déjame preguntarte algo. ¿Te dijeron cuáles decidieron inscribirse?</div>",
+      "S4_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eh... No creo que hayan mencionado eso específicamente. ¿Importa?</div>",
+      "S4_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Oh, importa mucho. De hecho, esto podría ser la clave para entender por qué sus resultados están tan inflados. Déjame mostrarte algo.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Simulador de selección de voluntarios",
+        "generalPopulationMemoryPerformance": "Rendimiento de memoria de la población general",
+        "numberOfPeople": "Número de personas",
+        "low": "Bajo",
+        "average": "Promedio",
+        "high": "Alto",
+        "lowToHighPerformance": "Bajo → Rendimiento de memoria → Alto",
+        "simulateVolunteerSelection": "Simular selección de voluntarios",
+        "reset": "Reiniciar",
+        "selfSelectionBias": "Sesgo de autoselección:",
+        "volunteersNotRepresentative": "Los voluntarios no son representativos de la población general.",
+        "generalPopulation": "Población General",
+        "volunteers": "Voluntarios",
+        "about": {
+          "heading": "Acerca de la Selección de Voluntarios y el Sesgo de Autoselección",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Esta herramienta interactiva muestra cómo la selección de voluntarios puede distorsionar los datos en estudios científicos. Las barras azules muestran una distribución normal del rendimiento de memoria en la población general.</li><li style=\"margin-top: 4px;\">Las puntuaciones de memoria de la mayoría de las personas están cerca de la media, formando un patrón de distribución en forma de campana donde las barras más altas representan más personas en ese rango de puntuación.</li><li style=\"margin-top: 4px;\">Cuando se seleccionan voluntarios, aquellos con menor rendimiento de memoria (rangos de puntuación más bajos en el lado izquierdo del gráfico) tienen más probabilidades de participar. Esto crea un sesgo de autoselección, lo que significa que la muestra ya no representa a toda la población.</li></ul>"
+        },
+        "help": {
+          "heading": "¿Cómo Usar esta Herramienta?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Esta herramienta muestra cómo los voluntarios en un estudio pueden diferir de la población general.</li><li style=\"margin-top: 4px;\">Observa las barras azules — representan el rendimiento de memoria de toda la población en diferentes rangos de puntuación.</li><li style=\"margin-top: 4px;\">Haz clic en \"Simular Selección de Voluntarios\" para ver qué individuos eligen ser voluntarios para un estudio de suplementos de memoria.</li><li style=\"margin-top: 4px;\">Compara las barras rojas (voluntarios) con las barras azules (población general) para ver cómo cambia la muestra.</li><li style=\"margin-top: 4px;\">Piensa en qué sucede con el rendimiento promedio de los voluntarios en comparación con la población general y por qué podría ocurrir eso.</li></ul>"
+        }
+      },
+      "S5_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto es lo que parece una distribución normal de puntuaciones de memoria para 500 personas. La mayoría de las personas se agrupan en el medio, con menos en los extremos.</div>",
+      "S5_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto, ese es el patrón de curva de campana que me mostraron.</div>",
+      "S5_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, aquí está la pregunta crítica: <br/> Cuando NeuroBoost publica una convocatoria preguntando '¿Quieres participar en este estudio?'—¿quiénes crees que respondieron? <br/>Haz clic en 'Simular Selección de Voluntarios' para descubrirlo.</div>",
+      "S5_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! Casi todos están en el lado izquierdo—¡las personas con puntuaciones de memoria más bajas!</div>",
+      "S5_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Esto se llama sesgo de autoselección. Las personas que están preocupadas por su memoria tienen muchas más probabilidades de ser voluntarias. Las personas que ya lo están haciendo bien no sienten la necesidad.</div>",
+      "S5_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿los 100 voluntarios no eran representativos—eran mayormente los que tenían peor memoria desde el principio?</div>",
+      "S5_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. Cuando las personas comienzan con puntuaciones por debajo del promedio y luego mejoran, parte de esa mejora viene de los efectos de práctica y el efecto placebo: creer que algo funciona a menudo crea una mejora real.</div>",
+      "S5_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿la mejora del 40% podría no ser del suplemento en absoluto?</div>",
+      "S5_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Podría ser una combinación de todos estos factores. Con este diseño de estudio, no tenemos forma de separarlos. El sesgo de selección de voluntarios hace que el resultado no sea confiable.</div>",
+      "S5_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora veo el problema. No podemos confiar en la afirmación del 40%... ¿Cómo probarías esto correctamente?</div>"
+    },
+    "S6": {
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Deberíamos contactar a NeuroBoost y sugerirles que realicen un ensayo controlado aleatorio adecuado—un ECA. Esa es la única forma de obtener resultados confiables.</div>",
+      "S6_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Crees que aceptarían hacerlo?</div>",
+      "S6_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Creo que aceptarían hacerlo. Un ensayo realizado adecuadamente les daría credibilidad real. Déjame explicarte cómo se vería.</div>"
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "Diseño del estudio",
+        "step1RecruitParticipants": "<strong className=\"text-blue-600\">Paso 1:</strong> Reclutar Participantes",
+        "step2RandomlyAssignGroups": "<strong className=\"text-blue-600\">Paso 2:</strong> Asignar Grupos Aleatoriamente",
+        "step3AdministerTreatmentPlacebo": "<strong className=\"text-blue-600\">Paso 3:</strong> Administrar Tratamiento y Placebo",
+        "step4MeasureOutcomes": "<strong className=\"text-blue-600\">Paso 4:</strong> Medir Resultados",
+        "participantsRecruited": "100 Participantes",
+        "recruitedForStudy": "Reclutados para el estudio",
+        "randomAssignment": "Asignación Aleatoria",
+        "treatmentGroup": "Grupo de Tratamiento",
+        "treatmentGroupParticipants": "50 participantes",
+        "receiveNeuroBoost": "Recibe NeuroBoost",
+        "controlGroup": "Grupo de Control",
+        "controlGroupParticipants": "50 participantes",
+        "receivePlacebo": "Recibe Placebo",
+        "outcomeMeasurement": "Medición de Resultados",
+        "measureCognitiveImprovement": "Medir mejora cognitiva",
+        "doubleBlind": "Doble Ciego:",
+        "doubleBlindDescription": "Ni los participantes ni los investigadores saben quién recibió qué.",
+        "about": {
+          "heading": "Acerca del Diseño Adecuado de Estudios",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Esta herramienta interactiva muestra cómo se estructura un ensayo controlado aleatorizado (ECA) para probar si un tratamiento realmente funciona.</li><li style=\"margin-top: 4px;\">Los investigadores comienzan reclutando un grupo de participantes — por ejemplo, 100 personas. Para garantizar la equidad, cada participante se asigna aleatoriamente a uno de dos grupos:<br><p style=\"font-family: Besley; font-weight: bold; margin-top: 8px;\">Asignación Aleatoria: <span style=\"font-family: Besley; font-weight: bold;\">P</span>(Tratamiento) = <span style=\"font-family: Besley; font-weight: bold;\">P</span>(Control) = <span style=\"display: inline-block; vertical-align: middle; text-align: center;\"><span style=\"border-bottom: 1px solid currentColor; padding-bottom: 2px; display: block;\">1</span><span style=\"padding-top: 2px; display: block;\">2</span></span></p></li><li style=\"margin-top: 8px;\"><strong style=\"color: #A22DDC;\">Grupo de Tratamiento:</strong> Recibe el tratamiento real (por ejemplo, NeuroBoost).</li><li style=\"margin-top: 4px;\"><strong style=\"color: #A22DDC;\">Grupo de Control:</strong> Recibe un placebo, una píldora que se ve idéntica pero no tiene ingrediente activo.</li><li style=\"margin-top: 4px;\">Posteriormente, se miden los resultados de ambos grupos.</li><li style=\"margin-top: 4px;\">Esta configuración elimina el sesgo y los efectos placebo, asegurando que cualquier diferencia en los resultados se deba al tratamiento en sí — no a las expectativas o al azar.</li></ul>"
+        },
+        "help": {
+          "heading": "¿Cómo Usar esta Herramienta?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Esta herramienta interactiva muestra la estructura de un ensayo controlado aleatorizado (ECA) adecuado.</li><li style=\"margin-top: 4px;\">Observa cómo el diagrama de flujo se construye paso a paso, mostrando cómo se reclutan los participantes, se asignan aleatoriamente a grupos, reciben tratamientos y se miden sus resultados.</li><li style=\"margin-top: 4px;\">Observa cómo el proceso asegura que ambos grupos sean comparables y cómo el diseño del estudio elimina el sesgo.</li><li style=\"margin-top: 4px;\">Usa esta herramienta para entender los componentes clave de un estudio científico bien diseñado.</li></ul>"
+        }
+      },
+      "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Un ensayo controlado aleatorio adecuado tiene varios componentes clave. Permíteme explicarte la estructura.</div>",
+      "S7_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Primero, reclutamos participantes adecuadamente—no mediante autoselección, sino mediante muestreo aleatorio para obtener una muestra más representativa. Para este estudio, seleccionamos 100 participantes aleatoriamente.</div>",
+      "S7_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Está bien, 100 personas. ¿Y luego qué?</div>",
+      "S7_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Luego viene la parte más importante: la asignación aleatoria. Dividimos aleatoriamente los 100 participantes en dos grupos de 50 cada uno. Cada persona tiene la misma probabilidad de estar en cualquiera de los grupos.</div>",
+      "S7_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y qué recibe cada grupo?</div>",
+      "S7_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Grupo de Tratamiento: 50 personas reciben el suplemento NeuroBoost real.<br/>Grupo de Control: 50 personas reciben un placebo—una píldora que se ve idéntica pero no contiene ingredientes activos.</div>",
+      "S7_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿la mitad recibe lo real y la mitad recibe una píldora falsa?</div>",
+      "S7_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Y aquí está la parte crucial: este es un estudio ciego. Los participantes no saben quién recibió el suplemento real.</div>",
+      "S7_D9_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Por qué pasar por toda esa molestia?</div>",
+      "S7_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Para eliminar el sesgo. Si los participantes supieran que recibieron el placebo, podría afectar su rendimiento.</div>",
+      "S7_D11_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿ambos grupos se miden al final, y si el grupo de tratamiento mejora más que el grupo de control, sabemos que es por NeuroBoost?</div>",
+      "S7_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Precisamente! Porque ambos grupos tenían las mismas expectativas, los mismos efectos de práctica. La única diferencia es que un grupo recibió NeuroBoost y el otro no.</div>",
+      "S7_D13_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso tiene sentido. Pero mencionaste que la aleatorización era importante—¿por qué exactamente?</div>",
+      "S7_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente pregunta. Permíteme mostrarte qué hace realmente la aleatorización.</div>"
+    },
+    "S8": {
+      "S8_D0_FX_C9": {
+        "title": "Simulador de Aleatorización",
+        "randomize": "Aleatorizar",
+        "reset": "Reiniciar",
+        "allParticipants": "Todos los Participantes",
+        "neuroBoostGroup": "Grupo NeuroBoost",
+        "placeboGroup": "Grupo Placebo",
+        "seeAnalysis": "Ver Análisis",
+        "distributionOfBaselineMemoryScores": "Distribución de Puntuaciones de Memoria Basales",
+        "averageMemoryScore": "Puntuación Promedio de Memoria",
+        "sd": "DE",
+        "groupBalanceVerification": "Verificación del Balance de Grupos",
+        "neuroBoostMean": "Media de NeuroBoost",
+        "placeboMean": "Media de Placebo",
+        "difference": "Diferencia",
+        "groupsWellBalanced": "✓ Los grupos están bien balanceados (diferencia < 5 puntos)",
+        "randomizationProducesBalancedGroups": "La aleatorización produce grupos balanceados con puntuaciones de memoria basales similares, asegurando que cualquier diferencia en los resultados se deba a NeuroBoost, no a diferencias preexistentes.",
+        "backToRandomization": "← Volver a la Aleatorización",
+        "about": {
+          "heading": "Acerca de la Aleatorización en Experimentos",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>La aleatorización es un paso clave en el diseño de un experimento justo e imparcial. Asegura que todas las características de los participantes—tanto conocidas como desconocidas — se distribuyan equitativamente entre los grupos de tratamiento y control.</li><li style=\"margin-top: 4px;\">Esta herramienta interactiva visualiza el proceso de aleatorización. Cada punto de color representa un participante con una puntuación de memoria basal. La sombra de azul indica su puntuación: sombras más claras representan puntuaciones más bajas, sombras más oscuras representan puntuaciones más altas.</li><li style=\"margin-top: 4px;\">Cuando haces clic en \"Aleatorizar,\" los 100 participantes se dividen aleatoriamente en dos grupos de 50 cada uno. Observa cómo los participantes caen en sus grupos asignados y nota cómo la mezcla de colores (puntuaciones) se equilibra entre los dos grupos.</li><li style=\"margin-top: 4px;\">Después de la aleatorización, puedes ver el análisis que muestra histogramas y estadísticas para cada grupo. Esto demuestra cómo la aleatorización crea grupos balanceados con características basales similares, asegurando que cualquier diferencia en los resultados pueda atribuirse al tratamiento en sí.</li></ul>"
+        },
+        "help": {
+          "heading": "¿Cómo Usar esta Herramienta?",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Observa el grupo inicial de 100 participantes. Cada punto de color representa un participante con una puntuación de memoria basal diferente.</li><li style=\"margin-top: 4px;\">Haz clic en el botón \"Aleatorizar\" para asignar aleatoriamente participantes a los grupos NeuroBoost y Placebo.</li><li style=\"margin-top: 4px;\">Observa la animación mientras los participantes caen en sus grupos asignados. Nota cómo la mezcla de colores (que representan diferentes puntuaciones) se equilibra entre grupos.</li><li style=\"margin-top: 4px;\">Después de que se complete la aleatorización, haz clic en \"Ver Análisis\" para ver histogramas detallados y estadísticas que muestran qué tan balanceados están los grupos.</li><li style=\"margin-top: 4px;\">Usa el botón \"Reiniciar\" para empezar de nuevo y aleatorizar otra vez, o haz clic en \"Volver a la Aleatorización\" para volver a la vista de visualización.</li></ul>"
+        }
+      },
+      "S8_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mira esta visualización. Tenemos los 100 participantes de nuestro estudio, codificados por colores según su puntuación de memoria basal.</div>",
+      "S8_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Los colores más claros representan puntuaciones de memoria más bajas, y los colores más oscuros representan puntuaciones más altas. Este gradiente muestra la variación natural en la capacidad de memoria entre nuestros participantes.</div>",
+      "S8_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Puedo ver todo el rango—de claro a oscuro.</div>",
+      "S8_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, necesitamos dividirlos en grupos de tratamiento y control. Observa lo que sucede cuando aleatorizamos. Haz clic en el botón 'Aleatorizar'.</div>",
+      "S8_D5_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Oh, guau, se están dividiendo... y parece que ambos grupos tienen una mezcla similar de tonos claros y oscuros!</div>",
+      "S8_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Esa es la belleza de la aleatorización! Al asignar personas aleatoriamente, creamos naturalmente grupos que están balanceados. Ahora haz clic en 'Ver Análisis' para ver los números reales.</div>",
+      "S8_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Las puntuaciones promedio de memoria basal son muy cercanas.</div>",
+      "S8_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Para todos los efectos prácticos, estos dos grupos están comenzando desde el mismo lugar. Ambos grupos tienen puntuaciones de memoria basales similares, todo similar.</div>",
+      "S8_D9_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿la aleatorización asegura que estamos comparando manzanas con manzanas?</div>",
+      "S8_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Analogía perfecta. Y aquí está por qué importa: <br/>Cuando medimos los resultados después de cuatro semanas, SABEMOS que ambos grupos comenzaron desde la misma línea base. Entonces, si un grupo mejora más que el otro, podemos decir con confianza que la diferencia se debe al tratamiento—no a diferencias preexistentes.</div>",
+      "S8_D11_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Porque cualquier pequeña diferencia al inicio son solo casualidades aleatorias?</div>",
+      "S8_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Lo estás entendiendo. Esta es la base de la inferencia causal en la ciencia. La aleatorización nos permite decir que el tratamiento CAUSÓ la diferencia en los resultados.</div>",
+      "S8_D13_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Está bien, estoy convencido de que esta es la forma correcta de probarlo. ¿Me ayudarás a convencer a NeuroBoost de hacer este estudio?</div>",
+      "S8_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Absolutamente. Me pondré en contacto con ellos y les propondré el diseño del estudio. Un ensayo realizado adecuadamente como este tomará aproximadamente de 6 a 8 semanas en completarse.</div>",
+      "S8_D15_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Vale la pena esperar si significa obtener respuestas creíbles.</div>"
+    },
+    "S9": {
+      "S9_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Allá vamos. Obtuvimos datos de prueba reales de 100 participantes —50 en cada grupo— con sus puntuaciones previas a la prueba, puntuaciones posteriores a la prueba y porcentajes de mejora.</div>",
+      "S9_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto es todo. El momento de la verdad.</div>",
+      "S9_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Empecemos comparando los dos grupos directamente. Te mostraré los porcentajes de mejora lado a lado.</div>"
+    },
+    "S10": {
+      "S10_D0_FX_C9": {
+        "title": "Comparación de Grupos",
+        "subtitle": "Ensayo Controlado Aleatorizado (n=80)",
+        "yAxisLabel": "Porcentaje de Mejora",
+        "placeboLabel": "Placebo",
+        "neuroBoostLabel": "NeuroBoost",
+        "placeboLegend": "Placebo (~4%)",
+        "neuroBoostLegend": "NeuroBoost (~9%)",
+        "keyFinding": "Hallazgo Clave: El suplemento muestra un efecto del ~5% por encima del placebo—mucho menos que la afirmación del 40%.",
+        "differenceText": "~5% Diferencia",
+        "showComparisonButton": "Mostrar Comparación",
+        "resetButton": "Reiniciar",
+        "about": {
+          "heading": "Acerca de los Diagramas de Caja",
+          "body": "<ul style=\"list-style-type: disc; padding-left: 20px;\"><li>Los diagramas de caja (también llamados diagramas de caja y bigotes) son una forma estandarizada de mostrar la distribución de datos basada en cinco estadísticas clave: mínimo, primer cuartil (Q1), mediana, tercer cuartil (Q3) y máximo.</li><li style=\"margin-top: 4px;\">La <strong>caja</strong> representa el 50% central de los datos (rango intercuartílico o RIC), mostrando dónde se encuentran la mayoría de los valores. La <strong>línea horizontal gruesa</strong> dentro de la caja marca la mediana — el valor medio cuando los datos están ordenados.</li><li style=\"margin-top: 4px;\">Los <strong>bigotes</strong> (líneas verticales que se extienden desde la caja) muestran el rango de valores típicos, extendiéndose hasta 1.5 veces el RIC. Los puntos más allá de los bigotes son <strong>valores atípicos</strong> — valores inusuales que caen fuera del rango normal.</li><li style=\"margin-top: 4px;\">El <strong>círculo blanco</strong> indica el valor medio (promedio). En esta visualización, comparar los dos diagramas de caja revela que el grupo placebo mejoró en ~4% mientras que el grupo NeuroBoost mejoró en ~9%, mostrando un efecto real del tratamiento de solo ~5% — mucho menos que la afirmación publicitada del 40%.</li><li style=\"margin-top: 4px;\">Los diagramas de caja son herramientas poderosas para comparar grupos porque muestran no solo promedios, sino la distribución completa — revelando dispersión, simetría y valores atípicos de un vistazo.</li></ul>"
+        }
+      },
+      "S10_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El grupo placebo mejoró alrededor del 4%... y NeuroBoost alrededor del 9%.</div>",
+      "S10_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Espera—eso es solo una diferencia del 5%! ¡No del 40%!</div>",
+      "S10_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. El grupo placebo muestra el poder de la expectativa sola—4% de mejora sin ningún ingrediente activo. NeuroBoost añade 5% encima de eso.</div>",
+      "S10_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Así que el efecto real del suplemento es solo del 5%? ¡Eso es mucho menos de lo que afirmaron!</div>",
+      "S10_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué nos dice la mejora del 4% del placebo?</div>",
+      "question_1": {
+        "option_1": "El suplemento no funciona",
+        "option_2": "Las personas mejoran por efectos de práctica y expectativas solas",
+        "option_3": "El estudio estaba defectuoso",
+        "option_4": "Los resultados son aleatorios"
+      },
+      "S10_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto—las personas mejoran solo por creer que están tomando algo efectivo.</div>",
+      "S10_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Pero aquí está la pregunta crítica: ¿es esta diferencia del 5% real, o podría ser casualidad aleatoria? Verifiquemos la significancia estadística.</div>"
+    },
+    "S11": {
+      "S11_D0_FX_C9": {
+        "title": "Significancia Estadística",
+        "statisticalTest": "Prueba Estadística",
+        "independentSamplesTTest": "Prueba t de muestras independientes",
+        "pValue": "Valor p",
+        "statisticallySignificant": "p < 0.05: Estadísticamente Significativo",
+        "probabilityByChance": "Menos del 0.3% de probabilidad por casualidad",
+        "meanDifference": "Diferencia de Medias",
+        "neuroBoostMinusPlacebo": "NeuroBoost − Placebo mejora promedio",
+        "confidenceInterval": "Intervalo de Confianza del 95%",
+        "confidentTrueEffect": "95% confiados de que el efecto real está entre {ciLower}% y {ciUpper}%"
+      },
+      "S11_D1_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué significa valor p = 0.003?</div>",
+      "S11_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Significa que hay menos del 0.3% de probabilidad de que este resultado haya ocurrido por casualidad. A menudo usamos 0.05 o 5% como punto de corte. Si el valor p es menor que 0.05, es probable que el resultado esté relacionado con la intervención en lugar de deberse solo al azar. En este caso, como p está por debajo de 0.05, la diferencia es estadísticamente significativa—el suplemento realmente funciona.</div>",
+      "S11_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Y ese intervalo de confianza?</div>",
+      "S11_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tenemos 95% de confianza de que el efecto del suplemento es una mejora entre 3.2% y 6.8%. Incluso en el peor caso, sigue siendo una mejora significativa.</div>",
+      "S11_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Qué nos dice p < 0.05?</div>",
+      "question_1": {
+        "option_1": "El suplemento es 5% efectivo",
+        "option_2": "La diferencia es poco probable debido al azar",
+        "option_3": "95% de las personas mejorarán",
+        "option_4": "El estudio estuvo bien diseñado"
+      },
+      "S11_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Así que NeuroBoost funciona, solo que no tan dramáticamente como se afirmó. ¿Pero el 5% es real?</div>",
+      "S11_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Absolutamente. Un impulso cognitivo del 5% es clínicamente significativo.</div>"
+    },
+    "S12": {
+      "S12_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Así que cuál es tu decisión?</div>",
+      "S12_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sigo invirtiendo. Pero insistiré en marketing honesto. 'Mejora cognitiva del 5% clínicamente probada' genera confianza. Prometer demasiado solo lleva a clientes decepcionados.</div>",
+      "S12_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ese es exactamente el enfoque correcto. ¿Qué es lo más importante que aprendiste hoy?</div>",
+      "S12_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Que el sesgo de autoselección puede sesgar completamente los resultados. Sin reclutamiento adecuado y asignación aleatoria, no puedes separar efectos reales de sesgo, efectos de práctica y placebo.</div>",
+      "S12_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y la mejora del 4% del placebo no fue desperdiciada—nos mostró qué tan poderosas son las expectativas. El suplemento añade beneficios reales encima de eso.</div>",
+      "S12_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>También aprendí que la aleatorización es la clave. Crea grupos balanceados para que podamos comparar resultados justamente y realmente probar la causalidad.</div>",
+      "S12_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. La estadística no se trata de limitar afirmaciones—se trata de encontrar la verdad. Y la verdad, resulta, es suficiente para construir un negocio.</div>",
+      "S12_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mejor que suficiente. Es rentable y ético. Ese es el tipo de negocio que quiero construir.</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicidades!",
+      "subheading": "¡Has Descubierto la Verdad Detrás de la Publicidad!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'>Has completado exitosamente la Investigación Estadística de NeuroBoost STEAMQuest.</p><p style='margin: 10px 0; font-weight: 600;'>Logros Clave:</p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Identificaste fallas fatales en estudios observacionales no controlados y aprendiste por qué el diseño experimental adecuado importa</li><li>Descubriste cómo la aleatorización crea comparaciones justas distribuyendo variables de confusión por igual entre grupos</li><li>Analizaste datos de ensayos clínicos reales usando diagramas de caja, valores p e intervalos de confianza para revelar el verdadero efecto del 5%</li><li>Exploraste distribuciones normales para hacer predicciones poblacionales precisas sobre la efectividad del tratamiento</li></ul><p style='margin: 10px 0;'>¡Sigue aplicando el pensamiento estadístico para separar efectos genuinos de la publicidad exagerada en nuestro mundo basado en datos!</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_11887_31532' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_11887_31532)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9495 10.0803 10.9495 10.0803 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.407321 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/><rect x='28.9878' y='28.1816' width='8.75589' height='22.9842' fill='black'/><rect x='43.2161' y='27.0869' width='10.9449' height='24.0787' fill='black'/><path d='M28.648 38.5214V38.0214H28.148H24.4937C24.4936 38.0214 24.4936 38.0214 24.4935 38.0214C23.0708 38.0215 21.9209 39.1978 21.9209 40.6241V52.6986C21.9209 54.1248 23.0708 55.3018 24.4937 55.3018H56.927C58.3499 55.3018 59.4998 54.1248 59.4998 52.6986V40.6241C59.4998 39.1978 58.3498 38.0214 56.927 38.0214H53.8075H53.3075V38.5214V44.9416C53.3075 47.6164 51.1537 49.7905 48.5345 49.7905C45.9147 49.7905 43.7608 47.6164 43.7608 44.9416V38.5214V38.0214H43.2608H38.6947H38.1947V38.5214V44.9416C38.1947 47.6164 36.0408 49.7905 33.4211 49.7905C30.8019 49.7905 28.648 47.6164 28.648 44.9416V38.5214ZM53.2808 28.3291V27.82L52.7717 27.8292L52.7425 27.8297H44.2879H43.7879V28.3297V31.3134V31.9235L44.3862 31.8036C45.6488 31.5506 46.9999 31.9191 48.5143 32.3439C48.5143 32.3439 48.5143 32.3439 48.5144 32.3439L48.5784 32.3619C49.7439 32.6892 51.0325 33.0511 52.2808 32.9394V32.9891C51.0874 33.0972 49.851 32.7579 48.5125 32.3824C48.5124 32.3824 48.5124 32.3824 48.5123 32.3824L48.4477 32.3642C47.0885 31.9822 45.5742 31.5567 44.1593 31.9345L43.7883 32.0336V32.4176V44.9419C43.7883 47.5802 45.9157 49.7493 48.5345 49.7493C51.1526 49.7493 53.2808 47.5803 53.2808 44.9419V33.4253H52.8514L52.8317 32.9279L52.8314 32.9278L52.5835 32.9026C52.6868 32.8866 52.7897 32.8671 52.8921 32.8437L53.2808 32.7549V32.3562V28.3291ZM37.6303 27.8299H29.1747H28.6747V28.3299V31.6777V32.4874L29.3986 32.1247C30.9061 31.3697 32.5532 31.8077 34.4638 32.344L34.4946 32.3526C35.5039 32.6359 36.5963 32.9426 37.6591 32.9602L38.1674 32.9686V32.4603V28.3797L38.2809 27.82L37.6599 27.8294L37.6303 27.8299ZM38.1674 33.5083V33.0165L37.6756 33.0084C36.6421 32.9913 35.5865 32.6983 34.4611 32.3825C34.4299 32.3738 34.3987 32.365 34.3673 32.3562C32.6339 31.869 30.6351 31.3073 28.8937 32.4918L28.6749 32.6406V32.9052V44.9423C28.6749 47.5806 30.8029 49.7497 33.4212 49.7497C36.0398 49.7497 38.1674 47.5807 38.1674 44.9423V33.5083ZM37.6342 22.209H29.0074C28.2652 22.209 27.6715 22.8206 27.6715 23.5565V26.4399C27.6715 27.1755 28.2649 27.7878 29.0074 27.7878H37.6342C38.3767 27.7878 38.9701 27.1755 38.9701 26.4399V23.5565C38.9701 22.8204 38.3763 22.209 37.6342 22.209ZM49.8594 37.1322C50.1191 37.1322 50.3414 37.3476 50.3414 37.6284C50.3414 37.9096 50.1192 38.1246 49.8594 38.1246C49.5999 38.1246 49.3773 37.9094 49.3773 37.6284C49.3773 37.3478 49.6 37.1322 49.8594 37.1322ZM47.6692 39.8792C48.1044 39.8792 48.4693 40.2393 48.4693 40.6981C48.4693 41.1566 48.1046 41.5164 47.6692 41.5164C47.2343 41.5164 46.8696 41.1567 46.8696 40.6981C46.8696 40.2391 47.2346 39.8792 47.6692 39.8792ZM49.4749 43.5938C49.7344 43.5938 49.957 43.8091 49.957 44.09C49.957 44.3707 49.7343 44.5862 49.4749 44.5862C49.2149 44.5862 48.9924 44.3705 48.9924 44.09C48.9924 43.8092 49.2148 43.5938 49.4749 43.5938ZM34.746 37.1323C35.006 37.1323 35.2286 37.348 35.2286 37.6285C35.2286 37.9093 35.0062 38.1247 34.746 38.1247C34.4865 38.1247 34.2639 37.9094 34.2639 37.6285C34.2639 37.3479 34.4866 37.1323 34.746 37.1323ZM32.5563 39.8793C32.9909 39.8793 33.3559 40.2392 33.3559 40.6982C33.3559 41.1568 32.9911 41.5165 32.5563 41.5165C32.1209 41.5165 31.7561 41.1566 31.7561 40.6982C31.7561 40.2393 32.1211 39.8793 32.5563 39.8793ZM34.3617 43.5939C34.6212 43.5939 34.8438 43.8091 34.8438 44.0901C34.8438 44.3707 34.621 44.5863 34.3617 44.5863C34.1023 44.5863 33.8796 44.3707 33.8796 44.0901C33.8796 43.8091 34.1022 43.5939 34.3617 43.5939ZM52.7468 22.2097H44.1206C43.3777 22.2097 42.7847 22.8215 42.7847 23.5572V26.4406C42.7847 27.1761 43.3774 27.7885 44.1206 27.7885H52.7468C53.49 27.7885 54.0827 27.176 54.0827 26.4406V23.5572C54.0827 22.8213 53.4896 22.2097 52.7468 22.2097Z' fill='black' stroke='black'/><rect x='28.9878' y='25.9922' width='8.75589' height='22.9842' fill='black'/><rect x='43.2161' y='24.8975' width='10.9449' height='24.0787' fill='black'/><path d='M28.648 36.3319V35.8319H28.148H24.4937C24.4936 35.8319 24.4936 35.8319 24.4935 35.8319C23.0708 35.8321 21.9209 37.0083 21.9209 38.4346V50.5092C21.9209 51.9354 23.0708 53.1124 24.4937 53.1124H56.927C58.3499 53.1124 59.4998 51.9354 59.4998 50.5092V38.4346C59.4998 37.0084 58.3498 35.8319 56.927 35.8319H53.8075H53.3075V36.3319V42.7521C53.3075 45.427 51.1537 47.6011 48.5345 47.6011C45.9147 47.6011 43.7608 45.4269 43.7608 42.7521V36.3319V35.8319H43.2608H38.6947H38.1947V36.3319V42.7521C38.1947 45.4269 36.0408 47.6011 33.4211 47.6011C30.8019 47.6011 28.648 45.427 28.648 42.7521V36.3319ZM53.2808 26.1397V25.6305L52.7717 25.6398L52.7425 25.6403H44.2879H43.7879V26.1403V29.1239V29.734L44.3862 29.6142C45.6488 29.3611 46.9999 29.7296 48.5143 30.1544C48.5143 30.1544 48.5143 30.1544 48.5144 30.1544L48.5784 30.1724C49.7439 30.4998 51.0325 30.8617 52.2808 30.7499V30.7997C51.0874 30.9077 49.851 30.5685 48.5125 30.193C48.5124 30.193 48.5124 30.1929 48.5123 30.1929L48.4477 30.1748C47.0885 29.7928 45.5742 29.3672 44.1593 29.7451L43.7883 29.8441V30.2281V42.7525C43.7883 45.3907 45.9157 47.5598 48.5345 47.5598C51.1526 47.5598 53.2808 45.3909 53.2808 42.7525V31.2358H52.8514L52.8317 30.7384L52.8314 30.7384L52.5835 30.7131C52.6868 30.6972 52.7897 30.6776 52.8921 30.6542L53.2808 30.5654V30.1668V26.1397ZM37.6303 25.6404H29.1747H28.6747V26.1404V29.4882V30.2979L29.3986 29.9353C30.9061 29.1802 32.5532 29.6183 34.4638 30.1545L34.4946 30.1632C35.5039 30.4465 36.5963 30.7531 37.6591 30.7708L38.1674 30.7792V30.2708V26.1902L38.2809 25.6306L37.6599 25.64L37.6303 25.6404ZM38.1674 31.3188V30.827L37.6756 30.8189C36.6421 30.8019 35.5865 30.5088 34.4611 30.1931C34.4299 30.1843 34.3987 30.1755 34.3673 30.1667C32.6339 29.6796 30.6351 29.1178 28.8937 30.3023L28.6749 30.4511V30.7157V42.7528C28.6749 45.3911 30.8029 47.5602 33.4212 47.5602C36.0398 47.5602 38.1674 45.3912 38.1674 42.7528V31.3188ZM37.6342 20.0195H29.0074C28.2652 20.0195 27.6715 20.6311 27.6715 21.3671V24.2504C27.6715 24.9861 28.2649 25.5983 29.0074 25.5983H37.6342C38.3767 25.5983 38.9701 24.986 38.9701 24.2504V21.3671C38.9701 20.6309 38.3763 20.0195 37.6342 20.0195ZM49.8594 34.9428C50.1191 34.9428 50.3414 35.1582 50.3414 35.439C50.3414 35.7201 50.1192 35.9352 49.8594 35.9352C49.5999 35.9352 49.3773 35.7199 49.3773 35.439C49.3773 35.1584 49.6 34.9428 49.8594 34.9428ZM47.6692 37.6898C48.1044 37.6898 48.4693 38.0498 48.4693 38.5086C48.4693 38.9672 48.1046 39.327 47.6692 39.327C47.2343 39.327 46.8696 38.9673 46.8696 38.5086C46.8696 38.0497 47.2346 37.6898 47.6692 37.6898ZM49.4749 41.4044C49.7344 41.4044 49.957 41.6196 49.957 41.9006C49.957 42.1812 49.7343 42.3968 49.4749 42.3968C49.2149 42.3968 48.9924 42.181 48.9924 41.9006C48.9924 41.6198 49.2148 41.4044 49.4749 41.4044ZM34.746 34.9428C35.006 34.9428 35.2286 35.1586 35.2286 35.439C35.2286 35.7198 35.0062 35.9352 34.746 35.9352C34.4865 35.9352 34.2639 35.72 34.2639 35.439C34.2639 35.1584 34.4866 34.9428 34.746 34.9428ZM32.5563 37.6899C32.9909 37.6899 33.3559 38.0497 33.3559 38.5087C33.3559 38.9674 32.9911 39.327 32.5563 39.327C32.1209 39.327 31.7561 38.9671 31.7561 38.5087C31.7561 38.0499 32.1211 37.6899 32.5563 37.6899ZM34.3617 41.4044C34.6212 41.4044 34.8438 41.6197 34.8438 41.9006C34.8438 42.1813 34.621 42.3968 34.3617 42.3968C34.1023 42.3968 33.8796 42.1813 33.8796 41.9006C33.8796 41.6197 34.1022 41.4044 34.3617 41.4044ZM52.7468 20.0202H44.1206C43.3777 20.0202 42.7847 20.632 42.7847 21.3678V24.2511C42.7847 24.9866 43.3774 25.599 44.1206 25.599H52.7468C53.49 25.599 54.0827 24.9866 54.0827 24.2511V21.3678C54.0827 20.6319 53.4896 20.0202 52.7468 20.0202Z' fill='white' stroke='black'/></g></svg>",
+      "leftsvgarialabel": "Tubo de ensayo en el estante.",
+      "rightsvg": "<svg width='140' height='127' viewBox='0 0 140 127' fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.2'><mask id='mask0_11887_31550' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='1' y='5' width='127' height='120'><path d='M100.188 46.6984C95.9222 44.5104 91.5691 42.2777 86.9872 42.0409L88.7226 33.74L115.015 39.2369L112.557 50.9983C108.446 50.9241 104.397 48.8584 100.249 46.7296L100.249 46.7296L100.188 46.6984ZM98.3132 50.6091C102.543 52.7786 106.922 55.0248 111.651 55.3296L104.207 90.935C102.709 98.1035 95.567 102.741 88.3347 101.229C81.1006 99.7165 76.4169 92.6065 77.9155 85.4383L86.0607 46.4774C90.1037 46.4118 94.0898 48.4411 98.2607 50.5822L98.2609 50.5823L98.3132 50.6091ZM40.1916 23.5945L66.484 29.0913L63.9791 41.0732C61.0291 40.3203 58.1017 38.8219 55.1306 37.2974L55.0571 37.2597C49.7008 34.5113 44.1992 31.6884 38.2543 32.861L40.1916 23.5945ZM53.14 41.1497L53.1401 41.1497L53.167 41.1635C56.3662 42.8047 59.6464 44.4875 63.0858 45.3461L55.6758 80.7901C54.1771 87.9587 47.037 92.5964 39.8032 91.0841C32.5706 89.572 27.8853 82.4616 29.3839 75.2935L37.234 37.7444C42.5567 35.7528 47.687 38.3514 53.14 41.1497ZM42.8565 5.72169L70.5585 11.5131C71.768 11.766 72.5479 12.9541 72.2989 14.1451L70.4052 23.2032C70.1562 24.3941 68.9652 25.1715 67.7559 24.9187L40.0539 19.1272C38.8447 18.8744 38.0648 17.6851 38.3138 16.4941L40.2075 7.43595C40.4564 6.24531 41.647 5.46881 42.8565 5.72169ZM17.9773 52.3665L29.2224 54.7174L25.1081 74.3972C23.1171 83.9205 29.3293 93.3288 38.9146 95.3327C48.5016 97.337 57.963 91.2054 59.954 81.6822L64.0683 62.0024L77.7519 64.8631L73.6376 84.5429C71.6467 94.0663 77.859 103.474 87.4462 105.479C97.0318 107.483 106.493 101.351 108.484 91.8279L112.598 72.1481L122.125 74.14C125.519 74.8495 127.716 78.1852 127.014 81.5454L119.083 119.478C118.381 122.839 115.031 125.016 111.638 124.306L7.48936 102.533C4.09559 101.823 1.89901 98.4866 2.6016 95.126L10.5319 57.1934C11.2344 53.8332 14.5828 51.6573 17.9765 52.3663C17.9767 52.3664 17.977 52.3665 17.9773 52.3665ZM103.762 66.8622C104.18 64.8607 102.885 62.9017 100.876 62.4816C98.8678 62.0618 96.8945 63.3373 96.476 65.339C96.0572 67.3423 97.3547 69.2999 99.3624 69.7196C101.372 70.1397 103.343 68.8655 103.762 66.8622ZM95.7343 75.2488C96.2697 72.6877 94.6113 70.1789 92.0385 69.6411C89.467 69.1035 86.9426 70.7379 86.4072 73.2989C85.8719 75.8596 87.5301 78.367 90.1018 78.9046C92.6745 79.4425 95.1988 77.8101 95.7343 75.2488ZM98.2838 86.9034C98.7026 84.9001 97.4051 82.9425 95.3974 82.5228C93.3882 82.1027 91.415 83.3762 90.9961 85.3798C90.5776 87.3816 91.8749 89.3407 93.8842 89.7608C95.892 90.1806 97.8653 88.9051 98.2838 86.9034ZM55.2322 56.7167C55.6507 54.7148 54.3535 52.7558 52.3442 52.3357C50.3363 51.9159 48.3631 53.1914 47.9446 55.1931C47.5258 57.1964 48.8233 59.154 50.831 59.5737C52.8401 59.9938 54.8133 58.7203 55.2322 56.7167ZM47.2027 65.1029C47.7381 62.542 46.0804 60.0332 43.5085 59.4955C40.9356 58.9576 38.4111 60.5919 37.8757 63.153C37.3403 65.7138 38.9993 68.2212 41.5719 68.7591C44.143 69.2966 46.6673 67.6641 47.2027 65.1029ZM49.7527 76.7576C50.1716 74.7542 48.874 72.7967 46.8663 72.377C44.8586 71.9572 42.8856 73.2309 42.4667 75.2344C42.0483 77.236 43.3453 79.1952 45.3531 79.615C47.361 80.0348 49.3343 78.7592 49.7527 76.7576ZM91.387 15.8699L119.087 21.6609C120.298 21.9141 121.076 23.1017 120.827 24.2929L118.934 33.351C118.685 34.5421 117.495 35.3196 116.284 35.0665L88.5844 29.2755C87.3737 29.0224 86.5952 27.8335 86.8442 26.6423L88.7379 17.5842C88.9869 16.3933 90.176 15.6167 91.387 15.8699Z' fill='white' stroke='black'/></mask><g mask='url(#mask0_11887_31550)'><rect x='-11' y='-9.00098' width='148' height='128' fill='#D9D9D9'/></g></g></svg>"
+    },
+    "glossary": {},
+    "common": {
+      "char1": "Dr. Rivera",
+      "char1_description": "Mujer madura con cabello gris, gafas y bata de laboratorio blanca.",
+      "char2": "Blake",
+      "char2_description": "Un hombre con pelo rizado, gafas, camisa blanca, abrigo gris oscuro, corbata negra y pantalones negros, sosteniendo una tableta.",
+      "bg1_description": "Edificio futurista con arquitectura curva, árboles y cielo despejado, personas caminando afuera.",
+      "bg2_description": "Oficina abierta con estaciones de trabajo, personas colaborando y pantallas con datos.",
+      "bg3_description": "Área de trabajo con escritorio, monitores con visualizaciones de datos y vista de la ciudad.",
+      "bg4_description": "Laboratorio con paredes de vidrio, estantes de libros y científicos discutiendo frente a una pantalla.",
+      "bg5_description": "Oficina moderna con ventanas grandes, escritorios y pantalla digital con gráficos.",
+      "help": "Ayuda",
+      "info": "Información",
+      "left-side": "Lado izquierdo",
+      "right-side": "Lado derecho",
+      "quest_progress": "Progreso de la misión",
+      "enter_answer": "Ingresa tu respuesta"
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control de volumen de la música de fondo",
+      "character-voice-volume-slider": "Control de volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergent"
+  },
+  "game": {
+    "data-analysis": "STEAM Quest - Análisis de datos"
+  }
+}

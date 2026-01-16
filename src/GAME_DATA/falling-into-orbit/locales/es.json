@@ -1,0 +1,398 @@
+{
+  "scenesList": {
+    "scene_1": "Pantalla de inicio",
+    "scene_2": "Pantalla de bienvenida",
+    "scene_3": "Introducción",
+    "scene_4": "La primera ley de la caída",
+    "scene_5": "Simulador de movimiento de proyectiles",
+    "scene_6": "La idea revolucionaria de Newton",
+    "scene_7": "El canon de Newton",
+    "scene_8": "El antiguo secreto",
+    "scene_9": "Cortador de cono 3D",
+    "scene_10": "Acerca de la órbita geosincrónica",
+    "scene_11": "Simulador de órbita geosincrónica",
+    "scene_13": "Simulador de lanzamiento de satélites",
+    "scene_14": "Conclusión",
+    "scene_15": "Pantalla final"
+  },
+  "dialog": {
+    "button": {
+      "start_again": "Reiniciar Juego",
+      "next": "Próxima",
+      "back": "Atrás",
+      "correct": "Correcto",
+      "try-again": "Intentar otra vez",
+      "submit": "Entregar",
+      "back_button": "Botón Atrás"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 32px; line-height: 48px; font-weight: 700;'>Cayendo en Órbita</h1> <h2 style='font-size: 20px; line-height: 30px; font-weight: 700;'>Las matemáticas de los vuelos espaciales</h2>",
+    "description": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Únete a Ayaan y Leila, dos curiosas cadetes seleccionadas para un programa de entrenamiento espacial de élite, mientras aprenden las matemáticas detrás de los cohetes y las órbitas con la Dra. Vega. En esta STEAMQuest, explorarás cómo las matemáticas antiguas predicen los vuelos espaciales modernos —desde proyectiles parabólicos hasta trayectorias orbitales— y descubrirás que llegar al espacio no se trata de ascender, sino de desplazarse lateralmente a una velocidad suficiente para caer constantemente y evitar la Tierra.</div>",
+    "start_game": "Iniciar STEAMQuest"
+  },
+  "scenes": {
+    "S2": {
+      "S2_D1_FX_C0": {
+        "heading": "<div style='font-size: 24px; line-height: 36px; font-weight: 700;'>Bienvenido al Campamento Espacial Starlight</div>",
+        "body": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Donde los jóvenes exploradores se entrenan como astronautas. Hoy descubriremos la ciencia detrás de los cohetes, las órbitas y los viajes espaciales, y aprenderemos cómo las matemáticas guían cada paso del viaje. ¿Listos para descubrir las matemáticas y la ciencia ocultas tras los cohetes y las órbitas?</div>"
+      }
+    },
+    "S3": {
+      "S3_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cadetes, durante miles de años los humanos miraron las estrellas y se preguntaron: ¿podríamos alguna vez alcanzarlas? Díganme — ¿qué saben ya sobre el espacio?</div>",
+      "S3_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No hay aire. Flotamos. ¡Y no hay gravedad!</div>",
+      "S3_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No exactamente, Ayaan. Sí hay gravedad en el espacio — es lo que mantiene a los planetas en órbita alrededor del Sol.</div>",
+      "S3_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto, Leila. Lo que desaparece en el espacio no es la gravedad — es el aire.</div>",
+      "S3_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, otra pregunta: ¿qué tan lejos está el espacio?</div>",
+      "S3_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Súper lejos. ¿Como miles de millas?</div>",
+      "S3_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Para nada. El espacio empieza a solo 62 millas de altura; si pudieras conducir directamente hacia arriba, llegarías en menos de una hora.</div>",
+      "S3_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Espera... ¿por qué es tan difícil llegar? ¿Por qué no puede volar un avión?</div>",
+      "S3_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ah, ahora estamos haciendo la pregunta correcta. No se trata de ir hacia arriba — se trata de ir lo suficientemente rápido hacia los lados.</div>"
+    },
+    "S4": {
+      "S4_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Antes de lanzar algo a la órbita, necesitamos entender lo básico. Cada objeto que lanzas sigue un camino curvo: una parábola.</div>",
+      "S4_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Una parábola? ¿Como esas gráficas en forma de U de la clase de matemáticas?</div>",
+      "S4_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Ya sea que estés lanzando una pelota o lanzando un cohete, la gravedad dobla la trayectoria en una curva descrita por una ecuación simple: <span className='sr-only'>y es igual a x al cuadrado más bx más c</span><span style='font-family: Besley; font-weight: bold;' aria-hidden='true'><em style='color: #008217'>y</em> = a<em style='color: #0061FC;'>x²</em> + b<em style='color: #0061FC;'>x</em> + c</span>.</div>",
+      "S4_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿los valores de <span style='font-family: Besley; font-weight: bold;'>a</span>, <span style='font-family: Besley; font-weight: bold;'>b</span> y <span style='font-family: Besley; font-weight: bold;'>c</span> en la <no-glossary>ecuación</no-glossary> determinan la forma de la curva?</div>",
+      "S4_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Precisamente. El ángulo con el que lanzas y la velocidad que usas cambian esos valores, y cambian la trayectoria. Probemos esto con nuestro simulador de proyectiles.</div>"
+    },
+    "S5": {
+      "S5_D0_FX_C9": {
+        "title": "Simulador de Movimiento de Proyectiles",
+        "about": {
+          "heading": "Simulador de movimiento de proyectiles",
+          "body": "<div><p>Comprendiendo el movimiento de proyectiles:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Trayectoria parabólica</strong>: Todos los proyectiles siguen una trayectoria curva llamada parábola, descrita por la ecuación <span className='sr-only'>y = a x al cuadrado más bx más c</span><span style='font-family: Besley; font-weight: bold;' aria-hidden='true'><em style='color: #008217'>y</em> = a<em style='color: #0061FC;'>x²</em> + b<em style='color: #0061FC;'>x</em> + c</span>.</li><li><strong>Efecto del ángulo de lanzamiento</strong>: Los ángulos poco profundos (cercanos a 0°) crean distancias horizontales más largas, mientras que los ángulos pronunciados (cercanos a 90°) crean alturas máximas más altas.</li><li><strong>Efecto de la velocidad</strong>: Las velocidades iniciales más altas resultan en mayores alcances y alturas máximas, pero el proyectil siempre sigue una trayectoria parabólica de regreso a la Tierra.</li><li><strong>Función de la gravedad</strong>: La gravedad tira constantemente del proyectil hacia abajo, creando la característica trayectoria curva que siempre regresa al suelo.</li></ol></div>"
+        },
+        "help": {
+          "heading": "¿Cómo usar este Simulador?",
+          "body": "<div><p>Para explorar la física del movimiento de proyectiles:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Ajusta el control deslizante del <strong>Ángulo de Lanzamiento</strong> (0° a 89°) para cambiar la forma de la trayectoria</li><li>Modifica el control deslizante de <strong>Velocidad Inicial</strong> (3.33 a 328.1 ft/s) para cambiar la velocidad del proyectil</li><li>Observa cómo la <strong>Fórmula de Trayectoria</strong> se actualiza automáticamente con tus cambios</li><li>Haz clic en <strong>Disparar</strong> para lanzar el proyectil y ver su ruta</li><li>Usa <strong>Reiniciar</strong> para limpiar la simulación y empezar de nuevo</li></ol></div>"
+        },
+        "angle": "Ángulo de Lanzamiento",
+        "velocity": "Velocidad Inicial",
+        "formula": "Fórmula de Trayectoria",
+        "fire": "Disparar",
+        "reset": "Reiniciar",
+        "results": "Resultados",
+        "angle_label": "Ángulo:",
+        "speed_label": "Velocidad:",
+        "distance_label": "Distancia:"
+      },
+      "S5_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está tu primera misión: lanza un proyectil y observa cómo se mueve. Ajusta el control deslizante del ángulo de lanzamiento y observa cómo cambia la trayectoria.</div>",
+      "S5_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Oh! En ángulos bajos, viaja más lejos horizontalmente. En ángulos pronunciados, va más alto pero aterriza más cerca.</div>",
+      "S5_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente observación. Ahora ajusta el control deslizante de velocidad. Intenta lanzar a diferentes velocidades.</div>",
+      "S5_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Cuanto más rápido vaya, más lejos viajará! Entonces, si acelero al máximo, ¿lo lanzaré a la órbita?</div>",
+      "S5_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Adelante, Ayaan. Pon la velocidad al máximo y dispara. ¿Qué sucede?</div>",
+      "S5_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! Va muy lejos... pero todavía vuelve a bajar. Siempre se curva de vuelta a la Tierra.</div>",
+      "S5_D7_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No importa qué tan rápido lo lancemos, la gravedad lo atrae de vuelta. Nunca escapa.</div>",
+      "S5_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente, Leila. Incluso a velocidad máxima en este simulador, el proyectil sigue una trayectoria parabólica y regresa a la Tierra.</div>",
+      "S5_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Llegar al espacio no se trata solo de ascender. Se trata de ir lateralmente, tan rápido que, al caer, la Tierra se curva bajo tus pies.</div>",
+      "S5_D10_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces... ¿ir directamente hacia arriba es la estrategia equivocada?</div>",
+      "S5_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Piénsenlo. Cuando se lanza con un ángulo pronunciado, se asciende, pero se cae rápidamente. Cuando se lanza con un ángulo suave, se desplaza lateralmente más lejos. Así que, en lugar de luchar contra la gravedad subiendo, nos desplazamos lateralmente rápidamente, de modo que seguimos fallando al suelo.</div>",
+      "S5_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Déjenme mostrarles el experimento mental que lo cambió todo: el Cañón de Newton en una Montaña.</div>"
+    },
+    "S6": {
+      "S6_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El científico Isaac Newton imaginó algo extraordinario. ¿Qué pasaría si pudieras disparar un cañón desde la cima de una montaña con suficiente velocidad?</div>",
+      "S6_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Seguirá cayendo, ¿verdad? ¿Como todos nuestros proyectiles?</div>",
+      "S6_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>No necesariamente. Newton descubrió que, a la velocidad justa, la bala de cañón cae... pero la Tierra se curva debajo de ella a la misma velocidad.</div>",
+      "S6_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Espera... ¿entonces seguirá cayendo pero nunca tocará el suelo?</div>",
+      "S6_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Eso es órbita: caer de lado tan rápido que no alcanzas la Tierra. Probémoslo en nuestra herramienta de <no-glossary>simulación</no-glossary>.</div>"
+    },
+    "S7": {
+      "S7_D0_FX_C9": {
+        "title": "El canon de Newton",
+        "about": {
+          "heading": "El canon de Newton",
+          "body": "<div><p>Entendiendo la Mecánica Orbital:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Trayectoria Parabólica</strong>: A velocidades por debajo de 4.85 mi/s, la bala de cañón sigue una ruta curva y se estrella de vuelta a la Tierra, igual que los proyectiles en la Tierra.</li><li><strong>Órbita Circular</strong>: A exactamente 4.85 mi/s, la bala de cañón cae hacia la Tierra pero se mueve lateralmente lo suficientemente rápido como para que la Tierra se curve debajo de ella, creando una órbita circular estable.</li><li><strong>Órbita Elíptica</strong>: Cerca de la velocidad circular para alguna altitud más alta y, entre la velocidad circular y la de escape, el satélite sigue una ruta elíptica, acelerando cuando está cerca de la Tierra y desacelerando cuando está lejos.</li><li><strong>Escape Hiperbólico</strong>: A velocidades por encima de 6.96 mi/s (velocidad de escape), la bala de cañón se libera completamente de la gravedad de la Tierra y sigue una ruta hiperbólica abierta hacia el espacio.</li></ol></div>"
+        },
+        "help": {
+          "heading": "¿Cómo usar el canon de Newton?",
+          "body": "<div><p>Para explorar la mecánica orbital:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Usa el control deslizante de <strong>Velocidad</strong> para establecer una velocidad de lanzamiento personalizada, luego haz clic en <strong>Fuego</strong> para lanzar una bala de cañón y ver su trayectoria</li><li>Haz clic en los botones preestablecidos para lanzar instantáneamente balas de cañón a velocidades específicas:</li><ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li>Por debajo de 4.85 mi/s (se estrella de vuelta a la Tierra)</li><li>Exactamente 4.85 mi/s (órbita circular)</li><li>4.85-6.96 mi/s (órbita elíptica)</li><li>Por encima de 6.96 mi/s (trayectoria de escape)</li></ul><li>Puedes lanzar hasta 5 balas de cañón simultáneamente para comparar diferentes trayectorias</li><li>Usa <strong>Restablecer</strong> para limpiar todas las trayectorias y volver a la vista inicial</li></ol></div>"
+        },
+        "speed": "Velocidad",
+        "fire": "Fuego",
+        "reset": "Restablecer",
+        "presetCrashes": "Por debajo de 4.85 mi/s (Se estrella)",
+        "presetCircular": "Exactamente 4.85 mi/s (Circular)",
+        "presetElliptical": "4.85-6.96 mi/s (Elíptica)",
+        "presetEscape": "Por encima de 6.96 mi/s (Escape)"
+      },
+      "S7_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está la famosa montaña de Newton con nuestro cañón. Primero, veamos qué sucede a baja velocidad. Ajusta la velocidad a menos de 4.85 mi/s y pulsa Disparar.</div>",
+      "S7_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Se curva hacia abajo y se estrella contra la Tierra. Justo como nuestros proyectiles: la gravedad gana.</div>",
+      "S7_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Correcto. A estas velocidades, sigues una trayectoria parabólica. Ahora intenta algo más rápido: establece una velocidad mayor o igual a 4.85 mi/s e inferior a 6.96 mi/s.</div>",
+      "S7_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Oh! ¡Está dando vueltas alrededor de la Tierra! ¡No está cayendo de vuelta, se está quedando ahí arriba!</div>",
+      "S7_D5_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Espera, sí está cayendo... ¡solo que está cayendo hacia la Tierra en lugar de caer en ella!</div>",
+      "S7_D6_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esta es la velocidad orbital. La bala de cañón cae hacia la Tierra, pero se mueve lateralmente lo suficientemente rápido como para que la Tierra se curve debajo de ella.</div>",
+      "S7_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, ¿qué tal si vamos aún más rápido? Intenta establecer una velocidad mayor o igual a 6.96 mi/s y dispara.</div>",
+      "S7_D8_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡La trayectoria se está abriendo! ¡No está regresando, está escapando!</div>",
+      "S7_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es la velocidad de escape. A 6.96 mi/s, te liberas completamente de la gravedad de la Tierra.</div>",
+      "S7_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿qué determina si te estrellas, orbitas o escapas?</div>",
+      "question_1": {
+        "option_1": "Solo el ángulo de lanzamiento",
+        "option_2": "Solo la altitud de lanzamiento",
+        "option_3": "La velocidad a la que viajas",
+        "option_4": "El peso del objeto"
+      },
+      "S7_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. La velocidad es la clave. Pero aquí hay algo interesante: estas diferentes trayectorias no son aleatorias. Todas pertenecen a la misma familia matemática de curvas. ¿Han notado las formas?</div>",
+      "S7_D12_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La trayectoria de choque se curva hacia atrás... la órbita es circular... y la trayectoria de escape se abre hacia afuera.</div>",
+      "S7_D13_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Diferentes curvas para diferentes velocidades. ¿Hay un patrón?</div>",
+      "S7_D14_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Lo hay! Y fue descubierto miles de años antes de Newton, por matemáticos griegos antiguos que estudiaban una forma geométrica simple. Déjame mostrártelo.</div>"
+    },
+    "S8": {
+      "S8_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Hace más de 2,000 años, los matemáticos griegos descubrieron algo extraordinario mientras estudiaban un simple <no-glossary>cono</no-glossary>.</div>",
+      "S8_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Un <no-glossary>cono</no-glossary>? ¿Así que la ciencia espacial viene de... la clase de matemáticas?</div>",
+      "S8_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Descubrieron que al cortar un <no-glossary>cono</no-glossary> en diferentes ángulos, puedes crear cada una de las trayectorias que acabamos de ver.</div>",
+      "S8_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Espera, entonces ¿la trayectoria de choque, la órbita y el escape están todos ocultos en una forma?</div>",
+      "S8_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí. Estas formas se llaman secciones cónicas. Déjame mostrarte el cono que contiene todas las matemáticas del vuelo espacial.</div>"
+    },
+    "S9": {
+      "S9_D0_FX_C9": {
+        "title": "Cortadora de cono 3D",
+        "about": {
+          "heading": "Cortadora de cono 3D",
+          "body": "<div><p>Entendiendo las Secciones Cónicas:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Círculo</strong>: Cuando el plano de corte es perfectamente horizontal (0°), crea una sección transversal circular, representando órbitas circulares.</li><li><strong>Elipse</strong>: Cuando el plano está ligeramente inclinado, el círculo se estira en forma ovalada, representando órbitas elípticas que la mayoría de los satélites siguen.</li><li><strong>Parábola</strong>: Cuando el ángulo del plano coincide con el lado del cono, crea una curva abierta que nunca se cierra, representando trayectorias de escape a exactamente la velocidad orbital.</li><li><strong>Hipérbola</strong>: Cuando el plano es más empinado que el lado del cono, crea una curva aún más abierta, representando trayectorias de escape por encima de la velocidad de escape.</li></ol></div>"
+        },
+        "help": {
+          "heading": "¿Cómo usar la Cortadora de cono 3D?",
+          "body": "<div><p>Para explorar las secciones cónicas:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Ajusta el control deslizante del <strong>Ángulo del Plano</strong> (0° a 90°) para cambiar cómo el plano corta a través del cono</li><li>Mueve el control deslizante de <strong>Posición del Plano</strong> (-4 a 4) para cambiar dónde el plano intersecta el cono</li><li>Haz clic en los botones de ejemplo para ver ejemplos perfectos:</li><ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li><strong>Círculo</strong> (corte horizontal)</li><li><strong>Elipse</strong> (corte ligeramente inclinado)</li><li><strong>Parábola</strong> (plano paralelo al lado del cono)</li><li><strong>Hipérbola</strong> (corte en ángulo empinado)</li></ul><li>Observa la visualización 3D para ver la intersección resaltada en amarillo</li><li>Ve la ecuación matemática y el gráfico 2D de la forma resultante abajo</li></ol></div>"
+        },
+        "planeAngleLabel": "Ángulo del Plano (0° = Horizontal):",
+        "planePositionLabel": "Posición del Plano:",
+        "exampleSlicesLabel": "Cortes de Ejemplo",
+        "sliceDetailsLabel": "Detalles del Corte",
+        "sliceShapeLabel": "Forma del Corte:",
+        "conicEquationLabel": "Ecuación Cónica (en coordenadas del plano):",
+        "noIntersectionMessage": "El plano no está intersectando con el cono.",
+        "circle": "Círculo",
+        "ellipse": "Elipse",
+        "parabola": "Parábola",
+        "hyperbola": "Hipérbola",
+        "noInteractionStatus": "Sin Interacción",
+        "noIntersectionStatus": "Sin intersección",
+        "singlePointStatus": "Punto único (vértice)"
+      },
+      "S9_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí está tu cono. Ese plano que lo corta crea diferentes formas. Primero, intenta hacer clic en el botón Círculo para ver un corte horizontal perfecto.</div>",
+      "S9_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Cuando el plano está perfectamente plano, hace un círculo! Esa es una órbita circular, ¿verdad?</div>",
+      "S9_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Pero los círculos perfectos son raros en el espacio — la mayoría de las órbitas están ligeramente estiradas. Haz clic en el botón Elipse.</div>",
+      "S9_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Oh! Cuando inclinamos el plano un poco, el círculo se estira en forma ovalada.</div>",
+      "S9_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Eso es una elipse, la forma que siguen la mayoría de los satélites. Ahora veamos la trayectoria que regresa a la Tierra. Haz clic en Parábola.</div>",
+      "S9_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡La forma se abre en un extremo! Es como... ya no se cierra sobre sí misma.</div>",
+      "S9_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Observación perfecta. Eso es lo que sucede por debajo de la velocidad orbital a la altura de nuestro cañón. Cuando lanzas una bala de cañón a una velocidad menor que 4.85 mi/s, se estrella y sigue una trayectoria parabólica. <br>Ahora haz clic en Hipérbola para ver el escape total.</div>",
+      "S9_D8_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! Se abre aún más. Esto es lo que sucede por encima de 6.96 mi/s, ¿verdad?</div>",
+      "S9_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Ahora intenta ajustar el control deslizante del Ángulo del Plano tú mismo. Observa cómo la forma se transforma mientras cambias el ángulo.</div>",
+      "S9_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Es increíble! Los pequeños cambios de ángulo transforman completamente la forma de cerrada a abierta.</div>",
+      "S9_D11_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora entiendes la conexión oculta. Cada trayectoria orbital — desde proyectiles que caen hasta naves espaciales que escapan — sigue una de estas secciones cónicas.</div>",
+      "S9_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿qué forma representa un satélite en órbita estable alrededor de la Tierra?</div>",
+      "question_1": {
+        "option_1": "Círculo o Elipse",
+        "option_2": "Parábola",
+        "option_3": "Hipérbola",
+        "option_4": "Cualquiera de ellas funciona"
+      },
+      "S9_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Correcto! Los círculos y elipses son curvas cerradas, lo que significa que el satélite sigue dando vueltas. Las parábolas e hipérbolas son abiertas — el objeto escapa y nunca regresa.</div>",
+      "S9_D16_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Veamos estas formas en acción con satélites reales alrededor de la Tierra.</div>"
+    },
+    "S10": {
+      "S10_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora que entiendes las formas orbitales, exploremos algo fascinante — diferentes órbitas tienen diferentes velocidades.</div>",
+      "S10_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Espera, pensé que la órbita era solo ir lo suficientemente rápido hacia los lados. ¿Por qué cambiaría la velocidad?</div>",
+      "S10_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Excelente pregunta. Mientras más cerca estés de la Tierra, más fuerte te jala la gravedad, así que necesitas más velocidad para mantenerte en órbita.</div>",
+      "S10_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿los satélites que están más cerca de la Tierra orbitan más rápido?</div>",
+      "S10_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! Pero hay una órbita especial llamada órbita geosíncrona donde la velocidad orbital del satélite coincide con la velocidad de rotación de la Tierra.</div>",
+      "S10_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces, ¿los satélites en órbita geosíncrona aparecen estacionarios en el cielo cuando se ven desde el suelo?</div>",
+      "S10_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Sí, déjame mostrarte la diferencia entre una órbita rápida y baja y una órbita geosíncrona.</div>"
+    },
+    "S11": {
+      "S11_D0_FX_C9": {
+        "title": "Simulador de órbita geoestacionaria",
+        "about": {
+          "heading": "Acerca de esta Herramienta",
+          "body": "<p>Esta simulación interactiva muestra dos satélites en órbita: uno en órbita geosincrónica (GEO) y otro en una órbita más baja.</p><ol class='mt-4'><li><b>Órbita Geosincrónica (GEO):</b><ul class='mt-2 ml-6' style='list-style-type:disc;'><li>En GEO, el período orbital del satélite coincide con la rotación de la Tierra. Esto significa que el satélite permanece sobre el mismo punto de la superficie terrestre</li><li class='mt-2'>El satélite viaja a la misma velocidad que la rotación de la Tierra, lo que resulta en un período de exactamente <b>24 horas</b></li></ul></li><li class='mt-4'><b>Órbitas más bajas:</b><ul class='mt-2 ml-6' style='list-style-type:disc;'><li>El satélite en esta órbita tiene un radio más pequeño y viaja más rápido que el de la GEO porque está más cerca de la Tierra. El período orbital más corto hace que el satélite orbite la Tierra más veces por día</li></ul></li></ol><p class='mt-4'><b>Ajustando el radio orbital:</b></p><p class='mt-2'>Puedes ajustar el radio orbital de la órbita más baja arrastrando el control deslizante. Al reducir el radio, la velocidad orbital del satélite aumenta, haciendo que complete más órbitas en menos tiempo. Por el contrario, aumentar el radio disminuirá la velocidad orbital.</p><p class='mt-4'><b>Ecuación de la órbita circular:</b></p><p class='mt-2'>Ambas órbitas circulares pueden representarse usando la forma estándar de la ecuación de un círculo:</p><p class='mt-2' style='font-family: besley; font-style: italic;'>(<span style='color: #0061FC'><i><b>x</b></i></span> - <span style='color: #DB0072'><i><b>h</b></i></span><span style='color: #0061FC'><i><b></b></i></span>)<sup>2</sup> + (<span style='color: #E0002B'><i><b>y</b></i></span> - <span style='color: #00749D'><i><b>k</b></i></span>)<sup>2</sup> = <span style='color: #633300'><i><b>r<sup>2</sup></b></i></span></p><p class='mt-4'>Donde <span style='font-family: besley; font-style: italic;'>(<b style='color: #DB0072'>h</b>, <b style='color: #00749D'>k</b>)</span> es el centro, y <span style='font-family: besley; font-style: italic;'><b style='color: #633300'>r</b></span> es el radio de la órbita circular.</p><p class='mt-4'><b>Cómo la velocidad afecta la trayectoria:</b></p><ul class='mt-2 ml-6' style='list-style-type:disc;'><li><b>Satélites geosincrónicos (GEO):</b> Estos satélites son cruciales para la comunicación constante, el monitoreo del clima y la navegación, ya que permanecen en la misma posición relativa a la superficie de la Tierra y coinciden con la rotación de la Tierra con un período orbital de <b>24 horas</b></li><li class='mt-2'><b>Satélites en órbitas más bajas:</b> Si bien estos satélites orbitan más rápido y proporcionan imágenes más detalladas de la superficie terrestre, no pueden permanecer sobre la misma ubicación debido a sus períodos orbitales más cortos. Como resultado, su área de cobertura en la Tierra cambia continuamente</li></ul>"
+        },
+        "help": {
+          "heading": "Cómo Encontrar el Radio de la Órbita Geosíncrona",
+          "body": "<p>Sigue estos pasos para encontrar el radio de la órbita que corresponde a una órbita geosíncrona para objetos.</p> <ul class='mt-2 ml-6' style='list-style-type:disc;'><li>En este interactivo, un círculo de órbita geosíncrona está representado por una línea de puntos morada y una órbita más baja, cuyo radio puedes ajustar, está representada por una línea de puntos roja</li><li class='mt-2'> Intenta ajustar el radio del círculo rojo y observa dónde se superpone con el círculo de puntos morado (órbita geosíncrona)</li></ul>"
+        },
+        "interactive_data": {
+          "instructions_1": "Haz clic y arrastra para mover el sistema de coordenadas",
+          "instructions_2": "Observa cómo se actualizan las ecuaciones del círculo",
+          "instructions_3": "Nota que solo el punto central <span style='font-family: besley; font-style: italic;'>(<b style='color: #DB0072'>h</b>, <b style='color: #00749D'>k</b>)</span> es el centro y <span style='font-family: besley; font-style: italic;'><b style='color: #633300'>r</b></span> cambia, mientras que el radio permanece constante",
+          "geosynchronousOrbitText": "Órbita geosíncrona",
+          "lowerOrbitText": "Órbita más baja",
+          "orbitRadiusText": "Radio de la Órbita:",
+          "unitsText": "millas",
+          "success_message": "¡Éxito! Has alcanzado la órbita geosincrónica.",
+          "math_minus": "menos",
+          "math_plus": "más",
+          "math_squared": "al cuadrado",
+          "math_equals": "igual a",
+          "equation_template": "paréntesis abierto x {operation1} {h} paréntesis cerrado {squared} {plus} paréntesis abierto y {operation2} {k} paréntesis cerrado {squared} {equals} {r} {squared}"
+        }
+      },
+      "S11_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Observa los dos satélites. El morado está en órbita geosíncrona — orbita a la misma velocidad que la velocidad de rotación de la Tierra.</div>",
+      "S11_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>El satélite rojo está en una órbita más baja. Observa cómo está orbitando alrededor de la Tierra mucho más rápido. Ahora ajusta el control deslizante del Radio de Órbita para cambiar el radio orbital del satélite rojo.</div>",
+      "S11_D3_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Mientras más cerca lo traigo a la Tierra, más rápido está orbitando alrededor de la Tierra.</div>",
+      "S11_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Y cuando lo muevo más lejos, se ralentiza.</div>",
+      "S11_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Ahora, intenta hacer coincidir la órbita roja con la morada. Ajusta hasta que estén en el mismo radio.</div>",
+      "S11_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Está orbitando a la misma velocidad que la velocidad de rotación de la Tierra.</div>",
+      "S11_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es la órbita geosíncrona — está aproximadamente a 22,236 kilómetros sobre la superficie de la Tierra. A esta altitud exacta, el período orbital iguala la rotación de la Tierra.</div>",
+      "S11_D9_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Muchos satélites de comunicación usan órbitas geosíncronas, por lo que una antena terrestre puede apuntar en una dirección fija y nunca moverse. Los satélites GPS usan órbitas más bajas y rápidas para cubrir más terreno rápidamente.</div>",
+      "S11_D10_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces la misión determina la órbita — los satélites de comunicación se mantienen altos, mientras que los satélites de imágenes vuelan bajo para capturar imágenes de alta resolución de la superficie terrestre.</div>",
+      "S11_D11_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Y todo son círculos y elipses — las secciones cónicas que vimos en el <no-glossary>cono</no-glossary>!</div>",
+      "S11_D12_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Estás conectando todas las piezas. Ahora pongamos todo junto y lancemos nuestro propio satélite a la órbita.</div>"
+    },
+    "S12": {
+      "S12_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Has aprendido la teoría — trayectorias parabólicas, el Cañón de Newton, secciones cónicas y velocidades orbitales. Ahora es momento de aplicar todo.</div>",
+      "S12_D2_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¿Vamos a lanzar nuestro propio satélite? ¿De verdad?</div>",
+      "S12_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Tan real como puede ser en el entrenamiento. Elegirás la altitud y velocidad. Tu satélite se estrellará, orbitará o escapará — basado completamente en tus decisiones.</div>",
+      "S12_D4_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces necesitamos recordar la velocidad de órbita circular y la velocidad de escape para cualquier altitud que elijamos?</div>",
+      "S12_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. El simulador te mostrará ambas velocidades para tu altitud elegida. Muy lento, y la gravedad gana. Muy rápido, y escapas. Justo, y logras la órbita.</div>",
+      "S12_D6_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esto es todo. ¡Todo lo que hemos aprendido se reduce a este lanzamiento!</div>",
+      "S12_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Veamos si pueden convertirse en ingenieros de cohetes. Lanza tu satélite y observa las matemáticas del vuelo espacial cobrar vida.</div>"
+    },
+    "S13": {
+      "S13_D0_FX_C9": {
+        "title": "Simulador de lanzamiento de satélites",
+        "about": {
+          "heading": "Simulador de lanzamiento de satélites",
+          "body": "<div><p>Entendiendo la Mecánica Orbital:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li><strong>Trayectoria Parabólica</strong>: Por debajo de la velocidad circular, el satélite sigue una ruta curva y se estrella de vuelta a la Tierra, demostrando velocidad orbital insuficiente.</li><li><strong>Órbita Circular</strong>: Exactamente a la velocidad circular, el satélite logra una órbita circular estable, cayendo alrededor de la Tierra para siempre.</li><li><strong>Órbita Elíptica</strong>: Entre la velocidad circular y la de escape, el satélite sigue una ruta elíptica, acelerando cuando está cerca de la Tierra y desacelerando cuando está lejos.</li><li><strong>Escape Hiperbólico</strong>: A o por encima de la velocidad de escape, el satélite se libera de la gravedad de la Tierra y sigue una trayectoria hiperbólica hacia el espacio.</li></ol><p>El simulador utiliza dos fórmulas fundamentales de mecánica orbital:</p><div style='margin: 15px 0;'><p><strong>Velocidad de Órbita Circular:</strong></p><div style='font-family: Besley; font-size: 20px; margin: 10px 0; text-align: center;'><span style='color: #0061FC; font-style: italic; font-weight: bold;'>v</span> = <span style='display: inline-block; vertical-align: middle; text-align: center;'><span style='border-bottom: 1px solid currentColor; padding-bottom: 2px; display: block;'><span style='color: #DB0072; font-weight: bold;'>GM</span></span><span style='padding-top: 2px; display: block;'><span style='color: #008217; font-style: italic; font-weight: bold;'>r</span></span></span></div><p><strong>Velocidad de Escape:</strong></p><div style='font-family: Besley; font-size: 20px; margin: 10px 0; text-align: center;'><span style='color: #0061FC; font-style: italic; font-weight: bold;'>v</span><sub style='color: #0061FC;'>e</sub> = <span style='display: inline-block; vertical-align: middle; text-align: center;'><span style='border-bottom: 1px solid currentColor; padding-bottom: 2px; display: block;'>2<span style='color: #DB0072; font-weight: bold;'>GM</span></span><span style='padding-top: 2px; display: block;'><span style='color: #008217; font-style: italic; font-weight: bold;'>R</span></span></span></div></div><p><strong>Donde:</strong></p><ul style='margin: 10px 0; padding-left: 20px;'><li><span style='color: #0061FC; font-family: Besley; font-style: italic; font-weight: bold;'>v</span> = velocidad orbital</li><li><span style='color: #0061FC; font-family: Besley; font-style: italic; font-weight: bold;'>v</span><sub style='color: #0061FC;'>e</sub> = velocidad de escape</li><li><span style='color: #DB0072; font-family: Besley; font-weight: bold;'>G</span> = constante gravitacional universal</li><li><span style='color: #DB0072; font-family: Besley; font-weight: bold;'>M</span> = masa del cuerpo celeste</li><li><span style='color: #008217; font-family: Besley; font-style: italic; font-weight: bold;'>r</span> = radio orbital</li><li><span style='color: #008217; font-family: Besley; font-style: italic; font-weight: bold;'>R</span> = radio desde el centro del cuerpo hasta el punto de lanzamiento</li></ul></div>"
+        },
+        "help": {
+          "heading": "Cómo usar el Simulador de lanzamiento de satélites",
+          "body": "<div><p>Para explorar la mecánica orbital:</p><ol style='list-style-type: decimal; margin: 10px 0px; padding-left: 25px;'><li>Ajusta el control deslizante de <strong>Altitud de Inserción Orbital</strong> (62-1243 millas) para establecer la altura de lanzamiento</li><li>Modifica el control deslizante de <strong>Velocidad de Inserción</strong> (0.0-8.08 mi/s) para establecer la velocidad de lanzamiento</li><li>Observa cómo la <strong>Velocidad de Órbita Circular</strong> y la <strong>Velocidad de Escape</strong> se actualizan automáticamente</li><li>Haz clic en <strong>Lanzar</strong> para iniciar la simulación y ver la trayectoria del satélite</li><li>Usa <strong>Reiniciar</strong> para detener la simulación y volver al estado inicial</li><li>Prueba diferentes combinaciones de velocidad para ver diferentes tipos de órbita:<ul style='list-style-type: disc; margin: 5px 0px; padding-left: 20px;'><li>Por debajo de la velocidad circular (se estrella de vuelta a la Tierra)</li><li>A la velocidad circular (órbita circular perfecta)</li><li>Entre la velocidad circular y la de escape (órbita elíptica)</li><li>A o por encima de la velocidad de escape (escape hiperbólico)</li></ul></li><li>Ajusta la <strong>Velocidad de Simulación</strong> (1X, 2X, 5X) para controlar la escala de tiempo</li></ol></div>"
+        },
+        "orbitPresets": "Presets de Órbita:",
+        "simulationSpeed": "Velocidad de Simulación:",
+        "orbitalInsertionAltitude": "Altitud de Inserción Orbital:",
+        "insertionVelocity": "Velocidad de Inserción:",
+        "circularOrbitVelocity": "Velocidad de Órbita Circular:",
+        "escapeVelocity": "Velocidad de Escape:",
+        "timeScale": "Escala de Tiempo:",
+        "orbitType": "Tipo de Órbita:",
+        "launch": "Lanzar",
+        "stop": "Reiniciar",
+        "custom": "Personalizado",
+        "lowEarthOrbit": "Órbita Terrestre Baja (LEO)",
+        "geosynchronousOrbit": "Órbita Geosíncrona (GSO)",
+        "satelliteCrashed": "<span className='text-red-600'>¡Satélite Estrellado!</span>",
+        "orbitTypeCircular": "Tipo de Órbita: <strong>Circular</strong>",
+        "orbitTypeElliptical": "Tipo de Órbita: <strong>Elíptica</strong>",
+        "satelliteEscaped": "<span className='text-blue-600'>¡Satélite Escapado!</span>",
+        "orbitTypeUnknown": "Tipo de Órbita: <strong>Desconocido</strong>",
+        "miles": "millas",
+        "miPerSecond": "mi/s"
+      },
+      "S13_D1_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Aquí tienes tu simulador de lanzamiento de satélites. Con él, probarás cómo la velocidad a la altitud seleccionada decide si tu satélite se estrella, orbita o escapa.</div>",
+      "S13_D2_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Así que esta es la matemática real de las órbitas — no solo adivinar, sino calcular.</div>",
+      "S13_D3_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Exactamente. Detrás de la pantalla está la ecuación vis-viva. Nos dice qué velocidad necesita un satélite a cualquier altitud desde la Tierra. Muy poca, y la gravedad gana. Demasiada, y te vas para siempre.</div>",
+      "S13_D4_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Primero, entendamos el desafío: cada órbita que hagas es una de las secciones cónicas que acabas de estudiar — círculo, elipse, parábola o hipérbola. Ahora exploremos.</div>",
+      "S13_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Establece tu Altitud de Inserción Orbital — esa es qué tan alto sobre la Tierra quieres liberar el satélite.</div>",
+      "S13_D6_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Puedo ver la velocidad de órbita circular cambiando mientras muevo la altitud! Mayor altitud significa que se necesita una velocidad orbital más lenta.</div>",
+      "S13_D7_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Observación perfecta. También observa la velocidad de escape.</div>",
+      "S13_D8_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Intenta lanzar tu satélite con una velocidad por debajo de la velocidad de órbita circular.</div>",
+      "S13_D9_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Se está cayendo de vuelta! La trayectoria se curva hacia abajo y se estrella contra la Tierra — igual que nuestros primeros proyectiles.</div>",
+      "S13_D10_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Esa es una trayectoria parabólica — no tenías suficiente velocidad lateral. Ahora reinicia e intenta lanzar exactamente a la velocidad de órbita circular mostrada.</div>",
+      "S13_D11_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Está orbitando! Mira — está haciendo un círculo perfecto alrededor de la Tierra! ¡Esto es lo que vimos en el Cañón de Newton!</div>",
+      "S13_D12_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La trayectoria se cerró sobre sí misma. ¡Está cayendo alrededor de la Tierra para siempre, tal como dijo la Dra. Vega!</div>",
+      "S13_D13_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Hermoso! Esa es una órbita circular. Ahora intenta lanzar ligeramente más rápido que la velocidad circular pero por debajo de la velocidad de escape.</div>",
+      "S13_D14_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Guau! La órbita ya no es un círculo perfecto — ¡se estiró en una elipse!</div>",
+      "S13_D15_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>La mayoría de los satélites reales siguen órbitas elípticas. Se aceleran cuando están cerca de la Tierra y se ralentizan cuando están lejos. Ahora para la prueba definitiva — lanza a o por encima de la velocidad de escape.</div>",
+      "S13_D16_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡La trayectoria se está abriendo! No está regresando — ¡el satélite está escapando completamente de la gravedad de la Tierra!</div>",
+      "S13_D17_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Esa es la hipérbola del cortador de <no-glossary>cono</no-glossary>! ¡El satélite está libre!</div>",
+      "S13_D18_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>A cualquier altitud dada, ¿qué determina si un satélite logra una órbita estable?</div>",
+      "question_1": {
+        "option_1": "Solo la altitud",
+        "option_2": "Solo la velocidad",
+        "option_3": "La masa del satélite",
+        "option_4": "El ángulo de lanzamiento"
+      },
+      "S13_D19_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡Exactamente! A cualquier altitud dada, la velocidad es el factor clave. Acabas de demostrar cada sección cónica que estudiamos — parábola, círculo, elipse e hipérbola — todo desde un simulador.</div>"
+    },
+    "S14": {
+      "S14_D1_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>¡No puedo creer que acabamos de lanzar satélites usando matemáticas de hace miles de años!</div>",
+      "S14_D2_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Reflexionemos sobre tu viaje. Empezaste pensando que el espacio era sobre ir hacia arriba, pero aprendiste que ya sea para entrar en órbita o escapar, realmente se trata de ir hacia los lados lo suficientemente rápido.</div>",
+      "S14_D3_FX_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Entonces el Cañón de Newton probó que orbitar es simplemente caer alrededor de la Tierra en lugar de hacia ella. Y las secciones cónicas conectaron todo — círculos, elipses, parábolas e hipérbolas.</div>",
+      "S14_D4_FX_C3": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Cada trayectoria orbital sigue una de esas curvas. Las matemáticas no son solo fórmulas abstractas — es el lenguaje que describe la realidad, desde proyectiles hasta planetas.</div>",
+      "S14_D5_FX_C1": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Has aprendido lo que le tomó a la humanidad siglos descubrir. Llegar al espacio no se trata de poder o altura — se trata de entender la física y usarla perfectamente.</div>"
+    },
+    "quest_completion": {
+      "greetings": "¡Felicidades!",
+      "subheading": "¡Has Completado el Entrenamiento de Mecánica Orbital!",
+      "content": "<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' /><p style='margin:0;'><p>¡Has completado exitosamente el STEAMQuest Cayendo en Órbita!</p></p><p style='margin:0;'></p><ul style='list-style-type: disc; margin: 0; padding-left: 35px;'><li>Exploraste cómo las trayectorias parabólicas gobiernan el movimiento de proyectiles y descubriste que la velocidad sola no puede lograr órbita</li><li>Probaste el experimento mental revolucionario de Newton y demostraste que orbitar es caer hacia los lados lo suficientemente rápido para fallar continuamente a la Tierra</li><li>Descubriste secciones cónicas ocultas dentro de un <no-glossary>cono</no-glossary> y aprendiste que círculos, elipses, parábolas e hipérbolas describen cada trayectoria orbital posible</li><li>Comparaste órbitas geosíncronas y de baja altitud para entender cómo la altitud determina la velocidad orbital y el diseño de misiones satelitales</li></ul><p style='margin:0;'>¡Sigue explorando cómo las matemáticas antiguas predicen el vuelo espacial moderno y guían el viaje de la humanidad hacia las estrellas!</p>",
+      "leftsvg": "<svg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'><mask id='mask0_13904_1187' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='80' height='80'><rect x='0.5' y='0.5' width='79' height='79' rx='9.5' fill='#5454D8' stroke='#005F20'/></mask><g mask='url(#mask0_13904_1187)'><path d='M70.2104 10.1116L42.3396 0.320622C41.1396 -0.106874 39.8657 -0.106874 38.6619 0.320622L10.7911 10.1116C8.52025 10.9104 7.0026 13.0816 7.0026 15.5228V32.3417C6.78844 53.4125 19.7969 76.0545 40.5017 80C49.9836 78.32 57.8673 72.4139 64.0596 64.0971C70.4735 55.2773 74 44.0007 74 32.3425V15.5236C74 13.0861 72.4824 10.915 70.2115 10.1124L70.2104 10.1116Z' fill='black'/><path d='M42.1793 0.778208L42.1813 0.778875L69.9853 10.058L69.986 10.0585L70.0524 10.0808C72.1286 10.7779 73.5 12.656 73.5 14.7474V30.7254C73.5 41.6958 70.0068 52.2994 63.6644 60.586C57.5464 68.3912 49.7941 73.9029 40.5048 75.4923C20.1568 71.7556 7.29051 50.5507 7.50258 30.73H7.5026V30.7246V14.7467C7.5026 12.6514 8.8742 10.7738 10.9494 10.0803C10.9495 10.0803 10.9495 10.0803 10.9496 10.0803L38.8202 0.778878L38.8217 0.778357C39.922 0.407159 41.0834 0.407321 42.1793 0.778208Z' fill='#FFCC00' stroke='black'/></g><path d='M57.9999 49.5L58 52L43.2654 50.5212L42.4823 53.64L38.5001 53.5004L37.8071 50.2558L23.0001 52L23.5001 48.9992C25.0001 46.9992 25.4402 44.6451 25.6487 44.1081L34.4515 28.4171C34.4547 25.4712 37.3726 19.4268 40.284 19.2736C43.1953 19.1205 46.5505 25.4149 46.7722 28.6384C49.8169 33.5285 56.2165 43.5623 56.2166 44.7127C56.2166 46.5 58.3645 48.9285 57.9999 49.5Z' fill='black'/><path d='M40.9402 58.7174L40.9489 56.7385C40.95 56.4673 40.7313 56.2465 40.4599 56.2453C40.1884 56.2441 39.9679 56.463 39.9667 56.7342L39.9581 58.7131C39.9569 58.9843 40.1756 59.2051 40.447 59.2063C40.7185 59.2075 40.939 58.9886 40.9402 58.7174Z' fill='black'/><path d='M44.4804 57.1593L44.4887 55.2766C44.4898 55.0054 44.2711 54.7846 43.9997 54.7834C43.7282 54.7822 43.5077 55.0011 43.5065 55.2723L43.4983 57.155C43.4971 57.4262 43.7158 57.647 43.9872 57.6482C44.2586 57.6494 44.4792 57.4305 44.4804 57.1593Z' fill='black'/><path d='M37.4138 57.129L37.4221 55.2463C37.4233 54.9751 37.2045 54.7543 36.9331 54.7531C36.6616 54.7519 36.4411 54.9708 36.4399 55.242L36.4317 57.1247C36.4305 57.396 36.6492 57.6168 36.9206 57.618C37.192 57.6192 37.4126 57.4003 37.4138 57.129Z' fill='black'/><path d='M40.0526 37.1689C40.0514 37.4401 40.2701 37.6609 40.5415 37.6621C40.813 37.6633 41.0335 37.4444 41.0347 37.1732L41.0557 32.366C41.7509 32.4614 42.4046 32.751 42.9489 33.208L42.9407 35.0826C42.9395 35.3539 43.1582 35.5747 43.4296 35.5759C43.7011 35.577 43.9216 35.3582 43.9228 35.0869L43.932 32.9851L43.9567 27.3849C43.9567 27.3796 43.956 27.3742 43.9559 27.3689C43.9558 27.3669 43.9558 27.365 43.9557 27.363C43.952 25.5148 42.4524 24.0082 40.6013 24.0001C38.7428 23.992 37.2245 25.4971 37.2164 27.3554L37.1826 35.057C37.1815 35.3282 37.4002 35.549 37.6716 35.5502C37.9431 35.5514 38.1636 35.3325 38.1648 35.0613L38.173 33.1866C38.7215 32.7346 39.3777 32.4507 40.0736 32.3614L40.0526 37.1689ZM38.1783 31.985L38.1985 27.3598C38.2043 26.0433 39.2805 24.9768 40.597 24.9825C41.1462 24.9849 41.6458 25.1811 42.0483 25.4958L40.3788 26.2878C40.1337 26.404 40.0292 26.6968 40.1457 26.9419C40.2294 27.1182 40.4045 27.2217 40.5876 27.2225C40.6586 27.2228 40.7312 27.2077 40.7998 27.1749L42.6958 26.2753C42.8251 26.5231 42.9102 26.7936 42.9455 27.0823L39.8649 28.5087C39.6188 28.6228 39.5116 28.9146 39.6256 29.1609C39.7083 29.3394 39.8848 29.4448 40.0694 29.4456C40.1389 29.4459 40.21 29.4314 40.2772 29.4002L42.9709 28.1529L42.9676 28.9011L41.1339 29.8014C40.8902 29.9209 40.7896 30.2153 40.9094 30.4587C40.9945 30.6318 41.1676 30.7325 41.3485 30.7333C41.4219 30.7336 41.4963 30.7177 41.5664 30.6829L42.9626 29.9972L42.9538 32.0057C42.2361 31.5792 41.4161 31.349 40.5691 31.3453C39.7221 31.3416 38.9001 31.5646 38.1782 31.9851L38.1783 31.985Z' fill='black'/><path d='M23.4139 52.3217C23.4336 52.3218 23.4532 52.3208 23.4733 52.3184L37.564 50.6629L37.5545 52.8149C37.5513 53.5523 38.1487 54.155 38.8863 54.1582L42.0518 54.1721C42.7894 54.1753 43.3921 53.5779 43.3953 52.8405L43.4047 50.6884L57.4803 52.4674C57.5004 52.4699 57.5201 52.4711 57.5397 52.4712C57.7023 52.4719 57.8566 52.3917 57.9489 52.255C58.0527 52.1015 58.0612 51.9027 57.9708 51.741L55.6733 47.6195C56.2125 47.049 56.5237 46.2973 56.5273 45.4769C56.5298 44.9172 56.3844 44.3669 56.1065 43.8846L47.0652 28.2205L47.0664 27.9455C47.0822 24.3305 44.2025 18.7781 40.6241 18.7624C37.0457 18.7468 34.1174 24.2735 34.1016 27.8888L34.1004 28.1637L24.9222 43.748C24.6399 44.2277 24.4899 44.7767 24.4875 45.3364C24.4838 46.1634 24.8021 46.9162 25.3209 47.4826L22.9886 51.5879C22.8972 51.749 22.904 51.9477 23.0065 52.102C23.0979 52.2394 23.2511 52.3209 23.4137 52.3216L23.4139 52.3217ZM42.4132 52.8362C42.4123 53.0322 42.2523 53.1906 42.0562 53.1897L38.8908 53.1759C38.6947 53.175 38.5361 53.015 38.537 52.8192L38.5596 47.6566L40.5009 46.9371L42.4358 47.6735L42.4132 52.8362ZM40.6778 45.9534C40.5668 45.9112 40.4439 45.9106 40.3325 45.9519L36.2387 47.4689L36.2473 45.516L40.5127 44.2661L44.7669 45.5533L44.7584 47.5062L40.6778 45.9534ZM47.0567 30.1712L50.6411 36.381L50.6243 40.2161C50.6231 40.4874 50.8418 40.7082 51.1132 40.7094C51.3847 40.7105 51.6052 40.4917 51.6064 40.2204L51.6158 38.07L55.2554 44.3754C55.4468 44.7069 55.5469 45.0864 55.5452 45.4724C55.5417 46.2673 55.1252 46.9734 54.4309 47.3615C53.7366 47.7495 52.918 47.7343 52.2401 47.3214L46.9956 44.123L47.0567 30.1712ZM46.4961 46.0555C46.6007 46.056 46.7039 46.023 46.79 45.9594C46.9146 45.8674 46.9886 45.7217 46.9893 45.5665L46.9906 45.2701L51.7289 48.1602C52.2345 48.4678 52.7935 48.6235 53.3546 48.626C53.879 48.6283 54.4045 48.4952 54.8887 48.229L56.64 51.371L43.409 49.6988L43.4162 48.0466L45.0714 48.6766C45.1275 48.698 45.186 48.7085 45.244 48.7087C45.3428 48.7092 45.4402 48.6798 45.5239 48.6226C45.6567 48.5314 45.7365 48.3808 45.7372 48.2197L45.7476 45.8502L46.3554 46.0342C46.4014 46.0483 46.4488 46.0553 46.4959 46.0555L46.4961 46.0555ZM35.084 27.8928C35.0974 24.814 37.6905 19.7317 40.6198 19.7445C43.5491 19.7574 46.0975 24.862 46.0841 27.941L46.0098 44.903L40.6567 43.2836C40.5657 43.2559 40.4679 43.2554 40.3765 43.2824L35.0095 44.8548L35.084 27.8928ZM25.769 44.2464L29.4637 37.973L29.4543 40.1234C29.4531 40.3946 29.6719 40.6154 29.9432 40.6166C30.2147 40.6178 30.4353 40.3989 30.4365 40.1277L30.4533 36.2925L34.0919 30.1143L34.0307 44.0659L28.7573 47.2187C28.4092 47.4277 28.0336 47.5328 27.6408 47.5311C26.5919 47.5265 25.4637 46.6877 25.4696 45.3405C25.4714 44.9545 25.5746 44.5761 25.7689 44.2465L25.769 44.2464ZM26.0983 48.1037C26.5535 48.3613 27.0777 48.511 27.6368 48.5134C28.2113 48.5159 28.7588 48.3639 29.2622 48.0615L34.0257 45.2133L34.0244 45.5097C34.0237 45.6648 34.0964 45.8112 34.2202 45.9044C34.3445 45.9982 34.506 46.0275 34.6539 45.983L35.2633 45.8043L35.253 48.1738C35.2523 48.3349 35.3307 48.4861 35.4627 48.5786C35.5947 48.6703 35.7629 48.6932 35.9147 48.6364L37.5754 48.021L37.5681 49.6731L24.3218 51.2295L26.0983 48.1037Z' fill='black'/><path d='M51.1082 41.8576C50.8367 41.8564 50.6162 42.0753 50.615 42.3465L50.613 42.8008C50.6118 43.072 50.8305 43.2928 51.1019 43.294C51.3734 43.2952 51.5939 43.0763 51.5951 42.8051L51.5971 42.3508C51.5983 42.0798 51.3796 41.8588 51.1082 41.8576Z' fill='black'/><path d='M29.932 43.2022C30.2036 43.2034 30.4241 42.9845 30.4253 42.7133L30.4273 42.259C30.4284 41.9878 30.2097 41.767 29.9383 41.7658C29.6668 41.7646 29.4463 41.9835 29.4451 42.2547L29.4431 42.709C29.4419 42.9801 29.6607 43.201 29.932 43.2022Z' fill='black'/><path d='M41.0269 38.9411L41.0278 38.7307C41.029 38.4595 40.8103 38.2387 40.5389 38.2375C40.2674 38.2363 40.0469 38.4552 40.0457 38.7264L40.0448 38.9368C40.0436 39.208 40.2623 39.4288 40.5337 39.43C40.8052 39.4312 41.0257 39.2123 41.0269 38.9411Z' fill='black'/><path d='M55.7856 44.901L57.6528 48.906L43.6176 47.5912L42.8345 50.7099L38.7801 50.1337L38.1593 47.3257L24.2769 48.922L26.2572 44.5575C25.5517 43.1427 25.7924 41.715 26.0009 41.178L34.8037 25.4871C34.8069 22.5411 37.7248 16.4967 40.6361 16.3436C43.5475 16.1904 46.9026 22.4849 47.1244 25.7083C50.1691 30.5984 56.3204 40.6594 56.5687 41.7826C56.8171 42.9058 56.1501 44.3295 55.7856 44.901Z' fill='white'/><path d='M41.2926 55.7877L41.3013 53.8089C41.3025 53.5376 41.0837 53.3168 40.8124 53.3156C40.5409 53.3144 40.3203 53.5333 40.3191 53.8045L40.3105 55.7834C40.3093 56.0546 40.528 56.2754 40.7994 56.2766C41.0709 56.2778 41.2914 56.0589 41.2926 55.7877Z' fill='black'/><path d='M44.8328 54.2296L44.8411 52.3469C44.8423 52.0757 44.6235 51.8549 44.3522 51.8537C44.0806 51.8525 43.8601 52.0714 43.8589 52.3426L43.8507 54.2253C43.8495 54.4965 44.0682 54.7174 44.3396 54.7185C44.611 54.7197 44.8316 54.5008 44.8328 54.2296Z' fill='black'/><path d='M37.7662 54.1994L37.7745 52.3167C37.7757 52.0454 37.5569 51.8246 37.2856 51.8234C37.0141 51.8223 36.7935 52.0411 36.7923 52.3124L36.7841 54.1951C36.7829 54.4663 37.0017 54.6871 37.273 54.6883C37.5444 54.6895 37.765 54.4706 37.7662 54.1994Z' fill='black'/><path d='M40.405 34.2392C40.4038 34.5104 40.6225 34.7312 40.8939 34.7324C41.1654 34.7336 41.3859 34.5147 41.3871 34.2435L41.4082 29.4363C42.1033 29.5317 42.757 29.8214 43.3013 30.2783L43.2931 32.1529C43.2919 32.4242 43.5107 32.645 43.782 32.6462C44.0535 32.6474 44.2741 32.4285 44.2752 32.1572L44.2845 30.0554L44.3091 24.4552C44.3092 24.4499 44.3085 24.4445 44.3083 24.4392C44.3082 24.4372 44.3082 24.4353 44.3081 24.4333C44.3044 22.5851 42.8048 21.0785 40.9537 21.0704C39.0952 21.0623 37.5769 22.5674 37.5688 24.4257L37.5351 32.1273C37.5339 32.3985 37.7526 32.6193 38.024 32.6205C38.2955 32.6217 38.516 32.4028 38.5172 32.1316L38.5254 30.2569C39.0739 29.8049 39.7301 29.5211 40.426 29.4317L40.405 34.2392ZM38.5307 29.0554L38.5509 24.4301C38.5567 23.1136 39.6329 22.0471 40.9494 22.0529C41.4986 22.0553 41.9982 22.2514 42.4007 22.5661L40.7312 23.3581C40.4861 23.4743 40.3816 23.7671 40.4981 24.0122C40.5818 24.1885 40.7569 24.292 40.9401 24.2928C41.011 24.2931 41.0836 24.278 41.1522 24.2453L43.0482 23.3457C43.1775 23.5934 43.2627 23.8639 43.2979 24.1527L40.2173 25.579C39.9712 25.6931 39.864 25.985 39.978 26.2312C40.0607 26.4097 40.2372 26.5151 40.4218 26.5159C40.4913 26.5162 40.5625 26.5017 40.6296 26.4705L43.3233 25.2233L43.32 25.9714L41.4863 26.8717C41.2426 26.9913 41.142 27.2856 41.2618 27.529C41.347 27.7021 41.52 27.8028 41.7009 27.8036C41.7743 27.8039 41.8487 27.788 41.9188 27.7532L43.3151 27.0675L43.3063 29.076C42.5886 28.6495 41.7686 28.4193 40.9215 28.4156C40.0745 28.4119 39.2525 28.6349 38.5307 29.0555L38.5307 29.0554Z' fill='black'/><path d='M23.7663 49.3921C23.786 49.3921 23.8056 49.3911 23.8257 49.3887L37.9164 47.7332L37.9069 49.8852C37.9037 50.6227 38.5011 51.2253 39.2387 51.2285L42.4042 51.2424C43.1419 51.2456 43.7445 50.6482 43.7477 49.9108L43.7571 47.7588L57.8327 49.5377C57.8528 49.5402 57.8725 49.5415 57.8921 49.5415C58.0547 49.5423 58.209 49.4621 58.3013 49.3253C58.4051 49.1718 58.4136 48.973 58.3232 48.8113L56.0257 44.6898C56.5649 44.1193 56.8762 43.3676 56.8797 42.5472C56.8822 41.9875 56.7368 41.4372 56.459 40.955L47.4176 25.2908L47.4188 25.0159C47.4347 21.4008 44.5549 15.8484 40.9765 15.8328C37.3981 15.8171 34.4698 21.3438 34.454 24.9591L34.4528 25.234L25.2746 40.8184C24.9923 41.298 24.8423 41.847 24.8399 42.4067C24.8362 43.2337 25.1545 43.9865 25.6734 44.5529L23.341 48.6583C23.2496 48.8193 23.2564 49.018 23.3589 49.1723C23.4504 49.3097 23.6035 49.3912 23.7661 49.3919L23.7663 49.3921ZM42.7656 49.9065C42.7647 50.1025 42.6048 50.2609 42.4086 50.26L39.2432 50.2462C39.0471 50.2453 38.8885 50.0853 38.8894 49.8895L38.912 44.7269L40.8533 44.0075L42.7882 44.7439L42.7656 49.9065ZM41.0303 43.0237C40.9192 42.9815 40.7963 42.981 40.6849 43.0222L36.5911 44.5392L36.5997 42.5863L40.8651 41.3364L45.1194 42.6236L45.1108 44.5766L41.0303 43.0237ZM47.4092 27.2415L50.9935 33.4513L50.9767 37.2864C50.9755 37.5577 51.1942 37.7785 51.4656 37.7797C51.7371 37.7809 51.9576 37.562 51.9588 37.2907L51.9683 35.1403L55.6079 41.4457C55.7992 41.7772 55.8993 42.1567 55.8976 42.5427C55.8941 43.3376 55.4776 44.0437 54.7833 44.4318C54.089 44.8198 53.2704 44.8046 52.5925 44.3917L47.348 41.1933L47.4092 27.2415ZM46.8485 43.1258C46.9531 43.1263 47.0563 43.0933 47.1425 43.0297C47.267 42.9377 47.3411 42.792 47.3417 42.6368L47.343 42.3404L52.0813 45.2305C52.5869 45.5382 53.1459 45.6938 53.707 45.6963C54.2315 45.6986 54.7569 45.5655 55.2412 45.2993L56.9924 48.4413L43.7614 46.7691L43.7686 45.117L45.4239 45.7469C45.4799 45.7683 45.5384 45.7788 45.5964 45.7791C45.6952 45.7795 45.7926 45.7501 45.8763 45.6929C46.0091 45.6017 46.0889 45.4511 46.0896 45.29L46.1 42.9205L46.7078 43.1045C46.7538 43.1187 46.8012 43.1256 46.8483 43.1258L46.8485 43.1258ZM35.4364 24.9631C35.4499 21.8843 38.0429 16.802 40.9722 16.8148C43.9015 16.8277 46.45 21.9323 46.4365 25.0113L46.3622 41.9733L41.0091 40.3539C40.9181 40.3262 40.8203 40.3257 40.7289 40.3527L35.3619 41.9252L35.4364 24.9631ZM26.1215 41.3167L29.8162 35.0433L29.8067 37.1937C29.8055 37.4649 30.0243 37.6857 30.2957 37.6869C30.5672 37.6881 30.7877 37.4692 30.7889 37.198L30.8057 33.3628L34.4443 27.1846L34.3832 41.1362L29.1097 44.289C28.7616 44.498 28.3861 44.6031 27.9933 44.6014C26.9443 44.5968 25.8161 43.758 25.822 42.4108C25.8238 42.0248 25.9271 41.6464 26.1213 41.3168L26.1215 41.3167ZM26.4507 45.174C26.9059 45.4317 27.4301 45.5813 27.9892 45.5837C28.5638 45.5862 29.1112 45.4343 29.6147 45.1319L34.3781 42.2836L34.3768 42.58C34.3761 42.7351 34.4488 42.8815 34.5726 42.9747C34.6969 43.0685 34.8584 43.0978 35.0064 43.0533L35.6158 42.8746L35.6054 45.2441C35.6047 45.4052 35.6831 45.5564 35.8151 45.6489C35.9471 45.7406 36.1153 45.7635 36.2671 45.7067L37.9278 45.0913L37.9205 46.7435L24.6742 48.2998L26.4507 45.174Z' fill='black'/><path d='M51.4606 38.9279C51.1891 38.9267 50.9686 39.1456 50.9674 39.4169L50.9654 39.8711C50.9642 40.1423 51.183 40.3631 51.4543 40.3643C51.7258 40.3655 51.9464 40.1466 51.9475 39.8754L51.9495 39.4212C51.9507 39.1501 51.732 38.9291 51.4606 38.9279Z' fill='black'/><path d='M30.2845 40.2725C30.556 40.2737 30.7765 40.0548 30.7777 39.7836L30.7797 39.3294C30.7809 39.0581 30.5621 38.8373 30.2908 38.8361C30.0192 38.8349 29.7987 39.0538 29.7975 39.3251L29.7955 39.7793C29.7944 40.0504 30.0131 40.2713 30.2845 40.2725Z' fill='black'/><path d='M41.3793 36.0114L41.3803 35.801C41.3814 35.5298 41.1627 35.309 40.8913 35.3078C40.6198 35.3066 40.3993 35.5255 40.3981 35.7967L40.3972 36.0071C40.396 36.2783 40.6148 36.4991 40.8861 36.5003C41.1576 36.5015 41.3781 36.2826 41.3793 36.0114Z' fill='black'/></svg>",
+      "rightsvg": "<svg width='92' height='106' viewBox='0 0 92 106' fill='none' xmlns='http://www.w3.org/2000/svg'><path opacity='0.2' fill-rule='evenodd' clip-rule='evenodd' d='M2.43038 99.371C2.48123 99.3576 2.53092 99.3414 2.58123 99.3214L37.7444 85.3275L39.2059 90.879C39.7067 92.7813 41.6619 93.9216 43.5648 93.4206L51.7305 91.2709C53.6335 90.7699 54.7738 88.8147 54.273 86.9124L52.8115 81.3609L90.307 76.2267C90.3606 76.2193 90.4123 76.2089 90.4628 76.1956C90.8822 76.0852 91.2244 75.772 91.3677 75.3561C91.5293 74.8889 91.4139 74.3707 91.0694 74.0165L82.3042 64.983C83.2996 63.1409 83.5825 60.9892 83.0253 58.8727C82.6452 57.4289 81.8908 56.1114 80.8419 55.0607L46.7312 20.9424L46.5445 20.2331C44.0894 10.9075 32.8361 -1.41066 23.6051 1.01951C14.374 3.44967 10.6447 19.7116 13.0999 29.0377L13.2866 29.747L0.397333 76.2385C0.00123415 77.6692 -0.0062851 79.1874 0.37381 80.6312C0.935462 82.7646 2.2753 84.4845 4.00317 85.5858L0.827843 97.7739C0.703646 98.2519 0.858256 98.7593 1.22884 99.086C1.5594 99.3768 2.01036 99.4812 2.42977 99.3708L2.43038 99.371ZM51.7394 87.5794C51.8725 88.0849 51.5697 88.6036 51.0638 88.7368L42.8981 90.8865C42.3922 91.0197 41.8732 90.7169 41.7402 90.2118L38.2342 76.894L42.7394 73.7L48.2333 74.2616L51.7394 87.5794ZM42.5162 71.0431C42.201 71.011 41.884 71.0945 41.6254 71.2776L32.1246 78.0129L30.7983 72.975L40.9257 66.8095L52.7761 67.1891L54.1024 72.227L42.5162 71.0431ZM48.0562 25.9743L61.5789 39.5L64.1834 49.3933C64.3676 50.093 65.0837 50.5109 65.7837 50.3266C66.4841 50.1422 66.9012 49.426 66.717 48.7264L65.2565 43.1789L78.9877 56.9129C79.7096 57.6349 80.2294 58.5435 80.4916 59.5393C81.0314 61.59 80.4458 63.6969 78.9247 65.176C77.4038 66.6551 75.284 67.1811 73.2522 66.5852L57.531 61.965L48.0562 25.9743ZM57.5782 67.2893C57.848 67.2182 58.0911 67.0622 58.2692 66.8387C58.5267 66.5157 58.6168 66.0891 58.5114 65.6887L58.3101 64.924L72.5141 69.0994C74.0292 69.5432 75.5771 69.5583 77.0246 69.1773C78.3775 68.8211 79.6395 68.1154 80.7034 67.0951L87.3851 73.982L52.1392 78.8081L51.0172 74.5461L55.717 75.0265C55.8761 75.0429 56.0341 75.0295 56.1837 74.9901C56.4387 74.923 56.6694 74.7801 56.8456 74.575C57.1247 74.2483 57.2264 73.8052 57.1169 73.3895L55.5078 67.2771L57.2009 67.3315C57.3291 67.3362 57.4562 67.3214 57.5776 67.2895L57.5782 67.2893ZM15.6339 28.3699C13.543 20.4277 16.7155 5.54229 24.2721 3.55296C31.8286 1.56363 41.9192 12.9569 44.0102 20.8995L55.5294 64.6555L40.6185 64.1787C40.365 64.17 40.1126 64.2365 39.8958 64.3689L27.1526 72.126L15.6339 28.3699ZM2.92343 76.9379L8.11214 58.223L9.57246 63.7701C9.75665 64.4698 10.4727 64.8877 11.1727 64.7034C11.8731 64.519 12.2902 63.8028 12.106 63.1031L9.50152 53.2098L14.6113 34.7789L24.0861 70.769L12.6751 82.5333C11.9225 83.3121 11.0274 83.8422 10.0141 84.1089C7.30828 84.8213 3.8221 83.439 2.90722 79.9638C2.64544 78.968 2.65018 77.9216 2.92311 76.9382L2.92343 76.9379ZM6.43497 86.6493C7.7856 86.999 9.23966 87.0226 10.6819 86.6429C12.164 86.2527 13.4696 85.4831 14.5581 84.3564L24.8652 73.7289L25.0664 74.4935C25.1718 74.8936 25.4603 75.2205 25.8435 75.3752C26.2286 75.531 26.6649 75.4951 27.0154 75.2782L28.4622 74.3972L30.0714 80.5096C30.1808 80.9253 30.4874 81.2605 30.8913 81.4078C31.2946 81.5529 31.7439 81.4957 32.0957 81.2447L35.9498 78.5124L37.0718 82.7744L4.01568 95.9299L6.43497 86.6493ZM36.4409 49.7745C35.7409 49.9587 35.0248 49.5408 34.8406 48.8412L31.5757 36.4396C29.8442 37.1502 28.3495 38.3347 27.2483 39.878L28.5215 44.714C28.7056 45.4136 28.2886 46.1299 27.5882 46.3142C26.8881 46.4985 26.1721 46.0806 25.9879 45.381L20.7576 25.5135C19.4956 20.72 22.3684 15.7935 27.1628 14.5314C31.9378 13.2743 36.8418 16.1208 38.1274 20.8804C38.1291 20.8855 38.1304 20.8903 38.1322 20.8954C38.1339 20.9015 38.136 20.9075 38.1381 20.9135C38.1406 20.9209 38.1432 20.9284 38.1452 20.936L41.9481 35.3828L43.3755 40.8047C43.5596 41.5043 43.1426 42.2206 42.4422 42.405C41.7421 42.5893 41.0261 42.1713 40.8419 41.4717L39.5688 36.6357C37.8508 35.8342 35.9665 35.5393 34.1095 35.7733L37.3742 48.1742C37.5584 48.8738 37.1413 49.5901 36.4409 49.7745ZM23.2913 24.8469L26.4324 36.7784L26.4324 36.7787C28.0019 35.1966 29.9659 34.0545 32.1509 33.4793C34.336 32.904 36.6078 32.9311 38.7514 33.5344L37.3875 28.3534L34.2633 31.084C34.1067 31.2221 33.9259 31.3146 33.7366 31.3644C33.27 31.4872 32.7545 31.3471 32.4157 30.96C31.9389 30.4156 31.9948 29.5876 32.5402 29.1115L36.6435 25.5257L36.1354 23.5957L30.0559 28.669C29.9044 28.7958 29.7311 28.8823 29.5518 28.9295C29.0756 29.0549 28.548 28.9052 28.2118 28.5024C27.748 27.9466 27.8226 27.1205 28.378 26.6568L35.3309 20.8547C35.0406 20.1349 34.6345 19.4969 34.1304 18.9477L29.8661 22.5747C29.7119 22.7065 29.5353 22.7955 29.3523 22.8437C28.8799 22.9681 28.3573 22.8223 28.0199 22.4257C27.5505 21.8746 27.6175 21.0481 28.1689 20.5794L31.9238 17.3862C30.6694 16.8532 29.2467 16.6927 27.83 17.0657C24.4338 17.9597 22.3972 21.4507 23.2913 24.8469ZM41.8217 102.092L40.5432 97.2356C40.359 96.536 39.643 96.1181 38.943 96.3024C38.2427 96.4868 37.8256 97.203 38.0098 97.9026L39.2883 102.759C39.4725 103.459 40.1885 103.877 40.8885 103.692C41.5885 103.508 42.0059 102.792 41.8217 102.092ZM58.7721 92.4349L60.0506 97.2913C60.2348 97.9909 59.8173 98.7073 59.1173 98.8915C58.4174 99.0758 57.7013 98.6579 57.5171 97.9583L56.2386 93.1018C56.0544 92.4022 56.4715 91.686 57.1719 91.5016C57.8719 91.3174 58.5879 91.7353 58.7721 92.4349ZM50.6603 98.6448L52.0041 103.749C52.1883 104.449 51.7712 105.165 51.0708 105.349C50.3708 105.534 49.6548 105.116 49.4706 104.416L48.1268 99.3118C47.9427 98.6122 48.3597 97.896 49.0601 97.7116C49.7601 97.5273 50.4761 97.9452 50.6603 98.6448ZM65.6305 54.8896C65.4463 54.19 65.8634 53.4738 66.5637 53.2894C67.2637 53.1051 67.9799 53.5234 68.1639 54.2227L68.4724 55.3944C68.6566 56.094 68.2395 56.8102 67.5392 56.9946C66.8392 57.1788 66.1231 56.7609 65.939 56.0613L65.6305 54.8896ZM12.9285 71.3726C13.6288 71.1882 14.0459 70.472 13.8617 69.7724L13.5533 68.6007C13.3691 67.9011 12.6531 67.4832 11.9531 67.6674C11.2527 67.8518 10.8356 68.568 11.0198 69.2676L11.3283 70.4394C11.5124 71.1386 12.2285 71.5569 12.9285 71.3726ZM38.4313 52.1913L38.5742 52.7339C38.7584 53.4336 38.3413 54.1498 37.6409 54.3341C36.941 54.5184 36.2249 54.1005 36.0407 53.4009L35.8979 52.8583C35.7137 52.1587 36.1308 51.4425 36.8311 51.2581C37.5311 51.0738 38.2472 51.4917 38.4313 52.1913Z' fill='white'/></svg>",
+      "leftsvgarialabel": "Icono de lanzamiento de cohete espacial",
+      "quest_learning_points": "<div style='text-align: left;'><div style='display: flex; align-items: start; gap: 16px; margin-bottom: 16px;'><div role='img' aria-label='t-shirt'>[SVG content unchanged]</div><div><h1 style='font-size: 32px; font-weight: 700; line-height: 45px; color: #000000; margin: 0;'>Punto de equilibrio con funciones lineales</h1><h2 style='font-size: 24px; font-weight: 700; color: #005F20;'>¡Has aplicado sistemas de ecuaciones lineales en los negocios!</h2></div></div><ul style='list-style: none; padding-right: 20px; padding-left: 20px;'><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Ayudaste a Mei a encontrar el punto de equilibrio para determinar cuándo su negocio es rentable</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Demostraste comprender las relaciones entre costos, ingresos y beneficios</li><li style='display: flex; align-items: start; font-size: 22px; font-weight: 400; line-height: 33px; color: #333333;'><span style='margin-right: 10px;'>•</span>Analizaste costos fijos, costos variables, precios y cantidades</li></ul></div>"
+    },
+    "glossary": {
+      "conic-sections": {
+        "word": "secciones cónicas",
+        "definition": "Las <strong className=\"text-[#0055B2]\">secciones cónicas</strong> son figuras que resultan al cortar un cono con un plano. Hay cuatro tipos: círculos, elipses, parábolas e hipérbolas."
+      },
+      "ellipse": {
+        "word": "elipse",
+        "definition": "Una <strong className=\"text-[#0055B2]\">elipse</strong> es una curva ovalada que se forma al cortar un cono con un plano inclinado. Tiene dos focos y dos ejes: uno mayor y otro menor."
+      },
+      "hyperbola": {
+        "word": "hipérbola",
+        "definition": "Una <strong className=\"text-[#0055B2]\">hipérbola</strong> es una curva formada cuando un plano corta ambas mitades de un cono. Tiene dos ramas que se alejan entre sí y puede representar trayectorias de objetos que escapan de la gravedad."
+      },
+      "parabola": {
+        "word": "parábola",
+        "definition": "Una <strong className=\"text-[#0055B2]\">parábola</strong> es una curva en forma de 'U' que se obtiene al cortar un cono de forma paralela a su lado. En mecánica orbital, representa la trayectoria de un objeto que se mueve a la velocidad de escape."
+      },
+      "circle": {
+        "word": "círculo",
+        "definition": "Un <strong className=\"text-[#0055B2]\">Círculo</strong> es el conjunto de todos los puntos en un plano que están a una distancia determinada, el radio, de un punto dado, el centro, representando la trayectoria de un objeto en una órbita estable."
+      },
+      "orbit": {
+        "word": "orbita",
+        "definition": "Una <strong className=\"text-[#0055B2]\">órbita</strong> es la trayectoria curva que sigue un objeto alrededor de una estrella, planeta o luna debido a la gravedad. Puede ser circular, elíptica o hiperbólica, dependiendo de la velocidad y dirección del objeto."
+      },
+      "escape-velocity": {
+        "word": "velocidad de escape",
+        "definition": "La <strong className=\"text-[#0055B2]\">velocidad de escape</strong> es la mínima velocidad que necesita un objeto para liberarse de la atracción gravitacional de un planeta o luna sin necesidad de propulsión adicional."
+      },
+      "parabolic_trajectory": {
+        "word": "trayectoria Parabólica",
+        "definition": "<strong className=\"text-[#0055B2]\">Trayectoria Parabólica</strong> es la trayectoria curva que sigue un objeto a través del aire bajo la fuerza de la gravedad después de ser lanzado o arrojado."
+      },
+      "altitude": {
+        "word": "altitud",
+        "definition": "<strong className=\"text-[#0055B2]\">Altitud</strong> es la altura a la que se encuentra un objeto sobre la superficie de un planeta. Se mide desde el suelo hasta su posición en el cielo."
+      }
+    },
+    "common": {
+      "char1": "Dr. Vega",
+      "char2": "Leila",
+      "char3": "Ayaan",
+      "char1_description": "Una experimentada directora de misiones de la NASA, afroamericana, que viste un blazer profesional, con actitud analítica y presencia autoritaria.",
+      "char2_description": "Una joven ingeniera Navajo de dinámica de vuelo, entusiasta y atenta, vestida con el uniforme de aprendiz de la NASA, deseosa de aplicar sus habilidades académicas en la práctica.",
+      "char3_description": "Un diplomático asesor chileno-estadounidense de la ONU, vestido con traje formal, reflexivo y sereno, que enfatiza la cooperación internacional en la exploración espacial.",
+      "help": "Help",
+      "info": "Info",
+      "left-side": "Left side",
+      "right-side": "Right side",
+      "quest_progress": "Quest progress",
+      "enter_answer": "Enter your answer",
+      "bg1_descripcion": "Edificio futurista de cristal con logo espacial, ubicado frente a un fondo montañoso con cielo azul.",
+      "bg2_descripcion": "Centro de mando futurista con grandes pantallas digitales mostrando la Tierra y datos globales, equipo reunido alrededor de una consola central.",
+      "bg3_descripcion": "Sala de control de alta tecnología con pared curva de pantallas digitales mostrando la Tierra y visualizaciones de datos, figura solitaria monitoreando operaciones.",
+      "bg4_descripcion": "Sala de control de misión aeroespacial con visualización holográfica de cohete, pantallas de seguimiento global y personal supervisando operaciones de lanzamiento.",
+      "bg5_descripcion": "Centro de visualización de datos futurista con plataforma central circular, múltiples personas observando grandes pantallas digitales que muestran la Tierra e información analítica."
+    },
+    "audioController": {
+      "background_music_label": "Música de fondo:",
+      "character_voice_label": "Voz del personaje:",
+      "audio_controls_container": "Controles de audio",
+      "background-music-volume-slider": "Control deslizante del volumen de la música de fondo",
+      "character-voice-volume-slider": "Control deslizante del volumen de la voz del personaje",
+      "volume-control-opened": "Control de volumen abierto",
+      "volume-control-closed": "Control de volumen cerrado"
+    }
+  },
+  "popover": {
+    "close": "Cerrar ventana emergente"
+  },
+  "game": {
+    "falling-into-orbit": "Misión STEAM - Campamento espacial Starlight"
+  }
+}
