@@ -9,7 +9,7 @@
   },
   "start": {
     "title": "<h1 style='font-size: 34px; line-height: 44px; font-weight: 800; margin:0;'>Powerhouse</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; margin-top:6px;'>The Engine Inside Every Athlete</h2>",
-    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Maya's feed is flooded with it: <em>“Boost your mitochondria!”</em> — cold plunges, $80 supplements, breathing hacks, miracle pills. Influencers swear it unlocks superhuman energy. Maya's skeptical. Can you actually improve your mitochondria, or is it all hype? Sports scientist Dr. Vega helps her find out — by discovering what these tiny cellular engines really are, and what genuinely makes them stronger.</div>",
+    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Mei's feed is flooded with it: <em>“Boost your mitochondria!”</em> — cold plunges, $80 supplements, breathing hacks, miracle pills. Influencers swear it unlocks superhuman energy. Mei's skeptical. Can you actually improve your mitochondria, or is it all hype? Sports scientist Dr. Vega helps her find out — by discovering what these tiny cellular engines really are, and what genuinely makes them stronger.</div>",
     "start_game": "Start STEAMQuest"
   },
   "scenesList": {
@@ -42,9 +42,9 @@
   },
   "scenes": {
     "common": {
-      "maya": "Maya",
+      "maya": "Mei",
       "dro": "Dr. Vega",
-      "maya_description": "Maya, 17, distance runner in training gear with a fitness watch",
+      "maya_description": "Mei, 19, college track runner in training gear with a fitness watch",
       "dro_description": "Dr. Vega, exercise physiologist, warm and sharp",
       "bg_lab_description": "A bright sports-science lab with treadmills and screens",
       "bg_track_description": "An outdoor running track at golden hour",
@@ -205,12 +205,12 @@
       "d": "Nerve cells have no mitochondria of their own"
     },
     "s24": {
-      "d1": "So here's your verdict, Maya. The real way to optimize your mitochondria? Train hard to <strong>build</strong> more engines, fuel and breathe to <strong>run</strong> them, and recover so they actually get built.",
+      "d1": "So here's your verdict, Mei. The real way to optimize your mitochondria? Train hard to <strong>build</strong> more engines, fuel and breathe to <strong>run</strong> them, and recover so they actually get built.",
       "d2": "And the online stuff — cold's a small real bonus, but most of the pills and hacks are hype. The thing that actually works is... training. Which is basically free.",
       "d3": "Now you can spot the snake oil AND you understand the machine. That's an athlete who thinks like a scientist."
     },
     "s25": {
-      "d1": "Race day. Maya isn't chasing a miracle hack — she trusts the training that actually built her engines, and paces so her mitochondria can keep up with the oxygen.",
+      "d1": "Race day. Mei isn't chasing a miracle hack — she trusts the training that actually built her engines, and paces so her mitochondria can keep up with the oxygen.",
       "d2": "She crosses the line strong. No magic pill, no $80 supplement — just an athlete who figured out what really works, and put in the work."
     },
     "s26": {
