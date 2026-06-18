@@ -158,13 +158,12 @@ export const sceneData: SceneData[] = [
   // ============ SCENE 4b: Check — How Many (scale) ============
   check('scenesList.scene_4b', BG_CELL, 'scenes.qscale', 'q-scale'),
 
-  // ============ SCENE 5: Fuel and Air ============
-  {
-    name: 'scenesList.scene_5',
-    background: { alt: 'scenes.common.bg_cell_description', url: BG_CELL, waitDelay: SCENE_CHANGE_DELAY, blur: 6, zoom: 1.04 },
-    type: 'one-at-a-time',
-    dialogs: [dro('scenes.s5.d1'), dro('scenes.s5.d2'), dro('scenes.s5.d3')],
-  },
+  // ============ SCENE 5: Fuel and Air (interactive) ============
+  interactiveScene('scenesList.scene_5', BG_CELL, 'scenes.ui.respiration', 'respiration-builder', 'respiration-builder', [
+    'scenes.s5.d1',
+    'scenes.s5.d2',
+    'scenes.s5.d3',
+  ]),
 
   // ============ SCENE 6: The Molecular Turbine (STAR interactive) ============
   interactiveScene('scenesList.scene_6', BG_CELL, 'scenes.ui.turbine', 'atp-synthase', 'atp-synthase', [
@@ -178,13 +177,12 @@ export const sceneData: SceneData[] = [
   // ============ SCENE 7: Check — The Turbine ============
   check('scenesList.scene_7', BG_CELL, 'scenes.q7', 'q7-turbine'),
 
-  // ============ SCENE 8: Why You Gasp ============
-  {
-    name: 'scenesList.scene_8',
-    background: { alt: 'scenes.common.bg_lab_description', url: BG_LAB, waitDelay: SCENE_CHANGE_DELAY, blur: 6, zoom: 1.04 },
-    type: 'one-at-a-time',
-    dialogs: [dro('scenes.s8.d1'), dro('scenes.s8.d2'), maya('scenes.s8.d3')],
-  },
+  // ============ SCENE 8: Why You Gasp (interactive) ============
+  interactiveScene('scenesList.scene_8', BG_LAB, 'scenes.ui.sprint', 'sprint-intensity', 'sprint-intensity', [
+    'scenes.s8.d1',
+    'scenes.s8.d2',
+    { mei: 'scenes.s8.d3' },
+  ]),
 
   // ============ SCENE 9: Check — The Burn ============
   check('scenesList.scene_9', BG_LAB, 'scenes.q9', 'q9-burn'),

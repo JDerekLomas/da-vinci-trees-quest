@@ -70,6 +70,16 @@ export interface AxonalTransportInteraction {
   ariaLabel?: string;
 }
 
+export interface RespirationBuilderInteraction {
+  type: 'respiration-builder';
+  ariaLabel?: string;
+}
+
+export interface SprintIntensityInteraction {
+  type: 'sprint-intensity';
+  ariaLabel?: string;
+}
+
 export type Interaction =
   | RadioButtonInteraction
   | InputBoxInteraction
@@ -80,4 +90,6 @@ export type Interaction =
   | BrownFatInteraction
   | MaternalLineInteraction
   | EndosymbiosisInteraction
-  | AxonalTransportInteraction;
+  | AxonalTransportInteraction
+  | RespirationBuilderInteraction
+  | SprintIntensityInteraction;
