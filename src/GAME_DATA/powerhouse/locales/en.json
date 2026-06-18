@@ -190,7 +190,7 @@
       "d": "They are made of metal"
     },
     "s22": {
-      "d1": "One last place engines matter: your brain. Some cells are enormous — a single nerve cell can stretch nearly a meter from your spine to your toe.",
+      "d1": "One last place engines matter: your brain. Some cells are enormous — a single nerve cell can stretch nearly a meter from your spine to your toe.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/neuron-diagram.webp' alt='Labeled neuron showing the long axon and mitochondria' style='width:100%;max-width:340px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>A real neuron: the long axon reaches far-off synaptic terminals. Public domain, via Wikimedia Commons</div></div>",
       "d2": "The far ends, where nerve cells talk to each other, are starving for energy. So mitochondria are <strong>shipped down the cell</strong> like cargo on rails — carried by tiny motor proteins.",
       "d3": "Drive a mitochondrion down the nerve fiber to power a firing connection before it browns out. A calcium 'stop' signal parks it exactly where the energy is needed.",
       "d4": "When this delivery system breaks down, the far ends starve — and that failure shows up early in diseases like Alzheimer's and Parkinson's. Your engines have to be in the right place, not just present."

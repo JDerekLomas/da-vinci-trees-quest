@@ -14,12 +14,16 @@ const BG_CELL = '/assets/backgrounds/cell.webp';
 const BG_TRACK = '/assets/backgrounds/track.webp';
 const BG_END = '/assets/backgrounds/end.webp';
 
+// Derive the voice-line URL from a locale key, e.g. 'scenes.s2.d1' -> '/assets/audio/s2_d1.mp3'
+const aud = (key: string) => `/assets/audio/${key.replace('scenes.', '').split('.').join('_')}.mp3`;
+
 // Helper: a Maya line in a one-at-a-time scene
 const maya = (key: string) => ({
   isPrimaryHeading: true,
   heading: 'scenes.common.maya',
   headingColor: MAYA_COLOR,
   bodyAsHtml: key,
+  audioUrl: aud(key),
   position: { top: '50%', left: '63%' },
   avatar: { src: MAYA_AVATAR, alt: 'scenes.common.maya_description', size: 'large' as const, position: 'left' as const },
   width: '56vw',
@@ -31,6 +35,7 @@ const dro = (key: string) => ({
   heading: 'scenes.common.dro',
   headingColor: DRO_COLOR,
   bodyAsHtml: key,
+  audioUrl: aud(key),
   position: { top: '50%', left: '38%' },
   avatar: { src: DRO_AVATAR, alt: 'scenes.common.dro_description', size: 'large' as const, position: 'right' as const },
   width: '56vw',
@@ -42,6 +47,7 @@ const droChat = (key: string) => ({
   heading: 'scenes.common.dro',
   headingColor: DRO_COLOR,
   bodyAsHtml: key,
+  audioUrl: aud(key),
   avatar: {
     src: DRO_AVATAR,
     alt: 'scenes.common.dro_description',
@@ -72,6 +78,7 @@ const check = (sceneName: string, bg: string, qKey: string, config: string): Sce
       heading: `${qKey}.heading`,
       headingColor: '#333',
       bodyAsHtml: `${qKey}.stem`,
+      audioUrl: aud(`${qKey}.stem`),
       position: { top: '50%', left: '50%' },
       width: '74vw',
       controls: [{ type: 'back' }, { type: 'submit' }],
@@ -259,8 +266,8 @@ export const sceneData: SceneData[] = [
     background: { alt: 'scenes.common.bg_track_description', url: BG_TRACK, waitDelay: SCENE_CHANGE_DELAY, blur: 6, zoom: 1.04 },
     type: 'one-at-a-time',
     dialogs: [
-      { isPrimaryHeading: true, heading: 'scenes.common.dro', headingColor: DRO_COLOR, bodyAsHtml: 'scenes.s25.d1', position: { top: '50%', left: '50%' }, width: '64vw' },
-      { isPrimaryHeading: true, heading: 'scenes.common.dro', headingColor: DRO_COLOR, bodyAsHtml: 'scenes.s25.d2', position: { top: '50%', left: '50%' }, width: '64vw' },
+      { isPrimaryHeading: true, heading: 'scenes.common.dro', headingColor: DRO_COLOR, bodyAsHtml: 'scenes.s25.d1', audioUrl: aud('scenes.s25.d1'), position: { top: '50%', left: '50%' }, width: '64vw' },
+      { isPrimaryHeading: true, heading: 'scenes.common.dro', headingColor: DRO_COLOR, bodyAsHtml: 'scenes.s25.d2', audioUrl: aud('scenes.s25.d2'), position: { top: '50%', left: '50%' }, width: '64vw' },
     ],
   },
 
