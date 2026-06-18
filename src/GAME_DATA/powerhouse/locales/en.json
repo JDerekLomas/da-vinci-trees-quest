@@ -1,0 +1,220 @@
+{
+  "dialog": {
+    "button": {
+      "next": "Next",
+      "back": "Back",
+      "submit": "Submit",
+      "start_again": "Play Again"
+    }
+  },
+  "start": {
+    "title": "<h1 style='font-size: 34px; line-height: 44px; font-weight: 800; margin:0;'>Powerhouse</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; margin-top:6px;'>The Engine Inside Every Athlete</h2>",
+    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Maya is fast — but she's stuck. Her times won't drop no matter how hard she trains. Sports scientist Dr. Okonkwo says the answer isn't in her legs or her lungs. It's hidden inside her cells, in billions of microscopic engines called <strong>mitochondria</strong>. Discover how they power you, how to grow them, and the astonishing truth about where they came from.</div>",
+    "start_game": "Start STEAMQuest"
+  },
+  "scenesList": {
+    "scene_1": "Title Screen",
+    "scene_2": "The Plateau",
+    "scene_3": "Meet the Mitochondrion",
+    "scene_4": "Check: The Folds",
+    "scene_5": "Fuel and Air",
+    "scene_6": "The Molecular Turbine",
+    "scene_7": "Check: The Turbine",
+    "scene_8": "Why You Gasp",
+    "scene_9": "Check: The Burn",
+    "scene_10": "VO₂max: Your High Score",
+    "scene_11": "The VO₂max Lab",
+    "scene_12": "Check: VO₂max",
+    "scene_13": "Building More Engines",
+    "scene_14": "Choose Your Training",
+    "scene_15": "Check: Training",
+    "scene_16": "Running Hot",
+    "scene_17": "Check: Heat",
+    "scene_18": "Inherited From Mom",
+    "scene_19": "Check: Inheritance",
+    "scene_20": "Ancient Stowaways",
+    "scene_21": "Check: Endosymbiosis",
+    "scene_22": "The Commute",
+    "scene_23": "Check: Neurons",
+    "scene_24": "Putting It Together",
+    "scene_25": "Race Day",
+    "scene_26": "End Screen"
+  },
+  "scenes": {
+    "common": {
+      "maya": "Maya",
+      "dro": "Dr. Okonkwo",
+      "maya_description": "Maya, 17, distance runner in training gear with a fitness watch",
+      "dro_description": "Dr. Okonkwo, exercise physiologist, warm and sharp",
+      "bg_lab_description": "A bright sports-science lab with treadmills and screens",
+      "bg_track_description": "An outdoor running track at golden hour",
+      "bg_cell_description": "The glowing interior of a living cell",
+      "enter_answer": "Choose your answer"
+    },
+    "ui": {
+      "explorer": "Mitochondrion Explorer",
+      "turbine": "ATP Synthase — The Turbine",
+      "vo2": "VO₂max Treadmill Test",
+      "training": "Training Lab",
+      "brownfat": "Brown Fat Furnace",
+      "maternal": "Your Maternal Line",
+      "endo": "Endosymbiosis Detective",
+      "axon": "The Neuron Delivery Run"
+    },
+    "s2": {
+      "d1": "Six months of training. My legs are stronger, my form is clean — and my times haven't dropped a single second. What am I doing wrong?",
+      "d2": "Nothing obvious. Your heart is strong. Your muscles are powerful. So the limit is somewhere most runners never look... <strong>inside your muscle cells.</strong>",
+      "d3": "Inside my cells? What's in there?",
+      "d4": "Engines. Billions of them. Tiny power plants called <strong>mitochondria</strong>. They turn your food and the air you breathe into usable energy. Let's go meet them — shrink down with me."
+    },
+    "s3": {
+      "d1": "Welcome inside a single muscle cell. This bean-shaped structure is one <strong>mitochondrion</strong>. Spin it around. Tap the parts to see what they do.",
+      "d2": "Notice the inside is folded into deep ridges — those are the <strong>cristae</strong>. Folding the inner wall like a scrunched-up bedsheet crams a huge surface into a tiny space.",
+      "d3": "And more surface means more room for the machinery that makes energy. Cells that need lots of power — heart, muscle — are absolutely packed with these folds."
+    },
+    "q4": {
+      "heading": "Check Your Understanding",
+      "stem": "Why is the inner membrane folded into so many ridges (cristae)?",
+      "a": "To pack in more surface area for making energy",
+      "b": "To store extra fat for later",
+      "c": "To make the cell look bigger",
+      "d": "To hold the cell's main DNA"
+    },
+    "s5": {
+      "d1": "So how does an engine like this actually run? Two things go in: <strong>fuel</strong> from your food (a sugar called glucose) and <strong>oxygen</strong> from the air you breathe.",
+      "d2": "The mitochondrion combines them in a few steps and charges up the body's rechargeable battery — a molecule called <strong>ATP</strong>. Think of ATP as energy cash your cells can spend instantly.",
+      "d3": "What's left over? Just water, and the carbon dioxide you breathe out. Now — let me show you the most jaw-dropping part of the whole machine."
+    },
+    "s6": {
+      "d1": "This is <strong>ATP synthase</strong>. It's a real, spinning motor — one of the only rotary engines in all of biology, and you have trillions of them.",
+      "d2": "Here's the trick. The mitochondrion pumps tiny particles called protons to one side of the inner wall, piling them up like <strong>water behind a dam.</strong>",
+      "d3": "When the protons rush back through this motor, they spin it — around 130 turns every second — and each turn snaps out fresh ATP batteries. Pump the gradient, then let it flow and watch.",
+      "d4": "Now cut the oxygen. See what happens? The dam drains, the turbine stalls, and ATP production crashes. Hold that thought — it explains everything about that wall you hit at the end of a race."
+    },
+    "q7": {
+      "heading": "Check Your Understanding",
+      "stem": "What makes the ATP synthase motor spin?",
+      "a": "Protons flowing back across the membrane, like water through a dam",
+      "b": "Electrical signals sent from the brain",
+      "c": "The beating of the heart",
+      "d": "Sunlight absorbed by the cell"
+    },
+    "s8": {
+      "d1": "Remember the stalled turbine? Oxygen is the very last step of the whole energy line — think of it as <strong>the drain at the end of the pipe.</strong> It carries away the leftovers so the line keeps flowing.",
+      "d2": "When you sprint all-out, your muscles burn oxygen faster than your lungs can deliver it. The drain clogs, the turbines slow, and your cells switch to a weak backup supply.",
+      "d3": "That backup is what makes your muscles burn and your legs turn to lead. That desperate gasping at the finish line? That's billions of mitochondria screaming for air."
+    },
+    "q9": {
+      "heading": "Check Your Understanding",
+      "stem": "Why do your muscles burn and you gasp for air during an all-out sprint?",
+      "a": "The mitochondria can't get enough oxygen, so energy slows and a weak backup kicks in",
+      "b": "Your blood permanently turns to acid",
+      "c": "Your muscles run completely out of water",
+      "d": "The brain shuts off oxygen to the legs on purpose"
+    },
+    "s10": {
+      "d1": "Time to measure your engine. The headline number in my lab is <strong>VO₂max</strong> — the most oxygen your body can actually use in a minute. It's basically your engine's high score.",
+      "d2": "A couch potato scores around 35. You're around 50 — good! An elite athlete tops 80. The world record is about 97, held by a cross-country skier.",
+      "d3": "Why a skier? They push with their arms and legs at once — more muscle working means more engines burning oxygen. Let's run your test."
+    },
+    "s11": {
+      "d1": "Step on the treadmill. I'll ramp up the speed. Watch your oxygen use climb on the dashboard.",
+      "d2": "There — see how it rises, then flattens out even as you run harder? That ceiling is your VO₂max. You've hit the limit of how fast your engines can burn oxygen.",
+      "d3": "Tap the lab tools to see the three ways scientists measure what's happening in your muscles — a tiny needle sample, a beam of light, even an MRI scan."
+    },
+    "q12": {
+      "heading": "Check Your Understanding",
+      "stem": "VO₂max measures...",
+      "a": "The most oxygen your body can use per minute",
+      "b": "How fast your heart beats when resting",
+      "c": "How much you weigh",
+      "d": "How long you can hold your breath"
+    },
+    "s13": {
+      "d1": "Here's the exciting part. You can't easily build a bigger heart — but you absolutely can build <strong>more mitochondria.</strong>",
+      "d2": "When you train hard, your cells run low on energy cash. That trips a 'low battery' alarm, which flips a master switch that orders the cell to <strong>build brand-new mitochondria.</strong> Scientists call it mitochondrial biogenesis.",
+      "d3": "In about six weeks of real training, you can grow 40 to 50 percent more of them. Elite athletes carry up to 40 percent more in every muscle fiber. Training doesn't just make you stronger — it makes you <strong>mitochondria-rich.</strong>"
+    },
+    "s14": {
+      "d1": "Let's design your training. Drag workouts into your week — long endurance runs, short intense HIIT intervals, and rest. Then run the weeks forward and watch your mitochondria respond.",
+      "d2": "Notice there are two winning styles: steady endurance, or short bursts of HIIT. Both flip the same master switch by different routes.",
+      "d3": "But watch what happens with no rest or sleep — your gains stall. Recovery is when the building actually happens. And no, there's no pill for this. Exercise is the real lever."
+    },
+    "q15": {
+      "heading": "Check Your Understanding",
+      "stem": "What does endurance training actually do to your muscle cells?",
+      "a": "It signals them to build more mitochondria",
+      "b": "It only makes existing mitochondria larger",
+      "c": "It removes mitochondria the body doesn't need",
+      "d": "Nothing — your mitochondria count is fixed at birth"
+    },
+    "s16": {
+      "d1": "Ever wonder why a cold plunge makes you shiver, then suddenly feel warm? Meet <strong>brown fat</strong> — a tissue packed with mitochondria that exist to make heat.",
+      "d2": "They flip a special switch called <strong>UCP1</strong> that opens a back door in the dam. The protons leak around the turbine — so instead of making ATP, the energy escapes as <strong>pure heat.</strong>",
+      "d3": "Slide between 'make energy' and 'make heat' and watch. This is how newborn babies stay warm before they can shiver — and the real science behind cold exposure. It burns some calories, but it's no magic trick."
+    },
+    "q17": {
+      "heading": "Check Your Understanding",
+      "stem": "How does brown fat make heat instead of energy (ATP)?",
+      "a": "It lets protons leak past the turbine, releasing the energy as heat",
+      "b": "It burns up the mitochondria themselves",
+      "c": "It relies only on the friction of shivering muscles",
+      "d": "It absorbs heat directly from sunlight"
+    },
+    "s18": {
+      "d1": "Now for something that surprises everyone. Mitochondria carry their <strong>own DNA</strong> — a tiny separate loop, completely apart from the DNA in the cell's nucleus.",
+      "d2": "And you inherited every single one of yours from <strong>your mother.</strong> The egg supplies them all; the father's are destroyed after fertilization.",
+      "d3": "Follow the line back — your mom, her mom, her mom — and every human alive traces to one woman scientists nicknamed <strong>Mitochondrial Eve</strong>, about 150,000 years ago in Africa.",
+      "d4": "One myth to bust: she was NOT the only woman alive back then. Thousands of others lived too — she's just the one whose unbroken mother-to-daughter line never died out. It's why this DNA is so useful in forensics: it survives in ancient bones and a single hair."
+    },
+    "q19": {
+      "heading": "Check Your Understanding",
+      "stem": "Whose mitochondria did you inherit?",
+      "a": "Only your mother's",
+      "b": "Only your father's",
+      "c": "Half from each parent, like most of your DNA",
+      "d": "You build them from scratch as a baby"
+    },
+    "s20": {
+      "d1": "If mitochondria have their own DNA... where did they come from? Brace yourself. They were once <strong>free-living bacteria.</strong>",
+      "d2": "About two billion years ago, one cell swallowed a bacterium — and instead of digesting it, kept it alive as a permanent energy partner. That single merger may be why complex life, including you, exists at all.",
+      "d3": "A scientist named Lynn Margulis proposed this and was laughed at for years. Then the evidence piled up. Collect the clues and see for yourself.",
+      "d4": "Double wall, its own bacteria-style DNA, its own bacteria-like machinery, and it even splits in two on its own. The verdict is in: you are a partnership. Every breath you take feeds an ancient bacterium living inside you."
+    },
+    "q21": {
+      "heading": "Check Your Understanding",
+      "stem": "What's the strongest evidence that mitochondria were once bacteria?",
+      "a": "They have their own DNA and divide on their own, just like bacteria",
+      "b": "They are green, like plant cells",
+      "c": "They can leave the body and live in soil",
+      "d": "They are made of metal"
+    },
+    "s22": {
+      "d1": "One last place engines matter: your brain. Some cells are enormous — a single nerve cell can stretch nearly a meter from your spine to your toe.",
+      "d2": "The far ends, where nerve cells talk to each other, are starving for energy. So mitochondria are <strong>shipped down the cell</strong> like cargo on rails — carried by tiny motor proteins.",
+      "d3": "Drive a mitochondrion down the nerve fiber to power a firing connection before it browns out. A calcium 'stop' signal parks it exactly where the energy is needed.",
+      "d4": "When this delivery system breaks down, the far ends starve — and that failure shows up early in diseases like Alzheimer's and Parkinson's. Your engines have to be in the right place, not just present."
+    },
+    "q23": {
+      "heading": "Check Your Understanding",
+      "stem": "Why must nerve cells actively transport mitochondria down their long fibers?",
+      "a": "The fibers are very long and the far ends need energy delivered to them",
+      "b": "Mitochondria can't make energy inside nerve cells",
+      "c": "It's the only way to keep the brain cool",
+      "d": "Nerve cells have no mitochondria of their own"
+    },
+    "s24": {
+      "d1": "So here's your real training plan, Maya. Train hard to <strong>build</strong> more engines. Fuel and breathe well to <strong>run</strong> them. And respect recovery — that's when they're actually built.",
+      "d2": "When you put it that way... I'm a walking partnership of ancient bacteria, inherited from my mom, burning fuel and air in billions of tiny turbines.",
+      "d3": "Exactly. Now go race like you understand what's under the hood."
+    },
+    "s25": {
+      "d1": "Race day. Maya doesn't go out too fast — she paces it so her mitochondria can keep up with the oxygen. The burn comes late, and she's ready for it.",
+      "d2": "She crosses the line. A new personal best. Not magic — just an athlete who finally understood, and grew, her own power plants."
+    },
+    "s26": {
+      "heading": "Quest Complete!",
+      "body": "<div style='font-size:18px;line-height:27px;'>You powered through <strong>Powerhouse</strong>. Remember the four wonders inside you:<br/><br/>⚡ You have a literal <strong>spinning motor</strong> in every cell — about 130 turns a second.<br/>🦠 Your mitochondria are <strong>domesticated bacteria</strong>, still dividing inside you.<br/>👩 You inherited them <strong>only from your mom</strong> — back to one woman 150,000 years ago.<br/>🔥 <strong>Cold can flip fat into a furnace.</strong><br/><br/>Train them. Fuel them. They are the engine inside every athlete — including you.</div>"
+    }
+  }
+}
