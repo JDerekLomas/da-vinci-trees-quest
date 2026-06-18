@@ -1,7 +1,4 @@
-import React, { Suspense, useEffect, useMemo, useRef, useState } from 'react';
-import * as THREE from 'three';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF, Environment } from '@react-three/drei';
+import React, { useRef, useState } from 'react';
 import { MitochondrionExplorerInteraction, InteractionState } from './interface';
 
 interface Props {
@@ -12,264 +9,121 @@ interface Props {
   isSubmitTriggered?: boolean;
 }
 
-const MODEL_URL = '/assets/models/mitochondrion.glb';
-useGLTF.preload(MODEL_URL);
-
-// Each part of the mitochondrion maps to one or more glTF material names.
-type PartKey = 'outer' | 'space' | 'cristae' | 'matrix';
-
-interface PartDef {
-  key: PartKey;
-  label: string;
-  materials: string[];
-  explanation: string;
-}
-
-const PARTS: PartDef[] = [
-  {
-    key: 'outer',
-    label: 'Outer membrane',
-    materials: ['MitochondrialMembrane'],
-    explanation: 'The smooth outer wall — the outer boundary, fairly porous.',
-  },
-  {
-    key: 'space',
-    label: 'Intermembrane space',
-    materials: ['MitochondrialMembrane', 'InnerMembraneMat'],
-    explanation:
-      "The narrow gap between the two membranes — where protons pile up to power the turbines (the 'dam').",
-  },
-  {
-    key: 'cristae',
-    label: 'Cristae (inner folds)',
-    materials: ['CristaeMembrane', 'InnerMembraneMat', 'ATPSynthase'],
-    explanation:
-      'The deep folds of the inner membrane — they pack in huge surface area for the energy machinery (and you can see the ATP-synthase knobs studded along them). THIS is the key idea.',
-  },
-  {
-    key: 'matrix',
-    label: 'Matrix',
-    materials: ['Matrix', 'Ribosome', 'mtDNA'],
-    explanation:
-      "The inner fluid space — home to the energy reactions, ribosomes, and the mitochondrion's own circular DNA.",
-  },
+type PartId = 'outer' | 'inter' | 'cristae' | 'matrix';
+const PARTS: { id: PartId; label: string; color: string; text: string }[] = [
+  { id: 'outer', label: 'Outer membrane', color: '#e7c869',
+    text: 'The smooth outer wall — the mitochondrion’s outer boundary. Fairly porous, so small molecules pass through.' },
+  { id: 'inter', label: 'Intermembrane space', color: '#7fd0ff',
+    text: 'The narrow gap between the two membranes — where protons pile up to power the turbines (the “dam”).' },
+  { id: 'cristae', label: 'Cristae (inner folds)', color: '#3f7fff',
+    text: 'The deep folds of the inner membrane. Folding it like a scrunched bedsheet packs in huge surface area — more room for the machinery that makes energy. THIS is the key idea.' },
+  { id: 'matrix', label: 'Matrix', color: '#9b7bff',
+    text: 'The inner fluid space — home to the energy reactions, ribosomes, and the mitochondrion’s own circular DNA (mtDNA).' },
 ];
 
-// Base recolor spec for each glTF material name.
-interface ColorSpec {
-  color: string;
-  opacity: number;
-  emissive: string;
-  emissiveIntensity: number;
-  transparent: boolean;
-}
-
-const PALETTE: Record<string, ColorSpec> = {
-  MitochondrialMembrane: { color: '#e7c869', opacity: 0.18, emissive: '#000000', emissiveIntensity: 0, transparent: true },
-  InnerMembraneMat: { color: '#5aa9ff', opacity: 0.3, emissive: '#000000', emissiveIntensity: 0, transparent: true },
-  CristaeMembrane: { color: '#3f7fff', opacity: 0.95, emissive: '#1b3a8a', emissiveIntensity: 0.4, transparent: true },
-  Matrix: { color: '#3a2363', opacity: 0.35, emissive: '#000000', emissiveIntensity: 0, transparent: true },
-  ATPSynthase: { color: '#0E7C86', opacity: 1, emissive: '#0E7C86', emissiveIntensity: 0.25, transparent: false },
-  Ribosome: { color: '#E0552B', opacity: 1, emissive: '#000000', emissiveIntensity: 0, transparent: false },
-  mtDNA: { color: '#ffd166', opacity: 1, emissive: '#ffd166', emissiveIntensity: 0.5, transparent: false },
-};
-
-interface ModelProps {
-  selected: PartKey | null;
-}
-
-const Mitochondrion: React.FC<ModelProps> = ({ selected }) => {
-  const { scene } = useGLTF(MODEL_URL);
-  const groupRef = useRef<THREE.Group>(null);
-
-  // Clone the scene + recolor materials once. Group materials by name so we
-  // can re-emphasize them on selection without mutating drei's cached scene.
-  const { root, byMaterial } = useMemo(() => {
-    const clone = scene.clone(true) as THREE.Group;
-    const map = new Map<string, THREE.MeshStandardMaterial[]>();
-
-    clone.traverse((obj: THREE.Object3D) => {
-      const mesh = obj as THREE.Mesh;
-      if (!mesh.isMesh) return;
-      const src = mesh.material as THREE.Material;
-      const name = src.name;
-      const spec = PALETTE[name];
-      const mat = new THREE.MeshStandardMaterial({
-        color: new THREE.Color(spec ? spec.color : '#cccccc'),
-        transparent: spec ? spec.transparent : false,
-        opacity: spec ? spec.opacity : 1,
-        emissive: new THREE.Color(spec ? spec.emissive : '#000000'),
-        emissiveIntensity: spec ? spec.emissiveIntensity : 0,
-        roughness: 0.5,
-        metalness: 0,
-      });
-      mat.name = name;
-      if (mat.transparent) mat.depthWrite = false;
-      mesh.material = mat;
-
-      const list = map.get(name) ?? [];
-      list.push(mat);
-      map.set(name, list);
-    });
-
-    // Center + scale the cloned model to a consistent target size.
-    const box = new THREE.Box3().setFromObject(clone);
-    const center = box.getCenter(new THREE.Vector3());
-    const size = box.getSize(new THREE.Vector3());
-    const maxDim = Math.max(size.x, size.y, size.z) || 1;
-    const target = 3.2;
-    const scale = target / maxDim;
-    clone.position.set(-center.x * scale, -center.y * scale, -center.z * scale);
-    clone.scale.setScalar(scale);
-
-    return { root: clone, byMaterial: map };
-  }, [scene]);
-
-  // Re-apply emphasis whenever the selected part changes.
-  useEffect(() => {
-    const emphasized = new Set<string>();
-    if (selected) {
-      const def = PARTS.find((p) => p.key === selected);
-      def?.materials.forEach((m) => emphasized.add(m));
-    }
-
-    byMaterial.forEach((mats, name) => {
-      const base = PALETTE[name];
-      if (!base) return;
-      const isOn = emphasized.has(name);
-      mats.forEach((mat) => {
-        if (selected === null) {
-          mat.transparent = base.transparent;
-          mat.depthWrite = !base.transparent;
-          mat.opacity = base.opacity;
-          mat.emissiveIntensity = base.emissiveIntensity;
-        } else if (isOn) {
-          // Brighten / make targeted parts more solid.
-          mat.transparent = base.transparent;
-          mat.depthWrite = !base.transparent;
-          mat.opacity = base.transparent ? Math.min(1, Math.max(0.6, base.opacity + 0.45)) : base.opacity;
-          mat.emissiveIntensity = base.emissiveIntensity + 0.35;
-        } else {
-          // Dim everything else.
-          mat.transparent = true;
-          mat.depthWrite = false;
-          mat.opacity = base.transparent ? base.opacity * 0.5 : 0.35;
-          mat.emissiveIntensity = 0;
-        }
-        mat.needsUpdate = true;
-      });
-    });
-  }, [selected, byMaterial]);
-
-  return (
-    <group ref={groupRef}>
-      <primitive object={root} />
-    </group>
-  );
-};
+const NAVY = '#0d1b2e';
+const GOLD = '#e7c869';
+const BLUE = '#5aa9ff';
+const BLUE2 = '#3f7fff';
+const PUR = '#3a2363';
+const ATPY = '#ffd166';
+const ORANGE = '#E0552B';
+const MUTE = '#9fb3c8';
+const CX = 320, CY = 215;
 
 const MitochondrionExplorer: React.FC<Props> = ({ onInteraction }) => {
-  const [selected, setSelected] = useState<PartKey | null>(null);
-  const [explored, setExplored] = useState<Set<PartKey>>(new Set());
+  const [sel, setSel] = useState<PartId | null>(null);
+  const explored = useRef<Set<PartId>>(new Set());
   const reported = useRef(false);
 
-  const select = (key: PartKey) => {
-    setSelected((prev) => (prev === key ? null : key));
-    setExplored((prev) => {
-      const next = new Set(prev);
-      next.add(key);
-      return next;
-    });
+  const pick = (id: PartId) => {
+    setSel(id);
+    explored.current.add(id);
     if (!reported.current) {
       reported.current = true;
-      onInteraction({ isCorrect: true, isEmpty: false, value: key });
+      onInteraction({ isCorrect: true, isEmpty: false, value: id });
     }
   };
 
-  const current = selected ? PARTS.find((p) => p.key === selected) ?? null : null;
+  const op = (id: PartId) => (sel === null || sel === id ? 1 : 0.25);
+  const topFingers = [200, 320, 440];
+  const botFingers = [260, 380];
+  const selText = sel ? PARTS.find((p) => p.id === sel)!.text : 'Tap a labelled part below (or on the diagram) to explore it.';
+  const count = explored.current.size;
+
+  const finger = (x: number, yTop: number, yBot: number, key: string) => (
+    <rect key={key} x={x - 16} y={Math.min(yTop, yBot)} width={32} height={Math.abs(yBot - yTop)} rx={16}
+      fill={BLUE} stroke={sel === 'cristae' ? '#bfe0ff' : BLUE2} strokeWidth={sel === 'cristae' ? 3 : 2} />
+  );
+
+  const label = (id: PartId, tx: number, ty: number, lx: number, ly: number, anchor: 'start' | 'end', text: string) => (
+    <g opacity={sel === null || sel === id ? 1 : 0.3} style={{ cursor: 'pointer' }} onClick={() => pick(id)}>
+      <line x1={tx} y1={ty} x2={lx} y2={ly} stroke={sel === id ? '#fff' : MUTE} strokeWidth={1.5} />
+      <text x={tx} y={ty - 6} fontFamily="Arial,Helvetica,sans-serif" fontSize={14}
+        fill={sel === id ? '#fff' : MUTE} textAnchor={anchor} fontWeight={sel === id ? 'bold' : 'normal'}>{text}</text>
+    </g>
+  );
 
   return (
     <div className="w-full h-full flex flex-col" style={{ color: '#fff' }}>
-      <div className="flex-1" style={{ minHeight: 280 }}>
-        <Canvas
-          camera={{ position: [0, 0.5, 6], fov: 45 }}
-          style={{
-            width: '100%',
-            height: '100%',
-            borderRadius: 14,
-            background: 'radial-gradient(circle at 50% 40%, #14213a 0%, #070d1c 100%)',
-          }}
-          aria-label="Interactive 3D mitochondrion explorer"
-        >
-          <ambientLight intensity={0.7} />
-          <directionalLight position={[4, 6, 5]} intensity={1.1} />
-          <directionalLight position={[-4, -2, -3]} intensity={0.4} />
-          <Suspense fallback={null}>
-            <Mitochondrion selected={selected} />
-            <Environment preset="city" />
-          </Suspense>
-          <OrbitControls enablePan={false} autoRotate autoRotateSpeed={0.8} enableDamping />
-        </Canvas>
+      <div style={{ flex: 1, minHeight: 260, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 6 }}>
+        <svg viewBox="0 0 680 440" style={{ width: '100%', maxWidth: 600, height: 'auto' }} role="img" aria-label="Labelled cutaway of a mitochondrion">
+          <rect x="2" y="2" width="676" height="436" rx="18" fill={NAVY} stroke="#24405f" strokeWidth="2" />
+
+          <ellipse cx={CX} cy={CY} rx={196} ry={120} fill={PUR} opacity={op('matrix')} />
+
+          <g opacity={op('cristae')}>
+            {topFingers.map((x, i) => finger(x, 108, 232, 't' + i))}
+            {botFingers.map((x, i) => finger(x, 322, 200, 'b' + i))}
+          </g>
+
+          <g opacity={op('matrix')}>
+            <circle cx={158} cy={250} r={13} fill="none" stroke={ATPY} strokeWidth={5} />
+            {[[160, 182], [486, 250], [470, 182]].map(([rx, ry], i) => (
+              <circle key={i} cx={rx} cy={ry} r={5} fill={ORANGE} />
+            ))}
+          </g>
+
+          <ellipse cx={CX} cy={CY} rx={196} ry={120} fill="none" stroke={sel === 'cristae' ? '#bfe0ff' : BLUE2} strokeWidth={4} opacity={op('cristae')} />
+
+          <ellipse cx={CX} cy={CY} rx={208} ry={130} fill="none" stroke="#7fd0ff" strokeWidth={14} opacity={sel === 'inter' ? 0.5 : 0} />
+
+          <g opacity={op('outer')}>
+            <ellipse cx={CX} cy={CY} rx={220} ry={140} fill="none" stroke={sel === 'outer' ? '#fff3cf' : GOLD} strokeWidth={6} />
+            <ellipse cx={CX} cy={CY} rx={210} ry={132} fill="none" stroke={GOLD} strokeWidth={3} opacity={0.7} />
+          </g>
+
+          {label('outer', 60, 64, 250, 116, 'start', 'Outer membrane')}
+          {label('inter', 60, 152, 175, 182, 'start', 'Intermembrane space')}
+          {label('cristae', 620, 116, 456, 150, 'end', 'Cristae (folds)')}
+          {label('matrix', 620, 322, 360, 250, 'end', 'Matrix')}
+        </svg>
       </div>
 
-      <div className="rounded-lg p-3" style={{ background: 'rgba(255,255,255,0.96)', color: '#222', marginTop: 8 }}>
+      <div className="rounded-lg p-3" style={{ background: 'rgba(255,255,255,0.96)', color: '#222' }}>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 10 }}>
-          {PARTS.map((part) => {
-            const active = selected === part.key;
-            const seen = explored.has(part.key);
-            return (
-              <button
-                key={part.key}
-                onClick={() => select(part.key)}
-                style={{
-                  background: active ? '#3f7fff' : seen ? '#dde8ff' : '#eef0f4',
-                  color: active ? '#fff' : '#222',
-                  border: active ? '2px solid #1b3a8a' : '2px solid transparent',
-                  borderRadius: 8,
-                  padding: '8px 12px',
-                  fontWeight: 700,
-                  fontSize: 13,
-                  cursor: 'pointer',
-                }}
-              >
-                {part.label}
-              </button>
-            );
-          })}
+          {PARTS.map((p) => (
+            <button key={p.id} onClick={() => pick(p.id)}
+              style={{
+                border: `2px solid ${p.color}`, borderRadius: 10, padding: '7px 12px', fontWeight: 700, cursor: 'pointer',
+                background: sel === p.id ? p.color : '#fff', color: sel === p.id ? '#10233a' : '#222',
+              }}>
+              {p.label}
+            </button>
+          ))}
         </div>
-
-        <div style={{ fontSize: 13, minHeight: 38, color: '#333' }}>
-          {current ? (
-            <span>
-              <strong>{current.label}:</strong> {current.explanation}
-            </span>
-          ) : (
-            <span style={{ color: '#666' }}>
-              Drag to rotate. Tap a part below to highlight it in 3D and learn what it does.
-            </span>
-          )}
+        <div style={{ fontSize: 15, lineHeight: '1.4', minHeight: 44 }}>
+          {sel && <strong>{PARTS.find((p) => p.id === sel)!.label}: </strong>}
+          {selText}
         </div>
-
-        <div
-          style={{
-            fontSize: 13,
-            fontWeight: 800,
-            color: '#0E7C86',
-            marginTop: 8,
-            paddingTop: 8,
-            borderTop: '1px solid #eee',
-          }}
-        >
-          Key idea: cristae fold to maximize surface area = more room for the machinery that makes energy
-        </div>
-
-        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginTop: 6 }}>
-          <span style={{ fontSize: 12, fontWeight: 700, color: '#E0552B' }}>
-            {explored.size} / {PARTS.length} parts explored
-          </span>
-          <span style={{ fontSize: 11, color: '#777' }}>
-            You&apos;re looking at ONE mitochondrion — a single muscle cell holds ~1,000–2,000 of them.
-          </span>
+        <div style={{ borderTop: '1px solid #e2e8f0', marginTop: 10, paddingTop: 8 }}>
+          <div style={{ color: '#0E7C86', fontWeight: 700, fontSize: 14 }}>
+            Key idea: cristae fold to maximise surface area = more room for the machinery that makes energy
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginTop: 6 }}>
+            <span style={{ color: '#E0552B', fontWeight: 700, fontSize: 13 }}>{count} / 4 parts explored</span>
+            <span style={{ color: '#667', fontSize: 13 }}>You’re looking at ONE — a single muscle cell holds ~1,000–2,000 of them.</span>
+          </div>
         </div>
       </div>
     </div>
