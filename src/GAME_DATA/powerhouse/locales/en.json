@@ -9,12 +9,12 @@
   },
   "start": {
     "title": "<h1 style='font-size: 34px; line-height: 44px; font-weight: 800; margin:0;'>Powerhouse</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; margin-top:6px;'>The Engine Inside Every Athlete</h2>",
-    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Maya is fast — but she's stuck. Her times won't drop no matter how hard she trains. Sports scientist Dr. Okonkwo says the answer isn't in her legs or her lungs. It's hidden inside her cells, in billions of microscopic engines called <strong>mitochondria</strong>. Discover how they power you, how to grow them, and the astonishing truth about where they came from.</div>",
+    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Maya's feed is flooded with it: <em>“Boost your mitochondria!”</em> — cold plunges, $80 supplements, breathing hacks, miracle pills. Influencers swear it unlocks superhuman energy. Maya's skeptical. Can you actually improve your mitochondria, or is it all hype? Sports scientist Dr. Okonkwo helps her find out — by discovering what these tiny cellular engines really are, and what genuinely makes them stronger.</div>",
     "start_game": "Start STEAMQuest"
   },
   "scenesList": {
     "scene_1": "Title Screen",
-    "scene_2": "The Plateau",
+    "scene_2": "Mitochondria Hype?",
     "scene_3": "Meet the Mitochondrion",
     "scene_4": "Check: The Folds",
     "scene_5": "Fuel and Air",
@@ -25,8 +25,8 @@
     "scene_10": "VO₂max: Your High Score",
     "scene_11": "The VO₂max Lab",
     "scene_12": "Check: VO₂max",
-    "scene_13": "Building More Engines",
-    "scene_14": "Choose Your Training",
+    "scene_13": "What Actually Works",
+    "scene_14": "The Optimization Lab",
     "scene_15": "Check: Training",
     "scene_16": "Running Hot",
     "scene_17": "Check: Heat",
@@ -36,7 +36,7 @@
     "scene_21": "Check: Endosymbiosis",
     "scene_22": "The Commute",
     "scene_23": "Check: Neurons",
-    "scene_24": "Putting It Together",
+    "scene_24": "The Verdict",
     "scene_25": "Race Day",
     "scene_26": "End Screen"
   },
@@ -62,10 +62,10 @@
       "axon": "The Neuron Delivery Run"
     },
     "s2": {
-      "d1": "Six months of training. My legs are stronger, my form is clean — and my times haven't dropped a single second. What am I doing wrong?",
-      "d2": "Nothing obvious. Your heart is strong. Your muscles are powerful. So the limit is somewhere most runners never look... <strong>inside your muscle cells.</strong>",
-      "d3": "Inside my cells? What's in there?",
-      "d4": "Engines. Billions of them. Tiny power plants called <strong>mitochondria</strong>. They turn your food and the air you breathe into usable energy. Let's go meet them — shrink down with me."
+      "d1": "Dr. O, my whole feed is this stuff — <strong>“boost your mitochondria”</strong> — cold plunges, eighty-dollar supplements, special breathing. Everyone swears it makes them unstoppable. Is ANY of it real?",
+      "d2": "Honestly? It's a mix of real science and total hype. But here's the exciting part: yes — you genuinely CAN improve your mitochondria. Athletes do it all the time. Most of what's trending online, though, is exaggerated or flat-out unproven.",
+      "d3": "So how do I tell what actually works from what's just marketing?",
+      "d4": "Same way a scientist does. First understand what mitochondria ARE — these tiny <strong>engines</strong> in your cells that turn food and air into energy. Once you get how they work, the real upgrades become obvious... and the snake oil gets easy to spot. Shrink down with me."
     },
     "s3": {
       "d1": "Welcome inside a single muscle cell. This bean-shaped structure is one <strong>mitochondrion</strong>. Spin it around. Tap the parts to see what they do.",
@@ -131,14 +131,14 @@
       "d": "How long you can hold your breath"
     },
     "s13": {
-      "d1": "Here's the exciting part. You can't easily build a bigger heart — but you absolutely can build <strong>more mitochondria.</strong>",
-      "d2": "When you train hard, your cells run low on energy cash. That trips a 'low battery' alarm, which flips a master switch that orders the cell to <strong>build brand-new mitochondria.</strong> Scientists call it mitochondrial biogenesis.",
-      "d3": "In about six weeks of real training, you can grow 40 to 50 percent more of them. Elite athletes carry up to 40 percent more in every muscle fiber. Training doesn't just make you stronger — it makes you <strong>mitochondria-rich.</strong>"
+      "d1": "Now the question you walked in with: can you really improve these engines? Yes — and here's the part that's genuinely proven. You can't easily grow a bigger heart, but you absolutely can build <strong>more mitochondria.</strong>",
+      "d2": "When you train hard, your cells run low on energy cash. That trips a 'low battery' alarm, which flips a master switch that orders the cell to <strong>build brand-new mitochondria.</strong> Real, measurable, repeatable — scientists call it mitochondrial biogenesis.",
+      "d3": "About six weeks of real training can grow 40 to 50 percent more of them. Elite athletes carry up to 40 percent more in every muscle fiber. THIS is the upgrade that actually works — no pill required. Now let's test it against the hype."
     },
     "s14": {
-      "d1": "Let's design your training. Drag workouts into your week — long endurance runs, short intense HIIT intervals, and rest. Then run the weeks forward and watch your mitochondria respond.",
-      "d2": "Notice there are two winning styles: steady endurance, or short bursts of HIIT. Both flip the same master switch by different routes.",
-      "d3": "But watch what happens with no rest or sleep — your gains stall. Recovery is when the building actually happens. And no, there's no pill for this. Exercise is the real lever."
+      "d1": "Welcome to the optimization lab. Test the levers that actually matter: long endurance runs, short intense HIIT intervals, rest, and sleep. Run the weeks forward and watch your mitochondria respond.",
+      "d2": "Notice there are two winning playbooks: steady endurance, or short bursts of HIIT. Both flip the same master switch by different routes — both genuinely work.",
+      "d3": "But skip rest and sleep and your gains stall — recovery is when the building actually happens. And notice there's no 'supplement' button that beats this. Exercise is the lever that's truly backed by evidence."
     },
     "q15": {
       "heading": "Check Your Understanding",
@@ -149,9 +149,9 @@
       "d": "Nothing — your mitochondria count is fixed at birth"
     },
     "s16": {
-      "d1": "Ever wonder why a cold plunge makes you shiver, then suddenly feel warm? Meet <strong>brown fat</strong> — a tissue packed with mitochondria that exist to make heat.",
+      "d1": "Now, that cold plunge trend? Here's a case where the online hype has a real <strong>kernel of truth.</strong> Meet <strong>brown fat</strong> — a tissue packed with mitochondria that exist to make heat.",
       "d2": "They flip a special switch called <strong>UCP1</strong> that opens a back door in the dam. The protons leak around the turbine — so instead of making ATP, the energy escapes as <strong>pure heat.</strong>",
-      "d3": "Slide between 'make energy' and 'make heat' and watch. This is how newborn babies stay warm before they can shiver — and the real science behind cold exposure. It burns some calories, but it's no magic trick."
+      "d3": "Slide between 'make energy' and 'make heat.' Cold really does switch this on — that part's real. But the honest verdict: it burns only modest calories and won't transform your fitness. A small true effect, massively oversold online."
     },
     "q17": {
       "heading": "Check Your Understanding",
@@ -204,17 +204,17 @@
       "d": "Nerve cells have no mitochondria of their own"
     },
     "s24": {
-      "d1": "So here's your real training plan, Maya. Train hard to <strong>build</strong> more engines. Fuel and breathe well to <strong>run</strong> them. And respect recovery — that's when they're actually built.",
-      "d2": "When you put it that way... I'm a walking partnership of ancient bacteria, inherited from my mom, burning fuel and air in billions of tiny turbines.",
-      "d3": "Exactly. Now go race like you understand what's under the hood."
+      "d1": "So here's your verdict, Maya. The real way to optimize your mitochondria? Train hard to <strong>build</strong> more engines, fuel and breathe to <strong>run</strong> them, and recover so they actually get built.",
+      "d2": "And the online stuff — cold's a small real bonus, but most of the pills and hacks are hype. The thing that actually works is... training. Which is basically free.",
+      "d3": "Now you can spot the snake oil AND you understand the machine. That's an athlete who thinks like a scientist."
     },
     "s25": {
-      "d1": "Race day. Maya doesn't go out too fast — she paces it so her mitochondria can keep up with the oxygen. The burn comes late, and she's ready for it.",
-      "d2": "She crosses the line. A new personal best. Not magic — just an athlete who finally understood, and grew, her own power plants."
+      "d1": "Race day. Maya isn't chasing a miracle hack — she trusts the training that actually built her engines, and paces so her mitochondria can keep up with the oxygen.",
+      "d2": "She crosses the line strong. No magic pill, no $80 supplement — just an athlete who figured out what really works, and put in the work."
     },
     "s26": {
       "heading": "Quest Complete!",
-      "body": "<div style='font-size:18px;line-height:27px;'>You powered through <strong>Powerhouse</strong>. Remember the four wonders inside you:<br/><br/>⚡ You have a literal <strong>spinning motor</strong> in every cell — about 130 turns a second.<br/>🦠 Your mitochondria are <strong>domesticated bacteria</strong>, still dividing inside you.<br/>👩 You inherited them <strong>only from your mom</strong> — back to one woman 150,000 years ago.<br/>🔥 <strong>Cold can flip fat into a furnace.</strong><br/><br/>Train them. Fuel them. They are the engine inside every athlete — including you.</div>"
+      "body": "<div style='font-size:18px;line-height:27px;'>You powered through <strong>Powerhouse</strong>. The verdict on \"boosting your mitochondria\": the upgrade that truly works is <strong>training</strong> (cold's a small real bonus; most pills are hype). And four wonders are running inside you right now:<br/><br/>⚡ A literal <strong>spinning motor</strong> in every cell — about 130 turns a second.<br/>🦠 Your mitochondria are <strong>domesticated bacteria</strong>, still dividing inside you.<br/>👩 You inherited them <strong>only from your mom</strong> — back to one woman 150,000 years ago.<br/>🔥 <strong>Cold can flip fat into a furnace.</strong><br/><br/>Train them. Fuel them. They're the engine inside every athlete — including you.</div>"
     }
   }
 }
