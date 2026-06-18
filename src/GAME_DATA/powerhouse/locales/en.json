@@ -62,7 +62,7 @@
       "axon": "The Neuron Delivery Run"
     },
     "s2": {
-      "d1": "Dr. Vega, my whole feed is this stuff — <strong>“boost your mitochondria”</strong> — cold plunges, eighty-dollar supplements, special breathing. Everyone swears it makes them unstoppable. Is ANY of it real?",
+      "d1": "Dr. Vega, my whole feed is this stuff — <strong>“boost your mitochondria”</strong> — cold plunges, eighty-dollar supplements, special breathing. Everyone swears it makes them unstoppable. Is ANY of it real?<div style='display:flex;justify-content:center;margin:12px 0;'><img src='/assets/images/hype-feed.svg' alt='Phone feed of viral mitochondria-boost claims' style='width:100%;max-width:210px;'/></div>",
       "d2": "Honestly? It's a mix of real science and total hype. But here's the exciting part: yes — you genuinely CAN improve your mitochondria. Athletes do it all the time. Most of what's trending online, though, is exaggerated or flat-out unproven.",
       "d3": "So how do I tell what actually works from what's just marketing?",
       "d4": "Same way a scientist does. First understand what mitochondria ARE — these tiny <strong>engines</strong> in your cells that turn food and air into energy. Once you get how they work, the real upgrades become obvious... and the snake oil gets easy to spot. Shrink down with me."
@@ -84,7 +84,7 @@
     "s5": {
       "d1": "So how does an engine like this actually run? Two things go in: <strong>fuel</strong> from your food (a sugar called glucose) and <strong>oxygen</strong> from the air you breathe.",
       "d2": "The mitochondrion combines them in a few steps and charges up the body's rechargeable battery — a molecule called <strong>ATP</strong>. Think of ATP as energy cash your cells can spend instantly.",
-      "d3": "What's left over? Just water, and the carbon dioxide you breathe out. Now — let me show you the most jaw-dropping part of the whole machine."
+      "d3": "What's left over? Just water, and the carbon dioxide you breathe out. Now — let me show you the most jaw-dropping part of the whole machine.<div style='display:flex;justify-content:center;margin:12px 0;'><img src='/assets/images/respiration.svg' alt='Fuel and oxygen go in, ATP energy comes out, water and CO2 are waste' style='width:100%;max-width:460px;'/></div>"
     },
     "s6": {
       "d1": "This is <strong>ATP synthase</strong>. It's a real, spinning motor — one of the only rotary engines in all of biology, and you have trillions of them.",
@@ -103,7 +103,7 @@
     "s8": {
       "d1": "Remember the stalled turbine? Oxygen is the very last step of the whole energy line — think of it as <strong>the drain at the end of the pipe.</strong> It carries away the leftovers so the line keeps flowing.",
       "d2": "When you sprint all-out, your muscles burn oxygen faster than your lungs can deliver it. The drain clogs, the turbines slow, and your cells switch to a weak backup supply.",
-      "d3": "That backup is what makes your muscles burn and your legs turn to lead. That desperate gasping at the finish line? That's billions of mitochondria screaming for air."
+      "d3": "That backup is what makes your muscles burn and your legs turn to lead. That desperate gasping at the finish line? That's billions of mitochondria screaming for air.<div style='display:flex;justify-content:center;margin:12px 0;'><img src='/assets/images/aerobic-anaerobic.svg' alt='With oxygen you make lots of ATP; without it a weak backup causes the burn' style='width:100%;max-width:460px;'/></div>"
     },
     "q9": {
       "heading": "Check Your Understanding",
@@ -115,7 +115,7 @@
     },
     "s10": {
       "d1": "Time to measure your engine. The headline number in my lab is <strong>VO₂max</strong> — the most oxygen your body can actually use in a minute. It's basically your engine's high score.",
-      "d2": "A couch potato scores around 35. You're around 50 — good! An elite athlete tops 80. The world record is about 97, held by a cross-country skier.",
+      "d2": "A couch potato scores around 35. You're around 50 — good! An elite athlete tops 80. The world record is about 97, held by a cross-country skier.<div style='display:flex;justify-content:center;margin:12px 0;'><img src='/assets/images/vo2max-bars.svg' alt='VO2max bar chart: couch potato 35, you 50, elite 80, world record 97' style='width:100%;max-width:460px;'/></div>",
       "d3": "Why a skier? They push with their arms and legs at once — more muscle working means more engines burning oxygen. Let's run your test."
     },
     "s11": {
@@ -163,7 +163,7 @@
       "d": "It absorbs heat directly from sunlight"
     },
     "s18": {
-      "d1": "Now for something that surprises everyone. Mitochondria carry their <strong>own DNA</strong> — a tiny separate loop, completely apart from the DNA in the cell's nucleus.",
+      "d1": "Now for something that surprises everyone. Mitochondria carry their <strong>own DNA</strong> — a tiny separate loop, completely apart from the DNA in the cell's nucleus.<div style='display:flex;justify-content:center;margin:12px 0;'><img src='/assets/images/two-genomes.svg' alt='Big nuclear DNA from both parents vs tiny circular mtDNA from mom only' style='width:100%;max-width:460px;'/></div>",
       "d2": "And you inherited every single one of yours from <strong>your mother.</strong> The egg supplies them all; the father's are destroyed after fertilization.",
       "d3": "Follow the line back — your mom, her mom, her mom — and every human alive traces to one woman scientists nicknamed <strong>Mitochondrial Eve</strong>, about 150,000 years ago in Africa.",
       "d4": "One myth to bust: she was NOT the only woman alive back then. Thousands of others lived too — she's just the one whose unbroken mother-to-daughter line never died out. It's why this DNA is so useful in forensics: it survives in ancient bones and a single hair."
