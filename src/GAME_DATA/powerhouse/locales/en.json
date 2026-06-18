@@ -9,7 +9,7 @@
   },
   "start": {
     "title": "<h1 style='font-size: 34px; line-height: 44px; font-weight: 800; margin:0;'>Powerhouse</h1><h2 style='font-size: 20px; line-height: 30px; font-weight: 700; margin-top:6px;'>The Engine Inside Every Athlete</h2>",
-    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Maya's feed is flooded with it: <em>“Boost your mitochondria!”</em> — cold plunges, $80 supplements, breathing hacks, miracle pills. Influencers swear it unlocks superhuman energy. Maya's skeptical. Can you actually improve your mitochondria, or is it all hype? Sports scientist Dr. Okonkwo helps her find out — by discovering what these tiny cellular engines really are, and what genuinely makes them stronger.</div>",
+    "description": "<div style='font-size: 19px; line-height: 29px; font-weight: 500;'>Maya's feed is flooded with it: <em>“Boost your mitochondria!”</em> — cold plunges, $80 supplements, breathing hacks, miracle pills. Influencers swear it unlocks superhuman energy. Maya's skeptical. Can you actually improve your mitochondria, or is it all hype? Sports scientist Dr. Vega helps her find out — by discovering what these tiny cellular engines really are, and what genuinely makes them stronger.</div>",
     "start_game": "Start STEAMQuest"
   },
   "scenesList": {
@@ -43,9 +43,9 @@
   "scenes": {
     "common": {
       "maya": "Maya",
-      "dro": "Dr. Okonkwo",
+      "dro": "Dr. Vega",
       "maya_description": "Maya, 17, distance runner in training gear with a fitness watch",
-      "dro_description": "Dr. Okonkwo, exercise physiologist, warm and sharp",
+      "dro_description": "Dr. Vega, exercise physiologist, warm and sharp",
       "bg_lab_description": "A bright sports-science lab with treadmills and screens",
       "bg_track_description": "An outdoor running track at golden hour",
       "bg_cell_description": "The glowing interior of a living cell",
@@ -62,15 +62,16 @@
       "axon": "The Neuron Delivery Run"
     },
     "s2": {
-      "d1": "Dr. O, my whole feed is this stuff — <strong>“boost your mitochondria”</strong> — cold plunges, eighty-dollar supplements, special breathing. Everyone swears it makes them unstoppable. Is ANY of it real?",
+      "d1": "Dr. Vega, my whole feed is this stuff — <strong>“boost your mitochondria”</strong> — cold plunges, eighty-dollar supplements, special breathing. Everyone swears it makes them unstoppable. Is ANY of it real?",
       "d2": "Honestly? It's a mix of real science and total hype. But here's the exciting part: yes — you genuinely CAN improve your mitochondria. Athletes do it all the time. Most of what's trending online, though, is exaggerated or flat-out unproven.",
       "d3": "So how do I tell what actually works from what's just marketing?",
       "d4": "Same way a scientist does. First understand what mitochondria ARE — these tiny <strong>engines</strong> in your cells that turn food and air into energy. Once you get how they work, the real upgrades become obvious... and the snake oil gets easy to spot. Shrink down with me."
     },
     "s3": {
-      "d1": "Welcome inside a single muscle cell. This bean-shaped structure is one <strong>mitochondrion</strong>. Spin it around. Tap the parts to see what they do.",
+      "d1": "Welcome inside a single muscle cell. This bean-shaped structure is one <strong>mitochondrion</strong> — and this one cell is packed with a couple <strong>thousand</strong> of them. Drag the zoom slider to see, and tap the parts to learn what they do.",
       "d2": "Notice the inside is folded into deep ridges — those are the <strong>cristae</strong>. Folding the inner wall like a scrunched-up bedsheet crams a huge surface into a tiny space.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/mito-diagram.webp' alt='Labeled cutaway of a mitochondrion' style='width:100%;max-width:330px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>A real labeled cutaway — see the folded cristae inside. Public domain, via Wikimedia Commons</div></div>",
-      "d3": "And more surface means more room for the machinery that makes energy. Cells that need lots of power — heart, muscle — are absolutely packed with these folds.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/mito-real.webp' alt='Mitochondrion under an electron microscope' style='width:100%;max-width:280px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>And here is an actual mitochondrion under an electron microscope. Public domain, via Wikimedia Commons</div></div>"
+      "d3": "More surface means more room for the machinery that makes energy. Cells that need lots of power — heart and muscle — are absolutely crammed with these folds.",
+      "d4": "Now zoom all the way out. One muscle cell holds roughly <strong>1,000 to 2,000</strong> mitochondria. Across your whole body? Around <strong>ten quadrillion</strong> — close to a tenth of your body weight. You are, by the kilogram, part power-plant."
     },
     "q4": {
       "heading": "Check Your Understanding",
