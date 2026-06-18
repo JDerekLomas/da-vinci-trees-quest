@@ -50,6 +50,20 @@ const droChat = (key: string) => ({
   },
 });
 
+// Helper: a Mei chat line on the right of a split-screen interactive scene
+const mayaChat = (key: string) => ({
+  side: 'right' as const,
+  heading: 'scenes.common.maya',
+  headingColor: MAYA_COLOR,
+  bodyAsHtml: key,
+  avatar: {
+    src: MAYA_AVATAR,
+    alt: 'scenes.common.maya_description',
+    size: 'chat-bubble' as const,
+    background: '#FBD9C0',
+  },
+});
+
 // Helper: the persistent left interactive panel for a split-screen scene
 const leftInteractive = (titleKey: string, name: string, config: string) => ({
   side: 'left' as const,
@@ -87,13 +101,16 @@ const interactiveScene = (
   titleKey: string,
   name: string,
   config: string,
-  chatKeys: string[],
+  chat: (string | { mei: string })[],
 ): SceneData => ({
   name: sceneName,
   background: { url: bg, waitDelay: SCENE_CHANGE_DELAY, blur: 10, zoom: 1.08 },
   type: 'split-screen-chat',
   leftConfig: { blur: 0, background: 'rgba(255,255,255,0.94)' },
-  dialogs: [leftInteractive(titleKey, name, config), ...chatKeys.map(droChat)],
+  dialogs: [
+    leftInteractive(titleKey, name, config),
+    ...chat.map((c) => (typeof c === 'string' ? droChat(c) : mayaChat(c.mei))),
+  ],
 });
 
 export const sceneData: SceneData[] = [
@@ -132,6 +149,7 @@ export const sceneData: SceneData[] = [
     'scenes.s3.d2',
     'scenes.s3.d3',
     'scenes.s3.d4',
+    { mei: 'scenes.s3.m1' },
   ]),
 
   // ============ SCENE 4: Check — The Folds ============
@@ -148,6 +166,7 @@ export const sceneData: SceneData[] = [
   // ============ SCENE 6: The Molecular Turbine (STAR interactive) ============
   interactiveScene('scenesList.scene_6', BG_CELL, 'scenes.ui.turbine', 'atp-synthase', 'atp-synthase', [
     'scenes.s6.d1',
+    { mei: 'scenes.s6.m1' },
     'scenes.s6.d2',
     'scenes.s6.d3',
     'scenes.s6.d4',
@@ -190,7 +209,7 @@ export const sceneData: SceneData[] = [
     name: 'scenesList.scene_13',
     background: { alt: 'scenes.common.bg_lab_description', url: BG_LAB, waitDelay: SCENE_CHANGE_DELAY, blur: 6, zoom: 1.04 },
     type: 'one-at-a-time',
-    dialogs: [dro('scenes.s13.d1'), dro('scenes.s13.d2'), dro('scenes.s13.d3')],
+    dialogs: [dro('scenes.s13.d1'), dro('scenes.s13.d2'), maya('scenes.s13.m1'), dro('scenes.s13.d3')],
   },
 
   // ============ SCENE 14: Choose Your Training (interactive) ============
@@ -198,6 +217,7 @@ export const sceneData: SceneData[] = [
     'scenes.s14.d1',
     'scenes.s14.d2',
     'scenes.s14.d3',
+    { mei: 'scenes.s14.m1' },
   ]),
 
   // ============ SCENE 15: Check — Training ============
@@ -208,6 +228,7 @@ export const sceneData: SceneData[] = [
     'scenes.s16.d1',
     'scenes.s16.d2',
     'scenes.s16.d3',
+    { mei: 'scenes.s16.m1' },
   ]),
 
   // ============ SCENE 17: Check — Heat ============
@@ -217,6 +238,7 @@ export const sceneData: SceneData[] = [
   interactiveScene('scenesList.scene_18', BG_CELL, 'scenes.ui.maternal', 'maternal-line', 'maternal-line', [
     'scenes.s18.d1',
     'scenes.s18.d2',
+    { mei: 'scenes.s18.m1' },
     'scenes.s18.d3',
     'scenes.s18.d4',
   ]),
@@ -228,6 +250,7 @@ export const sceneData: SceneData[] = [
   interactiveScene('scenesList.scene_20', BG_CELL, 'scenes.ui.endo', 'endosymbiosis', 'endosymbiosis', [
     'scenes.s20.d1',
     'scenes.s20.d2',
+    { mei: 'scenes.s20.m1' },
     'scenes.s20.d3',
     'scenes.s20.d4',
   ]),
