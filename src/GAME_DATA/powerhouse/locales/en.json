@@ -17,6 +17,7 @@
     "scene_2": "Mitochondria Hype?",
     "scene_3": "Meet the Mitochondrion",
     "scene_4": "Check: The Folds",
+    "scene_4b": "Check: How Many",
     "scene_5": "Fuel and Air",
     "scene_6": "The Molecular Turbine",
     "scene_7": "Check: The Turbine",
@@ -28,6 +29,7 @@
     "scene_13": "What Actually Works",
     "scene_14": "The Optimization Lab",
     "scene_15": "Check: Training",
+    "scene_15b": "Check: What's Real",
     "scene_16": "Running Hot",
     "scene_17": "Check: Heat",
     "scene_18": "Inherited From Mom",
@@ -77,10 +79,10 @@
     "q4": {
       "heading": "Check Your Understanding",
       "stem": "Why is the inner membrane folded into so many ridges (cristae)?",
-      "a": "To pack in more surface area for making energy",
-      "b": "To store extra fat for later",
-      "c": "To make the cell look bigger",
-      "d": "To hold the cell's main DNA"
+      "a": "To pack in more surface for the energy machinery",
+      "b": "To store fuel reserves for the muscle",
+      "c": "To hold the cell's main supply of DNA",
+      "d": "To let more oxygen leak into the cell"
     },
     "s5": {
       "d1": "So how does an engine like this actually run? Two things go in: <strong>fuel</strong> from your food (a sugar called glucose) and <strong>oxygen</strong> from the air you breathe.",
@@ -97,10 +99,10 @@
     "q7": {
       "heading": "Check Your Understanding",
       "stem": "What makes the ATP synthase motor spin?",
-      "a": "Protons flowing back across the membrane, like water through a dam",
-      "b": "Electrical signals sent from the brain",
-      "c": "The beating of the heart",
-      "d": "Sunlight absorbed by the cell"
+      "a": "A flow of protons rushing back through it",
+      "b": "A surge of glucose entering the cell",
+      "c": "Oxygen pushing in from the bloodstream",
+      "d": "The cell's electrical charge flipping"
     },
     "s8": {
       "d1": "Remember the stalled turbine? Oxygen is the very last step of the whole energy line — think of it as <strong>the drain at the end of the pipe.</strong> It carries away the leftovers so the line keeps flowing.",
@@ -111,10 +113,10 @@
     "q9": {
       "heading": "Check Your Understanding",
       "stem": "Why do your muscles burn and you gasp for air during an all-out sprint?",
-      "a": "The mitochondria can't get enough oxygen, so energy slows and a weak backup kicks in",
-      "b": "Your blood permanently turns to acid",
-      "c": "Your muscles run completely out of water",
-      "d": "The brain shuts off oxygen to the legs on purpose"
+      "a": "Mitochondria run short on oxygen, so a backup kicks in",
+      "b": "Lactic acid builds up and damages the muscle",
+      "c": "The muscles completely run out of glucose",
+      "d": "The heart simply can't pump blood fast enough"
     },
     "s10": {
       "d1": "Time to measure your engine. The headline number in my lab is <strong>VO₂max</strong> — the most oxygen your body can actually use in a minute. It's basically your engine's high score.",
@@ -129,10 +131,10 @@
     "q12": {
       "heading": "Check Your Understanding",
       "stem": "VO₂max measures...",
-      "a": "The most oxygen your body can use per minute",
-      "b": "How fast your heart beats when resting",
-      "c": "How much you weigh",
-      "d": "How long you can hold your breath"
+      "a": "The most oxygen your body can use each minute",
+      "b": "How much air your lungs can hold in total",
+      "c": "How fast your heart beats while resting",
+      "d": "How many minutes you can keep running"
     },
     "s13": {
       "d1": "Now the question you walked in with: can you really improve these engines? Yes — and here's the part that's genuinely proven. You can't easily grow a bigger heart, but you absolutely can build <strong>more mitochondria.</strong>",
@@ -150,9 +152,9 @@
       "heading": "Check Your Understanding",
       "stem": "What does endurance training actually do to your muscle cells?",
       "a": "It signals them to build more mitochondria",
-      "b": "It only makes existing mitochondria larger",
-      "c": "It removes mitochondria the body doesn't need",
-      "d": "Nothing — your mitochondria count is fixed at birth"
+      "b": "It only makes the existing ones larger",
+      "c": "It clears out mitochondria you don't need",
+      "d": "Nothing — the count is fixed at birth"
     },
     "s16": {
       "d1": "Now, that cold plunge trend? Here's a case where the online hype has a real <strong>kernel of truth.</strong> Meet <strong>brown fat</strong> — a tissue packed with mitochondria that exist to make heat.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/brown-fat-cell.webp' alt='A brown fat cell packed with mitochondria' style='width:100%;max-width:330px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>A brown-fat cell: golden fat droplets, purple mitochondria. Image: scientificanimations.com, CC BY-SA 4.0</div></div>",
@@ -163,10 +165,10 @@
     "q17": {
       "heading": "Check Your Understanding",
       "stem": "How does brown fat make heat instead of energy (ATP)?",
-      "a": "It lets protons leak past the turbine, releasing the energy as heat",
-      "b": "It burns up the mitochondria themselves",
-      "c": "It relies only on the friction of shivering muscles",
-      "d": "It absorbs heat directly from sunlight"
+      "a": "Protons leak around the turbine and escape as heat",
+      "b": "It burns fat straight into warmth, like a flame",
+      "c": "Shivering muscles around it create the heat",
+      "d": "It runs the turbine faster until it overheats"
     },
     "s18": {
       "d1": "You asked if you could just buy better mitochondria. Here's how personal they actually are: you didn't buy OR build your first ones. Every single mitochondrion you started life with came pre-installed — and they carry their <strong>own DNA</strong>, a tiny separate loop, apart from the DNA in the cell's nucleus.<div style='display:flex;justify-content:center;margin:12px 0;'><img src='/assets/images/two-genomes.svg' alt='Big nuclear DNA from both parents vs tiny circular mtDNA from mom only' style='width:100%;max-width:460px;'/></div>",
@@ -180,8 +182,8 @@
       "stem": "Whose mitochondria did you inherit?",
       "a": "Only your mother's",
       "b": "Only your father's",
-      "c": "Half from each parent, like most of your DNA",
-      "d": "You build them from scratch as a baby"
+      "c": "Half from each parent, like most DNA",
+      "d": "You build them yourself as a baby"
     },
     "s20": {
       "d1": "And that own-DNA thing? It points to something wild about where mitochondria came from. Brace yourself, Mei — they were once <strong>free-living bacteria</strong>.",
@@ -193,10 +195,10 @@
     "q21": {
       "heading": "Check Your Understanding",
       "stem": "What's the strongest evidence that mitochondria were once bacteria?",
-      "a": "They have their own DNA and divide on their own, just like bacteria",
-      "b": "They are green, like plant cells",
-      "c": "They can leave the body and live in soil",
-      "d": "They are made of metal"
+      "a": "They keep their own DNA and divide on their own",
+      "b": "They can still live on their own outside a cell",
+      "c": "They look just like the cell's nucleus inside",
+      "d": "They're found only in animals, never plants"
     },
     "s22": {
       "d1": "One more, because it's not just muscle that lives and dies by these engines — it's your brain. Some cells are enormous: a single nerve cell can stretch nearly a meter from your spine to your toe.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/neuron-diagram.webp' alt='Labeled neuron showing the long axon and mitochondria' style='width:100%;max-width:340px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>A real neuron: the long axon reaches far-off synaptic terminals. Public domain, via Wikimedia Commons</div></div>",
@@ -207,10 +209,10 @@
     "q23": {
       "heading": "Check Your Understanding",
       "stem": "Why must nerve cells actively transport mitochondria down their long fibers?",
-      "a": "The fibers are very long and the far ends need energy delivered to them",
-      "b": "Mitochondria can't make energy inside nerve cells",
-      "c": "It's the only way to keep the brain cool",
-      "d": "Nerve cells have no mitochondria of their own"
+      "a": "The fiber is long and its far end still needs energy",
+      "b": "Mitochondria can only be made at the cell body",
+      "c": "Keeping them moving stops them overheating",
+      "d": "The brain tells them to move when you think"
     },
     "s24": {
       "d1": "So here's your verdict, Mei. The real way to optimize your mitochondria? Train hard to <strong>build</strong> more engines, fuel and breathe to <strong>run</strong> them, and recover so they actually get built.",
@@ -224,6 +226,22 @@
     "s26": {
       "heading": "Quest Complete!",
       "body": "<div style='font-size:18px;line-height:27px;'>You powered through <strong>Powerhouse</strong>. The verdict on \"boosting your mitochondria\": the upgrade that truly works is <strong>training</strong> (cold's a small real bonus; most pills are hype). And four wonders are running inside you right now:<br/><br/>⚡ A literal <strong>spinning motor</strong> in every cell — about 130 turns a second.<br/>🦠 Your mitochondria are <strong>domesticated bacteria</strong>, still dividing inside you.<br/>👩 You inherited them <strong>only from your mom</strong> — back to one woman 150,000 years ago.<br/>🔥 <strong>Cold can flip fat into a furnace.</strong><br/><br/>Train them. Fuel them. They're the engine inside every athlete — including you.</div>"
+    },
+    "qscale": {
+      "heading": "Check Your Understanding",
+      "stem": "About how many mitochondria are packed into a single muscle cell?",
+      "a": "Roughly one to two thousand",
+      "b": "Only a handful — five or six",
+      "c": "Just one big one",
+      "d": "Around fifty or so"
+    },
+    "qhype": {
+      "heading": "Check Your Understanding",
+      "stem": "Mei wants to actually grow more mitochondria. Which is best backed by evidence?",
+      "a": "Regular endurance or HIIT training",
+      "b": "A daily ‘mito-boost’ supplement",
+      "c": "Special deep-breathing routines",
+      "d": "Cold plunges on their own"
     }
   }
 }

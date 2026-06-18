@@ -155,6 +155,9 @@ export const sceneData: SceneData[] = [
   // ============ SCENE 4: Check — The Folds ============
   check('scenesList.scene_4', BG_CELL, 'scenes.q4', 'q4-cristae'),
 
+  // ============ SCENE 4b: Check — How Many (scale) ============
+  check('scenesList.scene_4b', BG_CELL, 'scenes.qscale', 'q-scale'),
+
   // ============ SCENE 5: Fuel and Air ============
   {
     name: 'scenesList.scene_5',
@@ -222,6 +225,9 @@ export const sceneData: SceneData[] = [
 
   // ============ SCENE 15: Check — Training ============
   check('scenesList.scene_15', BG_LAB, 'scenes.q15', 'q15-training'),
+
+  // ============ SCENE 15b: Check — What's Real (evidence vs hype) ============
+  check('scenesList.scene_15b', BG_LAB, 'scenes.qhype', 'q-hype'),
 
   // ============ SCENE 16: Running Hot (interactive) ============
   interactiveScene('scenesList.scene_16', BG_CELL, 'scenes.ui.brownfat', 'brown-fat', 'brown-fat', [
