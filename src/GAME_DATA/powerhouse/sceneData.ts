@@ -5,14 +5,14 @@ import { SceneData } from '../../types/interfaces';
 const MAYA_COLOR = '#E0552B'; // energetic orange for Maya
 const DRO_COLOR = '#0E7C86'; // teal for Dr. Okonkwo
 
-const MAYA_AVATAR = '/assets/characters/maya.svg';
-const DRO_AVATAR = '/assets/characters/dro.svg';
+const MAYA_AVATAR = '/assets/characters/maya.webp';
+const DRO_AVATAR = '/assets/characters/dro.webp';
 
-const BG_TITLE = '/assets/backgrounds/title.svg';
-const BG_LAB = '/assets/backgrounds/lab.svg';
-const BG_CELL = '/assets/backgrounds/cell.svg';
-const BG_TRACK = '/assets/backgrounds/track.svg';
-const BG_END = '/assets/backgrounds/end.svg';
+const BG_TITLE = '/assets/backgrounds/title.webp';
+const BG_LAB = '/assets/backgrounds/lab.webp';
+const BG_CELL = '/assets/backgrounds/cell.webp';
+const BG_TRACK = '/assets/backgrounds/track.webp';
+const BG_END = '/assets/backgrounds/end.webp';
 
 // Helper: a Maya line in a one-at-a-time scene
 const maya = (key: string) => ({
