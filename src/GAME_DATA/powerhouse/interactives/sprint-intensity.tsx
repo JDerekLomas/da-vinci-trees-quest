@@ -105,7 +105,6 @@ const SprintIntensity: React.FC<Props> = ({ onInteraction }) => {
         0,
         Math.min(1, burnRef.current + (anaerobic ? climb * dt : -dt * 0.5))
       );
-      const burn = burnRef.current;
 
       // runner stride speed scales with effort
       phaseRef.current += dt * (2 + e * 22);
