@@ -69,8 +69,8 @@
     },
     "s3": {
       "d1": "Welcome inside a single muscle cell. This bean-shaped structure is one <strong>mitochondrion</strong>. Spin it around. Tap the parts to see what they do.",
-      "d2": "Notice the inside is folded into deep ridges — those are the <strong>cristae</strong>. Folding the inner wall like a scrunched-up bedsheet crams a huge surface into a tiny space.",
-      "d3": "And more surface means more room for the machinery that makes energy. Cells that need lots of power — heart, muscle — are absolutely packed with these folds."
+      "d2": "Notice the inside is folded into deep ridges — those are the <strong>cristae</strong>. Folding the inner wall like a scrunched-up bedsheet crams a huge surface into a tiny space.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/mito-diagram.webp' alt='Labeled cutaway of a mitochondrion' style='width:100%;max-width:330px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>A real labeled cutaway — see the folded cristae inside. Public domain, via Wikimedia Commons</div></div>",
+      "d3": "And more surface means more room for the machinery that makes energy. Cells that need lots of power — heart, muscle — are absolutely packed with these folds.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/mito-real.webp' alt='Mitochondrion under an electron microscope' style='width:100%;max-width:280px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>And here is an actual mitochondrion under an electron microscope. Public domain, via Wikimedia Commons</div></div>"
     },
     "q4": {
       "heading": "Check Your Understanding",
@@ -149,7 +149,7 @@
       "d": "Nothing — your mitochondria count is fixed at birth"
     },
     "s16": {
-      "d1": "Now, that cold plunge trend? Here's a case where the online hype has a real <strong>kernel of truth.</strong> Meet <strong>brown fat</strong> — a tissue packed with mitochondria that exist to make heat.",
+      "d1": "Now, that cold plunge trend? Here's a case where the online hype has a real <strong>kernel of truth.</strong> Meet <strong>brown fat</strong> — a tissue packed with mitochondria that exist to make heat.<div style='display:flex;flex-direction:column;align-items:center;margin:12px 0;'><img src='/assets/images/brown-fat-cell.webp' alt='A brown fat cell packed with mitochondria' style='width:100%;max-width:330px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.25);'/><div style='font-size:11px;opacity:0.6;margin-top:4px;text-align:center;'>A brown-fat cell: golden fat droplets, purple mitochondria. Image: scientificanimations.com, CC BY-SA 4.0</div></div>",
       "d2": "They flip a special switch called <strong>UCP1</strong> that opens a back door in the dam. The protons leak around the turbine — so instead of making ATP, the energy escapes as <strong>pure heat.</strong>",
       "d3": "Slide between 'make energy' and 'make heat.' Cold really does switch this on — that part's real. But the honest verdict: it burns only modest calories and won't transform your fitness. A small true effect, massively oversold online."
     },
