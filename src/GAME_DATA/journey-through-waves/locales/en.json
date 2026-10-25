@@ -50,11 +50,11 @@
         "title": "SOHCAHTOA Visualizer",
         "about": {
           "heading": "Understanding SOHCAHTOA",
-          "body": "<div><p>SOHCAHTOA provides the foundation for understanding how triangles create the mathematics behind every sound wave:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>SOH:</strong> <strong>S</strong>ine = <strong>O</strong>pposite / <strong>H</strong>ypotenuse</li><li><strong>CAH:</strong> <strong>C</strong>osine = <strong>A</strong>djacent / <strong>H</strong>ypotenuse</li><li><strong>TOA:</strong> <strong>T</strong>angent = <strong>O</strong>pposite / <strong>A</strong>djacent</li></ul><p>These simple ratios are the building blocks of all sound engineering:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Every musical note starts with these triangle relationships</li><li>Digital audio synthesis uses sine and cosine functions derived from these ratios</li><li>The smooth curves of sound waves come from spinning triangles in circles</li><li>Understanding these basics unlocks the mathematics of music production</li></ul><p>In this interactive, you will:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>See exactly which triangle sides each function compares</li><li>Understand how ratios translate angles into numbers</li><li>Discover the geometric foundation of sound wave mathematics</li><li>Prepare for understanding how triangles become waves</li></ul></div>"
+          "body": "<div><p>SOHCAHTOA names the three ratios of a right triangle:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>SOH:</strong> <strong>S</strong>ine = <strong>O</strong>pposite / <strong>H</strong>ypotenuse</li><li><strong>CAH:</strong> <strong>C</strong>osine = <strong>A</strong>djacent / <strong>H</strong>ypotenuse</li><li><strong>TOA:</strong> <strong>T</strong>angent = <strong>O</strong>pposite / <strong>A</strong>djacent</li></ul><p>The big idea: for a given angle, each ratio is always the same number, no matter how big the triangle is. That is why a ratio can stand in for an angle.</p><p>Set the hypotenuse to 1 and sine becomes just the height of the triangle. Sweep the angle and those heights trace out the start of a sine wave, the shape behind every pure tone.</p></div>"
         },
         "help": {
           "heading": "How to Use the Interactive",
-          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Function Selection:</strong> Use the dropdown to choose between Sine (SOH), Cosine (CAH), and Tangent (TOA)</li><li><strong>Color-Coded Triangle:</strong> Watch how the triangle sides change colors to show you exactly which parts each function compares:<ul style='list-style-type: circle; padding-left: 30px;'><li><strong>Sine:</strong> Highlights opposite and hypotenuse</li><li><strong>Cosine:</strong> Highlights adjacent and hypotenuse</li><li><strong>Tangent:</strong> Highlights opposite and adjacent</li></ul></li><li><strong>Live Formula Display:</strong> See the mathematical relationship update with fraction notation</li><li><strong>Side Labels:</strong> Clear labels show you which side is which in the triangle</li></ul><p><strong>Things to Observe:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Notice how each function focuses on different triangle sides</li><li>See how the same triangle gives us three different ratios</li><li>Observe that each function answers the question: \"Which sides do I compare?\"</li><li>Understand that these ratios will become the wave patterns you see in music software</li><li>Connect the abstract formulas (SOH, CAH, TOA) to the visual triangle relationships</li><li>Recognize that sine and cosine are the most important for sound waves</li></ul></div>"
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Pick a ratio:</strong> SOH, CAH or TOA. The two sides it compares light up.</li><li><strong>Change the angle:</strong> drag the blue corner or use the angle slider.</li><li><strong>Change the size:</strong> the side lengths change, but the ratio stays the same.</li><li><strong>Watch the chart:</strong> each angle you visit leaves a dot. Sweep slowly from 5° to 85° to see the curve.</li></ul><p><strong>Things to try:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Set the hypotenuse to 1. What is the height of the triangle compared to sin(θ)?</li><li>Find the angle where sine and cosine are equal.</li><li>Why does tangent shoot upward as the angle nears 90°?</li></ul></div>"
         },
         "ariaLabel": "SOHCAHTOA triangle and wave visualization",
         "translations": {
@@ -66,10 +66,19 @@
           "cosine": "Cosine",
           "tangent": "Tangent",
           "wave": "Wave",
-          "sineFormula": "sin(θ) = Opposite / Hypotenuse",
-          "cosineFormula": "cos(θ) = Adjacent / Hypotenuse",
-          "tangentFormula": "tan(θ) = Opposite / Adjacent",
-          "selectFunction": "Select Trigonometric Function:"
+          "size": "Hypotenuse length",
+          "sinShort": "sin",
+          "cosShort": "cos",
+          "tanShort": "tan",
+          "pickRatio": "Pick a ratio:",
+          "dragHint": "Drag the blue corner, or use the sliders.",
+          "sameRatio": "Try changing the size. The sides change, but the ratio does not. The ratio depends only on the angle.",
+          "unitSine": "The hypotenuse is 1, so sin(θ) is simply the height of the triangle. Keep that in mind: it is how triangles become waves.",
+          "unitCosine": "The hypotenuse is 1, so cos(θ) is simply the width of the triangle.",
+          "traceTitle": "Every angle you try leaves a dot: {function}(θ) from 0° to 90°",
+          "traceEmpty": "Sweep the angle and watch a curve take shape.",
+          "clearTrace": "Clear dots",
+          "announcement": "{function}({angle}°) = {value}"
         }
       },
       "S3X_D1_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Alright, let's start with something fundamental - a basic sine wave. Remember sine and cosine from high school? <no-glossary>SOHCAHTOA?<no-glossary></div>",
@@ -366,7 +375,7 @@
     "glossary": {
       "sohcahtoa": {
         "word": "SOHCAHTOA",
-        "definition": "<strong className=\"text-[#0055B2]\">SOHCAHTOA</strong> is when something must be true because of what it is, not because we measured it."
+        "definition": "<strong className=\"text-[#0055B2]\">SOHCAHTOA</strong> is a memory aid for the three right-triangle ratios: <strong>S</strong>ine = <strong>O</strong>pposite / <strong>H</strong>ypotenuse, <strong>C</strong>osine = <strong>A</strong>djacent / <strong>H</strong>ypotenuse, and <strong>T</strong>angent = <strong>O</strong>pposite / <strong>A</strong>djacent."
       },
       "unit-circle": {
         "word": "Unit circle",

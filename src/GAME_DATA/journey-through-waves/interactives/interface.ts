@@ -100,20 +100,23 @@ export interface FourierVisualizerInteraction extends BaseInteraction {
   }>;
 }
 
+export type TrigFunction = 'sine' | 'cosine' | 'tangent';
+
 export interface SOHCAHTOAVisualizerInteraction extends BaseInteraction {
   type: 'sohcahtoa-visualizer';
-  angleInput?: Input;
+  angleInput: SliderInput;
+  sizeInput: SliderInput;
   functions: Array<{
-    value: string;
+    value: TrigFunction;
     label: string;
+    short: string;
     mnemonic: string;
-    formula: string;
   }>;
-  interactiveConstants: {
-    [key: string]: number;
-  };
   colors: {
-    [key: string]: { opposite: string; adjacent: string; hypotenuse: string };
+    opposite: string;
+    adjacent: string;
+    hypotenuse: string;
+    inactive: string;
   };
   translations: {
     [key: string]: string;

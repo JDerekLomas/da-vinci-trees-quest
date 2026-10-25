@@ -50,11 +50,11 @@
         "title": "Visualizador SOHCAHTOA",
         "about": {
           "heading": "Entendiendo SOHCAHTOA",
-          "body": "<div><p>SOHCAHTOA proporciona las bases para comprender cómo los triángulos crean las matemáticas detrás de cada onda de sonido:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>SOH:</strong> <strong>Seno = Opuesto / Hipotenusa</li><li><strong>CAH:</strong> <strong>Coseno = Adyacente / Hipotenusa</li><li><strong>TOA:</strong> <strong>Tangente = Opuesto / Adyacente</li></ul><p>Estas simples proporciones son los componentes básicos de toda ingeniería de sonido:</p><ul style='list-style-type: disc; <li>Toda nota musical comienza con estas relaciones triangulares</li><li>La síntesis de audio digital utiliza las funciones seno y coseno derivadas de estas proporciones</li><li>Las suaves curvas de las ondas sonoras provienen de triángulos giratorios</li><li>Comprender estos conceptos básicos te permitirá comprender las matemáticas de la producción musical</li></ul><p>En este interactivo, podrás:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Ver exactamente qué lados de un triángulo compara cada función</li><li>Comprender cómo las proporciones traducen los ángulos en números</li><li>Descubrir la base geométrica de las matemáticas de las ondas sonoras</li><li>Prepararte para comprender cómo los triángulos se convierten en ondas</li></ul></div>"
+          "body": "<div><p>SOHCAHTOA nombra las tres razones de un triángulo rectángulo:</p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>SOH:</strong> <strong>S</strong>eno = <strong>O</strong>puesto / <strong>H</strong>ipotenusa</li><li><strong>CAH:</strong> <strong>C</strong>oseno = <strong>A</strong>dyacente / <strong>H</strong>ipotenusa</li><li><strong>TOA:</strong> <strong>T</strong>angente = <strong>O</strong>puesto / <strong>A</strong>dyacente</li></ul><p>La gran idea: para un ángulo dado, cada razón es siempre el mismo número, sin importar el tamaño del triángulo. Por eso una razón puede representar un ángulo.</p><p>Si la hipotenusa mide 1, el seno es simplemente la altura del triángulo. Recorre los ángulos y esas alturas trazan el comienzo de una onda senoidal, la forma detrás de todo tono puro.</p></div>"
         },
         "help": {
           "heading": "Cómo Usar la Interactividad",
-          "body": "<div><ul style='list-style-type: disc; margin-bottom: 10px; padding-left: 20px;'><li><strong>Selección de Función:</strong> Usa el menú desplegable para elegir entre Seno (SOH), Coseno (CAH), y Tangente (TOA)</li><li><strong>Triángulo Codificado por Colores:</strong> Observa cómo los lados del triángulo cambian de color para mostrarte exactamente qué partes compara cada función:<ul style='list-style-type: circle; padding-left: 30px;'><li><strong>Seno:</strong> Resalta opuesto e hipotenusa</li><li><strong>Coseno:</strong> Resalta adyacente e hipotenusa</li><li><strong>Tangente:</strong> Resalta opuesto y adyacente</li></ul></li><li><strong>Visualización de Fórmula en Vivo:</strong> Ve cómo se actualiza la relación matemática con notación de fracción</li><li><strong>Etiquetas de Lados:</strong> Las etiquetas claras te muestran cuál lado es cuál en el triángulo</li></ul><p><strong>Cosas a Observar:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Nota cómo cada función se enfoca en diferentes lados del triángulo</li><li>Ve cómo el mismo triángulo nos da tres razones diferentes</li><li>Observa que cada función responde la pregunta: \"¿Qué lados comparo?\"</li><li>Entiende que estas razones se convertirán en los patrones de onda que ves en software de música</li><li>Conecta las fórmulas abstractas (SOH, CAH, TOA) con las relaciones visuales del triángulo</li><li>Reconoce que seno y coseno son los más importantes para las ondas sonoras</li></ul></div>"
+          "body": "<div><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li><strong>Elige una razón:</strong> SOH, CAH o TOA. Se iluminan los dos lados que compara.</li><li><strong>Cambia el ángulo:</strong> arrastra la esquina azul o usa el control del ángulo.</li><li><strong>Cambia el tamaño:</strong> los lados cambian, pero la razón se mantiene.</li><li><strong>Observa la gráfica:</strong> cada ángulo que visitas deja un punto. Recorre despacio de 5° a 85° para ver la curva.</li></ul><p><strong>Cosas para probar:</strong></p><ul style='list-style-type: disc; margin: 10px 0px 10px 10px; padding-left: 20px;'><li>Pon la hipotenusa en 1. ¿Cómo se compara la altura del triángulo con sen(θ)?</li><li>Encuentra el ángulo donde el seno y el coseno son iguales.</li><li>¿Por qué la tangente se dispara cuando el ángulo se acerca a 90°?</li></ul></div>"
         },
         "ariaLabel": "Visualización de triángulo SOHCAHTOA y ondas",
         "translations": {
@@ -66,10 +66,19 @@
           "cosine": "Coseno",
           "tangent": "Tangente",
           "wave": "Onda",
-          "sineFormula": "sen(θ) = Opuesto / Hipotenusa",
-          "cosineFormula": "cos(θ) = Adyacente / Hipotenusa",
-          "tangentFormula": "tan(θ) = Opuesto / Adyacente",
-          "selectFunction": "Seleccionar Función Trigonométrica:"
+          "size": "Longitud de la hipotenusa",
+          "sinShort": "sen",
+          "cosShort": "cos",
+          "tanShort": "tan",
+          "pickRatio": "Elige una razón:",
+          "dragHint": "Arrastra la esquina azul o usa los controles deslizantes.",
+          "sameRatio": "Prueba a cambiar el tamaño. Los lados cambian, pero la razón no. La razón depende solo del ángulo.",
+          "unitSine": "La hipotenusa mide 1, así que sen(θ) es simplemente la altura del triángulo. Recuérdalo: así es como los triángulos se convierten en ondas.",
+          "unitCosine": "La hipotenusa mide 1, así que cos(θ) es simplemente el ancho del triángulo.",
+          "traceTitle": "Cada ángulo que pruebas deja un punto: {function}(θ) de 0° a 90°",
+          "traceEmpty": "Recorre los ángulos y observa cómo aparece una curva.",
+          "clearTrace": "Borrar puntos",
+          "announcement": "{function}({angle}°) = {value}"
         }
       },
       "S3X_D1_F9_C2": "<div style='font-size: 20px; line-height: 30px; font-weight: 500;'>Bien, empecemos con algo fundamental: una onda sinusoidal básica. ¿Recuerdan el seno y el coseno del instituto? <no-glossary>¿SOHCAHTOA?<no-glossary></div>",
@@ -366,7 +375,7 @@
     "glossary": {
       "sohcahtoa": {
         "word": "SOHCAHTOA",
-        "definition": "<strong className=\"text-[#0055B2]\">SOHCAHTOA</strong> es cuando algo debe ser cierto debido a lo que es, no porque lo hayamos medido."
+        "definition": "<strong className=\"text-[#0055B2]\">SOHCAHTOA</strong> es una regla mnemotécnica para las tres razones del triángulo rectángulo: <strong>S</strong>eno = <strong>O</strong>puesto / <strong>H</strong>ipotenusa, <strong>C</strong>oseno = <strong>A</strong>dyacente / <strong>H</strong>ipotenusa y <strong>T</strong>angente = <strong>O</strong>puesto / <strong>A</strong>dyacente."
       },
       "unit-circle": {
         "word": "Círculo unitario",
